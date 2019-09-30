@@ -21,7 +21,7 @@
 <body>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.15.4</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -226,6 +226,34 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withGroup">
         <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupfunction(group) self <span style="color:#666">+</span> { group<span style="color:#666">:</span> group }
 </code></pre></div></div><p>Group is the group this resource belongs in</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.withPreserveUnknownFields">
+            withPreserveUnknownFields
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.withPreserveUnknownFields" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withPreserveUnknownFields">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreserveUnknownFieldsfunction(preserveUnknownFields) self <span style="color:#666">+</span> { preserveUnknownFields<span style="color:#666">:</span> preserveUnknownFields }
+</code></pre></div></div><p>preserveUnknownFields disables pruning of object fields which are not specified in the OpenAPI schema. apiVersion, kind, metadata and known fields inside metadata are always preserved. Defaults to true in v1beta and will default to false in v1.</p></p>
 
 
         <hr>
@@ -487,7 +515,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.withStrategy">
         <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStrategyfunction(strategy) self <span style="color:#666">+</span> __conversionMixin({ strategy<span style="color:#666">:</span> strategy })
-</code></pre></div></div><p><code>strategy</code> specifies the conversion strategy. Allowed values are: - <code>None</code>: The converter only change the apiVersion and would not touch any other field in the CR. - <code>Webhook</code>: API Server will call to an external webhook to do the conversion. Additional information is needed for this option.</p></p>
+</code></pre></div></div><p><code>strategy</code> specifies the conversion strategy. Allowed values are: - <code>None</code>: The converter only change the apiVersion and would not touch any other field in the CR. - <code>Webhook</code>: API Server will call to an external webhook to do the conversion. Additional information</p><p>is needed for this option. This requires spec.preserveUnknownFields to be false.</p></p>
 
 
         <hr>
@@ -637,7 +665,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service">
-        <p>`service` is a reference to the service for this webhook. Either `service` or `url` must be specified.</p><p></p><p>If the webhook is running within the cluster, then you should use `service`.</p><p></p><p>Port 443 will be used if it is open, otherwise it is an error.</p>
+        <p>`service` is a reference to the service for this webhook. Either `service` or `url` must be specified.</p><p></p><p>If the webhook is running within the cluster, then you should use `service`.</p>
 
 
         <hr>
@@ -746,6 +774,34 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withPath">
         <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __serviceMixin({ path<span style="color:#666">:</span> path })
 </code></pre></div></div><p><code>path</code> is an optional URL path which will be sent in any request to this service.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withPort">
+            withPort
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withPort" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withPort">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __serviceMixin({ port<span style="color:#666">:</span> port })
+</code></pre></div></div><p>If specified, the port on the service that hosting webhook. Default to 443 for backward compatibility. <code>port</code> should be a valid port number (1-65535, inclusive).</p></p>
 
 
         <hr>
@@ -1188,7 +1244,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.withLabelSelectorPath">
         <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelSelectorPathfunction(labelSelectorPath) self <span style="color:#666">+</span> __scaleMixin({ labelSelectorPath<span style="color:#666">:</span> labelSelectorPath })
-</code></pre></div></div><p>LabelSelectorPath defines the JSON path inside of a CustomResource that corresponds to Scale.Status.Selector. Only JSON paths without the array notation are allowed. Must be a JSON Path under .status. Must be set to work with HPA. If there is no value under the given path in the CustomResource, the status label selector value in the /scale subresource will default to the empty string.</p></p>
+</code></pre></div></div><p>LabelSelectorPath defines the JSON path inside of a CustomResource that corresponds to Scale.Status.Selector. Only JSON paths without the array notation are allowed. Must be a JSON Path under .status or .spec. Must be set to work with HPA. The field pointed by this JSON path must be a string field (not a complex selector struct) which contains a serialized label selector in string form. More info: <a href="https://kubernetes.io/docs/tasks/access-kubernetes-api/custom-resources/custom-resource-definitions#scale-subresource">https://kubernetes.io/docs/tasks/access-kubernetes-api/custom-resources/custom-resource-definitions#scale-subresource</a> If there is no value under the given path in the CustomResource, the status label selector value in the /scale subresource will default to the empty string.</p></p>
 
 
         <hr>

@@ -6,7 +6,7 @@
     <description>Recent content in Nodes on ksonnet lib API Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 14:37:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 17:02:28 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/node/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>new</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/new/</guid>
       <description>newfunction() apiVersion + kind</description>
@@ -23,7 +23,7 @@
     <item>
       <title>new</title>
       <link>http://example.org/node/v1beta1/runtimeClass/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/new/</guid>
       <description>newfunction() apiVersion + kind</description>
@@ -32,7 +32,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/initializers/mixinInstance/</guid>
       <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
@@ -41,7 +41,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/mixinInstance/</guid>
       <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
@@ -50,7 +50,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/spec/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/spec/mixinInstance/</guid>
       <description>mixinInstancefunction(spec) __specMixin(spec)</description>
@@ -59,7 +59,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/initializers/mixinInstance/</guid>
       <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
@@ -68,7 +68,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/mixinInstance/</guid>
       <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
@@ -77,7 +77,7 @@
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/withAnnotations/</guid>
       <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -86,7 +86,7 @@
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/withAnnotations/</guid>
       <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -95,7 +95,7 @@
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/withAnnotationsMixin/</guid>
       <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -104,7 +104,7 @@
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/withAnnotationsMixin/</guid>
       <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -113,7 +113,7 @@
     <item>
       <title>withClusterName</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/withClusterName/</guid>
       <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
@@ -122,7 +122,7 @@
     <item>
       <title>withClusterName</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/withClusterName/</guid>
       <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
@@ -131,7 +131,7 @@
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/withFinalizers/</guid>
       <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -140,7 +140,7 @@
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/withFinalizers/</guid>
       <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -149,7 +149,7 @@
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/withFinalizersMixin/</guid>
       <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -158,7 +158,7 @@
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/withFinalizersMixin/</guid>
       <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -167,7 +167,7 @@
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/withGenerateName/</guid>
       <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
@@ -176,7 +176,7 @@
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/withGenerateName/</guid>
       <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
@@ -185,7 +185,7 @@
     <item>
       <title>withHandler</title>
       <link>http://example.org/node/v1beta1/runtimeClass/withHandler/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/withHandler/</guid>
       <description>withHandlerfunction(handler) self + { handler: handler } Handler specifies the underlying runtime and configuration that the CRI implementation will use to handle pods of this class. The possible values are specific to the node &amp;amp; CRI configuration. It is assumed that all handlers are available on every node, and handlers of the same name are equivalent on every node. For example, a handler called &amp;ldquo;runc&amp;rdquo; might specify that the runc OCI runtime (using native Linux containers) will be used to run the containers in a pod.</description>
@@ -194,7 +194,7 @@
     <item>
       <title>withLabels</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/withLabels/</guid>
       <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -203,7 +203,7 @@
     <item>
       <title>withLabels</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/withLabels/</guid>
       <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -212,7 +212,7 @@
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/withLabelsMixin/</guid>
       <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -221,7 +221,7 @@
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/withLabelsMixin/</guid>
       <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -230,7 +230,7 @@
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/withManagedFields/</guid>
       <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -239,7 +239,7 @@
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/withManagedFields/</guid>
       <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -248,7 +248,7 @@
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/withManagedFieldsMixin/</guid>
       <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -257,7 +257,7 @@
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/withManagedFieldsMixin/</guid>
       <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -266,7 +266,7 @@
     <item>
       <title>withName</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/withName/</guid>
       <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
@@ -275,7 +275,7 @@
     <item>
       <title>withName</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/withName/</guid>
       <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
@@ -284,7 +284,7 @@
     <item>
       <title>withNamespace</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/withNamespace/</guid>
       <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
@@ -295,7 +295,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withNamespace</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/withNamespace/</guid>
       <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
@@ -306,7 +306,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/withOwnerReferences/</guid>
       <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -315,7 +315,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/withOwnerReferences/</guid>
       <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -324,7 +324,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/withOwnerReferencesMixin/</guid>
       <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -333,7 +333,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/withOwnerReferencesMixin/</guid>
       <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -342,7 +342,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withPending</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/initializers/withPending/</guid>
       <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -352,7 +352,7 @@ withPending takes an array of type pendingType.</description>
     <item>
       <title>withPending</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/initializers/withPending/</guid>
       <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -362,7 +362,7 @@ withPending takes an array of type pendingType.</description>
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/initializers/withPendingMixin/</guid>
       <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -372,7 +372,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/initializers/withPendingMixin/</guid>
       <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -382,7 +382,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>withRuntimeHandler</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/spec/withRuntimeHandler/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/spec/withRuntimeHandler/</guid>
       <description>withRuntimeHandlerfunction(runtimeHandler) self + __specMixin({ runtimeHandler: runtimeHandler }) RuntimeHandler specifies the underlying runtime and configuration that the CRI implementation will use to handle pods of this class. The possible values are specific to the node &amp;amp; CRI configuration. It is assumed that all handlers are available on every node, and handlers of the same name are equivalent on every node. For example, a handler called &amp;ldquo;runc&amp;rdquo; might specify that the runc OCI runtime (using native Linux containers) will be used to run the containers in a pod.</description>
@@ -391,7 +391,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>initializers</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -402,7 +402,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializers</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -413,7 +413,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/</guid>
       <description>More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</description>
@@ -422,7 +422,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/</guid>
       <description>More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</description>
@@ -431,7 +431,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>spec</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/spec/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/spec/</guid>
       <description>Specification of the RuntimeClass More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#spec-and-status</description>
@@ -440,7 +440,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/initializersType/</guid>
       <description></description>
@@ -449,7 +449,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/initializersType/</guid>
       <description></description>
@@ -458,7 +458,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/managedFieldsType/</guid>
       <description></description>
@@ -467,7 +467,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/managedFieldsType/</guid>
       <description></description>
@@ -476,7 +476,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadataType/</guid>
       <description></description>
@@ -485,7 +485,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadataType/</guid>
       <description></description>
@@ -494,7 +494,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -503,7 +503,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -512,7 +512,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -521,7 +521,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/node/v1beta1/runtimeClass/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -530,7 +530,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>specType</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/specType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/specType/</guid>
       <description></description>
@@ -539,7 +539,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>runtimeClass</title>
       <link>http://example.org/node/runtimeClass/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/runtimeClass/</guid>
       <description>RuntimeClass defines a class of container runtime supported in the cluster.  RuntimeClass defines a class of container runtime supported in the cluster.  </description>
@@ -548,7 +548,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>runtimeClass</title>
       <link>http://example.org/node/v1alpha1/runtimeClass/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1alpha1/runtimeClass/</guid>
       <description>RuntimeClass defines a class of container runtime supported in the cluster. The RuntimeClass is used to determine which container runtime is used to run all containers in a pod. RuntimeClasses are (currently) manually defined by a user or cluster provisioner, and referenced in the PodSpec. The Kubelet is responsible for resolving the RuntimeClassName reference before running the pod. For more details, see https://git.k8s.io/enhancements/keps/sig-node/runtime-class.md</description>
@@ -557,7 +557,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>runtimeClass</title>
       <link>http://example.org/node/v1beta1/runtimeClass/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/node/v1beta1/runtimeClass/</guid>
       <description>RuntimeClass defines a class of container runtime supported in the cluster. The RuntimeClass is used to determine which container runtime is used to run all containers in a pod. RuntimeClasses are (currently) manually defined by a user or cluster provisioner, and referenced in the PodSpec. The Kubelet is responsible for resolving the RuntimeClassName reference before running the pod. For more details, see https://git.k8s.io/enhancements/keps/sig-node/runtime-class.md</description>

@@ -21,7 +21,7 @@
 <body>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.15.4</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -62,6 +62,14 @@
                     
                         <li>
                             <a href="#extensions.v1beta1.podSecurityPolicySpec.runAsUser">runAsUser</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#extensions.v1beta1.podSecurityPolicySpec.runtimeClass">runtimeClass</a>
                             
  <ul>
     
@@ -239,7 +247,7 @@
 
     <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withAllowedCsiDrivers">
         <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCsiDriversfunction(allowedCsiDrivers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedCsiDrivers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedCSIDrivers<span style="color:#666">:</span> allowedCsiDrivers } <span style="color:#007020;font-weight:bold">else</span> { allowedCSIDrivers<span style="color:#666">:</span> [allowedCsiDrivers] }
-</code></pre></div></div><p>AllowedCSIDrivers is a whitelist of inline CSI drivers that must be explicitly set to be embedded within a pod spec. An empty value means no CSI drivers can run inline within a pod spec.</p></p>
+</code></pre></div></div><p>AllowedCSIDrivers is a whitelist of inline CSI drivers that must be explicitly set to be embedded within a pod spec. An empty value indicates that any CSI driver can be used for inline ephemeral volumes. This is an alpha field, and is only honored if the API server enables the CSIInlineVolume feature gate.</p></p>
 
 
         <hr>
@@ -267,7 +275,7 @@
 
     <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withAllowedCsiDriversMixin">
         <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCsiDriversMixinfunction(allowedCsiDrivers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedCsiDrivers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedCSIDrivers<span style="color:#666">+:</span> allowedCsiDrivers } <span style="color:#007020;font-weight:bold">else</span> { allowedCSIDrivers<span style="color:#666">+:</span> [allowedCsiDrivers] }
-</code></pre></div></div><p>AllowedCSIDrivers is a whitelist of inline CSI drivers that must be explicitly set to be embedded within a pod spec. An empty value means no CSI drivers can run inline within a pod spec.</p></p>
+</code></pre></div></div><p>AllowedCSIDrivers is a whitelist of inline CSI drivers that must be explicitly set to be embedded within a pod spec. An empty value indicates that any CSI driver can be used for inline ephemeral volumes. This is an alpha field, and is only honored if the API server enables the CSIInlineVolume feature gate.</p></p>
 
 
         <hr>
@@ -1408,6 +1416,150 @@ an instance of <code>rangesType</code> with <code>hidden.extensions.v1beta1.idRa
     <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runAsUser.withRule">
         <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulefunction(rule) self <span style="color:#666">+</span> __runAsUserMixin({ rule<span style="color:#666">:</span> rule })
 </code></pre></div></div><p>rule is the strategy that will dictate the allowable RunAsUser values that may be set.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.runtimeClass">
+            runtimeClass
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.runtimeClass" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runtimeClass">
+        <p>runtimeClass is the strategy that will dictate the allowable RuntimeClasses for a pod. If this field is omitted, the pod's runtimeClassName field is unrestricted. Enforcement of this field depends on the RuntimeClass feature gate being enabled.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.runtimeClass.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.runtimeClass.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runtimeClass.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(runtimeClass) __runtimeClassMixin(runtimeClass)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.runtimeClass.withAllowedRuntimeClassNames">
+            withAllowedRuntimeClassNames
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.runtimeClass.withAllowedRuntimeClassNames" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runtimeClass.withAllowedRuntimeClassNames">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedRuntimeClassNamesfunction(allowedRuntimeClassNames) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedRuntimeClassNames) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __runtimeClassMixin({ allowedRuntimeClassNames<span style="color:#666">:</span> allowedRuntimeClassNames }) <span style="color:#007020;font-weight:bold">else</span> __runtimeClassMixin({ allowedRuntimeClassNames<span style="color:#666">:</span> [allowedRuntimeClassNames] })
+</code></pre></div></div><p>allowedRuntimeClassNames is a whitelist of RuntimeClass names that may be specified on a pod. A value of &ldquo;*&rdquo; means that any RuntimeClass name is allowed, and must be the only item in the list. An empty list requires the RuntimeClassName field to be unset.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.runtimeClass.withAllowedRuntimeClassNamesMixin">
+            withAllowedRuntimeClassNamesMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.runtimeClass.withAllowedRuntimeClassNamesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runtimeClass.withAllowedRuntimeClassNamesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedRuntimeClassNamesMixinfunction(allowedRuntimeClassNames) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedRuntimeClassNames) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __runtimeClassMixin({ allowedRuntimeClassNames<span style="color:#666">+:</span> allowedRuntimeClassNames }) <span style="color:#007020;font-weight:bold">else</span> __runtimeClassMixin({ allowedRuntimeClassNames<span style="color:#666">+:</span> [allowedRuntimeClassNames] })
+</code></pre></div></div><p>allowedRuntimeClassNames is a whitelist of RuntimeClass names that may be specified on a pod. A value of &ldquo;*&rdquo; means that any RuntimeClass name is allowed, and must be the only item in the list. An empty list requires the RuntimeClassName field to be unset.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.runtimeClass.withDefaultRuntimeClassName">
+            withDefaultRuntimeClassName
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.runtimeClass.withDefaultRuntimeClassName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runtimeClass.withDefaultRuntimeClassName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDefaultRuntimeClassNamefunction(defaultRuntimeClassName) self <span style="color:#666">+</span> __runtimeClassMixin({ defaultRuntimeClassName<span style="color:#666">:</span> defaultRuntimeClassName })
+</code></pre></div></div><p>defaultRuntimeClassName is the default RuntimeClassName to set on the pod. The default MUST be allowed by the allowedRuntimeClassNames list. A value of nil does not mutate the Pod.</p></p>
 
 
         <hr>

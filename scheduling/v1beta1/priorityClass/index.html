@@ -21,7 +21,7 @@
 <body>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.15.4</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -152,6 +152,34 @@
     <div class="collapse show" id="scheduling.v1beta1.priorityClass.withGlobalDefault">
         <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGlobalDefaultfunction(globalDefault) self <span style="color:#666">+</span> { globalDefault<span style="color:#666">:</span> globalDefault }
 </code></pre></div></div><p>globalDefault specifies whether this PriorityClass should be considered as the default priority for pods that do not have any priority class. Only one PriorityClass can be marked as <code>globalDefault</code>. However, if more than one PriorityClasses exists with their <code>globalDefault</code> field set to true, the smallest value of such global default PriorityClasses will be used as the default priority.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="scheduling.v1beta1.priorityClass.withPreemptionPolicy">
+            withPreemptionPolicy
+            <a data-toggle="collapse" href="#scheduling.v1beta1.priorityClass.withPreemptionPolicy" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="scheduling.v1beta1.priorityClass.withPreemptionPolicy">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreemptionPolicyfunction(preemptionPolicy) self <span style="color:#666">+</span> { preemptionPolicy<span style="color:#666">:</span> preemptionPolicy }
+</code></pre></div></div><p>PreemptionPolicy is the Policy for preempting pods with lower priority. One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset. This field is alpha-level and is only honored by servers that enable the NonPreemptingPriority feature.</p></p>
 
 
         <hr>

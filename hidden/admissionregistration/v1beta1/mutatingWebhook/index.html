@@ -1,0 +1,1095 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.15.4</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                        <li>
+                            <a href="#admissionregistration.v1beta1.mutatingWebhook.clientConfig">clientConfig</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#admissionregistration.v1beta1.mutatingWebhook.clientConfig.service">service</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#admissionregistration.v1beta1.mutatingWebhook.namespaceSelector">namespaceSelector</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#admissionregistration.v1beta1.mutatingWebhook.objectSelector">objectSelector</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>mutatingWebhook</h1>
+            <p>MutatingWebhook describes an admission webhook and the resources and operations it applies to.</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.new">
+            new
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Functions</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.withAdmissionReviewVersions">
+            withAdmissionReviewVersions
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.withAdmissionReviewVersions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.withAdmissionReviewVersions">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdmissionReviewVersionsfunction(admissionReviewVersions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(admissionReviewVersions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { admissionReviewVersions<span style="color:#666">:</span> admissionReviewVersions } <span style="color:#007020;font-weight:bold">else</span> { admissionReviewVersions<span style="color:#666">:</span> [admissionReviewVersions] }
+</code></pre></div></div><p>AdmissionReviewVersions is an ordered list of preferred <code>AdmissionReview</code> versions the Webhook expects. API server will try to use first version in the list which it supports. If none of the versions specified in this list supported by API server, validation will fail for this object. If a persisted webhook configuration specifies allowed versions and does not include any versions known to the API Server, calls to the webhook will fail and be subject to the failure policy. Default to <code>['v1beta1']</code>.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.withAdmissionReviewVersionsMixin">
+            withAdmissionReviewVersionsMixin
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.withAdmissionReviewVersionsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.withAdmissionReviewVersionsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdmissionReviewVersionsMixinfunction(admissionReviewVersions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(admissionReviewVersions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { admissionReviewVersions<span style="color:#666">+:</span> admissionReviewVersions } <span style="color:#007020;font-weight:bold">else</span> { admissionReviewVersions<span style="color:#666">+:</span> [admissionReviewVersions] }
+</code></pre></div></div><p>AdmissionReviewVersions is an ordered list of preferred <code>AdmissionReview</code> versions the Webhook expects. API server will try to use first version in the list which it supports. If none of the versions specified in this list supported by API server, validation will fail for this object. If a persisted webhook configuration specifies allowed versions and does not include any versions known to the API Server, calls to the webhook will fail and be subject to the failure policy. Default to <code>['v1beta1']</code>.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.withFailurePolicy">
+            withFailurePolicy
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.withFailurePolicy" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.withFailurePolicy">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFailurePolicyfunction(failurePolicy) self <span style="color:#666">+</span> { failurePolicy<span style="color:#666">:</span> failurePolicy }
+</code></pre></div></div><p>FailurePolicy defines how unrecognized errors from the admission endpoint are handled - allowed values are Ignore or Fail. Defaults to Ignore.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.withMatchPolicy">
+            withMatchPolicy
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.withMatchPolicy" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.withMatchPolicy">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchPolicyfunction(matchPolicy) self <span style="color:#666">+</span> { matchPolicy<span style="color:#666">:</span> matchPolicy }
+</code></pre></div></div><p>matchPolicy defines how the &ldquo;rules&rdquo; list is used to match incoming requests. Allowed values are &ldquo;Exact&rdquo; or &ldquo;Equivalent&rdquo;.</p><p></p><p>- Exact: match a request only if it exactly matches a specified rule. For example, if deployments can be modified via apps/v1, apps/v1beta1, and extensions/v1beta1, but &ldquo;rules&rdquo; only included <code>apiGroups:[&quot;apps&quot;], apiVersions:[&quot;v1&quot;], resources: [&quot;deployments&quot;]</code>, a request to apps/v1beta1 or extensions/v1beta1 would not be sent to the webhook.</p><p></p><p>- Equivalent: match a request if modifies a resource listed in rules, even via another API group or version. For example, if deployments can be modified via apps/v1, apps/v1beta1, and extensions/v1beta1, and &ldquo;rules&rdquo; only included <code>apiGroups:[&quot;apps&quot;], apiVersions:[&quot;v1&quot;], resources: [&quot;deployments&quot;]</code>, a request to apps/v1beta1 or extensions/v1beta1 would be converted to apps/v1 and sent to the webhook.</p><p></p><p>Defaults to &ldquo;Exact&rdquo;</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.withName">
+            withName
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> { name<span style="color:#666">:</span> name }
+</code></pre></div></div><p>The name of the admission webhook. Name should be fully qualified, e.g., imagepolicy.kubernetes.io, where &ldquo;imagepolicy&rdquo; is the name of the webhook, and kubernetes.io is the name of the organization. Required.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.withReinvocationPolicy">
+            withReinvocationPolicy
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.withReinvocationPolicy" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.withReinvocationPolicy">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReinvocationPolicyfunction(reinvocationPolicy) self <span style="color:#666">+</span> { reinvocationPolicy<span style="color:#666">:</span> reinvocationPolicy }
+</code></pre></div></div><p>reinvocationPolicy indicates whether this webhook should be called multiple times as part of a single admission evaluation. Allowed values are &ldquo;Never&rdquo; and &ldquo;IfNeeded&rdquo;.</p><p></p><p>Never: the webhook will not be called more than once in a single admission evaluation.</p><p></p><p>IfNeeded: the webhook will be called at least one additional time as part of the admission evaluation if the object being admitted is modified by other admission plugins after the initial webhook call. Webhooks that specify this option <em>must</em> be idempotent, able to process objects they previously admitted. Note: * the number of additional invocations is not guaranteed to be exactly one. * if additional invocations result in further modifications to the object, webhooks are not guaranteed to be invoked again. * webhooks that use this option may be reordered to minimize the number of additional invocations. * to validate an object after all mutations are guaranteed complete, use a validating admission webhook instead.</p><p></p><p>Defaults to &ldquo;Never&rdquo;.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.withRules">
+            withRules
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.withRules" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.withRules">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulesfunction(rules) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(rules) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { rules<span style="color:#666">:</span> rules } <span style="color:#007020;font-weight:bold">else</span> { rules<span style="color:#666">:</span> [rules] }
+</code></pre></div></div><p>Rules describes what operations on what resources/subresources the webhook cares about. The webhook cares about an operation if it matches <em>any</em> Rule. However, in order to prevent ValidatingAdmissionWebhooks and MutatingAdmissionWebhooks from putting the cluster in a state which cannot be recovered from without completely disabling the plugin, ValidatingAdmissionWebhooks and MutatingAdmissionWebhooks are never called on admission requests for ValidatingWebhookConfiguration and MutatingWebhookConfiguration objects.</p><code>withRules</code> takes an array of type <code>rulesType</code>. You can create
+an instance of <code>rulesType</code> with <code>hidden.admissionregistration.v1beta1.ruleWithOperations.new()</code>.</p>
+
+<p>see <a href="/hidden/admissionregistration/v1beta1/ruleWithOperations/">hidden.admissionregistration.v1beta1.ruleWithOperations</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.withRulesMixin">
+            withRulesMixin
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.withRulesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.withRulesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulesMixinfunction(rules) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(rules) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { rules<span style="color:#666">+:</span> rules } <span style="color:#007020;font-weight:bold">else</span> { rules<span style="color:#666">+:</span> [rules] }
+</code></pre></div></div><p>Rules describes what operations on what resources/subresources the webhook cares about. The webhook cares about an operation if it matches <em>any</em> Rule. However, in order to prevent ValidatingAdmissionWebhooks and MutatingAdmissionWebhooks from putting the cluster in a state which cannot be recovered from without completely disabling the plugin, ValidatingAdmissionWebhooks and MutatingAdmissionWebhooks are never called on admission requests for ValidatingWebhookConfiguration and MutatingWebhookConfiguration objects.</p><code>withRulesMixin</code> takes an array of type <code>rulesType</code>. You can create
+an instance of <code>rulesType</code> with <code>hidden.admissionregistration.v1beta1.ruleWithOperations.new()</code>.</p>
+
+<p>see <a href="/hidden/admissionregistration/v1beta1/ruleWithOperations/">hidden.admissionregistration.v1beta1.ruleWithOperations</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.withSideEffects">
+            withSideEffects
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.withSideEffects" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.withSideEffects">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSideEffectsfunction(sideEffects) self <span style="color:#666">+</span> { sideEffects<span style="color:#666">:</span> sideEffects }
+</code></pre></div></div><p>SideEffects states whether this webhookk has side effects. Acceptable values are: Unknown, None, Some, NoneOnDryRun Webhooks with side effects MUST implement a reconciliation system, since a request may be rejected by a future step in the admission change and the side effects therefore need to be undone. Requests with the dryRun attribute will be auto-rejected if they match a webhook with sideEffects == Unknown or Some. Defaults to Unknown.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.withTimeoutSeconds">
+            withTimeoutSeconds
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.withTimeoutSeconds" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.withTimeoutSeconds">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTimeoutSecondsfunction(timeoutSeconds) self <span style="color:#666">+</span> { timeoutSeconds<span style="color:#666">:</span> timeoutSeconds }
+</code></pre></div></div><p>TimeoutSeconds specifies the timeout for this webhook. After the timeout passes, the webhook call will be ignored or the API call will fail based on the failure policy. The timeout value must be between 1 and 30 seconds. Default to 30 seconds.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Mixins</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.clientConfig">
+            clientConfig
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.clientConfig" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.clientConfig">
+        <p>ClientConfig defines how to communicate with the hook. Required</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.clientConfig.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.clientConfig.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.clientConfig.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(clientConfig) __clientConfigMixin(clientConfig)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.clientConfig.withCaBundle">
+            withCaBundle
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.clientConfig.withCaBundle" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.clientConfig.withCaBundle">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCaBundlefunction(caBundle) self <span style="color:#666">+</span> __clientConfigMixin({ caBundle<span style="color:#666">:</span> caBundle })
+</code></pre></div></div><p><code>caBundle</code> is a PEM encoded CA bundle which will be used to validate the webhook&rsquo;s server certificate. If unspecified, system trust roots on the apiserver are used.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.clientConfig.withUrl">
+            withUrl
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.clientConfig.withUrl" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.clientConfig.withUrl">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUrlfunction(url) self <span style="color:#666">+</span> __clientConfigMixin({ url<span style="color:#666">:</span> url })
+</code></pre></div></div><p><code>url</code> gives the location of the webhook, in standard URL form (<code>scheme://host:port/path</code>). Exactly one of <code>url</code> or <code>service</code> must be specified.</p><p></p><p>The <code>host</code> should not refer to a service running in the cluster; use the <code>service</code> field instead. The host might be resolved via external DNS in some apiservers (e.g., <code>kube-apiserver</code> cannot resolve in-cluster DNS as that would be a layering violation). <code>host</code> may also be an IP address.</p><p></p><p>Please note that using <code>localhost</code> or <code>127.0.0.1</code> as a <code>host</code> is risky unless you take great care to run this webhook on all hosts which run an apiserver which might need to make calls to this webhook. Such installs are likely to be non-portable, i.e., not easy to turn up in a new cluster.</p><p></p><p>The scheme must be &ldquo;https&rdquo;; the URL must begin with &ldquo;https://&ldquo;.</p><p></p><p>A path is optional, and if present may be any string permissible in a URL. You may use the path to pass an arbitrary string to the webhook, for example, a cluster identifier.</p><p></p><p>Attempting to use a user or basic auth e.g. &ldquo;user:password@&rdquo; is not allowed. Fragments (&ldquo;#&hellip;&rdquo;) and query parameters (&ldquo;?&hellip;&rdquo;) are not allowed, either.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.clientConfig.service">
+            service
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.clientConfig.service" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.clientConfig.service">
+        <p>`service` is a reference to the service for this webhook. Either `service` or `url` must be specified.</p><p></p><p>If the webhook is running within the cluster, then you should use `service`.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.clientConfig.service.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.clientConfig.service.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.clientConfig.service.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(service) __serviceMixin(service)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.clientConfig.service.withName">
+            withName
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.clientConfig.service.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.clientConfig.service.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __serviceMixin({ name<span style="color:#666">:</span> name })
+</code></pre></div></div><p><code>name</code> is the name of the service. Required</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.clientConfig.service.withNamespace">
+            withNamespace
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.clientConfig.service.withNamespace" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.clientConfig.service.withNamespace">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __serviceMixin({ namespace<span style="color:#666">:</span> namespace })
+</code></pre></div></div><p><code>namespace</code> is the namespace of the service. Required</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.clientConfig.service.withPath">
+            withPath
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.clientConfig.service.withPath" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.clientConfig.service.withPath">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __serviceMixin({ path<span style="color:#666">:</span> path })
+</code></pre></div></div><p><code>path</code> is an optional URL path which will be sent in any request to this service.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.clientConfig.service.withPort">
+            withPort
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.clientConfig.service.withPort" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.clientConfig.service.withPort">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __serviceMixin({ port<span style="color:#666">:</span> port })
+</code></pre></div></div><p>If specified, the port on the service that hosting webhook. Default to 443 for backward compatibility. <code>port</code> should be a valid port number (1-65535, inclusive).</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.namespaceSelector">
+            namespaceSelector
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.namespaceSelector" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.namespaceSelector">
+        <p>NamespaceSelector decides whether to run the webhook on an object based on whether the namespace for that object matches the selector. If the object itself is a namespace, the matching is performed on object.metadata.labels. If the object is another cluster scoped resource, it never skips the webhook.</p><p></p><p>For example, to run the webhook on any objects whose namespace is not associated with "runlevel" of "0" or "1";  you will set the selector as follows: "namespaceSelector": {</p><p>"matchExpressions": [</p><p>{</p><p>"key": "runlevel",</p><p>"operator": "NotIn",</p><p>"values": [</p><p>"0",</p><p>"1"</p><p>]</p><p>}</p><p>]</p><p>}</p><p></p><p>If instead you want to only run the webhook on any objects whose namespace is associated with the "environment" of "prod" or "staging"; you will set the selector as follows: "namespaceSelector": {</p><p>"matchExpressions": [</p><p>{</p><p>"key": "environment",</p><p>"operator": "In",</p><p>"values": [</p><p>"prod",</p><p>"staging"</p><p>]</p><p>}</p><p>]</p><p>}</p><p></p><p>See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more examples of label selectors.</p><p></p><p>Default to the empty LabelSelector, which matches everything.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.namespaceSelector.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.namespaceSelector.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.namespaceSelector.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(namespaceSelector) __namespaceSelectorMixin(namespaceSelector)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.namespaceSelector.withMatchExpressions">
+            withMatchExpressions
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.namespaceSelector.withMatchExpressions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.namespaceSelector.withMatchExpressions">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __namespaceSelectorMixin({ matchExpressions<span style="color:#666">:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __namespaceSelectorMixin({ matchExpressions<span style="color:#666">:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressions</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.namespaceSelector.withMatchExpressionsMixin">
+            withMatchExpressionsMixin
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.namespaceSelector.withMatchExpressionsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.namespaceSelector.withMatchExpressionsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __namespaceSelectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __namespaceSelectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.namespaceSelector.withMatchLabels">
+            withMatchLabels
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.namespaceSelector.withMatchLabels" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.namespaceSelector.withMatchLabels">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsfunction(matchLabels) self <span style="color:#666">+</span> __namespaceSelectorMixin({ matchLabels<span style="color:#666">:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.namespaceSelector.withMatchLabelsMixin">
+            withMatchLabelsMixin
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.namespaceSelector.withMatchLabelsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.namespaceSelector.withMatchLabelsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixinfunction(matchLabels) self <span style="color:#666">+</span> __namespaceSelectorMixin({ matchLabels<span style="color:#666">+:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.objectSelector">
+            objectSelector
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.objectSelector" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.objectSelector">
+        <p>ObjectSelector decides whether to run the webhook based on if the object has matching labels. objectSelector is evaluated against both the oldObject and newObject that would be sent to the webhook, and is considered to match if either object matches the selector. A null object (oldObject in the case of create, or newObject in the case of delete) or an object that cannot have labels (like a DeploymentRollback or a PodProxyOptions object) is not considered to match. Use the object selector only if the webhook is opt-in, because end users may skip the admission webhook by setting the labels. Default to the empty LabelSelector, which matches everything.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.objectSelector.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.objectSelector.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.objectSelector.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(objectSelector) __objectSelectorMixin(objectSelector)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.objectSelector.withMatchExpressions">
+            withMatchExpressions
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.objectSelector.withMatchExpressions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.objectSelector.withMatchExpressions">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __objectSelectorMixin({ matchExpressions<span style="color:#666">:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __objectSelectorMixin({ matchExpressions<span style="color:#666">:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressions</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.objectSelector.withMatchExpressionsMixin">
+            withMatchExpressionsMixin
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.objectSelector.withMatchExpressionsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.objectSelector.withMatchExpressionsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __objectSelectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __objectSelectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.objectSelector.withMatchLabels">
+            withMatchLabels
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.objectSelector.withMatchLabels" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.objectSelector.withMatchLabels">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsfunction(matchLabels) self <span style="color:#666">+</span> __objectSelectorMixin({ matchLabels<span style="color:#666">:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="admissionregistration.v1beta1.mutatingWebhook.objectSelector.withMatchLabelsMixin">
+            withMatchLabelsMixin
+            <a data-toggle="collapse" href="#admissionregistration.v1beta1.mutatingWebhook.objectSelector.withMatchLabelsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="admissionregistration.v1beta1.mutatingWebhook.objectSelector.withMatchLabelsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixinfunction(matchLabels) self <span style="color:#666">+</span> __objectSelectorMixin({ matchLabels<span style="color:#666">+:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

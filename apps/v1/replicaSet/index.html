@@ -21,7 +21,7 @@
 <body>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.15.4</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -154,6 +154,14 @@
     
         <li>
             <a href="#apps.v1.replicaSet.spec.template.spec.securityContext.seLinuxOptions">seLinuxOptions</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#apps.v1.replicaSet.spec.template.spec.securityContext.windowsOptions">windowsOptions</a>
             
  <ul>
     
@@ -2369,6 +2377,34 @@ an instance of <code>initContainersType</code> with <code>hidden.core.v1.contain
         
             <li>
     <h5>
+        <a name="apps.v1.replicaSet.spec.template.spec.withPreemptionPolicy">
+            withPreemptionPolicy
+            <a data-toggle="collapse" href="#apps.v1.replicaSet.spec.template.spec.withPreemptionPolicy" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1.replicaSet.spec.template.spec.withPreemptionPolicy">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreemptionPolicyfunction(preemptionPolicy) self <span style="color:#666">+</span> __specMixin({ preemptionPolicy<span style="color:#666">:</span> preemptionPolicy })
+</code></pre></div></div><p>PreemptionPolicy is the Policy for preempting pods with lower priority. One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset. This field is alpha-level and is only honored by servers that enable the NonPreemptingPriority feature.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
         <a name="apps.v1.replicaSet.spec.template.spec.withPriority">
             withPriority
             <a data-toggle="collapse" href="#apps.v1.replicaSet.spec.template.spec.withPriority" role="button" aria-expanded="true">
@@ -2526,7 +2562,7 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
 
     <div class="collapse show" id="apps.v1.replicaSet.spec.template.spec.withRuntimeClassName">
         <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRuntimeClassNamefunction(runtimeClassName) self <span style="color:#666">+</span> __specMixin({ runtimeClassName<span style="color:#666">:</span> runtimeClassName })
-</code></pre></div></div><p>RuntimeClassName refers to a RuntimeClass object in the node.k8s.io group, which should be used to run this pod.  If no RuntimeClass resource matches the named class, the pod will not be run. If unset or empty, the &ldquo;legacy&rdquo; RuntimeClass will be used, which is an implicit class with an empty definition that uses the default runtime handler. More info: <a href="https://git.k8s.io/enhancements/keps/sig-node/runtime-class.md">https://git.k8s.io/enhancements/keps/sig-node/runtime-class.md</a> This is an alpha feature and may change in the future.</p></p>
+</code></pre></div></div><p>RuntimeClassName refers to a RuntimeClass object in the node.k8s.io group, which should be used to run this pod.  If no RuntimeClass resource matches the named class, the pod will not be run. If unset or empty, the &ldquo;legacy&rdquo; RuntimeClass will be used, which is an implicit class with an empty definition that uses the default runtime handler. More info: <a href="https://git.k8s.io/enhancements/keps/sig-node/runtime-class.md">https://git.k8s.io/enhancements/keps/sig-node/runtime-class.md</a> This is a beta feature as of Kubernetes v1.14.</p></p>
 
 
         <hr>
@@ -4195,6 +4231,122 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     <div class="collapse show" id="apps.v1.replicaSet.spec.template.spec.securityContext.seLinuxOptions.withUser">
         <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUserfunction(user) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ user<span style="color:#666">:</span> user })
 </code></pre></div></div><p>User is a SELinux user label that applies to the container.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1.replicaSet.spec.template.spec.securityContext.windowsOptions">
+            windowsOptions
+            <a data-toggle="collapse" href="#apps.v1.replicaSet.spec.template.spec.securityContext.windowsOptions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1.replicaSet.spec.template.spec.securityContext.windowsOptions">
+        <p>Windows security options.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apps.v1.replicaSet.spec.template.spec.securityContext.windowsOptions.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apps.v1.replicaSet.spec.template.spec.securityContext.windowsOptions.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1.replicaSet.spec.template.spec.securityContext.windowsOptions.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(windowsOptions) __windowsOptionsMixin(windowsOptions)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1.replicaSet.spec.template.spec.securityContext.windowsOptions.withGmsaCredentialSpec">
+            withGmsaCredentialSpec
+            <a data-toggle="collapse" href="#apps.v1.replicaSet.spec.template.spec.securityContext.windowsOptions.withGmsaCredentialSpec" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1.replicaSet.spec.template.spec.securityContext.windowsOptions.withGmsaCredentialSpec">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGmsaCredentialSpecfunction(gmsaCredentialSpec) self <span style="color:#666">+</span> __windowsOptionsMixin({ gmsaCredentialSpec<span style="color:#666">:</span> gmsaCredentialSpec })
+</code></pre></div></div><p>GMSACredentialSpec is where the GMSA admission webhook (<a href="https://github.com/kubernetes-sigs/windows-gmsa">https://github.com/kubernetes-sigs/windows-gmsa</a>) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field. This field is alpha-level and is only honored by servers that enable the WindowsGMSA feature flag.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1.replicaSet.spec.template.spec.securityContext.windowsOptions.withGmsaCredentialSpecName">
+            withGmsaCredentialSpecName
+            <a data-toggle="collapse" href="#apps.v1.replicaSet.spec.template.spec.securityContext.windowsOptions.withGmsaCredentialSpecName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1.replicaSet.spec.template.spec.securityContext.windowsOptions.withGmsaCredentialSpecName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGmsaCredentialSpecNamefunction(gmsaCredentialSpecName) self <span style="color:#666">+</span> __windowsOptionsMixin({ gmsaCredentialSpecName<span style="color:#666">:</span> gmsaCredentialSpecName })
+</code></pre></div></div><p>GMSACredentialSpecName is the name of the GMSA credential spec to use. This field is alpha-level and is only honored by servers that enable the WindowsGMSA feature flag.</p></p>
 
 
         <hr>

@@ -21,7 +21,7 @@
 <body>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.15.4</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,7 +36,7 @@
     <div class="container app">
         
     <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStrategyfunction(strategy) self <span style="color:#666">+</span> __conversionMixin({ strategy<span style="color:#666">:</span> strategy })
-</code></pre></div></div><p><code>strategy</code> specifies the conversion strategy. Allowed values are: - <code>None</code>: The converter only change the apiVersion and would not touch any other field in the CR. - <code>Webhook</code>: API Server will call to an external webhook to do the conversion. Additional information is needed for this option.</p></p>
+</code></pre></div></div><p><code>strategy</code> specifies the conversion strategy. Allowed values are: - <code>None</code>: The converter only change the apiVersion and would not touch any other field in the CR. - <code>Webhook</code>: API Server will call to an external webhook to do the conversion. Additional information</p><p>is needed for this option. This requires spec.preserveUnknownFields to be false.</p></p>
 
 
     </div>

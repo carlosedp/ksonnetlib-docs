@@ -6,7 +6,7 @@
     <description>Recent content in Networkings on ksonnet lib API Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 14:37:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 17:02:28 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/networking/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>new</title>
       <link>http://example.org/networking/v1/networkPolicy/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/new/</guid>
       <description>newfunction() apiVersion + kind</description>
@@ -23,7 +23,7 @@
     <item>
       <title>new</title>
       <link>http://example.org/networking/v1beta1/ingress/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/new/</guid>
       <description>newfunction() apiVersion + kind</description>
@@ -32,7 +32,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/initializers/mixinInstance/</guid>
       <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
@@ -41,7 +41,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/mixinInstance/</guid>
       <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
@@ -50,7 +50,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/mixinInstance/</guid>
       <description>mixinInstancefunction(spec) __specMixin(spec)</description>
@@ -59,7 +59,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/podSelector/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/podSelector/mixinInstance/</guid>
       <description>mixinInstancefunction(podSelector) __podSelectorMixin(podSelector)</description>
@@ -68,7 +68,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/initializers/mixinInstance/</guid>
       <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
@@ -77,7 +77,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/mixinInstance/</guid>
       <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
@@ -86,7 +86,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/networking/v1beta1/ingress/spec/backend/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/spec/backend/mixinInstance/</guid>
       <description>mixinInstancefunction(backend) __backendMixin(backend)</description>
@@ -95,7 +95,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/networking/v1beta1/ingress/spec/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/spec/mixinInstance/</guid>
       <description>mixinInstancefunction(spec) __specMixin(spec)</description>
@@ -104,7 +104,7 @@
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/withAnnotations/</guid>
       <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -113,7 +113,7 @@
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/withAnnotations/</guid>
       <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -122,7 +122,7 @@
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/withAnnotationsMixin/</guid>
       <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -131,7 +131,7 @@
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/withAnnotationsMixin/</guid>
       <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -140,7 +140,7 @@
     <item>
       <title>withClusterName</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/withClusterName/</guid>
       <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
@@ -149,7 +149,7 @@
     <item>
       <title>withClusterName</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/withClusterName/</guid>
       <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
@@ -158,7 +158,7 @@
     <item>
       <title>withEgress</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/withEgress/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/withEgress/</guid>
       <description>withEgressfunction(egress) self + if std.type(egress) == &amp;#39;array&amp;#39; then __specMixin({ egress: egress }) else __specMixin({ egress: [egress] }) List of egress rules to be applied to the selected pods. Outgoing traffic is allowed if there are no NetworkPolicies selecting the pod (and cluster policy otherwise allows the traffic), OR if the traffic matches at least one egress rule across all of the NetworkPolicy objects whose podSelector matches the pod. If this field is empty then this NetworkPolicy limits all outgoing traffic (and serves solely to ensure that the pods it selects are isolated by default).</description>
@@ -167,7 +167,7 @@
     <item>
       <title>withEgressMixin</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/withEgressMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/withEgressMixin/</guid>
       <description>withEgressMixinfunction(egress) self + if std.type(egress) == &amp;#39;array&amp;#39; then __specMixin({ egress+: egress }) else __specMixin({ egress+: [egress] }) List of egress rules to be applied to the selected pods. Outgoing traffic is allowed if there are no NetworkPolicies selecting the pod (and cluster policy otherwise allows the traffic), OR if the traffic matches at least one egress rule across all of the NetworkPolicy objects whose podSelector matches the pod. If this field is empty then this NetworkPolicy limits all outgoing traffic (and serves solely to ensure that the pods it selects are isolated by default).</description>
@@ -176,7 +176,7 @@
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/withFinalizers/</guid>
       <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -185,7 +185,7 @@
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/withFinalizers/</guid>
       <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -194,7 +194,7 @@
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/withFinalizersMixin/</guid>
       <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -203,7 +203,7 @@
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/withFinalizersMixin/</guid>
       <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -212,7 +212,7 @@
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/withGenerateName/</guid>
       <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
@@ -221,7 +221,7 @@
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/withGenerateName/</guid>
       <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
@@ -230,7 +230,7 @@
     <item>
       <title>withIngress</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/withIngress/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/withIngress/</guid>
       <description>withIngressfunction(ingress) self + if std.type(ingress) == &amp;#39;array&amp;#39; then __specMixin({ ingress: ingress }) else __specMixin({ ingress: [ingress] }) List of ingress rules to be applied to the selected pods. Traffic is allowed to a pod if there are no NetworkPolicies selecting the pod (and cluster policy otherwise allows the traffic), OR if the traffic source is the pod&amp;rsquo;s local node, OR if the traffic matches at least one ingress rule across all of the NetworkPolicy objects whose podSelector matches the pod.</description>
@@ -239,7 +239,7 @@
     <item>
       <title>withIngressMixin</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/withIngressMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/withIngressMixin/</guid>
       <description>withIngressMixinfunction(ingress) self + if std.type(ingress) == &amp;#39;array&amp;#39; then __specMixin({ ingress+: ingress }) else __specMixin({ ingress+: [ingress] }) List of ingress rules to be applied to the selected pods. Traffic is allowed to a pod if there are no NetworkPolicies selecting the pod (and cluster policy otherwise allows the traffic), OR if the traffic source is the pod&amp;rsquo;s local node, OR if the traffic matches at least one ingress rule across all of the NetworkPolicy objects whose podSelector matches the pod.</description>
@@ -248,7 +248,7 @@
     <item>
       <title>withLabels</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/withLabels/</guid>
       <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -257,7 +257,7 @@
     <item>
       <title>withLabels</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/withLabels/</guid>
       <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -266,7 +266,7 @@
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/withLabelsMixin/</guid>
       <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -275,7 +275,7 @@
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/withLabelsMixin/</guid>
       <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -284,7 +284,7 @@
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/withManagedFields/</guid>
       <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -293,7 +293,7 @@
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/withManagedFields/</guid>
       <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -302,7 +302,7 @@
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/withManagedFieldsMixin/</guid>
       <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -311,7 +311,7 @@
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/withManagedFieldsMixin/</guid>
       <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -320,7 +320,7 @@
     <item>
       <title>withMatchExpressions</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/podSelector/withMatchExpressions/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/podSelector/withMatchExpressions/</guid>
       <description>withMatchExpressionsfunction(matchExpressions) self + if std.type(matchExpressions) == &amp;#39;array&amp;#39; then __podSelectorMixin({ matchExpressions: matchExpressions }) else __podSelectorMixin({ matchExpressions: [matchExpressions] }) matchExpressions is a list of label selector requirements. The requirements are ANDed.
@@ -331,7 +331,7 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withMatchExpressionsMixin</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/podSelector/withMatchExpressionsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/podSelector/withMatchExpressionsMixin/</guid>
       <description>withMatchExpressionsMixinfunction(matchExpressions) self + if std.type(matchExpressions) == &amp;#39;array&amp;#39; then __podSelectorMixin({ matchExpressions+: matchExpressions }) else __podSelectorMixin({ matchExpressions+: [matchExpressions] }) matchExpressions is a list of label selector requirements. The requirements are ANDed.
@@ -342,7 +342,7 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withMatchLabels</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/podSelector/withMatchLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/podSelector/withMatchLabels/</guid>
       <description>withMatchLabelsfunction(matchLabels) self + __podSelectorMixin({ matchLabels: matchLabels }) matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &amp;ldquo;key&amp;rdquo;, the operator is &amp;ldquo;In&amp;rdquo;, and the values array contains only &amp;ldquo;value&amp;rdquo;. The requirements are ANDed.</description>
@@ -351,7 +351,7 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withMatchLabelsMixin</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/podSelector/withMatchLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/podSelector/withMatchLabelsMixin/</guid>
       <description>withMatchLabelsMixinfunction(matchLabels) self + __podSelectorMixin({ matchLabels+: matchLabels }) matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &amp;ldquo;key&amp;rdquo;, the operator is &amp;ldquo;In&amp;rdquo;, and the values array contains only &amp;ldquo;value&amp;rdquo;. The requirements are ANDed.</description>
@@ -360,7 +360,7 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withName</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/withName/</guid>
       <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
@@ -369,7 +369,7 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withName</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/withName/</guid>
       <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
@@ -378,7 +378,7 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withNamespace</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/withNamespace/</guid>
       <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
@@ -389,7 +389,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withNamespace</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/withNamespace/</guid>
       <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
@@ -400,7 +400,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/withOwnerReferences/</guid>
       <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -409,7 +409,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/withOwnerReferences/</guid>
       <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -418,7 +418,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/withOwnerReferencesMixin/</guid>
       <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -427,7 +427,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/withOwnerReferencesMixin/</guid>
       <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -436,7 +436,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withPending</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/initializers/withPending/</guid>
       <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -446,7 +446,7 @@ withPending takes an array of type pendingType.</description>
     <item>
       <title>withPending</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/initializers/withPending/</guid>
       <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -456,7 +456,7 @@ withPending takes an array of type pendingType.</description>
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/initializers/withPendingMixin/</guid>
       <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -466,7 +466,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/initializers/withPendingMixin/</guid>
       <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -476,7 +476,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>withPolicyTypes</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/withPolicyTypes/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/withPolicyTypes/</guid>
       <description>withPolicyTypesfunction(policyTypes) self + if std.type(policyTypes) == &amp;#39;array&amp;#39; then __specMixin({ policyTypes: policyTypes }) else __specMixin({ policyTypes: [policyTypes] }) List of rule types that the NetworkPolicy relates to. Valid options are &amp;ldquo;Ingress&amp;rdquo;, &amp;ldquo;Egress&amp;rdquo;, or &amp;ldquo;Ingress,Egress&amp;rdquo;. If this field is not specified, it will default based on the existence of Ingress or Egress rules; policies that contain an Egress section are assumed to affect Egress, and all policies (whether or not they contain an Ingress section) are assumed to affect Ingress.</description>
@@ -485,7 +485,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>withPolicyTypesMixin</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/withPolicyTypesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/withPolicyTypesMixin/</guid>
       <description>withPolicyTypesMixinfunction(policyTypes) self + if std.type(policyTypes) == &amp;#39;array&amp;#39; then __specMixin({ policyTypes+: policyTypes }) else __specMixin({ policyTypes+: [policyTypes] }) List of rule types that the NetworkPolicy relates to. Valid options are &amp;ldquo;Ingress&amp;rdquo;, &amp;ldquo;Egress&amp;rdquo;, or &amp;ldquo;Ingress,Egress&amp;rdquo;. If this field is not specified, it will default based on the existence of Ingress or Egress rules; policies that contain an Egress section are assumed to affect Egress, and all policies (whether or not they contain an Ingress section) are assumed to affect Ingress.</description>
@@ -494,7 +494,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>withRules</title>
       <link>http://example.org/networking/v1beta1/ingress/spec/withRules/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/spec/withRules/</guid>
       <description>withRulesfunction(rules) self + if std.type(rules) == &amp;#39;array&amp;#39; then __specMixin({ rules: rules }) else __specMixin({ rules: [rules] }) A list of host rules used to configure the Ingress. If unspecified, or no rule matches, all traffic is sent to the default backend.
@@ -505,7 +505,7 @@ see hidden.networking.v1beta1.ingressRule</description>
     <item>
       <title>withRulesMixin</title>
       <link>http://example.org/networking/v1beta1/ingress/spec/withRulesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/spec/withRulesMixin/</guid>
       <description>withRulesMixinfunction(rules) self + if std.type(rules) == &amp;#39;array&amp;#39; then __specMixin({ rules+: rules }) else __specMixin({ rules+: [rules] }) A list of host rules used to configure the Ingress. If unspecified, or no rule matches, all traffic is sent to the default backend.
@@ -516,7 +516,7 @@ see hidden.networking.v1beta1.ingressRule</description>
     <item>
       <title>withServiceName</title>
       <link>http://example.org/networking/v1beta1/ingress/spec/backend/withServiceName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/spec/backend/withServiceName/</guid>
       <description>withServiceNamefunction(serviceName) self + __backendMixin({ serviceName: serviceName }) Specifies the name of the referenced service.</description>
@@ -525,7 +525,7 @@ see hidden.networking.v1beta1.ingressRule</description>
     <item>
       <title>withServicePort</title>
       <link>http://example.org/networking/v1beta1/ingress/spec/backend/withServicePort/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/spec/backend/withServicePort/</guid>
       <description>withServicePortfunction(servicePort) self + __backendMixin({ servicePort: servicePort }) Specifies the port of the referenced service.</description>
@@ -534,7 +534,7 @@ see hidden.networking.v1beta1.ingressRule</description>
     <item>
       <title>withTls</title>
       <link>http://example.org/networking/v1beta1/ingress/spec/withTls/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/spec/withTls/</guid>
       <description>withTlsfunction(tls) self + if std.type(tls) == &amp;#39;array&amp;#39; then __specMixin({ tls: tls }) else __specMixin({ tls: [tls] }) TLS configuration. Currently the Ingress only supports a single TLS port, 443. If multiple members of this list specify different hosts, they will be multiplexed on the same port according to the hostname specified through the SNI TLS extension, if the ingress controller fulfilling the ingress supports SNI.
@@ -544,7 +544,7 @@ withTls takes an array of type tlsType.</description>
     <item>
       <title>withTlsMixin</title>
       <link>http://example.org/networking/v1beta1/ingress/spec/withTlsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/spec/withTlsMixin/</guid>
       <description>withTlsMixinfunction(tls) self + if std.type(tls) == &amp;#39;array&amp;#39; then __specMixin({ tls+: tls }) else __specMixin({ tls+: [tls] }) TLS configuration. Currently the Ingress only supports a single TLS port, 443. If multiple members of this list specify different hosts, they will be multiplexed on the same port according to the hostname specified through the SNI TLS extension, if the ingress controller fulfilling the ingress supports SNI.
@@ -554,7 +554,7 @@ withTlsMixin takes an array of type tlsType.</description>
     <item>
       <title>backend</title>
       <link>http://example.org/networking/v1beta1/ingress/spec/backend/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/spec/backend/</guid>
       <description>A default backend capable of servicing requests that don&#39;t match any rule. At least one of &#39;backend&#39; or &#39;rules&#39; must be specified. This field is optional to allow the loadbalancer controller or defaulting logic to specify a global default.</description>
@@ -563,7 +563,7 @@ withTlsMixin takes an array of type tlsType.</description>
     <item>
       <title>initializers</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -574,7 +574,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializers</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -585,7 +585,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/</guid>
       <description>Standard object&#39;s metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata</description>
@@ -594,7 +594,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/</guid>
       <description>Standard object&#39;s metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</description>
@@ -603,7 +603,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>podSelector</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/podSelector/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/podSelector/</guid>
       <description>Selects the pods to which this NetworkPolicy object applies. The array of ingress rules is applied to any pods selected by this field. Multiple network policies can select the same set of pods. In this case, the ingress rules for each are combined additively. This field is NOT optional and follows standard label selector semantics. An empty podSelector matches all pods in this namespace.</description>
@@ -612,7 +612,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>spec</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/</guid>
       <description>Specification of the desired behavior for this NetworkPolicy.</description>
@@ -621,7 +621,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>spec</title>
       <link>http://example.org/networking/v1beta1/ingress/spec/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/spec/</guid>
       <description>Spec is the desired state of the Ingress. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#spec-and-status</description>
@@ -630,7 +630,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>backendType</title>
       <link>http://example.org/networking/v1beta1/ingress/spec/backendType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/spec/backendType/</guid>
       <description></description>
@@ -639,7 +639,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>egressType</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/egressType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/egressType/</guid>
       <description></description>
@@ -648,7 +648,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ingressType</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/ingressType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/ingressType/</guid>
       <description></description>
@@ -657,7 +657,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/initializersType/</guid>
       <description></description>
@@ -666,7 +666,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/initializersType/</guid>
       <description></description>
@@ -675,7 +675,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/managedFieldsType/</guid>
       <description></description>
@@ -684,7 +684,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/managedFieldsType/</guid>
       <description></description>
@@ -693,7 +693,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>matchExpressionsType</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/podSelector/matchExpressionsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/podSelector/matchExpressionsType/</guid>
       <description></description>
@@ -702,7 +702,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/networking/v1/networkPolicy/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadataType/</guid>
       <description></description>
@@ -711,7 +711,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/networking/v1beta1/ingress/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadataType/</guid>
       <description></description>
@@ -720,7 +720,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -729,7 +729,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -738,7 +738,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/networking/v1/networkPolicy/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -747,7 +747,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/networking/v1beta1/ingress/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -756,7 +756,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>podSelectorType</title>
       <link>http://example.org/networking/v1/networkPolicy/spec/podSelectorType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/spec/podSelectorType/</guid>
       <description></description>
@@ -765,7 +765,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>rulesType</title>
       <link>http://example.org/networking/v1beta1/ingress/spec/rulesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/spec/rulesType/</guid>
       <description></description>
@@ -774,7 +774,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>specType</title>
       <link>http://example.org/networking/v1/networkPolicy/specType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/specType/</guid>
       <description></description>
@@ -783,7 +783,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>specType</title>
       <link>http://example.org/networking/v1beta1/ingress/specType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/specType/</guid>
       <description></description>
@@ -792,7 +792,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>tlsType</title>
       <link>http://example.org/networking/v1beta1/ingress/spec/tlsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/spec/tlsType/</guid>
       <description></description>
@@ -801,7 +801,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ingress</title>
       <link>http://example.org/networking/ingress/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/ingress/</guid>
       <description>Ingress is a collection of rules that allow inbound connections to reach the endpoints defined by a backend.  </description>
@@ -810,7 +810,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ingress</title>
       <link>http://example.org/networking/v1beta1/ingress/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1beta1/ingress/</guid>
       <description>Ingress is a collection of rules that allow inbound connections to reach the endpoints defined by a backend. An Ingress can be configured to give services externally-reachable urls, load balance traffic, terminate SSL, offer name based virtual hosting etc.</description>
@@ -819,7 +819,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>networkPolicy</title>
       <link>http://example.org/networking/networkPolicy/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/networkPolicy/</guid>
       <description> </description>
@@ -828,7 +828,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>networkPolicy</title>
       <link>http://example.org/networking/v1/networkPolicy/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/networking/v1/networkPolicy/</guid>
       <description>NetworkPolicy describes what network traffic is allowed for a set of Pods</description>

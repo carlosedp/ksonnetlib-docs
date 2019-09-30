@@ -6,7 +6,7 @@
     <description>Recent content in Auditregistrations on ksonnet lib API Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 14:37:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 17:02:28 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/auditregistration/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>new</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/new/</guid>
       <description>newfunction() apiVersion + kind</description>
@@ -23,7 +23,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/initializers/mixinInstance/</guid>
       <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
@@ -32,7 +32,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/mixinInstance/</guid>
       <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
@@ -41,7 +41,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/mixinInstance/</guid>
       <description>mixinInstancefunction(spec) __specMixin(spec)</description>
@@ -50,7 +50,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/policy/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/policy/mixinInstance/</guid>
       <description>mixinInstancefunction(policy) __policyMixin(policy)</description>
@@ -59,7 +59,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/mixinInstance/</guid>
       <description>mixinInstancefunction(clientConfig) __clientConfigMixin(clientConfig)</description>
@@ -68,7 +68,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/service/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/service/mixinInstance/</guid>
       <description>mixinInstancefunction(service) __serviceMixin(service)</description>
@@ -77,7 +77,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/mixinInstance/</guid>
       <description>mixinInstancefunction(webhook) __webhookMixin(webhook)</description>
@@ -86,7 +86,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/throttle/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/throttle/mixinInstance/</guid>
       <description>mixinInstancefunction(throttle) __throttleMixin(throttle)</description>
@@ -95,7 +95,7 @@
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withAnnotations/</guid>
       <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -104,7 +104,7 @@
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withAnnotationsMixin/</guid>
       <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -113,7 +113,7 @@
     <item>
       <title>withBurst</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/throttle/withBurst/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/throttle/withBurst/</guid>
       <description>withBurstfunction(burst) self + __throttleMixin({ burst: burst }) ThrottleBurst is the maximum number of events sent at the same moment default 15 QPS</description>
@@ -122,7 +122,7 @@
     <item>
       <title>withCaBundle</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/withCaBundle/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/withCaBundle/</guid>
       <description>withCaBundlefunction(caBundle) self + __clientConfigMixin({ caBundle: caBundle }) caBundle is a PEM encoded CA bundle which will be used to validate the webhook&amp;rsquo;s server certificate. If unspecified, system trust roots on the apiserver are used.</description>
@@ -131,7 +131,7 @@
     <item>
       <title>withClusterName</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withClusterName/</guid>
       <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
@@ -140,7 +140,7 @@
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withFinalizers/</guid>
       <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -149,7 +149,7 @@
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withFinalizersMixin/</guid>
       <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -158,7 +158,7 @@
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withGenerateName/</guid>
       <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
@@ -167,7 +167,7 @@
     <item>
       <title>withLabels</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withLabels/</guid>
       <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -176,7 +176,7 @@
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withLabelsMixin/</guid>
       <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -185,7 +185,7 @@
     <item>
       <title>withLevel</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/policy/withLevel/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/policy/withLevel/</guid>
       <description>withLevelfunction(level) self + __policyMixin({ level: level }) The Level that all requests are recorded at. available options: None, Metadata, Request, RequestResponse required</description>
@@ -194,7 +194,7 @@
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withManagedFields/</guid>
       <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -203,7 +203,7 @@
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withManagedFieldsMixin/</guid>
       <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -212,7 +212,7 @@
     <item>
       <title>withName</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withName/</guid>
       <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
@@ -221,7 +221,7 @@
     <item>
       <title>withName</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/service/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/service/withName/</guid>
       <description>withNamefunction(name) self + __serviceMixin({ name: name }) name is the name of the service. Required</description>
@@ -230,7 +230,7 @@
     <item>
       <title>withNamespace</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withNamespace/</guid>
       <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
@@ -241,7 +241,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withNamespace</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/service/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/service/withNamespace/</guid>
       <description>withNamespacefunction(namespace) self + __serviceMixin({ namespace: namespace }) namespace is the namespace of the service. Required</description>
@@ -250,7 +250,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withOwnerReferences/</guid>
       <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -259,7 +259,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/withOwnerReferencesMixin/</guid>
       <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -268,7 +268,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withPath</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/service/withPath/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/service/withPath/</guid>
       <description>withPathfunction(path) self + __serviceMixin({ path: path }) path is an optional URL path which will be sent in any request to this service.</description>
@@ -277,7 +277,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withPending</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/initializers/withPending/</guid>
       <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -287,7 +287,7 @@ withPending takes an array of type pendingType.</description>
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/initializers/withPendingMixin/</guid>
       <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -295,9 +295,18 @@ withPendingMixin takes an array of type pendingType.</description>
     </item>
     
     <item>
+      <title>withPort</title>
+      <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/service/withPort/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/service/withPort/</guid>
+      <description>withPortfunction(port) self + __serviceMixin({ port: port }) If specified, the port on the service that hosting webhook. Default to 443 for backward compatibility. port should be a valid port number (1-65535, inclusive).</description>
+    </item>
+    
+    <item>
       <title>withQps</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/throttle/withQps/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/throttle/withQps/</guid>
       <description>withQpsfunction(qps) self + __throttleMixin({ qps: qps }) ThrottleQPS maximum number of batches per second default 10 QPS</description>
@@ -306,7 +315,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>withStages</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/policy/withStages/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/policy/withStages/</guid>
       <description>withStagesfunction(stages) self + if std.type(stages) == &amp;#39;array&amp;#39; then __policyMixin({ stages: stages }) else __policyMixin({ stages: [stages] }) Stages is a list of stages for which events are created.</description>
@@ -315,7 +324,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>withStagesMixin</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/policy/withStagesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/policy/withStagesMixin/</guid>
       <description>withStagesMixinfunction(stages) self + if std.type(stages) == &amp;#39;array&amp;#39; then __policyMixin({ stages+: stages }) else __policyMixin({ stages+: [stages] }) Stages is a list of stages for which events are created.</description>
@@ -324,7 +333,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>withUrl</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/withUrl/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/withUrl/</guid>
       <description>withUrlfunction(url) self + __clientConfigMixin({ url: url }) url gives the location of the webhook, in standard URL form (scheme://host:port/path). Exactly one of url or service must be specified.
@@ -335,7 +344,7 @@ The host should not refer to a service running in the cluster; use the service f
     <item>
       <title>clientConfig</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/</guid>
       <description>ClientConfig holds the connection parameters for the webhook required</description>
@@ -344,7 +353,7 @@ The host should not refer to a service running in the cluster; use the service f
     <item>
       <title>initializers</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -355,7 +364,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/</guid>
       <description></description>
@@ -364,7 +373,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>policy</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/policy/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/policy/</guid>
       <description>Policy defines the policy for selecting which events should be sent to the webhook required</description>
@@ -373,20 +382,18 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>service</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/service/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/service/</guid>
       <description>`service` is a reference to the service for this webhook. Either `service` or `url` must be specified.
 
-If the webhook is running within the cluster, then you should use `service`.
-
-Port 443 will be used if it is open, otherwise it is an error.</description>
+If the webhook is running within the cluster, then you should use `service`.</description>
     </item>
     
     <item>
       <title>spec</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/</guid>
       <description>Spec defines the audit configuration spec</description>
@@ -395,7 +402,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>throttle</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/throttle/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/throttle/</guid>
       <description>Throttle holds the options for throttling the webhook</description>
@@ -404,7 +411,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>webhook</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/</guid>
       <description>Webhook to send events required</description>
@@ -413,7 +420,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>clientConfigType</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfigType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfigType/</guid>
       <description></description>
@@ -422,7 +429,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>initializersType</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/initializersType/</guid>
       <description></description>
@@ -431,7 +438,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/managedFieldsType/</guid>
       <description></description>
@@ -440,7 +447,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>metadataType</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadataType/</guid>
       <description></description>
@@ -449,7 +456,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -458,7 +465,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>pendingType</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -467,7 +474,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>policyType</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/policyType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/policyType/</guid>
       <description></description>
@@ -476,7 +483,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>serviceType</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/serviceType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/clientConfig/serviceType/</guid>
       <description></description>
@@ -485,7 +492,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>specType</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/specType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/specType/</guid>
       <description></description>
@@ -494,7 +501,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>throttleType</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/throttleType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhook/throttleType/</guid>
       <description></description>
@@ -503,7 +510,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>webhookType</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhookType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/spec/webhookType/</guid>
       <description></description>
@@ -512,7 +519,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>auditSink</title>
       <link>http://example.org/auditregistration/auditSink/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/auditSink/</guid>
       <description> </description>
@@ -521,7 +528,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>auditSink</title>
       <link>http://example.org/auditregistration/v1alpha1/auditSink/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/auditregistration/v1alpha1/auditSink/</guid>
       <description>AuditSink represents a cluster level audit sink</description>

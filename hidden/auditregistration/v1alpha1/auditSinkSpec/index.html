@@ -21,7 +21,7 @@
 <body>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.15.4</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -468,7 +468,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.webhook.clientConfig.service">
-        <p>`service` is a reference to the service for this webhook. Either `service` or `url` must be specified.</p><p></p><p>If the webhook is running within the cluster, then you should use `service`.</p><p></p><p>Port 443 will be used if it is open, otherwise it is an error.</p>
+        <p>`service` is a reference to the service for this webhook. Either `service` or `url` must be specified.</p><p></p><p>If the webhook is running within the cluster, then you should use `service`.</p>
 
 
         <hr>
@@ -577,6 +577,34 @@
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.webhook.clientConfig.service.withPath">
         <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __serviceMixin({ path<span style="color:#666">:</span> path })
 </code></pre></div></div><p><code>path</code> is an optional URL path which will be sent in any request to this service.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="auditregistration.v1alpha1.auditSinkSpec.webhook.clientConfig.service.withPort">
+            withPort
+            <a data-toggle="collapse" href="#auditregistration.v1alpha1.auditSinkSpec.webhook.clientConfig.service.withPort" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.webhook.clientConfig.service.withPort">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __serviceMixin({ port<span style="color:#666">:</span> port })
+</code></pre></div></div><p>If specified, the port on the service that hosting webhook. Default to 443 for backward compatibility. <code>port</code> should be a valid port number (1-65535, inclusive).</p></p>
 
 
         <hr>

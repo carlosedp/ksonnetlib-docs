@@ -6,186 +6,15 @@
     <description>Recent content in Groups on ksonnet lib API Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 14:37:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 17:02:28 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/groups/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>autoscaling</title>
-      <link>http://example.org/groups/autoscaling/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
-      
-      <guid>http://example.org/groups/autoscaling/</guid>
-      <description>Group autoscaling</description>
-    </item>
-    
-    <item>
-      <title>batch</title>
-      <link>http://example.org/groups/batch/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
-      
-      <guid>http://example.org/groups/batch/</guid>
-      <description>Group batch</description>
-    </item>
-    
-    <item>
-      <title>certificates</title>
-      <link>http://example.org/groups/certificates/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
-      
-      <guid>http://example.org/groups/certificates/</guid>
-      <description>Group certificates</description>
-    </item>
-    
-    <item>
-      <title>coordination</title>
-      <link>http://example.org/groups/coordination/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
-      
-      <guid>http://example.org/groups/coordination/</guid>
-      <description>Group coordination</description>
-    </item>
-    
-    <item>
-      <title>core</title>
-      <link>http://example.org/groups/core/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
-      
-      <guid>http://example.org/groups/core/</guid>
-      <description>Group core</description>
-    </item>
-    
-    <item>
-      <title>events</title>
-      <link>http://example.org/groups/events/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
-      
-      <guid>http://example.org/groups/events/</guid>
-      <description>Group events</description>
-    </item>
-    
-    <item>
-      <title>extensions</title>
-      <link>http://example.org/groups/extensions/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
-      
-      <guid>http://example.org/groups/extensions/</guid>
-      <description>Group extensions</description>
-    </item>
-    
-    <item>
-      <title>meta</title>
-      <link>http://example.org/groups/meta/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
-      
-      <guid>http://example.org/groups/meta/</guid>
-      <description>Group meta</description>
-    </item>
-    
-    <item>
-      <title>networking</title>
-      <link>http://example.org/groups/networking/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
-      
-      <guid>http://example.org/groups/networking/</guid>
-      <description>Group networking</description>
-    </item>
-    
-    <item>
-      <title>node</title>
-      <link>http://example.org/groups/node/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
-      
-      <guid>http://example.org/groups/node/</guid>
-      <description>Group node</description>
-    </item>
-    
-    <item>
-      <title>policy</title>
-      <link>http://example.org/groups/policy/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
-      
-      <guid>http://example.org/groups/policy/</guid>
-      <description>Group policy</description>
-    </item>
-    
-    <item>
-      <title>rbac</title>
-      <link>http://example.org/groups/rbac/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
-      
-      <guid>http://example.org/groups/rbac/</guid>
-      <description>Group rbac</description>
-    </item>
-    
-    <item>
-      <title>scheduling</title>
-      <link>http://example.org/groups/scheduling/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
-      
-      <guid>http://example.org/groups/scheduling/</guid>
-      <description>Group scheduling</description>
-    </item>
-    
-    <item>
-      <title>settings</title>
-      <link>http://example.org/groups/settings/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
-      
-      <guid>http://example.org/groups/settings/</guid>
-      <description>Group settings</description>
-    </item>
-    
-    <item>
-      <title>storage</title>
-      <link>http://example.org/groups/storage/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
-      
-      <guid>http://example.org/groups/storage/</guid>
-      <description>Group storage</description>
-    </item>
-    
-    <item>
-      <title>admissionregistration</title>
-      <link>http://example.org/groups/admissionregistration/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
-      
-      <guid>http://example.org/groups/admissionregistration/</guid>
-      <description>Group admissionregistration</description>
-    </item>
-    
-    <item>
-      <title>apiextensions</title>
-      <link>http://example.org/groups/apiextensions/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
-      
-      <guid>http://example.org/groups/apiextensions/</guid>
-      <description>Group apiextensions</description>
-    </item>
-    
-    <item>
-      <title>apiregistration</title>
-      <link>http://example.org/groups/apiregistration/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
-      
-      <guid>http://example.org/groups/apiregistration/</guid>
-      <description>Group apiregistration</description>
-    </item>
-    
-    <item>
-      <title>apps</title>
-      <link>http://example.org/groups/apps/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
-      
-      <guid>http://example.org/groups/apps/</guid>
-      <description>Group apps</description>
-    </item>
-    
-    <item>
       <title>auditregistration</title>
       <link>http://example.org/groups/auditregistration/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/groups/auditregistration/</guid>
       <description>Group auditregistration</description>
@@ -194,7 +23,7 @@
     <item>
       <title>authentication</title>
       <link>http://example.org/groups/authentication/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/groups/authentication/</guid>
       <description>Group authentication</description>
@@ -203,10 +32,181 @@
     <item>
       <title>authorization</title>
       <link>http://example.org/groups/authorization/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/groups/authorization/</guid>
       <description>Group authorization</description>
+    </item>
+    
+    <item>
+      <title>autoscaling</title>
+      <link>http://example.org/groups/autoscaling/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/groups/autoscaling/</guid>
+      <description>Group autoscaling</description>
+    </item>
+    
+    <item>
+      <title>batch</title>
+      <link>http://example.org/groups/batch/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/groups/batch/</guid>
+      <description>Group batch</description>
+    </item>
+    
+    <item>
+      <title>certificates</title>
+      <link>http://example.org/groups/certificates/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/groups/certificates/</guid>
+      <description>Group certificates</description>
+    </item>
+    
+    <item>
+      <title>coordination</title>
+      <link>http://example.org/groups/coordination/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/groups/coordination/</guid>
+      <description>Group coordination</description>
+    </item>
+    
+    <item>
+      <title>core</title>
+      <link>http://example.org/groups/core/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/groups/core/</guid>
+      <description>Group core</description>
+    </item>
+    
+    <item>
+      <title>events</title>
+      <link>http://example.org/groups/events/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/groups/events/</guid>
+      <description>Group events</description>
+    </item>
+    
+    <item>
+      <title>extensions</title>
+      <link>http://example.org/groups/extensions/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/groups/extensions/</guid>
+      <description>Group extensions</description>
+    </item>
+    
+    <item>
+      <title>meta</title>
+      <link>http://example.org/groups/meta/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/groups/meta/</guid>
+      <description>Group meta</description>
+    </item>
+    
+    <item>
+      <title>networking</title>
+      <link>http://example.org/groups/networking/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/groups/networking/</guid>
+      <description>Group networking</description>
+    </item>
+    
+    <item>
+      <title>node</title>
+      <link>http://example.org/groups/node/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/groups/node/</guid>
+      <description>Group node</description>
+    </item>
+    
+    <item>
+      <title>policy</title>
+      <link>http://example.org/groups/policy/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/groups/policy/</guid>
+      <description>Group policy</description>
+    </item>
+    
+    <item>
+      <title>rbac</title>
+      <link>http://example.org/groups/rbac/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/groups/rbac/</guid>
+      <description>Group rbac</description>
+    </item>
+    
+    <item>
+      <title>scheduling</title>
+      <link>http://example.org/groups/scheduling/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/groups/scheduling/</guid>
+      <description>Group scheduling</description>
+    </item>
+    
+    <item>
+      <title>settings</title>
+      <link>http://example.org/groups/settings/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/groups/settings/</guid>
+      <description>Group settings</description>
+    </item>
+    
+    <item>
+      <title>storage</title>
+      <link>http://example.org/groups/storage/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/groups/storage/</guid>
+      <description>Group storage</description>
+    </item>
+    
+    <item>
+      <title>admissionregistration</title>
+      <link>http://example.org/groups/admissionregistration/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      
+      <guid>http://example.org/groups/admissionregistration/</guid>
+      <description>Group admissionregistration</description>
+    </item>
+    
+    <item>
+      <title>apiextensions</title>
+      <link>http://example.org/groups/apiextensions/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      
+      <guid>http://example.org/groups/apiextensions/</guid>
+      <description>Group apiextensions</description>
+    </item>
+    
+    <item>
+      <title>apiregistration</title>
+      <link>http://example.org/groups/apiregistration/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      
+      <guid>http://example.org/groups/apiregistration/</guid>
+      <description>Group apiregistration</description>
+    </item>
+    
+    <item>
+      <title>apps</title>
+      <link>http://example.org/groups/apps/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      
+      <guid>http://example.org/groups/apps/</guid>
+      <description>Group apps</description>
     </item>
     
   </channel>

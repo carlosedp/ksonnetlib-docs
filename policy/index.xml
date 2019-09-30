@@ -6,7 +6,7 @@
     <description>Recent content in Policies on ksonnet lib API Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 14:37:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 17:02:28 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/policy/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>new</title>
       <link>http://example.org/policy/v1beta1/eviction/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/new/</guid>
       <description>newfunction() apiVersion + kind</description>
@@ -23,7 +23,7 @@
     <item>
       <title>new</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/new/</guid>
       <description>newfunction() apiVersion + kind</description>
@@ -32,7 +32,7 @@
     <item>
       <title>new</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/new/</guid>
       <description>newfunction() apiVersion + kind</description>
@@ -41,7 +41,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/eviction/deleteOptions/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/deleteOptions/mixinInstance/</guid>
       <description>mixinInstancefunction(deleteOptions) __deleteOptionsMixin(deleteOptions)</description>
@@ -50,7 +50,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/eviction/deleteOptions/preconditions/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/deleteOptions/preconditions/mixinInstance/</guid>
       <description>mixinInstancefunction(preconditions) __preconditionsMixin(preconditions)</description>
@@ -59,7 +59,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/initializers/mixinInstance/</guid>
       <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
@@ -68,7 +68,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/mixinInstance/</guid>
       <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
@@ -77,7 +77,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/initializers/mixinInstance/</guid>
       <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
@@ -86,7 +86,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/mixinInstance/</guid>
       <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
@@ -95,7 +95,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/spec/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/spec/mixinInstance/</guid>
       <description>mixinInstancefunction(spec) __specMixin(spec)</description>
@@ -104,7 +104,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selector/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selector/mixinInstance/</guid>
       <description>mixinInstancefunction(selector) __selectorMixin(selector)</description>
@@ -113,7 +113,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/initializers/mixinInstance/</guid>
       <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
@@ -122,7 +122,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/mixinInstance/</guid>
       <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
@@ -131,7 +131,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/fsGroup/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/fsGroup/mixinInstance/</guid>
       <description>mixinInstancefunction(fsGroup) __fsGroupMixin(fsGroup)</description>
@@ -140,7 +140,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/mixinInstance/</guid>
       <description>mixinInstancefunction(spec) __specMixin(spec)</description>
@@ -149,7 +149,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsGroup/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsGroup/mixinInstance/</guid>
       <description>mixinInstancefunction(runAsGroup) __runAsGroupMixin(runAsGroup)</description>
@@ -158,7 +158,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsUser/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsUser/mixinInstance/</guid>
       <description>mixinInstancefunction(runAsUser) __runAsUserMixin(runAsUser)</description>
@@ -166,8 +166,17 @@
     
     <item>
       <title>mixinInstance</title>
+      <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runtimeClass/mixinInstance/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runtimeClass/mixinInstance/</guid>
+      <description>mixinInstancefunction(runtimeClass) __runtimeClassMixin(runtimeClass)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/mixinInstance/</guid>
       <description>mixinInstancefunction(seLinux) __seLinuxMixin(seLinux)</description>
@@ -176,7 +185,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/seLinuxOptions/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/seLinuxOptions/mixinInstance/</guid>
       <description>mixinInstancefunction(seLinuxOptions) __seLinuxOptionsMixin(seLinuxOptions)</description>
@@ -185,7 +194,7 @@
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/supplementalGroups/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/supplementalGroups/mixinInstance/</guid>
       <description>mixinInstancefunction(supplementalGroups) __supplementalGroupsMixin(supplementalGroups)</description>
@@ -194,7 +203,7 @@
     <item>
       <title>withAllowPrivilegeEscalation</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowPrivilegeEscalation/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowPrivilegeEscalation/</guid>
       <description>withAllowPrivilegeEscalationfunction(allowPrivilegeEscalation) self + __specMixin({ allowPrivilegeEscalation: allowPrivilegeEscalation }) allowPrivilegeEscalation determines if a pod can request to allow privilege escalation. If unspecified, defaults to true.</description>
@@ -203,7 +212,7 @@
     <item>
       <title>withAllowedCapabilities</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedCapabilities/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedCapabilities/</guid>
       <description>withAllowedCapabilitiesfunction(allowedCapabilities) self + if std.type(allowedCapabilities) == &amp;#39;array&amp;#39; then __specMixin({ allowedCapabilities: allowedCapabilities }) else __specMixin({ allowedCapabilities: [allowedCapabilities] }) allowedCapabilities is a list of capabilities that can be requested to add to the container. Capabilities in this field may be added at the pod author&amp;rsquo;s discretion. You must not list a capability in both allowedCapabilities and requiredDropCapabilities.</description>
@@ -212,7 +221,7 @@
     <item>
       <title>withAllowedCapabilitiesMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedCapabilitiesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedCapabilitiesMixin/</guid>
       <description>withAllowedCapabilitiesMixinfunction(allowedCapabilities) self + if std.type(allowedCapabilities) == &amp;#39;array&amp;#39; then __specMixin({ allowedCapabilities+: allowedCapabilities }) else __specMixin({ allowedCapabilities+: [allowedCapabilities] }) allowedCapabilities is a list of capabilities that can be requested to add to the container. Capabilities in this field may be added at the pod author&amp;rsquo;s discretion. You must not list a capability in both allowedCapabilities and requiredDropCapabilities.</description>
@@ -221,25 +230,25 @@
     <item>
       <title>withAllowedCsiDrivers</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedCsiDrivers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedCsiDrivers/</guid>
-      <description>withAllowedCsiDriversfunction(allowedCsiDrivers) self + if std.type(allowedCsiDrivers) == &amp;#39;array&amp;#39; then __specMixin({ allowedCSIDrivers: allowedCsiDrivers }) else __specMixin({ allowedCSIDrivers: [allowedCsiDrivers] }) AllowedCSIDrivers is a whitelist of inline CSI drivers that must be explicitly set to be embedded within a pod spec. An empty value means no CSI drivers can run inline within a pod spec.</description>
+      <description>withAllowedCsiDriversfunction(allowedCsiDrivers) self + if std.type(allowedCsiDrivers) == &amp;#39;array&amp;#39; then __specMixin({ allowedCSIDrivers: allowedCsiDrivers }) else __specMixin({ allowedCSIDrivers: [allowedCsiDrivers] }) AllowedCSIDrivers is a whitelist of inline CSI drivers that must be explicitly set to be embedded within a pod spec. An empty value indicates that any CSI driver can be used for inline ephemeral volumes. This is an alpha field, and is only honored if the API server enables the CSIInlineVolume feature gate.</description>
     </item>
     
     <item>
       <title>withAllowedCsiDriversMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedCsiDriversMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedCsiDriversMixin/</guid>
-      <description>withAllowedCsiDriversMixinfunction(allowedCsiDrivers) self + if std.type(allowedCsiDrivers) == &amp;#39;array&amp;#39; then __specMixin({ allowedCSIDrivers+: allowedCsiDrivers }) else __specMixin({ allowedCSIDrivers+: [allowedCsiDrivers] }) AllowedCSIDrivers is a whitelist of inline CSI drivers that must be explicitly set to be embedded within a pod spec. An empty value means no CSI drivers can run inline within a pod spec.</description>
+      <description>withAllowedCsiDriversMixinfunction(allowedCsiDrivers) self + if std.type(allowedCsiDrivers) == &amp;#39;array&amp;#39; then __specMixin({ allowedCSIDrivers+: allowedCsiDrivers }) else __specMixin({ allowedCSIDrivers+: [allowedCsiDrivers] }) AllowedCSIDrivers is a whitelist of inline CSI drivers that must be explicitly set to be embedded within a pod spec. An empty value indicates that any CSI driver can be used for inline ephemeral volumes. This is an alpha field, and is only honored if the API server enables the CSIInlineVolume feature gate.</description>
     </item>
     
     <item>
       <title>withAllowedFlexVolumes</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedFlexVolumes/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedFlexVolumes/</guid>
       <description>withAllowedFlexVolumesfunction(allowedFlexVolumes) self + if std.type(allowedFlexVolumes) == &amp;#39;array&amp;#39; then __specMixin({ allowedFlexVolumes: allowedFlexVolumes }) else __specMixin({ allowedFlexVolumes: [allowedFlexVolumes] }) allowedFlexVolumes is a whitelist of allowed Flexvolumes. Empty or nil indicates that all Flexvolumes may be used. This parameter is effective only when the usage of the Flexvolumes is allowed in the &amp;ldquo;volumes&amp;rdquo; field.
@@ -250,7 +259,7 @@ see hidden.policy.v1beta1.allowedFlexVolume</description>
     <item>
       <title>withAllowedFlexVolumesMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedFlexVolumesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedFlexVolumesMixin/</guid>
       <description>withAllowedFlexVolumesMixinfunction(allowedFlexVolumes) self + if std.type(allowedFlexVolumes) == &amp;#39;array&amp;#39; then __specMixin({ allowedFlexVolumes+: allowedFlexVolumes }) else __specMixin({ allowedFlexVolumes+: [allowedFlexVolumes] }) allowedFlexVolumes is a whitelist of allowed Flexvolumes. Empty or nil indicates that all Flexvolumes may be used. This parameter is effective only when the usage of the Flexvolumes is allowed in the &amp;ldquo;volumes&amp;rdquo; field.
@@ -261,7 +270,7 @@ see hidden.policy.v1beta1.allowedFlexVolume</description>
     <item>
       <title>withAllowedHostPaths</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedHostPaths/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedHostPaths/</guid>
       <description>withAllowedHostPathsfunction(allowedHostPaths) self + if std.type(allowedHostPaths) == &amp;#39;array&amp;#39; then __specMixin({ allowedHostPaths: allowedHostPaths }) else __specMixin({ allowedHostPaths: [allowedHostPaths] }) allowedHostPaths is a white list of allowed host paths. Empty indicates that all host paths may be used.
@@ -272,7 +281,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withAllowedHostPathsMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedHostPathsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedHostPathsMixin/</guid>
       <description>withAllowedHostPathsMixinfunction(allowedHostPaths) self + if std.type(allowedHostPaths) == &amp;#39;array&amp;#39; then __specMixin({ allowedHostPaths+: allowedHostPaths }) else __specMixin({ allowedHostPaths+: [allowedHostPaths] }) allowedHostPaths is a white list of allowed host paths. Empty indicates that all host paths may be used.
@@ -283,7 +292,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withAllowedProcMountTypes</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedProcMountTypes/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedProcMountTypes/</guid>
       <description>withAllowedProcMountTypesfunction(allowedProcMountTypes) self + if std.type(allowedProcMountTypes) == &amp;#39;array&amp;#39; then __specMixin({ allowedProcMountTypes: allowedProcMountTypes }) else __specMixin({ allowedProcMountTypes: [allowedProcMountTypes] }) AllowedProcMountTypes is a whitelist of allowed ProcMountTypes. Empty or nil indicates that only the DefaultProcMountType may be used. This requires the ProcMountType feature flag to be enabled.</description>
@@ -292,16 +301,34 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withAllowedProcMountTypesMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedProcMountTypesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedProcMountTypesMixin/</guid>
       <description>withAllowedProcMountTypesMixinfunction(allowedProcMountTypes) self + if std.type(allowedProcMountTypes) == &amp;#39;array&amp;#39; then __specMixin({ allowedProcMountTypes+: allowedProcMountTypes }) else __specMixin({ allowedProcMountTypes+: [allowedProcMountTypes] }) AllowedProcMountTypes is a whitelist of allowed ProcMountTypes. Empty or nil indicates that only the DefaultProcMountType may be used. This requires the ProcMountType feature flag to be enabled.</description>
     </item>
     
     <item>
+      <title>withAllowedRuntimeClassNames</title>
+      <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runtimeClass/withAllowedRuntimeClassNames/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runtimeClass/withAllowedRuntimeClassNames/</guid>
+      <description>withAllowedRuntimeClassNamesfunction(allowedRuntimeClassNames) self + if std.type(allowedRuntimeClassNames) == &amp;#39;array&amp;#39; then __runtimeClassMixin({ allowedRuntimeClassNames: allowedRuntimeClassNames }) else __runtimeClassMixin({ allowedRuntimeClassNames: [allowedRuntimeClassNames] }) allowedRuntimeClassNames is a whitelist of RuntimeClass names that may be specified on a pod. A value of &amp;ldquo;*&amp;rdquo; means that any RuntimeClass name is allowed, and must be the only item in the list. An empty list requires the RuntimeClassName field to be unset.</description>
+    </item>
+    
+    <item>
+      <title>withAllowedRuntimeClassNamesMixin</title>
+      <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runtimeClass/withAllowedRuntimeClassNamesMixin/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runtimeClass/withAllowedRuntimeClassNamesMixin/</guid>
+      <description>withAllowedRuntimeClassNamesMixinfunction(allowedRuntimeClassNames) self + if std.type(allowedRuntimeClassNames) == &amp;#39;array&amp;#39; then __runtimeClassMixin({ allowedRuntimeClassNames+: allowedRuntimeClassNames }) else __runtimeClassMixin({ allowedRuntimeClassNames+: [allowedRuntimeClassNames] }) allowedRuntimeClassNames is a whitelist of RuntimeClass names that may be specified on a pod. A value of &amp;ldquo;*&amp;rdquo; means that any RuntimeClass name is allowed, and must be the only item in the list. An empty list requires the RuntimeClassName field to be unset.</description>
+    </item>
+    
+    <item>
       <title>withAllowedUnsafeSysctls</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedUnsafeSysctls/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedUnsafeSysctls/</guid>
       <description>withAllowedUnsafeSysctlsfunction(allowedUnsafeSysctls) self + if std.type(allowedUnsafeSysctls) == &amp;#39;array&amp;#39; then __specMixin({ allowedUnsafeSysctls: allowedUnsafeSysctls }) else __specMixin({ allowedUnsafeSysctls: [allowedUnsafeSysctls] }) allowedUnsafeSysctls is a list of explicitly allowed unsafe sysctls, defaults to none. Each entry is either a plain sysctl name or ends in &amp;ldquo;*&amp;rdquo; in which case it is considered as a prefix of allowed sysctls. Single * means all unsafe sysctls are allowed. Kubelet has to whitelist all allowed unsafe sysctls explicitly to avoid rejection.</description>
@@ -310,7 +337,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withAllowedUnsafeSysctlsMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedUnsafeSysctlsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withAllowedUnsafeSysctlsMixin/</guid>
       <description>withAllowedUnsafeSysctlsMixinfunction(allowedUnsafeSysctls) self + if std.type(allowedUnsafeSysctls) == &amp;#39;array&amp;#39; then __specMixin({ allowedUnsafeSysctls+: allowedUnsafeSysctls }) else __specMixin({ allowedUnsafeSysctls+: [allowedUnsafeSysctls] }) allowedUnsafeSysctls is a list of explicitly allowed unsafe sysctls, defaults to none. Each entry is either a plain sysctl name or ends in &amp;ldquo;*&amp;rdquo; in which case it is considered as a prefix of allowed sysctls. Single * means all unsafe sysctls are allowed. Kubelet has to whitelist all allowed unsafe sysctls explicitly to avoid rejection.</description>
@@ -319,7 +346,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/withAnnotations/</guid>
       <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -328,7 +355,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withAnnotations/</guid>
       <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -337,7 +364,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withAnnotations/</guid>
       <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -346,7 +373,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/withAnnotationsMixin/</guid>
       <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -355,7 +382,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withAnnotationsMixin/</guid>
       <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -364,7 +391,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withAnnotationsMixin/</guid>
       <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
@@ -373,7 +400,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withClusterName</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/withClusterName/</guid>
       <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
@@ -382,7 +409,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withClusterName</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withClusterName/</guid>
       <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
@@ -391,7 +418,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withClusterName</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withClusterName/</guid>
       <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
@@ -400,7 +427,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withDefaultAddCapabilities</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withDefaultAddCapabilities/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withDefaultAddCapabilities/</guid>
       <description>withDefaultAddCapabilitiesfunction(defaultAddCapabilities) self + if std.type(defaultAddCapabilities) == &amp;#39;array&amp;#39; then __specMixin({ defaultAddCapabilities: defaultAddCapabilities }) else __specMixin({ defaultAddCapabilities: [defaultAddCapabilities] }) defaultAddCapabilities is the default set of capabilities that will be added to the container unless the pod spec specifically drops the capability. You may not list a capability in both defaultAddCapabilities and requiredDropCapabilities. Capabilities added here are implicitly allowed, and need not be included in the allowedCapabilities list.</description>
@@ -409,7 +436,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withDefaultAddCapabilitiesMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withDefaultAddCapabilitiesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withDefaultAddCapabilitiesMixin/</guid>
       <description>withDefaultAddCapabilitiesMixinfunction(defaultAddCapabilities) self + if std.type(defaultAddCapabilities) == &amp;#39;array&amp;#39; then __specMixin({ defaultAddCapabilities+: defaultAddCapabilities }) else __specMixin({ defaultAddCapabilities+: [defaultAddCapabilities] }) defaultAddCapabilities is the default set of capabilities that will be added to the container unless the pod spec specifically drops the capability. You may not list a capability in both defaultAddCapabilities and requiredDropCapabilities. Capabilities added here are implicitly allowed, and need not be included in the allowedCapabilities list.</description>
@@ -418,16 +445,25 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withDefaultAllowPrivilegeEscalation</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withDefaultAllowPrivilegeEscalation/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withDefaultAllowPrivilegeEscalation/</guid>
       <description>withDefaultAllowPrivilegeEscalationfunction(defaultAllowPrivilegeEscalation) self + __specMixin({ defaultAllowPrivilegeEscalation: defaultAllowPrivilegeEscalation }) defaultAllowPrivilegeEscalation controls the default setting for whether a process can gain more privileges than its parent process.</description>
     </item>
     
     <item>
+      <title>withDefaultRuntimeClassName</title>
+      <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runtimeClass/withDefaultRuntimeClassName/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runtimeClass/withDefaultRuntimeClassName/</guid>
+      <description>withDefaultRuntimeClassNamefunction(defaultRuntimeClassName) self + __runtimeClassMixin({ defaultRuntimeClassName: defaultRuntimeClassName }) defaultRuntimeClassName is the default RuntimeClassName to set on the pod. The default MUST be allowed by the allowedRuntimeClassNames list. A value of nil does not mutate the Pod.</description>
+    </item>
+    
+    <item>
       <title>withDryRun</title>
       <link>http://example.org/policy/v1beta1/eviction/deleteOptions/withDryRun/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/deleteOptions/withDryRun/</guid>
       <description>withDryRunfunction(dryRun) self + if std.type(dryRun) == &amp;#39;array&amp;#39; then __deleteOptionsMixin({ dryRun: dryRun }) else __deleteOptionsMixin({ dryRun: [dryRun] }) When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed</description>
@@ -436,7 +472,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withDryRunMixin</title>
       <link>http://example.org/policy/v1beta1/eviction/deleteOptions/withDryRunMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/deleteOptions/withDryRunMixin/</guid>
       <description>withDryRunMixinfunction(dryRun) self + if std.type(dryRun) == &amp;#39;array&amp;#39; then __deleteOptionsMixin({ dryRun+: dryRun }) else __deleteOptionsMixin({ dryRun+: [dryRun] }) When present, indicates that modifications should not be persisted. An invalid or unrecognized dryRun directive will result in an error response and no further processing of the request. Valid values are: - All: all dry run stages will be processed</description>
@@ -445,7 +481,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/withFinalizers/</guid>
       <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -454,7 +490,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withFinalizers/</guid>
       <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -463,7 +499,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withFinalizers/</guid>
       <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -472,7 +508,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/withFinalizersMixin/</guid>
       <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -481,7 +517,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withFinalizersMixin/</guid>
       <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -490,7 +526,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withFinalizersMixin/</guid>
       <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
@@ -499,7 +535,7 @@ see hidden.policy.v1beta1.allowedHostPath</description>
     <item>
       <title>withForbiddenSysctls</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withForbiddenSysctls/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withForbiddenSysctls/</guid>
       <description>withForbiddenSysctlsfunction(forbiddenSysctls) self + if std.type(forbiddenSysctls) == &amp;#39;array&amp;#39; then __specMixin({ forbiddenSysctls: forbiddenSysctls }) else __specMixin({ forbiddenSysctls: [forbiddenSysctls] }) forbiddenSysctls is a list of explicitly forbidden sysctls, defaults to none. Each entry is either a plain sysctl name or ends in &amp;ldquo;*&amp;rdquo; in which case it is considered as a prefix of forbidden sysctls. Single * means all sysctls are forbidden.
@@ -510,7 +546,7 @@ Examples: e.g. &amp;ldquo;foo/&amp;rdquo; forbids &amp;ldquo;foo/bar&amp;rdquo;,
     <item>
       <title>withForbiddenSysctlsMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withForbiddenSysctlsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withForbiddenSysctlsMixin/</guid>
       <description>withForbiddenSysctlsMixinfunction(forbiddenSysctls) self + if std.type(forbiddenSysctls) == &amp;#39;array&amp;#39; then __specMixin({ forbiddenSysctls+: forbiddenSysctls }) else __specMixin({ forbiddenSysctls+: [forbiddenSysctls] }) forbiddenSysctls is a list of explicitly forbidden sysctls, defaults to none. Each entry is either a plain sysctl name or ends in &amp;ldquo;*&amp;rdquo; in which case it is considered as a prefix of forbidden sysctls. Single * means all sysctls are forbidden.
@@ -521,7 +557,7 @@ Examples: e.g. &amp;ldquo;foo/&amp;rdquo; forbids &amp;ldquo;foo/bar&amp;rdquo;,
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/withGenerateName/</guid>
       <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
@@ -530,7 +566,7 @@ Examples: e.g. &amp;ldquo;foo/&amp;rdquo; forbids &amp;ldquo;foo/bar&amp;rdquo;,
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withGenerateName/</guid>
       <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
@@ -539,7 +575,7 @@ Examples: e.g. &amp;ldquo;foo/&amp;rdquo; forbids &amp;ldquo;foo/bar&amp;rdquo;,
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withGenerateName/</guid>
       <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
@@ -548,7 +584,7 @@ Examples: e.g. &amp;ldquo;foo/&amp;rdquo; forbids &amp;ldquo;foo/bar&amp;rdquo;,
     <item>
       <title>withGracePeriodSeconds</title>
       <link>http://example.org/policy/v1beta1/eviction/deleteOptions/withGracePeriodSeconds/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/deleteOptions/withGracePeriodSeconds/</guid>
       <description>withGracePeriodSecondsfunction(gracePeriodSeconds) self + __deleteOptionsMixin({ gracePeriodSeconds: gracePeriodSeconds }) The duration in seconds before the object should be deleted. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period for the specified type will be used. Defaults to a per object value if not specified. zero means delete immediately.</description>
@@ -557,7 +593,7 @@ Examples: e.g. &amp;ldquo;foo/&amp;rdquo; forbids &amp;ldquo;foo/bar&amp;rdquo;,
     <item>
       <title>withHostIpc</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withHostIpc/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withHostIpc/</guid>
       <description>withHostIpcfunction(hostIpc) self + __specMixin({ hostIPC: hostIpc }) hostIPC determines if the policy allows the use of HostIPC in the pod spec.</description>
@@ -566,7 +602,7 @@ Examples: e.g. &amp;ldquo;foo/&amp;rdquo; forbids &amp;ldquo;foo/bar&amp;rdquo;,
     <item>
       <title>withHostNetwork</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withHostNetwork/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withHostNetwork/</guid>
       <description>withHostNetworkfunction(hostNetwork) self + __specMixin({ hostNetwork: hostNetwork }) hostNetwork determines if the policy allows the use of HostNetwork in the pod spec.</description>
@@ -575,7 +611,7 @@ Examples: e.g. &amp;ldquo;foo/&amp;rdquo; forbids &amp;ldquo;foo/bar&amp;rdquo;,
     <item>
       <title>withHostPid</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withHostPid/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withHostPid/</guid>
       <description>withHostPidfunction(hostPid) self + __specMixin({ hostPID: hostPid }) hostPID determines if the policy allows the use of HostPID in the pod spec.</description>
@@ -584,7 +620,7 @@ Examples: e.g. &amp;ldquo;foo/&amp;rdquo; forbids &amp;ldquo;foo/bar&amp;rdquo;,
     <item>
       <title>withHostPorts</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withHostPorts/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withHostPorts/</guid>
       <description>withHostPortsfunction(hostPorts) self + if std.type(hostPorts) == &amp;#39;array&amp;#39; then __specMixin({ hostPorts: hostPorts }) else __specMixin({ hostPorts: [hostPorts] }) hostPorts determines which host port ranges are allowed to be exposed.
@@ -595,7 +631,7 @@ see hidden.policy.v1beta1.hostPortRange</description>
     <item>
       <title>withHostPortsMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withHostPortsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withHostPortsMixin/</guid>
       <description>withHostPortsMixinfunction(hostPorts) self + if std.type(hostPorts) == &amp;#39;array&amp;#39; then __specMixin({ hostPorts+: hostPorts }) else __specMixin({ hostPorts+: [hostPorts] }) hostPorts determines which host port ranges are allowed to be exposed.
@@ -606,7 +642,7 @@ see hidden.policy.v1beta1.hostPortRange</description>
     <item>
       <title>withLabels</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/withLabels/</guid>
       <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -615,7 +651,7 @@ see hidden.policy.v1beta1.hostPortRange</description>
     <item>
       <title>withLabels</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withLabels/</guid>
       <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -624,7 +660,7 @@ see hidden.policy.v1beta1.hostPortRange</description>
     <item>
       <title>withLabels</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withLabels/</guid>
       <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -633,7 +669,7 @@ see hidden.policy.v1beta1.hostPortRange</description>
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/withLabelsMixin/</guid>
       <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -642,7 +678,7 @@ see hidden.policy.v1beta1.hostPortRange</description>
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withLabelsMixin/</guid>
       <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -651,7 +687,7 @@ see hidden.policy.v1beta1.hostPortRange</description>
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withLabelsMixin/</guid>
       <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
@@ -660,7 +696,7 @@ see hidden.policy.v1beta1.hostPortRange</description>
     <item>
       <title>withLevel</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/seLinuxOptions/withLevel/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/seLinuxOptions/withLevel/</guid>
       <description>withLevelfunction(level) self + __seLinuxOptionsMixin({ level: level }) Level is SELinux level label that applies to the container.</description>
@@ -669,7 +705,7 @@ see hidden.policy.v1beta1.hostPortRange</description>
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/withManagedFields/</guid>
       <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -678,7 +714,7 @@ see hidden.policy.v1beta1.hostPortRange</description>
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withManagedFields/</guid>
       <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -687,7 +723,7 @@ see hidden.policy.v1beta1.hostPortRange</description>
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withManagedFields/</guid>
       <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -696,7 +732,7 @@ see hidden.policy.v1beta1.hostPortRange</description>
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/withManagedFieldsMixin/</guid>
       <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -705,7 +741,7 @@ see hidden.policy.v1beta1.hostPortRange</description>
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withManagedFieldsMixin/</guid>
       <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -714,7 +750,7 @@ see hidden.policy.v1beta1.hostPortRange</description>
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withManagedFieldsMixin/</guid>
       <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
@@ -723,7 +759,7 @@ see hidden.policy.v1beta1.hostPortRange</description>
     <item>
       <title>withMatchExpressions</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selector/withMatchExpressions/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selector/withMatchExpressions/</guid>
       <description>withMatchExpressionsfunction(matchExpressions) self + if std.type(matchExpressions) == &amp;#39;array&amp;#39; then __selectorMixin({ matchExpressions: matchExpressions }) else __selectorMixin({ matchExpressions: [matchExpressions] }) matchExpressions is a list of label selector requirements. The requirements are ANDed.
@@ -734,7 +770,7 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withMatchExpressionsMixin</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selector/withMatchExpressionsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selector/withMatchExpressionsMixin/</guid>
       <description>withMatchExpressionsMixinfunction(matchExpressions) self + if std.type(matchExpressions) == &amp;#39;array&amp;#39; then __selectorMixin({ matchExpressions+: matchExpressions }) else __selectorMixin({ matchExpressions+: [matchExpressions] }) matchExpressions is a list of label selector requirements. The requirements are ANDed.
@@ -745,7 +781,7 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withMatchLabels</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selector/withMatchLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selector/withMatchLabels/</guid>
       <description>withMatchLabelsfunction(matchLabels) self + __selectorMixin({ matchLabels: matchLabels }) matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &amp;ldquo;key&amp;rdquo;, the operator is &amp;ldquo;In&amp;rdquo;, and the values array contains only &amp;ldquo;value&amp;rdquo;. The requirements are ANDed.</description>
@@ -754,7 +790,7 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withMatchLabelsMixin</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selector/withMatchLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selector/withMatchLabelsMixin/</guid>
       <description>withMatchLabelsMixinfunction(matchLabels) self + __selectorMixin({ matchLabels+: matchLabels }) matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &amp;ldquo;key&amp;rdquo;, the operator is &amp;ldquo;In&amp;rdquo;, and the values array contains only &amp;ldquo;value&amp;rdquo;. The requirements are ANDed.</description>
@@ -763,7 +799,7 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withMaxUnavailable</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/spec/withMaxUnavailable/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/spec/withMaxUnavailable/</guid>
       <description>withMaxUnavailablefunction(maxUnavailable) self + __specMixin({ maxUnavailable: maxUnavailable }) An eviction is allowed if at most &amp;ldquo;maxUnavailable&amp;rdquo; pods selected by &amp;ldquo;selector&amp;rdquo; are unavailable after the eviction, i.e. even in absence of the evicted pod. For example, one can prevent all voluntary evictions by specifying 0. This is a mutually exclusive setting with &amp;ldquo;minAvailable&amp;rdquo;.</description>
@@ -772,7 +808,7 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withMinAvailable</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/spec/withMinAvailable/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/spec/withMinAvailable/</guid>
       <description>withMinAvailablefunction(minAvailable) self + __specMixin({ minAvailable: minAvailable }) An eviction is allowed if at least &amp;ldquo;minAvailable&amp;rdquo; pods selected by &amp;ldquo;selector&amp;rdquo; will still be available after the eviction, i.e. even in the absence of the evicted pod. So for example you can prevent all voluntary evictions by specifying &amp;ldquo;100%&amp;rdquo;.</description>
@@ -781,7 +817,7 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withName</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/withName/</guid>
       <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
@@ -790,7 +826,7 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withName</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withName/</guid>
       <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
@@ -799,7 +835,7 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withName</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withName/</guid>
       <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
@@ -808,7 +844,7 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withNamespace</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/withNamespace/</guid>
       <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
@@ -819,7 +855,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withNamespace</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withNamespace/</guid>
       <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
@@ -830,7 +866,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withNamespace</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withNamespace/</guid>
       <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
@@ -841,7 +877,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOrphanDependents</title>
       <link>http://example.org/policy/v1beta1/eviction/deleteOptions/withOrphanDependents/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/deleteOptions/withOrphanDependents/</guid>
       <description>withOrphanDependentsfunction(orphanDependents) self + __deleteOptionsMixin({ orphanDependents: orphanDependents }) Deprecated: please use the PropagationPolicy, this field will be deprecated in 1.7. Should the dependent objects be orphaned. If true/false, the &amp;ldquo;orphan&amp;rdquo; finalizer will be added to/removed from the object&amp;rsquo;s finalizers list. Either this field or PropagationPolicy may be set, but not both.</description>
@@ -850,7 +886,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/withOwnerReferences/</guid>
       <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -859,7 +895,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withOwnerReferences/</guid>
       <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -868,7 +904,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withOwnerReferences/</guid>
       <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -877,7 +913,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/withOwnerReferencesMixin/</guid>
       <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -886,7 +922,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/withOwnerReferencesMixin/</guid>
       <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -895,7 +931,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/withOwnerReferencesMixin/</guid>
       <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
@@ -904,7 +940,7 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withPending</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/initializers/withPending/</guid>
       <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -914,7 +950,7 @@ withPending takes an array of type pendingType.</description>
     <item>
       <title>withPending</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/initializers/withPending/</guid>
       <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -924,7 +960,7 @@ withPending takes an array of type pendingType.</description>
     <item>
       <title>withPending</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/initializers/withPending/</guid>
       <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -934,7 +970,7 @@ withPending takes an array of type pendingType.</description>
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/initializers/withPendingMixin/</guid>
       <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -944,7 +980,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/initializers/withPendingMixin/</guid>
       <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -954,7 +990,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/initializers/withPendingMixin/</guid>
       <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
@@ -964,7 +1000,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>withPrivileged</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withPrivileged/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withPrivileged/</guid>
       <description>withPrivilegedfunction(privileged) self + __specMixin({ privileged: privileged }) privileged determines if a pod can request to be run as privileged.</description>
@@ -973,7 +1009,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>withPropagationPolicy</title>
       <link>http://example.org/policy/v1beta1/eviction/deleteOptions/withPropagationPolicy/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/deleteOptions/withPropagationPolicy/</guid>
       <description>withPropagationPolicyfunction(propagationPolicy) self + __deleteOptionsMixin({ propagationPolicy: propagationPolicy }) Whether and how garbage collection will be performed. Either this field or OrphanDependents may be set, but not both. The default policy is decided by the existing finalizer set in the metadata.finalizers and the resource-specific default policy. Acceptable values are: &amp;lsquo;Orphan&amp;rsquo; - orphan the dependents; &amp;lsquo;Background&amp;rsquo; - allow the garbage collector to delete the dependents in the background; &amp;lsquo;Foreground&amp;rsquo; - a cascading policy that deletes all dependents in the foreground.</description>
@@ -982,7 +1018,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>withRanges</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/fsGroup/withRanges/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/fsGroup/withRanges/</guid>
       <description>withRangesfunction(ranges) self + if std.type(ranges) == &amp;#39;array&amp;#39; then __fsGroupMixin({ ranges: ranges }) else __fsGroupMixin({ ranges: [ranges] }) ranges are the allowed ranges of fs groups. If you would like to force a single fs group then supply a single range with the same start and end. Required for MustRunAs.
@@ -993,7 +1029,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withRanges</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsGroup/withRanges/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsGroup/withRanges/</guid>
       <description>withRangesfunction(ranges) self + if std.type(ranges) == &amp;#39;array&amp;#39; then __runAsGroupMixin({ ranges: ranges }) else __runAsGroupMixin({ ranges: [ranges] }) ranges are the allowed ranges of gids that may be used. If you would like to force a single gid then supply a single range with the same start and end. Required for MustRunAs.
@@ -1004,7 +1040,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withRanges</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsUser/withRanges/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsUser/withRanges/</guid>
       <description>withRangesfunction(ranges) self + if std.type(ranges) == &amp;#39;array&amp;#39; then __runAsUserMixin({ ranges: ranges }) else __runAsUserMixin({ ranges: [ranges] }) ranges are the allowed ranges of uids that may be used. If you would like to force a single uid then supply a single range with the same start and end. Required for MustRunAs.
@@ -1015,7 +1051,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withRanges</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/supplementalGroups/withRanges/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/supplementalGroups/withRanges/</guid>
       <description>withRangesfunction(ranges) self + if std.type(ranges) == &amp;#39;array&amp;#39; then __supplementalGroupsMixin({ ranges: ranges }) else __supplementalGroupsMixin({ ranges: [ranges] }) ranges are the allowed ranges of supplemental groups. If you would like to force a single supplemental group then supply a single range with the same start and end. Required for MustRunAs.
@@ -1026,7 +1062,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withRangesMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/fsGroup/withRangesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/fsGroup/withRangesMixin/</guid>
       <description>withRangesMixinfunction(ranges) self + if std.type(ranges) == &amp;#39;array&amp;#39; then __fsGroupMixin({ ranges+: ranges }) else __fsGroupMixin({ ranges+: [ranges] }) ranges are the allowed ranges of fs groups. If you would like to force a single fs group then supply a single range with the same start and end. Required for MustRunAs.
@@ -1037,7 +1073,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withRangesMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsGroup/withRangesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsGroup/withRangesMixin/</guid>
       <description>withRangesMixinfunction(ranges) self + if std.type(ranges) == &amp;#39;array&amp;#39; then __runAsGroupMixin({ ranges+: ranges }) else __runAsGroupMixin({ ranges+: [ranges] }) ranges are the allowed ranges of gids that may be used. If you would like to force a single gid then supply a single range with the same start and end. Required for MustRunAs.
@@ -1048,7 +1084,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withRangesMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsUser/withRangesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsUser/withRangesMixin/</guid>
       <description>withRangesMixinfunction(ranges) self + if std.type(ranges) == &amp;#39;array&amp;#39; then __runAsUserMixin({ ranges+: ranges }) else __runAsUserMixin({ ranges+: [ranges] }) ranges are the allowed ranges of uids that may be used. If you would like to force a single uid then supply a single range with the same start and end. Required for MustRunAs.
@@ -1059,7 +1095,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withRangesMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/supplementalGroups/withRangesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/supplementalGroups/withRangesMixin/</guid>
       <description>withRangesMixinfunction(ranges) self + if std.type(ranges) == &amp;#39;array&amp;#39; then __supplementalGroupsMixin({ ranges+: ranges }) else __supplementalGroupsMixin({ ranges+: [ranges] }) ranges are the allowed ranges of supplemental groups. If you would like to force a single supplemental group then supply a single range with the same start and end. Required for MustRunAs.
@@ -1070,7 +1106,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withReadOnlyRootFilesystem</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withReadOnlyRootFilesystem/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withReadOnlyRootFilesystem/</guid>
       <description>withReadOnlyRootFilesystemfunction(readOnlyRootFilesystem) self + __specMixin({ readOnlyRootFilesystem: readOnlyRootFilesystem }) readOnlyRootFilesystem when set to true will force containers to run with a read only root file system. If the container specifically requests to run with a non-read only root file system the PSP should deny the pod. If set to false the container may run with a read only root file system if it wishes but it will not be forced to.</description>
@@ -1079,7 +1115,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withRequiredDropCapabilities</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withRequiredDropCapabilities/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withRequiredDropCapabilities/</guid>
       <description>withRequiredDropCapabilitiesfunction(requiredDropCapabilities) self + if std.type(requiredDropCapabilities) == &amp;#39;array&amp;#39; then __specMixin({ requiredDropCapabilities: requiredDropCapabilities }) else __specMixin({ requiredDropCapabilities: [requiredDropCapabilities] }) requiredDropCapabilities are the capabilities that will be dropped from the container. These are required to be dropped and cannot be added.</description>
@@ -1088,7 +1124,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withRequiredDropCapabilitiesMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withRequiredDropCapabilitiesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withRequiredDropCapabilitiesMixin/</guid>
       <description>withRequiredDropCapabilitiesMixinfunction(requiredDropCapabilities) self + if std.type(requiredDropCapabilities) == &amp;#39;array&amp;#39; then __specMixin({ requiredDropCapabilities+: requiredDropCapabilities }) else __specMixin({ requiredDropCapabilities+: [requiredDropCapabilities] }) requiredDropCapabilities are the capabilities that will be dropped from the container. These are required to be dropped and cannot be added.</description>
@@ -1097,7 +1133,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withResourceVersion</title>
       <link>http://example.org/policy/v1beta1/eviction/deleteOptions/preconditions/withResourceVersion/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/deleteOptions/preconditions/withResourceVersion/</guid>
       <description>withResourceVersionfunction(resourceVersion) self + __preconditionsMixin({ resourceVersion: resourceVersion }) Specifies the target ResourceVersion</description>
@@ -1106,7 +1142,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withRole</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/seLinuxOptions/withRole/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/seLinuxOptions/withRole/</guid>
       <description>withRolefunction(role) self + __seLinuxOptionsMixin({ role: role }) Role is a SELinux role label that applies to the container.</description>
@@ -1115,7 +1151,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withRule</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/fsGroup/withRule/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/fsGroup/withRule/</guid>
       <description>withRulefunction(rule) self + __fsGroupMixin({ rule: rule }) rule is the strategy that will dictate what FSGroup is used in the SecurityContext.</description>
@@ -1124,7 +1160,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withRule</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsGroup/withRule/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsGroup/withRule/</guid>
       <description>withRulefunction(rule) self + __runAsGroupMixin({ rule: rule }) rule is the strategy that will dictate the allowable RunAsGroup values that may be set.</description>
@@ -1133,7 +1169,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withRule</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsUser/withRule/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsUser/withRule/</guid>
       <description>withRulefunction(rule) self + __runAsUserMixin({ rule: rule }) rule is the strategy that will dictate the allowable RunAsUser values that may be set.</description>
@@ -1142,7 +1178,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withRule</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/withRule/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/withRule/</guid>
       <description>withRulefunction(rule) self + __seLinuxMixin({ rule: rule }) rule is the strategy that will dictate the allowable labels that may be set.</description>
@@ -1151,7 +1187,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withRule</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/supplementalGroups/withRule/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/supplementalGroups/withRule/</guid>
       <description>withRulefunction(rule) self + __supplementalGroupsMixin({ rule: rule }) rule is the strategy that will dictate what supplemental groups is used in the SecurityContext.</description>
@@ -1160,7 +1196,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/seLinuxOptions/withType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/seLinuxOptions/withType/</guid>
       <description>withTypefunction(type) self + __seLinuxOptionsMixin({ type: type }) Type is a SELinux type label that applies to the container.</description>
@@ -1169,7 +1205,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withUid</title>
       <link>http://example.org/policy/v1beta1/eviction/deleteOptions/preconditions/withUid/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/deleteOptions/preconditions/withUid/</guid>
       <description>withUidfunction(uid) self + __preconditionsMixin({ uid: uid }) Specifies the target UID.</description>
@@ -1178,7 +1214,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withUser</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/seLinuxOptions/withUser/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/seLinuxOptions/withUser/</guid>
       <description>withUserfunction(user) self + __seLinuxOptionsMixin({ user: user }) User is a SELinux user label that applies to the container.</description>
@@ -1187,7 +1223,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withVolumes</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withVolumes/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withVolumes/</guid>
       <description>withVolumesfunction(volumes) self + if std.type(volumes) == &amp;#39;array&amp;#39; then __specMixin({ volumes: volumes }) else __specMixin({ volumes: [volumes] }) volumes is a white list of allowed volume plugins. Empty indicates that no volumes may be used. To allow all volumes you may use &amp;lsquo;*&amp;lsquo;.</description>
@@ -1196,7 +1232,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>withVolumesMixin</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withVolumesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/withVolumesMixin/</guid>
       <description>withVolumesMixinfunction(volumes) self + if std.type(volumes) == &amp;#39;array&amp;#39; then __specMixin({ volumes+: volumes }) else __specMixin({ volumes+: [volumes] }) volumes is a white list of allowed volume plugins. Empty indicates that no volumes may be used. To allow all volumes you may use &amp;lsquo;*&amp;lsquo;.</description>
@@ -1205,7 +1241,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>deleteOptions</title>
       <link>http://example.org/policy/v1beta1/eviction/deleteOptions/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/deleteOptions/</guid>
       <description>DeleteOptions may be provided</description>
@@ -1214,7 +1250,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>fsGroup</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/fsGroup/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/fsGroup/</guid>
       <description>fsGroup is the strategy that will dictate what fs group is used by the SecurityContext.</description>
@@ -1223,7 +1259,7 @@ see hidden.policy.v1beta1.idRange</description>
     <item>
       <title>initializers</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -1234,7 +1270,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializers</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -1245,7 +1281,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializers</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -1256,7 +1292,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/</guid>
       <description>ObjectMeta describes the pod that is being evicted.</description>
@@ -1265,7 +1301,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/</guid>
       <description></description>
@@ -1274,7 +1310,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/</guid>
       <description>Standard object&#39;s metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</description>
@@ -1283,7 +1319,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>preconditions</title>
       <link>http://example.org/policy/v1beta1/eviction/deleteOptions/preconditions/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/deleteOptions/preconditions/</guid>
       <description>Must be fulfilled before a deletion is carried out. If not possible, a 409 Conflict status will be returned.</description>
@@ -1292,7 +1328,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>runAsGroup</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsGroup/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsGroup/</guid>
       <description>RunAsGroup is the strategy that will dictate the allowable RunAsGroup values that may be set. If this field is omitted, the pod&#39;s RunAsGroup can take any value. This field requires the RunAsGroup feature gate to be enabled.</description>
@@ -1301,16 +1337,25 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>runAsUser</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsUser/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsUser/</guid>
       <description>runAsUser is the strategy that will dictate the allowable RunAsUser values that may be set.</description>
     </item>
     
     <item>
+      <title>runtimeClass</title>
+      <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runtimeClass/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runtimeClass/</guid>
+      <description>runtimeClass is the strategy that will dictate the allowable RuntimeClasses for a pod. If this field is omitted, the pod&#39;s runtimeClassName field is unrestricted. Enforcement of this field depends on the RuntimeClass feature gate being enabled.</description>
+    </item>
+    
+    <item>
       <title>seLinux</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/</guid>
       <description>seLinux is the strategy that will dictate the allowable labels that may be set.</description>
@@ -1319,7 +1364,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>seLinuxOptions</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/seLinuxOptions/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/seLinuxOptions/</guid>
       <description>seLinuxOptions required to run as; required for MustRunAs More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/</description>
@@ -1328,7 +1373,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>selector</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selector/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selector/</guid>
       <description>Label query over pods whose evictions are managed by the disruption budget.</description>
@@ -1337,7 +1382,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>spec</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/spec/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/spec/</guid>
       <description>Specification of the desired behavior of the PodDisruptionBudget.</description>
@@ -1346,7 +1391,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>spec</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/</guid>
       <description>spec defines the policy enforced.</description>
@@ -1355,7 +1400,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>supplementalGroups</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/supplementalGroups/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/supplementalGroups/</guid>
       <description>supplementalGroups is the strategy that will dictate what supplemental groups are used by the SecurityContext.</description>
@@ -1364,7 +1409,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>allowedCSIDriversType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/allowedCSIDriversType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/allowedCSIDriversType/</guid>
       <description></description>
@@ -1373,7 +1418,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>allowedFlexVolumesType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/allowedFlexVolumesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/allowedFlexVolumesType/</guid>
       <description></description>
@@ -1382,7 +1427,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>allowedHostPathsType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/allowedHostPathsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/allowedHostPathsType/</guid>
       <description></description>
@@ -1391,7 +1436,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>deleteOptionsType</title>
       <link>http://example.org/policy/v1beta1/eviction/deleteOptionsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/deleteOptionsType/</guid>
       <description></description>
@@ -1400,7 +1445,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>fsGroupType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/fsGroupType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/fsGroupType/</guid>
       <description></description>
@@ -1409,7 +1454,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>hostPortsType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/hostPortsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/hostPortsType/</guid>
       <description></description>
@@ -1418,7 +1463,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/initializersType/</guid>
       <description></description>
@@ -1427,7 +1472,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/initializersType/</guid>
       <description></description>
@@ -1436,7 +1481,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/initializersType/</guid>
       <description></description>
@@ -1445,7 +1490,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/managedFieldsType/</guid>
       <description></description>
@@ -1454,7 +1499,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/managedFieldsType/</guid>
       <description></description>
@@ -1463,7 +1508,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/managedFieldsType/</guid>
       <description></description>
@@ -1472,7 +1517,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>matchExpressionsType</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selector/matchExpressionsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selector/matchExpressionsType/</guid>
       <description></description>
@@ -1481,7 +1526,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/policy/v1beta1/eviction/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadataType/</guid>
       <description></description>
@@ -1490,7 +1535,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadataType/</guid>
       <description></description>
@@ -1499,7 +1544,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadataType/</guid>
       <description></description>
@@ -1508,7 +1553,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -1517,7 +1562,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -1526,7 +1571,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -1535,7 +1580,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/policy/v1beta1/eviction/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -1544,7 +1589,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -1553,7 +1598,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -1562,7 +1607,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>preconditionsType</title>
       <link>http://example.org/policy/v1beta1/eviction/deleteOptions/preconditionsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/deleteOptions/preconditionsType/</guid>
       <description></description>
@@ -1571,7 +1616,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>rangesType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/fsGroup/rangesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/fsGroup/rangesType/</guid>
       <description></description>
@@ -1580,7 +1625,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>rangesType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsGroup/rangesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsGroup/rangesType/</guid>
       <description></description>
@@ -1589,7 +1634,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>rangesType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsUser/rangesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsUser/rangesType/</guid>
       <description></description>
@@ -1598,7 +1643,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>rangesType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/supplementalGroups/rangesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/supplementalGroups/rangesType/</guid>
       <description></description>
@@ -1607,7 +1652,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>runAsGroupType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsGroupType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsGroupType/</guid>
       <description></description>
@@ -1616,16 +1661,25 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>runAsUserType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsUserType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runAsUserType/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>runtimeClassType</title>
+      <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runtimeClassType/</link>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      
+      <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/runtimeClassType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>seLinuxOptionsType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/seLinuxOptionsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinux/seLinuxOptionsType/</guid>
       <description></description>
@@ -1634,7 +1688,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>seLinuxType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinuxType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/seLinuxType/</guid>
       <description></description>
@@ -1643,7 +1697,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>selectorType</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selectorType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/spec/selectorType/</guid>
       <description></description>
@@ -1652,7 +1706,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>specType</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/specType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/specType/</guid>
       <description></description>
@@ -1661,7 +1715,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>specType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/specType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/specType/</guid>
       <description></description>
@@ -1670,7 +1724,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>supplementalGroupsType</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/spec/supplementalGroupsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/spec/supplementalGroupsType/</guid>
       <description></description>
@@ -1679,7 +1733,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>eviction</title>
       <link>http://example.org/policy/eviction/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/eviction/</guid>
       <description>Eviction evicts a pod from its node subject to certain policies and safety constraints.  </description>
@@ -1688,7 +1742,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>eviction</title>
       <link>http://example.org/policy/v1beta1/eviction/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/eviction/</guid>
       <description>Eviction evicts a pod from its node subject to certain policies and safety constraints. This is a subresource of Pod. A request to cause such an eviction is created by POSTing to &amp;hellip;/pods//evictions.</description>
@@ -1697,7 +1751,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>podDisruptionBudget</title>
       <link>http://example.org/policy/podDisruptionBudget/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/podDisruptionBudget/</guid>
       <description> </description>
@@ -1706,7 +1760,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>podDisruptionBudget</title>
       <link>http://example.org/policy/v1beta1/podDisruptionBudget/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podDisruptionBudget/</guid>
       <description>PodDisruptionBudget is an object to define the max disruption that can be caused to a collection of pods</description>
@@ -1715,7 +1769,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>podSecurityPolicy</title>
       <link>http://example.org/policy/podSecurityPolicy/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/podSecurityPolicy/</guid>
       <description>PodSecurityPolicy governs the ability to make requests that affect the Security Context that will be applied to a pod and container.  </description>
@@ -1724,7 +1778,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>podSecurityPolicy</title>
       <link>http://example.org/policy/v1beta1/podSecurityPolicy/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
       
       <guid>http://example.org/policy/v1beta1/podSecurityPolicy/</guid>
       <description>PodSecurityPolicy governs the ability to make requests that affect the Security Context that will be applied to a pod and container.</description>

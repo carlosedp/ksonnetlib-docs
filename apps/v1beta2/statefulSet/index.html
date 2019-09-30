@@ -21,7 +21,7 @@
 <body>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.15.4</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -66,6 +66,22 @@
  <ul>
     
         <li>
+            <a href="#apps.v1beta2.statefulSet.spec.updateStrategy">updateStrategy</a>
+            
+ <ul>
+    
+        <li>
+            <a href="#apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate">rollingUpdate</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+        </li>
+    
+        <li>
             <a href="#apps.v1beta2.statefulSet.spec.selector">selector</a>
             
  <ul>
@@ -98,6 +114,30 @@
             <a href="#apps.v1beta2.statefulSet.spec.template.spec">spec</a>
             
  <ul>
+    
+        <li>
+            <a href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext">securityContext</a>
+            
+ <ul>
+    
+        <li>
+            <a href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions">seLinuxOptions</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.windowsOptions">windowsOptions</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+        </li>
     
         <li>
             <a href="#apps.v1beta2.statefulSet.spec.template.spec.affinity">affinity</a>
@@ -146,38 +186,6 @@
     
 </ul>
         </li>
-    
-        <li>
-            <a href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext">securityContext</a>
-            
- <ul>
-    
-        <li>
-            <a href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions">seLinuxOptions</a>
-            
- <ul>
-    
-</ul>
-        </li>
-    
-</ul>
-        </li>
-    
-</ul>
-        </li>
-    
-</ul>
-        </li>
-    
-        <li>
-            <a href="#apps.v1beta2.statefulSet.spec.updateStrategy">updateStrategy</a>
-            
- <ul>
-    
-        <li>
-            <a href="#apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate">rollingUpdate</a>
-            
- <ul>
     
 </ul>
         </li>
@@ -861,6 +869,68 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
         
             <li>
     <h5>
+        <a name="apps.v1beta2.statefulSet.spec.withVolumeClaimTemplates">
+            withVolumeClaimTemplates
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.withVolumeClaimTemplates" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.withVolumeClaimTemplates">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeClaimTemplatesfunction(volumeClaimTemplates) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumeClaimTemplates) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumeClaimTemplates<span style="color:#666">:</span> volumeClaimTemplates }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumeClaimTemplates<span style="color:#666">:</span> [volumeClaimTemplates] })
+</code></pre></div></div><p>volumeClaimTemplates is a list of claims that pods are allowed to reference. The StatefulSet controller is responsible for mapping network identities to claims in a way that maintains the identity of a pod. Every claim in this list must have at least one matching (by name) volumeMount in one container in the template. A claim in this list takes precedence over any volumes in the template, with the same name.</p><code>withVolumeClaimTemplates</code> takes an array of type <code>volumeClaimTemplatesType</code>. You can create
+an instance of <code>volumeClaimTemplatesType</code> with <code>hidden.core.v1.persistentVolumeClaim.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/persistentVolumeClaim/">hidden.core.v1.persistentVolumeClaim</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.withVolumeClaimTemplatesMixin">
+            withVolumeClaimTemplatesMixin
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.withVolumeClaimTemplatesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.withVolumeClaimTemplatesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeClaimTemplatesMixinfunction(volumeClaimTemplates) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumeClaimTemplates) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumeClaimTemplates<span style="color:#666">+:</span> volumeClaimTemplates }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumeClaimTemplates<span style="color:#666">+:</span> [volumeClaimTemplates] })
+</code></pre></div></div><p>volumeClaimTemplates is a list of claims that pods are allowed to reference. The StatefulSet controller is responsible for mapping network identities to claims in a way that maintains the identity of a pod. Every claim in this list must have at least one matching (by name) volumeMount in one container in the template. A claim in this list takes precedence over any volumes in the template, with the same name.</p><code>withVolumeClaimTemplatesMixin</code> takes an array of type <code>volumeClaimTemplatesType</code>. You can create
+an instance of <code>volumeClaimTemplatesType</code> with <code>hidden.core.v1.persistentVolumeClaim.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/persistentVolumeClaim/">hidden.core.v1.persistentVolumeClaim</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
         <a name="apps.v1beta2.statefulSet.spec.mixinInstance">
             mixinInstance
             <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.mixinInstance" role="button" aria-expanded="true">
@@ -999,23 +1069,51 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </div>
 </li>
         
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
             <li>
     <h5>
-        <a name="apps.v1beta2.statefulSet.spec.withVolumeClaimTemplates">
-            withVolumeClaimTemplates
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.withVolumeClaimTemplates" role="button" aria-expanded="true">
+        <a name="apps.v1beta2.statefulSet.spec.updateStrategy">
+            updateStrategy
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.updateStrategy" role="button" aria-expanded="true">
                 <div class="octicon icon-chevron-right"></div>
                 <div class="octicon icon-chevron-down"></div>
             </a>
         </a>
     </h5>
 
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.withVolumeClaimTemplates">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeClaimTemplatesfunction(volumeClaimTemplates) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumeClaimTemplates) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumeClaimTemplates<span style="color:#666">:</span> volumeClaimTemplates }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumeClaimTemplates<span style="color:#666">:</span> [volumeClaimTemplates] })
-</code></pre></div></div><p>volumeClaimTemplates is a list of claims that pods are allowed to reference. The StatefulSet controller is responsible for mapping network identities to claims in a way that maintains the identity of a pod. Every claim in this list must have at least one matching (by name) volumeMount in one container in the template. A claim in this list takes precedence over any volumes in the template, with the same name.</p><code>withVolumeClaimTemplates</code> takes an array of type <code>volumeClaimTemplatesType</code>. You can create
-an instance of <code>volumeClaimTemplatesType</code> with <code>hidden.core.v1.persistentVolumeClaim.new()</code>.</p>
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.updateStrategy">
+        <p>updateStrategy indicates the StatefulSetUpdateStrategy that will be employed to update Pods in the StatefulSet when a revision is made to Template.</p>
 
-<p>see <a href="/hidden/core/v1/persistentVolumeClaim/">hidden.core.v1.persistentVolumeClaim</a></p>
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.updateStrategy.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.updateStrategy.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.updateStrategy.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(updateStrategy) __updateStrategyMixin(updateStrategy)
+</code></pre></div></div><p></p></p>
 
 
         <hr>
@@ -1032,21 +1130,18 @@ an instance of <code>volumeClaimTemplatesType</code> with <code>hidden.core.v1.p
         
             <li>
     <h5>
-        <a name="apps.v1beta2.statefulSet.spec.withVolumeClaimTemplatesMixin">
-            withVolumeClaimTemplatesMixin
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.withVolumeClaimTemplatesMixin" role="button" aria-expanded="true">
+        <a name="apps.v1beta2.statefulSet.spec.updateStrategy.withType">
+            withType
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.updateStrategy.withType" role="button" aria-expanded="true">
                 <div class="octicon icon-chevron-right"></div>
                 <div class="octicon icon-chevron-down"></div>
             </a>
         </a>
     </h5>
 
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.withVolumeClaimTemplatesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeClaimTemplatesMixinfunction(volumeClaimTemplates) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumeClaimTemplates) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumeClaimTemplates<span style="color:#666">+:</span> volumeClaimTemplates }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumeClaimTemplates<span style="color:#666">+:</span> [volumeClaimTemplates] })
-</code></pre></div></div><p>volumeClaimTemplates is a list of claims that pods are allowed to reference. The StatefulSet controller is responsible for mapping network identities to claims in a way that maintains the identity of a pod. Every claim in this list must have at least one matching (by name) volumeMount in one container in the template. A claim in this list takes precedence over any volumes in the template, with the same name.</p><code>withVolumeClaimTemplatesMixin</code> takes an array of type <code>volumeClaimTemplatesType</code>. You can create
-an instance of <code>volumeClaimTemplatesType</code> with <code>hidden.core.v1.persistentVolumeClaim.new()</code>.</p>
-
-<p>see <a href="/hidden/core/v1/persistentVolumeClaim/">hidden.core.v1.persistentVolumeClaim</a></p>
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.updateStrategy.withType">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> __updateStrategyMixin({ type<span style="color:#666">:</span> type })
+</code></pre></div></div><p>Type indicates the type of the StatefulSetUpdateStrategy. Default is RollingUpdate.</p></p>
 
 
         <hr>
@@ -1068,6 +1163,100 @@ an instance of <code>volumeClaimTemplatesType</code> with <code>hidden.core.v1.p
 
     <h5>Mixins</h5>
     <ul>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate">
+            rollingUpdate
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate">
+        <p>RollingUpdate is used to communicate parameters when Type is RollingUpdateStatefulSetStrategyType.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(rollingUpdate) __rollingUpdateMixin(rollingUpdate)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate.withPartition">
+            withPartition
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate.withPartition" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate.withPartition">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPartitionfunction(partition) self <span style="color:#666">+</span> __rollingUpdateMixin({ partition<span style="color:#666">:</span> partition })
+</code></pre></div></div><p>Partition indicates the ordinal at which the StatefulSet should be partitioned. Default value is 0.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
         
             <li>
     <h5>
@@ -1922,6 +2111,354 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
         
             <li>
     <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.withRestartPolicy">
+            withRestartPolicy
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withRestartPolicy" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withRestartPolicy">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRestartPolicyfunction(restartPolicy) self <span style="color:#666">+</span> __specMixin({ restartPolicy<span style="color:#666">:</span> restartPolicy })
+</code></pre></div></div><p>Restart policy for all containers within the pod. One of Always, OnFailure, Never. Default to Always. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#restart-policy">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#restart-policy</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.withRuntimeClassName">
+            withRuntimeClassName
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withRuntimeClassName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withRuntimeClassName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRuntimeClassNamefunction(runtimeClassName) self <span style="color:#666">+</span> __specMixin({ runtimeClassName<span style="color:#666">:</span> runtimeClassName })
+</code></pre></div></div><p>RuntimeClassName refers to a RuntimeClass object in the node.k8s.io group, which should be used to run this pod.  If no RuntimeClass resource matches the named class, the pod will not be run. If unset or empty, the &ldquo;legacy&rdquo; RuntimeClass will be used, which is an implicit class with an empty definition that uses the default runtime handler. More info: <a href="https://git.k8s.io/enhancements/keps/sig-node/runtime-class.md">https://git.k8s.io/enhancements/keps/sig-node/runtime-class.md</a> This is a beta feature as of Kubernetes v1.14.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.withSchedulerName">
+            withSchedulerName
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withSchedulerName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withSchedulerName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSchedulerNamefunction(schedulerName) self <span style="color:#666">+</span> __specMixin({ schedulerName<span style="color:#666">:</span> schedulerName })
+</code></pre></div></div><p>If specified, the pod will be dispatched by specified scheduler. If not specified, the pod will be dispatched by default scheduler.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.withServiceAccount">
+            withServiceAccount
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withServiceAccount" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withServiceAccount">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServiceAccountfunction(serviceAccount) self <span style="color:#666">+</span> __specMixin({ serviceAccount<span style="color:#666">:</span> serviceAccount })
+</code></pre></div></div><p>DeprecatedServiceAccount is a depreciated alias for ServiceAccountName. Deprecated: Use serviceAccountName instead.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.withServiceAccountName">
+            withServiceAccountName
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withServiceAccountName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withServiceAccountName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServiceAccountNamefunction(serviceAccountName) self <span style="color:#666">+</span> __specMixin({ serviceAccountName<span style="color:#666">:</span> serviceAccountName })
+</code></pre></div></div><p>ServiceAccountName is the name of the ServiceAccount to use to run this pod. More info: <a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/">https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.withShareProcessNamespace">
+            withShareProcessNamespace
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withShareProcessNamespace" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withShareProcessNamespace">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShareProcessNamespacefunction(shareProcessNamespace) self <span style="color:#666">+</span> __specMixin({ shareProcessNamespace<span style="color:#666">:</span> shareProcessNamespace })
+</code></pre></div></div><p>Share a single process namespace between all of the containers in a pod. When this is set containers will be able to view and signal processes from other containers in the same pod, and the first process in each container will not be assigned PID 1. HostPID and ShareProcessNamespace cannot both be set. Optional: Default to false. This field is beta-level and may be disabled with the PodShareProcessNamespace feature.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.withSubdomain">
+            withSubdomain
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withSubdomain" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withSubdomain">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSubdomainfunction(subdomain) self <span style="color:#666">+</span> __specMixin({ subdomain<span style="color:#666">:</span> subdomain })
+</code></pre></div></div><p>If specified, the fully qualified Pod hostname will be &ldquo;<hostname>.<subdomain>.<pod namespace>.svc.<cluster domain>&rdquo;. If not specified, the pod will not have a domainname at all.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.withTerminationGracePeriodSeconds">
+            withTerminationGracePeriodSeconds
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withTerminationGracePeriodSeconds" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withTerminationGracePeriodSeconds">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTerminationGracePeriodSecondsfunction(terminationGracePeriodSeconds) self <span style="color:#666">+</span> __specMixin({ terminationGracePeriodSeconds<span style="color:#666">:</span> terminationGracePeriodSeconds })
+</code></pre></div></div><p>Optional duration in seconds the pod needs to terminate gracefully. May be decreased in delete request. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period will be used instead. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. Defaults to 30 seconds.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.withTolerations">
+            withTolerations
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withTolerations" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withTolerations">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTolerationsfunction(tolerations) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(tolerations) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ tolerations<span style="color:#666">:</span> tolerations }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ tolerations<span style="color:#666">:</span> [tolerations] })
+</code></pre></div></div><p>If specified, the pod&rsquo;s tolerations.</p><code>withTolerations</code> takes an array of type <code>tolerationsType</code>. You can create
+an instance of <code>tolerationsType</code> with <code>hidden.core.v1.toleration.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/toleration/">hidden.core.v1.toleration</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.withTolerationsMixin">
+            withTolerationsMixin
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withTolerationsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withTolerationsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTolerationsMixinfunction(tolerations) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(tolerations) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ tolerations<span style="color:#666">+:</span> tolerations }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ tolerations<span style="color:#666">+:</span> [tolerations] })
+</code></pre></div></div><p>If specified, the pod&rsquo;s tolerations.</p><code>withTolerationsMixin</code> takes an array of type <code>tolerationsType</code>. You can create
+an instance of <code>tolerationsType</code> with <code>hidden.core.v1.toleration.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/toleration/">hidden.core.v1.toleration</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.withVolumes">
+            withVolumes
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withVolumes" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withVolumes">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesfunction(volumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumes<span style="color:#666">:</span> volumes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumes<span style="color:#666">:</span> [volumes] })
+</code></pre></div></div><p>List of volumes that can be mounted by containers belonging to the pod. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes">https://kubernetes.io/docs/concepts/storage/volumes</a></p><code>withVolumes</code> takes an array of type <code>volumesType</code>. You can create
+an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/volume/">hidden.core.v1.volume</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.withVolumesMixin">
+            withVolumesMixin
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withVolumesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withVolumesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesMixinfunction(volumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumes<span style="color:#666">+:</span> volumes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumes<span style="color:#666">+:</span> [volumes] })
+</code></pre></div></div><p>List of volumes that can be mounted by containers belonging to the pod. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes">https://kubernetes.io/docs/concepts/storage/volumes</a></p><code>withVolumesMixin</code> takes an array of type <code>volumesType</code>. You can create
+an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/volume/">hidden.core.v1.volume</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
         <a name="apps.v1beta2.statefulSet.spec.template.spec.mixinInstance">
             mixinInstance
             <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.mixinInstance" role="button" aria-expanded="true">
@@ -2506,6 +3043,34 @@ an instance of <code>initContainersType</code> with <code>hidden.core.v1.contain
         
             <li>
     <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.withPreemptionPolicy">
+            withPreemptionPolicy
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withPreemptionPolicy" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withPreemptionPolicy">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreemptionPolicyfunction(preemptionPolicy) self <span style="color:#666">+</span> __specMixin({ preemptionPolicy<span style="color:#666">:</span> preemptionPolicy })
+</code></pre></div></div><p>PreemptionPolicy is the Policy for preempting pods with lower priority. One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset. This field is alpha-level and is only honored by servers that enable the NonPreemptingPriority feature.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
         <a name="apps.v1beta2.statefulSet.spec.template.spec.withPriority">
             withPriority
             <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withPriority" role="button" aria-expanded="true">
@@ -2622,20 +3187,51 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
     </div>
 </li>
         
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
             <li>
     <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.withRestartPolicy">
-            withRestartPolicy
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withRestartPolicy" role="button" aria-expanded="true">
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext">
+            securityContext
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext" role="button" aria-expanded="true">
                 <div class="octicon icon-chevron-right"></div>
                 <div class="octicon icon-chevron-down"></div>
             </a>
         </a>
     </h5>
 
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withRestartPolicy">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRestartPolicyfunction(restartPolicy) self <span style="color:#666">+</span> __specMixin({ restartPolicy<span style="color:#666">:</span> restartPolicy })
-</code></pre></div></div><p>Restart policy for all containers within the pod. One of Always, OnFailure, Never. Default to Always. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#restart-policy">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#restart-policy</a></p></p>
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext">
+        <p>SecurityContext holds pod-level security attributes and common container settings. Optional: Defaults to empty.  See type description for default values of each field.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(securityContext) __securityContextMixin(securityContext)
+</code></pre></div></div><p></p></p>
 
 
         <hr>
@@ -2652,18 +3248,18 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
         
             <li>
     <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.withRuntimeClassName">
-            withRuntimeClassName
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withRuntimeClassName" role="button" aria-expanded="true">
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withFsGroup">
+            withFsGroup
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withFsGroup" role="button" aria-expanded="true">
                 <div class="octicon icon-chevron-right"></div>
                 <div class="octicon icon-chevron-down"></div>
             </a>
         </a>
     </h5>
 
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withRuntimeClassName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRuntimeClassNamefunction(runtimeClassName) self <span style="color:#666">+</span> __specMixin({ runtimeClassName<span style="color:#666">:</span> runtimeClassName })
-</code></pre></div></div><p>RuntimeClassName refers to a RuntimeClass object in the node.k8s.io group, which should be used to run this pod.  If no RuntimeClass resource matches the named class, the pod will not be run. If unset or empty, the &ldquo;legacy&rdquo; RuntimeClass will be used, which is an implicit class with an empty definition that uses the default runtime handler. More info: <a href="https://git.k8s.io/enhancements/keps/sig-node/runtime-class.md">https://git.k8s.io/enhancements/keps/sig-node/runtime-class.md</a> This is an alpha feature and may change in the future.</p></p>
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withFsGroup">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsGroupfunction(fsGroup) self <span style="color:#666">+</span> __securityContextMixin({ fsGroup<span style="color:#666">:</span> fsGroup })
+</code></pre></div></div><p>A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod:</p><p></p><p>1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR&rsquo;d with rw-rw&mdash;-</p><p></p><p>If unset, the Kubelet will not modify the ownership and permissions of any volume.</p></p>
 
 
         <hr>
@@ -2680,18 +3276,18 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
         
             <li>
     <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.withSchedulerName">
-            withSchedulerName
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withSchedulerName" role="button" aria-expanded="true">
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsGroup">
+            withRunAsGroup
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsGroup" role="button" aria-expanded="true">
                 <div class="octicon icon-chevron-right"></div>
                 <div class="octicon icon-chevron-down"></div>
             </a>
         </a>
     </h5>
 
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withSchedulerName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSchedulerNamefunction(schedulerName) self <span style="color:#666">+</span> __specMixin({ schedulerName<span style="color:#666">:</span> schedulerName })
-</code></pre></div></div><p>If specified, the pod will be dispatched by specified scheduler. If not specified, the pod will be dispatched by default scheduler.</p></p>
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsGroup">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsGroupfunction(runAsGroup) self <span style="color:#666">+</span> __securityContextMixin({ runAsGroup<span style="color:#666">:</span> runAsGroup })
+</code></pre></div></div><p>The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.</p></p>
 
 
         <hr>
@@ -2708,18 +3304,18 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
         
             <li>
     <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.withServiceAccount">
-            withServiceAccount
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withServiceAccount" role="button" aria-expanded="true">
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsNonRoot">
+            withRunAsNonRoot
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsNonRoot" role="button" aria-expanded="true">
                 <div class="octicon icon-chevron-right"></div>
                 <div class="octicon icon-chevron-down"></div>
             </a>
         </a>
     </h5>
 
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withServiceAccount">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServiceAccountfunction(serviceAccount) self <span style="color:#666">+</span> __specMixin({ serviceAccount<span style="color:#666">:</span> serviceAccount })
-</code></pre></div></div><p>DeprecatedServiceAccount is a depreciated alias for ServiceAccountName. Deprecated: Use serviceAccountName instead.</p></p>
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsNonRoot">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsNonRootfunction(runAsNonRoot) self <span style="color:#666">+</span> __securityContextMixin({ runAsNonRoot<span style="color:#666">:</span> runAsNonRoot })
+</code></pre></div></div><p>Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.</p></p>
 
 
         <hr>
@@ -2736,18 +3332,18 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
         
             <li>
     <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.withServiceAccountName">
-            withServiceAccountName
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withServiceAccountName" role="button" aria-expanded="true">
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsUser">
+            withRunAsUser
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsUser" role="button" aria-expanded="true">
                 <div class="octicon icon-chevron-right"></div>
                 <div class="octicon icon-chevron-down"></div>
             </a>
         </a>
     </h5>
 
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withServiceAccountName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServiceAccountNamefunction(serviceAccountName) self <span style="color:#666">+</span> __specMixin({ serviceAccountName<span style="color:#666">:</span> serviceAccountName })
-</code></pre></div></div><p>ServiceAccountName is the name of the ServiceAccount to use to run this pod. More info: <a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/">https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/</a></p></p>
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsUser">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsUserfunction(runAsUser) self <span style="color:#666">+</span> __securityContextMixin({ runAsUser<span style="color:#666">:</span> runAsUser })
+</code></pre></div></div><p>The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.</p></p>
 
 
         <hr>
@@ -2764,18 +3360,18 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
         
             <li>
     <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.withShareProcessNamespace">
-            withShareProcessNamespace
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withShareProcessNamespace" role="button" aria-expanded="true">
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSupplementalGroups">
+            withSupplementalGroups
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSupplementalGroups" role="button" aria-expanded="true">
                 <div class="octicon icon-chevron-right"></div>
                 <div class="octicon icon-chevron-down"></div>
             </a>
         </a>
     </h5>
 
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withShareProcessNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShareProcessNamespacefunction(shareProcessNamespace) self <span style="color:#666">+</span> __specMixin({ shareProcessNamespace<span style="color:#666">:</span> shareProcessNamespace })
-</code></pre></div></div><p>Share a single process namespace between all of the containers in a pod. When this is set containers will be able to view and signal processes from other containers in the same pod, and the first process in each container will not be assigned PID 1. HostPID and ShareProcessNamespace cannot both be set. Optional: Default to false. This field is beta-level and may be disabled with the PodShareProcessNamespace feature.</p></p>
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSupplementalGroups">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSupplementalGroupsfunction(supplementalGroups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(supplementalGroups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __securityContextMixin({ supplementalGroups<span style="color:#666">:</span> supplementalGroups }) <span style="color:#007020;font-weight:bold">else</span> __securityContextMixin({ supplementalGroups<span style="color:#666">:</span> [supplementalGroups] })
+</code></pre></div></div><p>A list of groups applied to the first process run in each container, in addition to the container&rsquo;s primary GID.  If unspecified, no groups will be added to any container.</p></p>
 
 
         <hr>
@@ -2792,18 +3388,18 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
         
             <li>
     <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.withSubdomain">
-            withSubdomain
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withSubdomain" role="button" aria-expanded="true">
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSupplementalGroupsMixin">
+            withSupplementalGroupsMixin
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSupplementalGroupsMixin" role="button" aria-expanded="true">
                 <div class="octicon icon-chevron-right"></div>
                 <div class="octicon icon-chevron-down"></div>
             </a>
         </a>
     </h5>
 
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withSubdomain">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSubdomainfunction(subdomain) self <span style="color:#666">+</span> __specMixin({ subdomain<span style="color:#666">:</span> subdomain })
-</code></pre></div></div><p>If specified, the fully qualified Pod hostname will be &ldquo;<hostname>.<subdomain>.<pod namespace>.svc.<cluster domain>&rdquo;. If not specified, the pod will not have a domainname at all.</p></p>
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSupplementalGroupsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSupplementalGroupsMixinfunction(supplementalGroups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(supplementalGroups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __securityContextMixin({ supplementalGroups<span style="color:#666">+:</span> supplementalGroups }) <span style="color:#007020;font-weight:bold">else</span> __securityContextMixin({ supplementalGroups<span style="color:#666">+:</span> [supplementalGroups] })
+</code></pre></div></div><p>A list of groups applied to the first process run in each container, in addition to the container&rsquo;s primary GID.  If unspecified, no groups will be added to any container.</p></p>
 
 
         <hr>
@@ -2820,18 +3416,21 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
         
             <li>
     <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.withTerminationGracePeriodSeconds">
-            withTerminationGracePeriodSeconds
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withTerminationGracePeriodSeconds" role="button" aria-expanded="true">
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSysctls">
+            withSysctls
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSysctls" role="button" aria-expanded="true">
                 <div class="octicon icon-chevron-right"></div>
                 <div class="octicon icon-chevron-down"></div>
             </a>
         </a>
     </h5>
 
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withTerminationGracePeriodSeconds">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTerminationGracePeriodSecondsfunction(terminationGracePeriodSeconds) self <span style="color:#666">+</span> __specMixin({ terminationGracePeriodSeconds<span style="color:#666">:</span> terminationGracePeriodSeconds })
-</code></pre></div></div><p>Optional duration in seconds the pod needs to terminate gracefully. May be decreased in delete request. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period will be used instead. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. Defaults to 30 seconds.</p></p>
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSysctls">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSysctlsfunction(sysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(sysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __securityContextMixin({ sysctls<span style="color:#666">:</span> sysctls }) <span style="color:#007020;font-weight:bold">else</span> __securityContextMixin({ sysctls<span style="color:#666">:</span> [sysctls] })
+</code></pre></div></div><p>Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch.</p><code>withSysctls</code> takes an array of type <code>sysctlsType</code>. You can create
+an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/sysctl/">hidden.core.v1.sysctl</a></p>
 
 
         <hr>
@@ -2848,114 +3447,21 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
         
             <li>
     <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.withTolerations">
-            withTolerations
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withTolerations" role="button" aria-expanded="true">
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSysctlsMixin">
+            withSysctlsMixin
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSysctlsMixin" role="button" aria-expanded="true">
                 <div class="octicon icon-chevron-right"></div>
                 <div class="octicon icon-chevron-down"></div>
             </a>
         </a>
     </h5>
 
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withTolerations">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTolerationsfunction(tolerations) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(tolerations) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ tolerations<span style="color:#666">:</span> tolerations }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ tolerations<span style="color:#666">:</span> [tolerations] })
-</code></pre></div></div><p>If specified, the pod&rsquo;s tolerations.</p><code>withTolerations</code> takes an array of type <code>tolerationsType</code>. You can create
-an instance of <code>tolerationsType</code> with <code>hidden.core.v1.toleration.new()</code>.</p>
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSysctlsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSysctlsMixinfunction(sysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(sysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __securityContextMixin({ sysctls<span style="color:#666">+:</span> sysctls }) <span style="color:#007020;font-weight:bold">else</span> __securityContextMixin({ sysctls<span style="color:#666">+:</span> [sysctls] })
+</code></pre></div></div><p>Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch.</p><code>withSysctlsMixin</code> takes an array of type <code>sysctlsType</code>. You can create
+an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</code>.</p>
 
-<p>see <a href="/hidden/core/v1/toleration/">hidden.core.v1.toleration</a></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.withTolerationsMixin">
-            withTolerationsMixin
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withTolerationsMixin" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withTolerationsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTolerationsMixinfunction(tolerations) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(tolerations) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ tolerations<span style="color:#666">+:</span> tolerations }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ tolerations<span style="color:#666">+:</span> [tolerations] })
-</code></pre></div></div><p>If specified, the pod&rsquo;s tolerations.</p><code>withTolerationsMixin</code> takes an array of type <code>tolerationsType</code>. You can create
-an instance of <code>tolerationsType</code> with <code>hidden.core.v1.toleration.new()</code>.</p>
-
-<p>see <a href="/hidden/core/v1/toleration/">hidden.core.v1.toleration</a></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.withVolumes">
-            withVolumes
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withVolumes" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withVolumes">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesfunction(volumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumes<span style="color:#666">:</span> volumes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumes<span style="color:#666">:</span> [volumes] })
-</code></pre></div></div><p>List of volumes that can be mounted by containers belonging to the pod. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes">https://kubernetes.io/docs/concepts/storage/volumes</a></p><code>withVolumes</code> takes an array of type <code>volumesType</code>. You can create
-an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</code>.</p>
-
-<p>see <a href="/hidden/core/v1/volume/">hidden.core.v1.volume</a></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.withVolumesMixin">
-            withVolumesMixin
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.withVolumesMixin" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.withVolumesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesMixinfunction(volumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumes<span style="color:#666">+:</span> volumes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumes<span style="color:#666">+:</span> [volumes] })
-</code></pre></div></div><p>List of volumes that can be mounted by containers belonging to the pod. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes">https://kubernetes.io/docs/concepts/storage/volumes</a></p><code>withVolumesMixin</code> takes an array of type <code>volumesType</code>. You can create
-an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</code>.</p>
-
-<p>see <a href="/hidden/core/v1/volume/">hidden.core.v1.volume</a></p>
+<p>see <a href="/hidden/core/v1/sysctl/">hidden.core.v1.sysctl</a></p>
 
 
         <hr>
@@ -2977,6 +3483,300 @@ an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</
 
     <h5>Mixins</h5>
     <ul>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions">
+            seLinuxOptions
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions">
+        <p>The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container.  May also be set in SecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(seLinuxOptions) __seLinuxOptionsMixin(seLinuxOptions)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withLevel">
+            withLevel
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withLevel" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withLevel">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevelfunction(level) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ level<span style="color:#666">:</span> level })
+</code></pre></div></div><p>Level is SELinux level label that applies to the container.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withRole">
+            withRole
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withRole" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withRole">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRolefunction(role) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ role<span style="color:#666">:</span> role })
+</code></pre></div></div><p>Role is a SELinux role label that applies to the container.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withType">
+            withType
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withType" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withType">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ type<span style="color:#666">:</span> type })
+</code></pre></div></div><p>Type is a SELinux type label that applies to the container.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withUser">
+            withUser
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withUser" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withUser">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUserfunction(user) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ user<span style="color:#666">:</span> user })
+</code></pre></div></div><p>User is a SELinux user label that applies to the container.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.windowsOptions">
+            windowsOptions
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.windowsOptions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.windowsOptions">
+        <p>Windows security options.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.windowsOptions.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.windowsOptions.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.windowsOptions.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(windowsOptions) __windowsOptionsMixin(windowsOptions)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.windowsOptions.withGmsaCredentialSpec">
+            withGmsaCredentialSpec
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.windowsOptions.withGmsaCredentialSpec" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.windowsOptions.withGmsaCredentialSpec">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGmsaCredentialSpecfunction(gmsaCredentialSpec) self <span style="color:#666">+</span> __windowsOptionsMixin({ gmsaCredentialSpec<span style="color:#666">:</span> gmsaCredentialSpec })
+</code></pre></div></div><p>GMSACredentialSpec is where the GMSA admission webhook (<a href="https://github.com/kubernetes-sigs/windows-gmsa">https://github.com/kubernetes-sigs/windows-gmsa</a>) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field. This field is alpha-level and is only honored by servers that enable the WindowsGMSA feature flag.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.windowsOptions.withGmsaCredentialSpecName">
+            withGmsaCredentialSpecName
+            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.windowsOptions.withGmsaCredentialSpecName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.windowsOptions.withGmsaCredentialSpecName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGmsaCredentialSpecNamefunction(gmsaCredentialSpecName) self <span style="color:#666">+</span> __windowsOptionsMixin({ gmsaCredentialSpecName<span style="color:#666">:</span> gmsaCredentialSpecName })
+</code></pre></div></div><p>GMSACredentialSpecName is the name of the GMSA credential spec to use. This field is alpha-level and is only honored by servers that enable the WindowsGMSA feature flag.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
         
             <li>
     <h5>
@@ -3894,655 +4694,7 @@ an instance of <code>optionsType</code> with <code>hidden.core.v1.podDnsConfigOp
     </div>
 </li>
         
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext">
-            securityContext
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext">
-        <p>SecurityContext holds pod-level security attributes and common container settings. Optional: Defaults to empty.  See type description for default values of each field.</p>
-
-
-        <hr>
-        
-
-
-
-    <h5>Functions</h5>
-    <ul>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.mixinInstance">
-            mixinInstance
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.mixinInstance" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(securityContext) __securityContextMixin(securityContext)
-</code></pre></div></div><p></p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withFsGroup">
-            withFsGroup
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withFsGroup" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withFsGroup">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsGroupfunction(fsGroup) self <span style="color:#666">+</span> __securityContextMixin({ fsGroup<span style="color:#666">:</span> fsGroup })
-</code></pre></div></div><p>A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod:</p><p></p><p>1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR&rsquo;d with rw-rw&mdash;-</p><p></p><p>If unset, the Kubelet will not modify the ownership and permissions of any volume.</p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsGroup">
-            withRunAsGroup
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsGroup" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsGroup">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsGroupfunction(runAsGroup) self <span style="color:#666">+</span> __securityContextMixin({ runAsGroup<span style="color:#666">:</span> runAsGroup })
-</code></pre></div></div><p>The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.</p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsNonRoot">
-            withRunAsNonRoot
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsNonRoot" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsNonRoot">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsNonRootfunction(runAsNonRoot) self <span style="color:#666">+</span> __securityContextMixin({ runAsNonRoot<span style="color:#666">:</span> runAsNonRoot })
-</code></pre></div></div><p>Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.</p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsUser">
-            withRunAsUser
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsUser" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withRunAsUser">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsUserfunction(runAsUser) self <span style="color:#666">+</span> __securityContextMixin({ runAsUser<span style="color:#666">:</span> runAsUser })
-</code></pre></div></div><p>The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.</p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSupplementalGroups">
-            withSupplementalGroups
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSupplementalGroups" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSupplementalGroups">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSupplementalGroupsfunction(supplementalGroups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(supplementalGroups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __securityContextMixin({ supplementalGroups<span style="color:#666">:</span> supplementalGroups }) <span style="color:#007020;font-weight:bold">else</span> __securityContextMixin({ supplementalGroups<span style="color:#666">:</span> [supplementalGroups] })
-</code></pre></div></div><p>A list of groups applied to the first process run in each container, in addition to the container&rsquo;s primary GID.  If unspecified, no groups will be added to any container.</p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSupplementalGroupsMixin">
-            withSupplementalGroupsMixin
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSupplementalGroupsMixin" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSupplementalGroupsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSupplementalGroupsMixinfunction(supplementalGroups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(supplementalGroups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __securityContextMixin({ supplementalGroups<span style="color:#666">+:</span> supplementalGroups }) <span style="color:#007020;font-weight:bold">else</span> __securityContextMixin({ supplementalGroups<span style="color:#666">+:</span> [supplementalGroups] })
-</code></pre></div></div><p>A list of groups applied to the first process run in each container, in addition to the container&rsquo;s primary GID.  If unspecified, no groups will be added to any container.</p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSysctls">
-            withSysctls
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSysctls" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSysctls">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSysctlsfunction(sysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(sysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __securityContextMixin({ sysctls<span style="color:#666">:</span> sysctls }) <span style="color:#007020;font-weight:bold">else</span> __securityContextMixin({ sysctls<span style="color:#666">:</span> [sysctls] })
-</code></pre></div></div><p>Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch.</p><code>withSysctls</code> takes an array of type <code>sysctlsType</code>. You can create
-an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</code>.</p>
-
-<p>see <a href="/hidden/core/v1/sysctl/">hidden.core.v1.sysctl</a></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSysctlsMixin">
-            withSysctlsMixin
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSysctlsMixin" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.withSysctlsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSysctlsMixinfunction(sysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(sysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __securityContextMixin({ sysctls<span style="color:#666">+:</span> sysctls }) <span style="color:#007020;font-weight:bold">else</span> __securityContextMixin({ sysctls<span style="color:#666">+:</span> [sysctls] })
-</code></pre></div></div><p>Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch.</p><code>withSysctlsMixin</code> takes an array of type <code>sysctlsType</code>. You can create
-an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</code>.</p>
-
-<p>see <a href="/hidden/core/v1/sysctl/">hidden.core.v1.sysctl</a></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
     </ul>
-
-
-
-
-    <h5>Mixins</h5>
-    <ul>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions">
-            seLinuxOptions
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions">
-        <p>The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container.  May also be set in SecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.</p>
-
-
-        <hr>
-        
-
-
-
-    <h5>Functions</h5>
-    <ul>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.mixinInstance">
-            mixinInstance
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.mixinInstance" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(seLinuxOptions) __seLinuxOptionsMixin(seLinuxOptions)
-</code></pre></div></div><p></p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withLevel">
-            withLevel
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withLevel" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withLevel">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevelfunction(level) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ level<span style="color:#666">:</span> level })
-</code></pre></div></div><p>Level is SELinux level label that applies to the container.</p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withRole">
-            withRole
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withRole" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withRole">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRolefunction(role) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ role<span style="color:#666">:</span> role })
-</code></pre></div></div><p>Role is a SELinux role label that applies to the container.</p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withType">
-            withType
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withType" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ type<span style="color:#666">:</span> type })
-</code></pre></div></div><p>Type is a SELinux type label that applies to the container.</p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withUser">
-            withUser
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withUser" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.template.spec.securityContext.seLinuxOptions.withUser">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUserfunction(user) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ user<span style="color:#666">:</span> user })
-</code></pre></div></div><p>User is a SELinux user label that applies to the container.</p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-    </ul>
-
-
-
-
-
-    </div>
-</li>
-        
-    </ul>
-
-
-    </div>
-</li>
-        
-    </ul>
-
-
-    </div>
-</li>
-        
-    </ul>
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.updateStrategy">
-            updateStrategy
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.updateStrategy" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.updateStrategy">
-        <p>updateStrategy indicates the StatefulSetUpdateStrategy that will be employed to update Pods in the StatefulSet when a revision is made to Template.</p>
-
-
-        <hr>
-        
-
-
-
-    <h5>Functions</h5>
-    <ul>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.updateStrategy.mixinInstance">
-            mixinInstance
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.updateStrategy.mixinInstance" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.updateStrategy.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(updateStrategy) __updateStrategyMixin(updateStrategy)
-</code></pre></div></div><p></p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.updateStrategy.withType">
-            withType
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.updateStrategy.withType" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.updateStrategy.withType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> __updateStrategyMixin({ type<span style="color:#666">:</span> type })
-</code></pre></div></div><p>Type indicates the type of the StatefulSetUpdateStrategy. Default is RollingUpdate.</p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-    </ul>
-
-
-
-
-    <h5>Mixins</h5>
-    <ul>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate">
-            rollingUpdate
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate">
-        <p>RollingUpdate is used to communicate parameters when Type is RollingUpdateStatefulSetStrategyType.</p>
-
-
-        <hr>
-        
-
-
-
-    <h5>Functions</h5>
-    <ul>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate.mixinInstance">
-            mixinInstance
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate.mixinInstance" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(rollingUpdate) __rollingUpdateMixin(rollingUpdate)
-</code></pre></div></div><p></p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-            <li>
-    <h5>
-        <a name="apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate.withPartition">
-            withPartition
-            <a data-toggle="collapse" href="#apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate.withPartition" role="button" aria-expanded="true">
-                <div class="octicon icon-chevron-right"></div>
-                <div class="octicon icon-chevron-down"></div>
-            </a>
-        </a>
-    </h5>
-
-    <div class="collapse show" id="apps.v1beta2.statefulSet.spec.updateStrategy.rollingUpdate.withPartition">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPartitionfunction(partition) self <span style="color:#666">+</span> __rollingUpdateMixin({ partition<span style="color:#666">:</span> partition })
-</code></pre></div></div><p>Partition indicates the ordinal at which the StatefulSet should be partitioned. Default value is 0.</p></p>
-
-
-        <hr>
-        
-
-
-
-
-
-
-
-    </div>
-</li>
-        
-    </ul>
-
-
-
 
 
     </div>

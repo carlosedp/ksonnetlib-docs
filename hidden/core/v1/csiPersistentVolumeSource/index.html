@@ -21,7 +21,7 @@
 <body>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.15.4</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,6 +43,14 @@
             <div class="col-12" id="kind-sidebar">
                 <h4>Mixins</h4>
                 <ul class="toc">
+                    
+                        <li>
+                            <a href="#core.v1.csiPersistentVolumeSource.controllerExpandSecretRef">controllerExpandSecretRef</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
                     
                         <li>
                             <a href="#core.v1.csiPersistentVolumeSource.controllerPublishSecretRef">controllerPublishSecretRef</a>
@@ -294,6 +302,122 @@
             
                 <h5>Mixins</h5>
                 <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.csiPersistentVolumeSource.controllerExpandSecretRef">
+            controllerExpandSecretRef
+            <a data-toggle="collapse" href="#core.v1.csiPersistentVolumeSource.controllerExpandSecretRef" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.csiPersistentVolumeSource.controllerExpandSecretRef">
+        <p>ControllerExpandSecretRef is a reference to the secret object containing sensitive information to pass to the CSI driver to complete the CSI ControllerExpandVolume call. This is an alpha field and requires enabling ExpandCSIVolumes feature gate. This field is optional, and may be empty if no secret is required. If the secret object contains more than one secret, all secrets are passed.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.csiPersistentVolumeSource.controllerExpandSecretRef.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.csiPersistentVolumeSource.controllerExpandSecretRef.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.csiPersistentVolumeSource.controllerExpandSecretRef.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(controllerExpandSecretRef) __controllerExpandSecretRefMixin(controllerExpandSecretRef)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.csiPersistentVolumeSource.controllerExpandSecretRef.withName">
+            withName
+            <a data-toggle="collapse" href="#core.v1.csiPersistentVolumeSource.controllerExpandSecretRef.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.csiPersistentVolumeSource.controllerExpandSecretRef.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __controllerExpandSecretRefMixin({ name<span style="color:#666">:</span> name })
+</code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.csiPersistentVolumeSource.controllerExpandSecretRef.withNamespace">
+            withNamespace
+            <a data-toggle="collapse" href="#core.v1.csiPersistentVolumeSource.controllerExpandSecretRef.withNamespace" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.csiPersistentVolumeSource.controllerExpandSecretRef.withNamespace">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __controllerExpandSecretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+</code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
                     
                         <li>
     <h5>
