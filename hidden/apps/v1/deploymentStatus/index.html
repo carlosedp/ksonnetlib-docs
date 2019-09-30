@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="apps.v1.deploymentStatus.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="apps.v1.deploymentStatus.withAvailableReplicas">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAvailableReplicasfunction(availableReplicas) self <span style="color:#666">+</span> { availableReplicas<span style="color:#666">:</span> availableReplicas }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAvailableReplicas(availableReplicas)
 </code></pre></div></div><p>Total number of available pods (ready for at least minReadySeconds) targeted by this deployment.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="apps.v1.deploymentStatus.withCollisionCount">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCollisionCountfunction(collisionCount) self <span style="color:#666">+</span> { collisionCount<span style="color:#666">:</span> collisionCount }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCollisionCount(collisionCount)
 </code></pre></div></div><p>Count of hash collisions for the Deployment. The Deployment controller uses this field as a collision avoidance mechanism when it needs to create the name for the newest ReplicaSet.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="apps.v1.deploymentStatus.withConditions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">:</span> [conditions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditions(conditions)
 </code></pre></div></div><p>Represents the latest available observations of a deployment&rsquo;s current state.</p><code>withConditions</code> takes an array of type <code>conditionsType</code>. You can create
 an instance of <code>conditionsType</code> with <code>hidden.apps.v1.deploymentCondition.new()</code>.</p>
 
@@ -193,7 +193,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apps.v1.deploymentC
     </h5>
 
     <div class="collapse show" id="apps.v1.deploymentStatus.withConditionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixinfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">+:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">+:</span> [conditions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixin(conditions)
 </code></pre></div></div><p>Represents the latest available observations of a deployment&rsquo;s current state.</p><code>withConditionsMixin</code> takes an array of type <code>conditionsType</code>. You can create
 an instance of <code>conditionsType</code> with <code>hidden.apps.v1.deploymentCondition.new()</code>.</p>
 
@@ -224,7 +224,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apps.v1.deploymentC
     </h5>
 
     <div class="collapse show" id="apps.v1.deploymentStatus.withObservedGeneration">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withObservedGenerationfunction(observedGeneration) self <span style="color:#666">+</span> { observedGeneration<span style="color:#666">:</span> observedGeneration }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withObservedGeneration(observedGeneration)
 </code></pre></div></div><p>The generation observed by the deployment controller.</p></p>
 
 
@@ -252,7 +252,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apps.v1.deploymentC
     </h5>
 
     <div class="collapse show" id="apps.v1.deploymentStatus.withReadyReplicas">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadyReplicasfunction(readyReplicas) self <span style="color:#666">+</span> { readyReplicas<span style="color:#666">:</span> readyReplicas }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadyReplicas(readyReplicas)
 </code></pre></div></div><p>Total number of ready pods targeted by this deployment.</p></p>
 
 
@@ -280,7 +280,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apps.v1.deploymentC
     </h5>
 
     <div class="collapse show" id="apps.v1.deploymentStatus.withReplicas">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReplicasfunction(replicas) self <span style="color:#666">+</span> { replicas<span style="color:#666">:</span> replicas }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReplicas(replicas)
 </code></pre></div></div><p>Total number of non-terminated pods targeted by this deployment (their labels match the selector).</p></p>
 
 
@@ -308,7 +308,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apps.v1.deploymentC
     </h5>
 
     <div class="collapse show" id="apps.v1.deploymentStatus.withUnavailableReplicas">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUnavailableReplicasfunction(unavailableReplicas) self <span style="color:#666">+</span> { unavailableReplicas<span style="color:#666">:</span> unavailableReplicas }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUnavailableReplicas(unavailableReplicas)
 </code></pre></div></div><p>Total number of unavailable pods targeted by this deployment. This is the total number of pods that are still required for the deployment to have 100% available capacity. They may either be pods that are running but not yet available or pods that still have not been created.</p></p>
 
 
@@ -336,7 +336,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apps.v1.deploymentC
     </h5>
 
     <div class="collapse show" id="apps.v1.deploymentStatus.withUpdatedReplicas">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUpdatedReplicasfunction(updatedReplicas) self <span style="color:#666">+</span> { updatedReplicas<span style="color:#666">:</span> updatedReplicas }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUpdatedReplicas(updatedReplicas)
 </code></pre></div></div><p>Total number of non-terminated pods targeted by this deployment that have the desired template spec.</p></p>
 
 

@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.topologySelectorTerm.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.topologySelectorTerm.withMatchLabelExpressions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelExpressionsfunction(matchLabelExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchLabelExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { matchLabelExpressions<span style="color:#666">:</span> matchLabelExpressions } <span style="color:#007020;font-weight:bold">else</span> { matchLabelExpressions<span style="color:#666">:</span> [matchLabelExpressions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelExpressions(matchLabelExpressions)
 </code></pre></div></div><p>A list of topology selector requirements by labels.</p><code>withMatchLabelExpressions</code> takes an array of type <code>matchLabelExpressionsType</code>. You can create
 an instance of <code>matchLabelExpressionsType</code> with <code>hidden.core.v1.topologySelectorLabelRequirement.new()</code>.</p>
 
@@ -137,7 +137,7 @@ an instance of <code>matchLabelExpressionsType</code> with <code>hidden.core.v1.
     </h5>
 
     <div class="collapse show" id="core.v1.topologySelectorTerm.withMatchLabelExpressionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelExpressionsMixinfunction(matchLabelExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchLabelExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { matchLabelExpressions<span style="color:#666">+:</span> matchLabelExpressions } <span style="color:#007020;font-weight:bold">else</span> { matchLabelExpressions<span style="color:#666">+:</span> [matchLabelExpressions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelExpressionsMixin(matchLabelExpressions)
 </code></pre></div></div><p>A list of topology selector requirements by labels.</p><code>withMatchLabelExpressionsMixin</code> takes an array of type <code>matchLabelExpressionsType</code>. You can create
 an instance of <code>matchLabelExpressionsType</code> with <code>hidden.core.v1.topologySelectorLabelRequirement.new()</code>.</p>
 

@@ -77,7 +77,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1beta1.httpIngressPath.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -114,7 +114,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1beta1.httpIngressPath.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> { path<span style="color:#666">:</span> path }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>Path is an extended POSIX regex as defined by IEEE Std 1003.1, (i.e this follows the egrep/unix syntax, not the perl syntax) matched against the path of an incoming request. Currently it can contain characters disallowed from the conventional &ldquo;path&rdquo; part of a URL as defined by RFC 3986. Paths must begin with a &lsquo;/&rsquo;. If unspecified, the path defaults to a catch all sending traffic to the backend.</p></p>
 
 
@@ -174,7 +174,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1beta1.httpIngressPath.backend.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(backend) __backendMixin(backend)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(backend)
 </code></pre></div></div><p></p></p>
 
 
@@ -202,7 +202,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1beta1.httpIngressPath.backend.withServiceName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServiceNamefunction(serviceName) self <span style="color:#666">+</span> __backendMixin({ serviceName<span style="color:#666">:</span> serviceName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServiceName(serviceName)
 </code></pre></div></div><p>Specifies the name of the referenced service.</p></p>
 
 
@@ -230,7 +230,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1beta1.httpIngressPath.backend.withServicePort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServicePortfunction(servicePort) self <span style="color:#666">+</span> __backendMixin({ servicePort<span style="color:#666">:</span> servicePort })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServicePort(servicePort)
 </code></pre></div></div><p>Specifies the port of the referenced service.</p></p>
 
 

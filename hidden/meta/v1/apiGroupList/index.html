@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.apiGroupList.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.apiGroupList.withGroups">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupsfunction(groups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(groups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { groups<span style="color:#666">:</span> groups } <span style="color:#007020;font-weight:bold">else</span> { groups<span style="color:#666">:</span> [groups] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroups(groups)
 </code></pre></div></div><p>groups is a list of APIGroup.</p><code>withGroups</code> takes an array of type <code>groupsType</code>. You can create
 an instance of <code>groupsType</code> with <code>hidden.meta.v1.apiGroup.new()</code>.</p>
 
@@ -137,7 +137,7 @@ an instance of <code>groupsType</code> with <code>hidden.meta.v1.apiGroup.new()<
     </h5>
 
     <div class="collapse show" id="meta.v1.apiGroupList.withGroupsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupsMixinfunction(groups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(groups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { groups<span style="color:#666">+:</span> groups } <span style="color:#007020;font-weight:bold">else</span> { groups<span style="color:#666">+:</span> [groups] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupsMixin(groups)
 </code></pre></div></div><p>groups is a list of APIGroup.</p><code>withGroupsMixin</code> takes an array of type <code>groupsType</code>. You can create
 an instance of <code>groupsType</code> with <code>hidden.meta.v1.apiGroup.new()</code>.</p>
 

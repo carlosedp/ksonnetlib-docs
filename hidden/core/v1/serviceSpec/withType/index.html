@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> { type<span style="color:#666">:</span> type }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withType(type)
 </code></pre></div></div><p>type determines how the Service is exposed. Defaults to ClusterIP. Valid options are ExternalName, ClusterIP, NodePort, and LoadBalancer. &ldquo;ExternalName&rdquo; maps to the specified externalName. &ldquo;ClusterIP&rdquo; allocates a cluster-internal IP address for load-balancing to endpoints. Endpoints are determined by the selector or if that is not specified, by manual construction of an Endpoints object. If clusterIP is &ldquo;None&rdquo;, no virtual IP is allocated and the endpoints are published as a set of endpoints rather than a stable IP. &ldquo;NodePort&rdquo; builds on ClusterIP and allocates a port on every node which routes to the clusterIP. &ldquo;LoadBalancer&rdquo; builds on NodePort and creates an external load-balancer (if supported in the current cloud) which routes to the clusterIP. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types">https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types</a></p></p>
 
 

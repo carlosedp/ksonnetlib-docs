@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeClaimTemplatesfunction(volumeClaimTemplates) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumeClaimTemplates) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumeClaimTemplates<span style="color:#666">:</span> volumeClaimTemplates }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumeClaimTemplates<span style="color:#666">:</span> [volumeClaimTemplates] })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeClaimTemplates(volumeClaimTemplates)
 </code></pre></div></div><p>volumeClaimTemplates is a list of claims that pods are allowed to reference. The StatefulSet controller is responsible for mapping network identities to claims in a way that maintains the identity of a pod. Every claim in this list must have at least one matching (by name) volumeMount in one container in the template. A claim in this list takes precedence over any volumes in the template, with the same name.</p><code>withVolumeClaimTemplates</code> takes an array of type <code>volumeClaimTemplatesType</code>. You can create
 an instance of <code>volumeClaimTemplatesType</code> with <code>hidden.core.v1.persistentVolumeClaim.new()</code>.</p>
 

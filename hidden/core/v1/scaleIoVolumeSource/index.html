@@ -77,7 +77,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scaleIoVolumeSource.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -114,7 +114,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scaleIoVolumeSource.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> { fsType<span style="color:#666">:</span> fsType }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. Default is &ldquo;xfs&rdquo;.</p></p>
 
 
@@ -142,7 +142,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scaleIoVolumeSource.withGateway">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGatewayfunction(gateway) self <span style="color:#666">+</span> { gateway<span style="color:#666">:</span> gateway }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGateway(gateway)
 </code></pre></div></div><p>The host address of the ScaleIO API Gateway.</p></p>
 
 
@@ -170,7 +170,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scaleIoVolumeSource.withProtectionDomain">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProtectionDomainfunction(protectionDomain) self <span style="color:#666">+</span> { protectionDomain<span style="color:#666">:</span> protectionDomain }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProtectionDomain(protectionDomain)
 </code></pre></div></div><p>The name of the ScaleIO Protection Domain for the configured storage.</p></p>
 
 
@@ -198,7 +198,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scaleIoVolumeSource.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> { readOnly<span style="color:#666">:</span> readOnly }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.</p></p>
 
 
@@ -226,7 +226,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scaleIoVolumeSource.withSslEnabled">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSslEnabledfunction(sslEnabled) self <span style="color:#666">+</span> { sslEnabled<span style="color:#666">:</span> sslEnabled }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSslEnabled(sslEnabled)
 </code></pre></div></div><p>Flag to enable/disable SSL communication with Gateway, default false</p></p>
 
 
@@ -254,7 +254,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scaleIoVolumeSource.withStorageMode">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStorageModefunction(storageMode) self <span style="color:#666">+</span> { storageMode<span style="color:#666">:</span> storageMode }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStorageMode(storageMode)
 </code></pre></div></div><p>Indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.</p></p>
 
 
@@ -282,7 +282,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scaleIoVolumeSource.withStoragePool">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStoragePoolfunction(storagePool) self <span style="color:#666">+</span> { storagePool<span style="color:#666">:</span> storagePool }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStoragePool(storagePool)
 </code></pre></div></div><p>The ScaleIO Storage Pool associated with the protection domain.</p></p>
 
 
@@ -310,7 +310,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scaleIoVolumeSource.withSystem">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSystemfunction(system) self <span style="color:#666">+</span> { system<span style="color:#666">:</span> system }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSystem(system)
 </code></pre></div></div><p>The name of the storage system as configured in ScaleIO.</p></p>
 
 
@@ -338,7 +338,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scaleIoVolumeSource.withVolumeName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeNamefunction(volumeName) self <span style="color:#666">+</span> { volumeName<span style="color:#666">:</span> volumeName }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeName(volumeName)
 </code></pre></div></div><p>The name of a volume already created in the ScaleIO system that is associated with this volume source.</p></p>
 
 
@@ -398,7 +398,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scaleIoVolumeSource.secretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(secretRef) __secretRefMixin(secretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(secretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -426,7 +426,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scaleIoVolumeSource.secretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __secretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</a></p></p>
 
 

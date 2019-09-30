@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulesMixinfunction(rules) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(rules) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { rules<span style="color:#666">+:</span> rules } <span style="color:#007020;font-weight:bold">else</span> { rules<span style="color:#666">+:</span> [rules] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulesMixin(rules)
 </code></pre></div></div><p>Rules holds all the PolicyRules for this ClusterRole</p><code>withRulesMixin</code> takes an array of type <code>rulesType</code>. You can create
 an instance of <code>rulesType</code> with <code>hidden.rbac.v1alpha1.policyRule.new()</code>.</p>
 

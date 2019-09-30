@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImagePullSecretsfunction(imagePullSecrets) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(imagePullSecrets) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { imagePullSecrets<span style="color:#666">:</span> imagePullSecrets } <span style="color:#007020;font-weight:bold">else</span> { imagePullSecrets<span style="color:#666">:</span> [imagePullSecrets] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImagePullSecrets(imagePullSecrets)
 </code></pre></div></div><p>ImagePullSecrets is a list of references to secrets in the same namespace to use for pulling any images in pods that reference this ServiceAccount. ImagePullSecrets are distinct from Secrets because Secrets can be mounted in the pod, but ImagePullSecrets are only accessed by the kubelet. More info: <a href="https://kubernetes.io/docs/concepts/containers/images/#specifying-imagepullsecrets-on-a-pod">https://kubernetes.io/docs/concepts/containers/images/#specifying-imagepullsecrets-on-a-pod</a></p><code>withImagePullSecrets</code> takes an array of type <code>imagePullSecretsType</code>. You can create
 an instance of <code>imagePullSecretsType</code> with <code>hidden.core.v1.localObjectReference.new()</code>.</p>
 

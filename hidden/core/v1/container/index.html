@@ -237,7 +237,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.container.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction(name<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, image<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>) self.withImage(image).withName(name)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>(name<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, image<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>)
 </code></pre></div></div><p></p></p>
 
 
@@ -274,7 +274,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.container.withArgs">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withArgsfunction(args) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(args) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { args<span style="color:#666">:</span> args } <span style="color:#007020;font-weight:bold">else</span> { args<span style="color:#666">:</span> [args] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withArgs(args)
 </code></pre></div></div><p>Arguments to the entrypoint. The docker image&rsquo;s CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container&rsquo;s environment. If a variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: <a href="https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell">https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell</a></p></p>
 
 
@@ -302,7 +302,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.container.withArgsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withArgsMixinfunction(args) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(args) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { args<span style="color:#666">+:</span> args } <span style="color:#007020;font-weight:bold">else</span> { args<span style="color:#666">+:</span> [args] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withArgsMixin(args)
 </code></pre></div></div><p>Arguments to the entrypoint. The docker image&rsquo;s CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container&rsquo;s environment. If a variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: <a href="https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell">https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell</a></p></p>
 
 
@@ -330,7 +330,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.container.withCommand">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { command<span style="color:#666">:</span> command } <span style="color:#007020;font-weight:bold">else</span> { command<span style="color:#666">:</span> [command] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommand(command)
 </code></pre></div></div><p>Entrypoint array. Not executed within a shell. The docker image&rsquo;s ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container&rsquo;s environment. If a variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: <a href="https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell">https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell</a></p></p>
 
 
@@ -358,7 +358,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.container.withCommandMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixinfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { command<span style="color:#666">+:</span> command } <span style="color:#007020;font-weight:bold">else</span> { command<span style="color:#666">+:</span> [command] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixin(command)
 </code></pre></div></div><p>Entrypoint array. Not executed within a shell. The docker image&rsquo;s ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container&rsquo;s environment. If a variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: <a href="https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell">https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell</a></p></p>
 
 
@@ -386,7 +386,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.container.withEnv">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnvfunction(env) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(env) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { env<span style="color:#666">:</span> env } <span style="color:#007020;font-weight:bold">else</span> { env<span style="color:#666">:</span> [env] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnv(env)
 </code></pre></div></div><p>List of environment variables to set in the container. Cannot be updated.</p><code>withEnv</code> takes an array of type <code>envType</code>. You can create
 an instance of <code>envType</code> with <code>hidden.core.v1.envVar.new()</code>.</p>
 
@@ -417,7 +417,7 @@ an instance of <code>envType</code> with <code>hidden.core.v1.envVar.new()</code
     </h5>
 
     <div class="collapse show" id="core.v1.container.withEnvFrom">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnvFromfunction(envFrom) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(envFrom) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { envFrom<span style="color:#666">:</span> envFrom } <span style="color:#007020;font-weight:bold">else</span> { envFrom<span style="color:#666">:</span> [envFrom] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnvFrom(envFrom)
 </code></pre></div></div><p>List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.</p><code>withEnvFrom</code> takes an array of type <code>envFromType</code>. You can create
 an instance of <code>envFromType</code> with <code>hidden.core.v1.envFromSource.new()</code>.</p>
 
@@ -448,7 +448,7 @@ an instance of <code>envFromType</code> with <code>hidden.core.v1.envFromSource.
     </h5>
 
     <div class="collapse show" id="core.v1.container.withEnvFromMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnvFromMixinfunction(envFrom) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(envFrom) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { envFrom<span style="color:#666">+:</span> envFrom } <span style="color:#007020;font-weight:bold">else</span> { envFrom<span style="color:#666">+:</span> [envFrom] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnvFromMixin(envFrom)
 </code></pre></div></div><p>List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.</p><code>withEnvFromMixin</code> takes an array of type <code>envFromType</code>. You can create
 an instance of <code>envFromType</code> with <code>hidden.core.v1.envFromSource.new()</code>.</p>
 
@@ -479,7 +479,7 @@ an instance of <code>envFromType</code> with <code>hidden.core.v1.envFromSource.
     </h5>
 
     <div class="collapse show" id="core.v1.container.withEnvMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnvMixinfunction(env) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(env) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { env<span style="color:#666">+:</span> env } <span style="color:#007020;font-weight:bold">else</span> { env<span style="color:#666">+:</span> [env] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnvMixin(env)
 </code></pre></div></div><p>List of environment variables to set in the container. Cannot be updated.</p><code>withEnvMixin</code> takes an array of type <code>envType</code>. You can create
 an instance of <code>envType</code> with <code>hidden.core.v1.envVar.new()</code>.</p>
 
@@ -510,7 +510,7 @@ an instance of <code>envType</code> with <code>hidden.core.v1.envVar.new()</code
     </h5>
 
     <div class="collapse show" id="core.v1.container.withImage">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImagefunction(image) self <span style="color:#666">+</span> { image<span style="color:#666">:</span> image }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImage(image)
 </code></pre></div></div><p>Docker image name. More info: <a href="https://kubernetes.io/docs/concepts/containers/images">https://kubernetes.io/docs/concepts/containers/images</a> This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.</p></p>
 
 
@@ -538,7 +538,7 @@ an instance of <code>envType</code> with <code>hidden.core.v1.envVar.new()</code
     </h5>
 
     <div class="collapse show" id="core.v1.container.withImagePullPolicy">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImagePullPolicyfunction(imagePullPolicy) self <span style="color:#666">+</span> { imagePullPolicy<span style="color:#666">:</span> imagePullPolicy }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImagePullPolicy(imagePullPolicy)
 </code></pre></div></div><p>Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: <a href="https://kubernetes.io/docs/concepts/containers/images#updating-images">https://kubernetes.io/docs/concepts/containers/images#updating-images</a></p></p>
 
 
@@ -566,7 +566,7 @@ an instance of <code>envType</code> with <code>hidden.core.v1.envVar.new()</code
     </h5>
 
     <div class="collapse show" id="core.v1.container.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> { name<span style="color:#666">:</span> name }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.</p></p>
 
 
@@ -594,7 +594,7 @@ an instance of <code>envType</code> with <code>hidden.core.v1.envVar.new()</code
     </h5>
 
     <div class="collapse show" id="core.v1.container.withPorts">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsfunction(ports) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ports) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ports<span style="color:#666">:</span> ports } <span style="color:#007020;font-weight:bold">else</span> { ports<span style="color:#666">:</span> [ports] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPorts(ports)
 </code></pre></div></div><p>List of ports to expose from the container. Exposing a port here gives the system additional information about the network connections a container uses, but is primarily informational. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default &ldquo;0.0.0.0&rdquo; address inside a container will be accessible from the network. Cannot be updated.</p><code>withPorts</code> takes an array of type <code>portsType</code>. You can create
 an instance of <code>portsType</code> with <code>hidden.core.v1.containerPort.new()</code>.</p>
 
@@ -625,7 +625,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.containerPort.ne
     </h5>
 
     <div class="collapse show" id="core.v1.container.withPortsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsMixinfunction(ports) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ports) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ports<span style="color:#666">+:</span> ports } <span style="color:#007020;font-weight:bold">else</span> { ports<span style="color:#666">+:</span> [ports] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsMixin(ports)
 </code></pre></div></div><p>List of ports to expose from the container. Exposing a port here gives the system additional information about the network connections a container uses, but is primarily informational. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default &ldquo;0.0.0.0&rdquo; address inside a container will be accessible from the network. Cannot be updated.</p><code>withPortsMixin</code> takes an array of type <code>portsType</code>. You can create
 an instance of <code>portsType</code> with <code>hidden.core.v1.containerPort.new()</code>.</p>
 
@@ -656,7 +656,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.containerPort.ne
     </h5>
 
     <div class="collapse show" id="core.v1.container.withStdin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStdinfunction(stdin) self <span style="color:#666">+</span> { stdin<span style="color:#666">:</span> stdin }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStdin(stdin)
 </code></pre></div></div><p>Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.</p></p>
 
 
@@ -684,7 +684,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.containerPort.ne
     </h5>
 
     <div class="collapse show" id="core.v1.container.withStdinOnce">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStdinOncefunction(stdinOnce) self <span style="color:#666">+</span> { stdinOnce<span style="color:#666">:</span> stdinOnce }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStdinOnce(stdinOnce)
 </code></pre></div></div><p>Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false</p></p>
 
 
@@ -712,7 +712,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.containerPort.ne
     </h5>
 
     <div class="collapse show" id="core.v1.container.withTerminationMessagePath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTerminationMessagePathfunction(terminationMessagePath) self <span style="color:#666">+</span> { terminationMessagePath<span style="color:#666">:</span> terminationMessagePath }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTerminationMessagePath(terminationMessagePath)
 </code></pre></div></div><p>Optional: Path at which the file to which the container&rsquo;s termination message will be written is mounted into the container&rsquo;s filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.</p></p>
 
 
@@ -740,7 +740,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.containerPort.ne
     </h5>
 
     <div class="collapse show" id="core.v1.container.withTerminationMessagePolicy">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTerminationMessagePolicyfunction(terminationMessagePolicy) self <span style="color:#666">+</span> { terminationMessagePolicy<span style="color:#666">:</span> terminationMessagePolicy }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTerminationMessagePolicy(terminationMessagePolicy)
 </code></pre></div></div><p>Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.</p></p>
 
 
@@ -768,7 +768,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.containerPort.ne
     </h5>
 
     <div class="collapse show" id="core.v1.container.withTty">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTtyfunction(tty) self <span style="color:#666">+</span> { tty<span style="color:#666">:</span> tty }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTty(tty)
 </code></pre></div></div><p>Whether this container should allocate a TTY for itself, also requires &lsquo;stdin&rsquo; to be true. Default is false.</p></p>
 
 
@@ -796,7 +796,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.containerPort.ne
     </h5>
 
     <div class="collapse show" id="core.v1.container.withVolumeDevices">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeDevicesfunction(volumeDevices) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumeDevices) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { volumeDevices<span style="color:#666">:</span> volumeDevices } <span style="color:#007020;font-weight:bold">else</span> { volumeDevices<span style="color:#666">:</span> [volumeDevices] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeDevices(volumeDevices)
 </code></pre></div></div><p>volumeDevices is the list of block devices to be used by the container. This is a beta feature.</p><code>withVolumeDevices</code> takes an array of type <code>volumeDevicesType</code>. You can create
 an instance of <code>volumeDevicesType</code> with <code>hidden.core.v1.volumeDevice.new()</code>.</p>
 
@@ -827,7 +827,7 @@ an instance of <code>volumeDevicesType</code> with <code>hidden.core.v1.volumeDe
     </h5>
 
     <div class="collapse show" id="core.v1.container.withVolumeDevicesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeDevicesMixinfunction(volumeDevices) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumeDevices) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { volumeDevices<span style="color:#666">+:</span> volumeDevices } <span style="color:#007020;font-weight:bold">else</span> { volumeDevices<span style="color:#666">+:</span> [volumeDevices] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeDevicesMixin(volumeDevices)
 </code></pre></div></div><p>volumeDevices is the list of block devices to be used by the container. This is a beta feature.</p><code>withVolumeDevicesMixin</code> takes an array of type <code>volumeDevicesType</code>. You can create
 an instance of <code>volumeDevicesType</code> with <code>hidden.core.v1.volumeDevice.new()</code>.</p>
 
@@ -858,7 +858,7 @@ an instance of <code>volumeDevicesType</code> with <code>hidden.core.v1.volumeDe
     </h5>
 
     <div class="collapse show" id="core.v1.container.withVolumeMounts">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeMountsfunction(volumeMounts) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumeMounts) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { volumeMounts<span style="color:#666">:</span> volumeMounts } <span style="color:#007020;font-weight:bold">else</span> { volumeMounts<span style="color:#666">:</span> [volumeMounts] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeMounts(volumeMounts)
 </code></pre></div></div><p>Pod volumes to mount into the container&rsquo;s filesystem. Cannot be updated.</p><code>withVolumeMounts</code> takes an array of type <code>volumeMountsType</code>. You can create
 an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMount.new()</code>.</p>
 
@@ -889,7 +889,7 @@ an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMou
     </h5>
 
     <div class="collapse show" id="core.v1.container.withVolumeMountsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeMountsMixinfunction(volumeMounts) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumeMounts) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { volumeMounts<span style="color:#666">+:</span> volumeMounts } <span style="color:#007020;font-weight:bold">else</span> { volumeMounts<span style="color:#666">+:</span> [volumeMounts] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeMountsMixin(volumeMounts)
 </code></pre></div></div><p>Pod volumes to mount into the container&rsquo;s filesystem. Cannot be updated.</p><code>withVolumeMountsMixin</code> takes an array of type <code>volumeMountsType</code>. You can create
 an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMount.new()</code>.</p>
 
@@ -920,7 +920,7 @@ an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMou
     </h5>
 
     <div class="collapse show" id="core.v1.container.withWorkingDir">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withWorkingDirfunction(workingDir) self <span style="color:#666">+</span> { workingDir<span style="color:#666">:</span> workingDir }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withWorkingDir(workingDir)
 </code></pre></div></div><p>Container&rsquo;s working directory. If not specified, the container runtime&rsquo;s default will be used, which might be configured in the container image. Cannot be updated.</p></p>
 
 
@@ -980,7 +980,7 @@ an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMou
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(lifecycle) __lifecycleMixin(lifecycle)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(lifecycle)
 </code></pre></div></div><p></p></p>
 
 
@@ -1039,7 +1039,7 @@ an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMou
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.postStart.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(postStart) __postStartMixin(postStart)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(postStart)
 </code></pre></div></div><p></p></p>
 
 
@@ -1098,7 +1098,7 @@ an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMou
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.postStart.exec.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(exec) __execMixin(exec)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(exec)
 </code></pre></div></div><p></p></p>
 
 
@@ -1126,7 +1126,7 @@ an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMou
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.postStart.exec.withCommand">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">:</span> [command] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommand(command)
 </code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
 
 
@@ -1154,7 +1154,7 @@ an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMou
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.postStart.exec.withCommandMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixinfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">+:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">+:</span> [command] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixin(command)
 </code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
 
 
@@ -1214,7 +1214,7 @@ an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMou
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.postStart.httpGet.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(httpGet) __httpGetMixin(httpGet)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(httpGet)
 </code></pre></div></div><p></p></p>
 
 
@@ -1242,7 +1242,7 @@ an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMou
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.postStart.httpGet.withHost">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __httpGetMixin({ host<span style="color:#666">:</span> host })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHost(host)
 </code></pre></div></div><p>Host name to connect to, defaults to the pod IP. You probably want to set &ldquo;Host&rdquo; in httpHeaders instead.</p></p>
 
 
@@ -1270,7 +1270,7 @@ an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMou
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.postStart.httpGet.withHttpHeaders">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">:</span> [httpHeaders] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeaders(httpHeaders)
 </code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeaders</code> takes an array of type <code>httpHeadersType</code>. You can create
 an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
 
@@ -1301,7 +1301,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.postStart.httpGet.withHttpHeadersMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixinfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> [httpHeaders] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixin(httpHeaders)
 </code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeadersMixin</code> takes an array of type <code>httpHeadersType</code>. You can create
 an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
 
@@ -1332,7 +1332,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.postStart.httpGet.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __httpGetMixin({ path<span style="color:#666">:</span> path })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>Path to access on the HTTP server.</p></p>
 
 
@@ -1360,7 +1360,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.postStart.httpGet.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __httpGetMixin({ port<span style="color:#666">:</span> port })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
 
 
@@ -1388,7 +1388,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.postStart.httpGet.withScheme">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSchemefunction(scheme) self <span style="color:#666">+</span> __httpGetMixin({ scheme<span style="color:#666">:</span> scheme })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withScheme(scheme)
 </code></pre></div></div><p>Scheme to use for connecting to the host. Defaults to HTTP.</p></p>
 
 
@@ -1448,7 +1448,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.postStart.tcpSocket.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(tcpSocket) __tcpSocketMixin(tcpSocket)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(tcpSocket)
 </code></pre></div></div><p></p></p>
 
 
@@ -1476,7 +1476,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.postStart.tcpSocket.withHost">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __tcpSocketMixin({ host<span style="color:#666">:</span> host })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHost(host)
 </code></pre></div></div><p>Optional: Host name to connect to, defaults to the pod IP.</p></p>
 
 
@@ -1504,7 +1504,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.postStart.tcpSocket.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __tcpSocketMixin({ port<span style="color:#666">:</span> port })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
 
 
@@ -1570,7 +1570,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.preStop.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(preStop) __preStopMixin(preStop)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(preStop)
 </code></pre></div></div><p></p></p>
 
 
@@ -1629,7 +1629,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.preStop.exec.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(exec) __execMixin(exec)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(exec)
 </code></pre></div></div><p></p></p>
 
 
@@ -1657,7 +1657,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.preStop.exec.withCommand">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">:</span> [command] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommand(command)
 </code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
 
 
@@ -1685,7 +1685,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.preStop.exec.withCommandMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixinfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">+:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">+:</span> [command] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixin(command)
 </code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
 
 
@@ -1745,7 +1745,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.preStop.httpGet.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(httpGet) __httpGetMixin(httpGet)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(httpGet)
 </code></pre></div></div><p></p></p>
 
 
@@ -1773,7 +1773,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.preStop.httpGet.withHost">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __httpGetMixin({ host<span style="color:#666">:</span> host })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHost(host)
 </code></pre></div></div><p>Host name to connect to, defaults to the pod IP. You probably want to set &ldquo;Host&rdquo; in httpHeaders instead.</p></p>
 
 
@@ -1801,7 +1801,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.preStop.httpGet.withHttpHeaders">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">:</span> [httpHeaders] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeaders(httpHeaders)
 </code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeaders</code> takes an array of type <code>httpHeadersType</code>. You can create
 an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
 
@@ -1832,7 +1832,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.preStop.httpGet.withHttpHeadersMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixinfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> [httpHeaders] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixin(httpHeaders)
 </code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeadersMixin</code> takes an array of type <code>httpHeadersType</code>. You can create
 an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
 
@@ -1863,7 +1863,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.preStop.httpGet.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __httpGetMixin({ path<span style="color:#666">:</span> path })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>Path to access on the HTTP server.</p></p>
 
 
@@ -1891,7 +1891,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.preStop.httpGet.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __httpGetMixin({ port<span style="color:#666">:</span> port })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
 
 
@@ -1919,7 +1919,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.preStop.httpGet.withScheme">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSchemefunction(scheme) self <span style="color:#666">+</span> __httpGetMixin({ scheme<span style="color:#666">:</span> scheme })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withScheme(scheme)
 </code></pre></div></div><p>Scheme to use for connecting to the host. Defaults to HTTP.</p></p>
 
 
@@ -1979,7 +1979,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.preStop.tcpSocket.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(tcpSocket) __tcpSocketMixin(tcpSocket)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(tcpSocket)
 </code></pre></div></div><p></p></p>
 
 
@@ -2007,7 +2007,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.preStop.tcpSocket.withHost">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __tcpSocketMixin({ host<span style="color:#666">:</span> host })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHost(host)
 </code></pre></div></div><p>Optional: Host name to connect to, defaults to the pod IP.</p></p>
 
 
@@ -2035,7 +2035,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.lifecycle.preStop.tcpSocket.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __tcpSocketMixin({ port<span style="color:#666">:</span> port })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
 
 
@@ -2107,7 +2107,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(livenessProbe) __livenessProbeMixin(livenessProbe)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(livenessProbe)
 </code></pre></div></div><p></p></p>
 
 
@@ -2135,7 +2135,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.withFailureThreshold">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFailureThresholdfunction(failureThreshold) self <span style="color:#666">+</span> __livenessProbeMixin({ failureThreshold<span style="color:#666">:</span> failureThreshold })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFailureThreshold(failureThreshold)
 </code></pre></div></div><p>Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.</p></p>
 
 
@@ -2163,7 +2163,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.withInitialDelaySeconds">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitialDelaySecondsfunction(initialDelaySeconds) self <span style="color:#666">+</span> __livenessProbeMixin({ initialDelaySeconds<span style="color:#666">:</span> initialDelaySeconds })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitialDelaySeconds(initialDelaySeconds)
 </code></pre></div></div><p>Number of seconds after the container has started before liveness probes are initiated. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes</a></p></p>
 
 
@@ -2191,7 +2191,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.withPeriodSeconds">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPeriodSecondsfunction(periodSeconds) self <span style="color:#666">+</span> __livenessProbeMixin({ periodSeconds<span style="color:#666">:</span> periodSeconds })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPeriodSeconds(periodSeconds)
 </code></pre></div></div><p>How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.</p></p>
 
 
@@ -2219,7 +2219,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.withSuccessThreshold">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSuccessThresholdfunction(successThreshold) self <span style="color:#666">+</span> __livenessProbeMixin({ successThreshold<span style="color:#666">:</span> successThreshold })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSuccessThreshold(successThreshold)
 </code></pre></div></div><p>Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness. Minimum value is 1.</p></p>
 
 
@@ -2247,7 +2247,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.withTimeoutSeconds">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTimeoutSecondsfunction(timeoutSeconds) self <span style="color:#666">+</span> __livenessProbeMixin({ timeoutSeconds<span style="color:#666">:</span> timeoutSeconds })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTimeoutSeconds(timeoutSeconds)
 </code></pre></div></div><p>Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes</a></p></p>
 
 
@@ -2306,7 +2306,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.exec.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(exec) __execMixin(exec)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(exec)
 </code></pre></div></div><p></p></p>
 
 
@@ -2334,7 +2334,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.exec.withCommand">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">:</span> [command] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommand(command)
 </code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
 
 
@@ -2362,7 +2362,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.exec.withCommandMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixinfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">+:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">+:</span> [command] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixin(command)
 </code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
 
 
@@ -2422,7 +2422,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.httpGet.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(httpGet) __httpGetMixin(httpGet)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(httpGet)
 </code></pre></div></div><p></p></p>
 
 
@@ -2450,7 +2450,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.httpGet.withHost">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __httpGetMixin({ host<span style="color:#666">:</span> host })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHost(host)
 </code></pre></div></div><p>Host name to connect to, defaults to the pod IP. You probably want to set &ldquo;Host&rdquo; in httpHeaders instead.</p></p>
 
 
@@ -2478,7 +2478,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.httpGet.withHttpHeaders">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">:</span> [httpHeaders] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeaders(httpHeaders)
 </code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeaders</code> takes an array of type <code>httpHeadersType</code>. You can create
 an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
 
@@ -2509,7 +2509,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.httpGet.withHttpHeadersMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixinfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> [httpHeaders] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixin(httpHeaders)
 </code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeadersMixin</code> takes an array of type <code>httpHeadersType</code>. You can create
 an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
 
@@ -2540,7 +2540,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.httpGet.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __httpGetMixin({ path<span style="color:#666">:</span> path })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>Path to access on the HTTP server.</p></p>
 
 
@@ -2568,7 +2568,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.httpGet.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __httpGetMixin({ port<span style="color:#666">:</span> port })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
 
 
@@ -2596,7 +2596,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.httpGet.withScheme">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSchemefunction(scheme) self <span style="color:#666">+</span> __httpGetMixin({ scheme<span style="color:#666">:</span> scheme })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withScheme(scheme)
 </code></pre></div></div><p>Scheme to use for connecting to the host. Defaults to HTTP.</p></p>
 
 
@@ -2656,7 +2656,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.tcpSocket.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(tcpSocket) __tcpSocketMixin(tcpSocket)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(tcpSocket)
 </code></pre></div></div><p></p></p>
 
 
@@ -2684,7 +2684,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.tcpSocket.withHost">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __tcpSocketMixin({ host<span style="color:#666">:</span> host })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHost(host)
 </code></pre></div></div><p>Optional: Host name to connect to, defaults to the pod IP.</p></p>
 
 
@@ -2712,7 +2712,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.livenessProbe.tcpSocket.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __tcpSocketMixin({ port<span style="color:#666">:</span> port })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
 
 
@@ -2778,7 +2778,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(readinessProbe) __readinessProbeMixin(readinessProbe)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(readinessProbe)
 </code></pre></div></div><p></p></p>
 
 
@@ -2806,7 +2806,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.withFailureThreshold">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFailureThresholdfunction(failureThreshold) self <span style="color:#666">+</span> __readinessProbeMixin({ failureThreshold<span style="color:#666">:</span> failureThreshold })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFailureThreshold(failureThreshold)
 </code></pre></div></div><p>Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.</p></p>
 
 
@@ -2834,7 +2834,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.withInitialDelaySeconds">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitialDelaySecondsfunction(initialDelaySeconds) self <span style="color:#666">+</span> __readinessProbeMixin({ initialDelaySeconds<span style="color:#666">:</span> initialDelaySeconds })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitialDelaySeconds(initialDelaySeconds)
 </code></pre></div></div><p>Number of seconds after the container has started before liveness probes are initiated. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes</a></p></p>
 
 
@@ -2862,7 +2862,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.withPeriodSeconds">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPeriodSecondsfunction(periodSeconds) self <span style="color:#666">+</span> __readinessProbeMixin({ periodSeconds<span style="color:#666">:</span> periodSeconds })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPeriodSeconds(periodSeconds)
 </code></pre></div></div><p>How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.</p></p>
 
 
@@ -2890,7 +2890,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.withSuccessThreshold">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSuccessThresholdfunction(successThreshold) self <span style="color:#666">+</span> __readinessProbeMixin({ successThreshold<span style="color:#666">:</span> successThreshold })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSuccessThreshold(successThreshold)
 </code></pre></div></div><p>Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness. Minimum value is 1.</p></p>
 
 
@@ -2918,7 +2918,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.withTimeoutSeconds">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTimeoutSecondsfunction(timeoutSeconds) self <span style="color:#666">+</span> __readinessProbeMixin({ timeoutSeconds<span style="color:#666">:</span> timeoutSeconds })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTimeoutSeconds(timeoutSeconds)
 </code></pre></div></div><p>Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes</a></p></p>
 
 
@@ -2977,7 +2977,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.exec.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(exec) __execMixin(exec)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(exec)
 </code></pre></div></div><p></p></p>
 
 
@@ -3005,7 +3005,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.exec.withCommand">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">:</span> [command] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommand(command)
 </code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
 
 
@@ -3033,7 +3033,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.exec.withCommandMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixinfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">+:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">+:</span> [command] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixin(command)
 </code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
 
 
@@ -3093,7 +3093,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.httpGet.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(httpGet) __httpGetMixin(httpGet)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(httpGet)
 </code></pre></div></div><p></p></p>
 
 
@@ -3121,7 +3121,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.httpGet.withHost">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __httpGetMixin({ host<span style="color:#666">:</span> host })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHost(host)
 </code></pre></div></div><p>Host name to connect to, defaults to the pod IP. You probably want to set &ldquo;Host&rdquo; in httpHeaders instead.</p></p>
 
 
@@ -3149,7 +3149,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.httpGet.withHttpHeaders">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">:</span> [httpHeaders] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeaders(httpHeaders)
 </code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeaders</code> takes an array of type <code>httpHeadersType</code>. You can create
 an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
 
@@ -3180,7 +3180,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.httpGet.withHttpHeadersMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixinfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> [httpHeaders] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixin(httpHeaders)
 </code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeadersMixin</code> takes an array of type <code>httpHeadersType</code>. You can create
 an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
 
@@ -3211,7 +3211,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.httpGet.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __httpGetMixin({ path<span style="color:#666">:</span> path })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>Path to access on the HTTP server.</p></p>
 
 
@@ -3239,7 +3239,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.httpGet.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __httpGetMixin({ port<span style="color:#666">:</span> port })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
 
 
@@ -3267,7 +3267,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.httpGet.withScheme">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSchemefunction(scheme) self <span style="color:#666">+</span> __httpGetMixin({ scheme<span style="color:#666">:</span> scheme })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withScheme(scheme)
 </code></pre></div></div><p>Scheme to use for connecting to the host. Defaults to HTTP.</p></p>
 
 
@@ -3327,7 +3327,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.tcpSocket.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(tcpSocket) __tcpSocketMixin(tcpSocket)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(tcpSocket)
 </code></pre></div></div><p></p></p>
 
 
@@ -3355,7 +3355,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.tcpSocket.withHost">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __tcpSocketMixin({ host<span style="color:#666">:</span> host })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHost(host)
 </code></pre></div></div><p>Optional: Host name to connect to, defaults to the pod IP.</p></p>
 
 
@@ -3383,7 +3383,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.readinessProbe.tcpSocket.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __tcpSocketMixin({ port<span style="color:#666">:</span> port })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
 
 
@@ -3449,7 +3449,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.resources.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(resources) __resourcesMixin(resources)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(resources)
 </code></pre></div></div><p></p></p>
 
 
@@ -3477,7 +3477,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.resources.withLimits">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLimitsfunction(limits) self <span style="color:#666">+</span> __resourcesMixin({ limits<span style="color:#666">:</span> limits })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLimits(limits)
 </code></pre></div></div><p>Limits describes the maximum amount of compute resources allowed. More info: <a href="https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/">https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/</a></p></p>
 
 
@@ -3505,7 +3505,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.resources.withLimitsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLimitsMixinfunction(limits) self <span style="color:#666">+</span> __resourcesMixin({ limits<span style="color:#666">+:</span> limits })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLimitsMixin(limits)
 </code></pre></div></div><p>Limits describes the maximum amount of compute resources allowed. More info: <a href="https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/">https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/</a></p></p>
 
 
@@ -3533,7 +3533,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.resources.withRequests">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequestsfunction(requests) self <span style="color:#666">+</span> __resourcesMixin({ requests<span style="color:#666">:</span> requests })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequests(requests)
 </code></pre></div></div><p>Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: <a href="https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/">https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/</a></p></p>
 
 
@@ -3561,7 +3561,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.resources.withRequestsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequestsMixinfunction(requests) self <span style="color:#666">+</span> __resourcesMixin({ requests<span style="color:#666">+:</span> requests })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequestsMixin(requests)
 </code></pre></div></div><p>Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: <a href="https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/">https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/</a></p></p>
 
 
@@ -3621,7 +3621,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(securityContext) __securityContextMixin(securityContext)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(securityContext)
 </code></pre></div></div><p></p></p>
 
 
@@ -3649,7 +3649,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.withAllowPrivilegeEscalation">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowPrivilegeEscalationfunction(allowPrivilegeEscalation) self <span style="color:#666">+</span> __securityContextMixin({ allowPrivilegeEscalation<span style="color:#666">:</span> allowPrivilegeEscalation })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowPrivilegeEscalation(allowPrivilegeEscalation)
 </code></pre></div></div><p>AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN</p></p>
 
 
@@ -3677,7 +3677,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.withPrivileged">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPrivilegedfunction(privileged) self <span style="color:#666">+</span> __securityContextMixin({ privileged<span style="color:#666">:</span> privileged })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPrivileged(privileged)
 </code></pre></div></div><p>Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false.</p></p>
 
 
@@ -3705,7 +3705,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.withProcMount">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProcMountfunction(procMount) self <span style="color:#666">+</span> __securityContextMixin({ procMount<span style="color:#666">:</span> procMount })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProcMount(procMount)
 </code></pre></div></div><p>procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled.</p></p>
 
 
@@ -3733,7 +3733,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.withRunAsGroup">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsGroupfunction(runAsGroup) self <span style="color:#666">+</span> __securityContextMixin({ runAsGroup<span style="color:#666">:</span> runAsGroup })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsGroup(runAsGroup)
 </code></pre></div></div><p>The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.</p></p>
 
 
@@ -3761,7 +3761,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.withRunAsNonRoot">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsNonRootfunction(runAsNonRoot) self <span style="color:#666">+</span> __securityContextMixin({ runAsNonRoot<span style="color:#666">:</span> runAsNonRoot })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsNonRoot(runAsNonRoot)
 </code></pre></div></div><p>Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.</p></p>
 
 
@@ -3789,7 +3789,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.withRunAsUser">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsUserfunction(runAsUser) self <span style="color:#666">+</span> __securityContextMixin({ runAsUser<span style="color:#666">:</span> runAsUser })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsUser(runAsUser)
 </code></pre></div></div><p>The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.</p></p>
 
 
@@ -3848,7 +3848,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.capabilities.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(capabilities) __capabilitiesMixin(capabilities)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(capabilities)
 </code></pre></div></div><p></p></p>
 
 
@@ -3876,7 +3876,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.capabilities.withAdd">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddfunction(add) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(add) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __capabilitiesMixin({ add<span style="color:#666">:</span> add }) <span style="color:#007020;font-weight:bold">else</span> __capabilitiesMixin({ add<span style="color:#666">:</span> [add] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdd(add)
 </code></pre></div></div><p>Added capabilities</p></p>
 
 
@@ -3904,7 +3904,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.capabilities.withAddMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddMixinfunction(add) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(add) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __capabilitiesMixin({ add<span style="color:#666">+:</span> add }) <span style="color:#007020;font-weight:bold">else</span> __capabilitiesMixin({ add<span style="color:#666">+:</span> [add] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddMixin(add)
 </code></pre></div></div><p>Added capabilities</p></p>
 
 
@@ -3932,7 +3932,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.capabilities.withDrop">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDropfunction(drop) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(drop) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __capabilitiesMixin({ drop<span style="color:#666">:</span> drop }) <span style="color:#007020;font-weight:bold">else</span> __capabilitiesMixin({ drop<span style="color:#666">:</span> [drop] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDrop(drop)
 </code></pre></div></div><p>Removed capabilities</p></p>
 
 
@@ -3960,7 +3960,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.capabilities.withDropMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDropMixinfunction(drop) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(drop) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __capabilitiesMixin({ drop<span style="color:#666">+:</span> drop }) <span style="color:#007020;font-weight:bold">else</span> __capabilitiesMixin({ drop<span style="color:#666">+:</span> [drop] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDropMixin(drop)
 </code></pre></div></div><p>Removed capabilities</p></p>
 
 
@@ -4020,7 +4020,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.seLinuxOptions.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(seLinuxOptions) __seLinuxOptionsMixin(seLinuxOptions)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(seLinuxOptions)
 </code></pre></div></div><p></p></p>
 
 
@@ -4048,7 +4048,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.seLinuxOptions.withLevel">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevelfunction(level) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ level<span style="color:#666">:</span> level })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevel(level)
 </code></pre></div></div><p>Level is SELinux level label that applies to the container.</p></p>
 
 
@@ -4076,7 +4076,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.seLinuxOptions.withRole">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRolefunction(role) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ role<span style="color:#666">:</span> role })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRole(role)
 </code></pre></div></div><p>Role is a SELinux role label that applies to the container.</p></p>
 
 
@@ -4104,7 +4104,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.seLinuxOptions.withType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ type<span style="color:#666">:</span> type })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withType(type)
 </code></pre></div></div><p>Type is a SELinux type label that applies to the container.</p></p>
 
 
@@ -4132,7 +4132,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.container.securityContext.seLinuxOptions.withUser">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUserfunction(user) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ user<span style="color:#666">:</span> user })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUser(user)
 </code></pre></div></div><p>User is a SELinux user label that applies to the container.</p></p>
 
 

@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedUnsafeSysctlsfunction(allowedUnsafeSysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedUnsafeSysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedUnsafeSysctls<span style="color:#666">:</span> allowedUnsafeSysctls } <span style="color:#007020;font-weight:bold">else</span> { allowedUnsafeSysctls<span style="color:#666">:</span> [allowedUnsafeSysctls] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedUnsafeSysctls(allowedUnsafeSysctls)
 </code></pre></div></div><p>allowedUnsafeSysctls is a list of explicitly allowed unsafe sysctls, defaults to none. Each entry is either a plain sysctl name or ends in &ldquo;*&rdquo; in which case it is considered as a prefix of allowed sysctls. Single * means all unsafe sysctls are allowed. Kubelet has to whitelist all allowed unsafe sysctls explicitly to avoid rejection.</p><p></p><p>Examples: e.g. &ldquo;foo/<em>&rdquo; allows &ldquo;foo/bar&rdquo;, &ldquo;foo/baz&rdquo;, etc. e.g. &ldquo;foo.</em>&rdquo; allows &ldquo;foo.bar&rdquo;, &ldquo;foo.baz&rdquo;, etc.</p></p>
 
 

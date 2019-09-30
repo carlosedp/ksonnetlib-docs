@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVerbsMixinfunction(verbs) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(verbs) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { verbs<span style="color:#666">+:</span> verbs } <span style="color:#007020;font-weight:bold">else</span> { verbs<span style="color:#666">+:</span> [verbs] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVerbsMixin(verbs)
 </code></pre></div></div><p>verbs is a list of supported kube verbs (this includes get, list, watch, create, update, patch, delete, deletecollection, and proxy)</p></p>
 
 

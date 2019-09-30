@@ -6,7 +6,7 @@
     <description>Recent content in Autoscalings on ksonnet lib API Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 14:37:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 20:18:40 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/autoscaling/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,721 +14,721 @@
     <item>
       <title>new</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/new/</guid>
-      <description>newfunction() apiVersion + kind</description>
+      <description>new()</description>
     </item>
     
     <item>
       <title>new</title>
       <link>http://example.org/autoscaling/v1/scale/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/new/</guid>
-      <description>newfunction(replicas=1) apiVersion + kind + self.mixin.spec.withReplicas(replicas)</description>
+      <description>new(replicas=1)</description>
     </item>
     
     <item>
       <title>new</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/new/</guid>
-      <description>newfunction() apiVersion + kind</description>
+      <description>new()</description>
     </item>
     
     <item>
       <title>new</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/new/</guid>
-      <description>newfunction() apiVersion + kind</description>
+      <description>new()</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/initializers/mixinInstance/</guid>
-      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+      <description>mixinInstance(initializers)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/mixinInstance/</guid>
-      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+      <description>mixinInstance(metadata)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/mixinInstance/</guid>
-      <description>mixinInstancefunction(spec) __specMixin(spec)</description>
+      <description>mixinInstance(spec)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/scaleTargetRef/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/scaleTargetRef/mixinInstance/</guid>
-      <description>mixinInstancefunction(scaleTargetRef) __scaleTargetRefMixin(scaleTargetRef)</description>
+      <description>mixinInstance(scaleTargetRef)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/initializers/mixinInstance/</guid>
-      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+      <description>mixinInstance(initializers)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/mixinInstance/</guid>
-      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+      <description>mixinInstance(metadata)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/autoscaling/v1/scale/spec/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/spec/mixinInstance/</guid>
-      <description>mixinInstancefunction(spec) __specMixin(spec)</description>
+      <description>mixinInstance(spec)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/initializers/mixinInstance/</guid>
-      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+      <description>mixinInstance(initializers)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/mixinInstance/</guid>
-      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+      <description>mixinInstance(metadata)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/mixinInstance/</guid>
-      <description>mixinInstancefunction(spec) __specMixin(spec)</description>
+      <description>mixinInstance(spec)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/scaleTargetRef/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/scaleTargetRef/mixinInstance/</guid>
-      <description>mixinInstancefunction(scaleTargetRef) __scaleTargetRefMixin(scaleTargetRef)</description>
+      <description>mixinInstance(scaleTargetRef)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/initializers/mixinInstance/</guid>
-      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+      <description>mixinInstance(initializers)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/mixinInstance/</guid>
-      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+      <description>mixinInstance(metadata)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/mixinInstance/</guid>
-      <description>mixinInstancefunction(spec) __specMixin(spec)</description>
+      <description>mixinInstance(spec)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/scaleTargetRef/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/scaleTargetRef/mixinInstance/</guid>
-      <description>mixinInstancefunction(scaleTargetRef) __scaleTargetRefMixin(scaleTargetRef)</description>
+      <description>mixinInstance(scaleTargetRef)</description>
     </item>
     
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withAnnotations/</guid>
-      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotations(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/withAnnotations/</guid>
-      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotations(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withAnnotations/</guid>
-      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotations(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withAnnotations/</guid>
-      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotations(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withAnnotationsMixin/</guid>
-      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotationsMixin(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/withAnnotationsMixin/</guid>
-      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotationsMixin(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withAnnotationsMixin/</guid>
-      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotationsMixin(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withAnnotationsMixin/</guid>
-      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotationsMixin(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withClusterName</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withClusterName/</guid>
-      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+      <description>withClusterName(clusterName) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
     </item>
     
     <item>
       <title>withClusterName</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/withClusterName/</guid>
-      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+      <description>withClusterName(clusterName) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
     </item>
     
     <item>
       <title>withClusterName</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withClusterName/</guid>
-      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+      <description>withClusterName(clusterName) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
     </item>
     
     <item>
       <title>withClusterName</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withClusterName/</guid>
-      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+      <description>withClusterName(clusterName) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
     </item>
     
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withFinalizers/</guid>
-      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizers(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/withFinalizers/</guid>
-      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizers(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withFinalizers/</guid>
-      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizers(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withFinalizers/</guid>
-      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizers(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withFinalizersMixin/</guid>
-      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizersMixin(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/withFinalizersMixin/</guid>
-      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizersMixin(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withFinalizersMixin/</guid>
-      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizersMixin(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withFinalizersMixin/</guid>
-      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizersMixin(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withGenerateName/</guid>
-      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+      <description>withGenerateName(generateName) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
     </item>
     
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/withGenerateName/</guid>
-      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+      <description>withGenerateName(generateName) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
     </item>
     
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withGenerateName/</guid>
-      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+      <description>withGenerateName(generateName) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
     </item>
     
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withGenerateName/</guid>
-      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+      <description>withGenerateName(generateName) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
     </item>
     
     <item>
       <title>withKind</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/scaleTargetRef/withKind/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/scaleTargetRef/withKind/</guid>
-      <description>withKindfunction(kind) self + __scaleTargetRefMixin({ kind: kind }) Kind of the referent; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds&amp;quot;</description>
+      <description>withKind(kind) Kind of the referent; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds&amp;quot;</description>
     </item>
     
     <item>
       <title>withKind</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/scaleTargetRef/withKind/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/scaleTargetRef/withKind/</guid>
-      <description>withKindfunction(kind) self + __scaleTargetRefMixin({ kind: kind }) Kind of the referent; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds&amp;quot;</description>
+      <description>withKind(kind) Kind of the referent; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds&amp;quot;</description>
     </item>
     
     <item>
       <title>withKind</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/scaleTargetRef/withKind/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/scaleTargetRef/withKind/</guid>
-      <description>withKindfunction(kind) self + __scaleTargetRefMixin({ kind: kind }) Kind of the referent; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds&amp;quot;</description>
+      <description>withKind(kind) Kind of the referent; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds&amp;quot;</description>
     </item>
     
     <item>
       <title>withLabels</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withLabels/</guid>
-      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabels(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabels</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/withLabels/</guid>
-      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabels(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabels</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withLabels/</guid>
-      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabels(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabels</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withLabels/</guid>
-      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabels(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withLabelsMixin/</guid>
-      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabelsMixin(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/withLabelsMixin/</guid>
-      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabelsMixin(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withLabelsMixin/</guid>
-      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabelsMixin(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withLabelsMixin/</guid>
-      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabelsMixin(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withManagedFields/</guid>
-      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFields(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/withManagedFields/</guid>
-      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFields(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withManagedFields/</guid>
-      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFields(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withManagedFields/</guid>
-      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFields(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withManagedFieldsMixin/</guid>
-      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFieldsMixin(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/withManagedFieldsMixin/</guid>
-      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFieldsMixin(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withManagedFieldsMixin/</guid>
-      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFieldsMixin(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withManagedFieldsMixin/</guid>
-      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFieldsMixin(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withMaxReplicas</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/withMaxReplicas/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/withMaxReplicas/</guid>
-      <description>withMaxReplicasfunction(maxReplicas) self + __specMixin({ maxReplicas: maxReplicas }) upper limit for the number of pods that can be set by the autoscaler; cannot be smaller than MinReplicas.</description>
+      <description>withMaxReplicas(maxReplicas) upper limit for the number of pods that can be set by the autoscaler; cannot be smaller than MinReplicas.</description>
     </item>
     
     <item>
       <title>withMaxReplicas</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/withMaxReplicas/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/withMaxReplicas/</guid>
-      <description>withMaxReplicasfunction(maxReplicas) self + __specMixin({ maxReplicas: maxReplicas }) maxReplicas is the upper limit for the number of replicas to which the autoscaler can scale up. It cannot be less that minReplicas.</description>
+      <description>withMaxReplicas(maxReplicas) maxReplicas is the upper limit for the number of replicas to which the autoscaler can scale up. It cannot be less that minReplicas.</description>
     </item>
     
     <item>
       <title>withMaxReplicas</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/withMaxReplicas/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/withMaxReplicas/</guid>
-      <description>withMaxReplicasfunction(maxReplicas) self + __specMixin({ maxReplicas: maxReplicas }) maxReplicas is the upper limit for the number of replicas to which the autoscaler can scale up. It cannot be less that minReplicas.</description>
+      <description>withMaxReplicas(maxReplicas) maxReplicas is the upper limit for the number of replicas to which the autoscaler can scale up. It cannot be less that minReplicas.</description>
     </item>
     
     <item>
       <title>withMetrics</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/withMetrics/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/withMetrics/</guid>
-      <description>withMetricsfunction(metrics) self + if std.type(metrics) == &amp;#39;array&amp;#39; then __specMixin({ metrics: metrics }) else __specMixin({ metrics: [metrics] }) metrics contains the specifications for which to use to calculate the desired replica count (the maximum replica count across all metrics will be used). The desired replica count is calculated multiplying the ratio between the target value and the current value by the current number of pods. Ergo, metrics used must decrease as the pod count is increased, and vice-versa.</description>
+      <description>withMetrics(metrics) metrics contains the specifications for which to use to calculate the desired replica count (the maximum replica count across all metrics will be used). The desired replica count is calculated multiplying the ratio between the target value and the current value by the current number of pods. Ergo, metrics used must decrease as the pod count is increased, and vice-versa. See the individual metric source types for more information about how each type of metric must respond.</description>
     </item>
     
     <item>
       <title>withMetrics</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/withMetrics/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/withMetrics/</guid>
-      <description>withMetricsfunction(metrics) self + if std.type(metrics) == &amp;#39;array&amp;#39; then __specMixin({ metrics: metrics }) else __specMixin({ metrics: [metrics] }) metrics contains the specifications for which to use to calculate the desired replica count (the maximum replica count across all metrics will be used). The desired replica count is calculated multiplying the ratio between the target value and the current value by the current number of pods. Ergo, metrics used must decrease as the pod count is increased, and vice-versa.</description>
+      <description>withMetrics(metrics) metrics contains the specifications for which to use to calculate the desired replica count (the maximum replica count across all metrics will be used). The desired replica count is calculated multiplying the ratio between the target value and the current value by the current number of pods. Ergo, metrics used must decrease as the pod count is increased, and vice-versa. See the individual metric source types for more information about how each type of metric must respond.</description>
     </item>
     
     <item>
       <title>withMetricsMixin</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/withMetricsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/withMetricsMixin/</guid>
-      <description>withMetricsMixinfunction(metrics) self + if std.type(metrics) == &amp;#39;array&amp;#39; then __specMixin({ metrics+: metrics }) else __specMixin({ metrics+: [metrics] }) metrics contains the specifications for which to use to calculate the desired replica count (the maximum replica count across all metrics will be used). The desired replica count is calculated multiplying the ratio between the target value and the current value by the current number of pods. Ergo, metrics used must decrease as the pod count is increased, and vice-versa.</description>
+      <description>withMetricsMixin(metrics) metrics contains the specifications for which to use to calculate the desired replica count (the maximum replica count across all metrics will be used). The desired replica count is calculated multiplying the ratio between the target value and the current value by the current number of pods. Ergo, metrics used must decrease as the pod count is increased, and vice-versa. See the individual metric source types for more information about how each type of metric must respond.</description>
     </item>
     
     <item>
       <title>withMetricsMixin</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/withMetricsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/withMetricsMixin/</guid>
-      <description>withMetricsMixinfunction(metrics) self + if std.type(metrics) == &amp;#39;array&amp;#39; then __specMixin({ metrics+: metrics }) else __specMixin({ metrics+: [metrics] }) metrics contains the specifications for which to use to calculate the desired replica count (the maximum replica count across all metrics will be used). The desired replica count is calculated multiplying the ratio between the target value and the current value by the current number of pods. Ergo, metrics used must decrease as the pod count is increased, and vice-versa.</description>
+      <description>withMetricsMixin(metrics) metrics contains the specifications for which to use to calculate the desired replica count (the maximum replica count across all metrics will be used). The desired replica count is calculated multiplying the ratio between the target value and the current value by the current number of pods. Ergo, metrics used must decrease as the pod count is increased, and vice-versa. See the individual metric source types for more information about how each type of metric must respond.</description>
     </item>
     
     <item>
       <title>withMinReplicas</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/withMinReplicas/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/withMinReplicas/</guid>
-      <description>withMinReplicasfunction(minReplicas) self + __specMixin({ minReplicas: minReplicas }) lower limit for the number of pods that can be set by the autoscaler, default 1.</description>
+      <description>withMinReplicas(minReplicas) lower limit for the number of pods that can be set by the autoscaler, default 1.</description>
     </item>
     
     <item>
       <title>withMinReplicas</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/withMinReplicas/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/withMinReplicas/</guid>
-      <description>withMinReplicasfunction(minReplicas) self + __specMixin({ minReplicas: minReplicas }) minReplicas is the lower limit for the number of replicas to which the autoscaler can scale down. It defaults to 1 pod.</description>
+      <description>withMinReplicas(minReplicas) minReplicas is the lower limit for the number of replicas to which the autoscaler can scale down. It defaults to 1 pod.</description>
     </item>
     
     <item>
       <title>withMinReplicas</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/withMinReplicas/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/withMinReplicas/</guid>
-      <description>withMinReplicasfunction(minReplicas) self + __specMixin({ minReplicas: minReplicas }) minReplicas is the lower limit for the number of replicas to which the autoscaler can scale down. It defaults to 1 pod.</description>
+      <description>withMinReplicas(minReplicas) minReplicas is the lower limit for the number of replicas to which the autoscaler can scale down. It defaults to 1 pod.</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withName/</guid>
-      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/scaleTargetRef/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/scaleTargetRef/withName/</guid>
-      <description>withNamefunction(name) self + __scaleTargetRefMixin({ name: name }) Name of the referent; More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name of the referent; More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/withName/</guid>
-      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withName/</guid>
-      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/scaleTargetRef/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/scaleTargetRef/withName/</guid>
-      <description>withNamefunction(name) self + __scaleTargetRefMixin({ name: name }) Name of the referent; More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name of the referent; More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withName/</guid>
-      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/scaleTargetRef/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/scaleTargetRef/withName/</guid>
-      <description>withNamefunction(name) self + __scaleTargetRefMixin({ name: name }) Name of the referent; More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name of the referent; More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withNamespace</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+      <description>withNamespace(namespace) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
 
 Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
     </item>
@@ -736,10 +736,10 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withNamespace</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+      <description>withNamespace(namespace) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
 
 Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
     </item>
@@ -747,10 +747,10 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withNamespace</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+      <description>withNamespace(namespace) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
 
 Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
     </item>
@@ -758,10 +758,10 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withNamespace</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+      <description>withNamespace(namespace) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
 
 Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
     </item>
@@ -769,177 +769,193 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withOwnerReferences/</guid>
-      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferences(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferences takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/withOwnerReferences/</guid>
-      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferences(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferences takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withOwnerReferences/</guid>
-      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferences(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferences takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withOwnerReferences/</guid>
-      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferences(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferences takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/withOwnerReferencesMixin/</guid>
-      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferencesMixin(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferencesMixin takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/withOwnerReferencesMixin/</guid>
-      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferencesMixin(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferencesMixin takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/withOwnerReferencesMixin/</guid>
-      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferencesMixin(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferencesMixin takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/withOwnerReferencesMixin/</guid>
-      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferencesMixin(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferencesMixin takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withPending</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/initializers/withPending/</guid>
-      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPending takes an array of type pendingType.</description>
+      <description>withPending(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPending</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/initializers/withPending/</guid>
-      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPending takes an array of type pendingType.</description>
+      <description>withPending(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPending</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/initializers/withPending/</guid>
-      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPending takes an array of type pendingType.</description>
+      <description>withPending(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPending</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/initializers/withPending/</guid>
-      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPending takes an array of type pendingType.</description>
+      <description>withPending(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/initializers/withPendingMixin/</guid>
-      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPendingMixin takes an array of type pendingType.</description>
+      <description>withPendingMixin(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/initializers/withPendingMixin/</guid>
-      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPendingMixin takes an array of type pendingType.</description>
+      <description>withPendingMixin(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/initializers/withPendingMixin/</guid>
-      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPendingMixin takes an array of type pendingType.</description>
+      <description>withPendingMixin(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/initializers/withPendingMixin/</guid>
-      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPendingMixin takes an array of type pendingType.</description>
+      <description>withPendingMixin(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withReplicas</title>
       <link>http://example.org/autoscaling/v1/scale/spec/withReplicas/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/spec/withReplicas/</guid>
-      <description>withReplicasfunction(replicas) self + __specMixin({ replicas: replicas }) desired number of instances for the scaled object.</description>
+      <description>withReplicas(replicas) desired number of instances for the scaled object.</description>
     </item>
     
     <item>
       <title>withTargetCpuUtilizationPercentage</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/withTargetCpuUtilizationPercentage/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/withTargetCpuUtilizationPercentage/</guid>
-      <description>withTargetCpuUtilizationPercentagefunction(targetCpuUtilizationPercentage) self + __specMixin({ targetCPUUtilizationPercentage: targetCpuUtilizationPercentage }) target average CPU utilization (represented as a percentage of requested CPU) over all the pods; if not specified the default autoscaling policy will be used.</description>
+      <description>withTargetCpuUtilizationPercentage(targetCpuUtilizationPercentage) target average CPU utilization (represented as a percentage of requested CPU) over all the pods; if not specified the default autoscaling policy will be used.</description>
     </item>
     
     <item>
       <title>initializers</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -950,7 +966,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializers</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -961,7 +977,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializers</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -972,7 +988,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializers</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -983,7 +999,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/</guid>
       <description>Standard object metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</description>
@@ -992,7 +1008,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/</guid>
       <description>Standard object metadata; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata.</description>
@@ -1001,7 +1017,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/</guid>
       <description>metadata is the standard object metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</description>
@@ -1010,7 +1026,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/</guid>
       <description>metadata is the standard object metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</description>
@@ -1019,7 +1035,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>scaleTargetRef</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/scaleTargetRef/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/scaleTargetRef/</guid>
       <description>reference to scaled resource; horizontal pod autoscaler will learn the current resource consumption and will set the desired number of pods by using its Scale subresource.</description>
@@ -1028,7 +1044,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>scaleTargetRef</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/scaleTargetRef/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/scaleTargetRef/</guid>
       <description>scaleTargetRef points to the target resource to scale, and is used to the pods for which metrics should be collected, as well as to actually change the replica count.</description>
@@ -1037,7 +1053,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>scaleTargetRef</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/scaleTargetRef/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/scaleTargetRef/</guid>
       <description>scaleTargetRef points to the target resource to scale, and is used to the pods for which metrics should be collected, as well as to actually change the replica count.</description>
@@ -1046,7 +1062,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>spec</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/</guid>
       <description>behaviour of autoscaler. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#spec-and-status.</description>
@@ -1055,7 +1071,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>spec</title>
       <link>http://example.org/autoscaling/v1/scale/spec/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/spec/</guid>
       <description>defines the behavior of the scale. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#spec-and-status.</description>
@@ -1064,7 +1080,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>spec</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/</guid>
       <description>spec is the specification for the behaviour of the autoscaler. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#spec-and-status.</description>
@@ -1073,7 +1089,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>spec</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/</guid>
       <description>spec is the specification for the behaviour of the autoscaler. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#spec-and-status.</description>
@@ -1082,7 +1098,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/initializersType/</guid>
       <description></description>
@@ -1091,7 +1107,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/initializersType/</guid>
       <description></description>
@@ -1100,7 +1116,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/initializersType/</guid>
       <description></description>
@@ -1109,7 +1125,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/initializersType/</guid>
       <description></description>
@@ -1118,7 +1134,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/managedFieldsType/</guid>
       <description></description>
@@ -1127,7 +1143,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/managedFieldsType/</guid>
       <description></description>
@@ -1136,7 +1152,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/managedFieldsType/</guid>
       <description></description>
@@ -1145,7 +1161,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/managedFieldsType/</guid>
       <description></description>
@@ -1154,7 +1170,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadataType/</guid>
       <description></description>
@@ -1163,7 +1179,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/autoscaling/v1/scale/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadataType/</guid>
       <description></description>
@@ -1172,7 +1188,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadataType/</guid>
       <description></description>
@@ -1181,7 +1197,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadataType/</guid>
       <description></description>
@@ -1190,7 +1206,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metricsType</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/metricsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/metricsType/</guid>
       <description></description>
@@ -1199,7 +1215,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metricsType</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/metricsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/metricsType/</guid>
       <description></description>
@@ -1208,7 +1224,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -1217,7 +1233,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -1226,7 +1242,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -1235,7 +1251,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -1244,7 +1260,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -1253,7 +1269,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/autoscaling/v1/scale/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -1262,7 +1278,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -1271,7 +1287,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -1280,7 +1296,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>scaleTargetRefType</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/scaleTargetRefType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/spec/scaleTargetRefType/</guid>
       <description></description>
@@ -1289,7 +1305,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>scaleTargetRefType</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/scaleTargetRefType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/spec/scaleTargetRefType/</guid>
       <description></description>
@@ -1298,7 +1314,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>scaleTargetRefType</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/scaleTargetRefType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/spec/scaleTargetRefType/</guid>
       <description></description>
@@ -1307,7 +1323,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>specType</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/specType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/specType/</guid>
       <description></description>
@@ -1316,7 +1332,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>specType</title>
       <link>http://example.org/autoscaling/v1/scale/specType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/specType/</guid>
       <description></description>
@@ -1325,7 +1341,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>specType</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/specType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/specType/</guid>
       <description></description>
@@ -1334,7 +1350,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>specType</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/specType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/specType/</guid>
       <description></description>
@@ -1343,7 +1359,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>horizontalPodAutoscaler</title>
       <link>http://example.org/autoscaling/horizontalPodAutoscaler/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:42 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/horizontalPodAutoscaler/</guid>
       <description>configuration of a horizontal pod autoscaler.  HorizontalPodAutoscaler is the configuration for a horizontal pod autoscaler, which automatically manages the replica count of any resource implementing the scale subresource based on the metrics specified.  HorizontalPodAutoscaler is the configuration for a horizontal pod autoscaler, which automatically manages the replica count of any resource implementing the scale subresource based on the metrics specified.  </description>
@@ -1352,7 +1368,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>horizontalPodAutoscaler</title>
       <link>http://example.org/autoscaling/v1/horizontalPodAutoscaler/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:42 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/horizontalPodAutoscaler/</guid>
       <description>configuration of a horizontal pod autoscaler.</description>
@@ -1361,7 +1377,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>horizontalPodAutoscaler</title>
       <link>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:42 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta1/horizontalPodAutoscaler/</guid>
       <description>HorizontalPodAutoscaler is the configuration for a horizontal pod autoscaler, which automatically manages the replica count of any resource implementing the scale subresource based on the metrics specified.</description>
@@ -1370,7 +1386,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>horizontalPodAutoscaler</title>
       <link>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:42 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v2beta2/horizontalPodAutoscaler/</guid>
       <description>HorizontalPodAutoscaler is the configuration for a horizontal pod autoscaler, which automatically manages the replica count of any resource implementing the scale subresource based on the metrics specified.</description>
@@ -1379,7 +1395,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>scale</title>
       <link>http://example.org/autoscaling/scale/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:42 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/scale/</guid>
       <description>Scale represents a scaling request for a resource.  </description>
@@ -1388,7 +1404,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>scale</title>
       <link>http://example.org/autoscaling/v1/scale/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:42 +0000</pubDate>
       
       <guid>http://example.org/autoscaling/v1/scale/</guid>
       <description>Scale represents a scaling request for a resource.</description>

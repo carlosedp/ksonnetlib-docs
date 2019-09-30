@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="storage.v1beta1.csiNodeSpec.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="storage.v1beta1.csiNodeSpec.withDrivers">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDriversfunction(drivers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(drivers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { drivers<span style="color:#666">:</span> drivers } <span style="color:#007020;font-weight:bold">else</span> { drivers<span style="color:#666">:</span> [drivers] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDrivers(drivers)
 </code></pre></div></div><p>drivers is a list of information of all CSI Drivers existing on a node. If all drivers in the list are uninstalled, this can become empty.</p><code>withDrivers</code> takes an array of type <code>driversType</code>. You can create
 an instance of <code>driversType</code> with <code>hidden.storage.v1beta1.csiNodeDriver.new()</code>.</p>
 
@@ -137,7 +137,7 @@ an instance of <code>driversType</code> with <code>hidden.storage.v1beta1.csiNod
     </h5>
 
     <div class="collapse show" id="storage.v1beta1.csiNodeSpec.withDriversMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDriversMixinfunction(drivers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(drivers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { drivers<span style="color:#666">+:</span> drivers } <span style="color:#007020;font-weight:bold">else</span> { drivers<span style="color:#666">+:</span> [drivers] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDriversMixin(drivers)
 </code></pre></div></div><p>drivers is a list of information of all CSI Drivers existing on a node. If all drivers in the list are uninstalled, this can become empty.</p><code>withDriversMixin</code> takes an array of type <code>driversType</code>. You can create
 an instance of <code>driversType</code> with <code>hidden.storage.v1beta1.csiNodeDriver.new()</code>.</p>
 

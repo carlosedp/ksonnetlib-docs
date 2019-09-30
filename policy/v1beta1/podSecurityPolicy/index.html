@@ -141,7 +141,7 @@
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() apiVersion <span style="color:#666">+</span> kind
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -205,7 +205,7 @@
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(metadata) __metadataMixin(metadata)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(metadata)
 </code></pre></div></div><p></p></p>
 
 
@@ -233,7 +233,7 @@
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.withAnnotations">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsfunction(annotations) self <span style="color:#666">+</span> __metadataMixin({ annotations<span style="color:#666">:</span> annotations })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotations(annotations)
 </code></pre></div></div><p>Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: <a href="http://kubernetes.io/docs/user-guide/annotations">http://kubernetes.io/docs/user-guide/annotations</a></p></p>
 
 
@@ -261,7 +261,7 @@
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.withAnnotationsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsMixinfunction(annotations) self <span style="color:#666">+</span> __metadataMixin({ annotations<span style="color:#666">+:</span> annotations })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsMixin(annotations)
 </code></pre></div></div><p>Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: <a href="http://kubernetes.io/docs/user-guide/annotations">http://kubernetes.io/docs/user-guide/annotations</a></p></p>
 
 
@@ -289,7 +289,7 @@
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.withClusterName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterNamefunction(clusterName) self <span style="color:#666">+</span> __metadataMixin({ clusterName<span style="color:#666">:</span> clusterName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterName(clusterName)
 </code></pre></div></div><p>The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</p></p>
 
 
@@ -317,7 +317,7 @@
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.withFinalizers">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersfunction(finalizers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(finalizers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ finalizers<span style="color:#666">:</span> finalizers }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ finalizers<span style="color:#666">:</span> [finalizers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizers(finalizers)
 </code></pre></div></div><p>Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</p></p>
 
 
@@ -345,7 +345,7 @@
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.withFinalizersMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersMixinfunction(finalizers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(finalizers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ finalizers<span style="color:#666">+:</span> finalizers }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ finalizers<span style="color:#666">+:</span> [finalizers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersMixin(finalizers)
 </code></pre></div></div><p>Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</p></p>
 
 
@@ -373,7 +373,7 @@
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.withGenerateName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGenerateNamefunction(generateName) self <span style="color:#666">+</span> __metadataMixin({ generateName<span style="color:#666">:</span> generateName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGenerateName(generateName)
 </code></pre></div></div><p>GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</p><p></p><p>If this field is specified and the generated name exists, the server will NOT return a 409 - instead, it will either return 201 Created or 500 with Reason ServerTimeout indicating a unique name could not be found in the time allotted, and the client should retry (optionally after the time indicated in the Retry-After header).</p><p></p><p>Applied only if Name is not specified. More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#idempotency">https://git.k8s.io/community/contributors/devel/api-conventions.md#idempotency</a></p></p>
 
 
@@ -401,7 +401,7 @@
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.withLabels">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsfunction(labels) self <span style="color:#666">+</span> __metadataMixin({ labels<span style="color:#666">:</span> labels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabels(labels)
 </code></pre></div></div><p>Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: <a href="http://kubernetes.io/docs/user-guide/labels">http://kubernetes.io/docs/user-guide/labels</a></p></p>
 
 
@@ -429,7 +429,7 @@
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.withLabelsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsMixinfunction(labels) self <span style="color:#666">+</span> __metadataMixin({ labels<span style="color:#666">+:</span> labels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsMixin(labels)
 </code></pre></div></div><p>Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: <a href="http://kubernetes.io/docs/user-guide/labels">http://kubernetes.io/docs/user-guide/labels</a></p></p>
 
 
@@ -457,7 +457,7 @@
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.withManagedFields">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsfunction(managedFields) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(managedFields) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ managedFields<span style="color:#666">:</span> managedFields }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ managedFields<span style="color:#666">:</span> [managedFields] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFields(managedFields)
 </code></pre></div></div><p>ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&rsquo;t need to set or understand this field. A workflow can be the user&rsquo;s name, a controller&rsquo;s name, or the name of a specific apply path like &ldquo;ci-cd&rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</p><p></p><p>This field is alpha and can be changed or removed without notice.</p><code>withManagedFields</code> takes an array of type <code>managedFieldsType</code>. You can create
 an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedFieldsEntry.new()</code>.</p>
 
@@ -488,7 +488,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.withManagedFieldsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsMixinfunction(managedFields) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(managedFields) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ managedFields<span style="color:#666">+:</span> managedFields }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ managedFields<span style="color:#666">+:</span> [managedFields] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsMixin(managedFields)
 </code></pre></div></div><p>ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&rsquo;t need to set or understand this field. A workflow can be the user&rsquo;s name, a controller&rsquo;s name, or the name of a specific apply path like &ldquo;ci-cd&rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</p><p></p><p>This field is alpha and can be changed or removed without notice.</p><code>withManagedFieldsMixin</code> takes an array of type <code>managedFieldsType</code>. You can create
 an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedFieldsEntry.new()</code>.</p>
 
@@ -519,7 +519,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __metadataMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: <a href="http://kubernetes.io/docs/user-guide/identifiers#names">http://kubernetes.io/docs/user-guide/identifiers#names</a></p></p>
 
 
@@ -547,7 +547,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __metadataMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &ldquo;default&rdquo; namespace, but &ldquo;default&rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.</p><p></p><p>Must be a DNS_LABEL. Cannot be updated. More info: <a href="http://kubernetes.io/docs/user-guide/namespaces">http://kubernetes.io/docs/user-guide/namespaces</a></p></p>
 
 
@@ -575,7 +575,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.withOwnerReferences">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesfunction(ownerReferences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ownerReferences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ ownerReferences<span style="color:#666">:</span> ownerReferences }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ ownerReferences<span style="color:#666">:</span> [ownerReferences] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferences(ownerReferences)
 </code></pre></div></div><p>List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</p><code>withOwnerReferences</code> takes an array of type <code>ownerReferencesType</code>. You can create
 an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerReference.new()</code>.</p>
 
@@ -606,7 +606,7 @@ an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerR
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.withOwnerReferencesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesMixinfunction(ownerReferences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ownerReferences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ ownerReferences<span style="color:#666">+:</span> ownerReferences }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ ownerReferences<span style="color:#666">+:</span> [ownerReferences] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesMixin(ownerReferences)
 </code></pre></div></div><p>List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</p><code>withOwnerReferencesMixin</code> takes an array of type <code>ownerReferencesType</code>. You can create
 an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerReference.new()</code>.</p>
 
@@ -668,7 +668,7 @@ an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerR
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.initializers.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(initializers) __initializersMixin(initializers)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(initializers)
 </code></pre></div></div><p></p></p>
 
 
@@ -696,7 +696,7 @@ an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerR
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.initializers.withPending">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingfunction(pending) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(pending) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __initializersMixin({ pending<span style="color:#666">:</span> pending }) <span style="color:#007020;font-weight:bold">else</span> __initializersMixin({ pending<span style="color:#666">:</span> [pending] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPending(pending)
 </code></pre></div></div><p>Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.</p><code>withPending</code> takes an array of type <code>pendingType</code>. You can create
 an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.new()</code>.</p>
 
@@ -727,7 +727,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.metadata.initializers.withPendingMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingMixinfunction(pending) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(pending) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __initializersMixin({ pending<span style="color:#666">+:</span> pending }) <span style="color:#007020;font-weight:bold">else</span> __initializersMixin({ pending<span style="color:#666">+:</span> [pending] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingMixin(pending)
 </code></pre></div></div><p>Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.</p><code>withPendingMixin</code> takes an array of type <code>pendingType</code>. You can create
 an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.new()</code>.</p>
 
@@ -796,7 +796,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(spec) __specMixin(spec)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(spec)
 </code></pre></div></div><p></p></p>
 
 
@@ -824,7 +824,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withAllowPrivilegeEscalation">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowPrivilegeEscalationfunction(allowPrivilegeEscalation) self <span style="color:#666">+</span> __specMixin({ allowPrivilegeEscalation<span style="color:#666">:</span> allowPrivilegeEscalation })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowPrivilegeEscalation(allowPrivilegeEscalation)
 </code></pre></div></div><p>allowPrivilegeEscalation determines if a pod can request to allow privilege escalation. If unspecified, defaults to true.</p></p>
 
 
@@ -852,7 +852,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withAllowedCapabilities">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCapabilitiesfunction(allowedCapabilities) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedCapabilities) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ allowedCapabilities<span style="color:#666">:</span> allowedCapabilities }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ allowedCapabilities<span style="color:#666">:</span> [allowedCapabilities] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCapabilities(allowedCapabilities)
 </code></pre></div></div><p>allowedCapabilities is a list of capabilities that can be requested to add to the container. Capabilities in this field may be added at the pod author&rsquo;s discretion. You must not list a capability in both allowedCapabilities and requiredDropCapabilities.</p></p>
 
 
@@ -880,7 +880,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withAllowedCapabilitiesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCapabilitiesMixinfunction(allowedCapabilities) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedCapabilities) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ allowedCapabilities<span style="color:#666">+:</span> allowedCapabilities }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ allowedCapabilities<span style="color:#666">+:</span> [allowedCapabilities] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCapabilitiesMixin(allowedCapabilities)
 </code></pre></div></div><p>allowedCapabilities is a list of capabilities that can be requested to add to the container. Capabilities in this field may be added at the pod author&rsquo;s discretion. You must not list a capability in both allowedCapabilities and requiredDropCapabilities.</p></p>
 
 
@@ -908,7 +908,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withAllowedCsiDrivers">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCsiDriversfunction(allowedCsiDrivers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedCsiDrivers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ allowedCSIDrivers<span style="color:#666">:</span> allowedCsiDrivers }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ allowedCSIDrivers<span style="color:#666">:</span> [allowedCsiDrivers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCsiDrivers(allowedCsiDrivers)
 </code></pre></div></div><p>AllowedCSIDrivers is a whitelist of inline CSI drivers that must be explicitly set to be embedded within a pod spec. An empty value means no CSI drivers can run inline within a pod spec.</p></p>
 
 
@@ -936,7 +936,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withAllowedCsiDriversMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCsiDriversMixinfunction(allowedCsiDrivers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedCsiDrivers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ allowedCSIDrivers<span style="color:#666">+:</span> allowedCsiDrivers }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ allowedCSIDrivers<span style="color:#666">+:</span> [allowedCsiDrivers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCsiDriversMixin(allowedCsiDrivers)
 </code></pre></div></div><p>AllowedCSIDrivers is a whitelist of inline CSI drivers that must be explicitly set to be embedded within a pod spec. An empty value means no CSI drivers can run inline within a pod spec.</p></p>
 
 
@@ -964,7 +964,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withAllowedFlexVolumes">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedFlexVolumesfunction(allowedFlexVolumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedFlexVolumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ allowedFlexVolumes<span style="color:#666">:</span> allowedFlexVolumes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ allowedFlexVolumes<span style="color:#666">:</span> [allowedFlexVolumes] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedFlexVolumes(allowedFlexVolumes)
 </code></pre></div></div><p>allowedFlexVolumes is a whitelist of allowed Flexvolumes.  Empty or nil indicates that all Flexvolumes may be used.  This parameter is effective only when the usage of the Flexvolumes is allowed in the &ldquo;volumes&rdquo; field.</p><code>withAllowedFlexVolumes</code> takes an array of type <code>allowedFlexVolumesType</code>. You can create
 an instance of <code>allowedFlexVolumesType</code> with <code>hidden.policy.v1beta1.allowedFlexVolume.new()</code>.</p>
 
@@ -995,7 +995,7 @@ an instance of <code>allowedFlexVolumesType</code> with <code>hidden.policy.v1be
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withAllowedFlexVolumesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedFlexVolumesMixinfunction(allowedFlexVolumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedFlexVolumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ allowedFlexVolumes<span style="color:#666">+:</span> allowedFlexVolumes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ allowedFlexVolumes<span style="color:#666">+:</span> [allowedFlexVolumes] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedFlexVolumesMixin(allowedFlexVolumes)
 </code></pre></div></div><p>allowedFlexVolumes is a whitelist of allowed Flexvolumes.  Empty or nil indicates that all Flexvolumes may be used.  This parameter is effective only when the usage of the Flexvolumes is allowed in the &ldquo;volumes&rdquo; field.</p><code>withAllowedFlexVolumesMixin</code> takes an array of type <code>allowedFlexVolumesType</code>. You can create
 an instance of <code>allowedFlexVolumesType</code> with <code>hidden.policy.v1beta1.allowedFlexVolume.new()</code>.</p>
 
@@ -1026,7 +1026,7 @@ an instance of <code>allowedFlexVolumesType</code> with <code>hidden.policy.v1be
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withAllowedHostPaths">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedHostPathsfunction(allowedHostPaths) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedHostPaths) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ allowedHostPaths<span style="color:#666">:</span> allowedHostPaths }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ allowedHostPaths<span style="color:#666">:</span> [allowedHostPaths] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedHostPaths(allowedHostPaths)
 </code></pre></div></div><p>allowedHostPaths is a white list of allowed host paths. Empty indicates that all host paths may be used.</p><code>withAllowedHostPaths</code> takes an array of type <code>allowedHostPathsType</code>. You can create
 an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta1.allowedHostPath.new()</code>.</p>
 
@@ -1057,7 +1057,7 @@ an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withAllowedHostPathsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedHostPathsMixinfunction(allowedHostPaths) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedHostPaths) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ allowedHostPaths<span style="color:#666">+:</span> allowedHostPaths }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ allowedHostPaths<span style="color:#666">+:</span> [allowedHostPaths] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedHostPathsMixin(allowedHostPaths)
 </code></pre></div></div><p>allowedHostPaths is a white list of allowed host paths. Empty indicates that all host paths may be used.</p><code>withAllowedHostPathsMixin</code> takes an array of type <code>allowedHostPathsType</code>. You can create
 an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta1.allowedHostPath.new()</code>.</p>
 
@@ -1088,7 +1088,7 @@ an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withAllowedProcMountTypes">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedProcMountTypesfunction(allowedProcMountTypes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedProcMountTypes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ allowedProcMountTypes<span style="color:#666">:</span> allowedProcMountTypes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ allowedProcMountTypes<span style="color:#666">:</span> [allowedProcMountTypes] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedProcMountTypes(allowedProcMountTypes)
 </code></pre></div></div><p>AllowedProcMountTypes is a whitelist of allowed ProcMountTypes. Empty or nil indicates that only the DefaultProcMountType may be used. This requires the ProcMountType feature flag to be enabled.</p></p>
 
 
@@ -1116,7 +1116,7 @@ an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withAllowedProcMountTypesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedProcMountTypesMixinfunction(allowedProcMountTypes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedProcMountTypes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ allowedProcMountTypes<span style="color:#666">+:</span> allowedProcMountTypes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ allowedProcMountTypes<span style="color:#666">+:</span> [allowedProcMountTypes] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedProcMountTypesMixin(allowedProcMountTypes)
 </code></pre></div></div><p>AllowedProcMountTypes is a whitelist of allowed ProcMountTypes. Empty or nil indicates that only the DefaultProcMountType may be used. This requires the ProcMountType feature flag to be enabled.</p></p>
 
 
@@ -1144,7 +1144,7 @@ an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withAllowedUnsafeSysctls">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedUnsafeSysctlsfunction(allowedUnsafeSysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedUnsafeSysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ allowedUnsafeSysctls<span style="color:#666">:</span> allowedUnsafeSysctls }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ allowedUnsafeSysctls<span style="color:#666">:</span> [allowedUnsafeSysctls] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedUnsafeSysctls(allowedUnsafeSysctls)
 </code></pre></div></div><p>allowedUnsafeSysctls is a list of explicitly allowed unsafe sysctls, defaults to none. Each entry is either a plain sysctl name or ends in &ldquo;*&rdquo; in which case it is considered as a prefix of allowed sysctls. Single * means all unsafe sysctls are allowed. Kubelet has to whitelist all allowed unsafe sysctls explicitly to avoid rejection.</p><p></p><p>Examples: e.g. &ldquo;foo/<em>&rdquo; allows &ldquo;foo/bar&rdquo;, &ldquo;foo/baz&rdquo;, etc. e.g. &ldquo;foo.</em>&rdquo; allows &ldquo;foo.bar&rdquo;, &ldquo;foo.baz&rdquo;, etc.</p></p>
 
 
@@ -1172,7 +1172,7 @@ an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withAllowedUnsafeSysctlsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedUnsafeSysctlsMixinfunction(allowedUnsafeSysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedUnsafeSysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ allowedUnsafeSysctls<span style="color:#666">+:</span> allowedUnsafeSysctls }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ allowedUnsafeSysctls<span style="color:#666">+:</span> [allowedUnsafeSysctls] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedUnsafeSysctlsMixin(allowedUnsafeSysctls)
 </code></pre></div></div><p>allowedUnsafeSysctls is a list of explicitly allowed unsafe sysctls, defaults to none. Each entry is either a plain sysctl name or ends in &ldquo;*&rdquo; in which case it is considered as a prefix of allowed sysctls. Single * means all unsafe sysctls are allowed. Kubelet has to whitelist all allowed unsafe sysctls explicitly to avoid rejection.</p><p></p><p>Examples: e.g. &ldquo;foo/<em>&rdquo; allows &ldquo;foo/bar&rdquo;, &ldquo;foo/baz&rdquo;, etc. e.g. &ldquo;foo.</em>&rdquo; allows &ldquo;foo.bar&rdquo;, &ldquo;foo.baz&rdquo;, etc.</p></p>
 
 
@@ -1200,7 +1200,7 @@ an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withDefaultAddCapabilities">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDefaultAddCapabilitiesfunction(defaultAddCapabilities) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(defaultAddCapabilities) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ defaultAddCapabilities<span style="color:#666">:</span> defaultAddCapabilities }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ defaultAddCapabilities<span style="color:#666">:</span> [defaultAddCapabilities] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDefaultAddCapabilities(defaultAddCapabilities)
 </code></pre></div></div><p>defaultAddCapabilities is the default set of capabilities that will be added to the container unless the pod spec specifically drops the capability.  You may not list a capability in both defaultAddCapabilities and requiredDropCapabilities. Capabilities added here are implicitly allowed, and need not be included in the allowedCapabilities list.</p></p>
 
 
@@ -1228,7 +1228,7 @@ an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withDefaultAddCapabilitiesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDefaultAddCapabilitiesMixinfunction(defaultAddCapabilities) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(defaultAddCapabilities) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ defaultAddCapabilities<span style="color:#666">+:</span> defaultAddCapabilities }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ defaultAddCapabilities<span style="color:#666">+:</span> [defaultAddCapabilities] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDefaultAddCapabilitiesMixin(defaultAddCapabilities)
 </code></pre></div></div><p>defaultAddCapabilities is the default set of capabilities that will be added to the container unless the pod spec specifically drops the capability.  You may not list a capability in both defaultAddCapabilities and requiredDropCapabilities. Capabilities added here are implicitly allowed, and need not be included in the allowedCapabilities list.</p></p>
 
 
@@ -1256,7 +1256,7 @@ an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withDefaultAllowPrivilegeEscalation">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDefaultAllowPrivilegeEscalationfunction(defaultAllowPrivilegeEscalation) self <span style="color:#666">+</span> __specMixin({ defaultAllowPrivilegeEscalation<span style="color:#666">:</span> defaultAllowPrivilegeEscalation })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDefaultAllowPrivilegeEscalation(defaultAllowPrivilegeEscalation)
 </code></pre></div></div><p>defaultAllowPrivilegeEscalation controls the default setting for whether a process can gain more privileges than its parent process.</p></p>
 
 
@@ -1284,7 +1284,7 @@ an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withForbiddenSysctls">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withForbiddenSysctlsfunction(forbiddenSysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(forbiddenSysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ forbiddenSysctls<span style="color:#666">:</span> forbiddenSysctls }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ forbiddenSysctls<span style="color:#666">:</span> [forbiddenSysctls] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withForbiddenSysctls(forbiddenSysctls)
 </code></pre></div></div><p>forbiddenSysctls is a list of explicitly forbidden sysctls, defaults to none. Each entry is either a plain sysctl name or ends in &ldquo;*&rdquo; in which case it is considered as a prefix of forbidden sysctls. Single * means all sysctls are forbidden.</p><p></p><p>Examples: e.g. &ldquo;foo/<em>&rdquo; forbids &ldquo;foo/bar&rdquo;, &ldquo;foo/baz&rdquo;, etc. e.g. &ldquo;foo.</em>&rdquo; forbids &ldquo;foo.bar&rdquo;, &ldquo;foo.baz&rdquo;, etc.</p></p>
 
 
@@ -1312,7 +1312,7 @@ an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withForbiddenSysctlsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withForbiddenSysctlsMixinfunction(forbiddenSysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(forbiddenSysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ forbiddenSysctls<span style="color:#666">+:</span> forbiddenSysctls }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ forbiddenSysctls<span style="color:#666">+:</span> [forbiddenSysctls] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withForbiddenSysctlsMixin(forbiddenSysctls)
 </code></pre></div></div><p>forbiddenSysctls is a list of explicitly forbidden sysctls, defaults to none. Each entry is either a plain sysctl name or ends in &ldquo;*&rdquo; in which case it is considered as a prefix of forbidden sysctls. Single * means all sysctls are forbidden.</p><p></p><p>Examples: e.g. &ldquo;foo/<em>&rdquo; forbids &ldquo;foo/bar&rdquo;, &ldquo;foo/baz&rdquo;, etc. e.g. &ldquo;foo.</em>&rdquo; forbids &ldquo;foo.bar&rdquo;, &ldquo;foo.baz&rdquo;, etc.</p></p>
 
 
@@ -1340,7 +1340,7 @@ an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withHostIpc">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostIpcfunction(hostIpc) self <span style="color:#666">+</span> __specMixin({ hostIPC<span style="color:#666">:</span> hostIpc })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostIpc(hostIpc)
 </code></pre></div></div><p>hostIPC determines if the policy allows the use of HostIPC in the pod spec.</p></p>
 
 
@@ -1368,7 +1368,7 @@ an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withHostNetwork">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostNetworkfunction(hostNetwork) self <span style="color:#666">+</span> __specMixin({ hostNetwork<span style="color:#666">:</span> hostNetwork })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostNetwork(hostNetwork)
 </code></pre></div></div><p>hostNetwork determines if the policy allows the use of HostNetwork in the pod spec.</p></p>
 
 
@@ -1396,7 +1396,7 @@ an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withHostPid">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostPidfunction(hostPid) self <span style="color:#666">+</span> __specMixin({ hostPID<span style="color:#666">:</span> hostPid })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostPid(hostPid)
 </code></pre></div></div><p>hostPID determines if the policy allows the use of HostPID in the pod spec.</p></p>
 
 
@@ -1424,7 +1424,7 @@ an instance of <code>allowedHostPathsType</code> with <code>hidden.policy.v1beta
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withHostPorts">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostPortsfunction(hostPorts) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(hostPorts) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ hostPorts<span style="color:#666">:</span> hostPorts }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ hostPorts<span style="color:#666">:</span> [hostPorts] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostPorts(hostPorts)
 </code></pre></div></div><p>hostPorts determines which host port ranges are allowed to be exposed.</p><code>withHostPorts</code> takes an array of type <code>hostPortsType</code>. You can create
 an instance of <code>hostPortsType</code> with <code>hidden.policy.v1beta1.hostPortRange.new()</code>.</p>
 
@@ -1455,7 +1455,7 @@ an instance of <code>hostPortsType</code> with <code>hidden.policy.v1beta1.hostP
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withHostPortsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostPortsMixinfunction(hostPorts) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(hostPorts) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ hostPorts<span style="color:#666">+:</span> hostPorts }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ hostPorts<span style="color:#666">+:</span> [hostPorts] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostPortsMixin(hostPorts)
 </code></pre></div></div><p>hostPorts determines which host port ranges are allowed to be exposed.</p><code>withHostPortsMixin</code> takes an array of type <code>hostPortsType</code>. You can create
 an instance of <code>hostPortsType</code> with <code>hidden.policy.v1beta1.hostPortRange.new()</code>.</p>
 
@@ -1486,7 +1486,7 @@ an instance of <code>hostPortsType</code> with <code>hidden.policy.v1beta1.hostP
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withPrivileged">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPrivilegedfunction(privileged) self <span style="color:#666">+</span> __specMixin({ privileged<span style="color:#666">:</span> privileged })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPrivileged(privileged)
 </code></pre></div></div><p>privileged determines if a pod can request to be run as privileged.</p></p>
 
 
@@ -1514,7 +1514,7 @@ an instance of <code>hostPortsType</code> with <code>hidden.policy.v1beta1.hostP
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withReadOnlyRootFilesystem">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyRootFilesystemfunction(readOnlyRootFilesystem) self <span style="color:#666">+</span> __specMixin({ readOnlyRootFilesystem<span style="color:#666">:</span> readOnlyRootFilesystem })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyRootFilesystem(readOnlyRootFilesystem)
 </code></pre></div></div><p>readOnlyRootFilesystem when set to true will force containers to run with a read only root file system.  If the container specifically requests to run with a non-read only root file system the PSP should deny the pod. If set to false the container may run with a read only root file system if it wishes but it will not be forced to.</p></p>
 
 
@@ -1542,7 +1542,7 @@ an instance of <code>hostPortsType</code> with <code>hidden.policy.v1beta1.hostP
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withRequiredDropCapabilities">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDropCapabilitiesfunction(requiredDropCapabilities) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(requiredDropCapabilities) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ requiredDropCapabilities<span style="color:#666">:</span> requiredDropCapabilities }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ requiredDropCapabilities<span style="color:#666">:</span> [requiredDropCapabilities] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDropCapabilities(requiredDropCapabilities)
 </code></pre></div></div><p>requiredDropCapabilities are the capabilities that will be dropped from the container.  These are required to be dropped and cannot be added.</p></p>
 
 
@@ -1570,7 +1570,7 @@ an instance of <code>hostPortsType</code> with <code>hidden.policy.v1beta1.hostP
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withRequiredDropCapabilitiesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDropCapabilitiesMixinfunction(requiredDropCapabilities) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(requiredDropCapabilities) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ requiredDropCapabilities<span style="color:#666">+:</span> requiredDropCapabilities }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ requiredDropCapabilities<span style="color:#666">+:</span> [requiredDropCapabilities] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDropCapabilitiesMixin(requiredDropCapabilities)
 </code></pre></div></div><p>requiredDropCapabilities are the capabilities that will be dropped from the container.  These are required to be dropped and cannot be added.</p></p>
 
 
@@ -1598,7 +1598,7 @@ an instance of <code>hostPortsType</code> with <code>hidden.policy.v1beta1.hostP
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withVolumes">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesfunction(volumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumes<span style="color:#666">:</span> volumes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumes<span style="color:#666">:</span> [volumes] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumes(volumes)
 </code></pre></div></div><p>volumes is a white list of allowed volume plugins. Empty indicates that no volumes may be used. To allow all volumes you may use &lsquo;*&lsquo;.</p></p>
 
 
@@ -1626,7 +1626,7 @@ an instance of <code>hostPortsType</code> with <code>hidden.policy.v1beta1.hostP
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.withVolumesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesMixinfunction(volumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumes<span style="color:#666">+:</span> volumes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumes<span style="color:#666">+:</span> [volumes] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesMixin(volumes)
 </code></pre></div></div><p>volumes is a white list of allowed volume plugins. Empty indicates that no volumes may be used. To allow all volumes you may use &lsquo;*&lsquo;.</p></p>
 
 
@@ -1685,7 +1685,7 @@ an instance of <code>hostPortsType</code> with <code>hidden.policy.v1beta1.hostP
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.fsGroup.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(fsGroup) __fsGroupMixin(fsGroup)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(fsGroup)
 </code></pre></div></div><p></p></p>
 
 
@@ -1713,7 +1713,7 @@ an instance of <code>hostPortsType</code> with <code>hidden.policy.v1beta1.hostP
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.fsGroup.withRanges">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __fsGroupMixin({ ranges<span style="color:#666">:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __fsGroupMixin({ ranges<span style="color:#666">:</span> [ranges] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRanges(ranges)
 </code></pre></div></div><p>ranges are the allowed ranges of fs groups.  If you would like to force a single fs group then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRanges</code> takes an array of type <code>rangesType</code>. You can create
 an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.new()</code>.</p>
 
@@ -1744,7 +1744,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.fsGroup.withRangesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesMixinfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __fsGroupMixin({ ranges<span style="color:#666">+:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __fsGroupMixin({ ranges<span style="color:#666">+:</span> [ranges] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesMixin(ranges)
 </code></pre></div></div><p>ranges are the allowed ranges of fs groups.  If you would like to force a single fs group then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRangesMixin</code> takes an array of type <code>rangesType</code>. You can create
 an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.new()</code>.</p>
 
@@ -1775,7 +1775,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.fsGroup.withRule">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulefunction(rule) self <span style="color:#666">+</span> __fsGroupMixin({ rule<span style="color:#666">:</span> rule })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRule(rule)
 </code></pre></div></div><p>rule is the strategy that will dictate what FSGroup is used in the SecurityContext.</p></p>
 
 
@@ -1835,7 +1835,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.runAsGroup.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(runAsGroup) __runAsGroupMixin(runAsGroup)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(runAsGroup)
 </code></pre></div></div><p></p></p>
 
 
@@ -1863,7 +1863,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.runAsGroup.withRanges">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __runAsGroupMixin({ ranges<span style="color:#666">:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __runAsGroupMixin({ ranges<span style="color:#666">:</span> [ranges] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRanges(ranges)
 </code></pre></div></div><p>ranges are the allowed ranges of gids that may be used. If you would like to force a single gid then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRanges</code> takes an array of type <code>rangesType</code>. You can create
 an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.new()</code>.</p>
 
@@ -1894,7 +1894,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.runAsGroup.withRangesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesMixinfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __runAsGroupMixin({ ranges<span style="color:#666">+:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __runAsGroupMixin({ ranges<span style="color:#666">+:</span> [ranges] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesMixin(ranges)
 </code></pre></div></div><p>ranges are the allowed ranges of gids that may be used. If you would like to force a single gid then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRangesMixin</code> takes an array of type <code>rangesType</code>. You can create
 an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.new()</code>.</p>
 
@@ -1925,7 +1925,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.runAsGroup.withRule">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulefunction(rule) self <span style="color:#666">+</span> __runAsGroupMixin({ rule<span style="color:#666">:</span> rule })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRule(rule)
 </code></pre></div></div><p>rule is the strategy that will dictate the allowable RunAsGroup values that may be set.</p></p>
 
 
@@ -1985,7 +1985,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.runAsUser.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(runAsUser) __runAsUserMixin(runAsUser)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(runAsUser)
 </code></pre></div></div><p></p></p>
 
 
@@ -2013,7 +2013,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.runAsUser.withRanges">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __runAsUserMixin({ ranges<span style="color:#666">:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __runAsUserMixin({ ranges<span style="color:#666">:</span> [ranges] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRanges(ranges)
 </code></pre></div></div><p>ranges are the allowed ranges of uids that may be used. If you would like to force a single uid then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRanges</code> takes an array of type <code>rangesType</code>. You can create
 an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.new()</code>.</p>
 
@@ -2044,7 +2044,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.runAsUser.withRangesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesMixinfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __runAsUserMixin({ ranges<span style="color:#666">+:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __runAsUserMixin({ ranges<span style="color:#666">+:</span> [ranges] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesMixin(ranges)
 </code></pre></div></div><p>ranges are the allowed ranges of uids that may be used. If you would like to force a single uid then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRangesMixin</code> takes an array of type <code>rangesType</code>. You can create
 an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.new()</code>.</p>
 
@@ -2075,7 +2075,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.runAsUser.withRule">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulefunction(rule) self <span style="color:#666">+</span> __runAsUserMixin({ rule<span style="color:#666">:</span> rule })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRule(rule)
 </code></pre></div></div><p>rule is the strategy that will dictate the allowable RunAsUser values that may be set.</p></p>
 
 
@@ -2135,7 +2135,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.seLinux.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(seLinux) __seLinuxMixin(seLinux)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(seLinux)
 </code></pre></div></div><p></p></p>
 
 
@@ -2163,7 +2163,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.seLinux.withRule">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulefunction(rule) self <span style="color:#666">+</span> __seLinuxMixin({ rule<span style="color:#666">:</span> rule })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRule(rule)
 </code></pre></div></div><p>rule is the strategy that will dictate the allowable labels that may be set.</p></p>
 
 
@@ -2222,7 +2222,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.seLinux.seLinuxOptions.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(seLinuxOptions) __seLinuxOptionsMixin(seLinuxOptions)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(seLinuxOptions)
 </code></pre></div></div><p></p></p>
 
 
@@ -2250,7 +2250,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.seLinux.seLinuxOptions.withLevel">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevelfunction(level) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ level<span style="color:#666">:</span> level })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevel(level)
 </code></pre></div></div><p>Level is SELinux level label that applies to the container.</p></p>
 
 
@@ -2278,7 +2278,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.seLinux.seLinuxOptions.withRole">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRolefunction(role) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ role<span style="color:#666">:</span> role })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRole(role)
 </code></pre></div></div><p>Role is a SELinux role label that applies to the container.</p></p>
 
 
@@ -2306,7 +2306,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.seLinux.seLinuxOptions.withType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ type<span style="color:#666">:</span> type })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withType(type)
 </code></pre></div></div><p>Type is a SELinux type label that applies to the container.</p></p>
 
 
@@ -2334,7 +2334,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.seLinux.seLinuxOptions.withUser">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUserfunction(user) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ user<span style="color:#666">:</span> user })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUser(user)
 </code></pre></div></div><p>User is a SELinux user label that applies to the container.</p></p>
 
 
@@ -2400,7 +2400,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.supplementalGroups.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(supplementalGroups) __supplementalGroupsMixin(supplementalGroups)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(supplementalGroups)
 </code></pre></div></div><p></p></p>
 
 
@@ -2428,7 +2428,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.supplementalGroups.withRanges">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __supplementalGroupsMixin({ ranges<span style="color:#666">:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __supplementalGroupsMixin({ ranges<span style="color:#666">:</span> [ranges] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRanges(ranges)
 </code></pre></div></div><p>ranges are the allowed ranges of supplemental groups.  If you would like to force a single supplemental group then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRanges</code> takes an array of type <code>rangesType</code>. You can create
 an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.new()</code>.</p>
 
@@ -2459,7 +2459,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.supplementalGroups.withRangesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesMixinfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __supplementalGroupsMixin({ ranges<span style="color:#666">+:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __supplementalGroupsMixin({ ranges<span style="color:#666">+:</span> [ranges] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesMixin(ranges)
 </code></pre></div></div><p>ranges are the allowed ranges of supplemental groups.  If you would like to force a single supplemental group then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRangesMixin</code> takes an array of type <code>rangesType</code>. You can create
 an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.new()</code>.</p>
 
@@ -2490,7 +2490,7 @@ an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.
     </h5>
 
     <div class="collapse show" id="policy.v1beta1.podSecurityPolicy.spec.supplementalGroups.withRule">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulefunction(rule) self <span style="color:#666">+</span> __supplementalGroupsMixin({ rule<span style="color:#666">:</span> rule })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRule(rule)
 </code></pre></div></div><p>rule is the strategy that will dictate what supplemental groups is used in the SecurityContext.</p></p>
 
 

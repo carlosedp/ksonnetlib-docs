@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1.ipBlock.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1.ipBlock.withCidr">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCidrfunction(cidr) self <span style="color:#666">+</span> { cidr<span style="color:#666">:</span> cidr }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCidr(cidr)
 </code></pre></div></div><p>CIDR is a string representing the IP Block Valid examples are &ldquo;192.168.1.<sup>1</sup>&frasl;<sub>24</sub>&rdquo;</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1.ipBlock.withExcept">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExceptfunction(except) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(except) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { except<span style="color:#666">:</span> except } <span style="color:#007020;font-weight:bold">else</span> { except<span style="color:#666">:</span> [except] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExcept(except)
 </code></pre></div></div><p>Except is a slice of CIDRs that should not be included within an IP Block Valid examples are &ldquo;192.168.1.<sup>1</sup>&frasl;<sub>24</sub>&rdquo; Except values will be rejected if they are outside the CIDR range</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1.ipBlock.withExceptMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExceptMixinfunction(except) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(except) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { except<span style="color:#666">+:</span> except } <span style="color:#007020;font-weight:bold">else</span> { except<span style="color:#666">+:</span> [except] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExceptMixin(except)
 </code></pre></div></div><p>Except is a slice of CIDRs that should not be included within an IP Block Valid examples are &ldquo;192.168.1.<sup>1</sup>&frasl;<sub>24</sub>&rdquo; Except values will be rejected if they are outside the CIDR range</p></p>
 
 

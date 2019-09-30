@@ -85,7 +85,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -122,7 +122,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withClusterIp">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterIpfunction(clusterIp) self <span style="color:#666">+</span> { clusterIP<span style="color:#666">:</span> clusterIp }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterIp(clusterIp)
 </code></pre></div></div><p>clusterIP is the IP address of the service and is usually assigned randomly by the master. If an address is specified manually and is not in use by others, it will be allocated to the service; otherwise, creation of the service will fail. This field can not be changed through updates. Valid values are &ldquo;None&rdquo;, empty string (&ldquo;&rdquo;), or a valid IP address. &ldquo;None&rdquo; can be specified for headless services when proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. Ignored if type is ExternalName. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies">https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies</a></p></p>
 
 
@@ -150,7 +150,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withExternalIps">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalIpsfunction(externalIps) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(externalIps) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { externalIPs<span style="color:#666">:</span> externalIps } <span style="color:#007020;font-weight:bold">else</span> { externalIPs<span style="color:#666">:</span> [externalIps] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalIps(externalIps)
 </code></pre></div></div><p>externalIPs is a list of IP addresses for which nodes in the cluster will also accept traffic for this service.  These IPs are not managed by Kubernetes.  The user is responsible for ensuring that traffic arrives at a node with this IP.  A common example is external load-balancers that are not part of the Kubernetes system.</p></p>
 
 
@@ -178,7 +178,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withExternalIpsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalIpsMixinfunction(externalIps) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(externalIps) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { externalIPs<span style="color:#666">+:</span> externalIps } <span style="color:#007020;font-weight:bold">else</span> { externalIPs<span style="color:#666">+:</span> [externalIps] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalIpsMixin(externalIps)
 </code></pre></div></div><p>externalIPs is a list of IP addresses for which nodes in the cluster will also accept traffic for this service.  These IPs are not managed by Kubernetes.  The user is responsible for ensuring that traffic arrives at a node with this IP.  A common example is external load-balancers that are not part of the Kubernetes system.</p></p>
 
 
@@ -206,7 +206,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withExternalName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalNamefunction(externalName) self <span style="color:#666">+</span> { externalName<span style="color:#666">:</span> externalName }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalName(externalName)
 </code></pre></div></div><p>externalName is the external reference that kubedns or equivalent will return as a CNAME record for this service. No proxying will be involved. Must be a valid RFC-1123 hostname (<a href="https://tools.ietf.org/html/rfc1123">https://tools.ietf.org/html/rfc1123</a>) and requires Type to be ExternalName.</p></p>
 
 
@@ -234,7 +234,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withExternalTrafficPolicy">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalTrafficPolicyfunction(externalTrafficPolicy) self <span style="color:#666">+</span> { externalTrafficPolicy<span style="color:#666">:</span> externalTrafficPolicy }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalTrafficPolicy(externalTrafficPolicy)
 </code></pre></div></div><p>externalTrafficPolicy denotes if this Service desires to route external traffic to node-local or cluster-wide endpoints. &ldquo;Local&rdquo; preserves the client source IP and avoids a second hop for LoadBalancer and Nodeport type services, but risks potentially imbalanced traffic spreading. &ldquo;Cluster&rdquo; obscures the client source IP and may cause a second hop to another node, but should have good overall load-spreading.</p></p>
 
 
@@ -262,7 +262,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withHealthCheckNodePort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHealthCheckNodePortfunction(healthCheckNodePort) self <span style="color:#666">+</span> { healthCheckNodePort<span style="color:#666">:</span> healthCheckNodePort }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHealthCheckNodePort(healthCheckNodePort)
 </code></pre></div></div><p>healthCheckNodePort specifies the healthcheck nodePort for the service. If not specified, HealthCheckNodePort is created by the service api backend with the allocated nodePort. Will use user-specified nodePort value if specified by the client. Only effects when Type is set to LoadBalancer and ExternalTrafficPolicy is set to Local.</p></p>
 
 
@@ -290,7 +290,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withLoadBalancerIp">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLoadBalancerIpfunction(loadBalancerIp) self <span style="color:#666">+</span> { loadBalancerIP<span style="color:#666">:</span> loadBalancerIp }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLoadBalancerIp(loadBalancerIp)
 </code></pre></div></div><p>Only applies to Service Type: LoadBalancer LoadBalancer will get created with the IP specified in this field. This feature depends on whether the underlying cloud-provider supports specifying the loadBalancerIP when a load balancer is created. This field will be ignored if the cloud-provider does not support the feature.</p></p>
 
 
@@ -318,7 +318,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withLoadBalancerSourceRanges">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLoadBalancerSourceRangesfunction(loadBalancerSourceRanges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(loadBalancerSourceRanges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { loadBalancerSourceRanges<span style="color:#666">:</span> loadBalancerSourceRanges } <span style="color:#007020;font-weight:bold">else</span> { loadBalancerSourceRanges<span style="color:#666">:</span> [loadBalancerSourceRanges] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLoadBalancerSourceRanges(loadBalancerSourceRanges)
 </code></pre></div></div><p>If specified and supported by the platform, this will restrict traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature.&rdquo; More info: <a href="https://kubernetes.io/docs/tasks/access-application-cluster/configure-cloud-provider-firewall/">https://kubernetes.io/docs/tasks/access-application-cluster/configure-cloud-provider-firewall/</a></p></p>
 
 
@@ -346,7 +346,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withLoadBalancerSourceRangesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLoadBalancerSourceRangesMixinfunction(loadBalancerSourceRanges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(loadBalancerSourceRanges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { loadBalancerSourceRanges<span style="color:#666">+:</span> loadBalancerSourceRanges } <span style="color:#007020;font-weight:bold">else</span> { loadBalancerSourceRanges<span style="color:#666">+:</span> [loadBalancerSourceRanges] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLoadBalancerSourceRangesMixin(loadBalancerSourceRanges)
 </code></pre></div></div><p>If specified and supported by the platform, this will restrict traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature.&rdquo; More info: <a href="https://kubernetes.io/docs/tasks/access-application-cluster/configure-cloud-provider-firewall/">https://kubernetes.io/docs/tasks/access-application-cluster/configure-cloud-provider-firewall/</a></p></p>
 
 
@@ -374,7 +374,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withPorts">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsfunction(ports) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ports) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ports<span style="color:#666">:</span> ports } <span style="color:#007020;font-weight:bold">else</span> { ports<span style="color:#666">:</span> [ports] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPorts(ports)
 </code></pre></div></div><p>The list of ports that are exposed by this service. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies">https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies</a></p><code>withPorts</code> takes an array of type <code>portsType</code>. You can create
 an instance of <code>portsType</code> with <code>hidden.core.v1.servicePort.new()</code>.</p>
 
@@ -405,7 +405,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.servicePort.new(
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withPortsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsMixinfunction(ports) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ports) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ports<span style="color:#666">+:</span> ports } <span style="color:#007020;font-weight:bold">else</span> { ports<span style="color:#666">+:</span> [ports] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsMixin(ports)
 </code></pre></div></div><p>The list of ports that are exposed by this service. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies">https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies</a></p><code>withPortsMixin</code> takes an array of type <code>portsType</code>. You can create
 an instance of <code>portsType</code> with <code>hidden.core.v1.servicePort.new()</code>.</p>
 
@@ -436,7 +436,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.servicePort.new(
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withPublishNotReadyAddresses">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPublishNotReadyAddressesfunction(publishNotReadyAddresses) self <span style="color:#666">+</span> { publishNotReadyAddresses<span style="color:#666">:</span> publishNotReadyAddresses }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPublishNotReadyAddresses(publishNotReadyAddresses)
 </code></pre></div></div><p>publishNotReadyAddresses, when set to true, indicates that DNS implementations must publish the notReadyAddresses of subsets for the Endpoints associated with the Service. The default value is false. The primary use case for setting this field is to use a StatefulSet&rsquo;s Headless Service to propagate SRV records for its Pods without respect to their readiness for purpose of peer discovery.</p></p>
 
 
@@ -464,7 +464,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.servicePort.new(
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withSelector">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSelectorfunction(selector) self <span style="color:#666">+</span> { selector<span style="color:#666">:</span> selector }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSelector(selector)
 </code></pre></div></div><p>Route service traffic to pods with label keys and values matching this selector. If empty or not present, the service is assumed to have an external process managing its endpoints, which Kubernetes will not modify. Only applies to types ClusterIP, NodePort, and LoadBalancer. Ignored if type is ExternalName. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/">https://kubernetes.io/docs/concepts/services-networking/service/</a></p></p>
 
 
@@ -492,7 +492,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.servicePort.new(
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withSelectorMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSelectorMixinfunction(selector) self <span style="color:#666">+</span> { selector<span style="color:#666">+:</span> selector }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSelectorMixin(selector)
 </code></pre></div></div><p>Route service traffic to pods with label keys and values matching this selector. If empty or not present, the service is assumed to have an external process managing its endpoints, which Kubernetes will not modify. Only applies to types ClusterIP, NodePort, and LoadBalancer. Ignored if type is ExternalName. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/">https://kubernetes.io/docs/concepts/services-networking/service/</a></p></p>
 
 
@@ -520,7 +520,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.servicePort.new(
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withSessionAffinity">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSessionAffinityfunction(sessionAffinity) self <span style="color:#666">+</span> { sessionAffinity<span style="color:#666">:</span> sessionAffinity }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSessionAffinity(sessionAffinity)
 </code></pre></div></div><p>Supports &ldquo;ClientIP&rdquo; and &ldquo;None&rdquo;. Used to maintain session affinity. Enable client IP based session affinity. Must be ClientIP or None. Defaults to None. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies">https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies</a></p></p>
 
 
@@ -548,7 +548,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.servicePort.new(
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.withType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> { type<span style="color:#666">:</span> type }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withType(type)
 </code></pre></div></div><p>type determines how the Service is exposed. Defaults to ClusterIP. Valid options are ExternalName, ClusterIP, NodePort, and LoadBalancer. &ldquo;ExternalName&rdquo; maps to the specified externalName. &ldquo;ClusterIP&rdquo; allocates a cluster-internal IP address for load-balancing to endpoints. Endpoints are determined by the selector or if that is not specified, by manual construction of an Endpoints object. If clusterIP is &ldquo;None&rdquo;, no virtual IP is allocated and the endpoints are published as a set of endpoints rather than a stable IP. &ldquo;NodePort&rdquo; builds on ClusterIP and allocates a port on every node which routes to the clusterIP. &ldquo;LoadBalancer&rdquo; builds on NodePort and creates an external load-balancer (if supported in the current cloud) which routes to the clusterIP. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types">https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types</a></p></p>
 
 
@@ -608,7 +608,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.servicePort.new(
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.sessionAffinityConfig.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(sessionAffinityConfig) __sessionAffinityConfigMixin(sessionAffinityConfig)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(sessionAffinityConfig)
 </code></pre></div></div><p></p></p>
 
 
@@ -667,7 +667,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.servicePort.new(
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.sessionAffinityConfig.clientIp.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(clientIp) __clientIpMixin(clientIp)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(clientIp)
 </code></pre></div></div><p></p></p>
 
 
@@ -695,7 +695,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.servicePort.new(
     </h5>
 
     <div class="collapse show" id="core.v1.serviceSpec.sessionAffinityConfig.clientIp.withTimeoutSeconds">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTimeoutSecondsfunction(timeoutSeconds) self <span style="color:#666">+</span> __clientIpMixin({ timeoutSeconds<span style="color:#666">:</span> timeoutSeconds })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTimeoutSeconds(timeoutSeconds)
 </code></pre></div></div><p>timeoutSeconds specifies the seconds of ClientIP type session sticky time. The value must be &gt;0 &amp;&amp; &lt;=86400(for 1 day) if ServiceAffinity == &ldquo;ClientIP&rdquo;. Default value is 10800(for 3 hours).</p></p>
 
 

@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withApiVersionsMixinfunction(apiVersions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(apiVersions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { apiVersions<span style="color:#666">+:</span> apiVersions } <span style="color:#007020;font-weight:bold">else</span> { apiVersions<span style="color:#666">+:</span> [apiVersions] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withApiVersionsMixin(apiVersions)
 </code></pre></div></div><p>APIVersions is the API versions the resources belong to. &lsquo;<em>&rsquo; is all versions. If &lsquo;</em>&rsquo; is present, the length of the slice must be one. Required.</p></p>
 
 

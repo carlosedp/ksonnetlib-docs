@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.podStatus.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.podStatus.withConditions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">:</span> [conditions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditions(conditions)
 </code></pre></div></div><p>Current service state of pod. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-conditions">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-conditions</a></p><code>withConditions</code> takes an array of type <code>conditionsType</code>. You can create
 an instance of <code>conditionsType</code> with <code>hidden.core.v1.podCondition.new()</code>.</p>
 
@@ -137,7 +137,7 @@ an instance of <code>conditionsType</code> with <code>hidden.core.v1.podConditio
     </h5>
 
     <div class="collapse show" id="core.v1.podStatus.withConditionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixinfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">+:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">+:</span> [conditions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixin(conditions)
 </code></pre></div></div><p>Current service state of pod. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-conditions">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-conditions</a></p><code>withConditionsMixin</code> takes an array of type <code>conditionsType</code>. You can create
 an instance of <code>conditionsType</code> with <code>hidden.core.v1.podCondition.new()</code>.</p>
 
@@ -168,7 +168,7 @@ an instance of <code>conditionsType</code> with <code>hidden.core.v1.podConditio
     </h5>
 
     <div class="collapse show" id="core.v1.podStatus.withContainerStatuses">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerStatusesfunction(containerStatuses) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(containerStatuses) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { containerStatuses<span style="color:#666">:</span> containerStatuses } <span style="color:#007020;font-weight:bold">else</span> { containerStatuses<span style="color:#666">:</span> [containerStatuses] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerStatuses(containerStatuses)
 </code></pre></div></div><p>The list has one entry per container in the manifest. Each entry is currently the output of <code>docker inspect</code>. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-and-container-status">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-and-container-status</a></p><code>withContainerStatuses</code> takes an array of type <code>containerStatusesType</code>. You can create
 an instance of <code>containerStatusesType</code> with <code>hidden.core.v1.containerStatus.new()</code>.</p>
 
@@ -199,7 +199,7 @@ an instance of <code>containerStatusesType</code> with <code>hidden.core.v1.cont
     </h5>
 
     <div class="collapse show" id="core.v1.podStatus.withContainerStatusesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerStatusesMixinfunction(containerStatuses) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(containerStatuses) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { containerStatuses<span style="color:#666">+:</span> containerStatuses } <span style="color:#007020;font-weight:bold">else</span> { containerStatuses<span style="color:#666">+:</span> [containerStatuses] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerStatusesMixin(containerStatuses)
 </code></pre></div></div><p>The list has one entry per container in the manifest. Each entry is currently the output of <code>docker inspect</code>. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-and-container-status">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-and-container-status</a></p><code>withContainerStatusesMixin</code> takes an array of type <code>containerStatusesType</code>. You can create
 an instance of <code>containerStatusesType</code> with <code>hidden.core.v1.containerStatus.new()</code>.</p>
 
@@ -230,7 +230,7 @@ an instance of <code>containerStatusesType</code> with <code>hidden.core.v1.cont
     </h5>
 
     <div class="collapse show" id="core.v1.podStatus.withHostIp">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostIpfunction(hostIp) self <span style="color:#666">+</span> { hostIP<span style="color:#666">:</span> hostIp }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostIp(hostIp)
 </code></pre></div></div><p>IP address of the host to which the pod is assigned. Empty if not yet scheduled.</p></p>
 
 
@@ -258,7 +258,7 @@ an instance of <code>containerStatusesType</code> with <code>hidden.core.v1.cont
     </h5>
 
     <div class="collapse show" id="core.v1.podStatus.withInitContainerStatuses">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitContainerStatusesfunction(initContainerStatuses) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(initContainerStatuses) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { initContainerStatuses<span style="color:#666">:</span> initContainerStatuses } <span style="color:#007020;font-weight:bold">else</span> { initContainerStatuses<span style="color:#666">:</span> [initContainerStatuses] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitContainerStatuses(initContainerStatuses)
 </code></pre></div></div><p>The list has one entry per init container in the manifest. The most recent successful init container will have ready = true, the most recently started container will have startTime set. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-and-container-status">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-and-container-status</a></p><code>withInitContainerStatuses</code> takes an array of type <code>initContainerStatusesType</code>. You can create
 an instance of <code>initContainerStatusesType</code> with <code>hidden.core.v1.containerStatus.new()</code>.</p>
 
@@ -289,7 +289,7 @@ an instance of <code>initContainerStatusesType</code> with <code>hidden.core.v1.
     </h5>
 
     <div class="collapse show" id="core.v1.podStatus.withInitContainerStatusesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitContainerStatusesMixinfunction(initContainerStatuses) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(initContainerStatuses) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { initContainerStatuses<span style="color:#666">+:</span> initContainerStatuses } <span style="color:#007020;font-weight:bold">else</span> { initContainerStatuses<span style="color:#666">+:</span> [initContainerStatuses] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitContainerStatusesMixin(initContainerStatuses)
 </code></pre></div></div><p>The list has one entry per init container in the manifest. The most recent successful init container will have ready = true, the most recently started container will have startTime set. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-and-container-status">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-and-container-status</a></p><code>withInitContainerStatusesMixin</code> takes an array of type <code>initContainerStatusesType</code>. You can create
 an instance of <code>initContainerStatusesType</code> with <code>hidden.core.v1.containerStatus.new()</code>.</p>
 
@@ -320,7 +320,7 @@ an instance of <code>initContainerStatusesType</code> with <code>hidden.core.v1.
     </h5>
 
     <div class="collapse show" id="core.v1.podStatus.withMessage">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMessagefunction(message) self <span style="color:#666">+</span> { message<span style="color:#666">:</span> message }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMessage(message)
 </code></pre></div></div><p>A human readable message indicating details about why the pod is in this condition.</p></p>
 
 
@@ -348,7 +348,7 @@ an instance of <code>initContainerStatusesType</code> with <code>hidden.core.v1.
     </h5>
 
     <div class="collapse show" id="core.v1.podStatus.withNominatedNodeName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNominatedNodeNamefunction(nominatedNodeName) self <span style="color:#666">+</span> { nominatedNodeName<span style="color:#666">:</span> nominatedNodeName }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNominatedNodeName(nominatedNodeName)
 </code></pre></div></div><p>nominatedNodeName is set only when this pod preempts other pods on the node, but it cannot be scheduled right away as preemption victims receive their graceful termination periods. This field does not guarantee that the pod will be scheduled on this node. Scheduler may decide to place the pod elsewhere if other nodes become available sooner. Scheduler may also decide to give the resources on this node to a higher priority pod that is created after preemption. As a result, this field may be different than PodSpec.nodeName when the pod is scheduled.</p></p>
 
 
@@ -376,7 +376,7 @@ an instance of <code>initContainerStatusesType</code> with <code>hidden.core.v1.
     </h5>
 
     <div class="collapse show" id="core.v1.podStatus.withPhase">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPhasefunction(phase) self <span style="color:#666">+</span> { phase<span style="color:#666">:</span> phase }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPhase(phase)
 </code></pre></div></div><p>The phase of a Pod is a simple, high-level summary of where the Pod is in its lifecycle. The conditions array, the reason and message fields, and the individual container status arrays contain more detail about the pod&rsquo;s status. There are five possible phase values:</p><p></p><p>Pending: The pod has been accepted by the Kubernetes system, but one or more of the container images has not been created. This includes time before being scheduled as well as time spent downloading images over the network, which could take a while. Running: The pod has been bound to a node, and all of the containers have been created. At least one container is still running, or is in the process of starting or restarting. Succeeded: All containers in the pod have terminated in success, and will not be restarted. Failed: All containers in the pod have terminated, and at least one container has terminated in failure. The container either exited with non-zero status or was terminated by the system. Unknown: For some reason the state of the pod could not be obtained, typically due to an error in communicating with the host of the pod.</p><p></p><p>More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-phase">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-phase</a></p></p>
 
 
@@ -404,7 +404,7 @@ an instance of <code>initContainerStatusesType</code> with <code>hidden.core.v1.
     </h5>
 
     <div class="collapse show" id="core.v1.podStatus.withPodIp">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPodIpfunction(podIp) self <span style="color:#666">+</span> { podIP<span style="color:#666">:</span> podIp }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPodIp(podIp)
 </code></pre></div></div><p>IP address allocated to the pod. Routable at least within the cluster. Empty if not yet allocated.</p></p>
 
 
@@ -432,7 +432,7 @@ an instance of <code>initContainerStatusesType</code> with <code>hidden.core.v1.
     </h5>
 
     <div class="collapse show" id="core.v1.podStatus.withQosClass">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withQosClassfunction(qosClass) self <span style="color:#666">+</span> { qosClass<span style="color:#666">:</span> qosClass }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withQosClass(qosClass)
 </code></pre></div></div><p>The Quality of Service (QOS) classification assigned to the pod based on resource requirements See PodQOSClass type for available QOS classes More info: <a href="https://git.k8s.io/community/contributors/design-proposals/node/resource-qos.md">https://git.k8s.io/community/contributors/design-proposals/node/resource-qos.md</a></p></p>
 
 
@@ -460,7 +460,7 @@ an instance of <code>initContainerStatusesType</code> with <code>hidden.core.v1.
     </h5>
 
     <div class="collapse show" id="core.v1.podStatus.withReason">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReasonfunction(reason) self <span style="color:#666">+</span> { reason<span style="color:#666">:</span> reason }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReason(reason)
 </code></pre></div></div><p>A brief CamelCase message indicating details about why the pod is in this state. e.g. &lsquo;Evicted&rsquo;</p></p>
 
 
@@ -488,7 +488,7 @@ an instance of <code>initContainerStatusesType</code> with <code>hidden.core.v1.
     </h5>
 
     <div class="collapse show" id="core.v1.podStatus.withStartTime">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStartTimefunction(startTime) self <span style="color:#666">+</span> { startTime<span style="color:#666">:</span> startTime }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStartTime(startTime)
 </code></pre></div></div><p>RFC 3339 date and time at which the object was acknowledged by the Kubelet. This is before the Kubelet pulled the container image(s) for the pod.</p></p>
 
 

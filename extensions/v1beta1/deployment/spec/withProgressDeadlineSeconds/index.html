@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProgressDeadlineSecondsfunction(progressDeadlineSeconds) self <span style="color:#666">+</span> __specMixin({ progressDeadlineSeconds<span style="color:#666">:</span> progressDeadlineSeconds })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProgressDeadlineSeconds(progressDeadlineSeconds)
 </code></pre></div></div><p>The maximum time in seconds for a deployment to make progress before it is considered to be failed. The deployment controller will continue to process failed deployments and a condition with a ProgressDeadlineExceeded reason will be surfaced in the deployment status. Note that progress will not be estimated during the time a deployment is paused. This is set to the max value of int32 (i.e. 2147483647) by default, which means &ldquo;no deadline&rdquo;.</p></p>
 
 

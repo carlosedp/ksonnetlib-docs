@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadinessGatesMixinfunction(readinessGates) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(readinessGates) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { readinessGates<span style="color:#666">+:</span> readinessGates } <span style="color:#007020;font-weight:bold">else</span> { readinessGates<span style="color:#666">+:</span> [readinessGates] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadinessGatesMixin(readinessGates)
 </code></pre></div></div><p>If specified, all readiness gates will be evaluated for pod readiness. A pod is ready when all its containers are ready AND all conditions specified in the readiness gates have status equal to &ldquo;True&rdquo; More info: <a href="https://git.k8s.io/enhancements/keps/sig-network/0007-pod-ready%2B%2B.md">https://git.k8s.io/enhancements/keps/sig-network/0007-pod-ready%2B%2B.md</a></p><code>withReadinessGatesMixin</code> takes an array of type <code>readinessGatesType</code>. You can create
 an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podReadinessGate.new()</code>.</p>
 

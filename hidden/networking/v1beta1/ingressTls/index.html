@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1beta1.ingressTls.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1beta1.ingressTls.withHosts">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostsfunction(hosts) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(hosts) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { hosts<span style="color:#666">:</span> hosts } <span style="color:#007020;font-weight:bold">else</span> { hosts<span style="color:#666">:</span> [hosts] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHosts(hosts)
 </code></pre></div></div><p>Hosts are a list of hosts included in the TLS certificate. The values in this list must match the name/s used in the tlsSecret. Defaults to the wildcard host setting for the loadbalancer controller fulfilling this Ingress, if left unspecified.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1beta1.ingressTls.withHostsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostsMixinfunction(hosts) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(hosts) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { hosts<span style="color:#666">+:</span> hosts } <span style="color:#007020;font-weight:bold">else</span> { hosts<span style="color:#666">+:</span> [hosts] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostsMixin(hosts)
 </code></pre></div></div><p>Hosts are a list of hosts included in the TLS certificate. The values in this list must match the name/s used in the tlsSecret. Defaults to the wildcard host setting for the loadbalancer controller fulfilling this Ingress, if left unspecified.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1beta1.ingressTls.withSecretName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSecretNamefunction(secretName) self <span style="color:#666">+</span> { secretName<span style="color:#666">:</span> secretName }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSecretName(secretName)
 </code></pre></div></div><p>SecretName is the name of the secret used to terminate SSL traffic on 443. Field is left optional to allow SSL routing based on SNI hostname alone. If the SNI host in a listener conflicts with the &ldquo;Host&rdquo; header field used by an IngressRule, the SNI host is used for termination and value of the Host header is used for routing.</p></p>
 
 

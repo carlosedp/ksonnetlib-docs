@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.loadBalancerStatus.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.loadBalancerStatus.withIngress">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIngressfunction(ingress) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ingress) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ingress<span style="color:#666">:</span> ingress } <span style="color:#007020;font-weight:bold">else</span> { ingress<span style="color:#666">:</span> [ingress] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIngress(ingress)
 </code></pre></div></div><p>Ingress is a list containing ingress points for the load-balancer. Traffic intended for the service should be sent to these ingress points.</p><code>withIngress</code> takes an array of type <code>ingressType</code>. You can create
 an instance of <code>ingressType</code> with <code>hidden.core.v1.loadBalancerIngress.new()</code>.</p>
 
@@ -137,7 +137,7 @@ an instance of <code>ingressType</code> with <code>hidden.core.v1.loadBalancerIn
     </h5>
 
     <div class="collapse show" id="core.v1.loadBalancerStatus.withIngressMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIngressMixinfunction(ingress) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ingress) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ingress<span style="color:#666">+:</span> ingress } <span style="color:#007020;font-weight:bold">else</span> { ingress<span style="color:#666">+:</span> [ingress] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIngressMixin(ingress)
 </code></pre></div></div><p>Ingress is a list containing ingress points for the load-balancer. Traffic intended for the service should be sent to these ingress points.</p><code>withIngressMixin</code> takes an array of type <code>ingressType</code>. You can create
 an instance of <code>ingressType</code> with <code>hidden.core.v1.loadBalancerIngress.new()</code>.</p>
 

@@ -77,7 +77,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.storageOsPersistentVolumeSource.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -114,7 +114,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.storageOsPersistentVolumeSource.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> { fsType<span style="color:#666">:</span> fsType }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. Implicitly inferred to be &ldquo;ext4&rdquo; if unspecified.</p></p>
 
 
@@ -142,7 +142,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.storageOsPersistentVolumeSource.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> { readOnly<span style="color:#666">:</span> readOnly }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.</p></p>
 
 
@@ -170,7 +170,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.storageOsPersistentVolumeSource.withVolumeName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeNamefunction(volumeName) self <span style="color:#666">+</span> { volumeName<span style="color:#666">:</span> volumeName }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeName(volumeName)
 </code></pre></div></div><p>VolumeName is the human-readable name of the StorageOS volume.  Volume names are only unique within a namespace.</p></p>
 
 
@@ -198,7 +198,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.storageOsPersistentVolumeSource.withVolumeNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeNamespacefunction(volumeNamespace) self <span style="color:#666">+</span> { volumeNamespace<span style="color:#666">:</span> volumeNamespace }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeNamespace(volumeNamespace)
 </code></pre></div></div><p>VolumeNamespace specifies the scope of the volume within StorageOS.  If no namespace is specified then the Pod&rsquo;s namespace will be used.  This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to &ldquo;default&rdquo; if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.</p></p>
 
 
@@ -258,7 +258,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.storageOsPersistentVolumeSource.secretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(secretRef) __secretRefMixin(secretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(secretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -286,7 +286,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.storageOsPersistentVolumeSource.secretRef.withFieldPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPathfunction(fieldPath) self <span style="color:#666">+</span> __secretRefMixin({ fieldPath<span style="color:#666">:</span> fieldPath })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPath(fieldPath)
 </code></pre></div></div><p>If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: &ldquo;spec.containers{name}&rdquo; (where &ldquo;name&rdquo; refers to the name of the container that triggered the event) or if no container name is specified &ldquo;spec.containers[2]&rdquo; (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.</p></p>
 
 
@@ -314,7 +314,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.storageOsPersistentVolumeSource.secretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __secretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</a></p></p>
 
 
@@ -342,7 +342,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.storageOsPersistentVolumeSource.secretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __secretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/">https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/</a></p></p>
 
 
@@ -370,7 +370,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.storageOsPersistentVolumeSource.secretRef.withResourceVersion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersionfunction(resourceVersion) self <span style="color:#666">+</span> __secretRefMixin({ resourceVersion<span style="color:#666">:</span> resourceVersion })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersion(resourceVersion)
 </code></pre></div></div><p>Specific resourceVersion to which this reference is made, if any. More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency">https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency</a></p></p>
 
 
@@ -398,7 +398,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.storageOsPersistentVolumeSource.secretRef.withUid">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> __secretRefMixin({ uid<span style="color:#666">:</span> uid })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUid(uid)
 </code></pre></div></div><p>UID of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids</a></p></p>
 
 

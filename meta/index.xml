@@ -6,35 +6,35 @@
     <description>Recent content in Meta on ksonnet lib API Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 14:37:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 20:18:41 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/meta/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>new</title>
-      <link>http://example.org/meta/v1beta1/deployment/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <link>http://example.org/meta/v1/daemonSet/new/</link>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
-      <guid>http://example.org/meta/v1beta1/deployment/new/</guid>
-      <description>newfunction() apiVersion + kind</description>
+      <guid>http://example.org/meta/v1/daemonSet/new/</guid>
+      <description>new()</description>
     </item>
     
     <item>
-      <title>deployment</title>
-      <link>http://example.org/meta/deployment/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <title>daemonSet</title>
+      <link>http://example.org/meta/daemonSet/</link>
+      <pubDate>Mon, 30 Sep 2019 20:18:42 +0000</pubDate>
       
-      <guid>http://example.org/meta/deployment/</guid>
+      <guid>http://example.org/meta/daemonSet/</guid>
       <description>Patch is provided to give a concrete name and type to the Kubernetes PATCH request body.  </description>
     </item>
     
     <item>
-      <title>deployment</title>
-      <link>http://example.org/meta/v1beta1/deployment/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <title>daemonSet</title>
+      <link>http://example.org/meta/v1/daemonSet/</link>
+      <pubDate>Mon, 30 Sep 2019 20:18:42 +0000</pubDate>
       
-      <guid>http://example.org/meta/v1beta1/deployment/</guid>
+      <guid>http://example.org/meta/v1/daemonSet/</guid>
       <description>Patch is provided to give a concrete name and type to the Kubernetes PATCH request body.</description>
     </item>
     

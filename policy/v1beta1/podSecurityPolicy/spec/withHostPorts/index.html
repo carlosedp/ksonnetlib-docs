@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostPortsfunction(hostPorts) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(hostPorts) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ hostPorts<span style="color:#666">:</span> hostPorts }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ hostPorts<span style="color:#666">:</span> [hostPorts] })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostPorts(hostPorts)
 </code></pre></div></div><p>hostPorts determines which host port ranges are allowed to be exposed.</p><code>withHostPorts</code> takes an array of type <code>hostPortsType</code>. You can create
 an instance of <code>hostPortsType</code> with <code>hidden.policy.v1beta1.hostPortRange.new()</code>.</p>
 

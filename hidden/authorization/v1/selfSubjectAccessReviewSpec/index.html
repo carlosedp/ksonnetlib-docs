@@ -85,7 +85,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.selfSubjectAccessReviewSpec.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -149,7 +149,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.selfSubjectAccessReviewSpec.nonResourceAttributes.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(nonResourceAttributes) __nonResourceAttributesMixin(nonResourceAttributes)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(nonResourceAttributes)
 </code></pre></div></div><p></p></p>
 
 
@@ -177,7 +177,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.selfSubjectAccessReviewSpec.nonResourceAttributes.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __nonResourceAttributesMixin({ path<span style="color:#666">:</span> path })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>Path is the URL path of the request</p></p>
 
 
@@ -205,7 +205,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.selfSubjectAccessReviewSpec.nonResourceAttributes.withVerb">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVerbfunction(verb) self <span style="color:#666">+</span> __nonResourceAttributesMixin({ verb<span style="color:#666">:</span> verb })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVerb(verb)
 </code></pre></div></div><p>Verb is the standard HTTP verb</p></p>
 
 
@@ -265,7 +265,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.selfSubjectAccessReviewSpec.resourceAttributes.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(resourceAttributes) __resourceAttributesMixin(resourceAttributes)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(resourceAttributes)
 </code></pre></div></div><p></p></p>
 
 
@@ -293,7 +293,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.selfSubjectAccessReviewSpec.resourceAttributes.withGroup">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupfunction(group) self <span style="color:#666">+</span> __resourceAttributesMixin({ group<span style="color:#666">:</span> group })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroup(group)
 </code></pre></div></div><p>Group is the API Group of the Resource.  &ldquo;*&rdquo; means all.</p></p>
 
 
@@ -321,7 +321,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.selfSubjectAccessReviewSpec.resourceAttributes.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __resourceAttributesMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is the name of the resource being requested for a &ldquo;get&rdquo; or deleted for a &ldquo;delete&rdquo;. &ldquo;&rdquo; (empty) means all.</p></p>
 
 
@@ -349,7 +349,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.selfSubjectAccessReviewSpec.resourceAttributes.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __resourceAttributesMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace is the namespace of the action being requested.  Currently, there is no distinction between no namespace and all namespaces &ldquo;&rdquo; (empty) is defaulted for LocalSubjectAccessReviews &ldquo;&rdquo; (empty) is empty for cluster-scoped resources &ldquo;&rdquo; (empty) means &ldquo;all&rdquo; for namespace scoped resources from a SubjectAccessReview or SelfSubjectAccessReview</p></p>
 
 
@@ -377,7 +377,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.selfSubjectAccessReviewSpec.resourceAttributes.withResource">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourcefunction(resource) self <span style="color:#666">+</span> __resourceAttributesMixin({ resource<span style="color:#666">:</span> resource })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResource(resource)
 </code></pre></div></div><p>Resource is one of the existing resource types.  &ldquo;*&rdquo; means all.</p></p>
 
 
@@ -405,7 +405,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.selfSubjectAccessReviewSpec.resourceAttributes.withSubresource">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSubresourcefunction(subresource) self <span style="color:#666">+</span> __resourceAttributesMixin({ subresource<span style="color:#666">:</span> subresource })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSubresource(subresource)
 </code></pre></div></div><p>Subresource is one of the existing resource types.  &ldquo;&rdquo; means none.</p></p>
 
 
@@ -433,7 +433,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.selfSubjectAccessReviewSpec.resourceAttributes.withVerb">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVerbfunction(verb) self <span style="color:#666">+</span> __resourceAttributesMixin({ verb<span style="color:#666">:</span> verb })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVerb(verb)
 </code></pre></div></div><p>Verb is a kubernetes resource API verb, like: get, list, watch, create, update, delete, proxy.  &ldquo;*&rdquo; means all.</p></p>
 
 
@@ -461,7 +461,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.selfSubjectAccessReviewSpec.resourceAttributes.withVersion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersionfunction(version) self <span style="color:#666">+</span> __resourceAttributesMixin({ version<span style="color:#666">:</span> version })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersion(version)
 </code></pre></div></div><p>Version is the API Version of the Resource.  &ldquo;*&rdquo; means all.</p></p>
 
 

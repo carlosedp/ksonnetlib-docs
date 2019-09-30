@@ -85,7 +85,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -122,7 +122,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.withAllowPrivilegeEscalation">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowPrivilegeEscalationfunction(allowPrivilegeEscalation) self <span style="color:#666">+</span> { allowPrivilegeEscalation<span style="color:#666">:</span> allowPrivilegeEscalation }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowPrivilegeEscalation(allowPrivilegeEscalation)
 </code></pre></div></div><p>AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN</p></p>
 
 
@@ -150,7 +150,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.withPrivileged">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPrivilegedfunction(privileged) self <span style="color:#666">+</span> { privileged<span style="color:#666">:</span> privileged }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPrivileged(privileged)
 </code></pre></div></div><p>Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false.</p></p>
 
 
@@ -178,7 +178,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.withProcMount">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProcMountfunction(procMount) self <span style="color:#666">+</span> { procMount<span style="color:#666">:</span> procMount }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProcMount(procMount)
 </code></pre></div></div><p>procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled.</p></p>
 
 
@@ -206,7 +206,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.withRunAsGroup">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsGroupfunction(runAsGroup) self <span style="color:#666">+</span> { runAsGroup<span style="color:#666">:</span> runAsGroup }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsGroup(runAsGroup)
 </code></pre></div></div><p>The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.</p></p>
 
 
@@ -234,7 +234,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.withRunAsNonRoot">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsNonRootfunction(runAsNonRoot) self <span style="color:#666">+</span> { runAsNonRoot<span style="color:#666">:</span> runAsNonRoot }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsNonRoot(runAsNonRoot)
 </code></pre></div></div><p>Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.</p></p>
 
 
@@ -262,7 +262,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.withRunAsUser">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsUserfunction(runAsUser) self <span style="color:#666">+</span> { runAsUser<span style="color:#666">:</span> runAsUser }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsUser(runAsUser)
 </code></pre></div></div><p>The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.</p></p>
 
 
@@ -322,7 +322,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.capabilities.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(capabilities) __capabilitiesMixin(capabilities)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(capabilities)
 </code></pre></div></div><p></p></p>
 
 
@@ -350,7 +350,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.capabilities.withAdd">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddfunction(add) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(add) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __capabilitiesMixin({ add<span style="color:#666">:</span> add }) <span style="color:#007020;font-weight:bold">else</span> __capabilitiesMixin({ add<span style="color:#666">:</span> [add] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdd(add)
 </code></pre></div></div><p>Added capabilities</p></p>
 
 
@@ -378,7 +378,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.capabilities.withAddMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddMixinfunction(add) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(add) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __capabilitiesMixin({ add<span style="color:#666">+:</span> add }) <span style="color:#007020;font-weight:bold">else</span> __capabilitiesMixin({ add<span style="color:#666">+:</span> [add] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddMixin(add)
 </code></pre></div></div><p>Added capabilities</p></p>
 
 
@@ -406,7 +406,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.capabilities.withDrop">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDropfunction(drop) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(drop) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __capabilitiesMixin({ drop<span style="color:#666">:</span> drop }) <span style="color:#007020;font-weight:bold">else</span> __capabilitiesMixin({ drop<span style="color:#666">:</span> [drop] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDrop(drop)
 </code></pre></div></div><p>Removed capabilities</p></p>
 
 
@@ -434,7 +434,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.capabilities.withDropMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDropMixinfunction(drop) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(drop) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __capabilitiesMixin({ drop<span style="color:#666">+:</span> drop }) <span style="color:#007020;font-weight:bold">else</span> __capabilitiesMixin({ drop<span style="color:#666">+:</span> [drop] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDropMixin(drop)
 </code></pre></div></div><p>Removed capabilities</p></p>
 
 
@@ -494,7 +494,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.seLinuxOptions.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(seLinuxOptions) __seLinuxOptionsMixin(seLinuxOptions)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(seLinuxOptions)
 </code></pre></div></div><p></p></p>
 
 
@@ -522,7 +522,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.seLinuxOptions.withLevel">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevelfunction(level) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ level<span style="color:#666">:</span> level })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevel(level)
 </code></pre></div></div><p>Level is SELinux level label that applies to the container.</p></p>
 
 
@@ -550,7 +550,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.seLinuxOptions.withRole">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRolefunction(role) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ role<span style="color:#666">:</span> role })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRole(role)
 </code></pre></div></div><p>Role is a SELinux role label that applies to the container.</p></p>
 
 
@@ -578,7 +578,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.seLinuxOptions.withType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ type<span style="color:#666">:</span> type })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withType(type)
 </code></pre></div></div><p>Type is a SELinux type label that applies to the container.</p></p>
 
 
@@ -606,7 +606,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.securityContext.seLinuxOptions.withUser">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUserfunction(user) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ user<span style="color:#666">:</span> user })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUser(user)
 </code></pre></div></div><p>User is a SELinux user label that applies to the container.</p></p>
 
 

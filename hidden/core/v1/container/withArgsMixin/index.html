@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withArgsMixinfunction(args) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(args) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { args<span style="color:#666">+:</span> args } <span style="color:#007020;font-weight:bold">else</span> { args<span style="color:#666">+:</span> [args] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withArgsMixin(args)
 </code></pre></div></div><p>Arguments to the entrypoint. The docker image&rsquo;s CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container&rsquo;s environment. If a variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: <a href="https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell">https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell</a></p></p>
 
 

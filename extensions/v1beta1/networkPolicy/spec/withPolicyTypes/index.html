@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPolicyTypesfunction(policyTypes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(policyTypes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ policyTypes<span style="color:#666">:</span> policyTypes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ policyTypes<span style="color:#666">:</span> [policyTypes] })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPolicyTypes(policyTypes)
 </code></pre></div></div><p>List of rule types that the NetworkPolicy relates to. Valid options are &ldquo;Ingress&rdquo;, &ldquo;Egress&rdquo;, or &ldquo;Ingress,Egress&rdquo;. If this field is not specified, it will default based on the existence of Ingress or Egress rules; policies that contain an Egress section are assumed to affect Egress, and all policies (whether or not they contain an Ingress section) are assumed to affect Ingress. If you want to write an egress-only policy, you must explicitly specify policyTypes [ &ldquo;Egress&rdquo; ]. Likewise, if you want to write a policy that specifies that no egress is allowed, you must specify a policyTypes value that include &ldquo;Egress&rdquo; (since such a policy would not include an Egress section and would otherwise default to just [ &ldquo;Ingress&rdquo; ]). This field is beta-level in 1.8</p></p>
 
 

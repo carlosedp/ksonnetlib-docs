@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="certificates.v1beta1.certificateSigningRequestSpec.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="certificates.v1beta1.certificateSigningRequestSpec.withExtra">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExtrafunction(extra) self <span style="color:#666">+</span> { extra<span style="color:#666">:</span> extra }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExtra(extra)
 </code></pre></div></div><p>Extra information about the requesting user. See user.Info interface for details.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="certificates.v1beta1.certificateSigningRequestSpec.withExtraMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExtraMixinfunction(extra) self <span style="color:#666">+</span> { extra<span style="color:#666">+:</span> extra }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExtraMixin(extra)
 </code></pre></div></div><p>Extra information about the requesting user. See user.Info interface for details.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="certificates.v1beta1.certificateSigningRequestSpec.withGroups">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupsfunction(groups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(groups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { groups<span style="color:#666">:</span> groups } <span style="color:#007020;font-weight:bold">else</span> { groups<span style="color:#666">:</span> [groups] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroups(groups)
 </code></pre></div></div><p>Group information about the requesting user. See user.Info interface for details.</p></p>
 
 
@@ -190,7 +190,7 @@
     </h5>
 
     <div class="collapse show" id="certificates.v1beta1.certificateSigningRequestSpec.withGroupsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupsMixinfunction(groups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(groups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { groups<span style="color:#666">+:</span> groups } <span style="color:#007020;font-weight:bold">else</span> { groups<span style="color:#666">+:</span> [groups] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupsMixin(groups)
 </code></pre></div></div><p>Group information about the requesting user. See user.Info interface for details.</p></p>
 
 
@@ -218,7 +218,7 @@
     </h5>
 
     <div class="collapse show" id="certificates.v1beta1.certificateSigningRequestSpec.withRequest">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequestfunction(request) self <span style="color:#666">+</span> { request<span style="color:#666">:</span> request }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequest(request)
 </code></pre></div></div><p>Base64-encoded PKCS#10 CSR data</p></p>
 
 
@@ -246,7 +246,7 @@
     </h5>
 
     <div class="collapse show" id="certificates.v1beta1.certificateSigningRequestSpec.withUid">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> { uid<span style="color:#666">:</span> uid }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUid(uid)
 </code></pre></div></div><p>UID information about the requesting user. See user.Info interface for details.</p></p>
 
 
@@ -274,7 +274,7 @@
     </h5>
 
     <div class="collapse show" id="certificates.v1beta1.certificateSigningRequestSpec.withUsages">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUsagesfunction(usages) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(usages) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { usages<span style="color:#666">:</span> usages } <span style="color:#007020;font-weight:bold">else</span> { usages<span style="color:#666">:</span> [usages] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUsages(usages)
 </code></pre></div></div><p>allowedUsages specifies a set of usage contexts the key will be valid for. See: <a href="https://tools.ietf.org/html/rfc5280#section-4.2.1.3">https://tools.ietf.org/html/rfc5280#section-4.2.1.3</a></p><p><a href="https://tools.ietf.org/html/rfc5280#section-4.2.1.12">https://tools.ietf.org/html/rfc5280#section-4.2.1.12</a></p></p>
 
 
@@ -302,7 +302,7 @@
     </h5>
 
     <div class="collapse show" id="certificates.v1beta1.certificateSigningRequestSpec.withUsagesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUsagesMixinfunction(usages) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(usages) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { usages<span style="color:#666">+:</span> usages } <span style="color:#007020;font-weight:bold">else</span> { usages<span style="color:#666">+:</span> [usages] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUsagesMixin(usages)
 </code></pre></div></div><p>allowedUsages specifies a set of usage contexts the key will be valid for. See: <a href="https://tools.ietf.org/html/rfc5280#section-4.2.1.3">https://tools.ietf.org/html/rfc5280#section-4.2.1.3</a></p><p><a href="https://tools.ietf.org/html/rfc5280#section-4.2.1.12">https://tools.ietf.org/html/rfc5280#section-4.2.1.12</a></p></p>
 
 
@@ -330,7 +330,7 @@
     </h5>
 
     <div class="collapse show" id="certificates.v1beta1.certificateSigningRequestSpec.withUsername">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUsernamefunction(username) self <span style="color:#666">+</span> { username<span style="color:#666">:</span> username }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUsername(username)
 </code></pre></div></div><p>Information about the requesting user. See user.Info interface for details.</p></p>
 
 

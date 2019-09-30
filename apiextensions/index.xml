@@ -6,7 +6,7 @@
     <description>Recent content in Apiextensions on ksonnet lib API Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 14:37:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 20:18:40 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/apiextensions/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,109 +14,109 @@
     <item>
       <title>new</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/new/</guid>
-      <description>newfunction() apiVersion + kind</description>
+      <description>new()</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/initializers/mixinInstance/</guid>
-      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+      <description>mixinInstance(initializers)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/mixinInstance/</guid>
-      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+      <description>mixinInstance(metadata)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/mixinInstance/</guid>
-      <description>mixinInstancefunction(conversion) __conversionMixin(conversion)</description>
+      <description>mixinInstance(conversion)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/mixinInstance/</guid>
-      <description>mixinInstancefunction(webhookClientConfig) __webhookClientConfigMixin(webhookClientConfig)</description>
+      <description>mixinInstance(webhookClientConfig)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/service/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/service/mixinInstance/</guid>
-      <description>mixinInstancefunction(service) __serviceMixin(service)</description>
+      <description>mixinInstance(service)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/mixinInstance/</guid>
-      <description>mixinInstancefunction(spec) __specMixin(spec)</description>
+      <description>mixinInstance(spec)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/mixinInstance/</guid>
-      <description>mixinInstancefunction(names) __namesMixin(names)</description>
+      <description>mixinInstance(names)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/mixinInstance/</guid>
-      <description>mixinInstancefunction(subresources) __subresourcesMixin(subresources)</description>
+      <description>mixinInstance(subresources)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/scale/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/scale/mixinInstance/</guid>
-      <description>mixinInstancefunction(scale) __scaleMixin(scale)</description>
+      <description>mixinInstance(scale)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/validation/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/validation/mixinInstance/</guid>
-      <description>mixinInstancefunction(validation) __validationMixin(validation)</description>
+      <description>mixinInstance(validation)</description>
     </item>
     
     <item>
       <title>withAdditionalPrinterColumns</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/withAdditionalPrinterColumns/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/withAdditionalPrinterColumns/</guid>
-      <description>withAdditionalPrinterColumnsfunction(additionalPrinterColumns) self + if std.type(additionalPrinterColumns) == &amp;#39;array&amp;#39; then __specMixin({ additionalPrinterColumns: additionalPrinterColumns }) else __specMixin({ additionalPrinterColumns: [additionalPrinterColumns] }) AdditionalPrinterColumns are additional columns shown e.g. in kubectl next to the name. Defaults to a created-at column. Optional, the global columns for all versions. Top-level and per-version columns are mutually exclusive.
+      <description>withAdditionalPrinterColumns(additionalPrinterColumns) AdditionalPrinterColumns are additional columns shown e.g. in kubectl next to the name. Defaults to a created-at column. Optional, the global columns for all versions. Top-level and per-version columns are mutually exclusive.
 withAdditionalPrinterColumns takes an array of type additionalPrinterColumnsType. You can create an instance of additionalPrinterColumnsType with hidden.apiextensions.v1beta1.customResourceColumnDefinition.new().
 see hidden.apiextensions.v1beta1.customResourceColumnDefinition</description>
     </item>
@@ -124,10 +124,10 @@ see hidden.apiextensions.v1beta1.customResourceColumnDefinition</description>
     <item>
       <title>withAdditionalPrinterColumnsMixin</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/withAdditionalPrinterColumnsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/withAdditionalPrinterColumnsMixin/</guid>
-      <description>withAdditionalPrinterColumnsMixinfunction(additionalPrinterColumns) self + if std.type(additionalPrinterColumns) == &amp;#39;array&amp;#39; then __specMixin({ additionalPrinterColumns+: additionalPrinterColumns }) else __specMixin({ additionalPrinterColumns+: [additionalPrinterColumns] }) AdditionalPrinterColumns are additional columns shown e.g. in kubectl next to the name. Defaults to a created-at column. Optional, the global columns for all versions. Top-level and per-version columns are mutually exclusive.
+      <description>withAdditionalPrinterColumnsMixin(additionalPrinterColumns) AdditionalPrinterColumns are additional columns shown e.g. in kubectl next to the name. Defaults to a created-at column. Optional, the global columns for all versions. Top-level and per-version columns are mutually exclusive.
 withAdditionalPrinterColumnsMixin takes an array of type additionalPrinterColumnsType. You can create an instance of additionalPrinterColumnsType with hidden.apiextensions.v1beta1.customResourceColumnDefinition.new().
 see hidden.apiextensions.v1beta1.customResourceColumnDefinition</description>
     </item>
@@ -135,199 +135,199 @@ see hidden.apiextensions.v1beta1.customResourceColumnDefinition</description>
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withAnnotations/</guid>
-      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotations(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withAnnotationsMixin/</guid>
-      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotationsMixin(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withCaBundle</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/withCaBundle/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/withCaBundle/</guid>
-      <description>withCaBundlefunction(caBundle) self + __webhookClientConfigMixin({ caBundle: caBundle }) caBundle is a PEM encoded CA bundle which will be used to validate the webhook&amp;rsquo;s server certificate. If unspecified, system trust roots on the apiserver are used.</description>
+      <description>withCaBundle(caBundle) caBundle is a PEM encoded CA bundle which will be used to validate the webhook&amp;rsquo;s server certificate. If unspecified, system trust roots on the apiserver are used.</description>
     </item>
     
     <item>
       <title>withCategories</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withCategories/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withCategories/</guid>
-      <description>withCategoriesfunction(categories) self + if std.type(categories) == &amp;#39;array&amp;#39; then __namesMixin({ categories: categories }) else __namesMixin({ categories: [categories] }) Categories is a list of grouped resources custom resources belong to (e.g. &amp;lsquo;all&amp;rsquo;)</description>
+      <description>withCategories(categories) Categories is a list of grouped resources custom resources belong to (e.g. &amp;lsquo;all&amp;rsquo;)</description>
     </item>
     
     <item>
       <title>withCategoriesMixin</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withCategoriesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withCategoriesMixin/</guid>
-      <description>withCategoriesMixinfunction(categories) self + if std.type(categories) == &amp;#39;array&amp;#39; then __namesMixin({ categories+: categories }) else __namesMixin({ categories+: [categories] }) Categories is a list of grouped resources custom resources belong to (e.g. &amp;lsquo;all&amp;rsquo;)</description>
+      <description>withCategoriesMixin(categories) Categories is a list of grouped resources custom resources belong to (e.g. &amp;lsquo;all&amp;rsquo;)</description>
     </item>
     
     <item>
       <title>withClusterName</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withClusterName/</guid>
-      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+      <description>withClusterName(clusterName) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
     </item>
     
     <item>
       <title>withConversionReviewVersions</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/withConversionReviewVersions/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/withConversionReviewVersions/</guid>
-      <description>withConversionReviewVersionsfunction(conversionReviewVersions) self + if std.type(conversionReviewVersions) == &amp;#39;array&amp;#39; then __conversionMixin({ conversionReviewVersions: conversionReviewVersions }) else __conversionMixin({ conversionReviewVersions: [conversionReviewVersions] }) ConversionReviewVersions is an ordered list of preferred ConversionReview versions the Webhook expects. API server will try to use first version in the list which it supports. If none of the versions specified in this list supported by API server, conversion will fail for this object. If a persisted Webhook configuration specifies allowed versions and does not include any versions known to the API Server, calls to the webhook will fail.</description>
+      <description>withConversionReviewVersions(conversionReviewVersions) ConversionReviewVersions is an ordered list of preferred ConversionReview versions the Webhook expects. API server will try to use first version in the list which it supports. If none of the versions specified in this list supported by API server, conversion will fail for this object. If a persisted Webhook configuration specifies allowed versions and does not include any versions known to the API Server, calls to the webhook will fail.</description>
     </item>
     
     <item>
       <title>withConversionReviewVersionsMixin</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/withConversionReviewVersionsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/withConversionReviewVersionsMixin/</guid>
-      <description>withConversionReviewVersionsMixinfunction(conversionReviewVersions) self + if std.type(conversionReviewVersions) == &amp;#39;array&amp;#39; then __conversionMixin({ conversionReviewVersions+: conversionReviewVersions }) else __conversionMixin({ conversionReviewVersions+: [conversionReviewVersions] }) ConversionReviewVersions is an ordered list of preferred ConversionReview versions the Webhook expects. API server will try to use first version in the list which it supports. If none of the versions specified in this list supported by API server, conversion will fail for this object. If a persisted Webhook configuration specifies allowed versions and does not include any versions known to the API Server, calls to the webhook will fail.</description>
+      <description>withConversionReviewVersionsMixin(conversionReviewVersions) ConversionReviewVersions is an ordered list of preferred ConversionReview versions the Webhook expects. API server will try to use first version in the list which it supports. If none of the versions specified in this list supported by API server, conversion will fail for this object. If a persisted Webhook configuration specifies allowed versions and does not include any versions known to the API Server, calls to the webhook will fail.</description>
     </item>
     
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withFinalizers/</guid>
-      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizers(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withFinalizersMixin/</guid>
-      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizersMixin(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withGenerateName/</guid>
-      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+      <description>withGenerateName(generateName) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
     </item>
     
     <item>
       <title>withGroup</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/withGroup/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/withGroup/</guid>
-      <description>withGroupfunction(group) self + __specMixin({ group: group }) Group is the group this resource belongs in</description>
+      <description>withGroup(group) Group is the group this resource belongs in</description>
     </item>
     
     <item>
       <title>withKind</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withKind/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withKind/</guid>
-      <description>withKindfunction(kind) self + __namesMixin({ kind: kind }) Kind is the serialized kind of the resource. It is normally CamelCase and singular.</description>
+      <description>withKind(kind) Kind is the serialized kind of the resource. It is normally CamelCase and singular.</description>
     </item>
     
     <item>
       <title>withLabelSelectorPath</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/scale/withLabelSelectorPath/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/scale/withLabelSelectorPath/</guid>
-      <description>withLabelSelectorPathfunction(labelSelectorPath) self + __scaleMixin({ labelSelectorPath: labelSelectorPath }) LabelSelectorPath defines the JSON path inside of a CustomResource that corresponds to Scale.Status.Selector. Only JSON paths without the array notation are allowed. Must be a JSON Path under .status. Must be set to work with HPA. If there is no value under the given path in the CustomResource, the status label selector value in the /scale subresource will default to the empty string.</description>
+      <description>withLabelSelectorPath(labelSelectorPath) LabelSelectorPath defines the JSON path inside of a CustomResource that corresponds to Scale.Status.Selector. Only JSON paths without the array notation are allowed. Must be a JSON Path under .status. Must be set to work with HPA. If there is no value under the given path in the CustomResource, the status label selector value in the /scale subresource will default to the empty string.</description>
     </item>
     
     <item>
       <title>withLabels</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withLabels/</guid>
-      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabels(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withLabelsMixin/</guid>
-      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabelsMixin(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withListKind</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withListKind/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withListKind/</guid>
-      <description>withListKindfunction(listKind) self + __namesMixin({ listKind: listKind }) ListKind is the serialized kind of the list for this resource. Defaults to List.</description>
+      <description>withListKind(listKind) ListKind is the serialized kind of the list for this resource. Defaults to List.</description>
     </item>
     
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withManagedFields/</guid>
-      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFields(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withManagedFieldsMixin/</guid>
-      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFieldsMixin(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withName/</guid>
-      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/service/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/service/withName/</guid>
-      <description>withNamefunction(name) self + __serviceMixin({ name: name }) name is the name of the service. Required</description>
+      <description>withName(name) name is the name of the service. Required</description>
     </item>
     
     <item>
       <title>withNamespace</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+      <description>withNamespace(namespace) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
 
 Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
     </item>
@@ -335,156 +335,160 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withNamespace</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/service/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/service/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __serviceMixin({ namespace: namespace }) namespace is the namespace of the service. Required</description>
+      <description>withNamespace(namespace) namespace is the namespace of the service. Required</description>
     </item>
     
     <item>
       <title>withOpenApiV3Schema</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/validation/withOpenApiV3Schema/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/validation/withOpenApiV3Schema/</guid>
-      <description>withOpenApiV3Schemafunction(openApiV3Schema) self + __validationMixin({ openAPIV3Schema: openApiV3Schema }) OpenAPIV3Schema is the OpenAPI v3 schema to be validated against.</description>
+      <description>withOpenApiV3Schema(openApiV3Schema) OpenAPIV3Schema is the OpenAPI v3 schema to be validated against.</description>
     </item>
     
     <item>
       <title>withOpenApiV3SchemaMixin</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/validation/withOpenApiV3SchemaMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/validation/withOpenApiV3SchemaMixin/</guid>
-      <description>withOpenApiV3SchemaMixinfunction(openApiV3Schema) self + __validationMixin({ openAPIV3Schema+: openApiV3Schema }) OpenAPIV3Schema is the OpenAPI v3 schema to be validated against.</description>
+      <description>withOpenApiV3SchemaMixin(openApiV3Schema) OpenAPIV3Schema is the OpenAPI v3 schema to be validated against.</description>
     </item>
     
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withOwnerReferences/</guid>
-      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferences(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferences takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/withOwnerReferencesMixin/</guid>
-      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferencesMixin(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferencesMixin takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withPath</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/service/withPath/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/service/withPath/</guid>
-      <description>withPathfunction(path) self + __serviceMixin({ path: path }) path is an optional URL path which will be sent in any request to this service.</description>
+      <description>withPath(path) path is an optional URL path which will be sent in any request to this service.</description>
     </item>
     
     <item>
       <title>withPending</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/initializers/withPending/</guid>
-      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPending takes an array of type pendingType.</description>
+      <description>withPending(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/initializers/withPendingMixin/</guid>
-      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPendingMixin takes an array of type pendingType.</description>
+      <description>withPendingMixin(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPlural</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withPlural/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withPlural/</guid>
-      <description>withPluralfunction(plural) self + __namesMixin({ plural: plural }) Plural is the plural name of the resource to serve. It must match the name of the CustomResourceDefinition-registration too: plural.group and it must be all lowercase.</description>
+      <description>withPlural(plural) Plural is the plural name of the resource to serve. It must match the name of the CustomResourceDefinition-registration too: plural.group and it must be all lowercase.</description>
     </item>
     
     <item>
       <title>withScope</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/withScope/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/withScope/</guid>
-      <description>withScopefunction(scope) self + __specMixin({ scope: scope }) Scope indicates whether this resource is cluster or namespace scoped. Default is namespaced</description>
+      <description>withScope(scope) Scope indicates whether this resource is cluster or namespace scoped. Default is namespaced</description>
     </item>
     
     <item>
       <title>withShortNames</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withShortNames/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withShortNames/</guid>
-      <description>withShortNamesfunction(shortNames) self + if std.type(shortNames) == &amp;#39;array&amp;#39; then __namesMixin({ shortNames: shortNames }) else __namesMixin({ shortNames: [shortNames] }) ShortNames are short names for the resource. It must be all lowercase.</description>
+      <description>withShortNames(shortNames) ShortNames are short names for the resource. It must be all lowercase.</description>
     </item>
     
     <item>
       <title>withShortNamesMixin</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withShortNamesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withShortNamesMixin/</guid>
-      <description>withShortNamesMixinfunction(shortNames) self + if std.type(shortNames) == &amp;#39;array&amp;#39; then __namesMixin({ shortNames+: shortNames }) else __namesMixin({ shortNames+: [shortNames] }) ShortNames are short names for the resource. It must be all lowercase.</description>
+      <description>withShortNamesMixin(shortNames) ShortNames are short names for the resource. It must be all lowercase.</description>
     </item>
     
     <item>
       <title>withSingular</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withSingular/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/withSingular/</guid>
-      <description>withSingularfunction(singular) self + __namesMixin({ singular: singular }) Singular is the singular name of the resource. It must be all lowercase Defaults to lowercased</description>
+      <description>withSingular(singular) Singular is the singular name of the resource. It must be all lowercase Defaults to lowercased</description>
     </item>
     
     <item>
       <title>withSpecReplicasPath</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/scale/withSpecReplicasPath/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/scale/withSpecReplicasPath/</guid>
-      <description>withSpecReplicasPathfunction(specReplicasPath) self + __scaleMixin({ specReplicasPath: specReplicasPath }) SpecReplicasPath defines the JSON path inside of a CustomResource that corresponds to Scale.Spec.Replicas. Only JSON paths without the array notation are allowed. Must be a JSON Path under .spec. If there is no value under the given path in the CustomResource, the /scale subresource will return an error on GET.</description>
+      <description>withSpecReplicasPath(specReplicasPath) SpecReplicasPath defines the JSON path inside of a CustomResource that corresponds to Scale.Spec.Replicas. Only JSON paths without the array notation are allowed. Must be a JSON Path under .spec. If there is no value under the given path in the CustomResource, the /scale subresource will return an error on GET.</description>
     </item>
     
     <item>
       <title>withStatusReplicasPath</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/scale/withStatusReplicasPath/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/scale/withStatusReplicasPath/</guid>
-      <description>withStatusReplicasPathfunction(statusReplicasPath) self + __scaleMixin({ statusReplicasPath: statusReplicasPath }) StatusReplicasPath defines the JSON path inside of a CustomResource that corresponds to Scale.Status.Replicas. Only JSON paths without the array notation are allowed. Must be a JSON Path under .status. If there is no value under the given path in the CustomResource, the status replica value in the /scale subresource will default to 0.</description>
+      <description>withStatusReplicasPath(statusReplicasPath) StatusReplicasPath defines the JSON path inside of a CustomResource that corresponds to Scale.Status.Replicas. Only JSON paths without the array notation are allowed. Must be a JSON Path under .status. If there is no value under the given path in the CustomResource, the status replica value in the /scale subresource will default to 0.</description>
     </item>
     
     <item>
       <title>withStrategy</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/withStrategy/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/withStrategy/</guid>
-      <description>withStrategyfunction(strategy) self + __conversionMixin({ strategy: strategy }) strategy specifies the conversion strategy. Allowed values are: - None: The converter only change the apiVersion and would not touch any other field in the CR. - Webhook: API Server will call to an external webhook to do the conversion. Additional information is needed for this option.</description>
+      <description>withStrategy(strategy) strategy specifies the conversion strategy. Allowed values are: - None: The converter only change the apiVersion and would not touch any other field in the CR. - Webhook: API Server will call to an external webhook to do the conversion. Additional information is needed for this option.</description>
     </item>
     
     <item>
       <title>withUrl</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/withUrl/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/withUrl/</guid>
-      <description>withUrlfunction(url) self + __webhookClientConfigMixin({ url: url }) url gives the location of the webhook, in standard URL form (scheme://host:port/path). Exactly one of url or service must be specified.
+      <description>withUrl(url) url gives the location of the webhook, in standard URL form (scheme://host:port/path). Exactly one of url or service must be specified.
 
 The host should not refer to a service running in the cluster; use the service field instead. The host might be resolved via external DNS in some apiservers (e.g., kube-apiserver cannot resolve in-cluster DNS as that would be a layering violation). host may also be an IP address.</description>
     </item>
@@ -492,34 +496,34 @@ The host should not refer to a service running in the cluster; use the service f
     <item>
       <title>withVersion</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/withVersion/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/withVersion/</guid>
-      <description>withVersionfunction(version) self + __specMixin({ version: version }) Version is the version this resource belongs in Should be always first item in Versions field if provided. Optional, but at least one of Version or Versions must be set. Deprecated: Please use Versions.</description>
+      <description>withVersion(version) Version is the version this resource belongs in Should be always first item in Versions field if provided. Optional, but at least one of Version or Versions must be set. Deprecated: Please use Versions.</description>
     </item>
     
     <item>
       <title>withVersions</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/withVersions/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/withVersions/</guid>
-      <description>withVersionsfunction(versions) self + if std.type(versions) == &amp;#39;array&amp;#39; then __specMixin({ versions: versions }) else __specMixin({ versions: [versions] }) Versions is the list of all supported versions for this resource. If Version field is provided, this field is optional. Validation: All versions must use the same validation schema for now. i.e., top level Validation field is applied to all of these versions. Order: The version name will be used to compute the order.</description>
+      <description>withVersions(versions) Versions is the list of all supported versions for this resource. If Version field is provided, this field is optional. Validation: All versions must use the same validation schema for now. i.e., top level Validation field is applied to all of these versions. Order: The version name will be used to compute the order. If the version string is &amp;ldquo;kube-like&amp;rdquo;, it will sort above non &amp;ldquo;kube-like&amp;rdquo; version strings, which are ordered lexicographically.</description>
     </item>
     
     <item>
       <title>withVersionsMixin</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/withVersionsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/withVersionsMixin/</guid>
-      <description>withVersionsMixinfunction(versions) self + if std.type(versions) == &amp;#39;array&amp;#39; then __specMixin({ versions+: versions }) else __specMixin({ versions+: [versions] }) Versions is the list of all supported versions for this resource. If Version field is provided, this field is optional. Validation: All versions must use the same validation schema for now. i.e., top level Validation field is applied to all of these versions. Order: The version name will be used to compute the order.</description>
+      <description>withVersionsMixin(versions) Versions is the list of all supported versions for this resource. If Version field is provided, this field is optional. Validation: All versions must use the same validation schema for now. i.e., top level Validation field is applied to all of these versions. Order: The version name will be used to compute the order. If the version string is &amp;ldquo;kube-like&amp;rdquo;, it will sort above non &amp;ldquo;kube-like&amp;rdquo; version strings, which are ordered lexicographically.</description>
     </item>
     
     <item>
       <title>conversion</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/</guid>
       <description>`conversion` defines conversion settings for the CRD.</description>
@@ -528,7 +532,7 @@ The host should not refer to a service running in the cluster; use the service f
     <item>
       <title>initializers</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -539,7 +543,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/</guid>
       <description></description>
@@ -548,7 +552,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>names</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/names/</guid>
       <description>Names are the names used to describe this custom resource</description>
@@ -557,7 +561,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>scale</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/scale/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/scale/</guid>
       <description>Scale denotes the scale subresource for CustomResources</description>
@@ -566,7 +570,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>service</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/service/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/service/</guid>
       <description>`service` is a reference to the service for this webhook. Either `service` or `url` must be specified.
@@ -579,7 +583,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>spec</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/</guid>
       <description>Spec describes how the user wants the resources to appear</description>
@@ -588,7 +592,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>subresources</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/</guid>
       <description>Subresources describes the subresources for CustomResource Optional, the global subresources for all versions. Top-level and per-version subresources are mutually exclusive.</description>
@@ -597,7 +601,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>validation</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/validation/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/validation/</guid>
       <description>Validation describes the validation methods for CustomResources Optional, the global validation schema for all versions. Top-level and per-version schemas are mutually exclusive.</description>
@@ -606,7 +610,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>webhookClientConfig</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/</guid>
       <description>`webhookClientConfig` is the instructions for how to call the webhook if strategy is `Webhook`. This field is alpha-level and is only honored by servers that enable the CustomResourceWebhookConversion feature.</description>
@@ -615,7 +619,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>additionalPrinterColumnsType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/additionalPrinterColumnsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/additionalPrinterColumnsType/</guid>
       <description></description>
@@ -624,7 +628,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>conversionType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversionType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversionType/</guid>
       <description></description>
@@ -633,7 +637,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>initializersType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/initializersType/</guid>
       <description></description>
@@ -642,7 +646,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/managedFieldsType/</guid>
       <description></description>
@@ -651,7 +655,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>metadataType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadataType/</guid>
       <description></description>
@@ -660,7 +664,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>namesType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/namesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/namesType/</guid>
       <description></description>
@@ -669,7 +673,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>openAPIV3SchemaType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/validation/openAPIV3SchemaType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/validation/openAPIV3SchemaType/</guid>
       <description></description>
@@ -678,7 +682,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -687,7 +691,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>pendingType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -696,7 +700,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>scaleType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/scaleType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresources/scaleType/</guid>
       <description></description>
@@ -705,7 +709,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>serviceType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/serviceType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfig/serviceType/</guid>
       <description></description>
@@ -714,7 +718,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>specType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/specType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/specType/</guid>
       <description></description>
@@ -723,7 +727,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>subresourcesType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresourcesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/subresourcesType/</guid>
       <description></description>
@@ -732,7 +736,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>validationType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/validationType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/validationType/</guid>
       <description></description>
@@ -741,7 +745,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>versionsType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/versionsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/versionsType/</guid>
       <description></description>
@@ -750,7 +754,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>webhookClientConfigType</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfigType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/spec/conversion/webhookClientConfigType/</guid>
       <description></description>
@@ -759,7 +763,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>customResourceDefinition</title>
       <link>http://example.org/apiextensions/customResourceDefinition/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:42 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/customResourceDefinition/</guid>
       <description>CustomResourceDefinition represents a resource that should be exposed on the API server.  </description>
@@ -768,7 +772,7 @@ Port 443 will be used if it is open, otherwise it is an error.</description>
     <item>
       <title>customResourceDefinition</title>
       <link>http://example.org/apiextensions/v1beta1/customResourceDefinition/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:42 +0000</pubDate>
       
       <guid>http://example.org/apiextensions/v1beta1/customResourceDefinition/</guid>
       <description>CustomResourceDefinition represents a resource that should be exposed on the API server. Its name MUST be in the format &amp;lt;.spec.name&amp;gt;.&amp;lt;.spec.group&amp;gt;.</description>

@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerPort.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction(containerPort<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>) self.withContainerPort(containerPort)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>(containerPort<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>)
 </code></pre></div></div><p></p></p>
 
 
@@ -97,7 +97,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerPort.newNamed">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newNamedfunction(containerPort<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, name<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>) self.withContainerPort(containerPort).withName(name)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newNamed(containerPort<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, name<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>)
 </code></pre></div></div><p></p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerPort.withContainerPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerPortfunction(containerPort) self <span style="color:#666">+</span> { containerPort<span style="color:#666">:</span> containerPort }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerPort(containerPort)
 </code></pre></div></div><p>Number of port to expose on the pod&rsquo;s IP address. This must be a valid port number, 0 &lt; x &lt; 65536.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerPort.withHostIp">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostIpfunction(hostIp) self <span style="color:#666">+</span> { hostIP<span style="color:#666">:</span> hostIp }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostIp(hostIp)
 </code></pre></div></div><p>What host IP to bind the external port to.</p></p>
 
 
@@ -190,7 +190,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerPort.withHostPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostPortfunction(hostPort) self <span style="color:#666">+</span> { hostPort<span style="color:#666">:</span> hostPort }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostPort(hostPort)
 </code></pre></div></div><p>Number of port to expose on the host. If specified, this must be a valid port number, 0 &lt; x &lt; 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.</p></p>
 
 
@@ -218,7 +218,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerPort.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> { name<span style="color:#666">:</span> name }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.</p></p>
 
 
@@ -246,7 +246,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerPort.withProtocol">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProtocolfunction(protocol) self <span style="color:#666">+</span> { protocol<span style="color:#666">:</span> protocol }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProtocol(protocol)
 </code></pre></div></div><p>Protocol for port. Must be UDP, TCP, or SCTP. Defaults to &ldquo;TCP&rdquo;.</p></p>
 
 

@@ -93,7 +93,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.downwardApiVolumeFile.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -130,7 +130,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.downwardApiVolumeFile.withMode">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withModefunction(mode) self <span style="color:#666">+</span> { mode<span style="color:#666">:</span> mode }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMode(mode)
 </code></pre></div></div><p>Optional: mode bits to use on this file, must be a value between 0 and 0777. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.</p></p>
 
 
@@ -158,7 +158,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.downwardApiVolumeFile.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> { path<span style="color:#666">:</span> path }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>Required: Path is  the relative path name of the file to be created. Must not be absolute or contain the &lsquo;..&rsquo; path. Must be utf-8 encoded. The first item of the relative path must not start with &lsquo;..&rsquo;</p></p>
 
 
@@ -218,7 +218,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.downwardApiVolumeFile.fieldRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(fieldRef) __fieldRefMixin(fieldRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(fieldRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -246,7 +246,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.downwardApiVolumeFile.fieldRef.withFieldPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPathfunction(fieldPath) self <span style="color:#666">+</span> __fieldRefMixin({ fieldPath<span style="color:#666">:</span> fieldPath })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPath(fieldPath)
 </code></pre></div></div><p>Path of the field to select in the specified API version.</p></p>
 
 
@@ -306,7 +306,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.downwardApiVolumeFile.resourceFieldRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(resourceFieldRef) __resourceFieldRefMixin(resourceFieldRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(resourceFieldRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -334,7 +334,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.downwardApiVolumeFile.resourceFieldRef.withContainerName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerNamefunction(containerName) self <span style="color:#666">+</span> __resourceFieldRefMixin({ containerName<span style="color:#666">:</span> containerName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerName(containerName)
 </code></pre></div></div><p>Container name: required for volumes, optional for env vars</p></p>
 
 
@@ -362,7 +362,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.downwardApiVolumeFile.resourceFieldRef.withResource">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourcefunction(resource) self <span style="color:#666">+</span> __resourceFieldRefMixin({ resource<span style="color:#666">:</span> resource })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResource(resource)
 </code></pre></div></div><p>Required: resource to select</p></p>
 
 
@@ -421,7 +421,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.downwardApiVolumeFile.resourceFieldRef.divisor.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(divisor) __divisorMixin(divisor)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(divisor)
 </code></pre></div></div><p></p></p>
 
 

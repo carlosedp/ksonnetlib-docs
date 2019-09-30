@@ -77,7 +77,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.managedFieldsEntry.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -114,7 +114,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.managedFieldsEntry.withManager">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagerfunction(manager) self <span style="color:#666">+</span> { manager<span style="color:#666">:</span> manager }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManager(manager)
 </code></pre></div></div><p>Manager is an identifier of the workflow managing these fields.</p></p>
 
 
@@ -142,7 +142,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.managedFieldsEntry.withOperation">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOperationfunction(operation) self <span style="color:#666">+</span> { operation<span style="color:#666">:</span> operation }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOperation(operation)
 </code></pre></div></div><p>Operation is the type of operation which lead to this ManagedFieldsEntry being created. The only valid values for this field are &lsquo;Apply&rsquo; and &lsquo;Update&rsquo;.</p></p>
 
 
@@ -170,7 +170,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.managedFieldsEntry.withTime">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTimefunction(time) self <span style="color:#666">+</span> { time<span style="color:#666">:</span> time }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTime(time)
 </code></pre></div></div><p>Time is timestamp of when these fields were set. It should always be empty if Operation is &lsquo;Apply&rsquo;</p></p>
 
 
@@ -230,7 +230,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.managedFieldsEntry.fields.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(fields) __fieldsMixin(fields)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(fields)
 </code></pre></div></div><p></p></p>
 
 

@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersionsMixinfunction(versions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(versions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { versions<span style="color:#666">+:</span> versions } <span style="color:#007020;font-weight:bold">else</span> { versions<span style="color:#666">+:</span> [versions] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersionsMixin(versions)
 </code></pre></div></div><p>versions are the versions supported in this group.</p><code>withVersionsMixin</code> takes an array of type <code>versionsType</code>. You can create
 an instance of <code>versionsType</code> with <code>hidden.meta.v1.groupVersionForDiscovery.new()</code>.</p>
 

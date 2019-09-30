@@ -77,7 +77,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.iscsiPersistentVolumeSource.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -114,7 +114,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.iscsiPersistentVolumeSource.withChapAuthDiscovery">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withChapAuthDiscoveryfunction(chapAuthDiscovery) self <span style="color:#666">+</span> { chapAuthDiscovery<span style="color:#666">:</span> chapAuthDiscovery }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withChapAuthDiscovery(chapAuthDiscovery)
 </code></pre></div></div><p>whether support iSCSI Discovery CHAP authentication</p></p>
 
 
@@ -142,7 +142,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.iscsiPersistentVolumeSource.withChapAuthSession">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withChapAuthSessionfunction(chapAuthSession) self <span style="color:#666">+</span> { chapAuthSession<span style="color:#666">:</span> chapAuthSession }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withChapAuthSession(chapAuthSession)
 </code></pre></div></div><p>whether support iSCSI Session CHAP authentication</p></p>
 
 
@@ -170,7 +170,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.iscsiPersistentVolumeSource.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> { fsType<span style="color:#666">:</span> fsType }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. Implicitly inferred to be &ldquo;ext4&rdquo; if unspecified. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#iscsi">https://kubernetes.io/docs/concepts/storage/volumes#iscsi</a></p></p>
 
 
@@ -198,7 +198,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.iscsiPersistentVolumeSource.withInitiatorName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitiatorNamefunction(initiatorName) self <span style="color:#666">+</span> { initiatorName<span style="color:#666">:</span> initiatorName }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitiatorName(initiatorName)
 </code></pre></div></div><p>Custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.</p></p>
 
 
@@ -226,7 +226,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.iscsiPersistentVolumeSource.withIqn">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIqnfunction(iqn) self <span style="color:#666">+</span> { iqn<span style="color:#666">:</span> iqn }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIqn(iqn)
 </code></pre></div></div><p>Target iSCSI Qualified Name.</p></p>
 
 
@@ -254,7 +254,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.iscsiPersistentVolumeSource.withIscsiInterface">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIscsiInterfacefunction(iscsiInterface) self <span style="color:#666">+</span> { iscsiInterface<span style="color:#666">:</span> iscsiInterface }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIscsiInterface(iscsiInterface)
 </code></pre></div></div><p>iSCSI Interface Name that uses an iSCSI transport. Defaults to &lsquo;default&rsquo; (tcp).</p></p>
 
 
@@ -282,7 +282,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.iscsiPersistentVolumeSource.withLun">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLunfunction(lun) self <span style="color:#666">+</span> { lun<span style="color:#666">:</span> lun }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLun(lun)
 </code></pre></div></div><p>iSCSI Target Lun number.</p></p>
 
 
@@ -310,7 +310,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.iscsiPersistentVolumeSource.withPortals">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortalsfunction(portals) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(portals) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { portals<span style="color:#666">:</span> portals } <span style="color:#007020;font-weight:bold">else</span> { portals<span style="color:#666">:</span> [portals] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortals(portals)
 </code></pre></div></div><p>iSCSI Target Portal List. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).</p></p>
 
 
@@ -338,7 +338,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.iscsiPersistentVolumeSource.withPortalsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortalsMixinfunction(portals) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(portals) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { portals<span style="color:#666">+:</span> portals } <span style="color:#007020;font-weight:bold">else</span> { portals<span style="color:#666">+:</span> [portals] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortalsMixin(portals)
 </code></pre></div></div><p>iSCSI Target Portal List. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).</p></p>
 
 
@@ -366,7 +366,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.iscsiPersistentVolumeSource.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> { readOnly<span style="color:#666">:</span> readOnly }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>ReadOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.</p></p>
 
 
@@ -394,7 +394,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.iscsiPersistentVolumeSource.withTargetPortal">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTargetPortalfunction(targetPortal) self <span style="color:#666">+</span> { targetPortal<span style="color:#666">:</span> targetPortal }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTargetPortal(targetPortal)
 </code></pre></div></div><p>iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).</p></p>
 
 
@@ -454,7 +454,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.iscsiPersistentVolumeSource.secretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(secretRef) __secretRefMixin(secretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(secretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -482,7 +482,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.iscsiPersistentVolumeSource.secretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __secretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -510,7 +510,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.iscsiPersistentVolumeSource.secretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __secretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 

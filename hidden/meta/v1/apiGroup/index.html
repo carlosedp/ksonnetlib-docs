@@ -77,7 +77,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.apiGroup.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -114,7 +114,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.apiGroup.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> { name<span style="color:#666">:</span> name }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>name is the name of the group.</p></p>
 
 
@@ -142,7 +142,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.apiGroup.withServerAddressByClientCidrs">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServerAddressByClientCidrsfunction(serverAddressByClientCidrs) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(serverAddressByClientCidrs) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { serverAddressByClientCIDRs<span style="color:#666">:</span> serverAddressByClientCidrs } <span style="color:#007020;font-weight:bold">else</span> { serverAddressByClientCIDRs<span style="color:#666">:</span> [serverAddressByClientCidrs] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServerAddressByClientCidrs(serverAddressByClientCidrs)
 </code></pre></div></div><p>a map of client CIDR to server address that is serving this group. This is to help clients reach servers in the most network-efficient way possible. Clients can use the appropriate server address as per the CIDR that they match. In case of multiple matches, clients should use the longest matching CIDR. The server returns only those CIDRs that it thinks that the client can match. For example: the master will return an internal IP CIDR only, if the client reaches the server using an internal IP. Server looks at X-Forwarded-For header or X-Real-Ip header or request.RemoteAddr (in that order) to get the client IP.</p></p>
 
 
@@ -170,7 +170,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.apiGroup.withServerAddressByClientCidrsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServerAddressByClientCidrsMixinfunction(serverAddressByClientCidrs) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(serverAddressByClientCidrs) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { serverAddressByClientCIDRs<span style="color:#666">+:</span> serverAddressByClientCidrs } <span style="color:#007020;font-weight:bold">else</span> { serverAddressByClientCIDRs<span style="color:#666">+:</span> [serverAddressByClientCidrs] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServerAddressByClientCidrsMixin(serverAddressByClientCidrs)
 </code></pre></div></div><p>a map of client CIDR to server address that is serving this group. This is to help clients reach servers in the most network-efficient way possible. Clients can use the appropriate server address as per the CIDR that they match. In case of multiple matches, clients should use the longest matching CIDR. The server returns only those CIDRs that it thinks that the client can match. For example: the master will return an internal IP CIDR only, if the client reaches the server using an internal IP. Server looks at X-Forwarded-For header or X-Real-Ip header or request.RemoteAddr (in that order) to get the client IP.</p></p>
 
 
@@ -198,7 +198,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.apiGroup.withVersions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersionsfunction(versions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(versions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { versions<span style="color:#666">:</span> versions } <span style="color:#007020;font-weight:bold">else</span> { versions<span style="color:#666">:</span> [versions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersions(versions)
 </code></pre></div></div><p>versions are the versions supported in this group.</p><code>withVersions</code> takes an array of type <code>versionsType</code>. You can create
 an instance of <code>versionsType</code> with <code>hidden.meta.v1.groupVersionForDiscovery.new()</code>.</p>
 
@@ -229,7 +229,7 @@ an instance of <code>versionsType</code> with <code>hidden.meta.v1.groupVersionF
     </h5>
 
     <div class="collapse show" id="meta.v1.apiGroup.withVersionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersionsMixinfunction(versions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(versions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { versions<span style="color:#666">+:</span> versions } <span style="color:#007020;font-weight:bold">else</span> { versions<span style="color:#666">+:</span> [versions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersionsMixin(versions)
 </code></pre></div></div><p>versions are the versions supported in this group.</p><code>withVersionsMixin</code> takes an array of type <code>versionsType</code>. You can create
 an instance of <code>versionsType</code> with <code>hidden.meta.v1.groupVersionForDiscovery.new()</code>.</p>
 
@@ -292,7 +292,7 @@ an instance of <code>versionsType</code> with <code>hidden.meta.v1.groupVersionF
     </h5>
 
     <div class="collapse show" id="meta.v1.apiGroup.preferredVersion.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(preferredVersion) __preferredVersionMixin(preferredVersion)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(preferredVersion)
 </code></pre></div></div><p></p></p>
 
 
@@ -320,7 +320,7 @@ an instance of <code>versionsType</code> with <code>hidden.meta.v1.groupVersionF
     </h5>
 
     <div class="collapse show" id="meta.v1.apiGroup.preferredVersion.withGroupVersion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupVersionfunction(groupVersion) self <span style="color:#666">+</span> __preferredVersionMixin({ groupVersion<span style="color:#666">:</span> groupVersion })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupVersion(groupVersion)
 </code></pre></div></div><p>groupVersion specifies the API group and version in the form &ldquo;group/version&rdquo;</p></p>
 
 
@@ -348,7 +348,7 @@ an instance of <code>versionsType</code> with <code>hidden.meta.v1.groupVersionF
     </h5>
 
     <div class="collapse show" id="meta.v1.apiGroup.preferredVersion.withVersion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersionfunction(version) self <span style="color:#666">+</span> __preferredVersionMixin({ version<span style="color:#666">:</span> version })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersion(version)
 </code></pre></div></div><p>version specifies the version in the form of &ldquo;version&rdquo;. This is to save the clients the trouble of splitting the GroupVersion.</p></p>
 
 

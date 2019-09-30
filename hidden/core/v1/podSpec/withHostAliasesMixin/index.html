@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostAliasesMixinfunction(hostAliases) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(hostAliases) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { hostAliases<span style="color:#666">+:</span> hostAliases } <span style="color:#007020;font-weight:bold">else</span> { hostAliases<span style="color:#666">+:</span> [hostAliases] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostAliasesMixin(hostAliases)
 </code></pre></div></div><p>HostAliases is an optional list of hosts and IPs that will be injected into the pod&rsquo;s hosts file if specified. This is only valid for non-hostNetwork pods.</p><code>withHostAliasesMixin</code> takes an array of type <code>hostAliasesType</code>. You can create
 an instance of <code>hostAliasesType</code> with <code>hidden.core.v1.hostAlias.new()</code>.</p>
 

@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOperationsfunction(operations) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(operations) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { operations<span style="color:#666">:</span> operations } <span style="color:#007020;font-weight:bold">else</span> { operations<span style="color:#666">:</span> [operations] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOperations(operations)
 </code></pre></div></div><p>Operations is the operations the admission hook cares about - CREATE, UPDATE, or * for all operations. If &lsquo;*&rsquo; is present, the length of the slice must be one. Required.</p></p>
 
 

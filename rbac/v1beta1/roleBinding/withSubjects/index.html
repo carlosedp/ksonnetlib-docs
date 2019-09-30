@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSubjectsfunction(subjects) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(subjects) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { subjects<span style="color:#666">:</span> subjects } <span style="color:#007020;font-weight:bold">else</span> { subjects<span style="color:#666">:</span> [subjects] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSubjects(subjects)
 </code></pre></div></div><p>Subjects holds references to the objects the role applies to.</p><code>withSubjects</code> takes an array of type <code>subjectsType</code>. You can create
 an instance of <code>subjectsType</code> with <code>hidden.rbac.v1beta1.subject.new()</code>.</p>
 

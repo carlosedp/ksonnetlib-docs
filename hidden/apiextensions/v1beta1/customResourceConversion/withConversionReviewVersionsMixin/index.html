@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConversionReviewVersionsMixinfunction(conversionReviewVersions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conversionReviewVersions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conversionReviewVersions<span style="color:#666">+:</span> conversionReviewVersions } <span style="color:#007020;font-weight:bold">else</span> { conversionReviewVersions<span style="color:#666">+:</span> [conversionReviewVersions] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConversionReviewVersionsMixin(conversionReviewVersions)
 </code></pre></div></div><p>ConversionReviewVersions is an ordered list of preferred <code>ConversionReview</code> versions the Webhook expects. API server will try to use first version in the list which it supports. If none of the versions specified in this list supported by API server, conversion will fail for this object. If a persisted Webhook configuration specifies allowed versions and does not include any versions known to the API Server, calls to the webhook will fail. Default to <code>['v1beta1']</code>.</p></p>
 
 

@@ -133,7 +133,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -170,7 +170,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.withContainerId">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerIdfunction(containerId) self <span style="color:#666">+</span> { containerID<span style="color:#666">:</span> containerId }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerId(containerId)
 </code></pre></div></div><p>Container&rsquo;s ID in the format &lsquo;docker://<container_id>&rsquo;.</p></p>
 
 
@@ -198,7 +198,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.withImage">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImagefunction(image) self <span style="color:#666">+</span> { image<span style="color:#666">:</span> image }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImage(image)
 </code></pre></div></div><p>The image the container is running. More info: <a href="https://kubernetes.io/docs/concepts/containers/images">https://kubernetes.io/docs/concepts/containers/images</a></p></p>
 
 
@@ -226,7 +226,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.withImageId">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImageIdfunction(imageId) self <span style="color:#666">+</span> { imageID<span style="color:#666">:</span> imageId }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImageId(imageId)
 </code></pre></div></div><p>ImageID of the container&rsquo;s image.</p></p>
 
 
@@ -254,7 +254,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> { name<span style="color:#666">:</span> name }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>This must be a DNS_LABEL. Each container in a pod must have a unique name. Cannot be updated.</p></p>
 
 
@@ -282,7 +282,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.withReady">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadyfunction(ready) self <span style="color:#666">+</span> { ready<span style="color:#666">:</span> ready }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReady(ready)
 </code></pre></div></div><p>Specifies whether the container has passed its readiness probe.</p></p>
 
 
@@ -310,7 +310,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.withRestartCount">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRestartCountfunction(restartCount) self <span style="color:#666">+</span> { restartCount<span style="color:#666">:</span> restartCount }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRestartCount(restartCount)
 </code></pre></div></div><p>The number of times the container has been restarted, currently based on the number of dead containers that have not yet been removed. Note that this is calculated from dead containers. But those containers are subject to garbage collection. This value will get capped at 5 by GC.</p></p>
 
 
@@ -370,7 +370,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.lastState.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(lastState) __lastStateMixin(lastState)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(lastState)
 </code></pre></div></div><p></p></p>
 
 
@@ -429,7 +429,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.lastState.running.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(running) __runningMixin(running)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(running)
 </code></pre></div></div><p></p></p>
 
 
@@ -457,7 +457,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.lastState.running.withStartedAt">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStartedAtfunction(startedAt) self <span style="color:#666">+</span> __runningMixin({ startedAt<span style="color:#666">:</span> startedAt })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStartedAt(startedAt)
 </code></pre></div></div><p>Time at which the container was last (re-)started</p></p>
 
 
@@ -517,7 +517,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.lastState.terminated.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(terminated) __terminatedMixin(terminated)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(terminated)
 </code></pre></div></div><p></p></p>
 
 
@@ -545,7 +545,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.lastState.terminated.withContainerId">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerIdfunction(containerId) self <span style="color:#666">+</span> __terminatedMixin({ containerID<span style="color:#666">:</span> containerId })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerId(containerId)
 </code></pre></div></div><p>Container&rsquo;s ID in the format &lsquo;docker://<container_id>&lsquo;</p></p>
 
 
@@ -573,7 +573,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.lastState.terminated.withExitCode">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExitCodefunction(exitCode) self <span style="color:#666">+</span> __terminatedMixin({ exitCode<span style="color:#666">:</span> exitCode })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExitCode(exitCode)
 </code></pre></div></div><p>Exit status from the last termination of the container</p></p>
 
 
@@ -601,7 +601,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.lastState.terminated.withFinishedAt">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinishedAtfunction(finishedAt) self <span style="color:#666">+</span> __terminatedMixin({ finishedAt<span style="color:#666">:</span> finishedAt })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinishedAt(finishedAt)
 </code></pre></div></div><p>Time at which the container last terminated</p></p>
 
 
@@ -629,7 +629,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.lastState.terminated.withMessage">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMessagefunction(message) self <span style="color:#666">+</span> __terminatedMixin({ message<span style="color:#666">:</span> message })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMessage(message)
 </code></pre></div></div><p>Message regarding the last termination of the container</p></p>
 
 
@@ -657,7 +657,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.lastState.terminated.withReason">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReasonfunction(reason) self <span style="color:#666">+</span> __terminatedMixin({ reason<span style="color:#666">:</span> reason })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReason(reason)
 </code></pre></div></div><p>(brief) reason from the last termination of the container</p></p>
 
 
@@ -685,7 +685,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.lastState.terminated.withSignal">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSignalfunction(signal) self <span style="color:#666">+</span> __terminatedMixin({ signal<span style="color:#666">:</span> signal })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSignal(signal)
 </code></pre></div></div><p>Signal from the last termination of the container</p></p>
 
 
@@ -713,7 +713,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.lastState.terminated.withStartedAt">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStartedAtfunction(startedAt) self <span style="color:#666">+</span> __terminatedMixin({ startedAt<span style="color:#666">:</span> startedAt })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStartedAt(startedAt)
 </code></pre></div></div><p>Time at which previous execution of the container started</p></p>
 
 
@@ -773,7 +773,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.lastState.waiting.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(waiting) __waitingMixin(waiting)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(waiting)
 </code></pre></div></div><p></p></p>
 
 
@@ -801,7 +801,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.lastState.waiting.withMessage">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMessagefunction(message) self <span style="color:#666">+</span> __waitingMixin({ message<span style="color:#666">:</span> message })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMessage(message)
 </code></pre></div></div><p>Message regarding why the container is not yet running.</p></p>
 
 
@@ -829,7 +829,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.lastState.waiting.withReason">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReasonfunction(reason) self <span style="color:#666">+</span> __waitingMixin({ reason<span style="color:#666">:</span> reason })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReason(reason)
 </code></pre></div></div><p>(brief) reason the container is not yet running.</p></p>
 
 
@@ -895,7 +895,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.state.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(state) __stateMixin(state)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(state)
 </code></pre></div></div><p></p></p>
 
 
@@ -954,7 +954,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.state.running.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(running) __runningMixin(running)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(running)
 </code></pre></div></div><p></p></p>
 
 
@@ -982,7 +982,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.state.running.withStartedAt">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStartedAtfunction(startedAt) self <span style="color:#666">+</span> __runningMixin({ startedAt<span style="color:#666">:</span> startedAt })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStartedAt(startedAt)
 </code></pre></div></div><p>Time at which the container was last (re-)started</p></p>
 
 
@@ -1042,7 +1042,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.state.terminated.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(terminated) __terminatedMixin(terminated)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(terminated)
 </code></pre></div></div><p></p></p>
 
 
@@ -1070,7 +1070,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.state.terminated.withContainerId">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerIdfunction(containerId) self <span style="color:#666">+</span> __terminatedMixin({ containerID<span style="color:#666">:</span> containerId })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerId(containerId)
 </code></pre></div></div><p>Container&rsquo;s ID in the format &lsquo;docker://<container_id>&lsquo;</p></p>
 
 
@@ -1098,7 +1098,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.state.terminated.withExitCode">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExitCodefunction(exitCode) self <span style="color:#666">+</span> __terminatedMixin({ exitCode<span style="color:#666">:</span> exitCode })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExitCode(exitCode)
 </code></pre></div></div><p>Exit status from the last termination of the container</p></p>
 
 
@@ -1126,7 +1126,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.state.terminated.withFinishedAt">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinishedAtfunction(finishedAt) self <span style="color:#666">+</span> __terminatedMixin({ finishedAt<span style="color:#666">:</span> finishedAt })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinishedAt(finishedAt)
 </code></pre></div></div><p>Time at which the container last terminated</p></p>
 
 
@@ -1154,7 +1154,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.state.terminated.withMessage">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMessagefunction(message) self <span style="color:#666">+</span> __terminatedMixin({ message<span style="color:#666">:</span> message })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMessage(message)
 </code></pre></div></div><p>Message regarding the last termination of the container</p></p>
 
 
@@ -1182,7 +1182,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.state.terminated.withReason">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReasonfunction(reason) self <span style="color:#666">+</span> __terminatedMixin({ reason<span style="color:#666">:</span> reason })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReason(reason)
 </code></pre></div></div><p>(brief) reason from the last termination of the container</p></p>
 
 
@@ -1210,7 +1210,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.state.terminated.withSignal">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSignalfunction(signal) self <span style="color:#666">+</span> __terminatedMixin({ signal<span style="color:#666">:</span> signal })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSignal(signal)
 </code></pre></div></div><p>Signal from the last termination of the container</p></p>
 
 
@@ -1238,7 +1238,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.state.terminated.withStartedAt">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStartedAtfunction(startedAt) self <span style="color:#666">+</span> __terminatedMixin({ startedAt<span style="color:#666">:</span> startedAt })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStartedAt(startedAt)
 </code></pre></div></div><p>Time at which previous execution of the container started</p></p>
 
 
@@ -1298,7 +1298,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.state.waiting.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(waiting) __waitingMixin(waiting)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(waiting)
 </code></pre></div></div><p></p></p>
 
 
@@ -1326,7 +1326,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.state.waiting.withMessage">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMessagefunction(message) self <span style="color:#666">+</span> __waitingMixin({ message<span style="color:#666">:</span> message })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMessage(message)
 </code></pre></div></div><p>Message regarding why the container is not yet running.</p></p>
 
 
@@ -1354,7 +1354,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.containerStatus.state.waiting.withReason">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReasonfunction(reason) self <span style="color:#666">+</span> __waitingMixin({ reason<span style="color:#666">:</span> reason })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReason(reason)
 </code></pre></div></div><p>(brief) reason the container is not yet running.</p></p>
 
 

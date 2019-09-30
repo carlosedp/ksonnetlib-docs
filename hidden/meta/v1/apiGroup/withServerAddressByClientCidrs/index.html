@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServerAddressByClientCidrsfunction(serverAddressByClientCidrs) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(serverAddressByClientCidrs) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { serverAddressByClientCIDRs<span style="color:#666">:</span> serverAddressByClientCidrs } <span style="color:#007020;font-weight:bold">else</span> { serverAddressByClientCIDRs<span style="color:#666">:</span> [serverAddressByClientCidrs] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServerAddressByClientCidrs(serverAddressByClientCidrs)
 </code></pre></div></div><p>a map of client CIDR to server address that is serving this group. This is to help clients reach servers in the most network-efficient way possible. Clients can use the appropriate server address as per the CIDR that they match. In case of multiple matches, clients should use the longest matching CIDR. The server returns only those CIDRs that it thinks that the client can match. For example: the master will return an internal IP CIDR only, if the client reaches the server using an internal IP. Server looks at X-Forwarded-For header or X-Real-Ip header or request.RemoteAddr (in that order) to get the client IP.</p></p>
 
 

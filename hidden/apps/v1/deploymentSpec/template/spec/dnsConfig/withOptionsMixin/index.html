@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptionsMixinfunction(options) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(options) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __dnsConfigMixin({ options<span style="color:#666">+:</span> options }) <span style="color:#007020;font-weight:bold">else</span> __dnsConfigMixin({ options<span style="color:#666">+:</span> [options] })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptionsMixin(options)
 </code></pre></div></div><p>A list of DNS resolver options. This will be merged with the base options generated from DNSPolicy. Duplicated entries will be removed. Resolution options given in Options will override those that appear in the base DNSPolicy.</p><code>withOptionsMixin</code> takes an array of type <code>optionsType</code>. You can create
 an instance of <code>optionsType</code> with <code>hidden.core.v1.podDnsConfigOption.new()</code>.</p>
 

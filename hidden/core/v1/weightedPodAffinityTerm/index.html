@@ -85,7 +85,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.weightedPodAffinityTerm.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -122,7 +122,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.weightedPodAffinityTerm.withWeight">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withWeightfunction(weight) self <span style="color:#666">+</span> { weight<span style="color:#666">:</span> weight }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withWeight(weight)
 </code></pre></div></div><p>weight associated with matching the corresponding podAffinityTerm, in the range 1-100.</p></p>
 
 
@@ -182,7 +182,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.weightedPodAffinityTerm.podAffinityTerm.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(podAffinityTerm) __podAffinityTermMixin(podAffinityTerm)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(podAffinityTerm)
 </code></pre></div></div><p></p></p>
 
 
@@ -210,7 +210,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.weightedPodAffinityTerm.podAffinityTerm.withNamespaces">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacesfunction(namespaces) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(namespaces) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAffinityTermMixin({ namespaces<span style="color:#666">:</span> namespaces }) <span style="color:#007020;font-weight:bold">else</span> __podAffinityTermMixin({ namespaces<span style="color:#666">:</span> [namespaces] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespaces(namespaces)
 </code></pre></div></div><p>namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means &ldquo;this pod&rsquo;s namespace&rdquo;</p></p>
 
 
@@ -238,7 +238,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.weightedPodAffinityTerm.podAffinityTerm.withNamespacesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacesMixinfunction(namespaces) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(namespaces) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAffinityTermMixin({ namespaces<span style="color:#666">+:</span> namespaces }) <span style="color:#007020;font-weight:bold">else</span> __podAffinityTermMixin({ namespaces<span style="color:#666">+:</span> [namespaces] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacesMixin(namespaces)
 </code></pre></div></div><p>namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means &ldquo;this pod&rsquo;s namespace&rdquo;</p></p>
 
 
@@ -266,7 +266,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.weightedPodAffinityTerm.podAffinityTerm.withTopologyKey">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTopologyKeyfunction(topologyKey) self <span style="color:#666">+</span> __podAffinityTermMixin({ topologyKey<span style="color:#666">:</span> topologyKey })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTopologyKey(topologyKey)
 </code></pre></div></div><p>This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.</p></p>
 
 
@@ -325,7 +325,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.weightedPodAffinityTerm.podAffinityTerm.labelSelector.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(labelSelector) __labelSelectorMixin(labelSelector)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(labelSelector)
 </code></pre></div></div><p></p></p>
 
 
@@ -353,7 +353,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.weightedPodAffinityTerm.podAffinityTerm.labelSelector.withMatchExpressions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __labelSelectorMixin({ matchExpressions<span style="color:#666">:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __labelSelectorMixin({ matchExpressions<span style="color:#666">:</span> [matchExpressions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressions(matchExpressions)
 </code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressions</code> takes an array of type <code>matchExpressionsType</code>. You can create
 an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
 
@@ -384,7 +384,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="core.v1.weightedPodAffinityTerm.podAffinityTerm.labelSelector.withMatchExpressionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __labelSelectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __labelSelectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixin(matchExpressions)
 </code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
 an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
 
@@ -415,7 +415,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="core.v1.weightedPodAffinityTerm.podAffinityTerm.labelSelector.withMatchLabels">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsfunction(matchLabels) self <span style="color:#666">+</span> __labelSelectorMixin({ matchLabels<span style="color:#666">:</span> matchLabels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabels(matchLabels)
 </code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
 
 
@@ -443,7 +443,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="core.v1.weightedPodAffinityTerm.podAffinityTerm.labelSelector.withMatchLabelsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixinfunction(matchLabels) self <span style="color:#666">+</span> __labelSelectorMixin({ matchLabels<span style="color:#666">+:</span> matchLabels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixin(matchLabels)
 </code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
 
 

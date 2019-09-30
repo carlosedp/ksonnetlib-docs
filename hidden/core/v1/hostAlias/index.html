@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.hostAlias.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.hostAlias.withHostnames">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostnamesfunction(hostnames) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(hostnames) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { hostnames<span style="color:#666">:</span> hostnames } <span style="color:#007020;font-weight:bold">else</span> { hostnames<span style="color:#666">:</span> [hostnames] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostnames(hostnames)
 </code></pre></div></div><p>Hostnames for the above IP address.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.hostAlias.withHostnamesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostnamesMixinfunction(hostnames) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(hostnames) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { hostnames<span style="color:#666">+:</span> hostnames } <span style="color:#007020;font-weight:bold">else</span> { hostnames<span style="color:#666">+:</span> [hostnames] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostnamesMixin(hostnames)
 </code></pre></div></div><p>Hostnames for the above IP address.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.hostAlias.withIp">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIpfunction(ip) self <span style="color:#666">+</span> { ip<span style="color:#666">:</span> ip }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIp(ip)
 </code></pre></div></div><p>IP address of the host file entry.</p></p>
 
 

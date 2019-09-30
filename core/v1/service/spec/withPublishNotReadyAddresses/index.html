@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPublishNotReadyAddressesfunction(publishNotReadyAddresses) self <span style="color:#666">+</span> __specMixin({ publishNotReadyAddresses<span style="color:#666">:</span> publishNotReadyAddresses })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPublishNotReadyAddresses(publishNotReadyAddresses)
 </code></pre></div></div><p>publishNotReadyAddresses, when set to true, indicates that DNS implementations must publish the notReadyAddresses of subsets for the Endpoints associated with the Service. The default value is false. The primary use case for setting this field is to use a StatefulSet&rsquo;s Headless Service to propagate SRV records for its Pods without respect to their readiness for purpose of peer discovery.</p></p>
 
 

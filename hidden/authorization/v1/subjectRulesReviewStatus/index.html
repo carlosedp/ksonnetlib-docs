@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.subjectRulesReviewStatus.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.subjectRulesReviewStatus.withEvaluationError">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEvaluationErrorfunction(evaluationError) self <span style="color:#666">+</span> { evaluationError<span style="color:#666">:</span> evaluationError }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEvaluationError(evaluationError)
 </code></pre></div></div><p>EvaluationError can appear in combination with Rules. It indicates an error occurred during rule evaluation, such as an authorizer that doesn&rsquo;t support rule evaluation, and that ResourceRules and/or NonResourceRules may be incomplete.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.subjectRulesReviewStatus.withIncomplete">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIncompletefunction(incomplete) self <span style="color:#666">+</span> { incomplete<span style="color:#666">:</span> incomplete }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIncomplete(incomplete)
 </code></pre></div></div><p>Incomplete is true when the rules returned by this call are incomplete. This is most commonly encountered when an authorizer, such as an external authorizer, doesn&rsquo;t support rules evaluation.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="authorization.v1.subjectRulesReviewStatus.withNonResourceRules">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNonResourceRulesfunction(nonResourceRules) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nonResourceRules) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { nonResourceRules<span style="color:#666">:</span> nonResourceRules } <span style="color:#007020;font-weight:bold">else</span> { nonResourceRules<span style="color:#666">:</span> [nonResourceRules] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNonResourceRules(nonResourceRules)
 </code></pre></div></div><p>NonResourceRules is the list of actions the subject is allowed to perform on non-resources. The list ordering isn&rsquo;t significant, may contain duplicates, and possibly be incomplete.</p><code>withNonResourceRules</code> takes an array of type <code>nonResourceRulesType</code>. You can create
 an instance of <code>nonResourceRulesType</code> with <code>hidden.authorization.v1.nonResourceRule.new()</code>.</p>
 
@@ -193,7 +193,7 @@ an instance of <code>nonResourceRulesType</code> with <code>hidden.authorization
     </h5>
 
     <div class="collapse show" id="authorization.v1.subjectRulesReviewStatus.withNonResourceRulesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNonResourceRulesMixinfunction(nonResourceRules) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nonResourceRules) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { nonResourceRules<span style="color:#666">+:</span> nonResourceRules } <span style="color:#007020;font-weight:bold">else</span> { nonResourceRules<span style="color:#666">+:</span> [nonResourceRules] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNonResourceRulesMixin(nonResourceRules)
 </code></pre></div></div><p>NonResourceRules is the list of actions the subject is allowed to perform on non-resources. The list ordering isn&rsquo;t significant, may contain duplicates, and possibly be incomplete.</p><code>withNonResourceRulesMixin</code> takes an array of type <code>nonResourceRulesType</code>. You can create
 an instance of <code>nonResourceRulesType</code> with <code>hidden.authorization.v1.nonResourceRule.new()</code>.</p>
 
@@ -224,7 +224,7 @@ an instance of <code>nonResourceRulesType</code> with <code>hidden.authorization
     </h5>
 
     <div class="collapse show" id="authorization.v1.subjectRulesReviewStatus.withResourceRules">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceRulesfunction(resourceRules) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(resourceRules) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { resourceRules<span style="color:#666">:</span> resourceRules } <span style="color:#007020;font-weight:bold">else</span> { resourceRules<span style="color:#666">:</span> [resourceRules] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceRules(resourceRules)
 </code></pre></div></div><p>ResourceRules is the list of actions the subject is allowed to perform on resources. The list ordering isn&rsquo;t significant, may contain duplicates, and possibly be incomplete.</p><code>withResourceRules</code> takes an array of type <code>resourceRulesType</code>. You can create
 an instance of <code>resourceRulesType</code> with <code>hidden.authorization.v1.resourceRule.new()</code>.</p>
 
@@ -255,7 +255,7 @@ an instance of <code>resourceRulesType</code> with <code>hidden.authorization.v1
     </h5>
 
     <div class="collapse show" id="authorization.v1.subjectRulesReviewStatus.withResourceRulesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceRulesMixinfunction(resourceRules) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(resourceRules) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { resourceRules<span style="color:#666">+:</span> resourceRules } <span style="color:#007020;font-weight:bold">else</span> { resourceRules<span style="color:#666">+:</span> [resourceRules] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceRulesMixin(resourceRules)
 </code></pre></div></div><p>ResourceRules is the list of actions the subject is allowed to perform on resources. The list ordering isn&rsquo;t significant, may contain duplicates, and possibly be incomplete.</p><code>withResourceRulesMixin</code> takes an array of type <code>resourceRulesType</code>. You can create
 an instance of <code>resourceRulesType</code> with <code>hidden.authorization.v1.resourceRule.new()</code>.</p>
 

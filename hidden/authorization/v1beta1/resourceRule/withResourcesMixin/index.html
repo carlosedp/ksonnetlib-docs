@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourcesMixinfunction(resources) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(resources) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { resources<span style="color:#666">+:</span> resources } <span style="color:#007020;font-weight:bold">else</span> { resources<span style="color:#666">+:</span> [resources] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourcesMixin(resources)
 </code></pre></div></div><p>Resources is a list of resources this rule applies to.  &ldquo;<em>&rdquo; means all in the specified apiGroups.</p><p>&ldquo;</em>/foo&rdquo; represents the subresource &lsquo;foo&rsquo; for all resources in the specified apiGroups.</p></p>
 
 

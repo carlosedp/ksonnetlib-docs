@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.horizontalPodAutoscalerStatus.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.horizontalPodAutoscalerStatus.withConditions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">:</span> [conditions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditions(conditions)
 </code></pre></div></div><p>conditions is the set of conditions required for this autoscaler to scale its target, and indicates whether or not those conditions are met.</p><code>withConditions</code> takes an array of type <code>conditionsType</code>. You can create
 an instance of <code>conditionsType</code> with <code>hidden.autoscaling.v2beta2.horizontalPodAutoscalerCondition.new()</code>.</p>
 
@@ -137,7 +137,7 @@ an instance of <code>conditionsType</code> with <code>hidden.autoscaling.v2beta2
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.horizontalPodAutoscalerStatus.withConditionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixinfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">+:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">+:</span> [conditions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixin(conditions)
 </code></pre></div></div><p>conditions is the set of conditions required for this autoscaler to scale its target, and indicates whether or not those conditions are met.</p><code>withConditionsMixin</code> takes an array of type <code>conditionsType</code>. You can create
 an instance of <code>conditionsType</code> with <code>hidden.autoscaling.v2beta2.horizontalPodAutoscalerCondition.new()</code>.</p>
 
@@ -168,7 +168,7 @@ an instance of <code>conditionsType</code> with <code>hidden.autoscaling.v2beta2
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.horizontalPodAutoscalerStatus.withCurrentMetrics">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCurrentMetricsfunction(currentMetrics) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(currentMetrics) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { currentMetrics<span style="color:#666">:</span> currentMetrics } <span style="color:#007020;font-weight:bold">else</span> { currentMetrics<span style="color:#666">:</span> [currentMetrics] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCurrentMetrics(currentMetrics)
 </code></pre></div></div><p>currentMetrics is the last read state of the metrics used by this autoscaler.</p><code>withCurrentMetrics</code> takes an array of type <code>currentMetricsType</code>. You can create
 an instance of <code>currentMetricsType</code> with <code>hidden.autoscaling.v2beta2.metricStatus.new()</code>.</p>
 
@@ -199,7 +199,7 @@ an instance of <code>currentMetricsType</code> with <code>hidden.autoscaling.v2b
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.horizontalPodAutoscalerStatus.withCurrentMetricsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCurrentMetricsMixinfunction(currentMetrics) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(currentMetrics) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { currentMetrics<span style="color:#666">+:</span> currentMetrics } <span style="color:#007020;font-weight:bold">else</span> { currentMetrics<span style="color:#666">+:</span> [currentMetrics] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCurrentMetricsMixin(currentMetrics)
 </code></pre></div></div><p>currentMetrics is the last read state of the metrics used by this autoscaler.</p><code>withCurrentMetricsMixin</code> takes an array of type <code>currentMetricsType</code>. You can create
 an instance of <code>currentMetricsType</code> with <code>hidden.autoscaling.v2beta2.metricStatus.new()</code>.</p>
 
@@ -230,7 +230,7 @@ an instance of <code>currentMetricsType</code> with <code>hidden.autoscaling.v2b
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.horizontalPodAutoscalerStatus.withCurrentReplicas">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCurrentReplicasfunction(currentReplicas) self <span style="color:#666">+</span> { currentReplicas<span style="color:#666">:</span> currentReplicas }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCurrentReplicas(currentReplicas)
 </code></pre></div></div><p>currentReplicas is current number of replicas of pods managed by this autoscaler, as last seen by the autoscaler.</p></p>
 
 
@@ -258,7 +258,7 @@ an instance of <code>currentMetricsType</code> with <code>hidden.autoscaling.v2b
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.horizontalPodAutoscalerStatus.withDesiredReplicas">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDesiredReplicasfunction(desiredReplicas) self <span style="color:#666">+</span> { desiredReplicas<span style="color:#666">:</span> desiredReplicas }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDesiredReplicas(desiredReplicas)
 </code></pre></div></div><p>desiredReplicas is the desired number of replicas of pods managed by this autoscaler, as last calculated by the autoscaler.</p></p>
 
 
@@ -286,7 +286,7 @@ an instance of <code>currentMetricsType</code> with <code>hidden.autoscaling.v2b
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.horizontalPodAutoscalerStatus.withLastScaleTime">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLastScaleTimefunction(lastScaleTime) self <span style="color:#666">+</span> { lastScaleTime<span style="color:#666">:</span> lastScaleTime }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLastScaleTime(lastScaleTime)
 </code></pre></div></div><p>lastScaleTime is the last time the HorizontalPodAutoscaler scaled the number of pods, used by the autoscaler to control how often the number of pods is changed.</p></p>
 
 
@@ -314,7 +314,7 @@ an instance of <code>currentMetricsType</code> with <code>hidden.autoscaling.v2b
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.horizontalPodAutoscalerStatus.withObservedGeneration">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withObservedGenerationfunction(observedGeneration) self <span style="color:#666">+</span> { observedGeneration<span style="color:#666">:</span> observedGeneration }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withObservedGeneration(observedGeneration)
 </code></pre></div></div><p>observedGeneration is the most recent generation observed by this autoscaler.</p></p>
 
 

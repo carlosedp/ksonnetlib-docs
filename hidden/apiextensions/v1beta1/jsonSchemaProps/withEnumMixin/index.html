@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnumMixinfunction(<span style="color:#007020;font-weight:bold">enum</span>) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(<span style="color:#007020;font-weight:bold">enum</span>) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { <span style="color:#007020;font-weight:bold">enum</span><span style="color:#666">+:</span> <span style="color:#007020;font-weight:bold">enum</span> } <span style="color:#007020;font-weight:bold">else</span> { <span style="color:#007020;font-weight:bold">enum</span><span style="color:#666">+:</span> [<span style="color:#007020;font-weight:bold">enum</span>] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnumMixin(<span style="color:#007020;font-weight:bold">enum</span>)
 </code></pre></div></div><p></p><code>withEnumMixin</code> takes an array of type <code>enumType</code>. You can create
 an instance of <code>enumType</code> with <code>hidden.apiextensions.v1beta1.json.new()</code>.</p>
 

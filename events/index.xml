@@ -6,7 +6,7 @@
     <description>Recent content in Events on ksonnet lib API Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 14:37:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 20:18:41 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/events/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,289 +14,289 @@
     <item>
       <title>new</title>
       <link>http://example.org/events/v1beta1/event/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/new/</guid>
-      <description>newfunction() apiVersion + kind</description>
+      <description>new()</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/events/v1beta1/event/deprecatedSource/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/deprecatedSource/mixinInstance/</guid>
-      <description>mixinInstancefunction(deprecatedSource) __deprecatedSourceMixin(deprecatedSource)</description>
+      <description>mixinInstance(deprecatedSource)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/events/v1beta1/event/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/initializers/mixinInstance/</guid>
-      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+      <description>mixinInstance(initializers)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/events/v1beta1/event/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/mixinInstance/</guid>
-      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+      <description>mixinInstance(metadata)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/events/v1beta1/event/regarding/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/regarding/mixinInstance/</guid>
-      <description>mixinInstancefunction(regarding) __regardingMixin(regarding)</description>
+      <description>mixinInstance(regarding)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/events/v1beta1/event/related/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/related/mixinInstance/</guid>
-      <description>mixinInstancefunction(related) __relatedMixin(related)</description>
+      <description>mixinInstance(related)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/events/v1beta1/event/series/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/series/mixinInstance/</guid>
-      <description>mixinInstancefunction(series) __seriesMixin(series)</description>
+      <description>mixinInstance(series)</description>
     </item>
     
     <item>
       <title>withAction</title>
       <link>http://example.org/events/v1beta1/event/withAction/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/withAction/</guid>
-      <description>withActionfunction(action) self + { action: action } What action was taken/failed regarding to the regarding object.</description>
+      <description>withAction(action) What action was taken/failed regarding to the regarding object.</description>
     </item>
     
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/events/v1beta1/event/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/withAnnotations/</guid>
-      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotations(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/events/v1beta1/event/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/withAnnotationsMixin/</guid>
-      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotationsMixin(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withClusterName</title>
       <link>http://example.org/events/v1beta1/event/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/withClusterName/</guid>
-      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+      <description>withClusterName(clusterName) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
     </item>
     
     <item>
       <title>withComponent</title>
       <link>http://example.org/events/v1beta1/event/deprecatedSource/withComponent/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/deprecatedSource/withComponent/</guid>
-      <description>withComponentfunction(component) self + __deprecatedSourceMixin({ component: component }) Component from which the event is generated.</description>
+      <description>withComponent(component) Component from which the event is generated.</description>
     </item>
     
     <item>
       <title>withCount</title>
       <link>http://example.org/events/v1beta1/event/series/withCount/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/series/withCount/</guid>
-      <description>withCountfunction(count) self + __seriesMixin({ count: count }) Number of occurrences in this series up to the last heartbeat time</description>
+      <description>withCount(count) Number of occurrences in this series up to the last heartbeat time</description>
     </item>
     
     <item>
       <title>withDeprecatedCount</title>
       <link>http://example.org/events/v1beta1/event/withDeprecatedCount/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/withDeprecatedCount/</guid>
-      <description>withDeprecatedCountfunction(deprecatedCount) self + { deprecatedCount: deprecatedCount } Deprecated field assuring backward compatibility with core.v1 Event type</description>
+      <description>withDeprecatedCount(deprecatedCount) Deprecated field assuring backward compatibility with core.v1 Event type</description>
     </item>
     
     <item>
       <title>withDeprecatedFirstTimestamp</title>
       <link>http://example.org/events/v1beta1/event/withDeprecatedFirstTimestamp/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/withDeprecatedFirstTimestamp/</guid>
-      <description>withDeprecatedFirstTimestampfunction(deprecatedFirstTimestamp) self + { deprecatedFirstTimestamp: deprecatedFirstTimestamp } Deprecated field assuring backward compatibility with core.v1 Event type</description>
+      <description>withDeprecatedFirstTimestamp(deprecatedFirstTimestamp) Deprecated field assuring backward compatibility with core.v1 Event type</description>
     </item>
     
     <item>
       <title>withDeprecatedLastTimestamp</title>
       <link>http://example.org/events/v1beta1/event/withDeprecatedLastTimestamp/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/withDeprecatedLastTimestamp/</guid>
-      <description>withDeprecatedLastTimestampfunction(deprecatedLastTimestamp) self + { deprecatedLastTimestamp: deprecatedLastTimestamp } Deprecated field assuring backward compatibility with core.v1 Event type</description>
+      <description>withDeprecatedLastTimestamp(deprecatedLastTimestamp) Deprecated field assuring backward compatibility with core.v1 Event type</description>
     </item>
     
     <item>
       <title>withEventTime</title>
       <link>http://example.org/events/v1beta1/event/withEventTime/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/withEventTime/</guid>
-      <description>withEventTimefunction(eventTime) self + { eventTime: eventTime } Required. Time when this Event was first observed.</description>
+      <description>withEventTime(eventTime) Required. Time when this Event was first observed.</description>
     </item>
     
     <item>
       <title>withFieldPath</title>
       <link>http://example.org/events/v1beta1/event/regarding/withFieldPath/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/regarding/withFieldPath/</guid>
-      <description>withFieldPathfunction(fieldPath) self + __regardingMixin({ fieldPath: fieldPath }) If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: &amp;ldquo;spec.containers{name}&amp;rdquo; (where &amp;ldquo;name&amp;rdquo; refers to the name of the container that triggered the event) or if no container name is specified &amp;ldquo;spec.</description>
+      <description>withFieldPath(fieldPath) If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: &amp;ldquo;spec.containers{name}&amp;rdquo; (where &amp;ldquo;name&amp;rdquo; refers to the name of the container that triggered the event) or if no container name is specified &amp;ldquo;spec.containers[2]&amp;rdquo; (container with index 2 in this pod).</description>
     </item>
     
     <item>
       <title>withFieldPath</title>
       <link>http://example.org/events/v1beta1/event/related/withFieldPath/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/related/withFieldPath/</guid>
-      <description>withFieldPathfunction(fieldPath) self + __relatedMixin({ fieldPath: fieldPath }) If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: &amp;ldquo;spec.containers{name}&amp;rdquo; (where &amp;ldquo;name&amp;rdquo; refers to the name of the container that triggered the event) or if no container name is specified &amp;ldquo;spec.</description>
+      <description>withFieldPath(fieldPath) If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: &amp;ldquo;spec.containers{name}&amp;rdquo; (where &amp;ldquo;name&amp;rdquo; refers to the name of the container that triggered the event) or if no container name is specified &amp;ldquo;spec.containers[2]&amp;rdquo; (container with index 2 in this pod).</description>
     </item>
     
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/events/v1beta1/event/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/withFinalizers/</guid>
-      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizers(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/events/v1beta1/event/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/withFinalizersMixin/</guid>
-      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizersMixin(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/events/v1beta1/event/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/withGenerateName/</guid>
-      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+      <description>withGenerateName(generateName) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
     </item>
     
     <item>
       <title>withHost</title>
       <link>http://example.org/events/v1beta1/event/deprecatedSource/withHost/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/deprecatedSource/withHost/</guid>
-      <description>withHostfunction(host) self + __deprecatedSourceMixin({ host: host }) Node name on which the event is generated.</description>
+      <description>withHost(host) Node name on which the event is generated.</description>
     </item>
     
     <item>
       <title>withLabels</title>
       <link>http://example.org/events/v1beta1/event/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/withLabels/</guid>
-      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabels(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/events/v1beta1/event/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/withLabelsMixin/</guid>
-      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabelsMixin(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLastObservedTime</title>
       <link>http://example.org/events/v1beta1/event/series/withLastObservedTime/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/series/withLastObservedTime/</guid>
-      <description>withLastObservedTimefunction(lastObservedTime) self + __seriesMixin({ lastObservedTime: lastObservedTime }) Time when last Event from the series was seen before last heartbeat.</description>
+      <description>withLastObservedTime(lastObservedTime) Time when last Event from the series was seen before last heartbeat.</description>
     </item>
     
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/events/v1beta1/event/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/withManagedFields/</guid>
-      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFields(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/events/v1beta1/event/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/withManagedFieldsMixin/</guid>
-      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFieldsMixin(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/events/v1beta1/event/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/withName/</guid>
-      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/events/v1beta1/event/regarding/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/regarding/withName/</guid>
-      <description>withNamefunction(name) self + __regardingMixin({ name: name }) Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</description>
+      <description>withName(name) Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/events/v1beta1/event/related/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/related/withName/</guid>
-      <description>withNamefunction(name) self + __relatedMixin({ name: name }) Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</description>
+      <description>withName(name) Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</description>
     </item>
     
     <item>
       <title>withNamespace</title>
       <link>http://example.org/events/v1beta1/event/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+      <description>withNamespace(namespace) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
 
 Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
     </item>
@@ -304,153 +304,157 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withNamespace</title>
       <link>http://example.org/events/v1beta1/event/regarding/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/regarding/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __regardingMixin({ namespace: namespace }) Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/</description>
+      <description>withNamespace(namespace) Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/</description>
     </item>
     
     <item>
       <title>withNamespace</title>
       <link>http://example.org/events/v1beta1/event/related/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/related/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __relatedMixin({ namespace: namespace }) Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/</description>
+      <description>withNamespace(namespace) Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/</description>
     </item>
     
     <item>
       <title>withNote</title>
       <link>http://example.org/events/v1beta1/event/withNote/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/withNote/</guid>
-      <description>withNotefunction(note) self + { note: note } Optional. A human-readable description of the status of this operation. Maximal length of the note is 1kB, but libraries should be prepared to handle values up to 64kB.</description>
+      <description>withNote(note) Optional. A human-readable description of the status of this operation. Maximal length of the note is 1kB, but libraries should be prepared to handle values up to 64kB.</description>
     </item>
     
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/events/v1beta1/event/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/withOwnerReferences/</guid>
-      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferences(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferences takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/events/v1beta1/event/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/withOwnerReferencesMixin/</guid>
-      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferencesMixin(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferencesMixin takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withPending</title>
       <link>http://example.org/events/v1beta1/event/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/initializers/withPending/</guid>
-      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPending takes an array of type pendingType.</description>
+      <description>withPending(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/events/v1beta1/event/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/initializers/withPendingMixin/</guid>
-      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPendingMixin takes an array of type pendingType.</description>
+      <description>withPendingMixin(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withReason</title>
       <link>http://example.org/events/v1beta1/event/withReason/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/withReason/</guid>
-      <description>withReasonfunction(reason) self + { reason: reason } Why the action was taken.</description>
+      <description>withReason(reason) Why the action was taken.</description>
     </item>
     
     <item>
       <title>withReportingController</title>
       <link>http://example.org/events/v1beta1/event/withReportingController/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/withReportingController/</guid>
-      <description>withReportingControllerfunction(reportingController) self + { reportingController: reportingController } Name of the controller that emitted this Event, e.g. kubernetes.io/kubelet.</description>
+      <description>withReportingController(reportingController) Name of the controller that emitted this Event, e.g. kubernetes.io/kubelet.</description>
     </item>
     
     <item>
       <title>withReportingInstance</title>
       <link>http://example.org/events/v1beta1/event/withReportingInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/withReportingInstance/</guid>
-      <description>withReportingInstancefunction(reportingInstance) self + { reportingInstance: reportingInstance } ID of the controller instance, e.g. kubelet-xyzf.</description>
+      <description>withReportingInstance(reportingInstance) ID of the controller instance, e.g. kubelet-xyzf.</description>
     </item>
     
     <item>
       <title>withResourceVersion</title>
       <link>http://example.org/events/v1beta1/event/regarding/withResourceVersion/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/regarding/withResourceVersion/</guid>
-      <description>withResourceVersionfunction(resourceVersion) self + __regardingMixin({ resourceVersion: resourceVersion }) Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency</description>
+      <description>withResourceVersion(resourceVersion) Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency</description>
     </item>
     
     <item>
       <title>withResourceVersion</title>
       <link>http://example.org/events/v1beta1/event/related/withResourceVersion/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/related/withResourceVersion/</guid>
-      <description>withResourceVersionfunction(resourceVersion) self + __relatedMixin({ resourceVersion: resourceVersion }) Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency</description>
+      <description>withResourceVersion(resourceVersion) Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency</description>
     </item>
     
     <item>
       <title>withState</title>
       <link>http://example.org/events/v1beta1/event/series/withState/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/series/withState/</guid>
-      <description>withStatefunction(state) self + __seriesMixin({ state: state }) Information whether this series is ongoing or finished.</description>
+      <description>withState(state) Information whether this series is ongoing or finished.</description>
     </item>
     
     <item>
       <title>withType</title>
       <link>http://example.org/events/v1beta1/event/withType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/withType/</guid>
-      <description>withTypefunction(type) self + { type: type } Type of this event (Normal, Warning), new types could be added in the future.</description>
+      <description>withType(type) Type of this event (Normal, Warning), new types could be added in the future.</description>
     </item>
     
     <item>
       <title>withUid</title>
       <link>http://example.org/events/v1beta1/event/regarding/withUid/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/regarding/withUid/</guid>
-      <description>withUidfunction(uid) self + __regardingMixin({ uid: uid }) UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids</description>
+      <description>withUid(uid) UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids</description>
     </item>
     
     <item>
       <title>withUid</title>
       <link>http://example.org/events/v1beta1/event/related/withUid/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/related/withUid/</guid>
-      <description>withUidfunction(uid) self + __relatedMixin({ uid: uid }) UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids</description>
+      <description>withUid(uid) UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids</description>
     </item>
     
     <item>
       <title>deprecatedSource</title>
       <link>http://example.org/events/v1beta1/event/deprecatedSource/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/deprecatedSource/</guid>
       <description>Deprecated field assuring backward compatibility with core.v1 Event type</description>
@@ -459,7 +463,7 @@ withPendingMixin takes an array of type pendingType.</description>
     <item>
       <title>initializers</title>
       <link>http://example.org/events/v1beta1/event/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -470,7 +474,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/events/v1beta1/event/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/</guid>
       <description></description>
@@ -479,7 +483,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>regarding</title>
       <link>http://example.org/events/v1beta1/event/regarding/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/regarding/</guid>
       <description>The object this Event is about. In most cases it&#39;s an Object reporting controller implements. E.g. ReplicaSetController implements ReplicaSets and this event is emitted because it acts on some changes in a ReplicaSet object.</description>
@@ -488,7 +492,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>related</title>
       <link>http://example.org/events/v1beta1/event/related/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/related/</guid>
       <description>Optional secondary object for more complex actions. E.g. when regarding object triggers a creation or deletion of related object.</description>
@@ -497,7 +501,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>series</title>
       <link>http://example.org/events/v1beta1/event/series/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/series/</guid>
       <description>Data about the Event series this event represents or nil if it&#39;s a singleton Event.</description>
@@ -506,7 +510,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>deprecatedSourceType</title>
       <link>http://example.org/events/v1beta1/event/deprecatedSourceType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/deprecatedSourceType/</guid>
       <description></description>
@@ -515,7 +519,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/events/v1beta1/event/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/initializersType/</guid>
       <description></description>
@@ -524,7 +528,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/events/v1beta1/event/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/managedFieldsType/</guid>
       <description></description>
@@ -533,7 +537,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/events/v1beta1/event/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadataType/</guid>
       <description></description>
@@ -542,7 +546,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/events/v1beta1/event/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -551,7 +555,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/events/v1beta1/event/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -560,7 +564,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>regardingType</title>
       <link>http://example.org/events/v1beta1/event/regardingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/regardingType/</guid>
       <description></description>
@@ -569,7 +573,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>relatedType</title>
       <link>http://example.org/events/v1beta1/event/relatedType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/relatedType/</guid>
       <description></description>
@@ -578,7 +582,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>seriesType</title>
       <link>http://example.org/events/v1beta1/event/seriesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:41 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/seriesType/</guid>
       <description></description>
@@ -587,7 +591,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>event</title>
       <link>http://example.org/events/event/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:42 +0000</pubDate>
       
       <guid>http://example.org/events/event/</guid>
       <description>Event is a report of an event somewhere in the cluster.  </description>
@@ -596,7 +600,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>event</title>
       <link>http://example.org/events/v1beta1/event/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:42 +0000</pubDate>
       
       <guid>http://example.org/events/v1beta1/event/</guid>
       <description>Event is a report of an event somewhere in the cluster. It generally denotes some state change in the system.</description>

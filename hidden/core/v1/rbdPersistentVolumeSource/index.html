@@ -77,7 +77,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.rbdPersistentVolumeSource.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -114,7 +114,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.rbdPersistentVolumeSource.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> { fsType<span style="color:#666">:</span> fsType }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. Implicitly inferred to be &ldquo;ext4&rdquo; if unspecified. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#rbd">https://kubernetes.io/docs/concepts/storage/volumes#rbd</a></p></p>
 
 
@@ -142,7 +142,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.rbdPersistentVolumeSource.withImage">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImagefunction(image) self <span style="color:#666">+</span> { image<span style="color:#666">:</span> image }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImage(image)
 </code></pre></div></div><p>The rados image name. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it</a></p></p>
 
 
@@ -170,7 +170,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.rbdPersistentVolumeSource.withKeyring">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKeyringfunction(keyring) self <span style="color:#666">+</span> { keyring<span style="color:#666">:</span> keyring }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKeyring(keyring)
 </code></pre></div></div><p>Keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it</a></p></p>
 
 
@@ -198,7 +198,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.rbdPersistentVolumeSource.withMonitors">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMonitorsfunction(monitors) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(monitors) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { monitors<span style="color:#666">:</span> monitors } <span style="color:#007020;font-weight:bold">else</span> { monitors<span style="color:#666">:</span> [monitors] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMonitors(monitors)
 </code></pre></div></div><p>A collection of Ceph monitors. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it</a></p></p>
 
 
@@ -226,7 +226,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.rbdPersistentVolumeSource.withMonitorsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMonitorsMixinfunction(monitors) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(monitors) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { monitors<span style="color:#666">+:</span> monitors } <span style="color:#007020;font-weight:bold">else</span> { monitors<span style="color:#666">+:</span> [monitors] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMonitorsMixin(monitors)
 </code></pre></div></div><p>A collection of Ceph monitors. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it</a></p></p>
 
 
@@ -254,7 +254,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.rbdPersistentVolumeSource.withPool">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPoolfunction(pool) self <span style="color:#666">+</span> { pool<span style="color:#666">:</span> pool }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPool(pool)
 </code></pre></div></div><p>The rados pool name. Default is rbd. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it</a></p></p>
 
 
@@ -282,7 +282,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.rbdPersistentVolumeSource.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> { readOnly<span style="color:#666">:</span> readOnly }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>ReadOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it</a></p></p>
 
 
@@ -310,7 +310,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.rbdPersistentVolumeSource.withUser">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUserfunction(user) self <span style="color:#666">+</span> { user<span style="color:#666">:</span> user }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUser(user)
 </code></pre></div></div><p>The rados user name. Default is admin. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it</a></p></p>
 
 
@@ -370,7 +370,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.rbdPersistentVolumeSource.secretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(secretRef) __secretRefMixin(secretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(secretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -398,7 +398,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.rbdPersistentVolumeSource.secretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __secretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -426,7 +426,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.rbdPersistentVolumeSource.secretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __secretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 

@@ -93,7 +93,7 @@
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionVersion.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -130,7 +130,7 @@
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionVersion.withAdditionalPrinterColumns">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdditionalPrinterColumnsfunction(additionalPrinterColumns) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(additionalPrinterColumns) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { additionalPrinterColumns<span style="color:#666">:</span> additionalPrinterColumns } <span style="color:#007020;font-weight:bold">else</span> { additionalPrinterColumns<span style="color:#666">:</span> [additionalPrinterColumns] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdditionalPrinterColumns(additionalPrinterColumns)
 </code></pre></div></div><p>AdditionalPrinterColumns are additional columns shown e.g. in kubectl next to the name. Defaults to a created-at column. Top-level and per-version columns are mutually exclusive. Per-version columns must not all be set to identical values (top-level columns should be used instead) This field is alpha-level and is only honored by servers that enable the CustomResourceWebhookConversion feature. NOTE: CRDs created prior to 1.13 populated the top-level additionalPrinterColumns field by default. To apply an update that changes to per-version additionalPrinterColumns, the top-level additionalPrinterColumns field must be explicitly set to null</p><code>withAdditionalPrinterColumns</code> takes an array of type <code>additionalPrinterColumnsType</code>. You can create
 an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiextensions.v1beta1.customResourceColumnDefinition.new()</code>.</p>
 
@@ -161,7 +161,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionVersion.withAdditionalPrinterColumnsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdditionalPrinterColumnsMixinfunction(additionalPrinterColumns) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(additionalPrinterColumns) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { additionalPrinterColumns<span style="color:#666">+:</span> additionalPrinterColumns } <span style="color:#007020;font-weight:bold">else</span> { additionalPrinterColumns<span style="color:#666">+:</span> [additionalPrinterColumns] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdditionalPrinterColumnsMixin(additionalPrinterColumns)
 </code></pre></div></div><p>AdditionalPrinterColumns are additional columns shown e.g. in kubectl next to the name. Defaults to a created-at column. Top-level and per-version columns are mutually exclusive. Per-version columns must not all be set to identical values (top-level columns should be used instead) This field is alpha-level and is only honored by servers that enable the CustomResourceWebhookConversion feature. NOTE: CRDs created prior to 1.13 populated the top-level additionalPrinterColumns field by default. To apply an update that changes to per-version additionalPrinterColumns, the top-level additionalPrinterColumns field must be explicitly set to null</p><code>withAdditionalPrinterColumnsMixin</code> takes an array of type <code>additionalPrinterColumnsType</code>. You can create
 an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiextensions.v1beta1.customResourceColumnDefinition.new()</code>.</p>
 
@@ -192,7 +192,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionVersion.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> { name<span style="color:#666">:</span> name }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is the version name, e.g. “v1”, “v2beta1”, etc.</p></p>
 
 
@@ -220,7 +220,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionVersion.withServed">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServedfunction(served) self <span style="color:#666">+</span> { served<span style="color:#666">:</span> served }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServed(served)
 </code></pre></div></div><p>Served is a flag enabling/disabling this version from being served via REST APIs</p></p>
 
 
@@ -248,7 +248,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionVersion.withStorage">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStoragefunction(storage) self <span style="color:#666">+</span> { storage<span style="color:#666">:</span> storage }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStorage(storage)
 </code></pre></div></div><p>Storage flags the version as storage version. There must be exactly one flagged as storage version.</p></p>
 
 
@@ -308,7 +308,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionVersion.schema.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(schema) __schemaMixin(schema)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(schema)
 </code></pre></div></div><p></p></p>
 
 
@@ -336,7 +336,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionVersion.schema.withOpenApiV3Schema">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOpenApiV3Schemafunction(openApiV3Schema) self <span style="color:#666">+</span> __schemaMixin({ openAPIV3Schema<span style="color:#666">:</span> openApiV3Schema })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOpenApiV3Schema(openApiV3Schema)
 </code></pre></div></div><p>OpenAPIV3Schema is the OpenAPI v3 schema to be validated against.</p></p>
 
 
@@ -364,7 +364,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionVersion.schema.withOpenApiV3SchemaMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOpenApiV3SchemaMixinfunction(openApiV3Schema) self <span style="color:#666">+</span> __schemaMixin({ openAPIV3Schema<span style="color:#666">+:</span> openApiV3Schema })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOpenApiV3SchemaMixin(openApiV3Schema)
 </code></pre></div></div><p>OpenAPIV3Schema is the OpenAPI v3 schema to be validated against.</p></p>
 
 
@@ -424,7 +424,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionVersion.subresources.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(subresources) __subresourcesMixin(subresources)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(subresources)
 </code></pre></div></div><p></p></p>
 
 
@@ -483,7 +483,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionVersion.subresources.scale.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(scale) __scaleMixin(scale)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(scale)
 </code></pre></div></div><p></p></p>
 
 
@@ -511,7 +511,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionVersion.subresources.scale.withLabelSelectorPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelSelectorPathfunction(labelSelectorPath) self <span style="color:#666">+</span> __scaleMixin({ labelSelectorPath<span style="color:#666">:</span> labelSelectorPath })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelSelectorPath(labelSelectorPath)
 </code></pre></div></div><p>LabelSelectorPath defines the JSON path inside of a CustomResource that corresponds to Scale.Status.Selector. Only JSON paths without the array notation are allowed. Must be a JSON Path under .status. Must be set to work with HPA. If there is no value under the given path in the CustomResource, the status label selector value in the /scale subresource will default to the empty string.</p></p>
 
 
@@ -539,7 +539,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionVersion.subresources.scale.withSpecReplicasPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSpecReplicasPathfunction(specReplicasPath) self <span style="color:#666">+</span> __scaleMixin({ specReplicasPath<span style="color:#666">:</span> specReplicasPath })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSpecReplicasPath(specReplicasPath)
 </code></pre></div></div><p>SpecReplicasPath defines the JSON path inside of a CustomResource that corresponds to Scale.Spec.Replicas. Only JSON paths without the array notation are allowed. Must be a JSON Path under .spec. If there is no value under the given path in the CustomResource, the /scale subresource will return an error on GET.</p></p>
 
 
@@ -567,7 +567,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionVersion.subresources.scale.withStatusReplicasPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStatusReplicasPathfunction(statusReplicasPath) self <span style="color:#666">+</span> __scaleMixin({ statusReplicasPath<span style="color:#666">:</span> statusReplicasPath })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStatusReplicasPath(statusReplicasPath)
 </code></pre></div></div><p>StatusReplicasPath defines the JSON path inside of a CustomResource that corresponds to Scale.Status.Replicas. Only JSON paths without the array notation are allowed. Must be a JSON Path under .status. If there is no value under the given path in the CustomResource, the status replica value in the /scale subresource will default to 0.</p></p>
 
 

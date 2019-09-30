@@ -101,7 +101,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -165,7 +165,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.nodeAffinity.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(nodeAffinity) __nodeAffinityMixin(nodeAffinity)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(nodeAffinity)
 </code></pre></div></div><p></p></p>
 
 
@@ -193,7 +193,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.nodeAffinity.withPreferredDuringSchedulingIgnoredDuringExecution">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionfunction(preferredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(preferredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __nodeAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> preferredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __nodeAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> [preferredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecution(preferredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding &ldquo;weight&rdquo; to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.</p><code>withPreferredDuringSchedulingIgnoredDuringExecution</code> takes an array of type <code>preferredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.preferredSchedulingTerm.new()</code>.</p>
 
@@ -224,7 +224,7 @@ an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> 
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.nodeAffinity.withPreferredDuringSchedulingIgnoredDuringExecutionMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionMixinfunction(preferredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(preferredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __nodeAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> preferredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __nodeAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> [preferredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionMixin(preferredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding &ldquo;weight&rdquo; to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.</p><code>withPreferredDuringSchedulingIgnoredDuringExecutionMixin</code> takes an array of type <code>preferredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.preferredSchedulingTerm.new()</code>.</p>
 
@@ -286,7 +286,7 @@ an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> 
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.nodeAffinity.requiredDuringSchedulingIgnoredDuringExecution.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(requiredDuringSchedulingIgnoredDuringExecution) __requiredDuringSchedulingIgnoredDuringExecutionMixin(requiredDuringSchedulingIgnoredDuringExecution)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(requiredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p></p></p>
 
 
@@ -314,7 +314,7 @@ an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> 
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.nodeAffinity.requiredDuringSchedulingIgnoredDuringExecution.withNodeSelectorTerms">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTermsfunction(nodeSelectorTerms) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nodeSelectorTerms) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __requiredDuringSchedulingIgnoredDuringExecutionMixin({ nodeSelectorTerms<span style="color:#666">:</span> nodeSelectorTerms }) <span style="color:#007020;font-weight:bold">else</span> __requiredDuringSchedulingIgnoredDuringExecutionMixin({ nodeSelectorTerms<span style="color:#666">:</span> [nodeSelectorTerms] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTerms(nodeSelectorTerms)
 </code></pre></div></div><p>Required. A list of node selector terms. The terms are ORed.</p><code>withNodeSelectorTerms</code> takes an array of type <code>nodeSelectorTermsType</code>. You can create
 an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.nodeSelectorTerm.new()</code>.</p>
 
@@ -345,7 +345,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.nodeAffinity.requiredDuringSchedulingIgnoredDuringExecution.withNodeSelectorTermsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTermsMixinfunction(nodeSelectorTerms) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nodeSelectorTerms) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __requiredDuringSchedulingIgnoredDuringExecutionMixin({ nodeSelectorTerms<span style="color:#666">+:</span> nodeSelectorTerms }) <span style="color:#007020;font-weight:bold">else</span> __requiredDuringSchedulingIgnoredDuringExecutionMixin({ nodeSelectorTerms<span style="color:#666">+:</span> [nodeSelectorTerms] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTermsMixin(nodeSelectorTerms)
 </code></pre></div></div><p>Required. A list of node selector terms. The terms are ORed.</p><code>withNodeSelectorTermsMixin</code> takes an array of type <code>nodeSelectorTermsType</code>. You can create
 an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.nodeSelectorTerm.new()</code>.</p>
 
@@ -414,7 +414,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.podAffinity.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(podAffinity) __podAffinityMixin(podAffinity)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(podAffinity)
 </code></pre></div></div><p></p></p>
 
 
@@ -442,7 +442,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionfunction(preferredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(preferredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> preferredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> [preferredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecution(preferredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding &ldquo;weight&rdquo; to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.</p><code>withPreferredDuringSchedulingIgnoredDuringExecution</code> takes an array of type <code>preferredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.weightedPodAffinityTerm.new()</code>.</p>
 
@@ -473,7 +473,7 @@ an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> 
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecutionMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionMixinfunction(preferredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(preferredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> preferredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> [preferredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionMixin(preferredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding &ldquo;weight&rdquo; to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.</p><code>withPreferredDuringSchedulingIgnoredDuringExecutionMixin</code> takes an array of type <code>preferredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.weightedPodAffinityTerm.new()</code>.</p>
 
@@ -504,7 +504,7 @@ an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> 
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.podAffinity.withRequiredDuringSchedulingIgnoredDuringExecution">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecutionfunction(requiredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(requiredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> requiredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> [requiredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecution(requiredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.</p><code>withRequiredDuringSchedulingIgnoredDuringExecution</code> takes an array of type <code>requiredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.podAffinityTerm.new()</code>.</p>
 
@@ -535,7 +535,7 @@ an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> w
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.podAffinity.withRequiredDuringSchedulingIgnoredDuringExecutionMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecutionMixinfunction(requiredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(requiredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> requiredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> [requiredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecutionMixin(requiredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.</p><code>withRequiredDuringSchedulingIgnoredDuringExecutionMixin</code> takes an array of type <code>requiredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.podAffinityTerm.new()</code>.</p>
 
@@ -598,7 +598,7 @@ an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> w
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.podAntiAffinity.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(podAntiAffinity) __podAntiAffinityMixin(podAntiAffinity)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(podAntiAffinity)
 </code></pre></div></div><p></p></p>
 
 
@@ -626,7 +626,7 @@ an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> w
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.podAntiAffinity.withPreferredDuringSchedulingIgnoredDuringExecution">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionfunction(preferredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(preferredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAntiAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> preferredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAntiAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> [preferredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecution(preferredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding &ldquo;weight&rdquo; to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.</p><code>withPreferredDuringSchedulingIgnoredDuringExecution</code> takes an array of type <code>preferredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.weightedPodAffinityTerm.new()</code>.</p>
 
@@ -657,7 +657,7 @@ an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> 
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.podAntiAffinity.withPreferredDuringSchedulingIgnoredDuringExecutionMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionMixinfunction(preferredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(preferredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAntiAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> preferredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAntiAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> [preferredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionMixin(preferredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding &ldquo;weight&rdquo; to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.</p><code>withPreferredDuringSchedulingIgnoredDuringExecutionMixin</code> takes an array of type <code>preferredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.weightedPodAffinityTerm.new()</code>.</p>
 
@@ -688,7 +688,7 @@ an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> 
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.podAntiAffinity.withRequiredDuringSchedulingIgnoredDuringExecution">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecutionfunction(requiredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(requiredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAntiAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> requiredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAntiAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> [requiredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecution(requiredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.</p><code>withRequiredDuringSchedulingIgnoredDuringExecution</code> takes an array of type <code>requiredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.podAffinityTerm.new()</code>.</p>
 
@@ -719,7 +719,7 @@ an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> w
     </h5>
 
     <div class="collapse show" id="core.v1.affinity.podAntiAffinity.withRequiredDuringSchedulingIgnoredDuringExecutionMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecutionMixinfunction(requiredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(requiredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAntiAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> requiredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAntiAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> [requiredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecutionMixin(requiredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.</p><code>withRequiredDuringSchedulingIgnoredDuringExecutionMixin</code> takes an array of type <code>requiredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.podAffinityTerm.new()</code>.</p>
 

@@ -6,7 +6,7 @@
     <description>Recent content in Apiregistrations on ksonnet lib API Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Sep 2019 14:37:46 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 20:18:40 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/apiregistration/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,388 +14,388 @@
     <item>
       <title>new</title>
       <link>http://example.org/apiregistration/v1/apiService/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/new/</guid>
-      <description>newfunction() apiVersion + kind</description>
+      <description>new()</description>
     </item>
     
     <item>
       <title>new</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/new/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/new/</guid>
-      <description>newfunction() apiVersion + kind</description>
+      <description>new()</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/initializers/mixinInstance/</guid>
-      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+      <description>mixinInstance(initializers)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/mixinInstance/</guid>
-      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+      <description>mixinInstance(metadata)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiregistration/v1/apiService/spec/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/spec/mixinInstance/</guid>
-      <description>mixinInstancefunction(spec) __specMixin(spec)</description>
+      <description>mixinInstance(spec)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiregistration/v1/apiService/spec/service/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/spec/service/mixinInstance/</guid>
-      <description>mixinInstancefunction(service) __serviceMixin(service)</description>
+      <description>mixinInstance(service)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/initializers/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/initializers/mixinInstance/</guid>
-      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+      <description>mixinInstance(initializers)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/mixinInstance/</guid>
-      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+      <description>mixinInstance(metadata)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/spec/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/spec/mixinInstance/</guid>
-      <description>mixinInstancefunction(spec) __specMixin(spec)</description>
+      <description>mixinInstance(spec)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/spec/service/mixinInstance/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/spec/service/mixinInstance/</guid>
-      <description>mixinInstancefunction(service) __serviceMixin(service)</description>
+      <description>mixinInstance(service)</description>
     </item>
     
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/withAnnotations/</guid>
-      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotations(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/withAnnotations/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/withAnnotations/</guid>
-      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotations(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/withAnnotationsMixin/</guid>
-      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotationsMixin(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/withAnnotationsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/withAnnotationsMixin/</guid>
-      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotationsMixin(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withCaBundle</title>
       <link>http://example.org/apiregistration/v1/apiService/spec/withCaBundle/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/spec/withCaBundle/</guid>
-      <description>withCaBundlefunction(caBundle) self + __specMixin({ caBundle: caBundle }) CABundle is a PEM encoded CA bundle which will be used to validate an API server&amp;rsquo;s serving certificate. If unspecified, system trust roots on the apiserver are used.</description>
+      <description>withCaBundle(caBundle) CABundle is a PEM encoded CA bundle which will be used to validate an API server&amp;rsquo;s serving certificate. If unspecified, system trust roots on the apiserver are used.</description>
     </item>
     
     <item>
       <title>withCaBundle</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/spec/withCaBundle/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/spec/withCaBundle/</guid>
-      <description>withCaBundlefunction(caBundle) self + __specMixin({ caBundle: caBundle }) CABundle is a PEM encoded CA bundle which will be used to validate an API server&amp;rsquo;s serving certificate. If unspecified, system trust roots on the apiserver are used.</description>
+      <description>withCaBundle(caBundle) CABundle is a PEM encoded CA bundle which will be used to validate an API server&amp;rsquo;s serving certificate. If unspecified, system trust roots on the apiserver are used.</description>
     </item>
     
     <item>
       <title>withClusterName</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/withClusterName/</guid>
-      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+      <description>withClusterName(clusterName) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
     </item>
     
     <item>
       <title>withClusterName</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/withClusterName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/withClusterName/</guid>
-      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+      <description>withClusterName(clusterName) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
     </item>
     
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/withFinalizers/</guid>
-      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizers(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/withFinalizers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/withFinalizers/</guid>
-      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizers(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/withFinalizersMixin/</guid>
-      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizersMixin(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/withFinalizersMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/withFinalizersMixin/</guid>
-      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizersMixin(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/withGenerateName/</guid>
-      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+      <description>withGenerateName(generateName) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
     </item>
     
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/withGenerateName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/withGenerateName/</guid>
-      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+      <description>withGenerateName(generateName) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
     </item>
     
     <item>
       <title>withGroup</title>
       <link>http://example.org/apiregistration/v1/apiService/spec/withGroup/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/spec/withGroup/</guid>
-      <description>withGroupfunction(group) self + __specMixin({ group: group }) Group is the API group name this server hosts</description>
+      <description>withGroup(group) Group is the API group name this server hosts</description>
     </item>
     
     <item>
       <title>withGroup</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/spec/withGroup/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/spec/withGroup/</guid>
-      <description>withGroupfunction(group) self + __specMixin({ group: group }) Group is the API group name this server hosts</description>
+      <description>withGroup(group) Group is the API group name this server hosts</description>
     </item>
     
     <item>
       <title>withGroupPriorityMinimum</title>
       <link>http://example.org/apiregistration/v1/apiService/spec/withGroupPriorityMinimum/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/spec/withGroupPriorityMinimum/</guid>
-      <description>withGroupPriorityMinimumfunction(groupPriorityMinimum) self + __specMixin({ groupPriorityMinimum: groupPriorityMinimum }) GroupPriorityMininum is the priority this group should have at least. Higher priority means that the group is preferred by clients over lower priority ones. Note that other versions of this group might specify even higher GroupPriorityMininum values such that the whole group gets a higher priority. The primary sort is based on GroupPriorityMinimum, ordered highest number to lowest (20 before 10). The secondary sort is based on the alphabetical comparison of the name of the object.</description>
+      <description>withGroupPriorityMinimum(groupPriorityMinimum) GroupPriorityMininum is the priority this group should have at least. Higher priority means that the group is preferred by clients over lower priority ones. Note that other versions of this group might specify even higher GroupPriorityMininum values such that the whole group gets a higher priority. The primary sort is based on GroupPriorityMinimum, ordered highest number to lowest (20 before 10). The secondary sort is based on the alphabetical comparison of the name of the object.</description>
     </item>
     
     <item>
       <title>withGroupPriorityMinimum</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/spec/withGroupPriorityMinimum/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/spec/withGroupPriorityMinimum/</guid>
-      <description>withGroupPriorityMinimumfunction(groupPriorityMinimum) self + __specMixin({ groupPriorityMinimum: groupPriorityMinimum }) GroupPriorityMininum is the priority this group should have at least. Higher priority means that the group is preferred by clients over lower priority ones. Note that other versions of this group might specify even higher GroupPriorityMininum values such that the whole group gets a higher priority. The primary sort is based on GroupPriorityMinimum, ordered highest number to lowest (20 before 10). The secondary sort is based on the alphabetical comparison of the name of the object.</description>
+      <description>withGroupPriorityMinimum(groupPriorityMinimum) GroupPriorityMininum is the priority this group should have at least. Higher priority means that the group is preferred by clients over lower priority ones. Note that other versions of this group might specify even higher GroupPriorityMininum values such that the whole group gets a higher priority. The primary sort is based on GroupPriorityMinimum, ordered highest number to lowest (20 before 10). The secondary sort is based on the alphabetical comparison of the name of the object.</description>
     </item>
     
     <item>
       <title>withInsecureSkipTlsVerify</title>
       <link>http://example.org/apiregistration/v1/apiService/spec/withInsecureSkipTlsVerify/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/spec/withInsecureSkipTlsVerify/</guid>
-      <description>withInsecureSkipTlsVerifyfunction(insecureSkipTlsVerify) self + __specMixin({ insecureSkipTLSVerify: insecureSkipTlsVerify }) InsecureSkipTLSVerify disables TLS certificate verification when communicating with this server. This is strongly discouraged. You should use the CABundle instead.</description>
+      <description>withInsecureSkipTlsVerify(insecureSkipTlsVerify) InsecureSkipTLSVerify disables TLS certificate verification when communicating with this server. This is strongly discouraged. You should use the CABundle instead.</description>
     </item>
     
     <item>
       <title>withInsecureSkipTlsVerify</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/spec/withInsecureSkipTlsVerify/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/spec/withInsecureSkipTlsVerify/</guid>
-      <description>withInsecureSkipTlsVerifyfunction(insecureSkipTlsVerify) self + __specMixin({ insecureSkipTLSVerify: insecureSkipTlsVerify }) InsecureSkipTLSVerify disables TLS certificate verification when communicating with this server. This is strongly discouraged. You should use the CABundle instead.</description>
+      <description>withInsecureSkipTlsVerify(insecureSkipTlsVerify) InsecureSkipTLSVerify disables TLS certificate verification when communicating with this server. This is strongly discouraged. You should use the CABundle instead.</description>
     </item>
     
     <item>
       <title>withLabels</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/withLabels/</guid>
-      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabels(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabels</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/withLabels/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/withLabels/</guid>
-      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabels(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/withLabelsMixin/</guid>
-      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabelsMixin(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/withLabelsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/withLabelsMixin/</guid>
-      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabelsMixin(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/withManagedFields/</guid>
-      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFields(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/withManagedFields/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/withManagedFields/</guid>
-      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFields(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/withManagedFieldsMixin/</guid>
-      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFieldsMixin(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/withManagedFieldsMixin/</guid>
-      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFieldsMixin(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/withName/</guid>
-      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/apiregistration/v1/apiService/spec/service/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/spec/service/withName/</guid>
-      <description>withNamefunction(name) self + __serviceMixin({ name: name }) Name is the name of the service</description>
+      <description>withName(name) Name is the name of the service</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/withName/</guid>
-      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/spec/service/withName/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/spec/service/withName/</guid>
-      <description>withNamefunction(name) self + __serviceMixin({ name: name }) Name is the name of the service</description>
+      <description>withName(name) Name is the name of the service</description>
     </item>
     
     <item>
       <title>withNamespace</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+      <description>withNamespace(namespace) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
 
 Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
     </item>
@@ -403,19 +403,19 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withNamespace</title>
       <link>http://example.org/apiregistration/v1/apiService/spec/service/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/spec/service/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __serviceMixin({ namespace: namespace }) Namespace is the namespace of the service</description>
+      <description>withNamespace(namespace) Namespace is the namespace of the service</description>
     </item>
     
     <item>
       <title>withNamespace</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+      <description>withNamespace(namespace) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
 
 Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
     </item>
@@ -423,128 +423,136 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withNamespace</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/spec/service/withNamespace/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/spec/service/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __serviceMixin({ namespace: namespace }) Namespace is the namespace of the service</description>
+      <description>withNamespace(namespace) Namespace is the namespace of the service</description>
     </item>
     
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/withOwnerReferences/</guid>
-      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferences(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferences takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/withOwnerReferences/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/withOwnerReferences/</guid>
-      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferences(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferences takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/withOwnerReferencesMixin/</guid>
-      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferencesMixin(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferencesMixin takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/withOwnerReferencesMixin/</guid>
-      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferencesMixin(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferencesMixin takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withPending</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/initializers/withPending/</guid>
-      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPending takes an array of type pendingType.</description>
+      <description>withPending(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPending</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/initializers/withPending/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/initializers/withPending/</guid>
-      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPending takes an array of type pendingType.</description>
+      <description>withPending(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/initializers/withPendingMixin/</guid>
-      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPendingMixin takes an array of type pendingType.</description>
+      <description>withPendingMixin(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/initializers/withPendingMixin/</guid>
-      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPendingMixin takes an array of type pendingType.</description>
+      <description>withPendingMixin(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withVersion</title>
       <link>http://example.org/apiregistration/v1/apiService/spec/withVersion/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/spec/withVersion/</guid>
-      <description>withVersionfunction(version) self + __specMixin({ version: version }) Version is the API version this server hosts. For example, &amp;ldquo;v1&amp;rdquo;</description>
+      <description>withVersion(version) Version is the API version this server hosts. For example, &amp;ldquo;v1&amp;rdquo;</description>
     </item>
     
     <item>
       <title>withVersion</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/spec/withVersion/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/spec/withVersion/</guid>
-      <description>withVersionfunction(version) self + __specMixin({ version: version }) Version is the API version this server hosts. For example, &amp;ldquo;v1&amp;rdquo;</description>
+      <description>withVersion(version) Version is the API version this server hosts. For example, &amp;ldquo;v1&amp;rdquo;</description>
     </item>
     
     <item>
       <title>withVersionPriority</title>
       <link>http://example.org/apiregistration/v1/apiService/spec/withVersionPriority/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/spec/withVersionPriority/</guid>
-      <description>withVersionPriorityfunction(versionPriority) self + __specMixin({ versionPriority: versionPriority }) VersionPriority controls the ordering of this API version inside of its group. Must be greater than zero. The primary sort is based on VersionPriority, ordered highest to lowest (20 before 10). Since it&amp;rsquo;s inside of a group, the number can be small, probably in the 10s. In case of equal version priorities, the version string will be used to compute the order inside a group.</description>
+      <description>withVersionPriority(versionPriority) VersionPriority controls the ordering of this API version inside of its group. Must be greater than zero. The primary sort is based on VersionPriority, ordered highest to lowest (20 before 10). Since it&amp;rsquo;s inside of a group, the number can be small, probably in the 10s. In case of equal version priorities, the version string will be used to compute the order inside a group. If the version string is &amp;ldquo;kube-like&amp;rdquo;, it will sort above non &amp;ldquo;kube-like&amp;rdquo; version strings, which are ordered lexicographically.</description>
     </item>
     
     <item>
       <title>withVersionPriority</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/spec/withVersionPriority/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/spec/withVersionPriority/</guid>
-      <description>withVersionPriorityfunction(versionPriority) self + __specMixin({ versionPriority: versionPriority }) VersionPriority controls the ordering of this API version inside of its group. Must be greater than zero. The primary sort is based on VersionPriority, ordered highest to lowest (20 before 10). Since it&amp;rsquo;s inside of a group, the number can be small, probably in the 10s. In case of equal version priorities, the version string will be used to compute the order inside a group.</description>
+      <description>withVersionPriority(versionPriority) VersionPriority controls the ordering of this API version inside of its group. Must be greater than zero. The primary sort is based on VersionPriority, ordered highest to lowest (20 before 10). Since it&amp;rsquo;s inside of a group, the number can be small, probably in the 10s. In case of equal version priorities, the version string will be used to compute the order inside a group. If the version string is &amp;ldquo;kube-like&amp;rdquo;, it will sort above non &amp;ldquo;kube-like&amp;rdquo; version strings, which are ordered lexicographically.</description>
     </item>
     
     <item>
       <title>initializers</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -555,7 +563,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializers</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/initializers/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -566,7 +574,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/</guid>
       <description></description>
@@ -575,7 +583,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/</guid>
       <description></description>
@@ -584,7 +592,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>service</title>
       <link>http://example.org/apiregistration/v1/apiService/spec/service/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/spec/service/</guid>
       <description>Service is a reference to the service for this API server. It must communicate on port 443 If the Service is nil, that means the handling for the API groupversion is handled locally on this server. The call will simply delegate to the normal handler chain to be fulfilled.</description>
@@ -593,7 +601,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>service</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/spec/service/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/spec/service/</guid>
       <description>Service is a reference to the service for this API server. It must communicate on port 443 If the Service is nil, that means the handling for the API groupversion is handled locally on this server. The call will simply delegate to the normal handler chain to be fulfilled.</description>
@@ -602,7 +610,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>spec</title>
       <link>http://example.org/apiregistration/v1/apiService/spec/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/spec/</guid>
       <description>Spec contains information for locating and communicating with a server</description>
@@ -611,7 +619,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>spec</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/spec/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/spec/</guid>
       <description>Spec contains information for locating and communicating with a server</description>
@@ -620,7 +628,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/initializersType/</guid>
       <description></description>
@@ -629,7 +637,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/initializersType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/initializersType/</guid>
       <description></description>
@@ -638,7 +646,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/managedFieldsType/</guid>
       <description></description>
@@ -647,7 +655,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/managedFieldsType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/managedFieldsType/</guid>
       <description></description>
@@ -656,7 +664,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/apiregistration/v1/apiService/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadataType/</guid>
       <description></description>
@@ -665,7 +673,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadataType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadataType/</guid>
       <description></description>
@@ -674,7 +682,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -683,7 +691,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/ownerReferencesType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -692,7 +700,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/apiregistration/v1/apiService/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -701,7 +709,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/metadata/initializers/pendingType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -710,7 +718,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>serviceType</title>
       <link>http://example.org/apiregistration/v1/apiService/spec/serviceType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/spec/serviceType/</guid>
       <description></description>
@@ -719,7 +727,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>serviceType</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/spec/serviceType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/spec/serviceType/</guid>
       <description></description>
@@ -728,7 +736,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>specType</title>
       <link>http://example.org/apiregistration/v1/apiService/specType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/specType/</guid>
       <description></description>
@@ -737,7 +745,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>specType</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/specType/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:40 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/specType/</guid>
       <description></description>
@@ -746,7 +754,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>apiService</title>
       <link>http://example.org/apiregistration/apiService/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:42 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/apiService/</guid>
       <description>APIService represents a server for a particular GroupVersion.  APIService represents a server for a particular GroupVersion.  </description>
@@ -755,7 +763,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>apiService</title>
       <link>http://example.org/apiregistration/v1/apiService/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:42 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1/apiService/</guid>
       <description>APIService represents a server for a particular GroupVersion. Name must be &amp;ldquo;version.group&amp;rdquo;.</description>
@@ -764,7 +772,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>apiService</title>
       <link>http://example.org/apiregistration/v1beta1/apiService/</link>
-      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 20:18:42 +0000</pubDate>
       
       <guid>http://example.org/apiregistration/v1beta1/apiService/</guid>
       <description>APIService represents a server for a particular GroupVersion. Name must be &amp;ldquo;version.group&amp;rdquo;.</description>

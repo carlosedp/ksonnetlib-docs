@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdditionalPrinterColumnsMixinfunction(additionalPrinterColumns) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(additionalPrinterColumns) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ additionalPrinterColumns<span style="color:#666">+:</span> additionalPrinterColumns }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ additionalPrinterColumns<span style="color:#666">+:</span> [additionalPrinterColumns] })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdditionalPrinterColumnsMixin(additionalPrinterColumns)
 </code></pre></div></div><p>AdditionalPrinterColumns are additional columns shown e.g. in kubectl next to the name. Defaults to a created-at column. Optional, the global columns for all versions. Top-level and per-version columns are mutually exclusive.</p><code>withAdditionalPrinterColumnsMixin</code> takes an array of type <code>additionalPrinterColumnsType</code>. You can create
 an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiextensions.v1beta1.customResourceColumnDefinition.new()</code>.</p>
 

@@ -125,7 +125,7 @@
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withAdditionalPrinterColumns">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdditionalPrinterColumnsfunction(additionalPrinterColumns) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(additionalPrinterColumns) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { additionalPrinterColumns<span style="color:#666">:</span> additionalPrinterColumns } <span style="color:#007020;font-weight:bold">else</span> { additionalPrinterColumns<span style="color:#666">:</span> [additionalPrinterColumns] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdditionalPrinterColumns(additionalPrinterColumns)
 </code></pre></div></div><p>AdditionalPrinterColumns are additional columns shown e.g. in kubectl next to the name. Defaults to a created-at column. Optional, the global columns for all versions. Top-level and per-version columns are mutually exclusive.</p><code>withAdditionalPrinterColumns</code> takes an array of type <code>additionalPrinterColumnsType</code>. You can create
 an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiextensions.v1beta1.customResourceColumnDefinition.new()</code>.</p>
 
@@ -193,7 +193,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withAdditionalPrinterColumnsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdditionalPrinterColumnsMixinfunction(additionalPrinterColumns) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(additionalPrinterColumns) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { additionalPrinterColumns<span style="color:#666">+:</span> additionalPrinterColumns } <span style="color:#007020;font-weight:bold">else</span> { additionalPrinterColumns<span style="color:#666">+:</span> [additionalPrinterColumns] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdditionalPrinterColumnsMixin(additionalPrinterColumns)
 </code></pre></div></div><p>AdditionalPrinterColumns are additional columns shown e.g. in kubectl next to the name. Defaults to a created-at column. Optional, the global columns for all versions. Top-level and per-version columns are mutually exclusive.</p><code>withAdditionalPrinterColumnsMixin</code> takes an array of type <code>additionalPrinterColumnsType</code>. You can create
 an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiextensions.v1beta1.customResourceColumnDefinition.new()</code>.</p>
 
@@ -224,7 +224,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withGroup">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupfunction(group) self <span style="color:#666">+</span> { group<span style="color:#666">:</span> group }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroup(group)
 </code></pre></div></div><p>Group is the group this resource belongs in</p></p>
 
 
@@ -252,7 +252,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withScope">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withScopefunction(scope) self <span style="color:#666">+</span> { scope<span style="color:#666">:</span> scope }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withScope(scope)
 </code></pre></div></div><p>Scope indicates whether this resource is cluster or namespace scoped.  Default is namespaced</p></p>
 
 
@@ -280,7 +280,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withVersion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersionfunction(version) self <span style="color:#666">+</span> { version<span style="color:#666">:</span> version }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersion(version)
 </code></pre></div></div><p>Version is the version this resource belongs in Should be always first item in Versions field if provided. Optional, but at least one of Version or Versions must be set. Deprecated: Please use <code>Versions</code>.</p></p>
 
 
@@ -308,7 +308,7 @@ an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiex
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withVersions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersionsfunction(versions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(versions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { versions<span style="color:#666">:</span> versions } <span style="color:#007020;font-weight:bold">else</span> { versions<span style="color:#666">:</span> [versions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersions(versions)
 </code></pre></div></div><p>Versions is the list of all supported versions for this resource. If Version field is provided, this field is optional. Validation: All versions must use the same validation schema for now. i.e., top level Validation field is applied to all of these versions. Order: The version name will be used to compute the order. If the version string is &ldquo;kube-like&rdquo;, it will sort above non &ldquo;kube-like&rdquo; version strings, which are ordered lexicographically. &ldquo;Kube-like&rdquo; versions start with a &ldquo;v&rdquo;, then are followed by a number (the major version), then optionally the string &ldquo;alpha&rdquo; or &ldquo;beta&rdquo; and another number (the minor version). These are sorted first by GA &gt; beta &gt; alpha (where GA is a version with no suffix such as beta or alpha), and then by comparing major version, then minor version. An example sorted list of versions: v10, v2, v1, v11beta2, v10beta3, v3beta1, v12alpha1, v11alpha2, foo1, foo10.</p><code>withVersions</code> takes an array of type <code>versionsType</code>. You can create
 an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1.customResourceDefinitionVersion.new()</code>.</p>
 
@@ -339,7 +339,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withVersionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersionsMixinfunction(versions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(versions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { versions<span style="color:#666">+:</span> versions } <span style="color:#007020;font-weight:bold">else</span> { versions<span style="color:#666">+:</span> [versions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersionsMixin(versions)
 </code></pre></div></div><p>Versions is the list of all supported versions for this resource. If Version field is provided, this field is optional. Validation: All versions must use the same validation schema for now. i.e., top level Validation field is applied to all of these versions. Order: The version name will be used to compute the order. If the version string is &ldquo;kube-like&rdquo;, it will sort above non &ldquo;kube-like&rdquo; version strings, which are ordered lexicographically. &ldquo;Kube-like&rdquo; versions start with a &ldquo;v&rdquo;, then are followed by a number (the major version), then optionally the string &ldquo;alpha&rdquo; or &ldquo;beta&rdquo; and another number (the minor version). These are sorted first by GA &gt; beta &gt; alpha (where GA is a version with no suffix such as beta or alpha), and then by comparing major version, then minor version. An example sorted list of versions: v10, v2, v1, v11beta2, v10beta3, v3beta1, v12alpha1, v11alpha2, foo1, foo10.</p><code>withVersionsMixin</code> takes an array of type <code>versionsType</code>. You can create
 an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1.customResourceDefinitionVersion.new()</code>.</p>
 
@@ -402,7 +402,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(conversion) __conversionMixin(conversion)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(conversion)
 </code></pre></div></div><p></p></p>
 
 
@@ -430,7 +430,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.withConversionReviewVersions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConversionReviewVersionsfunction(conversionReviewVersions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conversionReviewVersions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __conversionMixin({ conversionReviewVersions<span style="color:#666">:</span> conversionReviewVersions }) <span style="color:#007020;font-weight:bold">else</span> __conversionMixin({ conversionReviewVersions<span style="color:#666">:</span> [conversionReviewVersions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConversionReviewVersions(conversionReviewVersions)
 </code></pre></div></div><p>ConversionReviewVersions is an ordered list of preferred <code>ConversionReview</code> versions the Webhook expects. API server will try to use first version in the list which it supports. If none of the versions specified in this list supported by API server, conversion will fail for this object. If a persisted Webhook configuration specifies allowed versions and does not include any versions known to the API Server, calls to the webhook will fail. Default to <code>['v1beta1']</code>.</p></p>
 
 
@@ -458,7 +458,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.withConversionReviewVersionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConversionReviewVersionsMixinfunction(conversionReviewVersions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conversionReviewVersions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __conversionMixin({ conversionReviewVersions<span style="color:#666">+:</span> conversionReviewVersions }) <span style="color:#007020;font-weight:bold">else</span> __conversionMixin({ conversionReviewVersions<span style="color:#666">+:</span> [conversionReviewVersions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConversionReviewVersionsMixin(conversionReviewVersions)
 </code></pre></div></div><p>ConversionReviewVersions is an ordered list of preferred <code>ConversionReview</code> versions the Webhook expects. API server will try to use first version in the list which it supports. If none of the versions specified in this list supported by API server, conversion will fail for this object. If a persisted Webhook configuration specifies allowed versions and does not include any versions known to the API Server, calls to the webhook will fail. Default to <code>['v1beta1']</code>.</p></p>
 
 
@@ -486,7 +486,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.withStrategy">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStrategyfunction(strategy) self <span style="color:#666">+</span> __conversionMixin({ strategy<span style="color:#666">:</span> strategy })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStrategy(strategy)
 </code></pre></div></div><p><code>strategy</code> specifies the conversion strategy. Allowed values are: - <code>None</code>: The converter only change the apiVersion and would not touch any other field in the CR. - <code>Webhook</code>: API Server will call to an external webhook to do the conversion. Additional information is needed for this option.</p></p>
 
 
@@ -545,7 +545,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(webhookClientConfig) __webhookClientConfigMixin(webhookClientConfig)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(webhookClientConfig)
 </code></pre></div></div><p></p></p>
 
 
@@ -573,7 +573,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.withCaBundle">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCaBundlefunction(caBundle) self <span style="color:#666">+</span> __webhookClientConfigMixin({ caBundle<span style="color:#666">:</span> caBundle })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCaBundle(caBundle)
 </code></pre></div></div><p><code>caBundle</code> is a PEM encoded CA bundle which will be used to validate the webhook&rsquo;s server certificate. If unspecified, system trust roots on the apiserver are used.</p></p>
 
 
@@ -601,7 +601,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.withUrl">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUrlfunction(url) self <span style="color:#666">+</span> __webhookClientConfigMixin({ url<span style="color:#666">:</span> url })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUrl(url)
 </code></pre></div></div><p><code>url</code> gives the location of the webhook, in standard URL form (<code>scheme://host:port/path</code>). Exactly one of <code>url</code> or <code>service</code> must be specified.</p><p></p><p>The <code>host</code> should not refer to a service running in the cluster; use the <code>service</code> field instead. The host might be resolved via external DNS in some apiservers (e.g., <code>kube-apiserver</code> cannot resolve in-cluster DNS as that would be a layering violation). <code>host</code> may also be an IP address.</p><p></p><p>Please note that using <code>localhost</code> or <code>127.0.0.1</code> as a <code>host</code> is risky unless you take great care to run this webhook on all hosts which run an apiserver which might need to make calls to this webhook. Such installs are likely to be non-portable, i.e., not easy to turn up in a new cluster.</p><p></p><p>The scheme must be &ldquo;https&rdquo;; the URL must begin with &ldquo;https://&ldquo;.</p><p></p><p>A path is optional, and if present may be any string permissible in a URL. You may use the path to pass an arbitrary string to the webhook, for example, a cluster identifier.</p><p></p><p>Attempting to use a user or basic auth e.g. &ldquo;user:password@&rdquo; is not allowed. Fragments (&ldquo;#&hellip;&rdquo;) and query parameters (&ldquo;?&hellip;&rdquo;) are not allowed, either.</p></p>
 
 
@@ -660,7 +660,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(service) __serviceMixin(service)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(service)
 </code></pre></div></div><p></p></p>
 
 
@@ -688,7 +688,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __serviceMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p><code>name</code> is the name of the service. Required</p></p>
 
 
@@ -716,7 +716,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __serviceMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p><code>namespace</code> is the namespace of the service. Required</p></p>
 
 
@@ -744,7 +744,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __serviceMixin({ path<span style="color:#666">:</span> path })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p><code>path</code> is an optional URL path which will be sent in any request to this service.</p></p>
 
 
@@ -816,7 +816,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(names) __namesMixin(names)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(names)
 </code></pre></div></div><p></p></p>
 
 
@@ -844,7 +844,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withCategories">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCategoriesfunction(categories) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(categories) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __namesMixin({ categories<span style="color:#666">:</span> categories }) <span style="color:#007020;font-weight:bold">else</span> __namesMixin({ categories<span style="color:#666">:</span> [categories] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCategories(categories)
 </code></pre></div></div><p>Categories is a list of grouped resources custom resources belong to (e.g. &lsquo;all&rsquo;)</p></p>
 
 
@@ -872,7 +872,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withCategoriesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCategoriesMixinfunction(categories) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(categories) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __namesMixin({ categories<span style="color:#666">+:</span> categories }) <span style="color:#007020;font-weight:bold">else</span> __namesMixin({ categories<span style="color:#666">+:</span> [categories] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCategoriesMixin(categories)
 </code></pre></div></div><p>Categories is a list of grouped resources custom resources belong to (e.g. &lsquo;all&rsquo;)</p></p>
 
 
@@ -900,7 +900,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withKind">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKindfunction(kind) self <span style="color:#666">+</span> __namesMixin({ kind<span style="color:#666">:</span> kind })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKind(kind)
 </code></pre></div></div><p>Kind is the serialized kind of the resource.  It is normally CamelCase and singular.</p></p>
 
 
@@ -928,7 +928,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withListKind">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withListKindfunction(listKind) self <span style="color:#666">+</span> __namesMixin({ listKind<span style="color:#666">:</span> listKind })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withListKind(listKind)
 </code></pre></div></div><p>ListKind is the serialized kind of the list for this resource.  Defaults to <kind>List.</p></p>
 
 
@@ -956,7 +956,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withPlural">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPluralfunction(plural) self <span style="color:#666">+</span> __namesMixin({ plural<span style="color:#666">:</span> plural })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPlural(plural)
 </code></pre></div></div><p>Plural is the plural name of the resource to serve.  It must match the name of the CustomResourceDefinition-registration too: plural.group and it must be all lowercase.</p></p>
 
 
@@ -984,7 +984,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withShortNames">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShortNamesfunction(shortNames) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(shortNames) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __namesMixin({ shortNames<span style="color:#666">:</span> shortNames }) <span style="color:#007020;font-weight:bold">else</span> __namesMixin({ shortNames<span style="color:#666">:</span> [shortNames] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShortNames(shortNames)
 </code></pre></div></div><p>ShortNames are short names for the resource.  It must be all lowercase.</p></p>
 
 
@@ -1012,7 +1012,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withShortNamesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShortNamesMixinfunction(shortNames) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(shortNames) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __namesMixin({ shortNames<span style="color:#666">+:</span> shortNames }) <span style="color:#007020;font-weight:bold">else</span> __namesMixin({ shortNames<span style="color:#666">+:</span> [shortNames] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShortNamesMixin(shortNames)
 </code></pre></div></div><p>ShortNames are short names for the resource.  It must be all lowercase.</p></p>
 
 
@@ -1040,7 +1040,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withSingular">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSingularfunction(singular) self <span style="color:#666">+</span> __namesMixin({ singular<span style="color:#666">:</span> singular })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSingular(singular)
 </code></pre></div></div><p>Singular is the singular name of the resource.  It must be all lowercase  Defaults to lowercased <kind></p></p>
 
 
@@ -1100,7 +1100,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(subresources) __subresourcesMixin(subresources)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(subresources)
 </code></pre></div></div><p></p></p>
 
 
@@ -1159,7 +1159,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(scale) __scaleMixin(scale)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(scale)
 </code></pre></div></div><p></p></p>
 
 
@@ -1187,7 +1187,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.withLabelSelectorPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelSelectorPathfunction(labelSelectorPath) self <span style="color:#666">+</span> __scaleMixin({ labelSelectorPath<span style="color:#666">:</span> labelSelectorPath })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelSelectorPath(labelSelectorPath)
 </code></pre></div></div><p>LabelSelectorPath defines the JSON path inside of a CustomResource that corresponds to Scale.Status.Selector. Only JSON paths without the array notation are allowed. Must be a JSON Path under .status. Must be set to work with HPA. If there is no value under the given path in the CustomResource, the status label selector value in the /scale subresource will default to the empty string.</p></p>
 
 
@@ -1215,7 +1215,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.withSpecReplicasPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSpecReplicasPathfunction(specReplicasPath) self <span style="color:#666">+</span> __scaleMixin({ specReplicasPath<span style="color:#666">:</span> specReplicasPath })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSpecReplicasPath(specReplicasPath)
 </code></pre></div></div><p>SpecReplicasPath defines the JSON path inside of a CustomResource that corresponds to Scale.Spec.Replicas. Only JSON paths without the array notation are allowed. Must be a JSON Path under .spec. If there is no value under the given path in the CustomResource, the /scale subresource will return an error on GET.</p></p>
 
 
@@ -1243,7 +1243,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.withStatusReplicasPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStatusReplicasPathfunction(statusReplicasPath) self <span style="color:#666">+</span> __scaleMixin({ statusReplicasPath<span style="color:#666">:</span> statusReplicasPath })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStatusReplicasPath(statusReplicasPath)
 </code></pre></div></div><p>StatusReplicasPath defines the JSON path inside of a CustomResource that corresponds to Scale.Status.Replicas. Only JSON paths without the array notation are allowed. Must be a JSON Path under .status. If there is no value under the given path in the CustomResource, the status replica value in the /scale subresource will default to 0.</p></p>
 
 
@@ -1309,7 +1309,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.validation.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(validation) __validationMixin(validation)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(validation)
 </code></pre></div></div><p></p></p>
 
 
@@ -1337,7 +1337,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.validation.withOpenApiV3Schema">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOpenApiV3Schemafunction(openApiV3Schema) self <span style="color:#666">+</span> __validationMixin({ openAPIV3Schema<span style="color:#666">:</span> openApiV3Schema })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOpenApiV3Schema(openApiV3Schema)
 </code></pre></div></div><p>OpenAPIV3Schema is the OpenAPI v3 schema to be validated against.</p></p>
 
 
@@ -1365,7 +1365,7 @@ an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.validation.withOpenApiV3SchemaMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOpenApiV3SchemaMixinfunction(openApiV3Schema) self <span style="color:#666">+</span> __validationMixin({ openAPIV3Schema<span style="color:#666">+:</span> openApiV3Schema })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOpenApiV3SchemaMixin(openApiV3Schema)
 </code></pre></div></div><p>OpenAPIV3Schema is the OpenAPI v3 schema to be validated against.</p></p>
 
 

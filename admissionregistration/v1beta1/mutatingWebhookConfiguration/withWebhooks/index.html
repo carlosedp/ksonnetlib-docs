@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withWebhooksfunction(webhooks) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(webhooks) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { webhooks<span style="color:#666">:</span> webhooks } <span style="color:#007020;font-weight:bold">else</span> { webhooks<span style="color:#666">:</span> [webhooks] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withWebhooks(webhooks)
 </code></pre></div></div><p>Webhooks is a list of webhooks and the affected resources and operations.</p><code>withWebhooks</code> takes an array of type <code>webhooksType</code>. You can create
 an instance of <code>webhooksType</code> with <code>hidden.admissionregistration.v1beta1.webhook.new()</code>.</p>
 

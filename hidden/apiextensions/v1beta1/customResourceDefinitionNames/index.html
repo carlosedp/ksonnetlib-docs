@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionNames.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionNames.withCategories">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCategoriesfunction(categories) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(categories) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { categories<span style="color:#666">:</span> categories } <span style="color:#007020;font-weight:bold">else</span> { categories<span style="color:#666">:</span> [categories] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCategories(categories)
 </code></pre></div></div><p>Categories is a list of grouped resources custom resources belong to (e.g. &lsquo;all&rsquo;)</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionNames.withCategoriesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCategoriesMixinfunction(categories) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(categories) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { categories<span style="color:#666">+:</span> categories } <span style="color:#007020;font-weight:bold">else</span> { categories<span style="color:#666">+:</span> [categories] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCategoriesMixin(categories)
 </code></pre></div></div><p>Categories is a list of grouped resources custom resources belong to (e.g. &lsquo;all&rsquo;)</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionNames.withKind">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKindfunction(kind) self <span style="color:#666">+</span> { kind<span style="color:#666">:</span> kind }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKind(kind)
 </code></pre></div></div><p>Kind is the serialized kind of the resource.  It is normally CamelCase and singular.</p></p>
 
 
@@ -190,7 +190,7 @@
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionNames.withListKind">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withListKindfunction(listKind) self <span style="color:#666">+</span> { listKind<span style="color:#666">:</span> listKind }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withListKind(listKind)
 </code></pre></div></div><p>ListKind is the serialized kind of the list for this resource.  Defaults to <kind>List.</p></p>
 
 
@@ -218,7 +218,7 @@
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionNames.withPlural">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPluralfunction(plural) self <span style="color:#666">+</span> { plural<span style="color:#666">:</span> plural }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPlural(plural)
 </code></pre></div></div><p>Plural is the plural name of the resource to serve.  It must match the name of the CustomResourceDefinition-registration too: plural.group and it must be all lowercase.</p></p>
 
 
@@ -246,7 +246,7 @@
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionNames.withShortNames">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShortNamesfunction(shortNames) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(shortNames) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { shortNames<span style="color:#666">:</span> shortNames } <span style="color:#007020;font-weight:bold">else</span> { shortNames<span style="color:#666">:</span> [shortNames] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShortNames(shortNames)
 </code></pre></div></div><p>ShortNames are short names for the resource.  It must be all lowercase.</p></p>
 
 
@@ -274,7 +274,7 @@
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionNames.withShortNamesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShortNamesMixinfunction(shortNames) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(shortNames) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { shortNames<span style="color:#666">+:</span> shortNames } <span style="color:#007020;font-weight:bold">else</span> { shortNames<span style="color:#666">+:</span> [shortNames] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShortNamesMixin(shortNames)
 </code></pre></div></div><p>ShortNames are short names for the resource.  It must be all lowercase.</p></p>
 
 
@@ -302,7 +302,7 @@
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionNames.withSingular">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSingularfunction(singular) self <span style="color:#666">+</span> { singular<span style="color:#666">:</span> singular }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSingular(singular)
 </code></pre></div></div><p>Singular is the singular name of the resource.  It must be all lowercase  Defaults to lowercased <kind></p></p>
 
 

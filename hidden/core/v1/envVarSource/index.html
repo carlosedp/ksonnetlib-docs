@@ -109,7 +109,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.envVarSource.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -173,7 +173,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.envVarSource.configMapKeyRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(configMapKeyRef) __configMapKeyRefMixin(configMapKeyRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(configMapKeyRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -201,7 +201,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.envVarSource.configMapKeyRef.withKey">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKeyfunction(key) self <span style="color:#666">+</span> __configMapKeyRefMixin({ key<span style="color:#666">:</span> key })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKey(key)
 </code></pre></div></div><p>The key to select.</p></p>
 
 
@@ -229,7 +229,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.envVarSource.configMapKeyRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __configMapKeyRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</a></p></p>
 
 
@@ -257,7 +257,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.envVarSource.configMapKeyRef.withOptional">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptionalfunction(optional) self <span style="color:#666">+</span> __configMapKeyRefMixin({ optional<span style="color:#666">:</span> optional })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptional(optional)
 </code></pre></div></div><p>Specify whether the ConfigMap or it&rsquo;s key must be defined</p></p>
 
 
@@ -317,7 +317,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.envVarSource.fieldRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(fieldRef) __fieldRefMixin(fieldRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(fieldRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -345,7 +345,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.envVarSource.fieldRef.withFieldPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPathfunction(fieldPath) self <span style="color:#666">+</span> __fieldRefMixin({ fieldPath<span style="color:#666">:</span> fieldPath })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPath(fieldPath)
 </code></pre></div></div><p>Path of the field to select in the specified API version.</p></p>
 
 
@@ -405,7 +405,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.envVarSource.resourceFieldRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(resourceFieldRef) __resourceFieldRefMixin(resourceFieldRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(resourceFieldRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -433,7 +433,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.envVarSource.resourceFieldRef.withContainerName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerNamefunction(containerName) self <span style="color:#666">+</span> __resourceFieldRefMixin({ containerName<span style="color:#666">:</span> containerName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerName(containerName)
 </code></pre></div></div><p>Container name: required for volumes, optional for env vars</p></p>
 
 
@@ -461,7 +461,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.envVarSource.resourceFieldRef.withResource">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourcefunction(resource) self <span style="color:#666">+</span> __resourceFieldRefMixin({ resource<span style="color:#666">:</span> resource })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResource(resource)
 </code></pre></div></div><p>Required: resource to select</p></p>
 
 
@@ -520,7 +520,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.envVarSource.resourceFieldRef.divisor.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(divisor) __divisorMixin(divisor)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(divisor)
 </code></pre></div></div><p></p></p>
 
 
@@ -586,7 +586,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.envVarSource.secretKeyRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(secretKeyRef) __secretKeyRefMixin(secretKeyRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(secretKeyRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -614,7 +614,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.envVarSource.secretKeyRef.withKey">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKeyfunction(key) self <span style="color:#666">+</span> __secretKeyRefMixin({ key<span style="color:#666">:</span> key })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKey(key)
 </code></pre></div></div><p>The key of the secret to select from.  Must be a valid secret key.</p></p>
 
 
@@ -642,7 +642,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.envVarSource.secretKeyRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __secretKeyRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</a></p></p>
 
 
@@ -670,7 +670,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.envVarSource.secretKeyRef.withOptional">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptionalfunction(optional) self <span style="color:#666">+</span> __secretKeyRefMixin({ optional<span style="color:#666">:</span> optional })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptional(optional)
 </code></pre></div></div><p>Specify whether the Secret or it&rsquo;s key must be defined</p></p>
 
 

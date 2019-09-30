@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyEgressRule.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyEgressRule.withPorts">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsfunction(ports) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ports) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ports<span style="color:#666">:</span> ports } <span style="color:#007020;font-weight:bold">else</span> { ports<span style="color:#666">:</span> [ports] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPorts(ports)
 </code></pre></div></div><p>List of destination ports for outgoing traffic. Each item in this list is combined using a logical OR. If this field is empty or missing, this rule matches all ports (traffic not restricted by port). If this field is present and contains at least one item, then this rule allows traffic only if the traffic matches at least one port in the list.</p><code>withPorts</code> takes an array of type <code>portsType</code>. You can create
 an instance of <code>portsType</code> with <code>hidden.networking.v1.networkPolicyPort.new()</code>.</p>
 
@@ -137,7 +137,7 @@ an instance of <code>portsType</code> with <code>hidden.networking.v1.networkPol
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyEgressRule.withPortsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsMixinfunction(ports) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ports) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ports<span style="color:#666">+:</span> ports } <span style="color:#007020;font-weight:bold">else</span> { ports<span style="color:#666">+:</span> [ports] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsMixin(ports)
 </code></pre></div></div><p>List of destination ports for outgoing traffic. Each item in this list is combined using a logical OR. If this field is empty or missing, this rule matches all ports (traffic not restricted by port). If this field is present and contains at least one item, then this rule allows traffic only if the traffic matches at least one port in the list.</p><code>withPortsMixin</code> takes an array of type <code>portsType</code>. You can create
 an instance of <code>portsType</code> with <code>hidden.networking.v1.networkPolicyPort.new()</code>.</p>
 
@@ -168,7 +168,7 @@ an instance of <code>portsType</code> with <code>hidden.networking.v1.networkPol
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyEgressRule.withTo">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTofunction(to) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(to) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { to<span style="color:#666">:</span> to } <span style="color:#007020;font-weight:bold">else</span> { to<span style="color:#666">:</span> [to] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTo(to)
 </code></pre></div></div><p>List of destinations for outgoing traffic of pods selected for this rule. Items in this list are combined using a logical OR operation. If this field is empty or missing, this rule matches all destinations (traffic not restricted by destination). If this field is present and contains at least one item, this rule allows traffic only if the traffic matches at least one item in the to list.</p><code>withTo</code> takes an array of type <code>toType</code>. You can create
 an instance of <code>toType</code> with <code>hidden.networking.v1.networkPolicyPeer.new()</code>.</p>
 
@@ -199,7 +199,7 @@ an instance of <code>toType</code> with <code>hidden.networking.v1.networkPolicy
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyEgressRule.withToMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withToMixinfunction(to) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(to) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { to<span style="color:#666">+:</span> to } <span style="color:#007020;font-weight:bold">else</span> { to<span style="color:#666">+:</span> [to] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withToMixin(to)
 </code></pre></div></div><p>List of destinations for outgoing traffic of pods selected for this rule. Items in this list are combined using a logical OR operation. If this field is empty or missing, this rule matches all destinations (traffic not restricted by destination). If this field is present and contains at least one item, this rule allows traffic only if the traffic matches at least one item in the to list.</p><code>withToMixin</code> takes an array of type <code>toType</code>. You can create
 an instance of <code>toType</code> with <code>hidden.networking.v1.networkPolicyPeer.new()</code>.</p>
 
