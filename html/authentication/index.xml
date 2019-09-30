@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authentications on ksonnet lib API Documentation</title>
+    <link>http://example.org/authentication/</link>
+    <description>Recent content in Authentications on ksonnet lib API Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 14:37:46 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/authentication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>new</title>
+      <link>http://example.org/authentication/v1/tokenReview/new/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/new/</guid>
+      <description>newfunction(token=&amp;#39;&amp;#39;) apiVersion + kind + self.mixin.spec.withToken(token)</description>
+    </item>
+    
+    <item>
+      <title>new</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/new/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/new/</guid>
+      <description>newfunction(token=&amp;#39;&amp;#39;) apiVersion + kind + self.mixin.spec.withToken(token)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/initializers/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/initializers/mixinInstance/</guid>
+      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/mixinInstance/</guid>
+      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/authentication/v1/tokenReview/spec/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/spec/mixinInstance/</guid>
+      <description>mixinInstancefunction(spec) __specMixin(spec)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/initializers/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/initializers/mixinInstance/</guid>
+      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/mixinInstance/</guid>
+      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/spec/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/spec/mixinInstance/</guid>
+      <description>mixinInstancefunction(spec) __specMixin(spec)</description>
+    </item>
+    
+    <item>
+      <title>withAnnotations</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/withAnnotations/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/withAnnotations/</guid>
+      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotations</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/withAnnotations/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/withAnnotations/</guid>
+      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotationsMixin</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/withAnnotationsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/withAnnotationsMixin/</guid>
+      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotationsMixin</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/withAnnotationsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/withAnnotationsMixin/</guid>
+      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAudiences</title>
+      <link>http://example.org/authentication/v1/tokenReview/spec/withAudiences/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/spec/withAudiences/</guid>
+      <description>withAudiencesfunction(audiences) self + if std.type(audiences) == &amp;#39;array&amp;#39; then __specMixin({ audiences: audiences }) else __specMixin({ audiences: [audiences] }) Audiences is a list of the identifiers that the resource server presented with the token identifies as. Audience-aware token authenticators will verify that the token was intended for at least one of the audiences in this list. If no audiences are provided, the audience will default to the audience of the Kubernetes apiserver.</description>
+    </item>
+    
+    <item>
+      <title>withAudiences</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/spec/withAudiences/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/spec/withAudiences/</guid>
+      <description>withAudiencesfunction(audiences) self + if std.type(audiences) == &amp;#39;array&amp;#39; then __specMixin({ audiences: audiences }) else __specMixin({ audiences: [audiences] }) Audiences is a list of the identifiers that the resource server presented with the token identifies as. Audience-aware token authenticators will verify that the token was intended for at least one of the audiences in this list. If no audiences are provided, the audience will default to the audience of the Kubernetes apiserver.</description>
+    </item>
+    
+    <item>
+      <title>withAudiencesMixin</title>
+      <link>http://example.org/authentication/v1/tokenReview/spec/withAudiencesMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/spec/withAudiencesMixin/</guid>
+      <description>withAudiencesMixinfunction(audiences) self + if std.type(audiences) == &amp;#39;array&amp;#39; then __specMixin({ audiences+: audiences }) else __specMixin({ audiences+: [audiences] }) Audiences is a list of the identifiers that the resource server presented with the token identifies as. Audience-aware token authenticators will verify that the token was intended for at least one of the audiences in this list. If no audiences are provided, the audience will default to the audience of the Kubernetes apiserver.</description>
+    </item>
+    
+    <item>
+      <title>withAudiencesMixin</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/spec/withAudiencesMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/spec/withAudiencesMixin/</guid>
+      <description>withAudiencesMixinfunction(audiences) self + if std.type(audiences) == &amp;#39;array&amp;#39; then __specMixin({ audiences+: audiences }) else __specMixin({ audiences+: [audiences] }) Audiences is a list of the identifiers that the resource server presented with the token identifies as. Audience-aware token authenticators will verify that the token was intended for at least one of the audiences in this list. If no audiences are provided, the audience will default to the audience of the Kubernetes apiserver.</description>
+    </item>
+    
+    <item>
+      <title>withClusterName</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/withClusterName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/withClusterName/</guid>
+      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+    </item>
+    
+    <item>
+      <title>withClusterName</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/withClusterName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/withClusterName/</guid>
+      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizers</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/withFinalizers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/withFinalizers/</guid>
+      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizers</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/withFinalizers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/withFinalizers/</guid>
+      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizersMixin</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/withFinalizersMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/withFinalizersMixin/</guid>
+      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizersMixin</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/withFinalizersMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/withFinalizersMixin/</guid>
+      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withGenerateName</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/withGenerateName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/withGenerateName/</guid>
+      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+    </item>
+    
+    <item>
+      <title>withGenerateName</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/withGenerateName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/withGenerateName/</guid>
+      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+    </item>
+    
+    <item>
+      <title>withLabels</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/withLabels/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/withLabels/</guid>
+      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabels</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/withLabels/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/withLabels/</guid>
+      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabelsMixin</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/withLabelsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/withLabelsMixin/</guid>
+      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabelsMixin</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/withLabelsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/withLabelsMixin/</guid>
+      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withManagedFields</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/withManagedFields/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/withManagedFields/</guid>
+      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFields</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/withManagedFields/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/withManagedFields/</guid>
+      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFieldsMixin</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/withManagedFieldsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/withManagedFieldsMixin/</guid>
+      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFieldsMixin</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/withManagedFieldsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/withManagedFieldsMixin/</guid>
+      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withName</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/withName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/withName/</guid>
+      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+    </item>
+    
+    <item>
+      <title>withName</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/withName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/withName/</guid>
+      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+    </item>
+    
+    <item>
+      <title>withNamespace</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/withNamespace/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/withNamespace/</guid>
+      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+
+Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
+    </item>
+    
+    <item>
+      <title>withNamespace</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/withNamespace/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/withNamespace/</guid>
+      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+
+Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferences</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/withOwnerReferences/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/withOwnerReferences/</guid>
+      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferences</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/withOwnerReferences/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/withOwnerReferences/</guid>
+      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferencesMixin</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/withOwnerReferencesMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/withOwnerReferencesMixin/</guid>
+      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferencesMixin</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/withOwnerReferencesMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/withOwnerReferencesMixin/</guid>
+      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withPending</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/initializers/withPending/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/initializers/withPending/</guid>
+      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPending</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/initializers/withPending/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/initializers/withPending/</guid>
+      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPendingMixin</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/initializers/withPendingMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/initializers/withPendingMixin/</guid>
+      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPendingMixin</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/initializers/withPendingMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/initializers/withPendingMixin/</guid>
+      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withToken</title>
+      <link>http://example.org/authentication/v1/tokenReview/spec/withToken/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/spec/withToken/</guid>
+      <description>withTokenfunction(token) self + __specMixin({ token: token }) Token is the opaque bearer token.</description>
+    </item>
+    
+    <item>
+      <title>withToken</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/spec/withToken/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/spec/withToken/</guid>
+      <description>withTokenfunction(token) self + __specMixin({ token: token }) Token is the opaque bearer token.</description>
+    </item>
+    
+    <item>
+      <title>initializers</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/initializers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/initializers/</guid>
+      <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
+
+When an object is created, the system will populate this list with the current set of initializers.</description>
+    </item>
+    
+    <item>
+      <title>initializers</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/initializers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/initializers/</guid>
+      <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
+
+When an object is created, the system will populate this list with the current set of initializers.</description>
+    </item>
+    
+    <item>
+      <title>metadata</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metadata</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spec</title>
+      <link>http://example.org/authentication/v1/tokenReview/spec/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/spec/</guid>
+      <description>Spec holds information about the request being evaluated</description>
+    </item>
+    
+    <item>
+      <title>spec</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/spec/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/spec/</guid>
+      <description>Spec holds information about the request being evaluated</description>
+    </item>
+    
+    <item>
+      <title>initializersType</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/initializersType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/initializersType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>initializersType</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/initializersType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/initializersType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>managedFieldsType</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/managedFieldsType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/managedFieldsType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>managedFieldsType</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/managedFieldsType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/managedFieldsType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metadataType</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadataType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadataType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metadataType</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadataType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadataType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ownerReferencesType</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/ownerReferencesType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/ownerReferencesType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ownerReferencesType</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/ownerReferencesType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/ownerReferencesType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pendingType</title>
+      <link>http://example.org/authentication/v1/tokenReview/metadata/initializers/pendingType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/metadata/initializers/pendingType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pendingType</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/metadata/initializers/pendingType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/metadata/initializers/pendingType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>specType</title>
+      <link>http://example.org/authentication/v1/tokenReview/specType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/specType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>specType</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/specType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:46 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/specType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tokenReview</title>
+      <link>http://example.org/authentication/tokenReview/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/tokenReview/</guid>
+      <description>TokenReview attempts to authenticate a token to a known user.  TokenReview attempts to authenticate a token to a known user.  </description>
+    </item>
+    
+    <item>
+      <title>tokenReview</title>
+      <link>http://example.org/authentication/v1/tokenReview/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1/tokenReview/</guid>
+      <description>TokenReview attempts to authenticate a token to a known user. Note: TokenReview requests may be cached by the webhook token authenticator plugin in the kube-apiserver.</description>
+    </item>
+    
+    <item>
+      <title>tokenReview</title>
+      <link>http://example.org/authentication/v1beta1/tokenReview/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/authentication/v1beta1/tokenReview/</guid>
+      <description>TokenReview attempts to authenticate a token to a known user. Note: TokenReview requests may be cached by the webhook token authenticator plugin in the kube-apiserver.</description>
+    </item>
+    
+  </channel>
+</rss>

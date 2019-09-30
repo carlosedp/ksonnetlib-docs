@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                        <li>
+                            <a href="#core.v1.containerState.running">running</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#core.v1.containerState.terminated">terminated</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#core.v1.containerState.waiting">waiting</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>containerState</h1>
+            <p>ContainerState holds a possible state of container. Only one of its members may be specified. If none of them is specified, the default one is ContainerStateWaiting.</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.containerState.new">
+            new
+            <a data-toggle="collapse" href="#core.v1.containerState.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+
+
+            
+            
+                <h5>Mixins</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.containerState.running">
+            running
+            <a data-toggle="collapse" href="#core.v1.containerState.running" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.running">
+        <p>Details about a running container</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.containerState.running.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.containerState.running.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.running.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(running) __runningMixin(running)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.containerState.running.withStartedAt">
+            withStartedAt
+            <a data-toggle="collapse" href="#core.v1.containerState.running.withStartedAt" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.running.withStartedAt">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStartedAtfunction(startedAt) self <span style="color:#666">+</span> __runningMixin({ startedAt<span style="color:#666">:</span> startedAt })
+</code></pre></div></div><p>Time at which the container was last (re-)started</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.containerState.terminated">
+            terminated
+            <a data-toggle="collapse" href="#core.v1.containerState.terminated" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.terminated">
+        <p>Details about a terminated container</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.containerState.terminated.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.containerState.terminated.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.terminated.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(terminated) __terminatedMixin(terminated)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.containerState.terminated.withContainerId">
+            withContainerId
+            <a data-toggle="collapse" href="#core.v1.containerState.terminated.withContainerId" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.terminated.withContainerId">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerIdfunction(containerId) self <span style="color:#666">+</span> __terminatedMixin({ containerID<span style="color:#666">:</span> containerId })
+</code></pre></div></div><p>Container&rsquo;s ID in the format &lsquo;docker://<container_id>&lsquo;</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.containerState.terminated.withExitCode">
+            withExitCode
+            <a data-toggle="collapse" href="#core.v1.containerState.terminated.withExitCode" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.terminated.withExitCode">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExitCodefunction(exitCode) self <span style="color:#666">+</span> __terminatedMixin({ exitCode<span style="color:#666">:</span> exitCode })
+</code></pre></div></div><p>Exit status from the last termination of the container</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.containerState.terminated.withFinishedAt">
+            withFinishedAt
+            <a data-toggle="collapse" href="#core.v1.containerState.terminated.withFinishedAt" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.terminated.withFinishedAt">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinishedAtfunction(finishedAt) self <span style="color:#666">+</span> __terminatedMixin({ finishedAt<span style="color:#666">:</span> finishedAt })
+</code></pre></div></div><p>Time at which the container last terminated</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.containerState.terminated.withMessage">
+            withMessage
+            <a data-toggle="collapse" href="#core.v1.containerState.terminated.withMessage" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.terminated.withMessage">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMessagefunction(message) self <span style="color:#666">+</span> __terminatedMixin({ message<span style="color:#666">:</span> message })
+</code></pre></div></div><p>Message regarding the last termination of the container</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.containerState.terminated.withReason">
+            withReason
+            <a data-toggle="collapse" href="#core.v1.containerState.terminated.withReason" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.terminated.withReason">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReasonfunction(reason) self <span style="color:#666">+</span> __terminatedMixin({ reason<span style="color:#666">:</span> reason })
+</code></pre></div></div><p>(brief) reason from the last termination of the container</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.containerState.terminated.withSignal">
+            withSignal
+            <a data-toggle="collapse" href="#core.v1.containerState.terminated.withSignal" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.terminated.withSignal">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSignalfunction(signal) self <span style="color:#666">+</span> __terminatedMixin({ signal<span style="color:#666">:</span> signal })
+</code></pre></div></div><p>Signal from the last termination of the container</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.containerState.terminated.withStartedAt">
+            withStartedAt
+            <a data-toggle="collapse" href="#core.v1.containerState.terminated.withStartedAt" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.terminated.withStartedAt">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStartedAtfunction(startedAt) self <span style="color:#666">+</span> __terminatedMixin({ startedAt<span style="color:#666">:</span> startedAt })
+</code></pre></div></div><p>Time at which previous execution of the container started</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.containerState.waiting">
+            waiting
+            <a data-toggle="collapse" href="#core.v1.containerState.waiting" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.waiting">
+        <p>Details about a waiting container</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.containerState.waiting.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.containerState.waiting.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.waiting.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(waiting) __waitingMixin(waiting)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.containerState.waiting.withMessage">
+            withMessage
+            <a data-toggle="collapse" href="#core.v1.containerState.waiting.withMessage" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.waiting.withMessage">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMessagefunction(message) self <span style="color:#666">+</span> __waitingMixin({ message<span style="color:#666">:</span> message })
+</code></pre></div></div><p>Message regarding why the container is not yet running.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.containerState.waiting.withReason">
+            withReason
+            <a data-toggle="collapse" href="#core.v1.containerState.waiting.withReason" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.containerState.waiting.withReason">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReasonfunction(reason) self <span style="color:#666">+</span> __waitingMixin({ reason<span style="color:#666">:</span> reason })
+</code></pre></div></div><p>(brief) reason the container is not yet running.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1415 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                        <li>
+                            <a href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion">conversion</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig">webhookClientConfig</a>
+            
+ <ul>
+    
+        <li>
+            <a href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service">service</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#apiextensions.v1beta1.customResourceDefinitionSpec.names">names</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#apiextensions.v1beta1.customResourceDefinitionSpec.subresources">subresources</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale">scale</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#apiextensions.v1beta1.customResourceDefinitionSpec.validation">validation</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>customResourceDefinitionSpec</h1>
+            <p>CustomResourceDefinitionSpec describes how a user wants their resource to appear</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.new">
+            new
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Functions</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.withAdditionalPrinterColumns">
+            withAdditionalPrinterColumns
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.withAdditionalPrinterColumns" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withAdditionalPrinterColumns">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdditionalPrinterColumnsfunction(additionalPrinterColumns) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(additionalPrinterColumns) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { additionalPrinterColumns<span style="color:#666">:</span> additionalPrinterColumns } <span style="color:#007020;font-weight:bold">else</span> { additionalPrinterColumns<span style="color:#666">:</span> [additionalPrinterColumns] }
+</code></pre></div></div><p>AdditionalPrinterColumns are additional columns shown e.g. in kubectl next to the name. Defaults to a created-at column. Optional, the global columns for all versions. Top-level and per-version columns are mutually exclusive.</p><code>withAdditionalPrinterColumns</code> takes an array of type <code>additionalPrinterColumnsType</code>. You can create
+an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiextensions.v1beta1.customResourceColumnDefinition.new()</code>.</p>
+
+<p>see <a href="/hidden/apiextensions/v1beta1/customResourceColumnDefinition/">hidden.apiextensions.v1beta1.customResourceColumnDefinition</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.withAdditionalPrinterColumnsMixin">
+            withAdditionalPrinterColumnsMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.withAdditionalPrinterColumnsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withAdditionalPrinterColumnsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAdditionalPrinterColumnsMixinfunction(additionalPrinterColumns) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(additionalPrinterColumns) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { additionalPrinterColumns<span style="color:#666">+:</span> additionalPrinterColumns } <span style="color:#007020;font-weight:bold">else</span> { additionalPrinterColumns<span style="color:#666">+:</span> [additionalPrinterColumns] }
+</code></pre></div></div><p>AdditionalPrinterColumns are additional columns shown e.g. in kubectl next to the name. Defaults to a created-at column. Optional, the global columns for all versions. Top-level and per-version columns are mutually exclusive.</p><code>withAdditionalPrinterColumnsMixin</code> takes an array of type <code>additionalPrinterColumnsType</code>. You can create
+an instance of <code>additionalPrinterColumnsType</code> with <code>hidden.apiextensions.v1beta1.customResourceColumnDefinition.new()</code>.</p>
+
+<p>see <a href="/hidden/apiextensions/v1beta1/customResourceColumnDefinition/">hidden.apiextensions.v1beta1.customResourceColumnDefinition</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.withGroup">
+            withGroup
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.withGroup" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withGroup">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupfunction(group) self <span style="color:#666">+</span> { group<span style="color:#666">:</span> group }
+</code></pre></div></div><p>Group is the group this resource belongs in</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.withScope">
+            withScope
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.withScope" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withScope">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withScopefunction(scope) self <span style="color:#666">+</span> { scope<span style="color:#666">:</span> scope }
+</code></pre></div></div><p>Scope indicates whether this resource is cluster or namespace scoped.  Default is namespaced</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.withVersion">
+            withVersion
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.withVersion" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withVersion">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersionfunction(version) self <span style="color:#666">+</span> { version<span style="color:#666">:</span> version }
+</code></pre></div></div><p>Version is the version this resource belongs in Should be always first item in Versions field if provided. Optional, but at least one of Version or Versions must be set. Deprecated: Please use <code>Versions</code>.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.withVersions">
+            withVersions
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.withVersions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withVersions">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersionsfunction(versions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(versions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { versions<span style="color:#666">:</span> versions } <span style="color:#007020;font-weight:bold">else</span> { versions<span style="color:#666">:</span> [versions] }
+</code></pre></div></div><p>Versions is the list of all supported versions for this resource. If Version field is provided, this field is optional. Validation: All versions must use the same validation schema for now. i.e., top level Validation field is applied to all of these versions. Order: The version name will be used to compute the order. If the version string is &ldquo;kube-like&rdquo;, it will sort above non &ldquo;kube-like&rdquo; version strings, which are ordered lexicographically. &ldquo;Kube-like&rdquo; versions start with a &ldquo;v&rdquo;, then are followed by a number (the major version), then optionally the string &ldquo;alpha&rdquo; or &ldquo;beta&rdquo; and another number (the minor version). These are sorted first by GA &gt; beta &gt; alpha (where GA is a version with no suffix such as beta or alpha), and then by comparing major version, then minor version. An example sorted list of versions: v10, v2, v1, v11beta2, v10beta3, v3beta1, v12alpha1, v11alpha2, foo1, foo10.</p><code>withVersions</code> takes an array of type <code>versionsType</code>. You can create
+an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1.customResourceDefinitionVersion.new()</code>.</p>
+
+<p>see <a href="/hidden/apiextensions/v1beta1/customResourceDefinitionVersion/">hidden.apiextensions.v1beta1.customResourceDefinitionVersion</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.withVersionsMixin">
+            withVersionsMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.withVersionsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.withVersionsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVersionsMixinfunction(versions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(versions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { versions<span style="color:#666">+:</span> versions } <span style="color:#007020;font-weight:bold">else</span> { versions<span style="color:#666">+:</span> [versions] }
+</code></pre></div></div><p>Versions is the list of all supported versions for this resource. If Version field is provided, this field is optional. Validation: All versions must use the same validation schema for now. i.e., top level Validation field is applied to all of these versions. Order: The version name will be used to compute the order. If the version string is &ldquo;kube-like&rdquo;, it will sort above non &ldquo;kube-like&rdquo; version strings, which are ordered lexicographically. &ldquo;Kube-like&rdquo; versions start with a &ldquo;v&rdquo;, then are followed by a number (the major version), then optionally the string &ldquo;alpha&rdquo; or &ldquo;beta&rdquo; and another number (the minor version). These are sorted first by GA &gt; beta &gt; alpha (where GA is a version with no suffix such as beta or alpha), and then by comparing major version, then minor version. An example sorted list of versions: v10, v2, v1, v11beta2, v10beta3, v3beta1, v12alpha1, v11alpha2, foo1, foo10.</p><code>withVersionsMixin</code> takes an array of type <code>versionsType</code>. You can create
+an instance of <code>versionsType</code> with <code>hidden.apiextensions.v1beta1.customResourceDefinitionVersion.new()</code>.</p>
+
+<p>see <a href="/hidden/apiextensions/v1beta1/customResourceDefinitionVersion/">hidden.apiextensions.v1beta1.customResourceDefinitionVersion</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Mixins</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.conversion">
+            conversion
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion">
+        <p>`conversion` defines conversion settings for the CRD.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(conversion) __conversionMixin(conversion)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.withConversionReviewVersions">
+            withConversionReviewVersions
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.withConversionReviewVersions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.withConversionReviewVersions">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConversionReviewVersionsfunction(conversionReviewVersions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conversionReviewVersions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __conversionMixin({ conversionReviewVersions<span style="color:#666">:</span> conversionReviewVersions }) <span style="color:#007020;font-weight:bold">else</span> __conversionMixin({ conversionReviewVersions<span style="color:#666">:</span> [conversionReviewVersions] })
+</code></pre></div></div><p>ConversionReviewVersions is an ordered list of preferred <code>ConversionReview</code> versions the Webhook expects. API server will try to use first version in the list which it supports. If none of the versions specified in this list supported by API server, conversion will fail for this object. If a persisted Webhook configuration specifies allowed versions and does not include any versions known to the API Server, calls to the webhook will fail. Default to <code>['v1beta1']</code>.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.withConversionReviewVersionsMixin">
+            withConversionReviewVersionsMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.withConversionReviewVersionsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.withConversionReviewVersionsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConversionReviewVersionsMixinfunction(conversionReviewVersions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conversionReviewVersions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __conversionMixin({ conversionReviewVersions<span style="color:#666">+:</span> conversionReviewVersions }) <span style="color:#007020;font-weight:bold">else</span> __conversionMixin({ conversionReviewVersions<span style="color:#666">+:</span> [conversionReviewVersions] })
+</code></pre></div></div><p>ConversionReviewVersions is an ordered list of preferred <code>ConversionReview</code> versions the Webhook expects. API server will try to use first version in the list which it supports. If none of the versions specified in this list supported by API server, conversion will fail for this object. If a persisted Webhook configuration specifies allowed versions and does not include any versions known to the API Server, calls to the webhook will fail. Default to <code>['v1beta1']</code>.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.withStrategy">
+            withStrategy
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.withStrategy" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.withStrategy">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStrategyfunction(strategy) self <span style="color:#666">+</span> __conversionMixin({ strategy<span style="color:#666">:</span> strategy })
+</code></pre></div></div><p><code>strategy</code> specifies the conversion strategy. Allowed values are: - <code>None</code>: The converter only change the apiVersion and would not touch any other field in the CR. - <code>Webhook</code>: API Server will call to an external webhook to do the conversion. Additional information is needed for this option.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig">
+            webhookClientConfig
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig">
+        <p>`webhookClientConfig` is the instructions for how to call the webhook if strategy is `Webhook`. This field is alpha-level and is only honored by servers that enable the CustomResourceWebhookConversion feature.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(webhookClientConfig) __webhookClientConfigMixin(webhookClientConfig)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.withCaBundle">
+            withCaBundle
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.withCaBundle" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.withCaBundle">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCaBundlefunction(caBundle) self <span style="color:#666">+</span> __webhookClientConfigMixin({ caBundle<span style="color:#666">:</span> caBundle })
+</code></pre></div></div><p><code>caBundle</code> is a PEM encoded CA bundle which will be used to validate the webhook&rsquo;s server certificate. If unspecified, system trust roots on the apiserver are used.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.withUrl">
+            withUrl
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.withUrl" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.withUrl">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUrlfunction(url) self <span style="color:#666">+</span> __webhookClientConfigMixin({ url<span style="color:#666">:</span> url })
+</code></pre></div></div><p><code>url</code> gives the location of the webhook, in standard URL form (<code>scheme://host:port/path</code>). Exactly one of <code>url</code> or <code>service</code> must be specified.</p><p></p><p>The <code>host</code> should not refer to a service running in the cluster; use the <code>service</code> field instead. The host might be resolved via external DNS in some apiservers (e.g., <code>kube-apiserver</code> cannot resolve in-cluster DNS as that would be a layering violation). <code>host</code> may also be an IP address.</p><p></p><p>Please note that using <code>localhost</code> or <code>127.0.0.1</code> as a <code>host</code> is risky unless you take great care to run this webhook on all hosts which run an apiserver which might need to make calls to this webhook. Such installs are likely to be non-portable, i.e., not easy to turn up in a new cluster.</p><p></p><p>The scheme must be &ldquo;https&rdquo;; the URL must begin with &ldquo;https://&ldquo;.</p><p></p><p>A path is optional, and if present may be any string permissible in a URL. You may use the path to pass an arbitrary string to the webhook, for example, a cluster identifier.</p><p></p><p>Attempting to use a user or basic auth e.g. &ldquo;user:password@&rdquo; is not allowed. Fragments (&ldquo;#&hellip;&rdquo;) and query parameters (&ldquo;?&hellip;&rdquo;) are not allowed, either.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service">
+            service
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service">
+        <p>`service` is a reference to the service for this webhook. Either `service` or `url` must be specified.</p><p></p><p>If the webhook is running within the cluster, then you should use `service`.</p><p></p><p>Port 443 will be used if it is open, otherwise it is an error.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(service) __serviceMixin(service)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withName">
+            withName
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __serviceMixin({ name<span style="color:#666">:</span> name })
+</code></pre></div></div><p><code>name</code> is the name of the service. Required</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withNamespace">
+            withNamespace
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withNamespace" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withNamespace">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __serviceMixin({ namespace<span style="color:#666">:</span> namespace })
+</code></pre></div></div><p><code>namespace</code> is the namespace of the service. Required</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withPath">
+            withPath
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withPath" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.conversion.webhookClientConfig.service.withPath">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __serviceMixin({ path<span style="color:#666">:</span> path })
+</code></pre></div></div><p><code>path</code> is an optional URL path which will be sent in any request to this service.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.names">
+            names
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.names" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names">
+        <p>Names are the names used to describe this custom resource</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.names.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.names.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(names) __namesMixin(names)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.names.withCategories">
+            withCategories
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.names.withCategories" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withCategories">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCategoriesfunction(categories) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(categories) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __namesMixin({ categories<span style="color:#666">:</span> categories }) <span style="color:#007020;font-weight:bold">else</span> __namesMixin({ categories<span style="color:#666">:</span> [categories] })
+</code></pre></div></div><p>Categories is a list of grouped resources custom resources belong to (e.g. &lsquo;all&rsquo;)</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.names.withCategoriesMixin">
+            withCategoriesMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.names.withCategoriesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withCategoriesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCategoriesMixinfunction(categories) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(categories) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __namesMixin({ categories<span style="color:#666">+:</span> categories }) <span style="color:#007020;font-weight:bold">else</span> __namesMixin({ categories<span style="color:#666">+:</span> [categories] })
+</code></pre></div></div><p>Categories is a list of grouped resources custom resources belong to (e.g. &lsquo;all&rsquo;)</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.names.withKind">
+            withKind
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.names.withKind" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withKind">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKindfunction(kind) self <span style="color:#666">+</span> __namesMixin({ kind<span style="color:#666">:</span> kind })
+</code></pre></div></div><p>Kind is the serialized kind of the resource.  It is normally CamelCase and singular.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.names.withListKind">
+            withListKind
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.names.withListKind" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withListKind">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withListKindfunction(listKind) self <span style="color:#666">+</span> __namesMixin({ listKind<span style="color:#666">:</span> listKind })
+</code></pre></div></div><p>ListKind is the serialized kind of the list for this resource.  Defaults to <kind>List.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.names.withPlural">
+            withPlural
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.names.withPlural" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withPlural">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPluralfunction(plural) self <span style="color:#666">+</span> __namesMixin({ plural<span style="color:#666">:</span> plural })
+</code></pre></div></div><p>Plural is the plural name of the resource to serve.  It must match the name of the CustomResourceDefinition-registration too: plural.group and it must be all lowercase.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.names.withShortNames">
+            withShortNames
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.names.withShortNames" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withShortNames">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShortNamesfunction(shortNames) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(shortNames) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __namesMixin({ shortNames<span style="color:#666">:</span> shortNames }) <span style="color:#007020;font-weight:bold">else</span> __namesMixin({ shortNames<span style="color:#666">:</span> [shortNames] })
+</code></pre></div></div><p>ShortNames are short names for the resource.  It must be all lowercase.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.names.withShortNamesMixin">
+            withShortNamesMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.names.withShortNamesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withShortNamesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShortNamesMixinfunction(shortNames) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(shortNames) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __namesMixin({ shortNames<span style="color:#666">+:</span> shortNames }) <span style="color:#007020;font-weight:bold">else</span> __namesMixin({ shortNames<span style="color:#666">+:</span> [shortNames] })
+</code></pre></div></div><p>ShortNames are short names for the resource.  It must be all lowercase.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.names.withSingular">
+            withSingular
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.names.withSingular" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.names.withSingular">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSingularfunction(singular) self <span style="color:#666">+</span> __namesMixin({ singular<span style="color:#666">:</span> singular })
+</code></pre></div></div><p>Singular is the singular name of the resource.  It must be all lowercase  Defaults to lowercased <kind></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.subresources">
+            subresources
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.subresources" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.subresources">
+        <p>Subresources describes the subresources for CustomResource Optional, the global subresources for all versions. Top-level and per-version subresources are mutually exclusive.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.subresources.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(subresources) __subresourcesMixin(subresources)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale">
+            scale
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale">
+        <p>Scale denotes the scale subresource for CustomResources</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(scale) __scaleMixin(scale)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.withLabelSelectorPath">
+            withLabelSelectorPath
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.withLabelSelectorPath" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.withLabelSelectorPath">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelSelectorPathfunction(labelSelectorPath) self <span style="color:#666">+</span> __scaleMixin({ labelSelectorPath<span style="color:#666">:</span> labelSelectorPath })
+</code></pre></div></div><p>LabelSelectorPath defines the JSON path inside of a CustomResource that corresponds to Scale.Status.Selector. Only JSON paths without the array notation are allowed. Must be a JSON Path under .status. Must be set to work with HPA. If there is no value under the given path in the CustomResource, the status label selector value in the /scale subresource will default to the empty string.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.withSpecReplicasPath">
+            withSpecReplicasPath
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.withSpecReplicasPath" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.withSpecReplicasPath">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSpecReplicasPathfunction(specReplicasPath) self <span style="color:#666">+</span> __scaleMixin({ specReplicasPath<span style="color:#666">:</span> specReplicasPath })
+</code></pre></div></div><p>SpecReplicasPath defines the JSON path inside of a CustomResource that corresponds to Scale.Spec.Replicas. Only JSON paths without the array notation are allowed. Must be a JSON Path under .spec. If there is no value under the given path in the CustomResource, the /scale subresource will return an error on GET.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.withStatusReplicasPath">
+            withStatusReplicasPath
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.withStatusReplicasPath" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.subresources.scale.withStatusReplicasPath">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStatusReplicasPathfunction(statusReplicasPath) self <span style="color:#666">+</span> __scaleMixin({ statusReplicasPath<span style="color:#666">:</span> statusReplicasPath })
+</code></pre></div></div><p>StatusReplicasPath defines the JSON path inside of a CustomResource that corresponds to Scale.Status.Replicas. Only JSON paths without the array notation are allowed. Must be a JSON Path under .status. If there is no value under the given path in the CustomResource, the status replica value in the /scale subresource will default to 0.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.validation">
+            validation
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.validation" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.validation">
+        <p>Validation describes the validation methods for CustomResources Optional, the global validation schema for all versions. Top-level and per-version schemas are mutually exclusive.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.validation.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.validation.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.validation.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(validation) __validationMixin(validation)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.validation.withOpenApiV3Schema">
+            withOpenApiV3Schema
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.validation.withOpenApiV3Schema" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.validation.withOpenApiV3Schema">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOpenApiV3Schemafunction(openApiV3Schema) self <span style="color:#666">+</span> __validationMixin({ openAPIV3Schema<span style="color:#666">:</span> openApiV3Schema })
+</code></pre></div></div><p>OpenAPIV3Schema is the OpenAPI v3 schema to be validated against.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.customResourceDefinitionSpec.validation.withOpenApiV3SchemaMixin">
+            withOpenApiV3SchemaMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.customResourceDefinitionSpec.validation.withOpenApiV3SchemaMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionSpec.validation.withOpenApiV3SchemaMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOpenApiV3SchemaMixinfunction(openApiV3Schema) self <span style="color:#666">+</span> __validationMixin({ openAPIV3Schema<span style="color:#666">+:</span> openApiV3Schema })
+</code></pre></div></div><p>OpenAPIV3Schema is the OpenAPI v3 schema to be validated against.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

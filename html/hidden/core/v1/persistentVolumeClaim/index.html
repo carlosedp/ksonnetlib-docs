@@ -1,0 +1,1461 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                        <li>
+                            <a href="#core.v1.persistentVolumeClaim.metadata">metadata</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#core.v1.persistentVolumeClaim.metadata.initializers">initializers</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#core.v1.persistentVolumeClaim.spec">spec</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#core.v1.persistentVolumeClaim.spec.dataSource">dataSource</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#core.v1.persistentVolumeClaim.spec.resources">resources</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#core.v1.persistentVolumeClaim.spec.selector">selector</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>persistentVolumeClaim</h1>
+            <p>PersistentVolumeClaim is a user&rsquo;s request for and claim to a persistent volume</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.new">
+            new
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() apiVersion <span style="color:#666">+</span> kind
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+
+
+            
+            
+                <h5>Mixins</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata">
+            metadata
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata">
+        <p>Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(metadata) __metadataMixin(metadata)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.withAnnotations">
+            withAnnotations
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.withAnnotations" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.withAnnotations">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsfunction(annotations) self <span style="color:#666">+</span> __metadataMixin({ annotations<span style="color:#666">:</span> annotations })
+</code></pre></div></div><p>Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: <a href="http://kubernetes.io/docs/user-guide/annotations">http://kubernetes.io/docs/user-guide/annotations</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.withAnnotationsMixin">
+            withAnnotationsMixin
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.withAnnotationsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.withAnnotationsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsMixinfunction(annotations) self <span style="color:#666">+</span> __metadataMixin({ annotations<span style="color:#666">+:</span> annotations })
+</code></pre></div></div><p>Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: <a href="http://kubernetes.io/docs/user-guide/annotations">http://kubernetes.io/docs/user-guide/annotations</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.withClusterName">
+            withClusterName
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.withClusterName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.withClusterName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterNamefunction(clusterName) self <span style="color:#666">+</span> __metadataMixin({ clusterName<span style="color:#666">:</span> clusterName })
+</code></pre></div></div><p>The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.withFinalizers">
+            withFinalizers
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.withFinalizers" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.withFinalizers">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersfunction(finalizers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(finalizers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ finalizers<span style="color:#666">:</span> finalizers }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ finalizers<span style="color:#666">:</span> [finalizers] })
+</code></pre></div></div><p>Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.withFinalizersMixin">
+            withFinalizersMixin
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.withFinalizersMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.withFinalizersMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersMixinfunction(finalizers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(finalizers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ finalizers<span style="color:#666">+:</span> finalizers }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ finalizers<span style="color:#666">+:</span> [finalizers] })
+</code></pre></div></div><p>Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.withGenerateName">
+            withGenerateName
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.withGenerateName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.withGenerateName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGenerateNamefunction(generateName) self <span style="color:#666">+</span> __metadataMixin({ generateName<span style="color:#666">:</span> generateName })
+</code></pre></div></div><p>GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</p><p></p><p>If this field is specified and the generated name exists, the server will NOT return a 409 - instead, it will either return 201 Created or 500 with Reason ServerTimeout indicating a unique name could not be found in the time allotted, and the client should retry (optionally after the time indicated in the Retry-After header).</p><p></p><p>Applied only if Name is not specified. More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#idempotency">https://git.k8s.io/community/contributors/devel/api-conventions.md#idempotency</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.withLabels">
+            withLabels
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.withLabels" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.withLabels">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsfunction(labels) self <span style="color:#666">+</span> __metadataMixin({ labels<span style="color:#666">:</span> labels })
+</code></pre></div></div><p>Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: <a href="http://kubernetes.io/docs/user-guide/labels">http://kubernetes.io/docs/user-guide/labels</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.withLabelsMixin">
+            withLabelsMixin
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.withLabelsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.withLabelsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsMixinfunction(labels) self <span style="color:#666">+</span> __metadataMixin({ labels<span style="color:#666">+:</span> labels })
+</code></pre></div></div><p>Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: <a href="http://kubernetes.io/docs/user-guide/labels">http://kubernetes.io/docs/user-guide/labels</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.withManagedFields">
+            withManagedFields
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.withManagedFields" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.withManagedFields">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsfunction(managedFields) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(managedFields) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ managedFields<span style="color:#666">:</span> managedFields }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ managedFields<span style="color:#666">:</span> [managedFields] })
+</code></pre></div></div><p>ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&rsquo;t need to set or understand this field. A workflow can be the user&rsquo;s name, a controller&rsquo;s name, or the name of a specific apply path like &ldquo;ci-cd&rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</p><p></p><p>This field is alpha and can be changed or removed without notice.</p><code>withManagedFields</code> takes an array of type <code>managedFieldsType</code>. You can create
+an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedFieldsEntry.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/managedFieldsEntry/">hidden.meta.v1.managedFieldsEntry</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.withManagedFieldsMixin">
+            withManagedFieldsMixin
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.withManagedFieldsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.withManagedFieldsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsMixinfunction(managedFields) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(managedFields) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ managedFields<span style="color:#666">+:</span> managedFields }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ managedFields<span style="color:#666">+:</span> [managedFields] })
+</code></pre></div></div><p>ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&rsquo;t need to set or understand this field. A workflow can be the user&rsquo;s name, a controller&rsquo;s name, or the name of a specific apply path like &ldquo;ci-cd&rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</p><p></p><p>This field is alpha and can be changed or removed without notice.</p><code>withManagedFieldsMixin</code> takes an array of type <code>managedFieldsType</code>. You can create
+an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedFieldsEntry.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/managedFieldsEntry/">hidden.meta.v1.managedFieldsEntry</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.withName">
+            withName
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __metadataMixin({ name<span style="color:#666">:</span> name })
+</code></pre></div></div><p>Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: <a href="http://kubernetes.io/docs/user-guide/identifiers#names">http://kubernetes.io/docs/user-guide/identifiers#names</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.withNamespace">
+            withNamespace
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.withNamespace" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.withNamespace">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __metadataMixin({ namespace<span style="color:#666">:</span> namespace })
+</code></pre></div></div><p>Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &ldquo;default&rdquo; namespace, but &ldquo;default&rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.</p><p></p><p>Must be a DNS_LABEL. Cannot be updated. More info: <a href="http://kubernetes.io/docs/user-guide/namespaces">http://kubernetes.io/docs/user-guide/namespaces</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.withOwnerReferences">
+            withOwnerReferences
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.withOwnerReferences" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.withOwnerReferences">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesfunction(ownerReferences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ownerReferences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ ownerReferences<span style="color:#666">:</span> ownerReferences }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ ownerReferences<span style="color:#666">:</span> [ownerReferences] })
+</code></pre></div></div><p>List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</p><code>withOwnerReferences</code> takes an array of type <code>ownerReferencesType</code>. You can create
+an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerReference.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/ownerReference/">hidden.meta.v1.ownerReference</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.withOwnerReferencesMixin">
+            withOwnerReferencesMixin
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.withOwnerReferencesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.withOwnerReferencesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesMixinfunction(ownerReferences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ownerReferences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ ownerReferences<span style="color:#666">+:</span> ownerReferences }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ ownerReferences<span style="color:#666">+:</span> [ownerReferences] })
+</code></pre></div></div><p>List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</p><code>withOwnerReferencesMixin</code> takes an array of type <code>ownerReferencesType</code>. You can create
+an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerReference.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/ownerReference/">hidden.meta.v1.ownerReference</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.initializers">
+            initializers
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.initializers" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.initializers">
+        <p>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven't explicitly asked to observe uninitialized objects.</p><p></p><p>When an object is created, the system will populate this list with the current set of initializers. Only privileged users may set or modify this list. Once it is empty, it may not be modified further by any user.</p><p></p><p>DEPRECATED - initializers are an alpha field and will be removed in v1.15.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.initializers.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.initializers.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.initializers.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(initializers) __initializersMixin(initializers)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.initializers.withPending">
+            withPending
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.initializers.withPending" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.initializers.withPending">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingfunction(pending) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(pending) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __initializersMixin({ pending<span style="color:#666">:</span> pending }) <span style="color:#007020;font-weight:bold">else</span> __initializersMixin({ pending<span style="color:#666">:</span> [pending] })
+</code></pre></div></div><p>Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.</p><code>withPending</code> takes an array of type <code>pendingType</code>. You can create
+an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/initializer/">hidden.meta.v1.initializer</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.metadata.initializers.withPendingMixin">
+            withPendingMixin
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.metadata.initializers.withPendingMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.metadata.initializers.withPendingMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingMixinfunction(pending) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(pending) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __initializersMixin({ pending<span style="color:#666">+:</span> pending }) <span style="color:#007020;font-weight:bold">else</span> __initializersMixin({ pending<span style="color:#666">+:</span> [pending] })
+</code></pre></div></div><p>Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.</p><code>withPendingMixin</code> takes an array of type <code>pendingType</code>. You can create
+an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/initializer/">hidden.meta.v1.initializer</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec">
+            spec
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec">
+        <p>Spec defines the desired characteristics of a volume requested by a pod author. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(spec) __specMixin(spec)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.withAccessModes">
+            withAccessModes
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.withAccessModes" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.withAccessModes">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAccessModesfunction(accessModes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(accessModes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ accessModes<span style="color:#666">:</span> accessModes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ accessModes<span style="color:#666">:</span> [accessModes] })
+</code></pre></div></div><p>AccessModes contains the desired access modes the volume should have. More info: <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1">https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.withAccessModesMixin">
+            withAccessModesMixin
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.withAccessModesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.withAccessModesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAccessModesMixinfunction(accessModes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(accessModes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ accessModes<span style="color:#666">+:</span> accessModes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ accessModes<span style="color:#666">+:</span> [accessModes] })
+</code></pre></div></div><p>AccessModes contains the desired access modes the volume should have. More info: <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1">https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.withStorageClassName">
+            withStorageClassName
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.withStorageClassName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.withStorageClassName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStorageClassNamefunction(storageClassName) self <span style="color:#666">+</span> __specMixin({ storageClassName<span style="color:#666">:</span> storageClassName })
+</code></pre></div></div><p>Name of the StorageClass required by the claim. More info: <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1">https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.withVolumeMode">
+            withVolumeMode
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.withVolumeMode" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.withVolumeMode">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeModefunction(volumeMode) self <span style="color:#666">+</span> __specMixin({ volumeMode<span style="color:#666">:</span> volumeMode })
+</code></pre></div></div><p>volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec. This is a beta feature.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.withVolumeName">
+            withVolumeName
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.withVolumeName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.withVolumeName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeNamefunction(volumeName) self <span style="color:#666">+</span> __specMixin({ volumeName<span style="color:#666">:</span> volumeName })
+</code></pre></div></div><p>VolumeName is the binding reference to the PersistentVolume backing this claim.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.dataSource">
+            dataSource
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.dataSource" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.dataSource">
+        <p>This field requires the VolumeSnapshotDataSource alpha feature gate to be enabled and currently VolumeSnapshot is the only supported data source. If the provisioner can support VolumeSnapshot data source, it will create a new volume and data will be restored to the volume at the same time. If the provisioner does not support VolumeSnapshot data source, volume will not be created and the failure will be reported as an event. In the future, we plan to support more data source types and the behavior of the provisioner may change.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.dataSource.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.dataSource.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.dataSource.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(dataSource) __dataSourceMixin(dataSource)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.dataSource.withApiGroup">
+            withApiGroup
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.dataSource.withApiGroup" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.dataSource.withApiGroup">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withApiGroupfunction(apiGroup) self <span style="color:#666">+</span> __dataSourceMixin({ apiGroup<span style="color:#666">:</span> apiGroup })
+</code></pre></div></div><p>APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.dataSource.withKind">
+            withKind
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.dataSource.withKind" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.dataSource.withKind">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKindfunction(kind) self <span style="color:#666">+</span> __dataSourceMixin({ kind<span style="color:#666">:</span> kind })
+</code></pre></div></div><p>Kind is the type of resource being referenced</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.dataSource.withName">
+            withName
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.dataSource.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.dataSource.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __dataSourceMixin({ name<span style="color:#666">:</span> name })
+</code></pre></div></div><p>Name is the name of resource being referenced</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.resources">
+            resources
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.resources" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.resources">
+        <p>Resources represents the minimum resources the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.resources.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.resources.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.resources.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(resources) __resourcesMixin(resources)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.resources.withLimits">
+            withLimits
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.resources.withLimits" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.resources.withLimits">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLimitsfunction(limits) self <span style="color:#666">+</span> __resourcesMixin({ limits<span style="color:#666">:</span> limits })
+</code></pre></div></div><p>Limits describes the maximum amount of compute resources allowed. More info: <a href="https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/">https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.resources.withLimitsMixin">
+            withLimitsMixin
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.resources.withLimitsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.resources.withLimitsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLimitsMixinfunction(limits) self <span style="color:#666">+</span> __resourcesMixin({ limits<span style="color:#666">+:</span> limits })
+</code></pre></div></div><p>Limits describes the maximum amount of compute resources allowed. More info: <a href="https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/">https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.resources.withRequests">
+            withRequests
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.resources.withRequests" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.resources.withRequests">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequestsfunction(requests) self <span style="color:#666">+</span> __resourcesMixin({ requests<span style="color:#666">:</span> requests })
+</code></pre></div></div><p>Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: <a href="https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/">https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.resources.withRequestsMixin">
+            withRequestsMixin
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.resources.withRequestsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.resources.withRequestsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequestsMixinfunction(requests) self <span style="color:#666">+</span> __resourcesMixin({ requests<span style="color:#666">+:</span> requests })
+</code></pre></div></div><p>Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: <a href="https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/">https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.selector">
+            selector
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.selector" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.selector">
+        <p>A label query over volumes to consider for binding.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.selector.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.selector.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.selector.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(selector) __selectorMixin(selector)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.selector.withMatchExpressions">
+            withMatchExpressions
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.selector.withMatchExpressions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.selector.withMatchExpressions">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __selectorMixin({ matchExpressions<span style="color:#666">:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __selectorMixin({ matchExpressions<span style="color:#666">:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressions</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.selector.withMatchExpressionsMixin">
+            withMatchExpressionsMixin
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.selector.withMatchExpressionsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.selector.withMatchExpressionsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __selectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __selectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.selector.withMatchLabels">
+            withMatchLabels
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.selector.withMatchLabels" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.selector.withMatchLabels">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsfunction(matchLabels) self <span style="color:#666">+</span> __selectorMixin({ matchLabels<span style="color:#666">:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.persistentVolumeClaim.spec.selector.withMatchLabelsMixin">
+            withMatchLabelsMixin
+            <a data-toggle="collapse" href="#core.v1.persistentVolumeClaim.spec.selector.withMatchLabelsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.persistentVolumeClaim.spec.selector.withMatchLabelsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixinfunction(matchLabels) self <span style="color:#666">+</span> __selectorMixin({ matchLabels<span style="color:#666">+:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

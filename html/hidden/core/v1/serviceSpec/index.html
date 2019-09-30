@@ -1,0 +1,751 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                        <li>
+                            <a href="#core.v1.serviceSpec.sessionAffinityConfig">sessionAffinityConfig</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#core.v1.serviceSpec.sessionAffinityConfig.clientIp">clientIp</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>serviceSpec</h1>
+            <p>ServiceSpec describes the attributes that a user creates on a service.</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.new">
+            new
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Functions</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withClusterIp">
+            withClusterIp
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withClusterIp" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withClusterIp">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterIpfunction(clusterIp) self <span style="color:#666">+</span> { clusterIP<span style="color:#666">:</span> clusterIp }
+</code></pre></div></div><p>clusterIP is the IP address of the service and is usually assigned randomly by the master. If an address is specified manually and is not in use by others, it will be allocated to the service; otherwise, creation of the service will fail. This field can not be changed through updates. Valid values are &ldquo;None&rdquo;, empty string (&ldquo;&rdquo;), or a valid IP address. &ldquo;None&rdquo; can be specified for headless services when proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. Ignored if type is ExternalName. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies">https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withExternalIps">
+            withExternalIps
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withExternalIps" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withExternalIps">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalIpsfunction(externalIps) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(externalIps) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { externalIPs<span style="color:#666">:</span> externalIps } <span style="color:#007020;font-weight:bold">else</span> { externalIPs<span style="color:#666">:</span> [externalIps] }
+</code></pre></div></div><p>externalIPs is a list of IP addresses for which nodes in the cluster will also accept traffic for this service.  These IPs are not managed by Kubernetes.  The user is responsible for ensuring that traffic arrives at a node with this IP.  A common example is external load-balancers that are not part of the Kubernetes system.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withExternalIpsMixin">
+            withExternalIpsMixin
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withExternalIpsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withExternalIpsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalIpsMixinfunction(externalIps) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(externalIps) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { externalIPs<span style="color:#666">+:</span> externalIps } <span style="color:#007020;font-weight:bold">else</span> { externalIPs<span style="color:#666">+:</span> [externalIps] }
+</code></pre></div></div><p>externalIPs is a list of IP addresses for which nodes in the cluster will also accept traffic for this service.  These IPs are not managed by Kubernetes.  The user is responsible for ensuring that traffic arrives at a node with this IP.  A common example is external load-balancers that are not part of the Kubernetes system.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withExternalName">
+            withExternalName
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withExternalName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withExternalName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalNamefunction(externalName) self <span style="color:#666">+</span> { externalName<span style="color:#666">:</span> externalName }
+</code></pre></div></div><p>externalName is the external reference that kubedns or equivalent will return as a CNAME record for this service. No proxying will be involved. Must be a valid RFC-1123 hostname (<a href="https://tools.ietf.org/html/rfc1123">https://tools.ietf.org/html/rfc1123</a>) and requires Type to be ExternalName.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withExternalTrafficPolicy">
+            withExternalTrafficPolicy
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withExternalTrafficPolicy" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withExternalTrafficPolicy">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalTrafficPolicyfunction(externalTrafficPolicy) self <span style="color:#666">+</span> { externalTrafficPolicy<span style="color:#666">:</span> externalTrafficPolicy }
+</code></pre></div></div><p>externalTrafficPolicy denotes if this Service desires to route external traffic to node-local or cluster-wide endpoints. &ldquo;Local&rdquo; preserves the client source IP and avoids a second hop for LoadBalancer and Nodeport type services, but risks potentially imbalanced traffic spreading. &ldquo;Cluster&rdquo; obscures the client source IP and may cause a second hop to another node, but should have good overall load-spreading.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withHealthCheckNodePort">
+            withHealthCheckNodePort
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withHealthCheckNodePort" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withHealthCheckNodePort">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHealthCheckNodePortfunction(healthCheckNodePort) self <span style="color:#666">+</span> { healthCheckNodePort<span style="color:#666">:</span> healthCheckNodePort }
+</code></pre></div></div><p>healthCheckNodePort specifies the healthcheck nodePort for the service. If not specified, HealthCheckNodePort is created by the service api backend with the allocated nodePort. Will use user-specified nodePort value if specified by the client. Only effects when Type is set to LoadBalancer and ExternalTrafficPolicy is set to Local.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withLoadBalancerIp">
+            withLoadBalancerIp
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withLoadBalancerIp" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withLoadBalancerIp">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLoadBalancerIpfunction(loadBalancerIp) self <span style="color:#666">+</span> { loadBalancerIP<span style="color:#666">:</span> loadBalancerIp }
+</code></pre></div></div><p>Only applies to Service Type: LoadBalancer LoadBalancer will get created with the IP specified in this field. This feature depends on whether the underlying cloud-provider supports specifying the loadBalancerIP when a load balancer is created. This field will be ignored if the cloud-provider does not support the feature.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withLoadBalancerSourceRanges">
+            withLoadBalancerSourceRanges
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withLoadBalancerSourceRanges" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withLoadBalancerSourceRanges">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLoadBalancerSourceRangesfunction(loadBalancerSourceRanges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(loadBalancerSourceRanges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { loadBalancerSourceRanges<span style="color:#666">:</span> loadBalancerSourceRanges } <span style="color:#007020;font-weight:bold">else</span> { loadBalancerSourceRanges<span style="color:#666">:</span> [loadBalancerSourceRanges] }
+</code></pre></div></div><p>If specified and supported by the platform, this will restrict traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature.&rdquo; More info: <a href="https://kubernetes.io/docs/tasks/access-application-cluster/configure-cloud-provider-firewall/">https://kubernetes.io/docs/tasks/access-application-cluster/configure-cloud-provider-firewall/</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withLoadBalancerSourceRangesMixin">
+            withLoadBalancerSourceRangesMixin
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withLoadBalancerSourceRangesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withLoadBalancerSourceRangesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLoadBalancerSourceRangesMixinfunction(loadBalancerSourceRanges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(loadBalancerSourceRanges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { loadBalancerSourceRanges<span style="color:#666">+:</span> loadBalancerSourceRanges } <span style="color:#007020;font-weight:bold">else</span> { loadBalancerSourceRanges<span style="color:#666">+:</span> [loadBalancerSourceRanges] }
+</code></pre></div></div><p>If specified and supported by the platform, this will restrict traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature.&rdquo; More info: <a href="https://kubernetes.io/docs/tasks/access-application-cluster/configure-cloud-provider-firewall/">https://kubernetes.io/docs/tasks/access-application-cluster/configure-cloud-provider-firewall/</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withPorts">
+            withPorts
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withPorts" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withPorts">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsfunction(ports) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ports) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ports<span style="color:#666">:</span> ports } <span style="color:#007020;font-weight:bold">else</span> { ports<span style="color:#666">:</span> [ports] }
+</code></pre></div></div><p>The list of ports that are exposed by this service. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies">https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies</a></p><code>withPorts</code> takes an array of type <code>portsType</code>. You can create
+an instance of <code>portsType</code> with <code>hidden.core.v1.servicePort.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/servicePort/">hidden.core.v1.servicePort</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withPortsMixin">
+            withPortsMixin
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withPortsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withPortsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsMixinfunction(ports) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ports) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ports<span style="color:#666">+:</span> ports } <span style="color:#007020;font-weight:bold">else</span> { ports<span style="color:#666">+:</span> [ports] }
+</code></pre></div></div><p>The list of ports that are exposed by this service. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies">https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies</a></p><code>withPortsMixin</code> takes an array of type <code>portsType</code>. You can create
+an instance of <code>portsType</code> with <code>hidden.core.v1.servicePort.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/servicePort/">hidden.core.v1.servicePort</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withPublishNotReadyAddresses">
+            withPublishNotReadyAddresses
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withPublishNotReadyAddresses" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withPublishNotReadyAddresses">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPublishNotReadyAddressesfunction(publishNotReadyAddresses) self <span style="color:#666">+</span> { publishNotReadyAddresses<span style="color:#666">:</span> publishNotReadyAddresses }
+</code></pre></div></div><p>publishNotReadyAddresses, when set to true, indicates that DNS implementations must publish the notReadyAddresses of subsets for the Endpoints associated with the Service. The default value is false. The primary use case for setting this field is to use a StatefulSet&rsquo;s Headless Service to propagate SRV records for its Pods without respect to their readiness for purpose of peer discovery.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withSelector">
+            withSelector
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withSelector" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withSelector">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSelectorfunction(selector) self <span style="color:#666">+</span> { selector<span style="color:#666">:</span> selector }
+</code></pre></div></div><p>Route service traffic to pods with label keys and values matching this selector. If empty or not present, the service is assumed to have an external process managing its endpoints, which Kubernetes will not modify. Only applies to types ClusterIP, NodePort, and LoadBalancer. Ignored if type is ExternalName. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/">https://kubernetes.io/docs/concepts/services-networking/service/</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withSelectorMixin">
+            withSelectorMixin
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withSelectorMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withSelectorMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSelectorMixinfunction(selector) self <span style="color:#666">+</span> { selector<span style="color:#666">+:</span> selector }
+</code></pre></div></div><p>Route service traffic to pods with label keys and values matching this selector. If empty or not present, the service is assumed to have an external process managing its endpoints, which Kubernetes will not modify. Only applies to types ClusterIP, NodePort, and LoadBalancer. Ignored if type is ExternalName. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/">https://kubernetes.io/docs/concepts/services-networking/service/</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withSessionAffinity">
+            withSessionAffinity
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withSessionAffinity" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withSessionAffinity">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSessionAffinityfunction(sessionAffinity) self <span style="color:#666">+</span> { sessionAffinity<span style="color:#666">:</span> sessionAffinity }
+</code></pre></div></div><p>Supports &ldquo;ClientIP&rdquo; and &ldquo;None&rdquo;. Used to maintain session affinity. Enable client IP based session affinity. Must be ClientIP or None. Defaults to None. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies">https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.withType">
+            withType
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.withType" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.withType">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> { type<span style="color:#666">:</span> type }
+</code></pre></div></div><p>type determines how the Service is exposed. Defaults to ClusterIP. Valid options are ExternalName, ClusterIP, NodePort, and LoadBalancer. &ldquo;ExternalName&rdquo; maps to the specified externalName. &ldquo;ClusterIP&rdquo; allocates a cluster-internal IP address for load-balancing to endpoints. Endpoints are determined by the selector or if that is not specified, by manual construction of an Endpoints object. If clusterIP is &ldquo;None&rdquo;, no virtual IP is allocated and the endpoints are published as a set of endpoints rather than a stable IP. &ldquo;NodePort&rdquo; builds on ClusterIP and allocates a port on every node which routes to the clusterIP. &ldquo;LoadBalancer&rdquo; builds on NodePort and creates an external load-balancer (if supported in the current cloud) which routes to the clusterIP. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types">https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Mixins</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.serviceSpec.sessionAffinityConfig">
+            sessionAffinityConfig
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.sessionAffinityConfig" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.sessionAffinityConfig">
+        <p>sessionAffinityConfig contains the configurations of session affinity.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.serviceSpec.sessionAffinityConfig.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.sessionAffinityConfig.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.sessionAffinityConfig.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(sessionAffinityConfig) __sessionAffinityConfigMixin(sessionAffinityConfig)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.serviceSpec.sessionAffinityConfig.clientIp">
+            clientIp
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.sessionAffinityConfig.clientIp" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.sessionAffinityConfig.clientIp">
+        <p>clientIP contains the configurations of Client IP based session affinity.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.serviceSpec.sessionAffinityConfig.clientIp.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.sessionAffinityConfig.clientIp.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.sessionAffinityConfig.clientIp.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(clientIp) __clientIpMixin(clientIp)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.serviceSpec.sessionAffinityConfig.clientIp.withTimeoutSeconds">
+            withTimeoutSeconds
+            <a data-toggle="collapse" href="#core.v1.serviceSpec.sessionAffinityConfig.clientIp.withTimeoutSeconds" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.serviceSpec.sessionAffinityConfig.clientIp.withTimeoutSeconds">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTimeoutSecondsfunction(timeoutSeconds) self <span style="color:#666">+</span> __clientIpMixin({ timeoutSeconds<span style="color:#666">:</span> timeoutSeconds })
+</code></pre></div></div><p>timeoutSeconds specifies the seconds of ClientIP type session sticky time. The value must be &gt;0 &amp;&amp; &lt;=86400(for 1 day) if ServiceAffinity == &ldquo;ClientIP&rdquo;. Default value is 10800(for 3 hours).</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

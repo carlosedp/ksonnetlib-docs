@@ -1,0 +1,910 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                        <li>
+                            <a href="#core.v1.envVar.valueFrom">valueFrom</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#core.v1.envVar.valueFrom.configMapKeyRef">configMapKeyRef</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#core.v1.envVar.valueFrom.fieldRef">fieldRef</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#core.v1.envVar.valueFrom.resourceFieldRef">resourceFieldRef</a>
+            
+ <ul>
+    
+        <li>
+            <a href="#core.v1.envVar.valueFrom.resourceFieldRef.divisor">divisor</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#core.v1.envVar.valueFrom.secretKeyRef">secretKeyRef</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>envVar</h1>
+            <p>EnvVar represents an environment variable present in a Container.</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.envVar.fromFieldPath">
+            fromFieldPath
+            <a data-toggle="collapse" href="#core.v1.envVar.fromFieldPath" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.fromFieldPath">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">fromFieldPathfunction(name<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, fieldPath<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>) self.withName(name) <span style="color:#666">+</span> self.mixin.valueFrom.fieldRef.withFieldPath(fieldPath)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.envVar.fromSecretRef">
+            fromSecretRef
+            <a data-toggle="collapse" href="#core.v1.envVar.fromSecretRef" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.fromSecretRef">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">fromSecretReffunction(name<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, secretRefName<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, secretRefKey<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>) self.withName(name) <span style="color:#666">+</span> self.mixin.valueFrom.secretKeyRef.withKey(secretRefKey).withName(secretRefName)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.envVar.new">
+            new
+            <a data-toggle="collapse" href="#core.v1.envVar.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction(name<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, value<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>) self.withName(name).withValue(value)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Functions</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.envVar.withName">
+            withName
+            <a data-toggle="collapse" href="#core.v1.envVar.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> { name<span style="color:#666">:</span> name }
+</code></pre></div></div><p>Name of the environment variable. Must be a C_IDENTIFIER.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.envVar.withValue">
+            withValue
+            <a data-toggle="collapse" href="#core.v1.envVar.withValue" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.withValue">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withValuefunction(value) self <span style="color:#666">+</span> { value<span style="color:#666">:</span> value }
+</code></pre></div></div><p>Variable references $(VAR_NAME) are expanded using the previous defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to &ldquo;&rdquo;.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Mixins</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom">
+            valueFrom
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom">
+        <p>Source for the environment variable's value. Cannot be used if value is not empty.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(valueFrom) __valueFromMixin(valueFrom)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.configMapKeyRef">
+            configMapKeyRef
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.configMapKeyRef" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.configMapKeyRef">
+        <p>Selects a key of a ConfigMap.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.configMapKeyRef.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.configMapKeyRef.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.configMapKeyRef.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(configMapKeyRef) __configMapKeyRefMixin(configMapKeyRef)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.configMapKeyRef.withKey">
+            withKey
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.configMapKeyRef.withKey" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.configMapKeyRef.withKey">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKeyfunction(key) self <span style="color:#666">+</span> __configMapKeyRefMixin({ key<span style="color:#666">:</span> key })
+</code></pre></div></div><p>The key to select.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.configMapKeyRef.withName">
+            withName
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.configMapKeyRef.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.configMapKeyRef.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __configMapKeyRefMixin({ name<span style="color:#666">:</span> name })
+</code></pre></div></div><p>Name of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.configMapKeyRef.withOptional">
+            withOptional
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.configMapKeyRef.withOptional" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.configMapKeyRef.withOptional">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptionalfunction(optional) self <span style="color:#666">+</span> __configMapKeyRefMixin({ optional<span style="color:#666">:</span> optional })
+</code></pre></div></div><p>Specify whether the ConfigMap or it&rsquo;s key must be defined</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.fieldRef">
+            fieldRef
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.fieldRef" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.fieldRef">
+        <p>Selects a field of the pod: supports metadata.name, metadata.namespace, metadata.labels, metadata.annotations, spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.fieldRef.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.fieldRef.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.fieldRef.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(fieldRef) __fieldRefMixin(fieldRef)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.fieldRef.withFieldPath">
+            withFieldPath
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.fieldRef.withFieldPath" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.fieldRef.withFieldPath">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPathfunction(fieldPath) self <span style="color:#666">+</span> __fieldRefMixin({ fieldPath<span style="color:#666">:</span> fieldPath })
+</code></pre></div></div><p>Path of the field to select in the specified API version.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.resourceFieldRef">
+            resourceFieldRef
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.resourceFieldRef" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.resourceFieldRef">
+        <p>Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.resourceFieldRef.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.resourceFieldRef.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.resourceFieldRef.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(resourceFieldRef) __resourceFieldRefMixin(resourceFieldRef)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.resourceFieldRef.withContainerName">
+            withContainerName
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.resourceFieldRef.withContainerName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.resourceFieldRef.withContainerName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerNamefunction(containerName) self <span style="color:#666">+</span> __resourceFieldRefMixin({ containerName<span style="color:#666">:</span> containerName })
+</code></pre></div></div><p>Container name: required for volumes, optional for env vars</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.resourceFieldRef.withResource">
+            withResource
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.resourceFieldRef.withResource" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.resourceFieldRef.withResource">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourcefunction(resource) self <span style="color:#666">+</span> __resourceFieldRefMixin({ resource<span style="color:#666">:</span> resource })
+</code></pre></div></div><p>Required: resource to select</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.resourceFieldRef.divisor">
+            divisor
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.resourceFieldRef.divisor" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.resourceFieldRef.divisor">
+        <p>Specifies the output format of the exposed resources, defaults to "1"</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.resourceFieldRef.divisor.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.resourceFieldRef.divisor.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.resourceFieldRef.divisor.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(divisor) __divisorMixin(divisor)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.secretKeyRef">
+            secretKeyRef
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.secretKeyRef" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.secretKeyRef">
+        <p>Selects a key of a secret in the pod's namespace</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.secretKeyRef.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.secretKeyRef.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.secretKeyRef.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(secretKeyRef) __secretKeyRefMixin(secretKeyRef)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.secretKeyRef.withKey">
+            withKey
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.secretKeyRef.withKey" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.secretKeyRef.withKey">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKeyfunction(key) self <span style="color:#666">+</span> __secretKeyRefMixin({ key<span style="color:#666">:</span> key })
+</code></pre></div></div><p>The key of the secret to select from.  Must be a valid secret key.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.secretKeyRef.withName">
+            withName
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.secretKeyRef.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.secretKeyRef.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __secretKeyRefMixin({ name<span style="color:#666">:</span> name })
+</code></pre></div></div><p>Name of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.envVar.valueFrom.secretKeyRef.withOptional">
+            withOptional
+            <a data-toggle="collapse" href="#core.v1.envVar.valueFrom.secretKeyRef.withOptional" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.envVar.valueFrom.secretKeyRef.withOptional">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptionalfunction(optional) self <span style="color:#666">+</span> __secretKeyRefMixin({ optional<span style="color:#666">:</span> optional })
+</code></pre></div></div><p>Specify whether the Secret or it&rsquo;s key must be defined</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

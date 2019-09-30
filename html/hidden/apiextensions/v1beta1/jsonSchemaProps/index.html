@@ -1,0 +1,1770 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                        <li>
+                            <a href="#apiextensions.v1beta1.jsonSchemaProps.additionalItems">additionalItems</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#apiextensions.v1beta1.jsonSchemaProps.additionalProperties">additionalProperties</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#apiextensions.v1beta1.jsonSchemaProps.default">default</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#apiextensions.v1beta1.jsonSchemaProps.example">example</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#apiextensions.v1beta1.jsonSchemaProps.externalDocs">externalDocs</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#apiextensions.v1beta1.jsonSchemaProps.items">items</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>jsonSchemaProps</h1>
+            <p>JSONSchemaProps is a JSON-Schema following Specification Draft 4 (<a href="http://json-schema.org/">http://json-schema.org/</a>).</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.new">
+            new
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Functions</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withAllOf">
+            withAllOf
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withAllOf" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withAllOf">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllOffunction(allOf) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allOf) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allOf<span style="color:#666">:</span> allOf } <span style="color:#007020;font-weight:bold">else</span> { allOf<span style="color:#666">:</span> [allOf] }
+</code></pre></div></div><p></p><code>withAllOf</code> takes an array of type <code>allOfType</code>. You can create
+an instance of <code>allOfType</code> with <code>hidden.apiextensions.v1beta1.jsonSchemaProps.new()</code>.</p>
+
+<p>see <a href="/hidden/apiextensions/v1beta1/jsonSchemaProps/">hidden.apiextensions.v1beta1.jsonSchemaProps</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withAllOfMixin">
+            withAllOfMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withAllOfMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withAllOfMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllOfMixinfunction(allOf) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allOf) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allOf<span style="color:#666">+:</span> allOf } <span style="color:#007020;font-weight:bold">else</span> { allOf<span style="color:#666">+:</span> [allOf] }
+</code></pre></div></div><p></p><code>withAllOfMixin</code> takes an array of type <code>allOfType</code>. You can create
+an instance of <code>allOfType</code> with <code>hidden.apiextensions.v1beta1.jsonSchemaProps.new()</code>.</p>
+
+<p>see <a href="/hidden/apiextensions/v1beta1/jsonSchemaProps/">hidden.apiextensions.v1beta1.jsonSchemaProps</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withAnyOf">
+            withAnyOf
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withAnyOf" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withAnyOf">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnyOffunction(anyOf) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(anyOf) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { anyOf<span style="color:#666">:</span> anyOf } <span style="color:#007020;font-weight:bold">else</span> { anyOf<span style="color:#666">:</span> [anyOf] }
+</code></pre></div></div><p></p><code>withAnyOf</code> takes an array of type <code>anyOfType</code>. You can create
+an instance of <code>anyOfType</code> with <code>hidden.apiextensions.v1beta1.jsonSchemaProps.new()</code>.</p>
+
+<p>see <a href="/hidden/apiextensions/v1beta1/jsonSchemaProps/">hidden.apiextensions.v1beta1.jsonSchemaProps</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withAnyOfMixin">
+            withAnyOfMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withAnyOfMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withAnyOfMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnyOfMixinfunction(anyOf) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(anyOf) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { anyOf<span style="color:#666">+:</span> anyOf } <span style="color:#007020;font-weight:bold">else</span> { anyOf<span style="color:#666">+:</span> [anyOf] }
+</code></pre></div></div><p></p><code>withAnyOfMixin</code> takes an array of type <code>anyOfType</code>. You can create
+an instance of <code>anyOfType</code> with <code>hidden.apiextensions.v1beta1.jsonSchemaProps.new()</code>.</p>
+
+<p>see <a href="/hidden/apiextensions/v1beta1/jsonSchemaProps/">hidden.apiextensions.v1beta1.jsonSchemaProps</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withDefinitions">
+            withDefinitions
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withDefinitions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withDefinitions">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDefinitionsfunction(definitions) self <span style="color:#666">+</span> { definitions<span style="color:#666">:</span> definitions }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withDefinitionsMixin">
+            withDefinitionsMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withDefinitionsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withDefinitionsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDefinitionsMixinfunction(definitions) self <span style="color:#666">+</span> { definitions<span style="color:#666">+:</span> definitions }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withDependencies">
+            withDependencies
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withDependencies" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withDependencies">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDependenciesfunction(dependencies) self <span style="color:#666">+</span> { dependencies<span style="color:#666">:</span> dependencies }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withDependenciesMixin">
+            withDependenciesMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withDependenciesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withDependenciesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDependenciesMixinfunction(dependencies) self <span style="color:#666">+</span> { dependencies<span style="color:#666">+:</span> dependencies }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withDescription">
+            withDescription
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withDescription" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withDescription">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDescriptionfunction(description) self <span style="color:#666">+</span> { description<span style="color:#666">:</span> description }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withDollarRef">
+            withDollarRef
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withDollarRef" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withDollarRef">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDollarReffunction(dollarRef) self <span style="color:#666">+</span> { <span style="color:#4070a0">&#34;$ref&#34;</span><span style="color:#666">:</span> dollarRef }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withDollarSchema">
+            withDollarSchema
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withDollarSchema" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withDollarSchema">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDollarSchemafunction(dollarSchema) self <span style="color:#666">+</span> { <span style="color:#4070a0">&#34;$schema&#34;</span><span style="color:#666">:</span> dollarSchema }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withEnum">
+            withEnum
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withEnum" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withEnum">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnumfunction(<span style="color:#007020;font-weight:bold">enum</span>) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(<span style="color:#007020;font-weight:bold">enum</span>) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { <span style="color:#007020;font-weight:bold">enum</span><span style="color:#666">:</span> <span style="color:#007020;font-weight:bold">enum</span> } <span style="color:#007020;font-weight:bold">else</span> { <span style="color:#007020;font-weight:bold">enum</span><span style="color:#666">:</span> [<span style="color:#007020;font-weight:bold">enum</span>] }
+</code></pre></div></div><p></p><code>withEnum</code> takes an array of type <code>enumType</code>. You can create
+an instance of <code>enumType</code> with <code>hidden.apiextensions.v1beta1.json.new()</code>.</p>
+
+<p>see <a href="/hidden/apiextensions/v1beta1/json/">hidden.apiextensions.v1beta1.json</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withEnumMixin">
+            withEnumMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withEnumMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withEnumMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnumMixinfunction(<span style="color:#007020;font-weight:bold">enum</span>) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(<span style="color:#007020;font-weight:bold">enum</span>) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { <span style="color:#007020;font-weight:bold">enum</span><span style="color:#666">+:</span> <span style="color:#007020;font-weight:bold">enum</span> } <span style="color:#007020;font-weight:bold">else</span> { <span style="color:#007020;font-weight:bold">enum</span><span style="color:#666">+:</span> [<span style="color:#007020;font-weight:bold">enum</span>] }
+</code></pre></div></div><p></p><code>withEnumMixin</code> takes an array of type <code>enumType</code>. You can create
+an instance of <code>enumType</code> with <code>hidden.apiextensions.v1beta1.json.new()</code>.</p>
+
+<p>see <a href="/hidden/apiextensions/v1beta1/json/">hidden.apiextensions.v1beta1.json</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withExclusiveMaximum">
+            withExclusiveMaximum
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withExclusiveMaximum" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withExclusiveMaximum">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExclusiveMaximumfunction(exclusiveMaximum) self <span style="color:#666">+</span> { exclusiveMaximum<span style="color:#666">:</span> exclusiveMaximum }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withExclusiveMinimum">
+            withExclusiveMinimum
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withExclusiveMinimum" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withExclusiveMinimum">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExclusiveMinimumfunction(exclusiveMinimum) self <span style="color:#666">+</span> { exclusiveMinimum<span style="color:#666">:</span> exclusiveMinimum }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withFormat">
+            withFormat
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withFormat" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withFormat">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFormatfunction(format) self <span style="color:#666">+</span> { format<span style="color:#666">:</span> format }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withId">
+            withId
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withId" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withId">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIdfunction(id) self <span style="color:#666">+</span> { id<span style="color:#666">:</span> id }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withMaxItems">
+            withMaxItems
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withMaxItems" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withMaxItems">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMaxItemsfunction(maxItems) self <span style="color:#666">+</span> { maxItems<span style="color:#666">:</span> maxItems }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withMaxLength">
+            withMaxLength
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withMaxLength" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withMaxLength">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMaxLengthfunction(maxLength) self <span style="color:#666">+</span> { maxLength<span style="color:#666">:</span> maxLength }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withMaxProperties">
+            withMaxProperties
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withMaxProperties" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withMaxProperties">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMaxPropertiesfunction(maxProperties) self <span style="color:#666">+</span> { maxProperties<span style="color:#666">:</span> maxProperties }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withMaximum">
+            withMaximum
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withMaximum" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withMaximum">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMaximumfunction(maximum) self <span style="color:#666">+</span> { maximum<span style="color:#666">:</span> maximum }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withMinItems">
+            withMinItems
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withMinItems" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withMinItems">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMinItemsfunction(minItems) self <span style="color:#666">+</span> { minItems<span style="color:#666">:</span> minItems }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withMinLength">
+            withMinLength
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withMinLength" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withMinLength">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMinLengthfunction(minLength) self <span style="color:#666">+</span> { minLength<span style="color:#666">:</span> minLength }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withMinProperties">
+            withMinProperties
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withMinProperties" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withMinProperties">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMinPropertiesfunction(minProperties) self <span style="color:#666">+</span> { minProperties<span style="color:#666">:</span> minProperties }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withMinimum">
+            withMinimum
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withMinimum" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withMinimum">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMinimumfunction(minimum) self <span style="color:#666">+</span> { minimum<span style="color:#666">:</span> minimum }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withMultipleOf">
+            withMultipleOf
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withMultipleOf" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withMultipleOf">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMultipleOffunction(multipleOf) self <span style="color:#666">+</span> { multipleOf<span style="color:#666">:</span> multipleOf }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withNot">
+            withNot
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withNot" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withNot">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNotfunction(not) self <span style="color:#666">+</span> { not<span style="color:#666">:</span> not }
+</code></pre></div></div><p></p><code>withNot</code> takes an array of type <code>notType</code>. You can create
+an instance of <code>notType</code> with <code>hidden.apiextensions.v1beta1.jsonSchemaProps.new()</code>.</p>
+
+<p>see <a href="/hidden/apiextensions/v1beta1/jsonSchemaProps/">hidden.apiextensions.v1beta1.jsonSchemaProps</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withNotMixin">
+            withNotMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withNotMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withNotMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNotMixinfunction(not) self <span style="color:#666">+</span> { not<span style="color:#666">+:</span> not }
+</code></pre></div></div><p></p><code>withNotMixin</code> takes an array of type <code>notType</code>. You can create
+an instance of <code>notType</code> with <code>hidden.apiextensions.v1beta1.jsonSchemaProps.new()</code>.</p>
+
+<p>see <a href="/hidden/apiextensions/v1beta1/jsonSchemaProps/">hidden.apiextensions.v1beta1.jsonSchemaProps</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withNullable">
+            withNullable
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withNullable" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withNullable">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNullablefunction(nullable) self <span style="color:#666">+</span> { nullable<span style="color:#666">:</span> nullable }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withOneOf">
+            withOneOf
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withOneOf" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withOneOf">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOneOffunction(oneOf) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(oneOf) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { oneOf<span style="color:#666">:</span> oneOf } <span style="color:#007020;font-weight:bold">else</span> { oneOf<span style="color:#666">:</span> [oneOf] }
+</code></pre></div></div><p></p><code>withOneOf</code> takes an array of type <code>oneOfType</code>. You can create
+an instance of <code>oneOfType</code> with <code>hidden.apiextensions.v1beta1.jsonSchemaProps.new()</code>.</p>
+
+<p>see <a href="/hidden/apiextensions/v1beta1/jsonSchemaProps/">hidden.apiextensions.v1beta1.jsonSchemaProps</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withOneOfMixin">
+            withOneOfMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withOneOfMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withOneOfMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOneOfMixinfunction(oneOf) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(oneOf) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { oneOf<span style="color:#666">+:</span> oneOf } <span style="color:#007020;font-weight:bold">else</span> { oneOf<span style="color:#666">+:</span> [oneOf] }
+</code></pre></div></div><p></p><code>withOneOfMixin</code> takes an array of type <code>oneOfType</code>. You can create
+an instance of <code>oneOfType</code> with <code>hidden.apiextensions.v1beta1.jsonSchemaProps.new()</code>.</p>
+
+<p>see <a href="/hidden/apiextensions/v1beta1/jsonSchemaProps/">hidden.apiextensions.v1beta1.jsonSchemaProps</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withPattern">
+            withPattern
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withPattern" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withPattern">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPatternfunction(pattern) self <span style="color:#666">+</span> { pattern<span style="color:#666">:</span> pattern }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withPatternProperties">
+            withPatternProperties
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withPatternProperties" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withPatternProperties">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPatternPropertiesfunction(patternProperties) self <span style="color:#666">+</span> { patternProperties<span style="color:#666">:</span> patternProperties }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withPatternPropertiesMixin">
+            withPatternPropertiesMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withPatternPropertiesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withPatternPropertiesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPatternPropertiesMixinfunction(patternProperties) self <span style="color:#666">+</span> { patternProperties<span style="color:#666">+:</span> patternProperties }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withProperties">
+            withProperties
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withProperties" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withProperties">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPropertiesfunction(properties) self <span style="color:#666">+</span> { properties<span style="color:#666">:</span> properties }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withPropertiesMixin">
+            withPropertiesMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withPropertiesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withPropertiesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPropertiesMixinfunction(properties) self <span style="color:#666">+</span> { properties<span style="color:#666">+:</span> properties }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withRequired">
+            withRequired
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withRequired" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withRequired">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredfunction(required) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(required) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { required<span style="color:#666">:</span> required } <span style="color:#007020;font-weight:bold">else</span> { required<span style="color:#666">:</span> [required] }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withRequiredMixin">
+            withRequiredMixin
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withRequiredMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withRequiredMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredMixinfunction(required) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(required) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { required<span style="color:#666">+:</span> required } <span style="color:#007020;font-weight:bold">else</span> { required<span style="color:#666">+:</span> [required] }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withTitle">
+            withTitle
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withTitle" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withTitle">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTitlefunction(title) self <span style="color:#666">+</span> { title<span style="color:#666">:</span> title }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withType">
+            withType
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withType" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withType">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> { type<span style="color:#666">:</span> type }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.withUniqueItems">
+            withUniqueItems
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.withUniqueItems" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.withUniqueItems">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUniqueItemsfunction(uniqueItems) self <span style="color:#666">+</span> { uniqueItems<span style="color:#666">:</span> uniqueItems }
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Mixins</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.additionalItems">
+            additionalItems
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.additionalItems" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.additionalItems">
+        <p></p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.additionalItems.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.additionalItems.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.additionalItems.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(additionalItems) __additionalItemsMixin(additionalItems)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.additionalProperties">
+            additionalProperties
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.additionalProperties" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.additionalProperties">
+        <p></p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.additionalProperties.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.additionalProperties.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.additionalProperties.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(additionalProperties) __additionalPropertiesMixin(additionalProperties)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.default">
+            default
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.default" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.default">
+        <p></p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.default.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.default.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.default.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(<span style="color:#007020;font-weight:bold">default</span>) __defaultMixin(<span style="color:#007020;font-weight:bold">default</span>)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.example">
+            example
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.example" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.example">
+        <p></p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.example.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.example.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.example.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(example) __exampleMixin(example)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.externalDocs">
+            externalDocs
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.externalDocs" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.externalDocs">
+        <p></p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.externalDocs.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.externalDocs.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.externalDocs.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(externalDocs) __externalDocsMixin(externalDocs)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.externalDocs.withDescription">
+            withDescription
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.externalDocs.withDescription" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.externalDocs.withDescription">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDescriptionfunction(description) self <span style="color:#666">+</span> __externalDocsMixin({ description<span style="color:#666">:</span> description })
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.externalDocs.withUrl">
+            withUrl
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.externalDocs.withUrl" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.externalDocs.withUrl">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUrlfunction(url) self <span style="color:#666">+</span> __externalDocsMixin({ url<span style="color:#666">:</span> url })
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.items">
+            items
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.items" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.items">
+        <p></p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="apiextensions.v1beta1.jsonSchemaProps.items.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#apiextensions.v1beta1.jsonSchemaProps.items.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apiextensions.v1beta1.jsonSchemaProps.items.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(items) __itemsMixin(items)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

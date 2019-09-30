@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>daemonSetStatus</h1>
+            <p>DaemonSetStatus represents the current status of a daemon set.</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="apps.v1beta2.daemonSetStatus.new">
+            new
+            <a data-toggle="collapse" href="#apps.v1beta2.daemonSetStatus.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.daemonSetStatus.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Functions</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="apps.v1beta2.daemonSetStatus.withCollisionCount">
+            withCollisionCount
+            <a data-toggle="collapse" href="#apps.v1beta2.daemonSetStatus.withCollisionCount" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.daemonSetStatus.withCollisionCount">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCollisionCountfunction(collisionCount) self <span style="color:#666">+</span> { collisionCount<span style="color:#666">:</span> collisionCount }
+</code></pre></div></div><p>Count of hash collisions for the DaemonSet. The DaemonSet controller uses this field as a collision avoidance mechanism when it needs to create the name for the newest ControllerRevision.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apps.v1beta2.daemonSetStatus.withConditions">
+            withConditions
+            <a data-toggle="collapse" href="#apps.v1beta2.daemonSetStatus.withConditions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.daemonSetStatus.withConditions">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">:</span> [conditions] }
+</code></pre></div></div><p>Represents the latest available observations of a DaemonSet&rsquo;s current state.</p><code>withConditions</code> takes an array of type <code>conditionsType</code>. You can create
+an instance of <code>conditionsType</code> with <code>hidden.apps.v1beta2.daemonSetCondition.new()</code>.</p>
+
+<p>see <a href="/hidden/apps/v1beta2/daemonSetCondition/">hidden.apps.v1beta2.daemonSetCondition</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apps.v1beta2.daemonSetStatus.withConditionsMixin">
+            withConditionsMixin
+            <a data-toggle="collapse" href="#apps.v1beta2.daemonSetStatus.withConditionsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.daemonSetStatus.withConditionsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixinfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">+:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">+:</span> [conditions] }
+</code></pre></div></div><p>Represents the latest available observations of a DaemonSet&rsquo;s current state.</p><code>withConditionsMixin</code> takes an array of type <code>conditionsType</code>. You can create
+an instance of <code>conditionsType</code> with <code>hidden.apps.v1beta2.daemonSetCondition.new()</code>.</p>
+
+<p>see <a href="/hidden/apps/v1beta2/daemonSetCondition/">hidden.apps.v1beta2.daemonSetCondition</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apps.v1beta2.daemonSetStatus.withCurrentNumberScheduled">
+            withCurrentNumberScheduled
+            <a data-toggle="collapse" href="#apps.v1beta2.daemonSetStatus.withCurrentNumberScheduled" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.daemonSetStatus.withCurrentNumberScheduled">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCurrentNumberScheduledfunction(currentNumberScheduled) self <span style="color:#666">+</span> { currentNumberScheduled<span style="color:#666">:</span> currentNumberScheduled }
+</code></pre></div></div><p>The number of nodes that are running at least 1 daemon pod and are supposed to run the daemon pod. More info: <a href="https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/">https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apps.v1beta2.daemonSetStatus.withDesiredNumberScheduled">
+            withDesiredNumberScheduled
+            <a data-toggle="collapse" href="#apps.v1beta2.daemonSetStatus.withDesiredNumberScheduled" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.daemonSetStatus.withDesiredNumberScheduled">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDesiredNumberScheduledfunction(desiredNumberScheduled) self <span style="color:#666">+</span> { desiredNumberScheduled<span style="color:#666">:</span> desiredNumberScheduled }
+</code></pre></div></div><p>The total number of nodes that should be running the daemon pod (including nodes correctly running the daemon pod). More info: <a href="https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/">https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apps.v1beta2.daemonSetStatus.withNumberAvailable">
+            withNumberAvailable
+            <a data-toggle="collapse" href="#apps.v1beta2.daemonSetStatus.withNumberAvailable" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.daemonSetStatus.withNumberAvailable">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNumberAvailablefunction(numberAvailable) self <span style="color:#666">+</span> { numberAvailable<span style="color:#666">:</span> numberAvailable }
+</code></pre></div></div><p>The number of nodes that should be running the daemon pod and have one or more of the daemon pod running and available (ready for at least spec.minReadySeconds)</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apps.v1beta2.daemonSetStatus.withNumberMisscheduled">
+            withNumberMisscheduled
+            <a data-toggle="collapse" href="#apps.v1beta2.daemonSetStatus.withNumberMisscheduled" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.daemonSetStatus.withNumberMisscheduled">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNumberMisscheduledfunction(numberMisscheduled) self <span style="color:#666">+</span> { numberMisscheduled<span style="color:#666">:</span> numberMisscheduled }
+</code></pre></div></div><p>The number of nodes that are running the daemon pod, but are not supposed to run the daemon pod. More info: <a href="https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/">https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apps.v1beta2.daemonSetStatus.withNumberReady">
+            withNumberReady
+            <a data-toggle="collapse" href="#apps.v1beta2.daemonSetStatus.withNumberReady" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.daemonSetStatus.withNumberReady">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNumberReadyfunction(numberReady) self <span style="color:#666">+</span> { numberReady<span style="color:#666">:</span> numberReady }
+</code></pre></div></div><p>The number of nodes that should be running the daemon pod and have one or more of the daemon pod running and ready.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apps.v1beta2.daemonSetStatus.withNumberUnavailable">
+            withNumberUnavailable
+            <a data-toggle="collapse" href="#apps.v1beta2.daemonSetStatus.withNumberUnavailable" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.daemonSetStatus.withNumberUnavailable">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNumberUnavailablefunction(numberUnavailable) self <span style="color:#666">+</span> { numberUnavailable<span style="color:#666">:</span> numberUnavailable }
+</code></pre></div></div><p>The number of nodes that should be running the daemon pod and have none of the daemon pod running and available (ready for at least spec.minReadySeconds)</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apps.v1beta2.daemonSetStatus.withObservedGeneration">
+            withObservedGeneration
+            <a data-toggle="collapse" href="#apps.v1beta2.daemonSetStatus.withObservedGeneration" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.daemonSetStatus.withObservedGeneration">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withObservedGenerationfunction(observedGeneration) self <span style="color:#666">+</span> { observedGeneration<span style="color:#666">:</span> observedGeneration }
+</code></pre></div></div><p>The most recent generation observed by the daemon set controller.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="apps.v1beta2.daemonSetStatus.withUpdatedNumberScheduled">
+            withUpdatedNumberScheduled
+            <a data-toggle="collapse" href="#apps.v1beta2.daemonSetStatus.withUpdatedNumberScheduled" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="apps.v1beta2.daemonSetStatus.withUpdatedNumberScheduled">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUpdatedNumberScheduledfunction(updatedNumberScheduled) self <span style="color:#666">+</span> { updatedNumberScheduled<span style="color:#666">:</span> updatedNumberScheduled }
+</code></pre></div></div><p>The total number of nodes that are running updated daemon pod</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

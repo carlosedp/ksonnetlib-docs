@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>subjectRulesReviewStatus</h1>
+            <p>SubjectRulesReviewStatus contains the result of a rules check. This check can be incomplete depending on the set of authorizers the server is configured with and any errors experienced during evaluation. Because authorization rules are additive, if a rule appears in a list it&rsquo;s safe to assume the subject has that permission, even if that list is incomplete.</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="authorization.v1beta1.subjectRulesReviewStatus.new">
+            new
+            <a data-toggle="collapse" href="#authorization.v1beta1.subjectRulesReviewStatus.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="authorization.v1beta1.subjectRulesReviewStatus.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Functions</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="authorization.v1beta1.subjectRulesReviewStatus.withEvaluationError">
+            withEvaluationError
+            <a data-toggle="collapse" href="#authorization.v1beta1.subjectRulesReviewStatus.withEvaluationError" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="authorization.v1beta1.subjectRulesReviewStatus.withEvaluationError">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEvaluationErrorfunction(evaluationError) self <span style="color:#666">+</span> { evaluationError<span style="color:#666">:</span> evaluationError }
+</code></pre></div></div><p>EvaluationError can appear in combination with Rules. It indicates an error occurred during rule evaluation, such as an authorizer that doesn&rsquo;t support rule evaluation, and that ResourceRules and/or NonResourceRules may be incomplete.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="authorization.v1beta1.subjectRulesReviewStatus.withIncomplete">
+            withIncomplete
+            <a data-toggle="collapse" href="#authorization.v1beta1.subjectRulesReviewStatus.withIncomplete" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="authorization.v1beta1.subjectRulesReviewStatus.withIncomplete">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIncompletefunction(incomplete) self <span style="color:#666">+</span> { incomplete<span style="color:#666">:</span> incomplete }
+</code></pre></div></div><p>Incomplete is true when the rules returned by this call are incomplete. This is most commonly encountered when an authorizer, such as an external authorizer, doesn&rsquo;t support rules evaluation.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="authorization.v1beta1.subjectRulesReviewStatus.withNonResourceRules">
+            withNonResourceRules
+            <a data-toggle="collapse" href="#authorization.v1beta1.subjectRulesReviewStatus.withNonResourceRules" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="authorization.v1beta1.subjectRulesReviewStatus.withNonResourceRules">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNonResourceRulesfunction(nonResourceRules) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nonResourceRules) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { nonResourceRules<span style="color:#666">:</span> nonResourceRules } <span style="color:#007020;font-weight:bold">else</span> { nonResourceRules<span style="color:#666">:</span> [nonResourceRules] }
+</code></pre></div></div><p>NonResourceRules is the list of actions the subject is allowed to perform on non-resources. The list ordering isn&rsquo;t significant, may contain duplicates, and possibly be incomplete.</p><code>withNonResourceRules</code> takes an array of type <code>nonResourceRulesType</code>. You can create
+an instance of <code>nonResourceRulesType</code> with <code>hidden.authorization.v1beta1.nonResourceRule.new()</code>.</p>
+
+<p>see <a href="/hidden/authorization/v1beta1/nonResourceRule/">hidden.authorization.v1beta1.nonResourceRule</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="authorization.v1beta1.subjectRulesReviewStatus.withNonResourceRulesMixin">
+            withNonResourceRulesMixin
+            <a data-toggle="collapse" href="#authorization.v1beta1.subjectRulesReviewStatus.withNonResourceRulesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="authorization.v1beta1.subjectRulesReviewStatus.withNonResourceRulesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNonResourceRulesMixinfunction(nonResourceRules) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nonResourceRules) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { nonResourceRules<span style="color:#666">+:</span> nonResourceRules } <span style="color:#007020;font-weight:bold">else</span> { nonResourceRules<span style="color:#666">+:</span> [nonResourceRules] }
+</code></pre></div></div><p>NonResourceRules is the list of actions the subject is allowed to perform on non-resources. The list ordering isn&rsquo;t significant, may contain duplicates, and possibly be incomplete.</p><code>withNonResourceRulesMixin</code> takes an array of type <code>nonResourceRulesType</code>. You can create
+an instance of <code>nonResourceRulesType</code> with <code>hidden.authorization.v1beta1.nonResourceRule.new()</code>.</p>
+
+<p>see <a href="/hidden/authorization/v1beta1/nonResourceRule/">hidden.authorization.v1beta1.nonResourceRule</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="authorization.v1beta1.subjectRulesReviewStatus.withResourceRules">
+            withResourceRules
+            <a data-toggle="collapse" href="#authorization.v1beta1.subjectRulesReviewStatus.withResourceRules" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="authorization.v1beta1.subjectRulesReviewStatus.withResourceRules">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceRulesfunction(resourceRules) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(resourceRules) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { resourceRules<span style="color:#666">:</span> resourceRules } <span style="color:#007020;font-weight:bold">else</span> { resourceRules<span style="color:#666">:</span> [resourceRules] }
+</code></pre></div></div><p>ResourceRules is the list of actions the subject is allowed to perform on resources. The list ordering isn&rsquo;t significant, may contain duplicates, and possibly be incomplete.</p><code>withResourceRules</code> takes an array of type <code>resourceRulesType</code>. You can create
+an instance of <code>resourceRulesType</code> with <code>hidden.authorization.v1beta1.resourceRule.new()</code>.</p>
+
+<p>see <a href="/hidden/authorization/v1beta1/resourceRule/">hidden.authorization.v1beta1.resourceRule</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="authorization.v1beta1.subjectRulesReviewStatus.withResourceRulesMixin">
+            withResourceRulesMixin
+            <a data-toggle="collapse" href="#authorization.v1beta1.subjectRulesReviewStatus.withResourceRulesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="authorization.v1beta1.subjectRulesReviewStatus.withResourceRulesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceRulesMixinfunction(resourceRules) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(resourceRules) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { resourceRules<span style="color:#666">+:</span> resourceRules } <span style="color:#007020;font-weight:bold">else</span> { resourceRules<span style="color:#666">+:</span> [resourceRules] }
+</code></pre></div></div><p>ResourceRules is the list of actions the subject is allowed to perform on resources. The list ordering isn&rsquo;t significant, may contain duplicates, and possibly be incomplete.</p><code>withResourceRulesMixin</code> takes an array of type <code>resourceRulesType</code>. You can create
+an instance of <code>resourceRulesType</code> with <code>hidden.authorization.v1beta1.resourceRule.new()</code>.</p>
+
+<p>see <a href="/hidden/authorization/v1beta1/resourceRule/">hidden.authorization.v1beta1.resourceRule</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

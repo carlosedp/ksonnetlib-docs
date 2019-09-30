@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                        <li>
+                            <a href="#extensions.v1beta1.networkPolicyPeer.ipBlock">ipBlock</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#extensions.v1beta1.networkPolicyPeer.namespaceSelector">namespaceSelector</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#extensions.v1beta1.networkPolicyPeer.podSelector">podSelector</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>networkPolicyPeer</h1>
+            <p>DEPRECATED 1.9 - This group version of NetworkPolicyPeer is deprecated by networking/v1/NetworkPolicyPeer.</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.new">
+            new
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+
+
+            
+            
+                <h5>Mixins</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.ipBlock">
+            ipBlock
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.ipBlock" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.ipBlock">
+        <p>IPBlock defines policy on a particular IPBlock. If this field is set then neither of the other fields can be.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.ipBlock.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.ipBlock.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.ipBlock.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(ipBlock) __ipBlockMixin(ipBlock)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.ipBlock.withCidr">
+            withCidr
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.ipBlock.withCidr" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.ipBlock.withCidr">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCidrfunction(cidr) self <span style="color:#666">+</span> __ipBlockMixin({ cidr<span style="color:#666">:</span> cidr })
+</code></pre></div></div><p>CIDR is a string representing the IP Block Valid examples are &ldquo;192.168.1.<sup>1</sup>&frasl;<sub>24</sub>&rdquo;</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.ipBlock.withExcept">
+            withExcept
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.ipBlock.withExcept" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.ipBlock.withExcept">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExceptfunction(except) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(except) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __ipBlockMixin({ except<span style="color:#666">:</span> except }) <span style="color:#007020;font-weight:bold">else</span> __ipBlockMixin({ except<span style="color:#666">:</span> [except] })
+</code></pre></div></div><p>Except is a slice of CIDRs that should not be included within an IP Block Valid examples are &ldquo;192.168.1.<sup>1</sup>&frasl;<sub>24</sub>&rdquo; Except values will be rejected if they are outside the CIDR range</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.ipBlock.withExceptMixin">
+            withExceptMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.ipBlock.withExceptMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.ipBlock.withExceptMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExceptMixinfunction(except) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(except) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __ipBlockMixin({ except<span style="color:#666">+:</span> except }) <span style="color:#007020;font-weight:bold">else</span> __ipBlockMixin({ except<span style="color:#666">+:</span> [except] })
+</code></pre></div></div><p>Except is a slice of CIDRs that should not be included within an IP Block Valid examples are &ldquo;192.168.1.<sup>1</sup>&frasl;<sub>24</sub>&rdquo; Except values will be rejected if they are outside the CIDR range</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.namespaceSelector">
+            namespaceSelector
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.namespaceSelector" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.namespaceSelector">
+        <p>Selects Namespaces using cluster-scoped labels. This field follows standard label selector semantics; if present but empty, it selects all namespaces.</p><p></p><p>If PodSelector is also set, then the NetworkPolicyPeer as a whole selects the Pods matching PodSelector in the Namespaces selected by NamespaceSelector. Otherwise it selects all Pods in the Namespaces selected by NamespaceSelector.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.namespaceSelector.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.namespaceSelector.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.namespaceSelector.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(namespaceSelector) __namespaceSelectorMixin(namespaceSelector)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.namespaceSelector.withMatchExpressions">
+            withMatchExpressions
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.namespaceSelector.withMatchExpressions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.namespaceSelector.withMatchExpressions">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __namespaceSelectorMixin({ matchExpressions<span style="color:#666">:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __namespaceSelectorMixin({ matchExpressions<span style="color:#666">:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressions</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.namespaceSelector.withMatchExpressionsMixin">
+            withMatchExpressionsMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.namespaceSelector.withMatchExpressionsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.namespaceSelector.withMatchExpressionsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __namespaceSelectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __namespaceSelectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.namespaceSelector.withMatchLabels">
+            withMatchLabels
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.namespaceSelector.withMatchLabels" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.namespaceSelector.withMatchLabels">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsfunction(matchLabels) self <span style="color:#666">+</span> __namespaceSelectorMixin({ matchLabels<span style="color:#666">:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.namespaceSelector.withMatchLabelsMixin">
+            withMatchLabelsMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.namespaceSelector.withMatchLabelsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.namespaceSelector.withMatchLabelsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixinfunction(matchLabels) self <span style="color:#666">+</span> __namespaceSelectorMixin({ matchLabels<span style="color:#666">+:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.podSelector">
+            podSelector
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.podSelector" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.podSelector">
+        <p>This is a label selector which selects Pods. This field follows standard label selector semantics; if present but empty, it selects all pods.</p><p></p><p>If NamespaceSelector is also set, then the NetworkPolicyPeer as a whole selects the Pods matching PodSelector in the Namespaces selected by NamespaceSelector. Otherwise it selects the Pods matching PodSelector in the policy's own Namespace.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.podSelector.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.podSelector.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.podSelector.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(podSelector) __podSelectorMixin(podSelector)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.podSelector.withMatchExpressions">
+            withMatchExpressions
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.podSelector.withMatchExpressions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.podSelector.withMatchExpressions">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podSelectorMixin({ matchExpressions<span style="color:#666">:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __podSelectorMixin({ matchExpressions<span style="color:#666">:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressions</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.podSelector.withMatchExpressionsMixin">
+            withMatchExpressionsMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.podSelector.withMatchExpressionsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.podSelector.withMatchExpressionsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podSelectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __podSelectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.podSelector.withMatchLabels">
+            withMatchLabels
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.podSelector.withMatchLabels" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.podSelector.withMatchLabels">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsfunction(matchLabels) self <span style="color:#666">+</span> __podSelectorMixin({ matchLabels<span style="color:#666">:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.networkPolicyPeer.podSelector.withMatchLabelsMixin">
+            withMatchLabelsMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.networkPolicyPeer.podSelector.withMatchLabelsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.networkPolicyPeer.podSelector.withMatchLabelsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixinfunction(matchLabels) self <span style="color:#666">+</span> __podSelectorMixin({ matchLabels<span style="color:#666">+:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

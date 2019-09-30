@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                        <li>
+                            <a href="#core.v1.securityContext.capabilities">capabilities</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#core.v1.securityContext.seLinuxOptions">seLinuxOptions</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>securityContext</h1>
+            <p>SecurityContext holds security configuration that will be applied to a container. Some fields are present in both SecurityContext and PodSecurityContext.  When both are set, the values in SecurityContext take precedence.</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.securityContext.new">
+            new
+            <a data-toggle="collapse" href="#core.v1.securityContext.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Functions</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.securityContext.withAllowPrivilegeEscalation">
+            withAllowPrivilegeEscalation
+            <a data-toggle="collapse" href="#core.v1.securityContext.withAllowPrivilegeEscalation" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.withAllowPrivilegeEscalation">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowPrivilegeEscalationfunction(allowPrivilegeEscalation) self <span style="color:#666">+</span> { allowPrivilegeEscalation<span style="color:#666">:</span> allowPrivilegeEscalation }
+</code></pre></div></div><p>AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.securityContext.withPrivileged">
+            withPrivileged
+            <a data-toggle="collapse" href="#core.v1.securityContext.withPrivileged" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.withPrivileged">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPrivilegedfunction(privileged) self <span style="color:#666">+</span> { privileged<span style="color:#666">:</span> privileged }
+</code></pre></div></div><p>Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.securityContext.withProcMount">
+            withProcMount
+            <a data-toggle="collapse" href="#core.v1.securityContext.withProcMount" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.withProcMount">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProcMountfunction(procMount) self <span style="color:#666">+</span> { procMount<span style="color:#666">:</span> procMount }
+</code></pre></div></div><p>procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.securityContext.withRunAsGroup">
+            withRunAsGroup
+            <a data-toggle="collapse" href="#core.v1.securityContext.withRunAsGroup" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.withRunAsGroup">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsGroupfunction(runAsGroup) self <span style="color:#666">+</span> { runAsGroup<span style="color:#666">:</span> runAsGroup }
+</code></pre></div></div><p>The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.securityContext.withRunAsNonRoot">
+            withRunAsNonRoot
+            <a data-toggle="collapse" href="#core.v1.securityContext.withRunAsNonRoot" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.withRunAsNonRoot">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsNonRootfunction(runAsNonRoot) self <span style="color:#666">+</span> { runAsNonRoot<span style="color:#666">:</span> runAsNonRoot }
+</code></pre></div></div><p>Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.securityContext.withRunAsUser">
+            withRunAsUser
+            <a data-toggle="collapse" href="#core.v1.securityContext.withRunAsUser" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.withRunAsUser">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsUserfunction(runAsUser) self <span style="color:#666">+</span> { runAsUser<span style="color:#666">:</span> runAsUser }
+</code></pre></div></div><p>The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Mixins</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.securityContext.capabilities">
+            capabilities
+            <a data-toggle="collapse" href="#core.v1.securityContext.capabilities" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.capabilities">
+        <p>The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.securityContext.capabilities.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.securityContext.capabilities.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.capabilities.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(capabilities) __capabilitiesMixin(capabilities)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.securityContext.capabilities.withAdd">
+            withAdd
+            <a data-toggle="collapse" href="#core.v1.securityContext.capabilities.withAdd" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.capabilities.withAdd">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddfunction(add) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(add) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __capabilitiesMixin({ add<span style="color:#666">:</span> add }) <span style="color:#007020;font-weight:bold">else</span> __capabilitiesMixin({ add<span style="color:#666">:</span> [add] })
+</code></pre></div></div><p>Added capabilities</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.securityContext.capabilities.withAddMixin">
+            withAddMixin
+            <a data-toggle="collapse" href="#core.v1.securityContext.capabilities.withAddMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.capabilities.withAddMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddMixinfunction(add) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(add) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __capabilitiesMixin({ add<span style="color:#666">+:</span> add }) <span style="color:#007020;font-weight:bold">else</span> __capabilitiesMixin({ add<span style="color:#666">+:</span> [add] })
+</code></pre></div></div><p>Added capabilities</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.securityContext.capabilities.withDrop">
+            withDrop
+            <a data-toggle="collapse" href="#core.v1.securityContext.capabilities.withDrop" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.capabilities.withDrop">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDropfunction(drop) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(drop) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __capabilitiesMixin({ drop<span style="color:#666">:</span> drop }) <span style="color:#007020;font-weight:bold">else</span> __capabilitiesMixin({ drop<span style="color:#666">:</span> [drop] })
+</code></pre></div></div><p>Removed capabilities</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.securityContext.capabilities.withDropMixin">
+            withDropMixin
+            <a data-toggle="collapse" href="#core.v1.securityContext.capabilities.withDropMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.capabilities.withDropMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDropMixinfunction(drop) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(drop) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __capabilitiesMixin({ drop<span style="color:#666">+:</span> drop }) <span style="color:#007020;font-weight:bold">else</span> __capabilitiesMixin({ drop<span style="color:#666">+:</span> [drop] })
+</code></pre></div></div><p>Removed capabilities</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.securityContext.seLinuxOptions">
+            seLinuxOptions
+            <a data-toggle="collapse" href="#core.v1.securityContext.seLinuxOptions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.seLinuxOptions">
+        <p>The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container.  May also be set in PodSecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.securityContext.seLinuxOptions.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.securityContext.seLinuxOptions.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.seLinuxOptions.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(seLinuxOptions) __seLinuxOptionsMixin(seLinuxOptions)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.securityContext.seLinuxOptions.withLevel">
+            withLevel
+            <a data-toggle="collapse" href="#core.v1.securityContext.seLinuxOptions.withLevel" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.seLinuxOptions.withLevel">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevelfunction(level) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ level<span style="color:#666">:</span> level })
+</code></pre></div></div><p>Level is SELinux level label that applies to the container.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.securityContext.seLinuxOptions.withRole">
+            withRole
+            <a data-toggle="collapse" href="#core.v1.securityContext.seLinuxOptions.withRole" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.seLinuxOptions.withRole">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRolefunction(role) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ role<span style="color:#666">:</span> role })
+</code></pre></div></div><p>Role is a SELinux role label that applies to the container.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.securityContext.seLinuxOptions.withType">
+            withType
+            <a data-toggle="collapse" href="#core.v1.securityContext.seLinuxOptions.withType" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.seLinuxOptions.withType">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ type<span style="color:#666">:</span> type })
+</code></pre></div></div><p>Type is a SELinux type label that applies to the container.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.securityContext.seLinuxOptions.withUser">
+            withUser
+            <a data-toggle="collapse" href="#core.v1.securityContext.seLinuxOptions.withUser" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.securityContext.seLinuxOptions.withUser">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUserfunction(user) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ user<span style="color:#666">:</span> user })
+</code></pre></div></div><p>User is a SELinux user label that applies to the container.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

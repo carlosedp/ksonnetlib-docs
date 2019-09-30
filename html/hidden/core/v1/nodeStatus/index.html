@@ -1,0 +1,2033 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                        <li>
+                            <a href="#core.v1.nodeStatus.config">config</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#core.v1.nodeStatus.config.active">active</a>
+            
+ <ul>
+    
+        <li>
+            <a href="#core.v1.nodeStatus.config.active.configMap">configMap</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#core.v1.nodeStatus.config.assigned">assigned</a>
+            
+ <ul>
+    
+        <li>
+            <a href="#core.v1.nodeStatus.config.assigned.configMap">configMap</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#core.v1.nodeStatus.config.lastKnownGood">lastKnownGood</a>
+            
+ <ul>
+    
+        <li>
+            <a href="#core.v1.nodeStatus.config.lastKnownGood.configMap">configMap</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#core.v1.nodeStatus.daemonEndpoints">daemonEndpoints</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#core.v1.nodeStatus.daemonEndpoints.kubeletEndpoint">kubeletEndpoint</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#core.v1.nodeStatus.nodeInfo">nodeInfo</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>nodeStatus</h1>
+            <p>NodeStatus is information about the current status of a node.</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.new">
+            new
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Functions</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.withAddresses">
+            withAddresses
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.withAddresses" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.withAddresses">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddressesfunction(addresses) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(addresses) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { addresses<span style="color:#666">:</span> addresses } <span style="color:#007020;font-weight:bold">else</span> { addresses<span style="color:#666">:</span> [addresses] }
+</code></pre></div></div><p>List of addresses reachable to the node. Queried from cloud provider, if available. More info: <a href="https://kubernetes.io/docs/concepts/nodes/node/#addresses">https://kubernetes.io/docs/concepts/nodes/node/#addresses</a></p><code>withAddresses</code> takes an array of type <code>addressesType</code>. You can create
+an instance of <code>addressesType</code> with <code>hidden.core.v1.nodeAddress.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/nodeAddress/">hidden.core.v1.nodeAddress</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.withAddressesMixin">
+            withAddressesMixin
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.withAddressesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.withAddressesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddressesMixinfunction(addresses) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(addresses) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { addresses<span style="color:#666">+:</span> addresses } <span style="color:#007020;font-weight:bold">else</span> { addresses<span style="color:#666">+:</span> [addresses] }
+</code></pre></div></div><p>List of addresses reachable to the node. Queried from cloud provider, if available. More info: <a href="https://kubernetes.io/docs/concepts/nodes/node/#addresses">https://kubernetes.io/docs/concepts/nodes/node/#addresses</a></p><code>withAddressesMixin</code> takes an array of type <code>addressesType</code>. You can create
+an instance of <code>addressesType</code> with <code>hidden.core.v1.nodeAddress.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/nodeAddress/">hidden.core.v1.nodeAddress</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.withAllocatable">
+            withAllocatable
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.withAllocatable" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.withAllocatable">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllocatablefunction(allocatable) self <span style="color:#666">+</span> { allocatable<span style="color:#666">:</span> allocatable }
+</code></pre></div></div><p>Allocatable represents the resources of a node that are available for scheduling. Defaults to Capacity.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.withAllocatableMixin">
+            withAllocatableMixin
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.withAllocatableMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.withAllocatableMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllocatableMixinfunction(allocatable) self <span style="color:#666">+</span> { allocatable<span style="color:#666">+:</span> allocatable }
+</code></pre></div></div><p>Allocatable represents the resources of a node that are available for scheduling. Defaults to Capacity.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.withCapacity">
+            withCapacity
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.withCapacity" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.withCapacity">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCapacityfunction(capacity) self <span style="color:#666">+</span> { capacity<span style="color:#666">:</span> capacity }
+</code></pre></div></div><p>Capacity represents the total resources of a node. More info: <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes#capacity">https://kubernetes.io/docs/concepts/storage/persistent-volumes#capacity</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.withCapacityMixin">
+            withCapacityMixin
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.withCapacityMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.withCapacityMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCapacityMixinfunction(capacity) self <span style="color:#666">+</span> { capacity<span style="color:#666">+:</span> capacity }
+</code></pre></div></div><p>Capacity represents the total resources of a node. More info: <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes#capacity">https://kubernetes.io/docs/concepts/storage/persistent-volumes#capacity</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.withConditions">
+            withConditions
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.withConditions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.withConditions">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">:</span> [conditions] }
+</code></pre></div></div><p>Conditions is an array of current observed node conditions. More info: <a href="https://kubernetes.io/docs/concepts/nodes/node/#condition">https://kubernetes.io/docs/concepts/nodes/node/#condition</a></p><code>withConditions</code> takes an array of type <code>conditionsType</code>. You can create
+an instance of <code>conditionsType</code> with <code>hidden.core.v1.nodeCondition.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/nodeCondition/">hidden.core.v1.nodeCondition</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.withConditionsMixin">
+            withConditionsMixin
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.withConditionsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.withConditionsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixinfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">+:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">+:</span> [conditions] }
+</code></pre></div></div><p>Conditions is an array of current observed node conditions. More info: <a href="https://kubernetes.io/docs/concepts/nodes/node/#condition">https://kubernetes.io/docs/concepts/nodes/node/#condition</a></p><code>withConditionsMixin</code> takes an array of type <code>conditionsType</code>. You can create
+an instance of <code>conditionsType</code> with <code>hidden.core.v1.nodeCondition.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/nodeCondition/">hidden.core.v1.nodeCondition</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.withImages">
+            withImages
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.withImages" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.withImages">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImagesfunction(images) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(images) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { images<span style="color:#666">:</span> images } <span style="color:#007020;font-weight:bold">else</span> { images<span style="color:#666">:</span> [images] }
+</code></pre></div></div><p>List of container images on this node</p><code>withImages</code> takes an array of type <code>imagesType</code>. You can create
+an instance of <code>imagesType</code> with <code>hidden.core.v1.containerImage.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/containerImage/">hidden.core.v1.containerImage</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.withImagesMixin">
+            withImagesMixin
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.withImagesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.withImagesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImagesMixinfunction(images) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(images) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { images<span style="color:#666">+:</span> images } <span style="color:#007020;font-weight:bold">else</span> { images<span style="color:#666">+:</span> [images] }
+</code></pre></div></div><p>List of container images on this node</p><code>withImagesMixin</code> takes an array of type <code>imagesType</code>. You can create
+an instance of <code>imagesType</code> with <code>hidden.core.v1.containerImage.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/containerImage/">hidden.core.v1.containerImage</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.withPhase">
+            withPhase
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.withPhase" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.withPhase">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPhasefunction(phase) self <span style="color:#666">+</span> { phase<span style="color:#666">:</span> phase }
+</code></pre></div></div><p>NodePhase is the recently observed lifecycle phase of the node. More info: <a href="https://kubernetes.io/docs/concepts/nodes/node/#phase">https://kubernetes.io/docs/concepts/nodes/node/#phase</a> The field is never populated, and now is deprecated.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.withVolumesAttached">
+            withVolumesAttached
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.withVolumesAttached" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.withVolumesAttached">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesAttachedfunction(volumesAttached) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumesAttached) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { volumesAttached<span style="color:#666">:</span> volumesAttached } <span style="color:#007020;font-weight:bold">else</span> { volumesAttached<span style="color:#666">:</span> [volumesAttached] }
+</code></pre></div></div><p>List of volumes that are attached to the node.</p><code>withVolumesAttached</code> takes an array of type <code>volumesAttachedType</code>. You can create
+an instance of <code>volumesAttachedType</code> with <code>hidden.core.v1.attachedVolume.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/attachedVolume/">hidden.core.v1.attachedVolume</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.withVolumesAttachedMixin">
+            withVolumesAttachedMixin
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.withVolumesAttachedMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.withVolumesAttachedMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesAttachedMixinfunction(volumesAttached) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumesAttached) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { volumesAttached<span style="color:#666">+:</span> volumesAttached } <span style="color:#007020;font-weight:bold">else</span> { volumesAttached<span style="color:#666">+:</span> [volumesAttached] }
+</code></pre></div></div><p>List of volumes that are attached to the node.</p><code>withVolumesAttachedMixin</code> takes an array of type <code>volumesAttachedType</code>. You can create
+an instance of <code>volumesAttachedType</code> with <code>hidden.core.v1.attachedVolume.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/attachedVolume/">hidden.core.v1.attachedVolume</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.withVolumesInUse">
+            withVolumesInUse
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.withVolumesInUse" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.withVolumesInUse">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesInUsefunction(volumesInUse) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumesInUse) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { volumesInUse<span style="color:#666">:</span> volumesInUse } <span style="color:#007020;font-weight:bold">else</span> { volumesInUse<span style="color:#666">:</span> [volumesInUse] }
+</code></pre></div></div><p>List of attachable volumes in use (mounted) by the node.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.withVolumesInUseMixin">
+            withVolumesInUseMixin
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.withVolumesInUseMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.withVolumesInUseMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesInUseMixinfunction(volumesInUse) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumesInUse) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { volumesInUse<span style="color:#666">+:</span> volumesInUse } <span style="color:#007020;font-weight:bold">else</span> { volumesInUse<span style="color:#666">+:</span> [volumesInUse] }
+</code></pre></div></div><p>List of attachable volumes in use (mounted) by the node.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Mixins</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config">
+            config
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config">
+        <p>Status of the config assigned to the node via the dynamic Kubelet config feature.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(config) __configMixin(config)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.withErrorParam">
+            withErrorParam
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.withErrorParam" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.withErrorParam">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withErrorParamfunction(errorParam) self <span style="color:#666">+</span> __configMixin({ <span style="color:#4070a0">&#34;error&#34;</span><span style="color:#666">:</span> errorParam })
+</code></pre></div></div><p>Error describes any problems reconciling the Spec.ConfigSource to the Active config. Errors may occur, for example, attempting to checkpoint Spec.ConfigSource to the local Assigned record, attempting to checkpoint the payload associated with Spec.ConfigSource, attempting to load or validate the Assigned config, etc. Errors may occur at different points while syncing config. Earlier errors (e.g. download or checkpointing errors) will not result in a rollback to LastKnownGood, and may resolve across Kubelet retries. Later errors (e.g. loading or validating a checkpointed config) will result in a rollback to LastKnownGood. In the latter case, it is usually possible to resolve the error by fixing the config assigned in Spec.ConfigSource. You can find additional information for debugging by searching the error message in the Kubelet log. Error is a human-readable description of the error state; machines can check whether or not Error is empty, but should not rely on the stability of the Error text across Kubelet versions.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.active">
+            active
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.active" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.active">
+        <p>Active reports the checkpointed config the node is actively using. Active will represent either the current version of the Assigned config, or the current LastKnownGood config, depending on whether attempting to use the Assigned config results in an error.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.active.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.active.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.active.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(active) __activeMixin(active)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.active.configMap">
+            configMap
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.active.configMap" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.active.configMap">
+        <p>ConfigMap is a reference to a Node's ConfigMap</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.active.configMap.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.active.configMap.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.active.configMap.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(configMap) __configMapMixin(configMap)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.active.configMap.withKubeletConfigKey">
+            withKubeletConfigKey
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.active.configMap.withKubeletConfigKey" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.active.configMap.withKubeletConfigKey">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKubeletConfigKeyfunction(kubeletConfigKey) self <span style="color:#666">+</span> __configMapMixin({ kubeletConfigKey<span style="color:#666">:</span> kubeletConfigKey })
+</code></pre></div></div><p>KubeletConfigKey declares which key of the referenced ConfigMap corresponds to the KubeletConfiguration structure This field is required in all cases.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.active.configMap.withName">
+            withName
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.active.configMap.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.active.configMap.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __configMapMixin({ name<span style="color:#666">:</span> name })
+</code></pre></div></div><p>Name is the metadata.name of the referenced ConfigMap. This field is required in all cases.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.active.configMap.withNamespace">
+            withNamespace
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.active.configMap.withNamespace" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.active.configMap.withNamespace">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __configMapMixin({ namespace<span style="color:#666">:</span> namespace })
+</code></pre></div></div><p>Namespace is the metadata.namespace of the referenced ConfigMap. This field is required in all cases.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.active.configMap.withResourceVersion">
+            withResourceVersion
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.active.configMap.withResourceVersion" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.active.configMap.withResourceVersion">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersionfunction(resourceVersion) self <span style="color:#666">+</span> __configMapMixin({ resourceVersion<span style="color:#666">:</span> resourceVersion })
+</code></pre></div></div><p>ResourceVersion is the metadata.ResourceVersion of the referenced ConfigMap. This field is forbidden in Node.Spec, and required in Node.Status.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.active.configMap.withUid">
+            withUid
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.active.configMap.withUid" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.active.configMap.withUid">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> __configMapMixin({ uid<span style="color:#666">:</span> uid })
+</code></pre></div></div><p>UID is the metadata.UID of the referenced ConfigMap. This field is forbidden in Node.Spec, and required in Node.Status.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.assigned">
+            assigned
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.assigned" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.assigned">
+        <p>Assigned reports the checkpointed config the node will try to use. When Node.Spec.ConfigSource is updated, the node checkpoints the associated config payload to local disk, along with a record indicating intended config. The node refers to this record to choose its config checkpoint, and reports this record in Assigned. Assigned only updates in the status after the record has been checkpointed to disk. When the Kubelet is restarted, it tries to make the Assigned config the Active config by loading and validating the checkpointed payload identified by Assigned.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.assigned.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.assigned.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.assigned.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(assigned) __assignedMixin(assigned)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.assigned.configMap">
+            configMap
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.assigned.configMap" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.assigned.configMap">
+        <p>ConfigMap is a reference to a Node's ConfigMap</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.assigned.configMap.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.assigned.configMap.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.assigned.configMap.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(configMap) __configMapMixin(configMap)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.assigned.configMap.withKubeletConfigKey">
+            withKubeletConfigKey
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.assigned.configMap.withKubeletConfigKey" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.assigned.configMap.withKubeletConfigKey">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKubeletConfigKeyfunction(kubeletConfigKey) self <span style="color:#666">+</span> __configMapMixin({ kubeletConfigKey<span style="color:#666">:</span> kubeletConfigKey })
+</code></pre></div></div><p>KubeletConfigKey declares which key of the referenced ConfigMap corresponds to the KubeletConfiguration structure This field is required in all cases.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.assigned.configMap.withName">
+            withName
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.assigned.configMap.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.assigned.configMap.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __configMapMixin({ name<span style="color:#666">:</span> name })
+</code></pre></div></div><p>Name is the metadata.name of the referenced ConfigMap. This field is required in all cases.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.assigned.configMap.withNamespace">
+            withNamespace
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.assigned.configMap.withNamespace" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.assigned.configMap.withNamespace">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __configMapMixin({ namespace<span style="color:#666">:</span> namespace })
+</code></pre></div></div><p>Namespace is the metadata.namespace of the referenced ConfigMap. This field is required in all cases.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.assigned.configMap.withResourceVersion">
+            withResourceVersion
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.assigned.configMap.withResourceVersion" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.assigned.configMap.withResourceVersion">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersionfunction(resourceVersion) self <span style="color:#666">+</span> __configMapMixin({ resourceVersion<span style="color:#666">:</span> resourceVersion })
+</code></pre></div></div><p>ResourceVersion is the metadata.ResourceVersion of the referenced ConfigMap. This field is forbidden in Node.Spec, and required in Node.Status.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.assigned.configMap.withUid">
+            withUid
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.assigned.configMap.withUid" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.assigned.configMap.withUid">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> __configMapMixin({ uid<span style="color:#666">:</span> uid })
+</code></pre></div></div><p>UID is the metadata.UID of the referenced ConfigMap. This field is forbidden in Node.Spec, and required in Node.Status.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.lastKnownGood">
+            lastKnownGood
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.lastKnownGood" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.lastKnownGood">
+        <p>LastKnownGood reports the checkpointed config the node will fall back to when it encounters an error attempting to use the Assigned config. The Assigned config becomes the LastKnownGood config when the node determines that the Assigned config is stable and correct. This is currently implemented as a 10-minute soak period starting when the local record of Assigned config is updated. If the Assigned config is Active at the end of this period, it becomes the LastKnownGood. Note that if Spec.ConfigSource is reset to nil (use local defaults), the LastKnownGood is also immediately reset to nil, because the local default config is always assumed good. You should not make assumptions about the node's method of determining config stability and correctness, as this may change or become configurable in the future.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.lastKnownGood.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.lastKnownGood.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.lastKnownGood.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(lastKnownGood) __lastKnownGoodMixin(lastKnownGood)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.lastKnownGood.configMap">
+            configMap
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.lastKnownGood.configMap" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.lastKnownGood.configMap">
+        <p>ConfigMap is a reference to a Node's ConfigMap</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.lastKnownGood.configMap.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.lastKnownGood.configMap.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.lastKnownGood.configMap.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(configMap) __configMapMixin(configMap)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.lastKnownGood.configMap.withKubeletConfigKey">
+            withKubeletConfigKey
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.lastKnownGood.configMap.withKubeletConfigKey" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.lastKnownGood.configMap.withKubeletConfigKey">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKubeletConfigKeyfunction(kubeletConfigKey) self <span style="color:#666">+</span> __configMapMixin({ kubeletConfigKey<span style="color:#666">:</span> kubeletConfigKey })
+</code></pre></div></div><p>KubeletConfigKey declares which key of the referenced ConfigMap corresponds to the KubeletConfiguration structure This field is required in all cases.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.lastKnownGood.configMap.withName">
+            withName
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.lastKnownGood.configMap.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.lastKnownGood.configMap.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __configMapMixin({ name<span style="color:#666">:</span> name })
+</code></pre></div></div><p>Name is the metadata.name of the referenced ConfigMap. This field is required in all cases.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.lastKnownGood.configMap.withNamespace">
+            withNamespace
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.lastKnownGood.configMap.withNamespace" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.lastKnownGood.configMap.withNamespace">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __configMapMixin({ namespace<span style="color:#666">:</span> namespace })
+</code></pre></div></div><p>Namespace is the metadata.namespace of the referenced ConfigMap. This field is required in all cases.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.lastKnownGood.configMap.withResourceVersion">
+            withResourceVersion
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.lastKnownGood.configMap.withResourceVersion" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.lastKnownGood.configMap.withResourceVersion">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersionfunction(resourceVersion) self <span style="color:#666">+</span> __configMapMixin({ resourceVersion<span style="color:#666">:</span> resourceVersion })
+</code></pre></div></div><p>ResourceVersion is the metadata.ResourceVersion of the referenced ConfigMap. This field is forbidden in Node.Spec, and required in Node.Status.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.config.lastKnownGood.configMap.withUid">
+            withUid
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.config.lastKnownGood.configMap.withUid" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.config.lastKnownGood.configMap.withUid">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> __configMapMixin({ uid<span style="color:#666">:</span> uid })
+</code></pre></div></div><p>UID is the metadata.UID of the referenced ConfigMap. This field is forbidden in Node.Spec, and required in Node.Status.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.daemonEndpoints">
+            daemonEndpoints
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.daemonEndpoints" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.daemonEndpoints">
+        <p>Endpoints of daemons running on the Node.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.daemonEndpoints.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.daemonEndpoints.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.daemonEndpoints.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(daemonEndpoints) __daemonEndpointsMixin(daemonEndpoints)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.daemonEndpoints.kubeletEndpoint">
+            kubeletEndpoint
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.daemonEndpoints.kubeletEndpoint" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.daemonEndpoints.kubeletEndpoint">
+        <p>Endpoint on which Kubelet is listening.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.daemonEndpoints.kubeletEndpoint.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.daemonEndpoints.kubeletEndpoint.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.daemonEndpoints.kubeletEndpoint.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(kubeletEndpoint) __kubeletEndpointMixin(kubeletEndpoint)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.daemonEndpoints.kubeletEndpoint.withPort">
+            withPort
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.daemonEndpoints.kubeletEndpoint.withPort" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.daemonEndpoints.kubeletEndpoint.withPort">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __kubeletEndpointMixin({ Port<span style="color:#666">:</span> port })
+</code></pre></div></div><p>Port number of the given endpoint.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.nodeStatus.nodeInfo">
+            nodeInfo
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.nodeInfo" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.nodeInfo">
+        <p>Set of ids/uuids to uniquely identify the node. More info: https://kubernetes.io/docs/concepts/nodes/node/#info</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.nodeInfo.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.nodeInfo.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.nodeInfo.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(nodeInfo) __nodeInfoMixin(nodeInfo)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.nodeInfo.withArchitecture">
+            withArchitecture
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.nodeInfo.withArchitecture" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.nodeInfo.withArchitecture">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withArchitecturefunction(architecture) self <span style="color:#666">+</span> __nodeInfoMixin({ architecture<span style="color:#666">:</span> architecture })
+</code></pre></div></div><p>The Architecture reported by the node</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.nodeInfo.withBootId">
+            withBootId
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.nodeInfo.withBootId" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.nodeInfo.withBootId">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withBootIdfunction(bootId) self <span style="color:#666">+</span> __nodeInfoMixin({ bootID<span style="color:#666">:</span> bootId })
+</code></pre></div></div><p>Boot ID reported by the node.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.nodeInfo.withContainerRuntimeVersion">
+            withContainerRuntimeVersion
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.nodeInfo.withContainerRuntimeVersion" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.nodeInfo.withContainerRuntimeVersion">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerRuntimeVersionfunction(containerRuntimeVersion) self <span style="color:#666">+</span> __nodeInfoMixin({ containerRuntimeVersion<span style="color:#666">:</span> containerRuntimeVersion })
+</code></pre></div></div><p>ContainerRuntime Version reported by the node through runtime remote API (e.g. docker://1.5.0).</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.nodeInfo.withKernelVersion">
+            withKernelVersion
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.nodeInfo.withKernelVersion" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.nodeInfo.withKernelVersion">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKernelVersionfunction(kernelVersion) self <span style="color:#666">+</span> __nodeInfoMixin({ kernelVersion<span style="color:#666">:</span> kernelVersion })
+</code></pre></div></div><p>Kernel Version reported by the node from &lsquo;uname -r&rsquo; (e.g. 3.16.0-0.bpo.4-amd64).</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.nodeInfo.withKubeProxyVersion">
+            withKubeProxyVersion
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.nodeInfo.withKubeProxyVersion" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.nodeInfo.withKubeProxyVersion">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKubeProxyVersionfunction(kubeProxyVersion) self <span style="color:#666">+</span> __nodeInfoMixin({ kubeProxyVersion<span style="color:#666">:</span> kubeProxyVersion })
+</code></pre></div></div><p>KubeProxy Version reported by the node.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.nodeInfo.withKubeletVersion">
+            withKubeletVersion
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.nodeInfo.withKubeletVersion" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.nodeInfo.withKubeletVersion">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKubeletVersionfunction(kubeletVersion) self <span style="color:#666">+</span> __nodeInfoMixin({ kubeletVersion<span style="color:#666">:</span> kubeletVersion })
+</code></pre></div></div><p>Kubelet Version reported by the node.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.nodeInfo.withMachineId">
+            withMachineId
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.nodeInfo.withMachineId" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.nodeInfo.withMachineId">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMachineIdfunction(machineId) self <span style="color:#666">+</span> __nodeInfoMixin({ machineID<span style="color:#666">:</span> machineId })
+</code></pre></div></div><p>MachineID reported by the node. For unique machine identification in the cluster this field is preferred. Learn more from man(5) machine-id: <a href="http://man7.org/linux/man-pages/man5/machine-id.5.html">http://man7.org/linux/man-pages/man5/machine-id.5.html</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.nodeInfo.withOperatingSystem">
+            withOperatingSystem
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.nodeInfo.withOperatingSystem" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.nodeInfo.withOperatingSystem">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOperatingSystemfunction(operatingSystem) self <span style="color:#666">+</span> __nodeInfoMixin({ operatingSystem<span style="color:#666">:</span> operatingSystem })
+</code></pre></div></div><p>The Operating System reported by the node</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.nodeInfo.withOsImage">
+            withOsImage
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.nodeInfo.withOsImage" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.nodeInfo.withOsImage">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOsImagefunction(osImage) self <span style="color:#666">+</span> __nodeInfoMixin({ osImage<span style="color:#666">:</span> osImage })
+</code></pre></div></div><p>OS Image reported by the node from /etc/os-release (e.g. Debian GNU/Linux 7 (wheezy)).</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.nodeStatus.nodeInfo.withSystemUuid">
+            withSystemUuid
+            <a data-toggle="collapse" href="#core.v1.nodeStatus.nodeInfo.withSystemUuid" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.nodeStatus.nodeInfo.withSystemUuid">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSystemUuidfunction(systemUuid) self <span style="color:#666">+</span> __nodeInfoMixin({ systemUUID<span style="color:#666">:</span> systemUuid })
+</code></pre></div></div><p>SystemUUID reported by the node. For unique machine identification MachineID is preferred. This field is specific to Red Hat hosts <a href="https://access.redhat.com/documentation/en-US/Red_Hat_Subscription_Management/1/html/RHSM/getting-system-uuid.html">https://access.redhat.com/documentation/en-US/Red_Hat_Subscription_Management/1/html/RHSM/getting-system-uuid.html</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

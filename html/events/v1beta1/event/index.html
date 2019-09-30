@@ -1,0 +1,1707 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                        <li>
+                            <a href="#events.v1beta1.event.deprecatedSource">deprecatedSource</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#events.v1beta1.event.metadata">metadata</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#events.v1beta1.event.metadata.initializers">initializers</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#events.v1beta1.event.regarding">regarding</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#events.v1beta1.event.related">related</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#events.v1beta1.event.series">series</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>event</h1>
+            <p>Event is a report of an event somewhere in the cluster. It generally denotes some state change in the system.</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.new">
+            new
+            <a data-toggle="collapse" href="#events.v1beta1.event.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() apiVersion <span style="color:#666">+</span> kind
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Functions</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.withAction">
+            withAction
+            <a data-toggle="collapse" href="#events.v1beta1.event.withAction" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.withAction">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withActionfunction(action) self <span style="color:#666">+</span> { action<span style="color:#666">:</span> action }
+</code></pre></div></div><p>What action was taken/failed regarding to the regarding object.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.withDeprecatedCount">
+            withDeprecatedCount
+            <a data-toggle="collapse" href="#events.v1beta1.event.withDeprecatedCount" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.withDeprecatedCount">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDeprecatedCountfunction(deprecatedCount) self <span style="color:#666">+</span> { deprecatedCount<span style="color:#666">:</span> deprecatedCount }
+</code></pre></div></div><p>Deprecated field assuring backward compatibility with core.v1 Event type</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.withDeprecatedFirstTimestamp">
+            withDeprecatedFirstTimestamp
+            <a data-toggle="collapse" href="#events.v1beta1.event.withDeprecatedFirstTimestamp" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.withDeprecatedFirstTimestamp">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDeprecatedFirstTimestampfunction(deprecatedFirstTimestamp) self <span style="color:#666">+</span> { deprecatedFirstTimestamp<span style="color:#666">:</span> deprecatedFirstTimestamp }
+</code></pre></div></div><p>Deprecated field assuring backward compatibility with core.v1 Event type</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.withDeprecatedLastTimestamp">
+            withDeprecatedLastTimestamp
+            <a data-toggle="collapse" href="#events.v1beta1.event.withDeprecatedLastTimestamp" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.withDeprecatedLastTimestamp">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDeprecatedLastTimestampfunction(deprecatedLastTimestamp) self <span style="color:#666">+</span> { deprecatedLastTimestamp<span style="color:#666">:</span> deprecatedLastTimestamp }
+</code></pre></div></div><p>Deprecated field assuring backward compatibility with core.v1 Event type</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.withEventTime">
+            withEventTime
+            <a data-toggle="collapse" href="#events.v1beta1.event.withEventTime" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.withEventTime">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEventTimefunction(eventTime) self <span style="color:#666">+</span> { eventTime<span style="color:#666">:</span> eventTime }
+</code></pre></div></div><p>Required. Time when this Event was first observed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.withNote">
+            withNote
+            <a data-toggle="collapse" href="#events.v1beta1.event.withNote" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.withNote">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNotefunction(note) self <span style="color:#666">+</span> { note<span style="color:#666">:</span> note }
+</code></pre></div></div><p>Optional. A human-readable description of the status of this operation. Maximal length of the note is 1kB, but libraries should be prepared to handle values up to 64kB.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.withReason">
+            withReason
+            <a data-toggle="collapse" href="#events.v1beta1.event.withReason" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.withReason">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReasonfunction(reason) self <span style="color:#666">+</span> { reason<span style="color:#666">:</span> reason }
+</code></pre></div></div><p>Why the action was taken.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.withReportingController">
+            withReportingController
+            <a data-toggle="collapse" href="#events.v1beta1.event.withReportingController" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.withReportingController">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReportingControllerfunction(reportingController) self <span style="color:#666">+</span> { reportingController<span style="color:#666">:</span> reportingController }
+</code></pre></div></div><p>Name of the controller that emitted this Event, e.g. <code>kubernetes.io/kubelet</code>.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.withReportingInstance">
+            withReportingInstance
+            <a data-toggle="collapse" href="#events.v1beta1.event.withReportingInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.withReportingInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReportingInstancefunction(reportingInstance) self <span style="color:#666">+</span> { reportingInstance<span style="color:#666">:</span> reportingInstance }
+</code></pre></div></div><p>ID of the controller instance, e.g. <code>kubelet-xyzf</code>.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.withType">
+            withType
+            <a data-toggle="collapse" href="#events.v1beta1.event.withType" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.withType">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> { type<span style="color:#666">:</span> type }
+</code></pre></div></div><p>Type of this event (Normal, Warning), new types could be added in the future.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Mixins</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.deprecatedSource">
+            deprecatedSource
+            <a data-toggle="collapse" href="#events.v1beta1.event.deprecatedSource" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.deprecatedSource">
+        <p>Deprecated field assuring backward compatibility with core.v1 Event type</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.deprecatedSource.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#events.v1beta1.event.deprecatedSource.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.deprecatedSource.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(deprecatedSource) __deprecatedSourceMixin(deprecatedSource)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.deprecatedSource.withComponent">
+            withComponent
+            <a data-toggle="collapse" href="#events.v1beta1.event.deprecatedSource.withComponent" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.deprecatedSource.withComponent">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withComponentfunction(component) self <span style="color:#666">+</span> __deprecatedSourceMixin({ component<span style="color:#666">:</span> component })
+</code></pre></div></div><p>Component from which the event is generated.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.deprecatedSource.withHost">
+            withHost
+            <a data-toggle="collapse" href="#events.v1beta1.event.deprecatedSource.withHost" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.deprecatedSource.withHost">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __deprecatedSourceMixin({ host<span style="color:#666">:</span> host })
+</code></pre></div></div><p>Node name on which the event is generated.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata">
+            metadata
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata">
+        <p></p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(metadata) __metadataMixin(metadata)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.withAnnotations">
+            withAnnotations
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.withAnnotations" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.withAnnotations">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsfunction(annotations) self <span style="color:#666">+</span> __metadataMixin({ annotations<span style="color:#666">:</span> annotations })
+</code></pre></div></div><p>Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: <a href="http://kubernetes.io/docs/user-guide/annotations">http://kubernetes.io/docs/user-guide/annotations</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.withAnnotationsMixin">
+            withAnnotationsMixin
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.withAnnotationsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.withAnnotationsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsMixinfunction(annotations) self <span style="color:#666">+</span> __metadataMixin({ annotations<span style="color:#666">+:</span> annotations })
+</code></pre></div></div><p>Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: <a href="http://kubernetes.io/docs/user-guide/annotations">http://kubernetes.io/docs/user-guide/annotations</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.withClusterName">
+            withClusterName
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.withClusterName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.withClusterName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterNamefunction(clusterName) self <span style="color:#666">+</span> __metadataMixin({ clusterName<span style="color:#666">:</span> clusterName })
+</code></pre></div></div><p>The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.withFinalizers">
+            withFinalizers
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.withFinalizers" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.withFinalizers">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersfunction(finalizers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(finalizers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ finalizers<span style="color:#666">:</span> finalizers }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ finalizers<span style="color:#666">:</span> [finalizers] })
+</code></pre></div></div><p>Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.withFinalizersMixin">
+            withFinalizersMixin
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.withFinalizersMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.withFinalizersMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersMixinfunction(finalizers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(finalizers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ finalizers<span style="color:#666">+:</span> finalizers }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ finalizers<span style="color:#666">+:</span> [finalizers] })
+</code></pre></div></div><p>Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.withGenerateName">
+            withGenerateName
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.withGenerateName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.withGenerateName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGenerateNamefunction(generateName) self <span style="color:#666">+</span> __metadataMixin({ generateName<span style="color:#666">:</span> generateName })
+</code></pre></div></div><p>GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</p><p></p><p>If this field is specified and the generated name exists, the server will NOT return a 409 - instead, it will either return 201 Created or 500 with Reason ServerTimeout indicating a unique name could not be found in the time allotted, and the client should retry (optionally after the time indicated in the Retry-After header).</p><p></p><p>Applied only if Name is not specified. More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#idempotency">https://git.k8s.io/community/contributors/devel/api-conventions.md#idempotency</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.withLabels">
+            withLabels
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.withLabels" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.withLabels">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsfunction(labels) self <span style="color:#666">+</span> __metadataMixin({ labels<span style="color:#666">:</span> labels })
+</code></pre></div></div><p>Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: <a href="http://kubernetes.io/docs/user-guide/labels">http://kubernetes.io/docs/user-guide/labels</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.withLabelsMixin">
+            withLabelsMixin
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.withLabelsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.withLabelsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsMixinfunction(labels) self <span style="color:#666">+</span> __metadataMixin({ labels<span style="color:#666">+:</span> labels })
+</code></pre></div></div><p>Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: <a href="http://kubernetes.io/docs/user-guide/labels">http://kubernetes.io/docs/user-guide/labels</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.withManagedFields">
+            withManagedFields
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.withManagedFields" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.withManagedFields">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsfunction(managedFields) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(managedFields) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ managedFields<span style="color:#666">:</span> managedFields }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ managedFields<span style="color:#666">:</span> [managedFields] })
+</code></pre></div></div><p>ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&rsquo;t need to set or understand this field. A workflow can be the user&rsquo;s name, a controller&rsquo;s name, or the name of a specific apply path like &ldquo;ci-cd&rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</p><p></p><p>This field is alpha and can be changed or removed without notice.</p><code>withManagedFields</code> takes an array of type <code>managedFieldsType</code>. You can create
+an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedFieldsEntry.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/managedFieldsEntry/">hidden.meta.v1.managedFieldsEntry</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.withManagedFieldsMixin">
+            withManagedFieldsMixin
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.withManagedFieldsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.withManagedFieldsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsMixinfunction(managedFields) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(managedFields) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ managedFields<span style="color:#666">+:</span> managedFields }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ managedFields<span style="color:#666">+:</span> [managedFields] })
+</code></pre></div></div><p>ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&rsquo;t need to set or understand this field. A workflow can be the user&rsquo;s name, a controller&rsquo;s name, or the name of a specific apply path like &ldquo;ci-cd&rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</p><p></p><p>This field is alpha and can be changed or removed without notice.</p><code>withManagedFieldsMixin</code> takes an array of type <code>managedFieldsType</code>. You can create
+an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedFieldsEntry.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/managedFieldsEntry/">hidden.meta.v1.managedFieldsEntry</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.withName">
+            withName
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __metadataMixin({ name<span style="color:#666">:</span> name })
+</code></pre></div></div><p>Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: <a href="http://kubernetes.io/docs/user-guide/identifiers#names">http://kubernetes.io/docs/user-guide/identifiers#names</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.withNamespace">
+            withNamespace
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.withNamespace" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.withNamespace">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __metadataMixin({ namespace<span style="color:#666">:</span> namespace })
+</code></pre></div></div><p>Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &ldquo;default&rdquo; namespace, but &ldquo;default&rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.</p><p></p><p>Must be a DNS_LABEL. Cannot be updated. More info: <a href="http://kubernetes.io/docs/user-guide/namespaces">http://kubernetes.io/docs/user-guide/namespaces</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.withOwnerReferences">
+            withOwnerReferences
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.withOwnerReferences" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.withOwnerReferences">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesfunction(ownerReferences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ownerReferences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ ownerReferences<span style="color:#666">:</span> ownerReferences }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ ownerReferences<span style="color:#666">:</span> [ownerReferences] })
+</code></pre></div></div><p>List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</p><code>withOwnerReferences</code> takes an array of type <code>ownerReferencesType</code>. You can create
+an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerReference.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/ownerReference/">hidden.meta.v1.ownerReference</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.withOwnerReferencesMixin">
+            withOwnerReferencesMixin
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.withOwnerReferencesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.withOwnerReferencesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesMixinfunction(ownerReferences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ownerReferences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ ownerReferences<span style="color:#666">+:</span> ownerReferences }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ ownerReferences<span style="color:#666">+:</span> [ownerReferences] })
+</code></pre></div></div><p>List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</p><code>withOwnerReferencesMixin</code> takes an array of type <code>ownerReferencesType</code>. You can create
+an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerReference.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/ownerReference/">hidden.meta.v1.ownerReference</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.initializers">
+            initializers
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.initializers" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.initializers">
+        <p>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven't explicitly asked to observe uninitialized objects.</p><p></p><p>When an object is created, the system will populate this list with the current set of initializers. Only privileged users may set or modify this list. Once it is empty, it may not be modified further by any user.</p><p></p><p>DEPRECATED - initializers are an alpha field and will be removed in v1.15.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.initializers.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.initializers.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.initializers.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(initializers) __initializersMixin(initializers)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.initializers.withPending">
+            withPending
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.initializers.withPending" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.initializers.withPending">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingfunction(pending) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(pending) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __initializersMixin({ pending<span style="color:#666">:</span> pending }) <span style="color:#007020;font-weight:bold">else</span> __initializersMixin({ pending<span style="color:#666">:</span> [pending] })
+</code></pre></div></div><p>Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.</p><code>withPending</code> takes an array of type <code>pendingType</code>. You can create
+an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/initializer/">hidden.meta.v1.initializer</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.metadata.initializers.withPendingMixin">
+            withPendingMixin
+            <a data-toggle="collapse" href="#events.v1beta1.event.metadata.initializers.withPendingMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.metadata.initializers.withPendingMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingMixinfunction(pending) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(pending) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __initializersMixin({ pending<span style="color:#666">+:</span> pending }) <span style="color:#007020;font-weight:bold">else</span> __initializersMixin({ pending<span style="color:#666">+:</span> [pending] })
+</code></pre></div></div><p>Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.</p><code>withPendingMixin</code> takes an array of type <code>pendingType</code>. You can create
+an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/initializer/">hidden.meta.v1.initializer</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.regarding">
+            regarding
+            <a data-toggle="collapse" href="#events.v1beta1.event.regarding" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.regarding">
+        <p>The object this Event is about. In most cases it's an Object reporting controller implements. E.g. ReplicaSetController implements ReplicaSets and this event is emitted because it acts on some changes in a ReplicaSet object.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.regarding.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#events.v1beta1.event.regarding.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.regarding.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(regarding) __regardingMixin(regarding)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.regarding.withFieldPath">
+            withFieldPath
+            <a data-toggle="collapse" href="#events.v1beta1.event.regarding.withFieldPath" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.regarding.withFieldPath">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPathfunction(fieldPath) self <span style="color:#666">+</span> __regardingMixin({ fieldPath<span style="color:#666">:</span> fieldPath })
+</code></pre></div></div><p>If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: &ldquo;spec.containers{name}&rdquo; (where &ldquo;name&rdquo; refers to the name of the container that triggered the event) or if no container name is specified &ldquo;spec.containers[2]&rdquo; (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.regarding.withName">
+            withName
+            <a data-toggle="collapse" href="#events.v1beta1.event.regarding.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.regarding.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __regardingMixin({ name<span style="color:#666">:</span> name })
+</code></pre></div></div><p>Name of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.regarding.withNamespace">
+            withNamespace
+            <a data-toggle="collapse" href="#events.v1beta1.event.regarding.withNamespace" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.regarding.withNamespace">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __regardingMixin({ namespace<span style="color:#666">:</span> namespace })
+</code></pre></div></div><p>Namespace of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/">https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.regarding.withResourceVersion">
+            withResourceVersion
+            <a data-toggle="collapse" href="#events.v1beta1.event.regarding.withResourceVersion" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.regarding.withResourceVersion">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersionfunction(resourceVersion) self <span style="color:#666">+</span> __regardingMixin({ resourceVersion<span style="color:#666">:</span> resourceVersion })
+</code></pre></div></div><p>Specific resourceVersion to which this reference is made, if any. More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency">https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.regarding.withUid">
+            withUid
+            <a data-toggle="collapse" href="#events.v1beta1.event.regarding.withUid" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.regarding.withUid">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> __regardingMixin({ uid<span style="color:#666">:</span> uid })
+</code></pre></div></div><p>UID of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.related">
+            related
+            <a data-toggle="collapse" href="#events.v1beta1.event.related" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.related">
+        <p>Optional secondary object for more complex actions. E.g. when regarding object triggers a creation or deletion of related object.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.related.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#events.v1beta1.event.related.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.related.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(related) __relatedMixin(related)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.related.withFieldPath">
+            withFieldPath
+            <a data-toggle="collapse" href="#events.v1beta1.event.related.withFieldPath" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.related.withFieldPath">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPathfunction(fieldPath) self <span style="color:#666">+</span> __relatedMixin({ fieldPath<span style="color:#666">:</span> fieldPath })
+</code></pre></div></div><p>If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: &ldquo;spec.containers{name}&rdquo; (where &ldquo;name&rdquo; refers to the name of the container that triggered the event) or if no container name is specified &ldquo;spec.containers[2]&rdquo; (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.related.withName">
+            withName
+            <a data-toggle="collapse" href="#events.v1beta1.event.related.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.related.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __relatedMixin({ name<span style="color:#666">:</span> name })
+</code></pre></div></div><p>Name of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.related.withNamespace">
+            withNamespace
+            <a data-toggle="collapse" href="#events.v1beta1.event.related.withNamespace" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.related.withNamespace">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __relatedMixin({ namespace<span style="color:#666">:</span> namespace })
+</code></pre></div></div><p>Namespace of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/">https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.related.withResourceVersion">
+            withResourceVersion
+            <a data-toggle="collapse" href="#events.v1beta1.event.related.withResourceVersion" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.related.withResourceVersion">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersionfunction(resourceVersion) self <span style="color:#666">+</span> __relatedMixin({ resourceVersion<span style="color:#666">:</span> resourceVersion })
+</code></pre></div></div><p>Specific resourceVersion to which this reference is made, if any. More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency">https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.related.withUid">
+            withUid
+            <a data-toggle="collapse" href="#events.v1beta1.event.related.withUid" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.related.withUid">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> __relatedMixin({ uid<span style="color:#666">:</span> uid })
+</code></pre></div></div><p>UID of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="events.v1beta1.event.series">
+            series
+            <a data-toggle="collapse" href="#events.v1beta1.event.series" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.series">
+        <p>Data about the Event series this event represents or nil if it's a singleton Event.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.series.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#events.v1beta1.event.series.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.series.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(series) __seriesMixin(series)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.series.withCount">
+            withCount
+            <a data-toggle="collapse" href="#events.v1beta1.event.series.withCount" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.series.withCount">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCountfunction(count) self <span style="color:#666">+</span> __seriesMixin({ count<span style="color:#666">:</span> count })
+</code></pre></div></div><p>Number of occurrences in this series up to the last heartbeat time</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.series.withLastObservedTime">
+            withLastObservedTime
+            <a data-toggle="collapse" href="#events.v1beta1.event.series.withLastObservedTime" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.series.withLastObservedTime">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLastObservedTimefunction(lastObservedTime) self <span style="color:#666">+</span> __seriesMixin({ lastObservedTime<span style="color:#666">:</span> lastObservedTime })
+</code></pre></div></div><p>Time when last Event from the series was seen before last heartbeat.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="events.v1beta1.event.series.withState">
+            withState
+            <a data-toggle="collapse" href="#events.v1beta1.event.series.withState" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="events.v1beta1.event.series.withState">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStatefunction(state) self <span style="color:#666">+</span> __seriesMixin({ state<span style="color:#666">:</span> state })
+</code></pre></div></div><p>Information whether this series is ongoing or finished.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

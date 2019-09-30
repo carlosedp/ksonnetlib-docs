@@ -1,0 +1,1871 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                        <li>
+                            <a href="#extensions.v1beta1.podSecurityPolicySpec.fsGroup">fsGroup</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#extensions.v1beta1.podSecurityPolicySpec.runAsGroup">runAsGroup</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#extensions.v1beta1.podSecurityPolicySpec.runAsUser">runAsUser</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#extensions.v1beta1.podSecurityPolicySpec.seLinux">seLinux</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions">seLinuxOptions</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#extensions.v1beta1.podSecurityPolicySpec.supplementalGroups">supplementalGroups</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>podSecurityPolicySpec</h1>
+            <p>PodSecurityPolicySpec defines the policy enforced. Deprecated: use PodSecurityPolicySpec from policy API Group instead.</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.new">
+            new
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Functions</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withAllowPrivilegeEscalation">
+            withAllowPrivilegeEscalation
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withAllowPrivilegeEscalation" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withAllowPrivilegeEscalation">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowPrivilegeEscalationfunction(allowPrivilegeEscalation) self <span style="color:#666">+</span> { allowPrivilegeEscalation<span style="color:#666">:</span> allowPrivilegeEscalation }
+</code></pre></div></div><p>allowPrivilegeEscalation determines if a pod can request to allow privilege escalation. If unspecified, defaults to true.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withAllowedCapabilities">
+            withAllowedCapabilities
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withAllowedCapabilities" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withAllowedCapabilities">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCapabilitiesfunction(allowedCapabilities) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedCapabilities) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedCapabilities<span style="color:#666">:</span> allowedCapabilities } <span style="color:#007020;font-weight:bold">else</span> { allowedCapabilities<span style="color:#666">:</span> [allowedCapabilities] }
+</code></pre></div></div><p>allowedCapabilities is a list of capabilities that can be requested to add to the container. Capabilities in this field may be added at the pod author&rsquo;s discretion. You must not list a capability in both allowedCapabilities and requiredDropCapabilities.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withAllowedCapabilitiesMixin">
+            withAllowedCapabilitiesMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withAllowedCapabilitiesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withAllowedCapabilitiesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCapabilitiesMixinfunction(allowedCapabilities) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedCapabilities) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedCapabilities<span style="color:#666">+:</span> allowedCapabilities } <span style="color:#007020;font-weight:bold">else</span> { allowedCapabilities<span style="color:#666">+:</span> [allowedCapabilities] }
+</code></pre></div></div><p>allowedCapabilities is a list of capabilities that can be requested to add to the container. Capabilities in this field may be added at the pod author&rsquo;s discretion. You must not list a capability in both allowedCapabilities and requiredDropCapabilities.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withAllowedCsiDrivers">
+            withAllowedCsiDrivers
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withAllowedCsiDrivers" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withAllowedCsiDrivers">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCsiDriversfunction(allowedCsiDrivers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedCsiDrivers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedCSIDrivers<span style="color:#666">:</span> allowedCsiDrivers } <span style="color:#007020;font-weight:bold">else</span> { allowedCSIDrivers<span style="color:#666">:</span> [allowedCsiDrivers] }
+</code></pre></div></div><p>AllowedCSIDrivers is a whitelist of inline CSI drivers that must be explicitly set to be embedded within a pod spec. An empty value means no CSI drivers can run inline within a pod spec.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withAllowedCsiDriversMixin">
+            withAllowedCsiDriversMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withAllowedCsiDriversMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withAllowedCsiDriversMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCsiDriversMixinfunction(allowedCsiDrivers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedCsiDrivers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedCSIDrivers<span style="color:#666">+:</span> allowedCsiDrivers } <span style="color:#007020;font-weight:bold">else</span> { allowedCSIDrivers<span style="color:#666">+:</span> [allowedCsiDrivers] }
+</code></pre></div></div><p>AllowedCSIDrivers is a whitelist of inline CSI drivers that must be explicitly set to be embedded within a pod spec. An empty value means no CSI drivers can run inline within a pod spec.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withAllowedFlexVolumes">
+            withAllowedFlexVolumes
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withAllowedFlexVolumes" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withAllowedFlexVolumes">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedFlexVolumesfunction(allowedFlexVolumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedFlexVolumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedFlexVolumes<span style="color:#666">:</span> allowedFlexVolumes } <span style="color:#007020;font-weight:bold">else</span> { allowedFlexVolumes<span style="color:#666">:</span> [allowedFlexVolumes] }
+</code></pre></div></div><p>allowedFlexVolumes is a whitelist of allowed Flexvolumes.  Empty or nil indicates that all Flexvolumes may be used.  This parameter is effective only when the usage of the Flexvolumes is allowed in the &ldquo;volumes&rdquo; field.</p><code>withAllowedFlexVolumes</code> takes an array of type <code>allowedFlexVolumesType</code>. You can create
+an instance of <code>allowedFlexVolumesType</code> with <code>hidden.extensions.v1beta1.allowedFlexVolume.new()</code>.</p>
+
+<p>see <a href="/hidden/extensions/v1beta1/allowedFlexVolume/">hidden.extensions.v1beta1.allowedFlexVolume</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withAllowedFlexVolumesMixin">
+            withAllowedFlexVolumesMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withAllowedFlexVolumesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withAllowedFlexVolumesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedFlexVolumesMixinfunction(allowedFlexVolumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedFlexVolumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedFlexVolumes<span style="color:#666">+:</span> allowedFlexVolumes } <span style="color:#007020;font-weight:bold">else</span> { allowedFlexVolumes<span style="color:#666">+:</span> [allowedFlexVolumes] }
+</code></pre></div></div><p>allowedFlexVolumes is a whitelist of allowed Flexvolumes.  Empty or nil indicates that all Flexvolumes may be used.  This parameter is effective only when the usage of the Flexvolumes is allowed in the &ldquo;volumes&rdquo; field.</p><code>withAllowedFlexVolumesMixin</code> takes an array of type <code>allowedFlexVolumesType</code>. You can create
+an instance of <code>allowedFlexVolumesType</code> with <code>hidden.extensions.v1beta1.allowedFlexVolume.new()</code>.</p>
+
+<p>see <a href="/hidden/extensions/v1beta1/allowedFlexVolume/">hidden.extensions.v1beta1.allowedFlexVolume</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withAllowedHostPaths">
+            withAllowedHostPaths
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withAllowedHostPaths" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withAllowedHostPaths">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedHostPathsfunction(allowedHostPaths) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedHostPaths) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedHostPaths<span style="color:#666">:</span> allowedHostPaths } <span style="color:#007020;font-weight:bold">else</span> { allowedHostPaths<span style="color:#666">:</span> [allowedHostPaths] }
+</code></pre></div></div><p>allowedHostPaths is a white list of allowed host paths. Empty indicates that all host paths may be used.</p><code>withAllowedHostPaths</code> takes an array of type <code>allowedHostPathsType</code>. You can create
+an instance of <code>allowedHostPathsType</code> with <code>hidden.extensions.v1beta1.allowedHostPath.new()</code>.</p>
+
+<p>see <a href="/hidden/extensions/v1beta1/allowedHostPath/">hidden.extensions.v1beta1.allowedHostPath</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withAllowedHostPathsMixin">
+            withAllowedHostPathsMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withAllowedHostPathsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withAllowedHostPathsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedHostPathsMixinfunction(allowedHostPaths) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedHostPaths) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedHostPaths<span style="color:#666">+:</span> allowedHostPaths } <span style="color:#007020;font-weight:bold">else</span> { allowedHostPaths<span style="color:#666">+:</span> [allowedHostPaths] }
+</code></pre></div></div><p>allowedHostPaths is a white list of allowed host paths. Empty indicates that all host paths may be used.</p><code>withAllowedHostPathsMixin</code> takes an array of type <code>allowedHostPathsType</code>. You can create
+an instance of <code>allowedHostPathsType</code> with <code>hidden.extensions.v1beta1.allowedHostPath.new()</code>.</p>
+
+<p>see <a href="/hidden/extensions/v1beta1/allowedHostPath/">hidden.extensions.v1beta1.allowedHostPath</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withAllowedProcMountTypes">
+            withAllowedProcMountTypes
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withAllowedProcMountTypes" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withAllowedProcMountTypes">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedProcMountTypesfunction(allowedProcMountTypes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedProcMountTypes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedProcMountTypes<span style="color:#666">:</span> allowedProcMountTypes } <span style="color:#007020;font-weight:bold">else</span> { allowedProcMountTypes<span style="color:#666">:</span> [allowedProcMountTypes] }
+</code></pre></div></div><p>AllowedProcMountTypes is a whitelist of allowed ProcMountTypes. Empty or nil indicates that only the DefaultProcMountType may be used. This requires the ProcMountType feature flag to be enabled.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withAllowedProcMountTypesMixin">
+            withAllowedProcMountTypesMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withAllowedProcMountTypesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withAllowedProcMountTypesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedProcMountTypesMixinfunction(allowedProcMountTypes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedProcMountTypes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedProcMountTypes<span style="color:#666">+:</span> allowedProcMountTypes } <span style="color:#007020;font-weight:bold">else</span> { allowedProcMountTypes<span style="color:#666">+:</span> [allowedProcMountTypes] }
+</code></pre></div></div><p>AllowedProcMountTypes is a whitelist of allowed ProcMountTypes. Empty or nil indicates that only the DefaultProcMountType may be used. This requires the ProcMountType feature flag to be enabled.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withAllowedUnsafeSysctls">
+            withAllowedUnsafeSysctls
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withAllowedUnsafeSysctls" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withAllowedUnsafeSysctls">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedUnsafeSysctlsfunction(allowedUnsafeSysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedUnsafeSysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedUnsafeSysctls<span style="color:#666">:</span> allowedUnsafeSysctls } <span style="color:#007020;font-weight:bold">else</span> { allowedUnsafeSysctls<span style="color:#666">:</span> [allowedUnsafeSysctls] }
+</code></pre></div></div><p>allowedUnsafeSysctls is a list of explicitly allowed unsafe sysctls, defaults to none. Each entry is either a plain sysctl name or ends in &ldquo;*&rdquo; in which case it is considered as a prefix of allowed sysctls. Single * means all unsafe sysctls are allowed. Kubelet has to whitelist all allowed unsafe sysctls explicitly to avoid rejection.</p><p></p><p>Examples: e.g. &ldquo;foo/<em>&rdquo; allows &ldquo;foo/bar&rdquo;, &ldquo;foo/baz&rdquo;, etc. e.g. &ldquo;foo.</em>&rdquo; allows &ldquo;foo.bar&rdquo;, &ldquo;foo.baz&rdquo;, etc.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withAllowedUnsafeSysctlsMixin">
+            withAllowedUnsafeSysctlsMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withAllowedUnsafeSysctlsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withAllowedUnsafeSysctlsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedUnsafeSysctlsMixinfunction(allowedUnsafeSysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedUnsafeSysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedUnsafeSysctls<span style="color:#666">+:</span> allowedUnsafeSysctls } <span style="color:#007020;font-weight:bold">else</span> { allowedUnsafeSysctls<span style="color:#666">+:</span> [allowedUnsafeSysctls] }
+</code></pre></div></div><p>allowedUnsafeSysctls is a list of explicitly allowed unsafe sysctls, defaults to none. Each entry is either a plain sysctl name or ends in &ldquo;*&rdquo; in which case it is considered as a prefix of allowed sysctls. Single * means all unsafe sysctls are allowed. Kubelet has to whitelist all allowed unsafe sysctls explicitly to avoid rejection.</p><p></p><p>Examples: e.g. &ldquo;foo/<em>&rdquo; allows &ldquo;foo/bar&rdquo;, &ldquo;foo/baz&rdquo;, etc. e.g. &ldquo;foo.</em>&rdquo; allows &ldquo;foo.bar&rdquo;, &ldquo;foo.baz&rdquo;, etc.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withDefaultAddCapabilities">
+            withDefaultAddCapabilities
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withDefaultAddCapabilities" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withDefaultAddCapabilities">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDefaultAddCapabilitiesfunction(defaultAddCapabilities) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(defaultAddCapabilities) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { defaultAddCapabilities<span style="color:#666">:</span> defaultAddCapabilities } <span style="color:#007020;font-weight:bold">else</span> { defaultAddCapabilities<span style="color:#666">:</span> [defaultAddCapabilities] }
+</code></pre></div></div><p>defaultAddCapabilities is the default set of capabilities that will be added to the container unless the pod spec specifically drops the capability.  You may not list a capability in both defaultAddCapabilities and requiredDropCapabilities. Capabilities added here are implicitly allowed, and need not be included in the allowedCapabilities list.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withDefaultAddCapabilitiesMixin">
+            withDefaultAddCapabilitiesMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withDefaultAddCapabilitiesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withDefaultAddCapabilitiesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDefaultAddCapabilitiesMixinfunction(defaultAddCapabilities) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(defaultAddCapabilities) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { defaultAddCapabilities<span style="color:#666">+:</span> defaultAddCapabilities } <span style="color:#007020;font-weight:bold">else</span> { defaultAddCapabilities<span style="color:#666">+:</span> [defaultAddCapabilities] }
+</code></pre></div></div><p>defaultAddCapabilities is the default set of capabilities that will be added to the container unless the pod spec specifically drops the capability.  You may not list a capability in both defaultAddCapabilities and requiredDropCapabilities. Capabilities added here are implicitly allowed, and need not be included in the allowedCapabilities list.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withDefaultAllowPrivilegeEscalation">
+            withDefaultAllowPrivilegeEscalation
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withDefaultAllowPrivilegeEscalation" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withDefaultAllowPrivilegeEscalation">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDefaultAllowPrivilegeEscalationfunction(defaultAllowPrivilegeEscalation) self <span style="color:#666">+</span> { defaultAllowPrivilegeEscalation<span style="color:#666">:</span> defaultAllowPrivilegeEscalation }
+</code></pre></div></div><p>defaultAllowPrivilegeEscalation controls the default setting for whether a process can gain more privileges than its parent process.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withForbiddenSysctls">
+            withForbiddenSysctls
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withForbiddenSysctls" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withForbiddenSysctls">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withForbiddenSysctlsfunction(forbiddenSysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(forbiddenSysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { forbiddenSysctls<span style="color:#666">:</span> forbiddenSysctls } <span style="color:#007020;font-weight:bold">else</span> { forbiddenSysctls<span style="color:#666">:</span> [forbiddenSysctls] }
+</code></pre></div></div><p>forbiddenSysctls is a list of explicitly forbidden sysctls, defaults to none. Each entry is either a plain sysctl name or ends in &ldquo;*&rdquo; in which case it is considered as a prefix of forbidden sysctls. Single * means all sysctls are forbidden.</p><p></p><p>Examples: e.g. &ldquo;foo/<em>&rdquo; forbids &ldquo;foo/bar&rdquo;, &ldquo;foo/baz&rdquo;, etc. e.g. &ldquo;foo.</em>&rdquo; forbids &ldquo;foo.bar&rdquo;, &ldquo;foo.baz&rdquo;, etc.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withForbiddenSysctlsMixin">
+            withForbiddenSysctlsMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withForbiddenSysctlsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withForbiddenSysctlsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withForbiddenSysctlsMixinfunction(forbiddenSysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(forbiddenSysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { forbiddenSysctls<span style="color:#666">+:</span> forbiddenSysctls } <span style="color:#007020;font-weight:bold">else</span> { forbiddenSysctls<span style="color:#666">+:</span> [forbiddenSysctls] }
+</code></pre></div></div><p>forbiddenSysctls is a list of explicitly forbidden sysctls, defaults to none. Each entry is either a plain sysctl name or ends in &ldquo;*&rdquo; in which case it is considered as a prefix of forbidden sysctls. Single * means all sysctls are forbidden.</p><p></p><p>Examples: e.g. &ldquo;foo/<em>&rdquo; forbids &ldquo;foo/bar&rdquo;, &ldquo;foo/baz&rdquo;, etc. e.g. &ldquo;foo.</em>&rdquo; forbids &ldquo;foo.bar&rdquo;, &ldquo;foo.baz&rdquo;, etc.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withHostIpc">
+            withHostIpc
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withHostIpc" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withHostIpc">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostIpcfunction(hostIpc) self <span style="color:#666">+</span> { hostIPC<span style="color:#666">:</span> hostIpc }
+</code></pre></div></div><p>hostIPC determines if the policy allows the use of HostIPC in the pod spec.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withHostNetwork">
+            withHostNetwork
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withHostNetwork" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withHostNetwork">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostNetworkfunction(hostNetwork) self <span style="color:#666">+</span> { hostNetwork<span style="color:#666">:</span> hostNetwork }
+</code></pre></div></div><p>hostNetwork determines if the policy allows the use of HostNetwork in the pod spec.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withHostPid">
+            withHostPid
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withHostPid" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withHostPid">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostPidfunction(hostPid) self <span style="color:#666">+</span> { hostPID<span style="color:#666">:</span> hostPid }
+</code></pre></div></div><p>hostPID determines if the policy allows the use of HostPID in the pod spec.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withHostPorts">
+            withHostPorts
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withHostPorts" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withHostPorts">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostPortsfunction(hostPorts) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(hostPorts) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { hostPorts<span style="color:#666">:</span> hostPorts } <span style="color:#007020;font-weight:bold">else</span> { hostPorts<span style="color:#666">:</span> [hostPorts] }
+</code></pre></div></div><p>hostPorts determines which host port ranges are allowed to be exposed.</p><code>withHostPorts</code> takes an array of type <code>hostPortsType</code>. You can create
+an instance of <code>hostPortsType</code> with <code>hidden.extensions.v1beta1.hostPortRange.new()</code>.</p>
+
+<p>see <a href="/hidden/extensions/v1beta1/hostPortRange/">hidden.extensions.v1beta1.hostPortRange</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withHostPortsMixin">
+            withHostPortsMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withHostPortsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withHostPortsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostPortsMixinfunction(hostPorts) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(hostPorts) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { hostPorts<span style="color:#666">+:</span> hostPorts } <span style="color:#007020;font-weight:bold">else</span> { hostPorts<span style="color:#666">+:</span> [hostPorts] }
+</code></pre></div></div><p>hostPorts determines which host port ranges are allowed to be exposed.</p><code>withHostPortsMixin</code> takes an array of type <code>hostPortsType</code>. You can create
+an instance of <code>hostPortsType</code> with <code>hidden.extensions.v1beta1.hostPortRange.new()</code>.</p>
+
+<p>see <a href="/hidden/extensions/v1beta1/hostPortRange/">hidden.extensions.v1beta1.hostPortRange</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withPrivileged">
+            withPrivileged
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withPrivileged" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withPrivileged">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPrivilegedfunction(privileged) self <span style="color:#666">+</span> { privileged<span style="color:#666">:</span> privileged }
+</code></pre></div></div><p>privileged determines if a pod can request to be run as privileged.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withReadOnlyRootFilesystem">
+            withReadOnlyRootFilesystem
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withReadOnlyRootFilesystem" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withReadOnlyRootFilesystem">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyRootFilesystemfunction(readOnlyRootFilesystem) self <span style="color:#666">+</span> { readOnlyRootFilesystem<span style="color:#666">:</span> readOnlyRootFilesystem }
+</code></pre></div></div><p>readOnlyRootFilesystem when set to true will force containers to run with a read only root file system.  If the container specifically requests to run with a non-read only root file system the PSP should deny the pod. If set to false the container may run with a read only root file system if it wishes but it will not be forced to.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withRequiredDropCapabilities">
+            withRequiredDropCapabilities
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withRequiredDropCapabilities" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withRequiredDropCapabilities">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDropCapabilitiesfunction(requiredDropCapabilities) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(requiredDropCapabilities) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { requiredDropCapabilities<span style="color:#666">:</span> requiredDropCapabilities } <span style="color:#007020;font-weight:bold">else</span> { requiredDropCapabilities<span style="color:#666">:</span> [requiredDropCapabilities] }
+</code></pre></div></div><p>requiredDropCapabilities are the capabilities that will be dropped from the container.  These are required to be dropped and cannot be added.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withRequiredDropCapabilitiesMixin">
+            withRequiredDropCapabilitiesMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withRequiredDropCapabilitiesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withRequiredDropCapabilitiesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDropCapabilitiesMixinfunction(requiredDropCapabilities) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(requiredDropCapabilities) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { requiredDropCapabilities<span style="color:#666">+:</span> requiredDropCapabilities } <span style="color:#007020;font-weight:bold">else</span> { requiredDropCapabilities<span style="color:#666">+:</span> [requiredDropCapabilities] }
+</code></pre></div></div><p>requiredDropCapabilities are the capabilities that will be dropped from the container.  These are required to be dropped and cannot be added.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withVolumes">
+            withVolumes
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withVolumes" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withVolumes">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesfunction(volumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { volumes<span style="color:#666">:</span> volumes } <span style="color:#007020;font-weight:bold">else</span> { volumes<span style="color:#666">:</span> [volumes] }
+</code></pre></div></div><p>volumes is a white list of allowed volume plugins. Empty indicates that no volumes may be used. To allow all volumes you may use &lsquo;*&lsquo;.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.withVolumesMixin">
+            withVolumesMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.withVolumesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.withVolumesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesMixinfunction(volumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { volumes<span style="color:#666">+:</span> volumes } <span style="color:#007020;font-weight:bold">else</span> { volumes<span style="color:#666">+:</span> [volumes] }
+</code></pre></div></div><p>volumes is a white list of allowed volume plugins. Empty indicates that no volumes may be used. To allow all volumes you may use &lsquo;*&lsquo;.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Mixins</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.fsGroup">
+            fsGroup
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.fsGroup" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.fsGroup">
+        <p>fsGroup is the strategy that will dictate what fs group is used by the SecurityContext.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.fsGroup.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.fsGroup.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.fsGroup.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(fsGroup) __fsGroupMixin(fsGroup)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.fsGroup.withRanges">
+            withRanges
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.fsGroup.withRanges" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.fsGroup.withRanges">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __fsGroupMixin({ ranges<span style="color:#666">:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __fsGroupMixin({ ranges<span style="color:#666">:</span> [ranges] })
+</code></pre></div></div><p>ranges are the allowed ranges of fs groups.  If you would like to force a single fs group then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRanges</code> takes an array of type <code>rangesType</code>. You can create
+an instance of <code>rangesType</code> with <code>hidden.extensions.v1beta1.idRange.new()</code>.</p>
+
+<p>see <a href="/hidden/extensions/v1beta1/idRange/">hidden.extensions.v1beta1.idRange</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.fsGroup.withRangesMixin">
+            withRangesMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.fsGroup.withRangesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.fsGroup.withRangesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesMixinfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __fsGroupMixin({ ranges<span style="color:#666">+:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __fsGroupMixin({ ranges<span style="color:#666">+:</span> [ranges] })
+</code></pre></div></div><p>ranges are the allowed ranges of fs groups.  If you would like to force a single fs group then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRangesMixin</code> takes an array of type <code>rangesType</code>. You can create
+an instance of <code>rangesType</code> with <code>hidden.extensions.v1beta1.idRange.new()</code>.</p>
+
+<p>see <a href="/hidden/extensions/v1beta1/idRange/">hidden.extensions.v1beta1.idRange</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.fsGroup.withRule">
+            withRule
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.fsGroup.withRule" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.fsGroup.withRule">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulefunction(rule) self <span style="color:#666">+</span> __fsGroupMixin({ rule<span style="color:#666">:</span> rule })
+</code></pre></div></div><p>rule is the strategy that will dictate what FSGroup is used in the SecurityContext.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.runAsGroup">
+            runAsGroup
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.runAsGroup" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runAsGroup">
+        <p>RunAsGroup is the strategy that will dictate the allowable RunAsGroup values that may be set. If this field is omitted, the pod's RunAsGroup can take any value. This field requires the RunAsGroup feature gate to be enabled.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.runAsGroup.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.runAsGroup.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runAsGroup.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(runAsGroup) __runAsGroupMixin(runAsGroup)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.runAsGroup.withRanges">
+            withRanges
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.runAsGroup.withRanges" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runAsGroup.withRanges">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __runAsGroupMixin({ ranges<span style="color:#666">:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __runAsGroupMixin({ ranges<span style="color:#666">:</span> [ranges] })
+</code></pre></div></div><p>ranges are the allowed ranges of gids that may be used. If you would like to force a single gid then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRanges</code> takes an array of type <code>rangesType</code>. You can create
+an instance of <code>rangesType</code> with <code>hidden.extensions.v1beta1.idRange.new()</code>.</p>
+
+<p>see <a href="/hidden/extensions/v1beta1/idRange/">hidden.extensions.v1beta1.idRange</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.runAsGroup.withRangesMixin">
+            withRangesMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.runAsGroup.withRangesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runAsGroup.withRangesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesMixinfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __runAsGroupMixin({ ranges<span style="color:#666">+:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __runAsGroupMixin({ ranges<span style="color:#666">+:</span> [ranges] })
+</code></pre></div></div><p>ranges are the allowed ranges of gids that may be used. If you would like to force a single gid then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRangesMixin</code> takes an array of type <code>rangesType</code>. You can create
+an instance of <code>rangesType</code> with <code>hidden.extensions.v1beta1.idRange.new()</code>.</p>
+
+<p>see <a href="/hidden/extensions/v1beta1/idRange/">hidden.extensions.v1beta1.idRange</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.runAsGroup.withRule">
+            withRule
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.runAsGroup.withRule" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runAsGroup.withRule">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulefunction(rule) self <span style="color:#666">+</span> __runAsGroupMixin({ rule<span style="color:#666">:</span> rule })
+</code></pre></div></div><p>rule is the strategy that will dictate the allowable RunAsGroup values that may be set.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.runAsUser">
+            runAsUser
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.runAsUser" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runAsUser">
+        <p>runAsUser is the strategy that will dictate the allowable RunAsUser values that may be set.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.runAsUser.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.runAsUser.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runAsUser.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(runAsUser) __runAsUserMixin(runAsUser)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.runAsUser.withRanges">
+            withRanges
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.runAsUser.withRanges" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runAsUser.withRanges">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __runAsUserMixin({ ranges<span style="color:#666">:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __runAsUserMixin({ ranges<span style="color:#666">:</span> [ranges] })
+</code></pre></div></div><p>ranges are the allowed ranges of uids that may be used. If you would like to force a single uid then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRanges</code> takes an array of type <code>rangesType</code>. You can create
+an instance of <code>rangesType</code> with <code>hidden.extensions.v1beta1.idRange.new()</code>.</p>
+
+<p>see <a href="/hidden/extensions/v1beta1/idRange/">hidden.extensions.v1beta1.idRange</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.runAsUser.withRangesMixin">
+            withRangesMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.runAsUser.withRangesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runAsUser.withRangesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesMixinfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __runAsUserMixin({ ranges<span style="color:#666">+:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __runAsUserMixin({ ranges<span style="color:#666">+:</span> [ranges] })
+</code></pre></div></div><p>ranges are the allowed ranges of uids that may be used. If you would like to force a single uid then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRangesMixin</code> takes an array of type <code>rangesType</code>. You can create
+an instance of <code>rangesType</code> with <code>hidden.extensions.v1beta1.idRange.new()</code>.</p>
+
+<p>see <a href="/hidden/extensions/v1beta1/idRange/">hidden.extensions.v1beta1.idRange</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.runAsUser.withRule">
+            withRule
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.runAsUser.withRule" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.runAsUser.withRule">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulefunction(rule) self <span style="color:#666">+</span> __runAsUserMixin({ rule<span style="color:#666">:</span> rule })
+</code></pre></div></div><p>rule is the strategy that will dictate the allowable RunAsUser values that may be set.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.seLinux">
+            seLinux
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.seLinux" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.seLinux">
+        <p>seLinux is the strategy that will dictate the allowable labels that may be set.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.seLinux.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.seLinux.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.seLinux.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(seLinux) __seLinuxMixin(seLinux)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.seLinux.withRule">
+            withRule
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.seLinux.withRule" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.seLinux.withRule">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulefunction(rule) self <span style="color:#666">+</span> __seLinuxMixin({ rule<span style="color:#666">:</span> rule })
+</code></pre></div></div><p>rule is the strategy that will dictate the allowable labels that may be set.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions">
+            seLinuxOptions
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions">
+        <p>seLinuxOptions required to run as; required for MustRunAs More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(seLinuxOptions) __seLinuxOptionsMixin(seLinuxOptions)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions.withLevel">
+            withLevel
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions.withLevel" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions.withLevel">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevelfunction(level) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ level<span style="color:#666">:</span> level })
+</code></pre></div></div><p>Level is SELinux level label that applies to the container.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions.withRole">
+            withRole
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions.withRole" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions.withRole">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRolefunction(role) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ role<span style="color:#666">:</span> role })
+</code></pre></div></div><p>Role is a SELinux role label that applies to the container.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions.withType">
+            withType
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions.withType" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions.withType">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ type<span style="color:#666">:</span> type })
+</code></pre></div></div><p>Type is a SELinux type label that applies to the container.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions.withUser">
+            withUser
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions.withUser" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.seLinux.seLinuxOptions.withUser">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUserfunction(user) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ user<span style="color:#666">:</span> user })
+</code></pre></div></div><p>User is a SELinux user label that applies to the container.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.supplementalGroups">
+            supplementalGroups
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.supplementalGroups" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.supplementalGroups">
+        <p>supplementalGroups is the strategy that will dictate what supplemental groups are used by the SecurityContext.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.supplementalGroups.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.supplementalGroups.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.supplementalGroups.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(supplementalGroups) __supplementalGroupsMixin(supplementalGroups)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.supplementalGroups.withRanges">
+            withRanges
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.supplementalGroups.withRanges" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.supplementalGroups.withRanges">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __supplementalGroupsMixin({ ranges<span style="color:#666">:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __supplementalGroupsMixin({ ranges<span style="color:#666">:</span> [ranges] })
+</code></pre></div></div><p>ranges are the allowed ranges of supplemental groups.  If you would like to force a single supplemental group then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRanges</code> takes an array of type <code>rangesType</code>. You can create
+an instance of <code>rangesType</code> with <code>hidden.extensions.v1beta1.idRange.new()</code>.</p>
+
+<p>see <a href="/hidden/extensions/v1beta1/idRange/">hidden.extensions.v1beta1.idRange</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.supplementalGroups.withRangesMixin">
+            withRangesMixin
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.supplementalGroups.withRangesMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.supplementalGroups.withRangesMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesMixinfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __supplementalGroupsMixin({ ranges<span style="color:#666">+:</span> ranges }) <span style="color:#007020;font-weight:bold">else</span> __supplementalGroupsMixin({ ranges<span style="color:#666">+:</span> [ranges] })
+</code></pre></div></div><p>ranges are the allowed ranges of supplemental groups.  If you would like to force a single supplemental group then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRangesMixin</code> takes an array of type <code>rangesType</code>. You can create
+an instance of <code>rangesType</code> with <code>hidden.extensions.v1beta1.idRange.new()</code>.</p>
+
+<p>see <a href="/hidden/extensions/v1beta1/idRange/">hidden.extensions.v1beta1.idRange</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="extensions.v1beta1.podSecurityPolicySpec.supplementalGroups.withRule">
+            withRule
+            <a data-toggle="collapse" href="#extensions.v1beta1.podSecurityPolicySpec.supplementalGroups.withRule" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="extensions.v1beta1.podSecurityPolicySpec.supplementalGroups.withRule">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulefunction(rule) self <span style="color:#666">+</span> __supplementalGroupsMixin({ rule<span style="color:#666">:</span> rule })
+</code></pre></div></div><p>rule is the strategy that will dictate what supplemental groups is used in the SecurityContext.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,758 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                        <li>
+                            <a href="#core.v1.probe.exec">exec</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#core.v1.probe.httpGet">httpGet</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#core.v1.probe.tcpSocket">tcpSocket</a>
+                            
+ <ul>
+    
+</ul>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>probe</h1>
+            <p>Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive traffic.</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.probe.new">
+            new
+            <a data-toggle="collapse" href="#core.v1.probe.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Functions</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.probe.withFailureThreshold">
+            withFailureThreshold
+            <a data-toggle="collapse" href="#core.v1.probe.withFailureThreshold" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.withFailureThreshold">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFailureThresholdfunction(failureThreshold) self <span style="color:#666">+</span> { failureThreshold<span style="color:#666">:</span> failureThreshold }
+</code></pre></div></div><p>Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.probe.withInitialDelaySeconds">
+            withInitialDelaySeconds
+            <a data-toggle="collapse" href="#core.v1.probe.withInitialDelaySeconds" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.withInitialDelaySeconds">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitialDelaySecondsfunction(initialDelaySeconds) self <span style="color:#666">+</span> { initialDelaySeconds<span style="color:#666">:</span> initialDelaySeconds }
+</code></pre></div></div><p>Number of seconds after the container has started before liveness probes are initiated. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.probe.withPeriodSeconds">
+            withPeriodSeconds
+            <a data-toggle="collapse" href="#core.v1.probe.withPeriodSeconds" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.withPeriodSeconds">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPeriodSecondsfunction(periodSeconds) self <span style="color:#666">+</span> { periodSeconds<span style="color:#666">:</span> periodSeconds }
+</code></pre></div></div><p>How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.probe.withSuccessThreshold">
+            withSuccessThreshold
+            <a data-toggle="collapse" href="#core.v1.probe.withSuccessThreshold" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.withSuccessThreshold">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSuccessThresholdfunction(successThreshold) self <span style="color:#666">+</span> { successThreshold<span style="color:#666">:</span> successThreshold }
+</code></pre></div></div><p>Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness. Minimum value is 1.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.probe.withTimeoutSeconds">
+            withTimeoutSeconds
+            <a data-toggle="collapse" href="#core.v1.probe.withTimeoutSeconds" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.withTimeoutSeconds">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTimeoutSecondsfunction(timeoutSeconds) self <span style="color:#666">+</span> { timeoutSeconds<span style="color:#666">:</span> timeoutSeconds }
+</code></pre></div></div><p>Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Mixins</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.probe.exec">
+            exec
+            <a data-toggle="collapse" href="#core.v1.probe.exec" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.exec">
+        <p>One and only one of the following should be specified. Exec specifies the action to take.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.probe.exec.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.probe.exec.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.exec.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(exec) __execMixin(exec)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.probe.exec.withCommand">
+            withCommand
+            <a data-toggle="collapse" href="#core.v1.probe.exec.withCommand" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.exec.withCommand">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">:</span> [command] })
+</code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.probe.exec.withCommandMixin">
+            withCommandMixin
+            <a data-toggle="collapse" href="#core.v1.probe.exec.withCommandMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.exec.withCommandMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixinfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">+:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">+:</span> [command] })
+</code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.probe.httpGet">
+            httpGet
+            <a data-toggle="collapse" href="#core.v1.probe.httpGet" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.httpGet">
+        <p>HTTPGet specifies the http request to perform.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.probe.httpGet.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.probe.httpGet.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.httpGet.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(httpGet) __httpGetMixin(httpGet)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.probe.httpGet.withHost">
+            withHost
+            <a data-toggle="collapse" href="#core.v1.probe.httpGet.withHost" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.httpGet.withHost">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __httpGetMixin({ host<span style="color:#666">:</span> host })
+</code></pre></div></div><p>Host name to connect to, defaults to the pod IP. You probably want to set &ldquo;Host&rdquo; in httpHeaders instead.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.probe.httpGet.withHttpHeaders">
+            withHttpHeaders
+            <a data-toggle="collapse" href="#core.v1.probe.httpGet.withHttpHeaders" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.httpGet.withHttpHeaders">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">:</span> [httpHeaders] })
+</code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeaders</code> takes an array of type <code>httpHeadersType</code>. You can create
+an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/httpHeader/">hidden.core.v1.httpHeader</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.probe.httpGet.withHttpHeadersMixin">
+            withHttpHeadersMixin
+            <a data-toggle="collapse" href="#core.v1.probe.httpGet.withHttpHeadersMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.httpGet.withHttpHeadersMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixinfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> [httpHeaders] })
+</code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeadersMixin</code> takes an array of type <code>httpHeadersType</code>. You can create
+an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/httpHeader/">hidden.core.v1.httpHeader</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.probe.httpGet.withPath">
+            withPath
+            <a data-toggle="collapse" href="#core.v1.probe.httpGet.withPath" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.httpGet.withPath">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __httpGetMixin({ path<span style="color:#666">:</span> path })
+</code></pre></div></div><p>Path to access on the HTTP server.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.probe.httpGet.withPort">
+            withPort
+            <a data-toggle="collapse" href="#core.v1.probe.httpGet.withPort" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.httpGet.withPort">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __httpGetMixin({ port<span style="color:#666">:</span> port })
+</code></pre></div></div><p>Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.probe.httpGet.withScheme">
+            withScheme
+            <a data-toggle="collapse" href="#core.v1.probe.httpGet.withScheme" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.httpGet.withScheme">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSchemefunction(scheme) self <span style="color:#666">+</span> __httpGetMixin({ scheme<span style="color:#666">:</span> scheme })
+</code></pre></div></div><p>Scheme to use for connecting to the host. Defaults to HTTP.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.probe.tcpSocket">
+            tcpSocket
+            <a data-toggle="collapse" href="#core.v1.probe.tcpSocket" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.tcpSocket">
+        <p>TCPSocket specifies an action involving a TCP port. TCP hooks not yet supported</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.probe.tcpSocket.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.probe.tcpSocket.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.tcpSocket.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(tcpSocket) __tcpSocketMixin(tcpSocket)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.probe.tcpSocket.withHost">
+            withHost
+            <a data-toggle="collapse" href="#core.v1.probe.tcpSocket.withHost" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.tcpSocket.withHost">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __tcpSocketMixin({ host<span style="color:#666">:</span> host })
+</code></pre></div></div><p>Optional: Host name to connect to, defaults to the pod IP.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.probe.tcpSocket.withPort">
+            withPort
+            <a data-toggle="collapse" href="#core.v1.probe.tcpSocket.withPort" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.probe.tcpSocket.withPort">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __tcpSocketMixin({ port<span style="color:#666">:</span> port })
+</code></pre></div></div><p>Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

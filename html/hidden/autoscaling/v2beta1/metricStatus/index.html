@@ -1,0 +1,1678 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                        <li>
+                            <a href="#autoscaling.v2beta1.metricStatus.external">external</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#autoscaling.v2beta1.metricStatus.external.currentAverageValue">currentAverageValue</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#autoscaling.v2beta1.metricStatus.external.currentValue">currentValue</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#autoscaling.v2beta1.metricStatus.external.metricSelector">metricSelector</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#autoscaling.v2beta1.metricStatus.object">object</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#autoscaling.v2beta1.metricStatus.object.averageValue">averageValue</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#autoscaling.v2beta1.metricStatus.object.currentValue">currentValue</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#autoscaling.v2beta1.metricStatus.object.selector">selector</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#autoscaling.v2beta1.metricStatus.object.target">target</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#autoscaling.v2beta1.metricStatus.pods">pods</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#autoscaling.v2beta1.metricStatus.pods.currentAverageValue">currentAverageValue</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#autoscaling.v2beta1.metricStatus.pods.selector">selector</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#autoscaling.v2beta1.metricStatus.resource">resource</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#autoscaling.v2beta1.metricStatus.resource.currentAverageValue">currentAverageValue</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>metricStatus</h1>
+            <p>MetricStatus describes the last-read state of a single metric.</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.new">
+            new
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Functions</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.withType">
+            withType
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.withType" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.withType">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> { type<span style="color:#666">:</span> type }
+</code></pre></div></div><p>type is the type of metric source.  It will be one of &ldquo;Object&rdquo;, &ldquo;Pods&rdquo; or &ldquo;Resource&rdquo;, each corresponds to a matching field in the object.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+                <h5>Mixins</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.external">
+            external
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.external" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.external">
+        <p>external refers to a global metric that is not associated with any Kubernetes object. It allows autoscaling based on information coming from components running outside of cluster (for example length of queue in cloud messaging service, or QPS from loadbalancer running outside of cluster).</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.external.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.external.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.external.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(external) __externalMixin(external)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.external.withMetricName">
+            withMetricName
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.external.withMetricName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.external.withMetricName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMetricNamefunction(metricName) self <span style="color:#666">+</span> __externalMixin({ metricName<span style="color:#666">:</span> metricName })
+</code></pre></div></div><p>metricName is the name of a metric used for autoscaling in metric system.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.external.currentAverageValue">
+            currentAverageValue
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.external.currentAverageValue" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.external.currentAverageValue">
+        <p>currentAverageValue is the current value of metric averaged over autoscaled pods.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.external.currentAverageValue.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.external.currentAverageValue.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.external.currentAverageValue.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(currentAverageValue) __currentAverageValueMixin(currentAverageValue)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.external.currentValue">
+            currentValue
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.external.currentValue" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.external.currentValue">
+        <p>currentValue is the current value of the metric (as a quantity)</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.external.currentValue.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.external.currentValue.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.external.currentValue.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(currentValue) __currentValueMixin(currentValue)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.external.metricSelector">
+            metricSelector
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.external.metricSelector" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.external.metricSelector">
+        <p>metricSelector is used to identify a specific time series within a given metric.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.external.metricSelector.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.external.metricSelector.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.external.metricSelector.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(metricSelector) __metricSelectorMixin(metricSelector)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.external.metricSelector.withMatchExpressions">
+            withMatchExpressions
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.external.metricSelector.withMatchExpressions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.external.metricSelector.withMatchExpressions">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metricSelectorMixin({ matchExpressions<span style="color:#666">:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __metricSelectorMixin({ matchExpressions<span style="color:#666">:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressions</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.external.metricSelector.withMatchExpressionsMixin">
+            withMatchExpressionsMixin
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.external.metricSelector.withMatchExpressionsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.external.metricSelector.withMatchExpressionsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metricSelectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __metricSelectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.external.metricSelector.withMatchLabels">
+            withMatchLabels
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.external.metricSelector.withMatchLabels" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.external.metricSelector.withMatchLabels">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsfunction(matchLabels) self <span style="color:#666">+</span> __metricSelectorMixin({ matchLabels<span style="color:#666">:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.external.metricSelector.withMatchLabelsMixin">
+            withMatchLabelsMixin
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.external.metricSelector.withMatchLabelsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.external.metricSelector.withMatchLabelsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixinfunction(matchLabels) self <span style="color:#666">+</span> __metricSelectorMixin({ matchLabels<span style="color:#666">+:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object">
+            object
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object">
+        <p>object refers to a metric describing a single kubernetes object (for example, hits-per-second on an Ingress object).</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(object) __objectMixin(object)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.withMetricName">
+            withMetricName
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.withMetricName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.withMetricName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMetricNamefunction(metricName) self <span style="color:#666">+</span> __objectMixin({ metricName<span style="color:#666">:</span> metricName })
+</code></pre></div></div><p>metricName is the name of the metric in question.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.averageValue">
+            averageValue
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.averageValue" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.averageValue">
+        <p>averageValue is the current value of the average of the metric across all relevant pods (as a quantity)</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.averageValue.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.averageValue.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.averageValue.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(averageValue) __averageValueMixin(averageValue)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.currentValue">
+            currentValue
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.currentValue" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.currentValue">
+        <p>currentValue is the current value of the metric (as a quantity).</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.currentValue.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.currentValue.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.currentValue.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(currentValue) __currentValueMixin(currentValue)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.selector">
+            selector
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.selector" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.selector">
+        <p>selector is the string-encoded form of a standard kubernetes label selector for the given metric When set in the ObjectMetricSource, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.selector.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.selector.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.selector.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(selector) __selectorMixin(selector)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.selector.withMatchExpressions">
+            withMatchExpressions
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.selector.withMatchExpressions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.selector.withMatchExpressions">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __selectorMixin({ matchExpressions<span style="color:#666">:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __selectorMixin({ matchExpressions<span style="color:#666">:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressions</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.selector.withMatchExpressionsMixin">
+            withMatchExpressionsMixin
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.selector.withMatchExpressionsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.selector.withMatchExpressionsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __selectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __selectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.selector.withMatchLabels">
+            withMatchLabels
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.selector.withMatchLabels" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.selector.withMatchLabels">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsfunction(matchLabels) self <span style="color:#666">+</span> __selectorMixin({ matchLabels<span style="color:#666">:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.selector.withMatchLabelsMixin">
+            withMatchLabelsMixin
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.selector.withMatchLabelsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.selector.withMatchLabelsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixinfunction(matchLabels) self <span style="color:#666">+</span> __selectorMixin({ matchLabels<span style="color:#666">+:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.target">
+            target
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.target" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.target">
+        <p>target is the described Kubernetes object.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.target.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.target.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.target.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(target) __targetMixin(target)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.target.withKind">
+            withKind
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.target.withKind" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.target.withKind">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKindfunction(kind) self <span style="color:#666">+</span> __targetMixin({ kind<span style="color:#666">:</span> kind })
+</code></pre></div></div><p>Kind of the referent; More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds&quot;">https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds&quot;</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.object.target.withName">
+            withName
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.object.target.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.object.target.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __targetMixin({ name<span style="color:#666">:</span> name })
+</code></pre></div></div><p>Name of the referent; More info: <a href="http://kubernetes.io/docs/user-guide/identifiers#names">http://kubernetes.io/docs/user-guide/identifiers#names</a></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.pods">
+            pods
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.pods" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.pods">
+        <p>pods refers to a metric describing each pod in the current scale target (for example, transactions-processed-per-second).  The values will be averaged together before being compared to the target value.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.pods.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.pods.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.pods.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(pods) __podsMixin(pods)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.pods.withMetricName">
+            withMetricName
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.pods.withMetricName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.pods.withMetricName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMetricNamefunction(metricName) self <span style="color:#666">+</span> __podsMixin({ metricName<span style="color:#666">:</span> metricName })
+</code></pre></div></div><p>metricName is the name of the metric in question</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.pods.currentAverageValue">
+            currentAverageValue
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.pods.currentAverageValue" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.pods.currentAverageValue">
+        <p>currentAverageValue is the current value of the average of the metric across all relevant pods (as a quantity)</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.pods.currentAverageValue.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.pods.currentAverageValue.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.pods.currentAverageValue.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(currentAverageValue) __currentAverageValueMixin(currentAverageValue)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.pods.selector">
+            selector
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.pods.selector" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.pods.selector">
+        <p>selector is the string-encoded form of a standard kubernetes label selector for the given metric When set in the PodsMetricSource, it is passed as an additional parameter to the metrics server for more specific metrics scoping. When unset, just the metricName will be used to gather metrics.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.pods.selector.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.pods.selector.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.pods.selector.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(selector) __selectorMixin(selector)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.pods.selector.withMatchExpressions">
+            withMatchExpressions
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.pods.selector.withMatchExpressions" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.pods.selector.withMatchExpressions">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __selectorMixin({ matchExpressions<span style="color:#666">:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __selectorMixin({ matchExpressions<span style="color:#666">:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressions</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.pods.selector.withMatchExpressionsMixin">
+            withMatchExpressionsMixin
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.pods.selector.withMatchExpressionsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.pods.selector.withMatchExpressionsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __selectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __selectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+</code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
+an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
+
+<p>see <a href="/hidden/meta/v1/labelSelectorRequirement/">hidden.meta.v1.labelSelectorRequirement</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.pods.selector.withMatchLabels">
+            withMatchLabels
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.pods.selector.withMatchLabels" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.pods.selector.withMatchLabels">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsfunction(matchLabels) self <span style="color:#666">+</span> __selectorMixin({ matchLabels<span style="color:#666">:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.pods.selector.withMatchLabelsMixin">
+            withMatchLabelsMixin
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.pods.selector.withMatchLabelsMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.pods.selector.withMatchLabelsMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixinfunction(matchLabels) self <span style="color:#666">+</span> __selectorMixin({ matchLabels<span style="color:#666">+:</span> matchLabels })
+</code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.resource">
+            resource
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.resource" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.resource">
+        <p>resource refers to a resource metric (such as those specified in requests and limits) known to Kubernetes describing each pod in the current scale target (e.g. CPU or memory). Such metrics are built in to Kubernetes, and have special scaling options on top of those available to normal per-pod metrics using the "pods" source.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.resource.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.resource.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.resource.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(resource) __resourceMixin(resource)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.resource.withCurrentAverageUtilization">
+            withCurrentAverageUtilization
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.resource.withCurrentAverageUtilization" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.resource.withCurrentAverageUtilization">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCurrentAverageUtilizationfunction(currentAverageUtilization) self <span style="color:#666">+</span> __resourceMixin({ currentAverageUtilization<span style="color:#666">:</span> currentAverageUtilization })
+</code></pre></div></div><p>currentAverageUtilization is the current value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods.  It will only be present if <code>targetAverageValue</code> was set in the corresponding metric specification.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.resource.withName">
+            withName
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.resource.withName" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.resource.withName">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __resourceMixin({ name<span style="color:#666">:</span> name })
+</code></pre></div></div><p>name is the name of the resource in question.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.resource.currentAverageValue">
+            currentAverageValue
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.resource.currentAverageValue" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.resource.currentAverageValue">
+        <p>currentAverageValue is the current value of the average of the resource metric across all relevant pods, as a raw value (instead of as a percentage of the request), similar to the "pods" metric source type. It will always be set, regardless of the corresponding metric specification.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="autoscaling.v2beta1.metricStatus.resource.currentAverageValue.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#autoscaling.v2beta1.metricStatus.resource.currentAverageValue.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="autoscaling.v2beta1.metricStatus.resource.currentAverageValue.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(currentAverageValue) __currentAverageValueMixin(currentAverageValue)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>

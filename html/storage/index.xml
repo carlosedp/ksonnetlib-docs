@@ -1,0 +1,2347 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storages on ksonnet lib API Documentation</title>
+    <link>http://example.org/storage/</link>
+    <description>Recent content in Storages on ksonnet lib API Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 14:37:47 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/storage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>new</title>
+      <link>http://example.org/storage/v1/storageClass/new/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/new/</guid>
+      <description>newfunction() apiVersion + kind</description>
+    </item>
+    
+    <item>
+      <title>new</title>
+      <link>http://example.org/storage/v1/volumeAttachment/new/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/new/</guid>
+      <description>newfunction() apiVersion + kind</description>
+    </item>
+    
+    <item>
+      <title>new</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/new/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/new/</guid>
+      <description>newfunction() apiVersion + kind</description>
+    </item>
+    
+    <item>
+      <title>new</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/new/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/new/</guid>
+      <description>newfunction() apiVersion + kind</description>
+    </item>
+    
+    <item>
+      <title>new</title>
+      <link>http://example.org/storage/v1beta1/csiNode/new/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/new/</guid>
+      <description>newfunction() apiVersion + kind</description>
+    </item>
+    
+    <item>
+      <title>new</title>
+      <link>http://example.org/storage/v1beta1/storageClass/new/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/new/</guid>
+      <description>newfunction() apiVersion + kind</description>
+    </item>
+    
+    <item>
+      <title>new</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/new/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/new/</guid>
+      <description>newfunction() apiVersion + kind</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/initializers/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/initializers/mixinInstance/</guid>
+      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/mixinInstance/</guid>
+      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/initializers/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/initializers/mixinInstance/</guid>
+      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/mixinInstance/</guid>
+      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1/volumeAttachment/spec/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/spec/mixinInstance/</guid>
+      <description>mixinInstancefunction(spec) __specMixin(spec)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1/volumeAttachment/spec/source/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/spec/source/mixinInstance/</guid>
+      <description>mixinInstancefunction(source) __sourceMixin(source)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/initializers/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/initializers/mixinInstance/</guid>
+      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/mixinInstance/</guid>
+      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/spec/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/spec/mixinInstance/</guid>
+      <description>mixinInstancefunction(spec) __specMixin(spec)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/spec/source/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/spec/source/mixinInstance/</guid>
+      <description>mixinInstancefunction(source) __sourceMixin(source)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/initializers/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/initializers/mixinInstance/</guid>
+      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/mixinInstance/</guid>
+      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/spec/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/spec/mixinInstance/</guid>
+      <description>mixinInstancefunction(spec) __specMixin(spec)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/initializers/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/initializers/mixinInstance/</guid>
+      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/mixinInstance/</guid>
+      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1beta1/csiNode/spec/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/spec/mixinInstance/</guid>
+      <description>mixinInstancefunction(spec) __specMixin(spec)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/initializers/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/initializers/mixinInstance/</guid>
+      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/mixinInstance/</guid>
+      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/initializers/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/initializers/mixinInstance/</guid>
+      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/mixinInstance/</guid>
+      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/spec/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/spec/mixinInstance/</guid>
+      <description>mixinInstancefunction(spec) __specMixin(spec)</description>
+    </item>
+    
+    <item>
+      <title>mixinInstance</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/spec/source/mixinInstance/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/spec/source/mixinInstance/</guid>
+      <description>mixinInstancefunction(source) __sourceMixin(source)</description>
+    </item>
+    
+    <item>
+      <title>withAllowVolumeExpansion</title>
+      <link>http://example.org/storage/v1/storageClass/withAllowVolumeExpansion/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/withAllowVolumeExpansion/</guid>
+      <description>withAllowVolumeExpansionfunction(allowVolumeExpansion) self + { allowVolumeExpansion: allowVolumeExpansion } AllowVolumeExpansion shows whether the storage class allow volume expand</description>
+    </item>
+    
+    <item>
+      <title>withAllowVolumeExpansion</title>
+      <link>http://example.org/storage/v1beta1/storageClass/withAllowVolumeExpansion/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/withAllowVolumeExpansion/</guid>
+      <description>withAllowVolumeExpansionfunction(allowVolumeExpansion) self + { allowVolumeExpansion: allowVolumeExpansion } AllowVolumeExpansion shows whether the storage class allow volume expand</description>
+    </item>
+    
+    <item>
+      <title>withAllowedTopologies</title>
+      <link>http://example.org/storage/v1/storageClass/withAllowedTopologies/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/withAllowedTopologies/</guid>
+      <description>withAllowedTopologiesfunction(allowedTopologies) self + if std.type(allowedTopologies) == &amp;#39;array&amp;#39; then { allowedTopologies: allowedTopologies } else { allowedTopologies: [allowedTopologies] } Restrict the node topologies where volumes can be dynamically provisioned. Each volume plugin defines its own supported topology specifications. An empty TopologySelectorTerm list means there is no topology restriction. This field is only honored by servers that enable the VolumeScheduling feature.
+withAllowedTopologies takes an array of type allowedTopologiesType. You can create an instance of allowedTopologiesType with hidden.</description>
+    </item>
+    
+    <item>
+      <title>withAllowedTopologies</title>
+      <link>http://example.org/storage/v1beta1/storageClass/withAllowedTopologies/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/withAllowedTopologies/</guid>
+      <description>withAllowedTopologiesfunction(allowedTopologies) self + if std.type(allowedTopologies) == &amp;#39;array&amp;#39; then { allowedTopologies: allowedTopologies } else { allowedTopologies: [allowedTopologies] } Restrict the node topologies where volumes can be dynamically provisioned. Each volume plugin defines its own supported topology specifications. An empty TopologySelectorTerm list means there is no topology restriction. This field is only honored by servers that enable the VolumeScheduling feature.
+withAllowedTopologies takes an array of type allowedTopologiesType. You can create an instance of allowedTopologiesType with hidden.</description>
+    </item>
+    
+    <item>
+      <title>withAllowedTopologiesMixin</title>
+      <link>http://example.org/storage/v1/storageClass/withAllowedTopologiesMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/withAllowedTopologiesMixin/</guid>
+      <description>withAllowedTopologiesMixinfunction(allowedTopologies) self + if std.type(allowedTopologies) == &amp;#39;array&amp;#39; then { allowedTopologies+: allowedTopologies } else { allowedTopologies+: [allowedTopologies] } Restrict the node topologies where volumes can be dynamically provisioned. Each volume plugin defines its own supported topology specifications. An empty TopologySelectorTerm list means there is no topology restriction. This field is only honored by servers that enable the VolumeScheduling feature.
+withAllowedTopologiesMixin takes an array of type allowedTopologiesType. You can create an instance of allowedTopologiesType with hidden.</description>
+    </item>
+    
+    <item>
+      <title>withAllowedTopologiesMixin</title>
+      <link>http://example.org/storage/v1beta1/storageClass/withAllowedTopologiesMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/withAllowedTopologiesMixin/</guid>
+      <description>withAllowedTopologiesMixinfunction(allowedTopologies) self + if std.type(allowedTopologies) == &amp;#39;array&amp;#39; then { allowedTopologies+: allowedTopologies } else { allowedTopologies+: [allowedTopologies] } Restrict the node topologies where volumes can be dynamically provisioned. Each volume plugin defines its own supported topology specifications. An empty TopologySelectorTerm list means there is no topology restriction. This field is only honored by servers that enable the VolumeScheduling feature.
+withAllowedTopologiesMixin takes an array of type allowedTopologiesType. You can create an instance of allowedTopologiesType with hidden.</description>
+    </item>
+    
+    <item>
+      <title>withAnnotations</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/withAnnotations/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/withAnnotations/</guid>
+      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotations</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/withAnnotations/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/withAnnotations/</guid>
+      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotations</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withAnnotations/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withAnnotations/</guid>
+      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotations</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/withAnnotations/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/withAnnotations/</guid>
+      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotations</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/withAnnotations/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/withAnnotations/</guid>
+      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotations</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/withAnnotations/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/withAnnotations/</guid>
+      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotations</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/withAnnotations/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/withAnnotations/</guid>
+      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotationsMixin</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/withAnnotationsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/withAnnotationsMixin/</guid>
+      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotationsMixin</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/withAnnotationsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/withAnnotationsMixin/</guid>
+      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotationsMixin</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withAnnotationsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withAnnotationsMixin/</guid>
+      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotationsMixin</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/withAnnotationsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/withAnnotationsMixin/</guid>
+      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotationsMixin</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/withAnnotationsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/withAnnotationsMixin/</guid>
+      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotationsMixin</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/withAnnotationsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/withAnnotationsMixin/</guid>
+      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAnnotationsMixin</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/withAnnotationsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/withAnnotationsMixin/</guid>
+      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+    </item>
+    
+    <item>
+      <title>withAttachRequired</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/spec/withAttachRequired/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/spec/withAttachRequired/</guid>
+      <description>withAttachRequiredfunction(attachRequired) self + __specMixin({ attachRequired: attachRequired }) attachRequired indicates this CSI volume driver requires an attach operation (because it implements the CSI ControllerPublishVolume() method), and that the Kubernetes attach detach controller should call the attach volume interface which checks the volumeattachment status and waits until the volume is attached before proceeding to mounting. The CSI external-attacher coordinates with CSI volume driver and updates the volumeattachment status when the attach operation is complete.</description>
+    </item>
+    
+    <item>
+      <title>withAttacher</title>
+      <link>http://example.org/storage/v1/volumeAttachment/spec/withAttacher/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/spec/withAttacher/</guid>
+      <description>withAttacherfunction(attacher) self + __specMixin({ attacher: attacher }) Attacher indicates the name of the volume driver that MUST handle this request. This is the name returned by GetPluginName().</description>
+    </item>
+    
+    <item>
+      <title>withAttacher</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/spec/withAttacher/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/spec/withAttacher/</guid>
+      <description>withAttacherfunction(attacher) self + __specMixin({ attacher: attacher }) Attacher indicates the name of the volume driver that MUST handle this request. This is the name returned by GetPluginName().</description>
+    </item>
+    
+    <item>
+      <title>withAttacher</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/spec/withAttacher/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/spec/withAttacher/</guid>
+      <description>withAttacherfunction(attacher) self + __specMixin({ attacher: attacher }) Attacher indicates the name of the volume driver that MUST handle this request. This is the name returned by GetPluginName().</description>
+    </item>
+    
+    <item>
+      <title>withClusterName</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/withClusterName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/withClusterName/</guid>
+      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+    </item>
+    
+    <item>
+      <title>withClusterName</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/withClusterName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/withClusterName/</guid>
+      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+    </item>
+    
+    <item>
+      <title>withClusterName</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withClusterName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withClusterName/</guid>
+      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+    </item>
+    
+    <item>
+      <title>withClusterName</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/withClusterName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/withClusterName/</guid>
+      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+    </item>
+    
+    <item>
+      <title>withClusterName</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/withClusterName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/withClusterName/</guid>
+      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+    </item>
+    
+    <item>
+      <title>withClusterName</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/withClusterName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/withClusterName/</guid>
+      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+    </item>
+    
+    <item>
+      <title>withClusterName</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/withClusterName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/withClusterName/</guid>
+      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+    </item>
+    
+    <item>
+      <title>withDrivers</title>
+      <link>http://example.org/storage/v1beta1/csiNode/spec/withDrivers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/spec/withDrivers/</guid>
+      <description>withDriversfunction(drivers) self + if std.type(drivers) == &amp;#39;array&amp;#39; then __specMixin({ drivers: drivers }) else __specMixin({ drivers: [drivers] }) drivers is a list of information of all CSI Drivers existing on a node. If all drivers in the list are uninstalled, this can become empty.
+withDrivers takes an array of type driversType. You can create an instance of driversType with hidden.storage.v1beta1.csiNodeDriver.new().
+see hidden.storage.v1beta1.csiNodeDriver</description>
+    </item>
+    
+    <item>
+      <title>withDriversMixin</title>
+      <link>http://example.org/storage/v1beta1/csiNode/spec/withDriversMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/spec/withDriversMixin/</guid>
+      <description>withDriversMixinfunction(drivers) self + if std.type(drivers) == &amp;#39;array&amp;#39; then __specMixin({ drivers+: drivers }) else __specMixin({ drivers+: [drivers] }) drivers is a list of information of all CSI Drivers existing on a node. If all drivers in the list are uninstalled, this can become empty.
+withDriversMixin takes an array of type driversType. You can create an instance of driversType with hidden.storage.v1beta1.csiNodeDriver.new().
+see hidden.storage.v1beta1.csiNodeDriver</description>
+    </item>
+    
+    <item>
+      <title>withFinalizers</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/withFinalizers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/withFinalizers/</guid>
+      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizers</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/withFinalizers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/withFinalizers/</guid>
+      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizers</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withFinalizers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withFinalizers/</guid>
+      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizers</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/withFinalizers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/withFinalizers/</guid>
+      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizers</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/withFinalizers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/withFinalizers/</guid>
+      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizers</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/withFinalizers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/withFinalizers/</guid>
+      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizers</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/withFinalizers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/withFinalizers/</guid>
+      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizersMixin</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/withFinalizersMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/withFinalizersMixin/</guid>
+      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizersMixin</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/withFinalizersMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/withFinalizersMixin/</guid>
+      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizersMixin</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withFinalizersMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withFinalizersMixin/</guid>
+      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizersMixin</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/withFinalizersMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/withFinalizersMixin/</guid>
+      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizersMixin</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/withFinalizersMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/withFinalizersMixin/</guid>
+      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizersMixin</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/withFinalizersMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/withFinalizersMixin/</guid>
+      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withFinalizersMixin</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/withFinalizersMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/withFinalizersMixin/</guid>
+      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+    </item>
+    
+    <item>
+      <title>withGenerateName</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/withGenerateName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/withGenerateName/</guid>
+      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+    </item>
+    
+    <item>
+      <title>withGenerateName</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/withGenerateName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/withGenerateName/</guid>
+      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+    </item>
+    
+    <item>
+      <title>withGenerateName</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withGenerateName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withGenerateName/</guid>
+      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+    </item>
+    
+    <item>
+      <title>withGenerateName</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/withGenerateName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/withGenerateName/</guid>
+      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+    </item>
+    
+    <item>
+      <title>withGenerateName</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/withGenerateName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/withGenerateName/</guid>
+      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+    </item>
+    
+    <item>
+      <title>withGenerateName</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/withGenerateName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/withGenerateName/</guid>
+      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+    </item>
+    
+    <item>
+      <title>withGenerateName</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/withGenerateName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/withGenerateName/</guid>
+      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+    </item>
+    
+    <item>
+      <title>withLabels</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/withLabels/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/withLabels/</guid>
+      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabels</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/withLabels/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/withLabels/</guid>
+      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabels</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withLabels/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withLabels/</guid>
+      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabels</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/withLabels/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/withLabels/</guid>
+      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabels</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/withLabels/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/withLabels/</guid>
+      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabels</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/withLabels/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/withLabels/</guid>
+      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabels</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/withLabels/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/withLabels/</guid>
+      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabelsMixin</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/withLabelsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/withLabelsMixin/</guid>
+      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabelsMixin</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/withLabelsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/withLabelsMixin/</guid>
+      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabelsMixin</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withLabelsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withLabelsMixin/</guid>
+      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabelsMixin</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/withLabelsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/withLabelsMixin/</guid>
+      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabelsMixin</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/withLabelsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/withLabelsMixin/</guid>
+      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabelsMixin</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/withLabelsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/withLabelsMixin/</guid>
+      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withLabelsMixin</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/withLabelsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/withLabelsMixin/</guid>
+      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+    </item>
+    
+    <item>
+      <title>withManagedFields</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/withManagedFields/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/withManagedFields/</guid>
+      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFields</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/withManagedFields/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/withManagedFields/</guid>
+      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFields</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withManagedFields/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withManagedFields/</guid>
+      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFields</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/withManagedFields/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/withManagedFields/</guid>
+      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFields</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/withManagedFields/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/withManagedFields/</guid>
+      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFields</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/withManagedFields/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/withManagedFields/</guid>
+      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFields</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/withManagedFields/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/withManagedFields/</guid>
+      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFieldsMixin</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/withManagedFieldsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/withManagedFieldsMixin/</guid>
+      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFieldsMixin</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/withManagedFieldsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/withManagedFieldsMixin/</guid>
+      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFieldsMixin</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withManagedFieldsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withManagedFieldsMixin/</guid>
+      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFieldsMixin</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/withManagedFieldsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/withManagedFieldsMixin/</guid>
+      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFieldsMixin</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/withManagedFieldsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/withManagedFieldsMixin/</guid>
+      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFieldsMixin</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/withManagedFieldsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/withManagedFieldsMixin/</guid>
+      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withManagedFieldsMixin</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/withManagedFieldsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/withManagedFieldsMixin/</guid>
+      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+    </item>
+    
+    <item>
+      <title>withMountOptions</title>
+      <link>http://example.org/storage/v1/storageClass/withMountOptions/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/withMountOptions/</guid>
+      <description>withMountOptionsfunction(mountOptions) self + if std.type(mountOptions) == &amp;#39;array&amp;#39; then { mountOptions: mountOptions } else { mountOptions: [mountOptions] } Dynamically provisioned PersistentVolumes of this storage class are created with these mountOptions, e.g. [&amp;ldquo;ro&amp;rdquo;, &amp;ldquo;soft&amp;rdquo;]. Not validated - mount of the PVs will simply fail if one is invalid.</description>
+    </item>
+    
+    <item>
+      <title>withMountOptions</title>
+      <link>http://example.org/storage/v1beta1/storageClass/withMountOptions/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/withMountOptions/</guid>
+      <description>withMountOptionsfunction(mountOptions) self + if std.type(mountOptions) == &amp;#39;array&amp;#39; then { mountOptions: mountOptions } else { mountOptions: [mountOptions] } Dynamically provisioned PersistentVolumes of this storage class are created with these mountOptions, e.g. [&amp;ldquo;ro&amp;rdquo;, &amp;ldquo;soft&amp;rdquo;]. Not validated - mount of the PVs will simply fail if one is invalid.</description>
+    </item>
+    
+    <item>
+      <title>withMountOptionsMixin</title>
+      <link>http://example.org/storage/v1/storageClass/withMountOptionsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/withMountOptionsMixin/</guid>
+      <description>withMountOptionsMixinfunction(mountOptions) self + if std.type(mountOptions) == &amp;#39;array&amp;#39; then { mountOptions+: mountOptions } else { mountOptions+: [mountOptions] } Dynamically provisioned PersistentVolumes of this storage class are created with these mountOptions, e.g. [&amp;ldquo;ro&amp;rdquo;, &amp;ldquo;soft&amp;rdquo;]. Not validated - mount of the PVs will simply fail if one is invalid.</description>
+    </item>
+    
+    <item>
+      <title>withMountOptionsMixin</title>
+      <link>http://example.org/storage/v1beta1/storageClass/withMountOptionsMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/withMountOptionsMixin/</guid>
+      <description>withMountOptionsMixinfunction(mountOptions) self + if std.type(mountOptions) == &amp;#39;array&amp;#39; then { mountOptions+: mountOptions } else { mountOptions+: [mountOptions] } Dynamically provisioned PersistentVolumes of this storage class are created with these mountOptions, e.g. [&amp;ldquo;ro&amp;rdquo;, &amp;ldquo;soft&amp;rdquo;]. Not validated - mount of the PVs will simply fail if one is invalid.</description>
+    </item>
+    
+    <item>
+      <title>withName</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/withName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/withName/</guid>
+      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+    </item>
+    
+    <item>
+      <title>withName</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/withName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/withName/</guid>
+      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+    </item>
+    
+    <item>
+      <title>withName</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withName/</guid>
+      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+    </item>
+    
+    <item>
+      <title>withName</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/withName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/withName/</guid>
+      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+    </item>
+    
+    <item>
+      <title>withName</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/withName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/withName/</guid>
+      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+    </item>
+    
+    <item>
+      <title>withName</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/withName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/withName/</guid>
+      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+    </item>
+    
+    <item>
+      <title>withName</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/withName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/withName/</guid>
+      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+    </item>
+    
+    <item>
+      <title>withNamespace</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/withNamespace/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/withNamespace/</guid>
+      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+
+Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
+    </item>
+    
+    <item>
+      <title>withNamespace</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/withNamespace/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/withNamespace/</guid>
+      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+
+Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
+    </item>
+    
+    <item>
+      <title>withNamespace</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withNamespace/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withNamespace/</guid>
+      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+
+Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
+    </item>
+    
+    <item>
+      <title>withNamespace</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/withNamespace/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/withNamespace/</guid>
+      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+
+Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
+    </item>
+    
+    <item>
+      <title>withNamespace</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/withNamespace/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/withNamespace/</guid>
+      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+
+Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
+    </item>
+    
+    <item>
+      <title>withNamespace</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/withNamespace/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/withNamespace/</guid>
+      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+
+Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
+    </item>
+    
+    <item>
+      <title>withNamespace</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/withNamespace/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/withNamespace/</guid>
+      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+
+Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
+    </item>
+    
+    <item>
+      <title>withNodeName</title>
+      <link>http://example.org/storage/v1/volumeAttachment/spec/withNodeName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/spec/withNodeName/</guid>
+      <description>withNodeNamefunction(nodeName) self + __specMixin({ nodeName: nodeName }) The node that the volume should be attached to.</description>
+    </item>
+    
+    <item>
+      <title>withNodeName</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/spec/withNodeName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/spec/withNodeName/</guid>
+      <description>withNodeNamefunction(nodeName) self + __specMixin({ nodeName: nodeName }) The node that the volume should be attached to.</description>
+    </item>
+    
+    <item>
+      <title>withNodeName</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/spec/withNodeName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/spec/withNodeName/</guid>
+      <description>withNodeNamefunction(nodeName) self + __specMixin({ nodeName: nodeName }) The node that the volume should be attached to.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferences</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/withOwnerReferences/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/withOwnerReferences/</guid>
+      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferences</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/withOwnerReferences/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/withOwnerReferences/</guid>
+      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferences</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withOwnerReferences/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withOwnerReferences/</guid>
+      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferences</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/withOwnerReferences/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/withOwnerReferences/</guid>
+      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferences</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/withOwnerReferences/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/withOwnerReferences/</guid>
+      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferences</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/withOwnerReferences/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/withOwnerReferences/</guid>
+      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferences</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/withOwnerReferences/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/withOwnerReferences/</guid>
+      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferencesMixin</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/withOwnerReferencesMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/withOwnerReferencesMixin/</guid>
+      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferencesMixin</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/withOwnerReferencesMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/withOwnerReferencesMixin/</guid>
+      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferencesMixin</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withOwnerReferencesMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/withOwnerReferencesMixin/</guid>
+      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferencesMixin</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/withOwnerReferencesMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/withOwnerReferencesMixin/</guid>
+      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferencesMixin</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/withOwnerReferencesMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/withOwnerReferencesMixin/</guid>
+      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferencesMixin</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/withOwnerReferencesMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/withOwnerReferencesMixin/</guid>
+      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withOwnerReferencesMixin</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/withOwnerReferencesMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/withOwnerReferencesMixin/</guid>
+      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+    </item>
+    
+    <item>
+      <title>withParameters</title>
+      <link>http://example.org/storage/v1/storageClass/withParameters/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/withParameters/</guid>
+      <description>withParametersfunction(parameters) self + { parameters: parameters } Parameters holds the parameters for the provisioner that should create volumes of this storage class.</description>
+    </item>
+    
+    <item>
+      <title>withParameters</title>
+      <link>http://example.org/storage/v1beta1/storageClass/withParameters/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/withParameters/</guid>
+      <description>withParametersfunction(parameters) self + { parameters: parameters } Parameters holds the parameters for the provisioner that should create volumes of this storage class.</description>
+    </item>
+    
+    <item>
+      <title>withParametersMixin</title>
+      <link>http://example.org/storage/v1/storageClass/withParametersMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/withParametersMixin/</guid>
+      <description>withParametersMixinfunction(parameters) self + { parameters+: parameters } Parameters holds the parameters for the provisioner that should create volumes of this storage class.</description>
+    </item>
+    
+    <item>
+      <title>withParametersMixin</title>
+      <link>http://example.org/storage/v1beta1/storageClass/withParametersMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/withParametersMixin/</guid>
+      <description>withParametersMixinfunction(parameters) self + { parameters+: parameters } Parameters holds the parameters for the provisioner that should create volumes of this storage class.</description>
+    </item>
+    
+    <item>
+      <title>withPending</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/initializers/withPending/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/initializers/withPending/</guid>
+      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPending</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/initializers/withPending/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/initializers/withPending/</guid>
+      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPending</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/initializers/withPending/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/initializers/withPending/</guid>
+      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPending</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/initializers/withPending/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/initializers/withPending/</guid>
+      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPending</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/initializers/withPending/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/initializers/withPending/</guid>
+      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPending</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/initializers/withPending/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/initializers/withPending/</guid>
+      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPending</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/initializers/withPending/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/initializers/withPending/</guid>
+      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPendingMixin</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/initializers/withPendingMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/initializers/withPendingMixin/</guid>
+      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPendingMixin</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/initializers/withPendingMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/initializers/withPendingMixin/</guid>
+      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPendingMixin</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/initializers/withPendingMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/initializers/withPendingMixin/</guid>
+      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPendingMixin</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/initializers/withPendingMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/initializers/withPendingMixin/</guid>
+      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPendingMixin</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/initializers/withPendingMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/initializers/withPendingMixin/</guid>
+      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPendingMixin</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/initializers/withPendingMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/initializers/withPendingMixin/</guid>
+      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPendingMixin</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/initializers/withPendingMixin/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/initializers/withPendingMixin/</guid>
+      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType.</description>
+    </item>
+    
+    <item>
+      <title>withPersistentVolumeName</title>
+      <link>http://example.org/storage/v1/volumeAttachment/spec/source/withPersistentVolumeName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/spec/source/withPersistentVolumeName/</guid>
+      <description>withPersistentVolumeNamefunction(persistentVolumeName) self + __sourceMixin({ persistentVolumeName: persistentVolumeName }) Name of the persistent volume to attach.</description>
+    </item>
+    
+    <item>
+      <title>withPersistentVolumeName</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/spec/source/withPersistentVolumeName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/spec/source/withPersistentVolumeName/</guid>
+      <description>withPersistentVolumeNamefunction(persistentVolumeName) self + __sourceMixin({ persistentVolumeName: persistentVolumeName }) Name of the persistent volume to attach.</description>
+    </item>
+    
+    <item>
+      <title>withPersistentVolumeName</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/spec/source/withPersistentVolumeName/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/spec/source/withPersistentVolumeName/</guid>
+      <description>withPersistentVolumeNamefunction(persistentVolumeName) self + __sourceMixin({ persistentVolumeName: persistentVolumeName }) Name of the persistent volume to attach.</description>
+    </item>
+    
+    <item>
+      <title>withPodInfoOnMount</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/spec/withPodInfoOnMount/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/spec/withPodInfoOnMount/</guid>
+      <description>withPodInfoOnMountfunction(podInfoOnMount) self + __specMixin({ podInfoOnMount: podInfoOnMount }) If set to true, podInfoOnMount indicates this CSI volume driver requires additional pod information (like podName, podUID, etc.) during mount operations. If set to false, pod information will not be passed on mount. Default is false. The CSI driver specifies podInfoOnMount as part of driver deployment. If true, Kubelet will pass pod information as VolumeContext in the CSI NodePublishVolume() calls. The CSI driver is responsible for parsing and validating the information passed in as VolumeContext.</description>
+    </item>
+    
+    <item>
+      <title>withProvisioner</title>
+      <link>http://example.org/storage/v1/storageClass/withProvisioner/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/withProvisioner/</guid>
+      <description>withProvisionerfunction(provisioner) self + { provisioner: provisioner } Provisioner indicates the type of the provisioner.</description>
+    </item>
+    
+    <item>
+      <title>withProvisioner</title>
+      <link>http://example.org/storage/v1beta1/storageClass/withProvisioner/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/withProvisioner/</guid>
+      <description>withProvisionerfunction(provisioner) self + { provisioner: provisioner } Provisioner indicates the type of the provisioner.</description>
+    </item>
+    
+    <item>
+      <title>withReclaimPolicy</title>
+      <link>http://example.org/storage/v1/storageClass/withReclaimPolicy/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/withReclaimPolicy/</guid>
+      <description>withReclaimPolicyfunction(reclaimPolicy) self + { reclaimPolicy: reclaimPolicy } Dynamically provisioned PersistentVolumes of this storage class are created with this reclaimPolicy. Defaults to Delete.</description>
+    </item>
+    
+    <item>
+      <title>withReclaimPolicy</title>
+      <link>http://example.org/storage/v1beta1/storageClass/withReclaimPolicy/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/withReclaimPolicy/</guid>
+      <description>withReclaimPolicyfunction(reclaimPolicy) self + { reclaimPolicy: reclaimPolicy } Dynamically provisioned PersistentVolumes of this storage class are created with this reclaimPolicy. Defaults to Delete.</description>
+    </item>
+    
+    <item>
+      <title>withVolumeBindingMode</title>
+      <link>http://example.org/storage/v1/storageClass/withVolumeBindingMode/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/withVolumeBindingMode/</guid>
+      <description>withVolumeBindingModefunction(volumeBindingMode) self + { volumeBindingMode: volumeBindingMode } VolumeBindingMode indicates how PersistentVolumeClaims should be provisioned and bound. When unset, VolumeBindingImmediate is used. This field is only honored by servers that enable the VolumeScheduling feature.</description>
+    </item>
+    
+    <item>
+      <title>withVolumeBindingMode</title>
+      <link>http://example.org/storage/v1beta1/storageClass/withVolumeBindingMode/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/withVolumeBindingMode/</guid>
+      <description>withVolumeBindingModefunction(volumeBindingMode) self + { volumeBindingMode: volumeBindingMode } VolumeBindingMode indicates how PersistentVolumeClaims should be provisioned and bound. When unset, VolumeBindingImmediate is used. This field is only honored by servers that enable the VolumeScheduling feature.</description>
+    </item>
+    
+    <item>
+      <title>initializers</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/initializers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/initializers/</guid>
+      <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
+
+When an object is created, the system will populate this list with the current set of initializers.</description>
+    </item>
+    
+    <item>
+      <title>initializers</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/initializers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/initializers/</guid>
+      <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
+
+When an object is created, the system will populate this list with the current set of initializers.</description>
+    </item>
+    
+    <item>
+      <title>initializers</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/initializers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/initializers/</guid>
+      <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
+
+When an object is created, the system will populate this list with the current set of initializers.</description>
+    </item>
+    
+    <item>
+      <title>initializers</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/initializers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/initializers/</guid>
+      <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
+
+When an object is created, the system will populate this list with the current set of initializers.</description>
+    </item>
+    
+    <item>
+      <title>initializers</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/initializers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/initializers/</guid>
+      <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
+
+When an object is created, the system will populate this list with the current set of initializers.</description>
+    </item>
+    
+    <item>
+      <title>initializers</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/initializers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/initializers/</guid>
+      <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
+
+When an object is created, the system will populate this list with the current set of initializers.</description>
+    </item>
+    
+    <item>
+      <title>initializers</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/initializers/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/initializers/</guid>
+      <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
+
+When an object is created, the system will populate this list with the current set of initializers.</description>
+    </item>
+    
+    <item>
+      <title>metadata</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/</guid>
+      <description>Standard object&#39;s metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</description>
+    </item>
+    
+    <item>
+      <title>metadata</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/</guid>
+      <description>Standard object metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</description>
+    </item>
+    
+    <item>
+      <title>metadata</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/</guid>
+      <description>Standard object metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</description>
+    </item>
+    
+    <item>
+      <title>metadata</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/</guid>
+      <description>Standard object metadata. metadata.Name indicates the name of the CSI driver that this object refers to; it MUST be the same name returned by the CSI GetPluginName() call for that driver. The driver name must be 63 characters or less, beginning and ending with an alphanumeric character ([a-z0-9A-Z]) with dashes (-), dots (.), and alphanumerics between. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</description>
+    </item>
+    
+    <item>
+      <title>metadata</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/</guid>
+      <description>metadata.name must be the Kubernetes node name.</description>
+    </item>
+    
+    <item>
+      <title>metadata</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/</guid>
+      <description>Standard object&#39;s metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</description>
+    </item>
+    
+    <item>
+      <title>metadata</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/</guid>
+      <description>Standard object metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</description>
+    </item>
+    
+    <item>
+      <title>source</title>
+      <link>http://example.org/storage/v1/volumeAttachment/spec/source/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/spec/source/</guid>
+      <description>Source represents the volume that should be attached.</description>
+    </item>
+    
+    <item>
+      <title>source</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/spec/source/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/spec/source/</guid>
+      <description>Source represents the volume that should be attached.</description>
+    </item>
+    
+    <item>
+      <title>source</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/spec/source/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/spec/source/</guid>
+      <description>Source represents the volume that should be attached.</description>
+    </item>
+    
+    <item>
+      <title>spec</title>
+      <link>http://example.org/storage/v1/volumeAttachment/spec/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/spec/</guid>
+      <description>Specification of the desired attach/detach volume behavior. Populated by the Kubernetes system.</description>
+    </item>
+    
+    <item>
+      <title>spec</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/spec/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/spec/</guid>
+      <description>Specification of the desired attach/detach volume behavior. Populated by the Kubernetes system.</description>
+    </item>
+    
+    <item>
+      <title>spec</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/spec/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/spec/</guid>
+      <description>Specification of the CSI Driver.</description>
+    </item>
+    
+    <item>
+      <title>spec</title>
+      <link>http://example.org/storage/v1beta1/csiNode/spec/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/spec/</guid>
+      <description>spec is the specification of CSINode</description>
+    </item>
+    
+    <item>
+      <title>spec</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/spec/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/spec/</guid>
+      <description>Specification of the desired attach/detach volume behavior. Populated by the Kubernetes system.</description>
+    </item>
+    
+    <item>
+      <title>allowedTopologiesType</title>
+      <link>http://example.org/storage/v1/storageClass/allowedTopologiesType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/allowedTopologiesType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>allowedTopologiesType</title>
+      <link>http://example.org/storage/v1beta1/storageClass/allowedTopologiesType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/allowedTopologiesType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>driversType</title>
+      <link>http://example.org/storage/v1beta1/csiNode/spec/driversType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/spec/driversType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>initializersType</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/initializersType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/initializersType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>initializersType</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/initializersType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/initializersType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>initializersType</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/initializersType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/initializersType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>initializersType</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/initializersType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/initializersType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>initializersType</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/initializersType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/initializersType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>initializersType</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/initializersType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/initializersType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>initializersType</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/initializersType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/initializersType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>managedFieldsType</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/managedFieldsType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/managedFieldsType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>managedFieldsType</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/managedFieldsType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/managedFieldsType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>managedFieldsType</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/managedFieldsType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/managedFieldsType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>managedFieldsType</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/managedFieldsType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/managedFieldsType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>managedFieldsType</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/managedFieldsType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/managedFieldsType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>managedFieldsType</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/managedFieldsType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/managedFieldsType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>managedFieldsType</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/managedFieldsType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/managedFieldsType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metadataType</title>
+      <link>http://example.org/storage/v1/storageClass/metadataType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadataType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metadataType</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadataType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadataType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metadataType</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadataType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadataType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metadataType</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadataType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadataType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metadataType</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadataType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadataType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metadataType</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadataType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadataType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metadataType</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadataType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadataType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ownerReferencesType</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/ownerReferencesType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/ownerReferencesType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ownerReferencesType</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/ownerReferencesType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/ownerReferencesType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ownerReferencesType</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/ownerReferencesType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/ownerReferencesType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ownerReferencesType</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/ownerReferencesType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/ownerReferencesType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ownerReferencesType</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/ownerReferencesType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/ownerReferencesType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ownerReferencesType</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/ownerReferencesType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/ownerReferencesType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ownerReferencesType</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/ownerReferencesType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/ownerReferencesType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pendingType</title>
+      <link>http://example.org/storage/v1/storageClass/metadata/initializers/pendingType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/metadata/initializers/pendingType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pendingType</title>
+      <link>http://example.org/storage/v1/volumeAttachment/metadata/initializers/pendingType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/metadata/initializers/pendingType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pendingType</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/metadata/initializers/pendingType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/metadata/initializers/pendingType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pendingType</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/metadata/initializers/pendingType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/metadata/initializers/pendingType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pendingType</title>
+      <link>http://example.org/storage/v1beta1/csiNode/metadata/initializers/pendingType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/metadata/initializers/pendingType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pendingType</title>
+      <link>http://example.org/storage/v1beta1/storageClass/metadata/initializers/pendingType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/metadata/initializers/pendingType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pendingType</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/metadata/initializers/pendingType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/metadata/initializers/pendingType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sourceType</title>
+      <link>http://example.org/storage/v1/volumeAttachment/spec/sourceType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/spec/sourceType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sourceType</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/spec/sourceType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/spec/sourceType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sourceType</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/spec/sourceType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/spec/sourceType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>specType</title>
+      <link>http://example.org/storage/v1/volumeAttachment/specType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/specType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>specType</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/specType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/specType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>specType</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/specType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/specType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>specType</title>
+      <link>http://example.org/storage/v1beta1/csiNode/specType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/specType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>specType</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/specType/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/specType/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>csiDriver</title>
+      <link>http://example.org/storage/csiDriver/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/csiDriver/</guid>
+      <description>CSIDriver captures information about a Container Storage Interface (CSI) volume driver deployed on the cluster.  </description>
+    </item>
+    
+    <item>
+      <title>csiDriver</title>
+      <link>http://example.org/storage/v1beta1/csiDriver/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiDriver/</guid>
+      <description>CSIDriver captures information about a Container Storage Interface (CSI) volume driver deployed on the cluster. CSI drivers do not need to create the CSIDriver object directly. Instead they may use the cluster-driver-registrar sidecar container. When deployed with a CSI driver it automatically creates a CSIDriver object representing the driver. Kubernetes attach detach controller uses this object to determine whether attach is required. Kubelet uses this object to determine whether pod information needs to be passed on mount.</description>
+    </item>
+    
+    <item>
+      <title>csiNode</title>
+      <link>http://example.org/storage/csiNode/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/csiNode/</guid>
+      <description>CSINode holds information about all CSI drivers installed on a node.  </description>
+    </item>
+    
+    <item>
+      <title>csiNode</title>
+      <link>http://example.org/storage/v1beta1/csiNode/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/csiNode/</guid>
+      <description>CSINode holds information about all CSI drivers installed on a node. CSI drivers do not need to create the CSINode object directly. As long as they use the node-driver-registrar sidecar container, the kubelet will automatically populate the CSINode object for the CSI driver as part of kubelet plugin registration. CSINode has the same name as a node. If the object is missing, it means either there are no CSI Drivers available on the node, or the Kubelet version is low enough that it doesn&amp;rsquo;t create this object.</description>
+    </item>
+    
+    <item>
+      <title>storageClass</title>
+      <link>http://example.org/storage/storageClass/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/storageClass/</guid>
+      <description>StorageClass describes the parameters for a class of storage for which PersistentVolumes can be dynamically provisioned.  StorageClass describes the parameters for a class of storage for which PersistentVolumes can be dynamically provisioned.  </description>
+    </item>
+    
+    <item>
+      <title>storageClass</title>
+      <link>http://example.org/storage/v1/storageClass/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/storageClass/</guid>
+      <description>StorageClass describes the parameters for a class of storage for which PersistentVolumes can be dynamically provisioned.
+StorageClasses are non-namespaced; the name of the storage class according to etcd is in ObjectMeta.Name.</description>
+    </item>
+    
+    <item>
+      <title>storageClass</title>
+      <link>http://example.org/storage/v1beta1/storageClass/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/storageClass/</guid>
+      <description>StorageClass describes the parameters for a class of storage for which PersistentVolumes can be dynamically provisioned.
+StorageClasses are non-namespaced; the name of the storage class according to etcd is in ObjectMeta.Name.</description>
+    </item>
+    
+    <item>
+      <title>volumeAttachment</title>
+      <link>http://example.org/storage/v1/volumeAttachment/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1/volumeAttachment/</guid>
+      <description>VolumeAttachment captures the intent to attach or detach the specified volume to/from the specified node.
+VolumeAttachment objects are non-namespaced.</description>
+    </item>
+    
+    <item>
+      <title>volumeAttachment</title>
+      <link>http://example.org/storage/v1alpha1/volumeAttachment/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1alpha1/volumeAttachment/</guid>
+      <description>VolumeAttachment captures the intent to attach or detach the specified volume to/from the specified node.
+VolumeAttachment objects are non-namespaced.</description>
+    </item>
+    
+    <item>
+      <title>volumeAttachment</title>
+      <link>http://example.org/storage/v1beta1/volumeAttachment/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/v1beta1/volumeAttachment/</guid>
+      <description>VolumeAttachment captures the intent to attach or detach the specified volume to/from the specified node.
+VolumeAttachment objects are non-namespaced.</description>
+    </item>
+    
+    <item>
+      <title>volumeAttachment</title>
+      <link>http://example.org/storage/volumeAttachment/</link>
+      <pubDate>Sat, 28 Sep 2019 14:37:47 +0000</pubDate>
+      
+      <guid>http://example.org/storage/volumeAttachment/</guid>
+      <description>VolumeAttachment captures the intent to attach or detach the specified volume to/from the specified node.  VolumeAttachment captures the intent to attach or detach the specified volume to/from the specified node.  VolumeAttachment captures the intent to attach or detach the specified volume to/from the specified node.  </description>
+    </item>
+    
+  </channel>
+</rss>

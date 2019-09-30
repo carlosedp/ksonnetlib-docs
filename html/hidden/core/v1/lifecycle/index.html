@@ -1,0 +1,1249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="/css/main-30570316.css" />
+
+    <script>
+         
+        (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
+			grunticon(["\/octicons\/icons.data.svg.css", "\/octicons\/icons.data.png.css", "\/octicons\/icons.fallback.css"]);
+    </script>
+
+    <title>ksonnet lib API Documentation</title>
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">ksonnet API Documentation - Kubernetes 1.14.7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container app">
+        
+
+    
+
+    <div class="row">
+        <div class="col-2">
+            <div class="col-12" id="kind-sidebar">
+                <h4>Mixins</h4>
+                <ul class="toc">
+                    
+                        <li>
+                            <a href="#core.v1.lifecycle.postStart">postStart</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#core.v1.lifecycle.postStart.exec">exec</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#core.v1.lifecycle.postStart.httpGet">httpGet</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#core.v1.lifecycle.postStart.tcpSocket">tcpSocket</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                        <li>
+                            <a href="#core.v1.lifecycle.preStop">preStop</a>
+                            
+ <ul>
+    
+        <li>
+            <a href="#core.v1.lifecycle.preStop.exec">exec</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#core.v1.lifecycle.preStop.httpGet">httpGet</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+        <li>
+            <a href="#core.v1.lifecycle.preStop.tcpSocket">tcpSocket</a>
+            
+ <ul>
+    
+</ul>
+        </li>
+    
+</ul>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1>lifecycle</h1>
+            <p>Lifecycle describes actions that the management system should take in response to container lifecycle events. For the PostStart and PreStop lifecycle handlers, management of the container blocks until the action is complete, unless the container process fails, in which case the handler is aborted.</p>
+
+
+            
+            
+                <h3>Constuctors</h3>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.lifecycle.new">
+            new
+            <a data-toggle="collapse" href="#core.v1.lifecycle.new" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.new">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+
+
+            
+            
+
+
+            
+            
+                <h5>Mixins</h5>
+                <ul>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart">
+            postStart
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart">
+        <p>PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(postStart) __postStartMixin(postStart)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.exec">
+            exec
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.exec" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.exec">
+        <p>One and only one of the following should be specified. Exec specifies the action to take.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.exec.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.exec.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.exec.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(exec) __execMixin(exec)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.exec.withCommand">
+            withCommand
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.exec.withCommand" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.exec.withCommand">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">:</span> [command] })
+</code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.exec.withCommandMixin">
+            withCommandMixin
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.exec.withCommandMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.exec.withCommandMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixinfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">+:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">+:</span> [command] })
+</code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.httpGet">
+            httpGet
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.httpGet" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.httpGet">
+        <p>HTTPGet specifies the http request to perform.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.httpGet.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.httpGet.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.httpGet.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(httpGet) __httpGetMixin(httpGet)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.httpGet.withHost">
+            withHost
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.httpGet.withHost" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.httpGet.withHost">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __httpGetMixin({ host<span style="color:#666">:</span> host })
+</code></pre></div></div><p>Host name to connect to, defaults to the pod IP. You probably want to set &ldquo;Host&rdquo; in httpHeaders instead.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.httpGet.withHttpHeaders">
+            withHttpHeaders
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.httpGet.withHttpHeaders" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.httpGet.withHttpHeaders">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">:</span> [httpHeaders] })
+</code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeaders</code> takes an array of type <code>httpHeadersType</code>. You can create
+an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/httpHeader/">hidden.core.v1.httpHeader</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.httpGet.withHttpHeadersMixin">
+            withHttpHeadersMixin
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.httpGet.withHttpHeadersMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.httpGet.withHttpHeadersMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixinfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> [httpHeaders] })
+</code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeadersMixin</code> takes an array of type <code>httpHeadersType</code>. You can create
+an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/httpHeader/">hidden.core.v1.httpHeader</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.httpGet.withPath">
+            withPath
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.httpGet.withPath" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.httpGet.withPath">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __httpGetMixin({ path<span style="color:#666">:</span> path })
+</code></pre></div></div><p>Path to access on the HTTP server.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.httpGet.withPort">
+            withPort
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.httpGet.withPort" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.httpGet.withPort">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __httpGetMixin({ port<span style="color:#666">:</span> port })
+</code></pre></div></div><p>Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.httpGet.withScheme">
+            withScheme
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.httpGet.withScheme" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.httpGet.withScheme">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSchemefunction(scheme) self <span style="color:#666">+</span> __httpGetMixin({ scheme<span style="color:#666">:</span> scheme })
+</code></pre></div></div><p>Scheme to use for connecting to the host. Defaults to HTTP.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.tcpSocket">
+            tcpSocket
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.tcpSocket" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.tcpSocket">
+        <p>TCPSocket specifies an action involving a TCP port. TCP hooks not yet supported</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.tcpSocket.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.tcpSocket.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.tcpSocket.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(tcpSocket) __tcpSocketMixin(tcpSocket)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.tcpSocket.withHost">
+            withHost
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.tcpSocket.withHost" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.tcpSocket.withHost">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __tcpSocketMixin({ host<span style="color:#666">:</span> host })
+</code></pre></div></div><p>Optional: Host name to connect to, defaults to the pod IP.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.postStart.tcpSocket.withPort">
+            withPort
+            <a data-toggle="collapse" href="#core.v1.lifecycle.postStart.tcpSocket.withPort" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.postStart.tcpSocket.withPort">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __tcpSocketMixin({ port<span style="color:#666">:</span> port })
+</code></pre></div></div><p>Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                        <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop">
+            preStop
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop">
+        <p>PreStop is called immediately before a container is terminated due to an API request or management event such as liveness probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The reason for termination is passed to the handler. The Pod's termination grace period countdown begins before the PreStop hooked is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period. Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(preStop) __preStopMixin(preStop)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+    <h5>Mixins</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.exec">
+            exec
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.exec" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.exec">
+        <p>One and only one of the following should be specified. Exec specifies the action to take.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.exec.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.exec.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.exec.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(exec) __execMixin(exec)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.exec.withCommand">
+            withCommand
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.exec.withCommand" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.exec.withCommand">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">:</span> [command] })
+</code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.exec.withCommandMixin">
+            withCommandMixin
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.exec.withCommandMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.exec.withCommandMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixinfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">+:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">+:</span> [command] })
+</code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.httpGet">
+            httpGet
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.httpGet" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.httpGet">
+        <p>HTTPGet specifies the http request to perform.</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.httpGet.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.httpGet.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.httpGet.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(httpGet) __httpGetMixin(httpGet)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.httpGet.withHost">
+            withHost
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.httpGet.withHost" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.httpGet.withHost">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __httpGetMixin({ host<span style="color:#666">:</span> host })
+</code></pre></div></div><p>Host name to connect to, defaults to the pod IP. You probably want to set &ldquo;Host&rdquo; in httpHeaders instead.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.httpGet.withHttpHeaders">
+            withHttpHeaders
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.httpGet.withHttpHeaders" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.httpGet.withHttpHeaders">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">:</span> [httpHeaders] })
+</code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeaders</code> takes an array of type <code>httpHeadersType</code>. You can create
+an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/httpHeader/">hidden.core.v1.httpHeader</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.httpGet.withHttpHeadersMixin">
+            withHttpHeadersMixin
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.httpGet.withHttpHeadersMixin" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.httpGet.withHttpHeadersMixin">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixinfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> [httpHeaders] })
+</code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeadersMixin</code> takes an array of type <code>httpHeadersType</code>. You can create
+an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
+
+<p>see <a href="/hidden/core/v1/httpHeader/">hidden.core.v1.httpHeader</a></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.httpGet.withPath">
+            withPath
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.httpGet.withPath" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.httpGet.withPath">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __httpGetMixin({ path<span style="color:#666">:</span> path })
+</code></pre></div></div><p>Path to access on the HTTP server.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.httpGet.withPort">
+            withPort
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.httpGet.withPort" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.httpGet.withPort">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __httpGetMixin({ port<span style="color:#666">:</span> port })
+</code></pre></div></div><p>Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.httpGet.withScheme">
+            withScheme
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.httpGet.withScheme" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.httpGet.withScheme">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSchemefunction(scheme) self <span style="color:#666">+</span> __httpGetMixin({ scheme<span style="color:#666">:</span> scheme })
+</code></pre></div></div><p>Scheme to use for connecting to the host. Defaults to HTTP.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.tcpSocket">
+            tcpSocket
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.tcpSocket" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.tcpSocket">
+        <p>TCPSocket specifies an action involving a TCP port. TCP hooks not yet supported</p>
+
+
+        <hr>
+        
+
+
+
+    <h5>Functions</h5>
+    <ul>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.tcpSocket.mixinInstance">
+            mixinInstance
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.tcpSocket.mixinInstance" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.tcpSocket.mixinInstance">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(tcpSocket) __tcpSocketMixin(tcpSocket)
+</code></pre></div></div><p></p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.tcpSocket.withHost">
+            withHost
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.tcpSocket.withHost" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.tcpSocket.withHost">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __tcpSocketMixin({ host<span style="color:#666">:</span> host })
+</code></pre></div></div><p>Optional: Host name to connect to, defaults to the pod IP.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+            <li>
+    <h5>
+        <a name="core.v1.lifecycle.preStop.tcpSocket.withPort">
+            withPort
+            <a data-toggle="collapse" href="#core.v1.lifecycle.preStop.tcpSocket.withPort" role="button" aria-expanded="true">
+                <div class="octicon icon-chevron-right"></div>
+                <div class="octicon icon-chevron-down"></div>
+            </a>
+        </a>
+    </h5>
+
+    <div class="collapse show" id="core.v1.lifecycle.preStop.tcpSocket.withPort">
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __tcpSocketMixin({ port<span style="color:#666">:</span> port })
+</code></pre></div></div><p>Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
+
+
+        <hr>
+        
+
+
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+
+
+
+    </div>
+</li>
+        
+    </ul>
+
+
+    </div>
+</li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/js/main-ad7b0a9b.js"></script>
+</body>
+
+</html>
