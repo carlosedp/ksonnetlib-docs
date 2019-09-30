@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReinvocationPolicyfunction(reinvocationPolicy) self <span style="color:#666">+</span> { reinvocationPolicy<span style="color:#666">:</span> reinvocationPolicy }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReinvocationPolicy(reinvocationPolicy)
 </code></pre></div></div><p>reinvocationPolicy indicates whether this webhook should be called multiple times as part of a single admission evaluation. Allowed values are &ldquo;Never&rdquo; and &ldquo;IfNeeded&rdquo;.</p><p></p><p>Never: the webhook will not be called more than once in a single admission evaluation.</p><p></p><p>IfNeeded: the webhook will be called at least one additional time as part of the admission evaluation if the object being admitted is modified by other admission plugins after the initial webhook call. Webhooks that specify this option <em>must</em> be idempotent, able to process objects they previously admitted. Note: * the number of additional invocations is not guaranteed to be exactly one. * if additional invocations result in further modifications to the object, webhooks are not guaranteed to be invoked again. * webhooks that use this option may be reordered to minimize the number of additional invocations. * to validate an object after all mutations are guaranteed complete, use a validating admission webhook instead.</p><p></p><p>Defaults to &ldquo;Never&rdquo;.</p></p>
 
 

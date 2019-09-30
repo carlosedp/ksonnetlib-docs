@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerStatusesMixinfunction(containerStatuses) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(containerStatuses) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { containerStatuses<span style="color:#666">+:</span> containerStatuses } <span style="color:#007020;font-weight:bold">else</span> { containerStatuses<span style="color:#666">+:</span> [containerStatuses] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerStatusesMixin(containerStatuses)
 </code></pre></div></div><p>The list has one entry per container in the manifest. Each entry is currently the output of <code>docker inspect</code>. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-and-container-status">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#pod-and-container-status</a></p><code>withContainerStatusesMixin</code> takes an array of type <code>containerStatusesType</code>. You can create
 an instance of <code>containerStatusesType</code> with <code>hidden.core.v1.containerStatus.new()</code>.</p>
 

@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="rbac.v1beta1.aggregationRule.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="rbac.v1beta1.aggregationRule.withClusterRoleSelectors">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterRoleSelectorsfunction(clusterRoleSelectors) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(clusterRoleSelectors) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { clusterRoleSelectors<span style="color:#666">:</span> clusterRoleSelectors } <span style="color:#007020;font-weight:bold">else</span> { clusterRoleSelectors<span style="color:#666">:</span> [clusterRoleSelectors] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterRoleSelectors(clusterRoleSelectors)
 </code></pre></div></div><p>ClusterRoleSelectors holds a list of selectors which will be used to find ClusterRoles and create the rules. If any of the selectors match, then the ClusterRole&rsquo;s permissions will be added</p><code>withClusterRoleSelectors</code> takes an array of type <code>clusterRoleSelectorsType</code>. You can create
 an instance of <code>clusterRoleSelectorsType</code> with <code>hidden.meta.v1.labelSelector.new()</code>.</p>
 
@@ -137,7 +137,7 @@ an instance of <code>clusterRoleSelectorsType</code> with <code>hidden.meta.v1.l
     </h5>
 
     <div class="collapse show" id="rbac.v1beta1.aggregationRule.withClusterRoleSelectorsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterRoleSelectorsMixinfunction(clusterRoleSelectors) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(clusterRoleSelectors) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { clusterRoleSelectors<span style="color:#666">+:</span> clusterRoleSelectors } <span style="color:#007020;font-weight:bold">else</span> { clusterRoleSelectors<span style="color:#666">+:</span> [clusterRoleSelectors] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterRoleSelectorsMixin(clusterRoleSelectors)
 </code></pre></div></div><p>ClusterRoleSelectors holds a list of selectors which will be used to find ClusterRoles and create the rules. If any of the selectors match, then the ClusterRole&rsquo;s permissions will be added</p><code>withClusterRoleSelectorsMixin</code> takes an array of type <code>clusterRoleSelectorsType</code>. You can create
 an instance of <code>clusterRoleSelectorsType</code> with <code>hidden.meta.v1.labelSelector.new()</code>.</p>
 

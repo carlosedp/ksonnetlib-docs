@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalTrafficPolicyfunction(externalTrafficPolicy) self <span style="color:#666">+</span> { externalTrafficPolicy<span style="color:#666">:</span> externalTrafficPolicy }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalTrafficPolicy(externalTrafficPolicy)
 </code></pre></div></div><p>externalTrafficPolicy denotes if this Service desires to route external traffic to node-local or cluster-wide endpoints. &ldquo;Local&rdquo; preserves the client source IP and avoids a second hop for LoadBalancer and Nodeport type services, but risks potentially imbalanced traffic spreading. &ldquo;Cluster&rdquo; obscures the client source IP and may cause a second hop to another node, but should have good overall load-spreading.</p></p>
 
 

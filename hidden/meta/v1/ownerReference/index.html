@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.ownerReference.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.ownerReference.withApiVersion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withApiVersionfunction(apiVersion) self <span style="color:#666">+</span> { apiVersion<span style="color:#666">:</span> apiVersion }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withApiVersion(apiVersion)
 </code></pre></div></div><p>API version of the referent.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.ownerReference.withBlockOwnerDeletion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withBlockOwnerDeletionfunction(blockOwnerDeletion) self <span style="color:#666">+</span> { blockOwnerDeletion<span style="color:#666">:</span> blockOwnerDeletion }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withBlockOwnerDeletion(blockOwnerDeletion)
 </code></pre></div></div><p>If true, AND if the owner has the &ldquo;foregroundDeletion&rdquo; finalizer, then the owner cannot be deleted from the key-value store until this reference is removed. Defaults to false. To set this field, a user needs &ldquo;delete&rdquo; permission of the owner, otherwise 422 (Unprocessable Entity) will be returned.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.ownerReference.withController">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withControllerfunction(controller) self <span style="color:#666">+</span> { controller<span style="color:#666">:</span> controller }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withController(controller)
 </code></pre></div></div><p>If true, this reference points to the managing controller.</p></p>
 
 
@@ -190,7 +190,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.ownerReference.withKind">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKindfunction(kind) self <span style="color:#666">+</span> { kind<span style="color:#666">:</span> kind }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKind(kind)
 </code></pre></div></div><p>Kind of the referent. More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds">https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds</a></p></p>
 
 
@@ -218,7 +218,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.ownerReference.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> { name<span style="color:#666">:</span> name }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name of the referent. More info: <a href="http://kubernetes.io/docs/user-guide/identifiers#names">http://kubernetes.io/docs/user-guide/identifiers#names</a></p></p>
 
 
@@ -246,7 +246,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.ownerReference.withUid">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> { uid<span style="color:#666">:</span> uid }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUid(uid)
 </code></pre></div></div><p>UID of the referent. More info: <a href="http://kubernetes.io/docs/user-guide/identifiers#uids">http://kubernetes.io/docs/user-guide/identifiers#uids</a></p></p>
 
 

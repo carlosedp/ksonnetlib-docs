@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTopologyKeyfunction(topologyKey) self <span style="color:#666">+</span> { topologyKey<span style="color:#666">:</span> topologyKey }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTopologyKey(topologyKey)
 </code></pre></div></div><p>This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.</p></p>
 
 

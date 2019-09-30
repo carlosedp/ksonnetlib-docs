@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.keyToPath.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction(key<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, path<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>) self.withKey(key).withPath(path)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>(key<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, path<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>)
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.keyToPath.withKey">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKeyfunction(key) self <span style="color:#666">+</span> { key<span style="color:#666">:</span> key }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKey(key)
 </code></pre></div></div><p>The key to project.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.keyToPath.withMode">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withModefunction(mode) self <span style="color:#666">+</span> { mode<span style="color:#666">:</span> mode }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMode(mode)
 </code></pre></div></div><p>Optional: mode bits to use on this file, must be a value between 0 and 0777. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.keyToPath.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> { path<span style="color:#666">:</span> path }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>The relative path of the file to map the key to. May not be an absolute path. May not contain the path element &lsquo;..&rsquo;. May not start with the string &lsquo;..&rsquo;.</p></p>
 
 

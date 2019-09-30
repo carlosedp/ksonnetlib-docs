@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCapabilitiesMixinfunction(allowedCapabilities) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedCapabilities) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ allowedCapabilities<span style="color:#666">+:</span> allowedCapabilities }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ allowedCapabilities<span style="color:#666">+:</span> [allowedCapabilities] })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedCapabilitiesMixin(allowedCapabilities)
 </code></pre></div></div><p>allowedCapabilities is a list of capabilities that can be requested to add to the container. Capabilities in this field may be added at the pod author&rsquo;s discretion. You must not list a capability in both allowedCapabilities and requiredDropCapabilities.</p></p>
 
 

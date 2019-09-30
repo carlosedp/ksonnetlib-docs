@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicyIngressRule.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicyIngressRule.withFrom">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFromfunction(from) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(from) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { from<span style="color:#666">:</span> from } <span style="color:#007020;font-weight:bold">else</span> { from<span style="color:#666">:</span> [from] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFrom(from)
 </code></pre></div></div><p>List of sources which should be able to access the pods selected for this rule. Items in this list are combined using a logical OR operation. If this field is empty or missing, this rule matches all sources (traffic not restricted by source). If this field is present and contains at least on item, this rule allows traffic only if the traffic matches at least one item in the from list.</p><code>withFrom</code> takes an array of type <code>fromType</code>. You can create
 an instance of <code>fromType</code> with <code>hidden.extensions.v1beta1.networkPolicyPeer.new()</code>.</p>
 
@@ -137,7 +137,7 @@ an instance of <code>fromType</code> with <code>hidden.extensions.v1beta1.networ
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicyIngressRule.withFromMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFromMixinfunction(from) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(from) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { from<span style="color:#666">+:</span> from } <span style="color:#007020;font-weight:bold">else</span> { from<span style="color:#666">+:</span> [from] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFromMixin(from)
 </code></pre></div></div><p>List of sources which should be able to access the pods selected for this rule. Items in this list are combined using a logical OR operation. If this field is empty or missing, this rule matches all sources (traffic not restricted by source). If this field is present and contains at least on item, this rule allows traffic only if the traffic matches at least one item in the from list.</p><code>withFromMixin</code> takes an array of type <code>fromType</code>. You can create
 an instance of <code>fromType</code> with <code>hidden.extensions.v1beta1.networkPolicyPeer.new()</code>.</p>
 
@@ -168,7 +168,7 @@ an instance of <code>fromType</code> with <code>hidden.extensions.v1beta1.networ
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicyIngressRule.withPorts">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsfunction(ports) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ports) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ports<span style="color:#666">:</span> ports } <span style="color:#007020;font-weight:bold">else</span> { ports<span style="color:#666">:</span> [ports] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPorts(ports)
 </code></pre></div></div><p>List of ports which should be made accessible on the pods selected for this rule. Each item in this list is combined using a logical OR. If this field is empty or missing, this rule matches all ports (traffic not restricted by port). If this field is present and contains at least one item, then this rule allows traffic only if the traffic matches at least one port in the list.</p><code>withPorts</code> takes an array of type <code>portsType</code>. You can create
 an instance of <code>portsType</code> with <code>hidden.extensions.v1beta1.networkPolicyPort.new()</code>.</p>
 
@@ -199,7 +199,7 @@ an instance of <code>portsType</code> with <code>hidden.extensions.v1beta1.netwo
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicyIngressRule.withPortsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsMixinfunction(ports) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ports) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ports<span style="color:#666">+:</span> ports } <span style="color:#007020;font-weight:bold">else</span> { ports<span style="color:#666">+:</span> [ports] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsMixin(ports)
 </code></pre></div></div><p>List of ports which should be made accessible on the pods selected for this rule. Each item in this list is combined using a logical OR. If this field is empty or missing, this rule matches all ports (traffic not restricted by port). If this field is present and contains at least one item, then this rule allows traffic only if the traffic matches at least one port in the list.</p><code>withPortsMixin</code> takes an array of type <code>portsType</code>. You can create
 an instance of <code>portsType</code> with <code>hidden.extensions.v1beta1.networkPolicyPort.new()</code>.</p>
 

@@ -77,7 +77,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1.tokenReviewStatus.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -114,7 +114,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1.tokenReviewStatus.withAudiences">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAudiencesfunction(audiences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(audiences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { audiences<span style="color:#666">:</span> audiences } <span style="color:#007020;font-weight:bold">else</span> { audiences<span style="color:#666">:</span> [audiences] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAudiences(audiences)
 </code></pre></div></div><p>Audiences are audience identifiers chosen by the authenticator that are compatible with both the TokenReview and token. An identifier is any identifier in the intersection of the TokenReviewSpec audiences and the token&rsquo;s audiences. A client of the TokenReview API that sets the spec.audiences field should validate that a compatible audience identifier is returned in the status.audiences field to ensure that the TokenReview server is audience aware. If a TokenReview returns an empty status.audience field where status.authenticated is &ldquo;true&rdquo;, the token is valid against the audience of the Kubernetes API server.</p></p>
 
 
@@ -142,7 +142,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1.tokenReviewStatus.withAudiencesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAudiencesMixinfunction(audiences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(audiences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { audiences<span style="color:#666">+:</span> audiences } <span style="color:#007020;font-weight:bold">else</span> { audiences<span style="color:#666">+:</span> [audiences] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAudiencesMixin(audiences)
 </code></pre></div></div><p>Audiences are audience identifiers chosen by the authenticator that are compatible with both the TokenReview and token. An identifier is any identifier in the intersection of the TokenReviewSpec audiences and the token&rsquo;s audiences. A client of the TokenReview API that sets the spec.audiences field should validate that a compatible audience identifier is returned in the status.audiences field to ensure that the TokenReview server is audience aware. If a TokenReview returns an empty status.audience field where status.authenticated is &ldquo;true&rdquo;, the token is valid against the audience of the Kubernetes API server.</p></p>
 
 
@@ -170,7 +170,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1.tokenReviewStatus.withAuthenticated">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAuthenticatedfunction(authenticated) self <span style="color:#666">+</span> { authenticated<span style="color:#666">:</span> authenticated }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAuthenticated(authenticated)
 </code></pre></div></div><p>Authenticated indicates that the token was associated with a known user.</p></p>
 
 
@@ -198,7 +198,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1.tokenReviewStatus.withErrorParam">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withErrorParamfunction(errorParam) self <span style="color:#666">+</span> { <span style="color:#4070a0">&#34;error&#34;</span><span style="color:#666">:</span> errorParam }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withErrorParam(errorParam)
 </code></pre></div></div><p>Error indicates that the token couldn&rsquo;t be checked</p></p>
 
 
@@ -258,7 +258,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1.tokenReviewStatus.user.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(user) __userMixin(user)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(user)
 </code></pre></div></div><p></p></p>
 
 
@@ -286,7 +286,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1.tokenReviewStatus.user.withExtra">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExtrafunction(extra) self <span style="color:#666">+</span> __userMixin({ extra<span style="color:#666">:</span> extra })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExtra(extra)
 </code></pre></div></div><p>Any additional information provided by the authenticator.</p></p>
 
 
@@ -314,7 +314,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1.tokenReviewStatus.user.withExtraMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExtraMixinfunction(extra) self <span style="color:#666">+</span> __userMixin({ extra<span style="color:#666">+:</span> extra })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExtraMixin(extra)
 </code></pre></div></div><p>Any additional information provided by the authenticator.</p></p>
 
 
@@ -342,7 +342,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1.tokenReviewStatus.user.withGroups">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupsfunction(groups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(groups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __userMixin({ groups<span style="color:#666">:</span> groups }) <span style="color:#007020;font-weight:bold">else</span> __userMixin({ groups<span style="color:#666">:</span> [groups] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroups(groups)
 </code></pre></div></div><p>The names of groups this user is a part of.</p></p>
 
 
@@ -370,7 +370,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1.tokenReviewStatus.user.withGroupsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupsMixinfunction(groups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(groups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __userMixin({ groups<span style="color:#666">+:</span> groups }) <span style="color:#007020;font-weight:bold">else</span> __userMixin({ groups<span style="color:#666">+:</span> [groups] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupsMixin(groups)
 </code></pre></div></div><p>The names of groups this user is a part of.</p></p>
 
 
@@ -398,7 +398,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1.tokenReviewStatus.user.withUid">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> __userMixin({ uid<span style="color:#666">:</span> uid })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUid(uid)
 </code></pre></div></div><p>A unique value that identifies this user across time. If this user is deleted and another user by the same name is added, they will have different UIDs.</p></p>
 
 
@@ -426,7 +426,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1.tokenReviewStatus.user.withUsername">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUsernamefunction(username) self <span style="color:#666">+</span> __userMixin({ username<span style="color:#666">:</span> username })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUsername(username)
 </code></pre></div></div><p>The name that uniquely identifies this user among all active users.</p></p>
 
 

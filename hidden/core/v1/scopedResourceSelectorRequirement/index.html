@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scopedResourceSelectorRequirement.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scopedResourceSelectorRequirement.withOperator">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOperatorfunction(operator) self <span style="color:#666">+</span> { operator<span style="color:#666">:</span> operator }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOperator(operator)
 </code></pre></div></div><p>Represents a scope&rsquo;s relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scopedResourceSelectorRequirement.withScopeName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withScopeNamefunction(scopeName) self <span style="color:#666">+</span> { scopeName<span style="color:#666">:</span> scopeName }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withScopeName(scopeName)
 </code></pre></div></div><p>The name of the scope that the selector applies to.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scopedResourceSelectorRequirement.withValues">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withValuesfunction(values) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(values) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { values<span style="color:#666">:</span> values } <span style="color:#007020;font-weight:bold">else</span> { values<span style="color:#666">:</span> [values] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withValues(values)
 </code></pre></div></div><p>An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.</p></p>
 
 
@@ -190,7 +190,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.scopedResourceSelectorRequirement.withValuesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withValuesMixinfunction(values) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(values) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { values<span style="color:#666">+:</span> values } <span style="color:#007020;font-weight:bold">else</span> { values<span style="color:#666">+:</span> [values] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withValuesMixin(values)
 </code></pre></div></div><p>An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.</p></p>
 
 

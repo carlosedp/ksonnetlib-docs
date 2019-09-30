@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="apps.v1.replicaSetStatus.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="apps.v1.replicaSetStatus.withAvailableReplicas">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAvailableReplicasfunction(availableReplicas) self <span style="color:#666">+</span> { availableReplicas<span style="color:#666">:</span> availableReplicas }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAvailableReplicas(availableReplicas)
 </code></pre></div></div><p>The number of available replicas (ready for at least minReadySeconds) for this replica set.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="apps.v1.replicaSetStatus.withConditions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">:</span> [conditions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditions(conditions)
 </code></pre></div></div><p>Represents the latest available observations of a replica set&rsquo;s current state.</p><code>withConditions</code> takes an array of type <code>conditionsType</code>. You can create
 an instance of <code>conditionsType</code> with <code>hidden.apps.v1.replicaSetCondition.new()</code>.</p>
 
@@ -165,7 +165,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apps.v1.replicaSetC
     </h5>
 
     <div class="collapse show" id="apps.v1.replicaSetStatus.withConditionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixinfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">+:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">+:</span> [conditions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixin(conditions)
 </code></pre></div></div><p>Represents the latest available observations of a replica set&rsquo;s current state.</p><code>withConditionsMixin</code> takes an array of type <code>conditionsType</code>. You can create
 an instance of <code>conditionsType</code> with <code>hidden.apps.v1.replicaSetCondition.new()</code>.</p>
 
@@ -196,7 +196,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apps.v1.replicaSetC
     </h5>
 
     <div class="collapse show" id="apps.v1.replicaSetStatus.withFullyLabeledReplicas">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFullyLabeledReplicasfunction(fullyLabeledReplicas) self <span style="color:#666">+</span> { fullyLabeledReplicas<span style="color:#666">:</span> fullyLabeledReplicas }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFullyLabeledReplicas(fullyLabeledReplicas)
 </code></pre></div></div><p>The number of pods that have labels matching the labels of the pod template of the replicaset.</p></p>
 
 
@@ -224,7 +224,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apps.v1.replicaSetC
     </h5>
 
     <div class="collapse show" id="apps.v1.replicaSetStatus.withObservedGeneration">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withObservedGenerationfunction(observedGeneration) self <span style="color:#666">+</span> { observedGeneration<span style="color:#666">:</span> observedGeneration }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withObservedGeneration(observedGeneration)
 </code></pre></div></div><p>ObservedGeneration reflects the generation of the most recently observed ReplicaSet.</p></p>
 
 
@@ -252,7 +252,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apps.v1.replicaSetC
     </h5>
 
     <div class="collapse show" id="apps.v1.replicaSetStatus.withReadyReplicas">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadyReplicasfunction(readyReplicas) self <span style="color:#666">+</span> { readyReplicas<span style="color:#666">:</span> readyReplicas }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadyReplicas(readyReplicas)
 </code></pre></div></div><p>The number of ready replicas for this replica set.</p></p>
 
 
@@ -280,7 +280,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apps.v1.replicaSetC
     </h5>
 
     <div class="collapse show" id="apps.v1.replicaSetStatus.withReplicas">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReplicasfunction(replicas) self <span style="color:#666">+</span> { replicas<span style="color:#666">:</span> replicas }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReplicas(replicas)
 </code></pre></div></div><p>Replicas is the most recently oberved number of replicas. More info: <a href="https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/#what-is-a-replicationcontroller">https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/#what-is-a-replicationcontroller</a></p></p>
 
 

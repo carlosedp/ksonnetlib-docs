@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1beta1.httpIngressRuleValue.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1beta1.httpIngressRuleValue.withPaths">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathsfunction(paths) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(paths) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { paths<span style="color:#666">:</span> paths } <span style="color:#007020;font-weight:bold">else</span> { paths<span style="color:#666">:</span> [paths] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPaths(paths)
 </code></pre></div></div><p>A collection of paths that map requests to backends.</p><code>withPaths</code> takes an array of type <code>pathsType</code>. You can create
 an instance of <code>pathsType</code> with <code>hidden.networking.v1beta1.httpIngressPath.new()</code>.</p>
 
@@ -137,7 +137,7 @@ an instance of <code>pathsType</code> with <code>hidden.networking.v1beta1.httpI
     </h5>
 
     <div class="collapse show" id="networking.v1beta1.httpIngressRuleValue.withPathsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathsMixinfunction(paths) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(paths) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { paths<span style="color:#666">+:</span> paths } <span style="color:#007020;font-weight:bold">else</span> { paths<span style="color:#666">+:</span> [paths] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathsMixin(paths)
 </code></pre></div></div><p>A collection of paths that map requests to backends.</p><code>withPathsMixin</code> takes an array of type <code>pathsType</code>. You can create
 an instance of <code>pathsType</code> with <code>hidden.networking.v1beta1.httpIngressPath.new()</code>.</p>
 

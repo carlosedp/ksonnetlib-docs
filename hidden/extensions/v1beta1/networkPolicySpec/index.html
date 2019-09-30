@@ -77,7 +77,7 @@
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicySpec.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -114,7 +114,7 @@
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicySpec.withEgress">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEgressfunction(egress) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(egress) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { egress<span style="color:#666">:</span> egress } <span style="color:#007020;font-weight:bold">else</span> { egress<span style="color:#666">:</span> [egress] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEgress(egress)
 </code></pre></div></div><p>List of egress rules to be applied to the selected pods. Outgoing traffic is allowed if there are no NetworkPolicies selecting the pod (and cluster policy otherwise allows the traffic), OR if the traffic matches at least one egress rule across all of the NetworkPolicy objects whose podSelector matches the pod. If this field is empty then this NetworkPolicy limits all outgoing traffic (and serves solely to ensure that the pods it selects are isolated by default). This field is beta-level in 1.8</p><code>withEgress</code> takes an array of type <code>egressType</code>. You can create
 an instance of <code>egressType</code> with <code>hidden.extensions.v1beta1.networkPolicyEgressRule.new()</code>.</p>
 
@@ -145,7 +145,7 @@ an instance of <code>egressType</code> with <code>hidden.extensions.v1beta1.netw
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicySpec.withEgressMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEgressMixinfunction(egress) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(egress) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { egress<span style="color:#666">+:</span> egress } <span style="color:#007020;font-weight:bold">else</span> { egress<span style="color:#666">+:</span> [egress] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEgressMixin(egress)
 </code></pre></div></div><p>List of egress rules to be applied to the selected pods. Outgoing traffic is allowed if there are no NetworkPolicies selecting the pod (and cluster policy otherwise allows the traffic), OR if the traffic matches at least one egress rule across all of the NetworkPolicy objects whose podSelector matches the pod. If this field is empty then this NetworkPolicy limits all outgoing traffic (and serves solely to ensure that the pods it selects are isolated by default). This field is beta-level in 1.8</p><code>withEgressMixin</code> takes an array of type <code>egressType</code>. You can create
 an instance of <code>egressType</code> with <code>hidden.extensions.v1beta1.networkPolicyEgressRule.new()</code>.</p>
 
@@ -176,7 +176,7 @@ an instance of <code>egressType</code> with <code>hidden.extensions.v1beta1.netw
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicySpec.withIngress">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIngressfunction(ingress) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ingress) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ingress<span style="color:#666">:</span> ingress } <span style="color:#007020;font-weight:bold">else</span> { ingress<span style="color:#666">:</span> [ingress] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIngress(ingress)
 </code></pre></div></div><p>List of ingress rules to be applied to the selected pods. Traffic is allowed to a pod if there are no NetworkPolicies selecting the pod OR if the traffic source is the pod&rsquo;s local node, OR if the traffic matches at least one ingress rule across all of the NetworkPolicy objects whose podSelector matches the pod. If this field is empty then this NetworkPolicy does not allow any traffic (and serves solely to ensure that the pods it selects are isolated by default).</p><code>withIngress</code> takes an array of type <code>ingressType</code>. You can create
 an instance of <code>ingressType</code> with <code>hidden.extensions.v1beta1.networkPolicyIngressRule.new()</code>.</p>
 
@@ -207,7 +207,7 @@ an instance of <code>ingressType</code> with <code>hidden.extensions.v1beta1.net
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicySpec.withIngressMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIngressMixinfunction(ingress) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ingress) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ingress<span style="color:#666">+:</span> ingress } <span style="color:#007020;font-weight:bold">else</span> { ingress<span style="color:#666">+:</span> [ingress] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIngressMixin(ingress)
 </code></pre></div></div><p>List of ingress rules to be applied to the selected pods. Traffic is allowed to a pod if there are no NetworkPolicies selecting the pod OR if the traffic source is the pod&rsquo;s local node, OR if the traffic matches at least one ingress rule across all of the NetworkPolicy objects whose podSelector matches the pod. If this field is empty then this NetworkPolicy does not allow any traffic (and serves solely to ensure that the pods it selects are isolated by default).</p><code>withIngressMixin</code> takes an array of type <code>ingressType</code>. You can create
 an instance of <code>ingressType</code> with <code>hidden.extensions.v1beta1.networkPolicyIngressRule.new()</code>.</p>
 
@@ -238,7 +238,7 @@ an instance of <code>ingressType</code> with <code>hidden.extensions.v1beta1.net
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicySpec.withPolicyTypes">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPolicyTypesfunction(policyTypes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(policyTypes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { policyTypes<span style="color:#666">:</span> policyTypes } <span style="color:#007020;font-weight:bold">else</span> { policyTypes<span style="color:#666">:</span> [policyTypes] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPolicyTypes(policyTypes)
 </code></pre></div></div><p>List of rule types that the NetworkPolicy relates to. Valid options are &ldquo;Ingress&rdquo;, &ldquo;Egress&rdquo;, or &ldquo;Ingress,Egress&rdquo;. If this field is not specified, it will default based on the existence of Ingress or Egress rules; policies that contain an Egress section are assumed to affect Egress, and all policies (whether or not they contain an Ingress section) are assumed to affect Ingress. If you want to write an egress-only policy, you must explicitly specify policyTypes [ &ldquo;Egress&rdquo; ]. Likewise, if you want to write a policy that specifies that no egress is allowed, you must specify a policyTypes value that include &ldquo;Egress&rdquo; (since such a policy would not include an Egress section and would otherwise default to just [ &ldquo;Ingress&rdquo; ]). This field is beta-level in 1.8</p></p>
 
 
@@ -266,7 +266,7 @@ an instance of <code>ingressType</code> with <code>hidden.extensions.v1beta1.net
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicySpec.withPolicyTypesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPolicyTypesMixinfunction(policyTypes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(policyTypes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { policyTypes<span style="color:#666">+:</span> policyTypes } <span style="color:#007020;font-weight:bold">else</span> { policyTypes<span style="color:#666">+:</span> [policyTypes] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPolicyTypesMixin(policyTypes)
 </code></pre></div></div><p>List of rule types that the NetworkPolicy relates to. Valid options are &ldquo;Ingress&rdquo;, &ldquo;Egress&rdquo;, or &ldquo;Ingress,Egress&rdquo;. If this field is not specified, it will default based on the existence of Ingress or Egress rules; policies that contain an Egress section are assumed to affect Egress, and all policies (whether or not they contain an Ingress section) are assumed to affect Ingress. If you want to write an egress-only policy, you must explicitly specify policyTypes [ &ldquo;Egress&rdquo; ]. Likewise, if you want to write a policy that specifies that no egress is allowed, you must specify a policyTypes value that include &ldquo;Egress&rdquo; (since such a policy would not include an Egress section and would otherwise default to just [ &ldquo;Ingress&rdquo; ]). This field is beta-level in 1.8</p></p>
 
 
@@ -326,7 +326,7 @@ an instance of <code>ingressType</code> with <code>hidden.extensions.v1beta1.net
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicySpec.podSelector.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(podSelector) __podSelectorMixin(podSelector)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(podSelector)
 </code></pre></div></div><p></p></p>
 
 
@@ -354,7 +354,7 @@ an instance of <code>ingressType</code> with <code>hidden.extensions.v1beta1.net
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicySpec.podSelector.withMatchExpressions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podSelectorMixin({ matchExpressions<span style="color:#666">:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __podSelectorMixin({ matchExpressions<span style="color:#666">:</span> [matchExpressions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressions(matchExpressions)
 </code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressions</code> takes an array of type <code>matchExpressionsType</code>. You can create
 an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
 
@@ -385,7 +385,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicySpec.podSelector.withMatchExpressionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podSelectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __podSelectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixin(matchExpressions)
 </code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
 an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
 
@@ -416,7 +416,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicySpec.podSelector.withMatchLabels">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsfunction(matchLabels) self <span style="color:#666">+</span> __podSelectorMixin({ matchLabels<span style="color:#666">:</span> matchLabels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabels(matchLabels)
 </code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
 
 
@@ -444,7 +444,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.networkPolicySpec.podSelector.withMatchLabelsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixinfunction(matchLabels) self <span style="color:#666">+</span> __podSelectorMixin({ matchLabels<span style="color:#666">+:</span> matchLabels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixin(matchLabels)
 </code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
 
 

@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFromfunction(from) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(from) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { from<span style="color:#666">:</span> from } <span style="color:#007020;font-weight:bold">else</span> { from<span style="color:#666">:</span> [from] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFrom(from)
 </code></pre></div></div><p>List of sources which should be able to access the pods selected for this rule. Items in this list are combined using a logical OR operation. If this field is empty or missing, this rule matches all sources (traffic not restricted by source). If this field is present and contains at least on item, this rule allows traffic only if the traffic matches at least one item in the from list.</p><code>withFrom</code> takes an array of type <code>fromType</code>. You can create
 an instance of <code>fromType</code> with <code>hidden.networking.v1.networkPolicyPeer.new()</code>.</p>
 

@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnvfunction(env) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(env) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { env<span style="color:#666">:</span> env } <span style="color:#007020;font-weight:bold">else</span> { env<span style="color:#666">:</span> [env] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnv(env)
 </code></pre></div></div><p>List of environment variables to set in the container. Cannot be updated.</p><code>withEnv</code> takes an array of type <code>envType</code>. You can create
 an instance of <code>envType</code> with <code>hidden.core.v1.envVar.new()</code>.</p>
 

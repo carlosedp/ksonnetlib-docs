@@ -6,7 +6,7 @@
     <description>Recent content in Settings on ksonnet lib API Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Sep 2019 17:02:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 21:17:09 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/settings/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,82 +14,82 @@
     <item>
       <title>new</title>
       <link>http://example.org/settings/v1alpha1/podPreset/new/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/new/</guid>
-      <description>newfunction() apiVersion + kind</description>
+      <description>new()</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/initializers/mixinInstance/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/initializers/mixinInstance/</guid>
-      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+      <description>mixinInstance(initializers)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/mixinInstance/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/mixinInstance/</guid>
-      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+      <description>mixinInstance(metadata)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/mixinInstance/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/mixinInstance/</guid>
-      <description>mixinInstancefunction(spec) __specMixin(spec)</description>
+      <description>mixinInstance(spec)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/selector/mixinInstance/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/selector/mixinInstance/</guid>
-      <description>mixinInstancefunction(selector) __selectorMixin(selector)</description>
+      <description>mixinInstance(selector)</description>
     </item>
     
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/withAnnotations/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/withAnnotations/</guid>
-      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotations(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/withAnnotationsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/withAnnotationsMixin/</guid>
-      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotationsMixin(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withClusterName</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/withClusterName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/withClusterName/</guid>
-      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+      <description>withClusterName(clusterName) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
     </item>
     
     <item>
       <title>withEnv</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/withEnv/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/withEnv/</guid>
-      <description>withEnvfunction(env) self + if std.type(env) == &amp;#39;array&amp;#39; then __specMixin({ env: env }) else __specMixin({ env: [env] }) Env defines the collection of EnvVar to inject into containers.
+      <description>withEnv(env) Env defines the collection of EnvVar to inject into containers.
 withEnv takes an array of type envType. You can create an instance of envType with hidden.core.v1.envVar.new().
 see hidden.core.v1.envVar</description>
     </item>
@@ -97,10 +97,10 @@ see hidden.core.v1.envVar</description>
     <item>
       <title>withEnvFrom</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/withEnvFrom/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/withEnvFrom/</guid>
-      <description>withEnvFromfunction(envFrom) self + if std.type(envFrom) == &amp;#39;array&amp;#39; then __specMixin({ envFrom: envFrom }) else __specMixin({ envFrom: [envFrom] }) EnvFrom defines the collection of EnvFromSource to inject into containers.
+      <description>withEnvFrom(envFrom) EnvFrom defines the collection of EnvFromSource to inject into containers.
 withEnvFrom takes an array of type envFromType. You can create an instance of envFromType with hidden.core.v1.envFromSource.new().
 see hidden.core.v1.envFromSource</description>
     </item>
@@ -108,10 +108,10 @@ see hidden.core.v1.envFromSource</description>
     <item>
       <title>withEnvFromMixin</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/withEnvFromMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/withEnvFromMixin/</guid>
-      <description>withEnvFromMixinfunction(envFrom) self + if std.type(envFrom) == &amp;#39;array&amp;#39; then __specMixin({ envFrom+: envFrom }) else __specMixin({ envFrom+: [envFrom] }) EnvFrom defines the collection of EnvFromSource to inject into containers.
+      <description>withEnvFromMixin(envFrom) EnvFrom defines the collection of EnvFromSource to inject into containers.
 withEnvFromMixin takes an array of type envFromType. You can create an instance of envFromType with hidden.core.v1.envFromSource.new().
 see hidden.core.v1.envFromSource</description>
     </item>
@@ -119,10 +119,10 @@ see hidden.core.v1.envFromSource</description>
     <item>
       <title>withEnvMixin</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/withEnvMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/withEnvMixin/</guid>
-      <description>withEnvMixinfunction(env) self + if std.type(env) == &amp;#39;array&amp;#39; then __specMixin({ env+: env }) else __specMixin({ env+: [env] }) Env defines the collection of EnvVar to inject into containers.
+      <description>withEnvMixin(env) Env defines the collection of EnvVar to inject into containers.
 withEnvMixin takes an array of type envType. You can create an instance of envType with hidden.core.v1.envVar.new().
 see hidden.core.v1.envVar</description>
     </item>
@@ -130,73 +130,73 @@ see hidden.core.v1.envVar</description>
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/withFinalizers/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/withFinalizers/</guid>
-      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizers(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/withFinalizersMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/withFinalizersMixin/</guid>
-      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizersMixin(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/withGenerateName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/withGenerateName/</guid>
-      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+      <description>withGenerateName(generateName) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
     </item>
     
     <item>
       <title>withLabels</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/withLabels/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/withLabels/</guid>
-      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabels(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/withLabelsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/withLabelsMixin/</guid>
-      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabelsMixin(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/withManagedFields/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/withManagedFields/</guid>
-      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFields(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/withManagedFieldsMixin/</guid>
-      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFieldsMixin(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withMatchExpressions</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/selector/withMatchExpressions/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/selector/withMatchExpressions/</guid>
-      <description>withMatchExpressionsfunction(matchExpressions) self + if std.type(matchExpressions) == &amp;#39;array&amp;#39; then __selectorMixin({ matchExpressions: matchExpressions }) else __selectorMixin({ matchExpressions: [matchExpressions] }) matchExpressions is a list of label selector requirements. The requirements are ANDed.
+      <description>withMatchExpressions(matchExpressions) matchExpressions is a list of label selector requirements. The requirements are ANDed.
 withMatchExpressions takes an array of type matchExpressionsType. You can create an instance of matchExpressionsType with hidden.meta.v1.labelSelectorRequirement.new().
 see hidden.meta.v1.labelSelectorRequirement</description>
     </item>
@@ -204,10 +204,10 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withMatchExpressionsMixin</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/selector/withMatchExpressionsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/selector/withMatchExpressionsMixin/</guid>
-      <description>withMatchExpressionsMixinfunction(matchExpressions) self + if std.type(matchExpressions) == &amp;#39;array&amp;#39; then __selectorMixin({ matchExpressions+: matchExpressions }) else __selectorMixin({ matchExpressions+: [matchExpressions] }) matchExpressions is a list of label selector requirements. The requirements are ANDed.
+      <description>withMatchExpressionsMixin(matchExpressions) matchExpressions is a list of label selector requirements. The requirements are ANDed.
 withMatchExpressionsMixin takes an array of type matchExpressionsType. You can create an instance of matchExpressionsType with hidden.meta.v1.labelSelectorRequirement.new().
 see hidden.meta.v1.labelSelectorRequirement</description>
     </item>
@@ -215,37 +215,37 @@ see hidden.meta.v1.labelSelectorRequirement</description>
     <item>
       <title>withMatchLabels</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/selector/withMatchLabels/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/selector/withMatchLabels/</guid>
-      <description>withMatchLabelsfunction(matchLabels) self + __selectorMixin({ matchLabels: matchLabels }) matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &amp;ldquo;key&amp;rdquo;, the operator is &amp;ldquo;In&amp;rdquo;, and the values array contains only &amp;ldquo;value&amp;rdquo;. The requirements are ANDed.</description>
+      <description>withMatchLabels(matchLabels) matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &amp;ldquo;key&amp;rdquo;, the operator is &amp;ldquo;In&amp;rdquo;, and the values array contains only &amp;ldquo;value&amp;rdquo;. The requirements are ANDed.</description>
     </item>
     
     <item>
       <title>withMatchLabelsMixin</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/selector/withMatchLabelsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/selector/withMatchLabelsMixin/</guid>
-      <description>withMatchLabelsMixinfunction(matchLabels) self + __selectorMixin({ matchLabels+: matchLabels }) matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &amp;ldquo;key&amp;rdquo;, the operator is &amp;ldquo;In&amp;rdquo;, and the values array contains only &amp;ldquo;value&amp;rdquo;. The requirements are ANDed.</description>
+      <description>withMatchLabelsMixin(matchLabels) matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &amp;ldquo;key&amp;rdquo;, the operator is &amp;ldquo;In&amp;rdquo;, and the values array contains only &amp;ldquo;value&amp;rdquo;. The requirements are ANDed.</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/withName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/withName/</guid>
-      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withNamespace</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/withNamespace/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+      <description>withNamespace(namespace) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
 
 Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
     </item>
@@ -253,48 +253,52 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/withOwnerReferences/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/withOwnerReferences/</guid>
-      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferences(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferences takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/withOwnerReferencesMixin/</guid>
-      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferencesMixin(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferencesMixin takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withPending</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/initializers/withPending/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/initializers/withPending/</guid>
-      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPending takes an array of type pendingType.</description>
+      <description>withPending(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/initializers/withPendingMixin/</guid>
-      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPendingMixin takes an array of type pendingType.</description>
+      <description>withPendingMixin(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withVolumeMounts</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/withVolumeMounts/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/withVolumeMounts/</guid>
-      <description>withVolumeMountsfunction(volumeMounts) self + if std.type(volumeMounts) == &amp;#39;array&amp;#39; then __specMixin({ volumeMounts: volumeMounts }) else __specMixin({ volumeMounts: [volumeMounts] }) VolumeMounts defines the collection of VolumeMount to inject into containers.
+      <description>withVolumeMounts(volumeMounts) VolumeMounts defines the collection of VolumeMount to inject into containers.
 withVolumeMounts takes an array of type volumeMountsType. You can create an instance of volumeMountsType with hidden.core.v1.volumeMount.new().
 see hidden.core.v1.volumeMount</description>
     </item>
@@ -302,10 +306,10 @@ see hidden.core.v1.volumeMount</description>
     <item>
       <title>withVolumeMountsMixin</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/withVolumeMountsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/withVolumeMountsMixin/</guid>
-      <description>withVolumeMountsMixinfunction(volumeMounts) self + if std.type(volumeMounts) == &amp;#39;array&amp;#39; then __specMixin({ volumeMounts+: volumeMounts }) else __specMixin({ volumeMounts+: [volumeMounts] }) VolumeMounts defines the collection of VolumeMount to inject into containers.
+      <description>withVolumeMountsMixin(volumeMounts) VolumeMounts defines the collection of VolumeMount to inject into containers.
 withVolumeMountsMixin takes an array of type volumeMountsType. You can create an instance of volumeMountsType with hidden.core.v1.volumeMount.new().
 see hidden.core.v1.volumeMount</description>
     </item>
@@ -313,10 +317,10 @@ see hidden.core.v1.volumeMount</description>
     <item>
       <title>withVolumes</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/withVolumes/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/withVolumes/</guid>
-      <description>withVolumesfunction(volumes) self + if std.type(volumes) == &amp;#39;array&amp;#39; then __specMixin({ volumes: volumes }) else __specMixin({ volumes: [volumes] }) Volumes defines the collection of Volume to inject into the pod.
+      <description>withVolumes(volumes) Volumes defines the collection of Volume to inject into the pod.
 withVolumes takes an array of type volumesType. You can create an instance of volumesType with hidden.core.v1.volume.new().
 see hidden.core.v1.volume</description>
     </item>
@@ -324,10 +328,10 @@ see hidden.core.v1.volume</description>
     <item>
       <title>withVolumesMixin</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/withVolumesMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/withVolumesMixin/</guid>
-      <description>withVolumesMixinfunction(volumes) self + if std.type(volumes) == &amp;#39;array&amp;#39; then __specMixin({ volumes+: volumes }) else __specMixin({ volumes+: [volumes] }) Volumes defines the collection of Volume to inject into the pod.
+      <description>withVolumesMixin(volumes) Volumes defines the collection of Volume to inject into the pod.
 withVolumesMixin takes an array of type volumesType. You can create an instance of volumesType with hidden.core.v1.volume.new().
 see hidden.core.v1.volume</description>
     </item>
@@ -335,7 +339,7 @@ see hidden.core.v1.volume</description>
     <item>
       <title>initializers</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/initializers/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -346,7 +350,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/</guid>
       <description></description>
@@ -355,7 +359,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>selector</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/selector/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/selector/</guid>
       <description>Selector is a label query over a set of resources, in this case pods. Required.</description>
@@ -364,7 +368,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>spec</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/</guid>
       <description></description>
@@ -373,7 +377,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>envFromType</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/envFromType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/envFromType/</guid>
       <description></description>
@@ -382,7 +386,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>envType</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/envType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/envType/</guid>
       <description></description>
@@ -391,7 +395,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/initializersType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/initializersType/</guid>
       <description></description>
@@ -400,7 +404,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/managedFieldsType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/managedFieldsType/</guid>
       <description></description>
@@ -409,7 +413,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>matchExpressionsType</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/selector/matchExpressionsType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/selector/matchExpressionsType/</guid>
       <description></description>
@@ -418,7 +422,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadataType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadataType/</guid>
       <description></description>
@@ -427,7 +431,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/ownerReferencesType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -436,7 +440,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/settings/v1alpha1/podPreset/metadata/initializers/pendingType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -445,7 +449,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>selectorType</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/selectorType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/selectorType/</guid>
       <description></description>
@@ -454,7 +458,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>specType</title>
       <link>http://example.org/settings/v1alpha1/podPreset/specType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/specType/</guid>
       <description></description>
@@ -463,7 +467,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>volumeMountsType</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/volumeMountsType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/volumeMountsType/</guid>
       <description></description>
@@ -472,7 +476,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>volumesType</title>
       <link>http://example.org/settings/v1alpha1/podPreset/spec/volumesType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/spec/volumesType/</guid>
       <description></description>
@@ -481,7 +485,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>podPreset</title>
       <link>http://example.org/settings/podPreset/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/podPreset/</guid>
       <description>PodPreset is a policy resource that defines additional runtime requirements for a Pod.  </description>
@@ -490,7 +494,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>podPreset</title>
       <link>http://example.org/settings/v1alpha1/podPreset/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/settings/v1alpha1/podPreset/</guid>
       <description>PodPreset is a policy resource that defines additional runtime requirements for a Pod.</description>

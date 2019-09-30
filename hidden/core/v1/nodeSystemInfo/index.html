@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSystemInfo.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSystemInfo.withArchitecture">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withArchitecturefunction(architecture) self <span style="color:#666">+</span> { architecture<span style="color:#666">:</span> architecture }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withArchitecture(architecture)
 </code></pre></div></div><p>The Architecture reported by the node</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSystemInfo.withBootId">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withBootIdfunction(bootId) self <span style="color:#666">+</span> { bootID<span style="color:#666">:</span> bootId }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withBootId(bootId)
 </code></pre></div></div><p>Boot ID reported by the node.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSystemInfo.withContainerRuntimeVersion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerRuntimeVersionfunction(containerRuntimeVersion) self <span style="color:#666">+</span> { containerRuntimeVersion<span style="color:#666">:</span> containerRuntimeVersion }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainerRuntimeVersion(containerRuntimeVersion)
 </code></pre></div></div><p>ContainerRuntime Version reported by the node through runtime remote API (e.g. docker://1.5.0).</p></p>
 
 
@@ -190,7 +190,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSystemInfo.withKernelVersion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKernelVersionfunction(kernelVersion) self <span style="color:#666">+</span> { kernelVersion<span style="color:#666">:</span> kernelVersion }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKernelVersion(kernelVersion)
 </code></pre></div></div><p>Kernel Version reported by the node from &lsquo;uname -r&rsquo; (e.g. 3.16.0-0.bpo.4-amd64).</p></p>
 
 
@@ -218,7 +218,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSystemInfo.withKubeProxyVersion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKubeProxyVersionfunction(kubeProxyVersion) self <span style="color:#666">+</span> { kubeProxyVersion<span style="color:#666">:</span> kubeProxyVersion }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKubeProxyVersion(kubeProxyVersion)
 </code></pre></div></div><p>KubeProxy Version reported by the node.</p></p>
 
 
@@ -246,7 +246,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSystemInfo.withKubeletVersion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKubeletVersionfunction(kubeletVersion) self <span style="color:#666">+</span> { kubeletVersion<span style="color:#666">:</span> kubeletVersion }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKubeletVersion(kubeletVersion)
 </code></pre></div></div><p>Kubelet Version reported by the node.</p></p>
 
 
@@ -274,7 +274,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSystemInfo.withMachineId">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMachineIdfunction(machineId) self <span style="color:#666">+</span> { machineID<span style="color:#666">:</span> machineId }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMachineId(machineId)
 </code></pre></div></div><p>MachineID reported by the node. For unique machine identification in the cluster this field is preferred. Learn more from man(5) machine-id: <a href="http://man7.org/linux/man-pages/man5/machine-id.5.html">http://man7.org/linux/man-pages/man5/machine-id.5.html</a></p></p>
 
 
@@ -302,7 +302,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSystemInfo.withOperatingSystem">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOperatingSystemfunction(operatingSystem) self <span style="color:#666">+</span> { operatingSystem<span style="color:#666">:</span> operatingSystem }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOperatingSystem(operatingSystem)
 </code></pre></div></div><p>The Operating System reported by the node</p></p>
 
 
@@ -330,7 +330,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSystemInfo.withOsImage">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOsImagefunction(osImage) self <span style="color:#666">+</span> { osImage<span style="color:#666">:</span> osImage }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOsImage(osImage)
 </code></pre></div></div><p>OS Image reported by the node from /etc/os-release (e.g. Debian GNU/Linux 7 (wheezy)).</p></p>
 
 
@@ -358,7 +358,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSystemInfo.withSystemUuid">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSystemUuidfunction(systemUuid) self <span style="color:#666">+</span> { systemUUID<span style="color:#666">:</span> systemUuid }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSystemUuid(systemUuid)
 </code></pre></div></div><p>SystemUUID reported by the node. For unique machine identification MachineID is preferred. This field is specific to Red Hat hosts <a href="https://access.redhat.com/documentation/en-US/Red_Hat_Subscription_Management/1/html/RHSM/getting-system-uuid.html">https://access.redhat.com/documentation/en-US/Red_Hat_Subscription_Management/1/html/RHSM/getting-system-uuid.html</a></p></p>
 
 

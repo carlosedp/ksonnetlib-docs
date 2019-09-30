@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDefaultAddCapabilitiesMixinfunction(defaultAddCapabilities) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(defaultAddCapabilities) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { defaultAddCapabilities<span style="color:#666">+:</span> defaultAddCapabilities } <span style="color:#007020;font-weight:bold">else</span> { defaultAddCapabilities<span style="color:#666">+:</span> [defaultAddCapabilities] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDefaultAddCapabilitiesMixin(defaultAddCapabilities)
 </code></pre></div></div><p>defaultAddCapabilities is the default set of capabilities that will be added to the container unless the pod spec specifically drops the capability.  You may not list a capability in both defaultAddCapabilities and requiredDropCapabilities. Capabilities added here are implicitly allowed, and need not be included in the allowedCapabilities list.</p></p>
 
 

@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeNamespacefunction(volumeNamespace) self <span style="color:#666">+</span> { volumeNamespace<span style="color:#666">:</span> volumeNamespace }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeNamespace(volumeNamespace)
 </code></pre></div></div><p>VolumeNamespace specifies the scope of the volume within StorageOS.  If no namespace is specified then the Pod&rsquo;s namespace will be used.  This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to &ldquo;default&rdquo; if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.</p></p>
 
 

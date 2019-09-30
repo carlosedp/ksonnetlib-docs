@@ -85,7 +85,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSpec.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -122,7 +122,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSpec.withExternalId">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalIdfunction(externalId) self <span style="color:#666">+</span> { externalID<span style="color:#666">:</span> externalId }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExternalId(externalId)
 </code></pre></div></div><p>Deprecated. Not all kubelets will set this field. Remove field after 1.13. see: <a href="https://issues.k8s.io/61966">https://issues.k8s.io/61966</a></p></p>
 
 
@@ -150,7 +150,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSpec.withPodCidr">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPodCidrfunction(podCidr) self <span style="color:#666">+</span> { podCIDR<span style="color:#666">:</span> podCidr }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPodCidr(podCidr)
 </code></pre></div></div><p>PodCIDR represents the pod IP range assigned to the node.</p></p>
 
 
@@ -178,7 +178,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSpec.withProviderId">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProviderIdfunction(providerId) self <span style="color:#666">+</span> { providerID<span style="color:#666">:</span> providerId }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProviderId(providerId)
 </code></pre></div></div><p>ID of the node assigned by the cloud provider in the format: <ProviderName>://<ProviderSpecificNodeID></p></p>
 
 
@@ -206,7 +206,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSpec.withTaints">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTaintsfunction(taints) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(taints) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { taints<span style="color:#666">:</span> taints } <span style="color:#007020;font-weight:bold">else</span> { taints<span style="color:#666">:</span> [taints] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTaints(taints)
 </code></pre></div></div><p>If specified, the node&rsquo;s taints.</p><code>withTaints</code> takes an array of type <code>taintsType</code>. You can create
 an instance of <code>taintsType</code> with <code>hidden.core.v1.taint.new()</code>.</p>
 
@@ -237,7 +237,7 @@ an instance of <code>taintsType</code> with <code>hidden.core.v1.taint.new()</co
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSpec.withTaintsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTaintsMixinfunction(taints) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(taints) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { taints<span style="color:#666">+:</span> taints } <span style="color:#007020;font-weight:bold">else</span> { taints<span style="color:#666">+:</span> [taints] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTaintsMixin(taints)
 </code></pre></div></div><p>If specified, the node&rsquo;s taints.</p><code>withTaintsMixin</code> takes an array of type <code>taintsType</code>. You can create
 an instance of <code>taintsType</code> with <code>hidden.core.v1.taint.new()</code>.</p>
 
@@ -268,7 +268,7 @@ an instance of <code>taintsType</code> with <code>hidden.core.v1.taint.new()</co
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSpec.withUnschedulable">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUnschedulablefunction(unschedulable) self <span style="color:#666">+</span> { unschedulable<span style="color:#666">:</span> unschedulable }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUnschedulable(unschedulable)
 </code></pre></div></div><p>Unschedulable controls node schedulability of new pods. By default, node is schedulable. More info: <a href="https://kubernetes.io/docs/concepts/nodes/node/#manual-node-administration">https://kubernetes.io/docs/concepts/nodes/node/#manual-node-administration</a></p></p>
 
 
@@ -328,7 +328,7 @@ an instance of <code>taintsType</code> with <code>hidden.core.v1.taint.new()</co
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSpec.configSource.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(configSource) __configSourceMixin(configSource)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(configSource)
 </code></pre></div></div><p></p></p>
 
 
@@ -387,7 +387,7 @@ an instance of <code>taintsType</code> with <code>hidden.core.v1.taint.new()</co
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSpec.configSource.configMap.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(configMap) __configMapMixin(configMap)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(configMap)
 </code></pre></div></div><p></p></p>
 
 
@@ -415,7 +415,7 @@ an instance of <code>taintsType</code> with <code>hidden.core.v1.taint.new()</co
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSpec.configSource.configMap.withKubeletConfigKey">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKubeletConfigKeyfunction(kubeletConfigKey) self <span style="color:#666">+</span> __configMapMixin({ kubeletConfigKey<span style="color:#666">:</span> kubeletConfigKey })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKubeletConfigKey(kubeletConfigKey)
 </code></pre></div></div><p>KubeletConfigKey declares which key of the referenced ConfigMap corresponds to the KubeletConfiguration structure This field is required in all cases.</p></p>
 
 
@@ -443,7 +443,7 @@ an instance of <code>taintsType</code> with <code>hidden.core.v1.taint.new()</co
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSpec.configSource.configMap.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __configMapMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is the metadata.name of the referenced ConfigMap. This field is required in all cases.</p></p>
 
 
@@ -471,7 +471,7 @@ an instance of <code>taintsType</code> with <code>hidden.core.v1.taint.new()</co
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSpec.configSource.configMap.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __configMapMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace is the metadata.namespace of the referenced ConfigMap. This field is required in all cases.</p></p>
 
 
@@ -499,7 +499,7 @@ an instance of <code>taintsType</code> with <code>hidden.core.v1.taint.new()</co
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSpec.configSource.configMap.withResourceVersion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersionfunction(resourceVersion) self <span style="color:#666">+</span> __configMapMixin({ resourceVersion<span style="color:#666">:</span> resourceVersion })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersion(resourceVersion)
 </code></pre></div></div><p>ResourceVersion is the metadata.ResourceVersion of the referenced ConfigMap. This field is forbidden in Node.Spec, and required in Node.Status.</p></p>
 
 
@@ -527,7 +527,7 @@ an instance of <code>taintsType</code> with <code>hidden.core.v1.taint.new()</co
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSpec.configSource.configMap.withUid">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> __configMapMixin({ uid<span style="color:#666">:</span> uid })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUid(uid)
 </code></pre></div></div><p>UID is the metadata.UID of the referenced ConfigMap. This field is forbidden in Node.Spec, and required in Node.Status.</p></p>
 
 

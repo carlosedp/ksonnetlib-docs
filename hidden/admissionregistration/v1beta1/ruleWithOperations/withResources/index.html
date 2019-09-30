@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourcesfunction(resources) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(resources) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { resources<span style="color:#666">:</span> resources } <span style="color:#007020;font-weight:bold">else</span> { resources<span style="color:#666">:</span> [resources] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResources(resources)
 </code></pre></div></div><p>Resources is a list of resources this rule applies to.</p><p></p><p>For example: &lsquo;pods&rsquo; means pods. &lsquo;pods/log&rsquo; means the log subresource of pods. &lsquo;<em>&rsquo; means all resources, but not subresources. &lsquo;pods/</em>&rsquo; means all subresources of pods. &lsquo;<em>/scale&rsquo; means all scale subresources. &lsquo;</em>/*&rsquo; means all resources and their subresources.</p><p></p><p>If wildcard is present, the validation rule will ensure resources do not overlap with each other.</p><p></p><p>Depending on the enclosing object, subresources might not be allowed. Required.</p></p>
 
 

@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixinfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">+:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">+:</span> [command] })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixin(command)
 </code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
 
 

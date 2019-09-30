@@ -77,7 +77,7 @@
     </h5>
 
     <div class="collapse show" id="apps.v1.deploymentStrategy.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -114,7 +114,7 @@
     </h5>
 
     <div class="collapse show" id="apps.v1.deploymentStrategy.withType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> { type<span style="color:#666">:</span> type }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withType(type)
 </code></pre></div></div><p>Type of deployment. Can be &ldquo;Recreate&rdquo; or &ldquo;RollingUpdate&rdquo;. Default is RollingUpdate.</p></p>
 
 
@@ -174,7 +174,7 @@
     </h5>
 
     <div class="collapse show" id="apps.v1.deploymentStrategy.rollingUpdate.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(rollingUpdate) __rollingUpdateMixin(rollingUpdate)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(rollingUpdate)
 </code></pre></div></div><p></p></p>
 
 
@@ -202,7 +202,7 @@
     </h5>
 
     <div class="collapse show" id="apps.v1.deploymentStrategy.rollingUpdate.withMaxSurge">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMaxSurgefunction(maxSurge) self <span style="color:#666">+</span> __rollingUpdateMixin({ maxSurge<span style="color:#666">:</span> maxSurge })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMaxSurge(maxSurge)
 </code></pre></div></div><p>The maximum number of pods that can be scheduled above the desired number of pods. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). This can not be 0 if MaxUnavailable is 0. Absolute number is calculated from percentage by rounding up. Defaults to 25%. Example: when this is set to 30%, the new ReplicaSet can be scaled up immediately when the rolling update starts, such that the total number of old and new pods do not exceed 130% of desired pods. Once old pods have been killed, new ReplicaSet can be scaled up further, ensuring that total number of pods running at any time during the update is at most 130% of desired pods.</p></p>
 
 
@@ -230,7 +230,7 @@
     </h5>
 
     <div class="collapse show" id="apps.v1.deploymentStrategy.rollingUpdate.withMaxUnavailable">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMaxUnavailablefunction(maxUnavailable) self <span style="color:#666">+</span> __rollingUpdateMixin({ maxUnavailable<span style="color:#666">:</span> maxUnavailable })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMaxUnavailable(maxUnavailable)
 </code></pre></div></div><p>The maximum number of pods that can be unavailable during the update. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). Absolute number is calculated from percentage by rounding down. This can not be 0 if MaxSurge is 0. Defaults to 25%. Example: when this is set to 30%, the old ReplicaSet can be scaled down to 70% of desired pods immediately when the rolling update starts. Once new pods are ready, old ReplicaSet can be scaled down further, followed by scaling up the new ReplicaSet, ensuring that the total number of pods available at all times during the update is at least 70% of desired pods.</p></p>
 
 

@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSubsetsMixinfunction(subsets) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(subsets) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { subsets<span style="color:#666">+:</span> subsets } <span style="color:#007020;font-weight:bold">else</span> { subsets<span style="color:#666">+:</span> [subsets] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSubsetsMixin(subsets)
 </code></pre></div></div><p>The set of all endpoints is the union of all subsets. Addresses are placed into subsets according to the IPs they share. A single address with multiple ports, some of which are ready and some of which are not (because they come from different containers) will result in the address being displayed in different subsets for the different ports. No address will appear in both Addresses and NotReadyAddresses in the same subset. Sets of addresses and ports that comprise a service.</p><code>withSubsetsMixin</code> takes an array of type <code>subsetsType</code>. You can create
 an instance of <code>subsetsType</code> with <code>hidden.core.v1.endpointSubset.new()</code>.</p>
 

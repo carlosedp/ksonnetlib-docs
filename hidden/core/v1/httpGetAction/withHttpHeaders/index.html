@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { httpHeaders<span style="color:#666">:</span> httpHeaders } <span style="color:#007020;font-weight:bold">else</span> { httpHeaders<span style="color:#666">:</span> [httpHeaders] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeaders(httpHeaders)
 </code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeaders</code> takes an array of type <code>httpHeadersType</code>. You can create
 an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
 

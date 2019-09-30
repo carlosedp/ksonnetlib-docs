@@ -93,7 +93,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyPeer.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -157,7 +157,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyPeer.ipBlock.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(ipBlock) __ipBlockMixin(ipBlock)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(ipBlock)
 </code></pre></div></div><p></p></p>
 
 
@@ -185,7 +185,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyPeer.ipBlock.withCidr">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCidrfunction(cidr) self <span style="color:#666">+</span> __ipBlockMixin({ cidr<span style="color:#666">:</span> cidr })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCidr(cidr)
 </code></pre></div></div><p>CIDR is a string representing the IP Block Valid examples are &ldquo;192.168.1.<sup>1</sup>&frasl;<sub>24</sub>&rdquo;</p></p>
 
 
@@ -213,7 +213,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyPeer.ipBlock.withExcept">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExceptfunction(except) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(except) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __ipBlockMixin({ except<span style="color:#666">:</span> except }) <span style="color:#007020;font-weight:bold">else</span> __ipBlockMixin({ except<span style="color:#666">:</span> [except] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExcept(except)
 </code></pre></div></div><p>Except is a slice of CIDRs that should not be included within an IP Block Valid examples are &ldquo;192.168.1.<sup>1</sup>&frasl;<sub>24</sub>&rdquo; Except values will be rejected if they are outside the CIDR range</p></p>
 
 
@@ -241,7 +241,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyPeer.ipBlock.withExceptMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExceptMixinfunction(except) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(except) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __ipBlockMixin({ except<span style="color:#666">+:</span> except }) <span style="color:#007020;font-weight:bold">else</span> __ipBlockMixin({ except<span style="color:#666">+:</span> [except] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExceptMixin(except)
 </code></pre></div></div><p>Except is a slice of CIDRs that should not be included within an IP Block Valid examples are &ldquo;192.168.1.<sup>1</sup>&frasl;<sub>24</sub>&rdquo; Except values will be rejected if they are outside the CIDR range</p></p>
 
 
@@ -301,7 +301,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyPeer.namespaceSelector.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(namespaceSelector) __namespaceSelectorMixin(namespaceSelector)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(namespaceSelector)
 </code></pre></div></div><p></p></p>
 
 
@@ -329,7 +329,7 @@
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyPeer.namespaceSelector.withMatchExpressions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __namespaceSelectorMixin({ matchExpressions<span style="color:#666">:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __namespaceSelectorMixin({ matchExpressions<span style="color:#666">:</span> [matchExpressions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressions(matchExpressions)
 </code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressions</code> takes an array of type <code>matchExpressionsType</code>. You can create
 an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
 
@@ -360,7 +360,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyPeer.namespaceSelector.withMatchExpressionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __namespaceSelectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __namespaceSelectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixin(matchExpressions)
 </code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
 an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
 
@@ -391,7 +391,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyPeer.namespaceSelector.withMatchLabels">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsfunction(matchLabels) self <span style="color:#666">+</span> __namespaceSelectorMixin({ matchLabels<span style="color:#666">:</span> matchLabels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabels(matchLabels)
 </code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
 
 
@@ -419,7 +419,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyPeer.namespaceSelector.withMatchLabelsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixinfunction(matchLabels) self <span style="color:#666">+</span> __namespaceSelectorMixin({ matchLabels<span style="color:#666">+:</span> matchLabels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixin(matchLabels)
 </code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
 
 
@@ -479,7 +479,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyPeer.podSelector.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(podSelector) __podSelectorMixin(podSelector)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(podSelector)
 </code></pre></div></div><p></p></p>
 
 
@@ -507,7 +507,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyPeer.podSelector.withMatchExpressions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podSelectorMixin({ matchExpressions<span style="color:#666">:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __podSelectorMixin({ matchExpressions<span style="color:#666">:</span> [matchExpressions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressions(matchExpressions)
 </code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressions</code> takes an array of type <code>matchExpressionsType</code>. You can create
 an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
 
@@ -538,7 +538,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyPeer.podSelector.withMatchExpressionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podSelectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __podSelectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixin(matchExpressions)
 </code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
 an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
 
@@ -569,7 +569,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyPeer.podSelector.withMatchLabels">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsfunction(matchLabels) self <span style="color:#666">+</span> __podSelectorMixin({ matchLabels<span style="color:#666">:</span> matchLabels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabels(matchLabels)
 </code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
 
 
@@ -597,7 +597,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="networking.v1.networkPolicyPeer.podSelector.withMatchLabelsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixinfunction(matchLabels) self <span style="color:#666">+</span> __podSelectorMixin({ matchLabels<span style="color:#666">+:</span> matchLabels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixin(matchLabels)
 </code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
 
 

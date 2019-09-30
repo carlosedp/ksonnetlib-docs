@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podSelectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __podSelectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixin(matchExpressions)
 </code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
 an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
 

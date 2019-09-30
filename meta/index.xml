@@ -6,35 +6,35 @@
     <description>Recent content in Meta on ksonnet lib API Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Sep 2019 17:02:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 21:17:09 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/meta/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>new</title>
-      <link>http://example.org/meta/v1/clusterRole/new/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <link>http://example.org/meta/v1/event/new/</link>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
-      <guid>http://example.org/meta/v1/clusterRole/new/</guid>
-      <description>newfunction() apiVersion + kind</description>
+      <guid>http://example.org/meta/v1/event/new/</guid>
+      <description>new()</description>
     </item>
     
     <item>
-      <title>clusterRole</title>
-      <link>http://example.org/meta/clusterRole/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <title>event</title>
+      <link>http://example.org/meta/event/</link>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
-      <guid>http://example.org/meta/clusterRole/</guid>
+      <guid>http://example.org/meta/event/</guid>
       <description>Patch is provided to give a concrete name and type to the Kubernetes PATCH request body.  </description>
     </item>
     
     <item>
-      <title>clusterRole</title>
-      <link>http://example.org/meta/v1/clusterRole/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <title>event</title>
+      <link>http://example.org/meta/v1/event/</link>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
-      <guid>http://example.org/meta/v1/clusterRole/</guid>
+      <guid>http://example.org/meta/v1/event/</guid>
       <description>Patch is provided to give a concrete name and type to the Kubernetes PATCH request body.</description>
     </item>
     

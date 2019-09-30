@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="storage.v1beta1.csiNodeDriver.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="storage.v1beta1.csiNodeDriver.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> { name<span style="color:#666">:</span> name }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>This is the name of the CSI driver that this object refers to. This MUST be the same name returned by the CSI GetPluginName() call for that driver.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="storage.v1beta1.csiNodeDriver.withNodeId">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeIdfunction(nodeId) self <span style="color:#666">+</span> { nodeID<span style="color:#666">:</span> nodeId }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeId(nodeId)
 </code></pre></div></div><p>nodeID of the node from the driver point of view. This field enables Kubernetes to communicate with storage systems that do not share the same nomenclature for nodes. For example, Kubernetes may refer to a given node as &ldquo;node1&rdquo;, but the storage system may refer to the same node as &ldquo;nodeA&rdquo;. When Kubernetes issues a command to the storage system to attach a volume to a specific node, it can use this field to refer to the node name using the ID that the storage system will understand, e.g. &ldquo;nodeA&rdquo; instead of &ldquo;node1&rdquo;. This field is required.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="storage.v1beta1.csiNodeDriver.withTopologyKeys">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTopologyKeysfunction(topologyKeys) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(topologyKeys) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { topologyKeys<span style="color:#666">:</span> topologyKeys } <span style="color:#007020;font-weight:bold">else</span> { topologyKeys<span style="color:#666">:</span> [topologyKeys] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTopologyKeys(topologyKeys)
 </code></pre></div></div><p>topologyKeys is the list of keys supported by the driver. When a driver is initialized on a cluster, it provides a set of topology keys that it understands (e.g. &ldquo;company.com/zone&rdquo;, &ldquo;company.com/region&rdquo;). When a driver is initialized on a node, it provides the same topology keys along with values. Kubelet will expose these topology keys as labels on its own node object. When Kubernetes does topology aware provisioning, it can use this list to determine which labels it should retrieve from the node object and pass back to the driver. It is possible for different nodes to use different topology keys. This can be empty if driver does not support topology.</p></p>
 
 
@@ -190,7 +190,7 @@
     </h5>
 
     <div class="collapse show" id="storage.v1beta1.csiNodeDriver.withTopologyKeysMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTopologyKeysMixinfunction(topologyKeys) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(topologyKeys) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { topologyKeys<span style="color:#666">+:</span> topologyKeys } <span style="color:#007020;font-weight:bold">else</span> { topologyKeys<span style="color:#666">+:</span> [topologyKeys] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTopologyKeysMixin(topologyKeys)
 </code></pre></div></div><p>topologyKeys is the list of keys supported by the driver. When a driver is initialized on a cluster, it provides a set of topology keys that it understands (e.g. &ldquo;company.com/zone&rdquo;, &ldquo;company.com/region&rdquo;). When a driver is initialized on a node, it provides the same topology keys along with values. Kubelet will expose these topology keys as labels on its own node object. When Kubernetes does topology aware provisioning, it can use this list to determine which labels it should retrieve from the node object and pass back to the driver. It is possible for different nodes to use different topology keys. This can be empty if driver does not support topology.</p></p>
 
 

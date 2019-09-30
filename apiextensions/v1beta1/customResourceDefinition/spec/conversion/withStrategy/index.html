@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStrategyfunction(strategy) self <span style="color:#666">+</span> __conversionMixin({ strategy<span style="color:#666">:</span> strategy })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStrategy(strategy)
 </code></pre></div></div><p><code>strategy</code> specifies the conversion strategy. Allowed values are: - <code>None</code>: The converter only change the apiVersion and would not touch any other field in the CR. - <code>Webhook</code>: API Server will call to an external webhook to do the conversion. Additional information</p><p>is needed for this option. This requires spec.preserveUnknownFields to be false.</p></p>
 
 

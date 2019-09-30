@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRangesfunction(ranges) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ranges) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ranges<span style="color:#666">:</span> ranges } <span style="color:#007020;font-weight:bold">else</span> { ranges<span style="color:#666">:</span> [ranges] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRanges(ranges)
 </code></pre></div></div><p>ranges are the allowed ranges of fs groups.  If you would like to force a single fs group then supply a single range with the same start and end. Required for MustRunAs.</p><code>withRanges</code> takes an array of type <code>rangesType</code>. You can create
 an instance of <code>rangesType</code> with <code>hidden.policy.v1beta1.idRange.new()</code>.</p>
 

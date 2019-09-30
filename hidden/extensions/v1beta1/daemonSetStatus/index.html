@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.daemonSetStatus.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.daemonSetStatus.withCollisionCount">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCollisionCountfunction(collisionCount) self <span style="color:#666">+</span> { collisionCount<span style="color:#666">:</span> collisionCount }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCollisionCount(collisionCount)
 </code></pre></div></div><p>Count of hash collisions for the DaemonSet. The DaemonSet controller uses this field as a collision avoidance mechanism when it needs to create the name for the newest ControllerRevision.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.daemonSetStatus.withConditions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">:</span> [conditions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditions(conditions)
 </code></pre></div></div><p>Represents the latest available observations of a DaemonSet&rsquo;s current state.</p><code>withConditions</code> takes an array of type <code>conditionsType</code>. You can create
 an instance of <code>conditionsType</code> with <code>hidden.extensions.v1beta1.daemonSetCondition.new()</code>.</p>
 
@@ -165,7 +165,7 @@ an instance of <code>conditionsType</code> with <code>hidden.extensions.v1beta1.
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.daemonSetStatus.withConditionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixinfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">+:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">+:</span> [conditions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixin(conditions)
 </code></pre></div></div><p>Represents the latest available observations of a DaemonSet&rsquo;s current state.</p><code>withConditionsMixin</code> takes an array of type <code>conditionsType</code>. You can create
 an instance of <code>conditionsType</code> with <code>hidden.extensions.v1beta1.daemonSetCondition.new()</code>.</p>
 
@@ -196,7 +196,7 @@ an instance of <code>conditionsType</code> with <code>hidden.extensions.v1beta1.
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.daemonSetStatus.withCurrentNumberScheduled">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCurrentNumberScheduledfunction(currentNumberScheduled) self <span style="color:#666">+</span> { currentNumberScheduled<span style="color:#666">:</span> currentNumberScheduled }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCurrentNumberScheduled(currentNumberScheduled)
 </code></pre></div></div><p>The number of nodes that are running at least 1 daemon pod and are supposed to run the daemon pod. More info: <a href="https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/">https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/</a></p></p>
 
 
@@ -224,7 +224,7 @@ an instance of <code>conditionsType</code> with <code>hidden.extensions.v1beta1.
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.daemonSetStatus.withDesiredNumberScheduled">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDesiredNumberScheduledfunction(desiredNumberScheduled) self <span style="color:#666">+</span> { desiredNumberScheduled<span style="color:#666">:</span> desiredNumberScheduled }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDesiredNumberScheduled(desiredNumberScheduled)
 </code></pre></div></div><p>The total number of nodes that should be running the daemon pod (including nodes correctly running the daemon pod). More info: <a href="https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/">https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/</a></p></p>
 
 
@@ -252,7 +252,7 @@ an instance of <code>conditionsType</code> with <code>hidden.extensions.v1beta1.
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.daemonSetStatus.withNumberAvailable">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNumberAvailablefunction(numberAvailable) self <span style="color:#666">+</span> { numberAvailable<span style="color:#666">:</span> numberAvailable }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNumberAvailable(numberAvailable)
 </code></pre></div></div><p>The number of nodes that should be running the daemon pod and have one or more of the daemon pod running and available (ready for at least spec.minReadySeconds)</p></p>
 
 
@@ -280,7 +280,7 @@ an instance of <code>conditionsType</code> with <code>hidden.extensions.v1beta1.
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.daemonSetStatus.withNumberMisscheduled">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNumberMisscheduledfunction(numberMisscheduled) self <span style="color:#666">+</span> { numberMisscheduled<span style="color:#666">:</span> numberMisscheduled }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNumberMisscheduled(numberMisscheduled)
 </code></pre></div></div><p>The number of nodes that are running the daemon pod, but are not supposed to run the daemon pod. More info: <a href="https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/">https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/</a></p></p>
 
 
@@ -308,7 +308,7 @@ an instance of <code>conditionsType</code> with <code>hidden.extensions.v1beta1.
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.daemonSetStatus.withNumberReady">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNumberReadyfunction(numberReady) self <span style="color:#666">+</span> { numberReady<span style="color:#666">:</span> numberReady }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNumberReady(numberReady)
 </code></pre></div></div><p>The number of nodes that should be running the daemon pod and have one or more of the daemon pod running and ready.</p></p>
 
 
@@ -336,7 +336,7 @@ an instance of <code>conditionsType</code> with <code>hidden.extensions.v1beta1.
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.daemonSetStatus.withNumberUnavailable">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNumberUnavailablefunction(numberUnavailable) self <span style="color:#666">+</span> { numberUnavailable<span style="color:#666">:</span> numberUnavailable }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNumberUnavailable(numberUnavailable)
 </code></pre></div></div><p>The number of nodes that should be running the daemon pod and have none of the daemon pod running and available (ready for at least spec.minReadySeconds)</p></p>
 
 
@@ -364,7 +364,7 @@ an instance of <code>conditionsType</code> with <code>hidden.extensions.v1beta1.
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.daemonSetStatus.withObservedGeneration">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withObservedGenerationfunction(observedGeneration) self <span style="color:#666">+</span> { observedGeneration<span style="color:#666">:</span> observedGeneration }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withObservedGeneration(observedGeneration)
 </code></pre></div></div><p>The most recent generation observed by the daemon set controller.</p></p>
 
 
@@ -392,7 +392,7 @@ an instance of <code>conditionsType</code> with <code>hidden.extensions.v1beta1.
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.daemonSetStatus.withUpdatedNumberScheduled">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUpdatedNumberScheduledfunction(updatedNumberScheduled) self <span style="color:#666">+</span> { updatedNumberScheduled<span style="color:#666">:</span> updatedNumberScheduled }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUpdatedNumberScheduled(updatedNumberScheduled)
 </code></pre></div></div><p>The total number of nodes that are running updated daemon pod</p></p>
 
 

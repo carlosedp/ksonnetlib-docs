@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="rbac.v1beta1.policyRule.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="rbac.v1beta1.policyRule.withApiGroups">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withApiGroupsfunction(apiGroups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(apiGroups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { apiGroups<span style="color:#666">:</span> apiGroups } <span style="color:#007020;font-weight:bold">else</span> { apiGroups<span style="color:#666">:</span> [apiGroups] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withApiGroups(apiGroups)
 </code></pre></div></div><p>APIGroups is the name of the APIGroup that contains the resources.  If multiple API groups are specified, any action requested against one of the enumerated resources in any API group will be allowed.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="rbac.v1beta1.policyRule.withApiGroupsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withApiGroupsMixinfunction(apiGroups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(apiGroups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { apiGroups<span style="color:#666">+:</span> apiGroups } <span style="color:#007020;font-weight:bold">else</span> { apiGroups<span style="color:#666">+:</span> [apiGroups] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withApiGroupsMixin(apiGroups)
 </code></pre></div></div><p>APIGroups is the name of the APIGroup that contains the resources.  If multiple API groups are specified, any action requested against one of the enumerated resources in any API group will be allowed.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="rbac.v1beta1.policyRule.withNonResourceUrls">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNonResourceUrlsfunction(nonResourceUrls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nonResourceUrls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { nonResourceURLs<span style="color:#666">:</span> nonResourceUrls } <span style="color:#007020;font-weight:bold">else</span> { nonResourceURLs<span style="color:#666">:</span> [nonResourceUrls] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNonResourceUrls(nonResourceUrls)
 </code></pre></div></div><p>NonResourceURLs is a set of partial urls that a user should have access to.  *s are allowed, but only as the full, final step in the path Since non-resource URLs are not namespaced, this field is only applicable for ClusterRoles referenced from a ClusterRoleBinding. Rules can either apply to API resources (such as &ldquo;pods&rdquo; or &ldquo;secrets&rdquo;) or non-resource URL paths (such as &ldquo;/api&rdquo;),  but not both.</p></p>
 
 
@@ -190,7 +190,7 @@
     </h5>
 
     <div class="collapse show" id="rbac.v1beta1.policyRule.withNonResourceUrlsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNonResourceUrlsMixinfunction(nonResourceUrls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nonResourceUrls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { nonResourceURLs<span style="color:#666">+:</span> nonResourceUrls } <span style="color:#007020;font-weight:bold">else</span> { nonResourceURLs<span style="color:#666">+:</span> [nonResourceUrls] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNonResourceUrlsMixin(nonResourceUrls)
 </code></pre></div></div><p>NonResourceURLs is a set of partial urls that a user should have access to.  *s are allowed, but only as the full, final step in the path Since non-resource URLs are not namespaced, this field is only applicable for ClusterRoles referenced from a ClusterRoleBinding. Rules can either apply to API resources (such as &ldquo;pods&rdquo; or &ldquo;secrets&rdquo;) or non-resource URL paths (such as &ldquo;/api&rdquo;),  but not both.</p></p>
 
 
@@ -218,7 +218,7 @@
     </h5>
 
     <div class="collapse show" id="rbac.v1beta1.policyRule.withResourceNames">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceNamesfunction(resourceNames) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(resourceNames) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { resourceNames<span style="color:#666">:</span> resourceNames } <span style="color:#007020;font-weight:bold">else</span> { resourceNames<span style="color:#666">:</span> [resourceNames] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceNames(resourceNames)
 </code></pre></div></div><p>ResourceNames is an optional white list of names that the rule applies to.  An empty set means that everything is allowed.</p></p>
 
 
@@ -246,7 +246,7 @@
     </h5>
 
     <div class="collapse show" id="rbac.v1beta1.policyRule.withResourceNamesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceNamesMixinfunction(resourceNames) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(resourceNames) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { resourceNames<span style="color:#666">+:</span> resourceNames } <span style="color:#007020;font-weight:bold">else</span> { resourceNames<span style="color:#666">+:</span> [resourceNames] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceNamesMixin(resourceNames)
 </code></pre></div></div><p>ResourceNames is an optional white list of names that the rule applies to.  An empty set means that everything is allowed.</p></p>
 
 
@@ -274,7 +274,7 @@
     </h5>
 
     <div class="collapse show" id="rbac.v1beta1.policyRule.withResources">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourcesfunction(resources) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(resources) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { resources<span style="color:#666">:</span> resources } <span style="color:#007020;font-weight:bold">else</span> { resources<span style="color:#666">:</span> [resources] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResources(resources)
 </code></pre></div></div><p>Resources is a list of resources this rule applies to.  &lsquo;<em>&rsquo; represents all resources in the specified apiGroups. &lsquo;</em>/foo&rsquo; represents the subresource &lsquo;foo&rsquo; for all resources in the specified apiGroups.</p></p>
 
 
@@ -302,7 +302,7 @@
     </h5>
 
     <div class="collapse show" id="rbac.v1beta1.policyRule.withResourcesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourcesMixinfunction(resources) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(resources) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { resources<span style="color:#666">+:</span> resources } <span style="color:#007020;font-weight:bold">else</span> { resources<span style="color:#666">+:</span> [resources] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourcesMixin(resources)
 </code></pre></div></div><p>Resources is a list of resources this rule applies to.  &lsquo;<em>&rsquo; represents all resources in the specified apiGroups. &lsquo;</em>/foo&rsquo; represents the subresource &lsquo;foo&rsquo; for all resources in the specified apiGroups.</p></p>
 
 
@@ -330,7 +330,7 @@
     </h5>
 
     <div class="collapse show" id="rbac.v1beta1.policyRule.withVerbs">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVerbsfunction(verbs) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(verbs) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { verbs<span style="color:#666">:</span> verbs } <span style="color:#007020;font-weight:bold">else</span> { verbs<span style="color:#666">:</span> [verbs] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVerbs(verbs)
 </code></pre></div></div><p>Verbs is a list of Verbs that apply to ALL the ResourceKinds and AttributeRestrictions contained in this rule.  VerbAll represents all kinds.</p></p>
 
 
@@ -358,7 +358,7 @@
     </h5>
 
     <div class="collapse show" id="rbac.v1beta1.policyRule.withVerbsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVerbsMixinfunction(verbs) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(verbs) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { verbs<span style="color:#666">+:</span> verbs } <span style="color:#007020;font-weight:bold">else</span> { verbs<span style="color:#666">+:</span> [verbs] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVerbsMixin(verbs)
 </code></pre></div></div><p>Verbs is a list of Verbs that apply to ALL the ResourceKinds and AttributeRestrictions contained in this rule.  VerbAll represents all kinds.</p></p>
 
 

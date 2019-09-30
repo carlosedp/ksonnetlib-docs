@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStoredVersionsfunction(storedVersions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(storedVersions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { storedVersions<span style="color:#666">:</span> storedVersions } <span style="color:#007020;font-weight:bold">else</span> { storedVersions<span style="color:#666">:</span> [storedVersions] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStoredVersions(storedVersions)
 </code></pre></div></div><p>StoredVersions are all versions of CustomResources that were ever persisted. Tracking these versions allows a migration path for stored versions in etcd. The field is mutable so the migration controller can first finish a migration to another version (i.e. that no old objects are left in the storage), and then remove the rest of the versions from this list. None of the versions in this list can be removed from the spec.Versions field.</p></p>
 
 

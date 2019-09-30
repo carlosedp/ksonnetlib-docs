@@ -6,7 +6,7 @@
     <description>Recent content in Admissionregistrations on ksonnet lib API Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Sep 2019 17:02:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 21:17:08 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/admissionregistration/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,262 +14,262 @@
     <item>
       <title>new</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/new/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/new/</guid>
-      <description>newfunction() apiVersion + kind</description>
+      <description>new()</description>
     </item>
     
     <item>
       <title>new</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/new/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/new/</guid>
-      <description>newfunction() apiVersion + kind</description>
+      <description>new()</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/initializers/mixinInstance/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/initializers/mixinInstance/</guid>
-      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+      <description>mixinInstance(initializers)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/mixinInstance/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/mixinInstance/</guid>
-      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+      <description>mixinInstance(metadata)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/initializers/mixinInstance/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/initializers/mixinInstance/</guid>
-      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+      <description>mixinInstance(initializers)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/mixinInstance/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/mixinInstance/</guid>
-      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+      <description>mixinInstance(metadata)</description>
     </item>
     
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withAnnotations/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withAnnotations/</guid>
-      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotations(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withAnnotations/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withAnnotations/</guid>
-      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotations(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withAnnotationsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withAnnotationsMixin/</guid>
-      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotationsMixin(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withAnnotationsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withAnnotationsMixin/</guid>
-      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotationsMixin(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withClusterName</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withClusterName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withClusterName/</guid>
-      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+      <description>withClusterName(clusterName) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
     </item>
     
     <item>
       <title>withClusterName</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withClusterName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withClusterName/</guid>
-      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+      <description>withClusterName(clusterName) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
     </item>
     
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withFinalizers/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withFinalizers/</guid>
-      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizers(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withFinalizers/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withFinalizers/</guid>
-      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizers(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withFinalizersMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withFinalizersMixin/</guid>
-      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizersMixin(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withFinalizersMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withFinalizersMixin/</guid>
-      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizersMixin(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withGenerateName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withGenerateName/</guid>
-      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+      <description>withGenerateName(generateName) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
     </item>
     
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withGenerateName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withGenerateName/</guid>
-      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+      <description>withGenerateName(generateName) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
     </item>
     
     <item>
       <title>withLabels</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withLabels/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withLabels/</guid>
-      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabels(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabels</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withLabels/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withLabels/</guid>
-      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabels(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withLabelsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withLabelsMixin/</guid>
-      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabelsMixin(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withLabelsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withLabelsMixin/</guid>
-      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabelsMixin(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withManagedFields/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withManagedFields/</guid>
-      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFields(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withManagedFields/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withManagedFields/</guid>
-      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFields(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withManagedFieldsMixin/</guid>
-      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFieldsMixin(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withManagedFieldsMixin/</guid>
-      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFieldsMixin(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withName/</guid>
-      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withName/</guid>
-      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withNamespace</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withNamespace/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+      <description>withNamespace(namespace) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
 
 Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
     </item>
@@ -277,10 +277,10 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withNamespace</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withNamespace/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+      <description>withNamespace(namespace) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
 
 Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
     </item>
@@ -288,86 +288,94 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withOwnerReferences/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withOwnerReferences/</guid>
-      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferences(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferences takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withOwnerReferences/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withOwnerReferences/</guid>
-      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferences(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferences takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/withOwnerReferencesMixin/</guid>
-      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferencesMixin(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferencesMixin takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/withOwnerReferencesMixin/</guid>
-      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferencesMixin(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferencesMixin takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withPending</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/initializers/withPending/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/initializers/withPending/</guid>
-      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPending takes an array of type pendingType.</description>
+      <description>withPending(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPending</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/initializers/withPending/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/initializers/withPending/</guid>
-      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPending takes an array of type pendingType.</description>
+      <description>withPending(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/initializers/withPendingMixin/</guid>
-      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPendingMixin takes an array of type pendingType.</description>
+      <description>withPendingMixin(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/initializers/withPendingMixin/</guid>
-      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPendingMixin takes an array of type pendingType.</description>
+      <description>withPendingMixin(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withWebhooks</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/withWebhooks/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/withWebhooks/</guid>
-      <description>withWebhooksfunction(webhooks) self + if std.type(webhooks) == &amp;#39;array&amp;#39; then { webhooks: webhooks } else { webhooks: [webhooks] } Webhooks is a list of webhooks and the affected resources and operations.
+      <description>withWebhooks(webhooks) Webhooks is a list of webhooks and the affected resources and operations.
 withWebhooks takes an array of type webhooksType. You can create an instance of webhooksType with hidden.admissionregistration.v1beta1.mutatingWebhook.new().
 see hidden.admissionregistration.v1beta1.mutatingWebhook</description>
     </item>
@@ -375,10 +383,10 @@ see hidden.admissionregistration.v1beta1.mutatingWebhook</description>
     <item>
       <title>withWebhooks</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/withWebhooks/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/withWebhooks/</guid>
-      <description>withWebhooksfunction(webhooks) self + if std.type(webhooks) == &amp;#39;array&amp;#39; then { webhooks: webhooks } else { webhooks: [webhooks] } Webhooks is a list of webhooks and the affected resources and operations.
+      <description>withWebhooks(webhooks) Webhooks is a list of webhooks and the affected resources and operations.
 withWebhooks takes an array of type webhooksType. You can create an instance of webhooksType with hidden.admissionregistration.v1beta1.validatingWebhook.new().
 see hidden.admissionregistration.v1beta1.validatingWebhook</description>
     </item>
@@ -386,10 +394,10 @@ see hidden.admissionregistration.v1beta1.validatingWebhook</description>
     <item>
       <title>withWebhooksMixin</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/withWebhooksMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/withWebhooksMixin/</guid>
-      <description>withWebhooksMixinfunction(webhooks) self + if std.type(webhooks) == &amp;#39;array&amp;#39; then { webhooks+: webhooks } else { webhooks+: [webhooks] } Webhooks is a list of webhooks and the affected resources and operations.
+      <description>withWebhooksMixin(webhooks) Webhooks is a list of webhooks and the affected resources and operations.
 withWebhooksMixin takes an array of type webhooksType. You can create an instance of webhooksType with hidden.admissionregistration.v1beta1.mutatingWebhook.new().
 see hidden.admissionregistration.v1beta1.mutatingWebhook</description>
     </item>
@@ -397,10 +405,10 @@ see hidden.admissionregistration.v1beta1.mutatingWebhook</description>
     <item>
       <title>withWebhooksMixin</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/withWebhooksMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/withWebhooksMixin/</guid>
-      <description>withWebhooksMixinfunction(webhooks) self + if std.type(webhooks) == &amp;#39;array&amp;#39; then { webhooks+: webhooks } else { webhooks+: [webhooks] } Webhooks is a list of webhooks and the affected resources and operations.
+      <description>withWebhooksMixin(webhooks) Webhooks is a list of webhooks and the affected resources and operations.
 withWebhooksMixin takes an array of type webhooksType. You can create an instance of webhooksType with hidden.admissionregistration.v1beta1.validatingWebhook.new().
 see hidden.admissionregistration.v1beta1.validatingWebhook</description>
     </item>
@@ -408,7 +416,7 @@ see hidden.admissionregistration.v1beta1.validatingWebhook</description>
     <item>
       <title>initializers</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/initializers/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -419,7 +427,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializers</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/initializers/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -430,7 +438,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/</guid>
       <description>Standard object metadata; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata.</description>
@@ -439,7 +447,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/</guid>
       <description>Standard object metadata; More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata.</description>
@@ -448,7 +456,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/initializersType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/initializersType/</guid>
       <description></description>
@@ -457,7 +465,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/initializersType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/initializersType/</guid>
       <description></description>
@@ -466,7 +474,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/managedFieldsType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/managedFieldsType/</guid>
       <description></description>
@@ -475,7 +483,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/managedFieldsType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/managedFieldsType/</guid>
       <description></description>
@@ -484,7 +492,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadataType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadataType/</guid>
       <description></description>
@@ -493,7 +501,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadataType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadataType/</guid>
       <description></description>
@@ -502,7 +510,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/ownerReferencesType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -511,7 +519,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/ownerReferencesType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -520,7 +528,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/initializers/pendingType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -529,7 +537,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/initializers/pendingType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -538,7 +546,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>webhooksType</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/webhooksType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/webhooksType/</guid>
       <description></description>
@@ -547,7 +555,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>webhooksType</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/webhooksType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:27 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:08 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/webhooksType/</guid>
       <description></description>
@@ -556,7 +564,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>mutatingWebhookConfiguration</title>
       <link>http://example.org/admissionregistration/mutatingWebhookConfiguration/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/mutatingWebhookConfiguration/</guid>
       <description>MutatingWebhookConfiguration describes the configuration of and admission webhook that accept or reject and may change the object.  </description>
@@ -565,7 +573,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>mutatingWebhookConfiguration</title>
       <link>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/mutatingWebhookConfiguration/</guid>
       <description>MutatingWebhookConfiguration describes the configuration of and admission webhook that accept or reject and may change the object.</description>
@@ -574,7 +582,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>validatingWebhookConfiguration</title>
       <link>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/v1beta1/validatingWebhookConfiguration/</guid>
       <description>ValidatingWebhookConfiguration describes the configuration of and admission webhook that accept or reject and object without changing it.</description>
@@ -583,7 +591,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>validatingWebhookConfiguration</title>
       <link>http://example.org/admissionregistration/validatingWebhookConfiguration/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/admissionregistration/validatingWebhookConfiguration/</guid>
       <description>ValidatingWebhookConfiguration describes the configuration of and admission webhook that accept or reject and object without changing it.  </description>

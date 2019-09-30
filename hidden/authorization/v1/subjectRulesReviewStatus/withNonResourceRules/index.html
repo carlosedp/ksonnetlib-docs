@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNonResourceRulesfunction(nonResourceRules) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nonResourceRules) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { nonResourceRules<span style="color:#666">:</span> nonResourceRules } <span style="color:#007020;font-weight:bold">else</span> { nonResourceRules<span style="color:#666">:</span> [nonResourceRules] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNonResourceRules(nonResourceRules)
 </code></pre></div></div><p>NonResourceRules is the list of actions the subject is allowed to perform on non-resources. The list ordering isn&rsquo;t significant, may contain duplicates, and possibly be incomplete.</p><code>withNonResourceRules</code> takes an array of type <code>nonResourceRulesType</code>. You can create
 an instance of <code>nonResourceRulesType</code> with <code>hidden.authorization.v1.nonResourceRule.new()</code>.</p>
 

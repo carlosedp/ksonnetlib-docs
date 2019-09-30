@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTopologyKeysMixinfunction(topologyKeys) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(topologyKeys) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { topologyKeys<span style="color:#666">+:</span> topologyKeys } <span style="color:#007020;font-weight:bold">else</span> { topologyKeys<span style="color:#666">+:</span> [topologyKeys] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTopologyKeysMixin(topologyKeys)
 </code></pre></div></div><p>topologyKeys is the list of keys supported by the driver. When a driver is initialized on a cluster, it provides a set of topology keys that it understands (e.g. &ldquo;company.com/zone&rdquo;, &ldquo;company.com/region&rdquo;). When a driver is initialized on a node, it provides the same topology keys along with values. Kubelet will expose these topology keys as labels on its own node object. When Kubernetes does topology aware provisioning, it can use this list to determine which labels it should retrieve from the node object and pass back to the driver. It is possible for different nodes to use different topology keys. This can be empty if driver does not support topology.</p></p>
 
 

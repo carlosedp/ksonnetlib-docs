@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1beta1.userInfo.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1beta1.userInfo.withExtra">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExtrafunction(extra) self <span style="color:#666">+</span> { extra<span style="color:#666">:</span> extra }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExtra(extra)
 </code></pre></div></div><p>Any additional information provided by the authenticator.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1beta1.userInfo.withExtraMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExtraMixinfunction(extra) self <span style="color:#666">+</span> { extra<span style="color:#666">+:</span> extra }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withExtraMixin(extra)
 </code></pre></div></div><p>Any additional information provided by the authenticator.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1beta1.userInfo.withGroups">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupsfunction(groups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(groups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { groups<span style="color:#666">:</span> groups } <span style="color:#007020;font-weight:bold">else</span> { groups<span style="color:#666">:</span> [groups] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroups(groups)
 </code></pre></div></div><p>The names of groups this user is a part of.</p></p>
 
 
@@ -190,7 +190,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1beta1.userInfo.withGroupsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupsMixinfunction(groups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(groups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { groups<span style="color:#666">+:</span> groups } <span style="color:#007020;font-weight:bold">else</span> { groups<span style="color:#666">+:</span> [groups] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupsMixin(groups)
 </code></pre></div></div><p>The names of groups this user is a part of.</p></p>
 
 
@@ -218,7 +218,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1beta1.userInfo.withUid">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> { uid<span style="color:#666">:</span> uid }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUid(uid)
 </code></pre></div></div><p>A unique value that identifies this user across time. If this user is deleted and another user by the same name is added, they will have different UIDs.</p></p>
 
 
@@ -246,7 +246,7 @@
     </h5>
 
     <div class="collapse show" id="authentication.v1beta1.userInfo.withUsername">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUsernamefunction(username) self <span style="color:#666">+</span> { username<span style="color:#666">:</span> username }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUsername(username)
 </code></pre></div></div><p>The name that uniquely identifies this user among all active users.</p></p>
 
 

@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersfunction(finalizers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(finalizers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ finalizers<span style="color:#666">:</span> finalizers }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ finalizers<span style="color:#666">:</span> [finalizers] })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizers(finalizers)
 </code></pre></div></div><p>Finalizers is an opaque list of values that must be empty to permanently remove object from storage. More info: <a href="https://kubernetes.io/docs/tasks/administer-cluster/namespaces/">https://kubernetes.io/docs/tasks/administer-cluster/namespaces/</a></p></p>
 
 

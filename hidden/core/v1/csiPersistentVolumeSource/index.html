@@ -101,7 +101,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -138,7 +138,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.withDriver">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDriverfunction(driver) self <span style="color:#666">+</span> { driver<span style="color:#666">:</span> driver }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDriver(driver)
 </code></pre></div></div><p>Driver is the name of the driver to use for this volume. Required.</p></p>
 
 
@@ -166,7 +166,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> { fsType<span style="color:#666">:</span> fsType }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;.</p></p>
 
 
@@ -194,7 +194,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> { readOnly<span style="color:#666">:</span> readOnly }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Optional: The value to pass to ControllerPublishVolumeRequest. Defaults to false (read/write).</p></p>
 
 
@@ -222,7 +222,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.withVolumeAttributes">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeAttributesfunction(volumeAttributes) self <span style="color:#666">+</span> { volumeAttributes<span style="color:#666">:</span> volumeAttributes }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeAttributes(volumeAttributes)
 </code></pre></div></div><p>Attributes of the volume to publish.</p></p>
 
 
@@ -250,7 +250,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.withVolumeAttributesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeAttributesMixinfunction(volumeAttributes) self <span style="color:#666">+</span> { volumeAttributes<span style="color:#666">+:</span> volumeAttributes }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeAttributesMixin(volumeAttributes)
 </code></pre></div></div><p>Attributes of the volume to publish.</p></p>
 
 
@@ -278,7 +278,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.withVolumeHandle">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeHandlefunction(volumeHandle) self <span style="color:#666">+</span> { volumeHandle<span style="color:#666">:</span> volumeHandle }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeHandle(volumeHandle)
 </code></pre></div></div><p>VolumeHandle is the unique volume name returned by the CSI volume plugin’s CreateVolume to refer to the volume on all subsequent calls. Required.</p></p>
 
 
@@ -338,7 +338,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.controllerExpandSecretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(controllerExpandSecretRef) __controllerExpandSecretRefMixin(controllerExpandSecretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(controllerExpandSecretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -366,7 +366,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.controllerExpandSecretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __controllerExpandSecretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -394,7 +394,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.controllerExpandSecretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __controllerExpandSecretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 
@@ -454,7 +454,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.controllerPublishSecretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(controllerPublishSecretRef) __controllerPublishSecretRefMixin(controllerPublishSecretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(controllerPublishSecretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -482,7 +482,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.controllerPublishSecretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __controllerPublishSecretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -510,7 +510,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.controllerPublishSecretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __controllerPublishSecretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 
@@ -570,7 +570,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.nodePublishSecretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(nodePublishSecretRef) __nodePublishSecretRefMixin(nodePublishSecretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(nodePublishSecretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -598,7 +598,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.nodePublishSecretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __nodePublishSecretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -626,7 +626,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.nodePublishSecretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __nodePublishSecretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 
@@ -686,7 +686,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.nodeStageSecretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(nodeStageSecretRef) __nodeStageSecretRefMixin(nodeStageSecretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(nodeStageSecretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -714,7 +714,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.nodeStageSecretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __nodeStageSecretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -742,7 +742,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiPersistentVolumeSource.nodeStageSecretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __nodeStageSecretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 

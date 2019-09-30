@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.initializers.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.initializers.withPending">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingfunction(pending) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(pending) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { pending<span style="color:#666">:</span> pending } <span style="color:#007020;font-weight:bold">else</span> { pending<span style="color:#666">:</span> [pending] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPending(pending)
 </code></pre></div></div><p>Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.</p><code>withPending</code> takes an array of type <code>pendingType</code>. You can create
 an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.new()</code>.</p>
 
@@ -137,7 +137,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="meta.v1.initializers.withPendingMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingMixinfunction(pending) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(pending) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { pending<span style="color:#666">+:</span> pending } <span style="color:#007020;font-weight:bold">else</span> { pending<span style="color:#666">+:</span> [pending] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingMixin(pending)
 </code></pre></div></div><p>Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.</p><code>withPendingMixin</code> takes an array of type <code>pendingType</code>. You can create
 an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.new()</code>.</p>
 

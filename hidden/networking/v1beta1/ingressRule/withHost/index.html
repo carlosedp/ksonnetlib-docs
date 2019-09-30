@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> { host<span style="color:#666">:</span> host }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHost(host)
 </code></pre></div></div><p>Host is the fully qualified domain name of a network host, as defined by RFC 3986. Note the following deviations from the &ldquo;host&rdquo; part of the URI as defined in the RFC: 1. IPs are not allowed. Currently an IngressRuleValue can only apply to the</p><p>IP in the Spec of the parent Ingress.</p><p>2. The <code>:</code> delimiter is not respected because ports are not allowed.</p><p>Currently the port of an Ingress is implicitly :80 for http and</p><p>:443 for https.</p><p>Both these may change in the future. Incoming requests are matched against the host before the IngressRuleValue. If the host is unspecified, the Ingress routes all traffic based on the specified IngressRuleValue.</p></p>
 
 

@@ -85,7 +85,7 @@
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta1.podsMetricStatus.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -122,7 +122,7 @@
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta1.podsMetricStatus.withMetricName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMetricNamefunction(metricName) self <span style="color:#666">+</span> { metricName<span style="color:#666">:</span> metricName }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMetricName(metricName)
 </code></pre></div></div><p>metricName is the name of the metric in question</p></p>
 
 
@@ -182,7 +182,7 @@
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta1.podsMetricStatus.currentAverageValue.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(currentAverageValue) __currentAverageValueMixin(currentAverageValue)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(currentAverageValue)
 </code></pre></div></div><p></p></p>
 
 
@@ -242,7 +242,7 @@
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta1.podsMetricStatus.selector.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(selector) __selectorMixin(selector)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(selector)
 </code></pre></div></div><p></p></p>
 
 
@@ -270,7 +270,7 @@
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta1.podsMetricStatus.selector.withMatchExpressions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __selectorMixin({ matchExpressions<span style="color:#666">:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __selectorMixin({ matchExpressions<span style="color:#666">:</span> [matchExpressions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressions(matchExpressions)
 </code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressions</code> takes an array of type <code>matchExpressionsType</code>. You can create
 an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
 
@@ -301,7 +301,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta1.podsMetricStatus.selector.withMatchExpressionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __selectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __selectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixin(matchExpressions)
 </code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
 an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
 
@@ -332,7 +332,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta1.podsMetricStatus.selector.withMatchLabels">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsfunction(matchLabels) self <span style="color:#666">+</span> __selectorMixin({ matchLabels<span style="color:#666">:</span> matchLabels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabels(matchLabels)
 </code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
 
 
@@ -360,7 +360,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta1.podsMetricStatus.selector.withMatchLabelsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixinfunction(matchLabels) self <span style="color:#666">+</span> __selectorMixin({ matchLabels<span style="color:#666">+:</span> matchLabels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixin(matchLabels)
 </code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
 
 

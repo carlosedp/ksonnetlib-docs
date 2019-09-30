@@ -77,7 +77,7 @@
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionStatus.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -114,7 +114,7 @@
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionStatus.withConditions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">:</span> [conditions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditions(conditions)
 </code></pre></div></div><p>Conditions indicate state for particular aspects of a CustomResourceDefinition</p><code>withConditions</code> takes an array of type <code>conditionsType</code>. You can create
 an instance of <code>conditionsType</code> with <code>hidden.apiextensions.v1beta1.customResourceDefinitionCondition.new()</code>.</p>
 
@@ -145,7 +145,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apiextensions.v1bet
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionStatus.withConditionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixinfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">+:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">+:</span> [conditions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixin(conditions)
 </code></pre></div></div><p>Conditions indicate state for particular aspects of a CustomResourceDefinition</p><code>withConditionsMixin</code> takes an array of type <code>conditionsType</code>. You can create
 an instance of <code>conditionsType</code> with <code>hidden.apiextensions.v1beta1.customResourceDefinitionCondition.new()</code>.</p>
 
@@ -176,7 +176,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apiextensions.v1bet
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionStatus.withStoredVersions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStoredVersionsfunction(storedVersions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(storedVersions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { storedVersions<span style="color:#666">:</span> storedVersions } <span style="color:#007020;font-weight:bold">else</span> { storedVersions<span style="color:#666">:</span> [storedVersions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStoredVersions(storedVersions)
 </code></pre></div></div><p>StoredVersions are all versions of CustomResources that were ever persisted. Tracking these versions allows a migration path for stored versions in etcd. The field is mutable so the migration controller can first finish a migration to another version (i.e. that no old objects are left in the storage), and then remove the rest of the versions from this list. None of the versions in this list can be removed from the spec.Versions field.</p></p>
 
 
@@ -204,7 +204,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apiextensions.v1bet
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionStatus.withStoredVersionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStoredVersionsMixinfunction(storedVersions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(storedVersions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { storedVersions<span style="color:#666">+:</span> storedVersions } <span style="color:#007020;font-weight:bold">else</span> { storedVersions<span style="color:#666">+:</span> [storedVersions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStoredVersionsMixin(storedVersions)
 </code></pre></div></div><p>StoredVersions are all versions of CustomResources that were ever persisted. Tracking these versions allows a migration path for stored versions in etcd. The field is mutable so the migration controller can first finish a migration to another version (i.e. that no old objects are left in the storage), and then remove the rest of the versions from this list. None of the versions in this list can be removed from the spec.Versions field.</p></p>
 
 
@@ -264,7 +264,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apiextensions.v1bet
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionStatus.acceptedNames.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(acceptedNames) __acceptedNamesMixin(acceptedNames)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(acceptedNames)
 </code></pre></div></div><p></p></p>
 
 
@@ -292,7 +292,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apiextensions.v1bet
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionStatus.acceptedNames.withCategories">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCategoriesfunction(categories) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(categories) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __acceptedNamesMixin({ categories<span style="color:#666">:</span> categories }) <span style="color:#007020;font-weight:bold">else</span> __acceptedNamesMixin({ categories<span style="color:#666">:</span> [categories] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCategories(categories)
 </code></pre></div></div><p>Categories is a list of grouped resources custom resources belong to (e.g. &lsquo;all&rsquo;)</p></p>
 
 
@@ -320,7 +320,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apiextensions.v1bet
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionStatus.acceptedNames.withCategoriesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCategoriesMixinfunction(categories) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(categories) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __acceptedNamesMixin({ categories<span style="color:#666">+:</span> categories }) <span style="color:#007020;font-weight:bold">else</span> __acceptedNamesMixin({ categories<span style="color:#666">+:</span> [categories] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCategoriesMixin(categories)
 </code></pre></div></div><p>Categories is a list of grouped resources custom resources belong to (e.g. &lsquo;all&rsquo;)</p></p>
 
 
@@ -348,7 +348,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apiextensions.v1bet
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionStatus.acceptedNames.withKind">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKindfunction(kind) self <span style="color:#666">+</span> __acceptedNamesMixin({ kind<span style="color:#666">:</span> kind })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKind(kind)
 </code></pre></div></div><p>Kind is the serialized kind of the resource.  It is normally CamelCase and singular.</p></p>
 
 
@@ -376,7 +376,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apiextensions.v1bet
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionStatus.acceptedNames.withListKind">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withListKindfunction(listKind) self <span style="color:#666">+</span> __acceptedNamesMixin({ listKind<span style="color:#666">:</span> listKind })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withListKind(listKind)
 </code></pre></div></div><p>ListKind is the serialized kind of the list for this resource.  Defaults to <kind>List.</p></p>
 
 
@@ -404,7 +404,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apiextensions.v1bet
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionStatus.acceptedNames.withPlural">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPluralfunction(plural) self <span style="color:#666">+</span> __acceptedNamesMixin({ plural<span style="color:#666">:</span> plural })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPlural(plural)
 </code></pre></div></div><p>Plural is the plural name of the resource to serve.  It must match the name of the CustomResourceDefinition-registration too: plural.group and it must be all lowercase.</p></p>
 
 
@@ -432,7 +432,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apiextensions.v1bet
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionStatus.acceptedNames.withShortNames">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShortNamesfunction(shortNames) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(shortNames) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __acceptedNamesMixin({ shortNames<span style="color:#666">:</span> shortNames }) <span style="color:#007020;font-weight:bold">else</span> __acceptedNamesMixin({ shortNames<span style="color:#666">:</span> [shortNames] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShortNames(shortNames)
 </code></pre></div></div><p>ShortNames are short names for the resource.  It must be all lowercase.</p></p>
 
 
@@ -460,7 +460,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apiextensions.v1bet
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionStatus.acceptedNames.withShortNamesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShortNamesMixinfunction(shortNames) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(shortNames) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __acceptedNamesMixin({ shortNames<span style="color:#666">+:</span> shortNames }) <span style="color:#007020;font-weight:bold">else</span> __acceptedNamesMixin({ shortNames<span style="color:#666">+:</span> [shortNames] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShortNamesMixin(shortNames)
 </code></pre></div></div><p>ShortNames are short names for the resource.  It must be all lowercase.</p></p>
 
 
@@ -488,7 +488,7 @@ an instance of <code>conditionsType</code> with <code>hidden.apiextensions.v1bet
     </h5>
 
     <div class="collapse show" id="apiextensions.v1beta1.customResourceDefinitionStatus.acceptedNames.withSingular">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSingularfunction(singular) self <span style="color:#666">+</span> __acceptedNamesMixin({ singular<span style="color:#666">:</span> singular })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSingular(singular)
 </code></pre></div></div><p>Singular is the singular name of the resource.  It must be all lowercase  Defaults to lowercased <kind></p></p>
 
 

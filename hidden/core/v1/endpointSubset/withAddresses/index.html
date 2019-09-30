@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddressesfunction(addresses) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(addresses) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { addresses<span style="color:#666">:</span> addresses } <span style="color:#007020;font-weight:bold">else</span> { addresses<span style="color:#666">:</span> [addresses] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddresses(addresses)
 </code></pre></div></div><p>IP addresses which offer the related ports that are marked as ready. These endpoints should be considered safe for load balancers and clients to utilize.</p><code>withAddresses</code> takes an array of type <code>addressesType</code>. You can create
 an instance of <code>addressesType</code> with <code>hidden.core.v1.endpointAddress.new()</code>.</p>
 

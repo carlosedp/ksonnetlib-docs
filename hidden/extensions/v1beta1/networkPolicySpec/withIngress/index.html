@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIngressfunction(ingress) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ingress) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ingress<span style="color:#666">:</span> ingress } <span style="color:#007020;font-weight:bold">else</span> { ingress<span style="color:#666">:</span> [ingress] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIngress(ingress)
 </code></pre></div></div><p>List of ingress rules to be applied to the selected pods. Traffic is allowed to a pod if there are no NetworkPolicies selecting the pod OR if the traffic source is the pod&rsquo;s local node, OR if the traffic matches at least one ingress rule across all of the NetworkPolicy objects whose podSelector matches the pod. If this field is empty then this NetworkPolicy does not allow any traffic (and serves solely to ensure that the pods it selects are isolated by default).</p><code>withIngress</code> takes an array of type <code>ingressType</code>. You can create
 an instance of <code>ingressType</code> with <code>hidden.extensions.v1beta1.networkPolicyIngressRule.new()</code>.</p>
 

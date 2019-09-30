@@ -117,7 +117,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() apiVersion <span style="color:#666">+</span> kind
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -154,7 +154,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.withAction">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withActionfunction(action) self <span style="color:#666">+</span> { action<span style="color:#666">:</span> action }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAction(action)
 </code></pre></div></div><p>What action was taken/failed regarding to the Regarding object.</p></p>
 
 
@@ -182,7 +182,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.withCount">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCountfunction(count) self <span style="color:#666">+</span> { count<span style="color:#666">:</span> count }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCount(count)
 </code></pre></div></div><p>The number of times this event has occurred.</p></p>
 
 
@@ -210,7 +210,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.withEventTime">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEventTimefunction(eventTime) self <span style="color:#666">+</span> { eventTime<span style="color:#666">:</span> eventTime }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEventTime(eventTime)
 </code></pre></div></div><p>Time when this Event was first observed.</p></p>
 
 
@@ -238,7 +238,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.withFirstTimestamp">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFirstTimestampfunction(firstTimestamp) self <span style="color:#666">+</span> { firstTimestamp<span style="color:#666">:</span> firstTimestamp }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFirstTimestamp(firstTimestamp)
 </code></pre></div></div><p>The time at which the event was first recorded. (Time of server receipt is in TypeMeta.)</p></p>
 
 
@@ -266,7 +266,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.withLastTimestamp">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLastTimestampfunction(lastTimestamp) self <span style="color:#666">+</span> { lastTimestamp<span style="color:#666">:</span> lastTimestamp }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLastTimestamp(lastTimestamp)
 </code></pre></div></div><p>The time at which the most recent occurrence of this event was recorded.</p></p>
 
 
@@ -294,7 +294,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.withMessage">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMessagefunction(message) self <span style="color:#666">+</span> { message<span style="color:#666">:</span> message }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMessage(message)
 </code></pre></div></div><p>A human-readable description of the status of this operation.</p></p>
 
 
@@ -322,7 +322,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.withReason">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReasonfunction(reason) self <span style="color:#666">+</span> { reason<span style="color:#666">:</span> reason }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReason(reason)
 </code></pre></div></div><p>This should be a short, machine understandable string that gives the reason for the transition into the object&rsquo;s current status.</p></p>
 
 
@@ -350,7 +350,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.withReportingComponent">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReportingComponentfunction(reportingComponent) self <span style="color:#666">+</span> { reportingComponent<span style="color:#666">:</span> reportingComponent }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReportingComponent(reportingComponent)
 </code></pre></div></div><p>Name of the controller that emitted this Event, e.g. <code>kubernetes.io/kubelet</code>.</p></p>
 
 
@@ -378,7 +378,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.withReportingInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReportingInstancefunction(reportingInstance) self <span style="color:#666">+</span> { reportingInstance<span style="color:#666">:</span> reportingInstance }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReportingInstance(reportingInstance)
 </code></pre></div></div><p>ID of the controller instance, e.g. <code>kubelet-xyzf</code>.</p></p>
 
 
@@ -406,7 +406,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.withType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> { type<span style="color:#666">:</span> type }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withType(type)
 </code></pre></div></div><p>Type of this event (Normal, Warning), new types could be added in the future</p></p>
 
 
@@ -466,7 +466,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.involvedObject.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(involvedObject) __involvedObjectMixin(involvedObject)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(involvedObject)
 </code></pre></div></div><p></p></p>
 
 
@@ -494,7 +494,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.involvedObject.withFieldPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPathfunction(fieldPath) self <span style="color:#666">+</span> __involvedObjectMixin({ fieldPath<span style="color:#666">:</span> fieldPath })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPath(fieldPath)
 </code></pre></div></div><p>If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: &ldquo;spec.containers{name}&rdquo; (where &ldquo;name&rdquo; refers to the name of the container that triggered the event) or if no container name is specified &ldquo;spec.containers[2]&rdquo; (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.</p></p>
 
 
@@ -522,7 +522,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.involvedObject.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __involvedObjectMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</a></p></p>
 
 
@@ -550,7 +550,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.involvedObject.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __involvedObjectMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/">https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/</a></p></p>
 
 
@@ -578,7 +578,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.involvedObject.withResourceVersion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersionfunction(resourceVersion) self <span style="color:#666">+</span> __involvedObjectMixin({ resourceVersion<span style="color:#666">:</span> resourceVersion })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersion(resourceVersion)
 </code></pre></div></div><p>Specific resourceVersion to which this reference is made, if any. More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency">https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency</a></p></p>
 
 
@@ -606,7 +606,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.involvedObject.withUid">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> __involvedObjectMixin({ uid<span style="color:#666">:</span> uid })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUid(uid)
 </code></pre></div></div><p>UID of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids</a></p></p>
 
 
@@ -666,7 +666,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(metadata) __metadataMixin(metadata)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(metadata)
 </code></pre></div></div><p></p></p>
 
 
@@ -694,7 +694,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.withAnnotations">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsfunction(annotations) self <span style="color:#666">+</span> __metadataMixin({ annotations<span style="color:#666">:</span> annotations })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotations(annotations)
 </code></pre></div></div><p>Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: <a href="http://kubernetes.io/docs/user-guide/annotations">http://kubernetes.io/docs/user-guide/annotations</a></p></p>
 
 
@@ -722,7 +722,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.withAnnotationsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsMixinfunction(annotations) self <span style="color:#666">+</span> __metadataMixin({ annotations<span style="color:#666">+:</span> annotations })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsMixin(annotations)
 </code></pre></div></div><p>Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: <a href="http://kubernetes.io/docs/user-guide/annotations">http://kubernetes.io/docs/user-guide/annotations</a></p></p>
 
 
@@ -750,7 +750,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.withClusterName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterNamefunction(clusterName) self <span style="color:#666">+</span> __metadataMixin({ clusterName<span style="color:#666">:</span> clusterName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterName(clusterName)
 </code></pre></div></div><p>The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</p></p>
 
 
@@ -778,7 +778,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.withFinalizers">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersfunction(finalizers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(finalizers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ finalizers<span style="color:#666">:</span> finalizers }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ finalizers<span style="color:#666">:</span> [finalizers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizers(finalizers)
 </code></pre></div></div><p>Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</p></p>
 
 
@@ -806,7 +806,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.withFinalizersMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersMixinfunction(finalizers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(finalizers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ finalizers<span style="color:#666">+:</span> finalizers }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ finalizers<span style="color:#666">+:</span> [finalizers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersMixin(finalizers)
 </code></pre></div></div><p>Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</p></p>
 
 
@@ -834,7 +834,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.withGenerateName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGenerateNamefunction(generateName) self <span style="color:#666">+</span> __metadataMixin({ generateName<span style="color:#666">:</span> generateName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGenerateName(generateName)
 </code></pre></div></div><p>GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</p><p></p><p>If this field is specified and the generated name exists, the server will NOT return a 409 - instead, it will either return 201 Created or 500 with Reason ServerTimeout indicating a unique name could not be found in the time allotted, and the client should retry (optionally after the time indicated in the Retry-After header).</p><p></p><p>Applied only if Name is not specified. More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#idempotency">https://git.k8s.io/community/contributors/devel/api-conventions.md#idempotency</a></p></p>
 
 
@@ -862,7 +862,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.withLabels">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsfunction(labels) self <span style="color:#666">+</span> __metadataMixin({ labels<span style="color:#666">:</span> labels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabels(labels)
 </code></pre></div></div><p>Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: <a href="http://kubernetes.io/docs/user-guide/labels">http://kubernetes.io/docs/user-guide/labels</a></p></p>
 
 
@@ -890,7 +890,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.withLabelsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsMixinfunction(labels) self <span style="color:#666">+</span> __metadataMixin({ labels<span style="color:#666">+:</span> labels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsMixin(labels)
 </code></pre></div></div><p>Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: <a href="http://kubernetes.io/docs/user-guide/labels">http://kubernetes.io/docs/user-guide/labels</a></p></p>
 
 
@@ -918,7 +918,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.withManagedFields">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsfunction(managedFields) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(managedFields) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ managedFields<span style="color:#666">:</span> managedFields }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ managedFields<span style="color:#666">:</span> [managedFields] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFields(managedFields)
 </code></pre></div></div><p>ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&rsquo;t need to set or understand this field. A workflow can be the user&rsquo;s name, a controller&rsquo;s name, or the name of a specific apply path like &ldquo;ci-cd&rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</p><p></p><p>This field is alpha and can be changed or removed without notice.</p><code>withManagedFields</code> takes an array of type <code>managedFieldsType</code>. You can create
 an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedFieldsEntry.new()</code>.</p>
 
@@ -949,7 +949,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.withManagedFieldsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsMixinfunction(managedFields) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(managedFields) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ managedFields<span style="color:#666">+:</span> managedFields }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ managedFields<span style="color:#666">+:</span> [managedFields] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsMixin(managedFields)
 </code></pre></div></div><p>ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&rsquo;t need to set or understand this field. A workflow can be the user&rsquo;s name, a controller&rsquo;s name, or the name of a specific apply path like &ldquo;ci-cd&rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</p><p></p><p>This field is alpha and can be changed or removed without notice.</p><code>withManagedFieldsMixin</code> takes an array of type <code>managedFieldsType</code>. You can create
 an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedFieldsEntry.new()</code>.</p>
 
@@ -980,7 +980,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __metadataMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: <a href="http://kubernetes.io/docs/user-guide/identifiers#names">http://kubernetes.io/docs/user-guide/identifiers#names</a></p></p>
 
 
@@ -1008,7 +1008,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __metadataMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &ldquo;default&rdquo; namespace, but &ldquo;default&rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.</p><p></p><p>Must be a DNS_LABEL. Cannot be updated. More info: <a href="http://kubernetes.io/docs/user-guide/namespaces">http://kubernetes.io/docs/user-guide/namespaces</a></p></p>
 
 
@@ -1036,7 +1036,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.withOwnerReferences">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesfunction(ownerReferences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ownerReferences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ ownerReferences<span style="color:#666">:</span> ownerReferences }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ ownerReferences<span style="color:#666">:</span> [ownerReferences] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferences(ownerReferences)
 </code></pre></div></div><p>List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</p><code>withOwnerReferences</code> takes an array of type <code>ownerReferencesType</code>. You can create
 an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerReference.new()</code>.</p>
 
@@ -1067,7 +1067,7 @@ an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerR
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.withOwnerReferencesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesMixinfunction(ownerReferences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ownerReferences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ ownerReferences<span style="color:#666">+:</span> ownerReferences }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ ownerReferences<span style="color:#666">+:</span> [ownerReferences] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesMixin(ownerReferences)
 </code></pre></div></div><p>List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</p><code>withOwnerReferencesMixin</code> takes an array of type <code>ownerReferencesType</code>. You can create
 an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerReference.new()</code>.</p>
 
@@ -1129,7 +1129,7 @@ an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerR
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.initializers.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(initializers) __initializersMixin(initializers)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(initializers)
 </code></pre></div></div><p></p></p>
 
 
@@ -1157,7 +1157,7 @@ an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerR
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.initializers.withPending">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingfunction(pending) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(pending) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __initializersMixin({ pending<span style="color:#666">:</span> pending }) <span style="color:#007020;font-weight:bold">else</span> __initializersMixin({ pending<span style="color:#666">:</span> [pending] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPending(pending)
 </code></pre></div></div><p>Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.</p><code>withPending</code> takes an array of type <code>pendingType</code>. You can create
 an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.new()</code>.</p>
 
@@ -1188,7 +1188,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.event.metadata.initializers.withPendingMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingMixinfunction(pending) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(pending) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __initializersMixin({ pending<span style="color:#666">+:</span> pending }) <span style="color:#007020;font-weight:bold">else</span> __initializersMixin({ pending<span style="color:#666">+:</span> [pending] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingMixin(pending)
 </code></pre></div></div><p>Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.</p><code>withPendingMixin</code> takes an array of type <code>pendingType</code>. You can create
 an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.new()</code>.</p>
 
@@ -1257,7 +1257,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.event.related.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(related) __relatedMixin(related)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(related)
 </code></pre></div></div><p></p></p>
 
 
@@ -1285,7 +1285,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.event.related.withFieldPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPathfunction(fieldPath) self <span style="color:#666">+</span> __relatedMixin({ fieldPath<span style="color:#666">:</span> fieldPath })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPath(fieldPath)
 </code></pre></div></div><p>If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: &ldquo;spec.containers{name}&rdquo; (where &ldquo;name&rdquo; refers to the name of the container that triggered the event) or if no container name is specified &ldquo;spec.containers[2]&rdquo; (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.</p></p>
 
 
@@ -1313,7 +1313,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.event.related.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __relatedMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</a></p></p>
 
 
@@ -1341,7 +1341,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.event.related.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __relatedMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/">https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/</a></p></p>
 
 
@@ -1369,7 +1369,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.event.related.withResourceVersion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersionfunction(resourceVersion) self <span style="color:#666">+</span> __relatedMixin({ resourceVersion<span style="color:#666">:</span> resourceVersion })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersion(resourceVersion)
 </code></pre></div></div><p>Specific resourceVersion to which this reference is made, if any. More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency">https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency</a></p></p>
 
 
@@ -1397,7 +1397,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.event.related.withUid">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> __relatedMixin({ uid<span style="color:#666">:</span> uid })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUid(uid)
 </code></pre></div></div><p>UID of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids</a></p></p>
 
 
@@ -1457,7 +1457,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.event.series.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(series) __seriesMixin(series)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(series)
 </code></pre></div></div><p></p></p>
 
 
@@ -1485,7 +1485,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.event.series.withCount">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCountfunction(count) self <span style="color:#666">+</span> __seriesMixin({ count<span style="color:#666">:</span> count })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCount(count)
 </code></pre></div></div><p>Number of occurrences in this series up to the last heartbeat time</p></p>
 
 
@@ -1513,7 +1513,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.event.series.withLastObservedTime">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLastObservedTimefunction(lastObservedTime) self <span style="color:#666">+</span> __seriesMixin({ lastObservedTime<span style="color:#666">:</span> lastObservedTime })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLastObservedTime(lastObservedTime)
 </code></pre></div></div><p>Time of the last occurrence observed</p></p>
 
 
@@ -1541,7 +1541,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.event.series.withState">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStatefunction(state) self <span style="color:#666">+</span> __seriesMixin({ state<span style="color:#666">:</span> state })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withState(state)
 </code></pre></div></div><p>State of this Series: Ongoing or Finished Deprecated. Planned removal for 1.18</p></p>
 
 
@@ -1601,7 +1601,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.event.source.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(source) __sourceMixin(source)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(source)
 </code></pre></div></div><p></p></p>
 
 
@@ -1629,7 +1629,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.event.source.withComponent">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withComponentfunction(component) self <span style="color:#666">+</span> __sourceMixin({ component<span style="color:#666">:</span> component })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withComponent(component)
 </code></pre></div></div><p>Component from which the event is generated.</p></p>
 
 
@@ -1657,7 +1657,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.event.source.withHost">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __sourceMixin({ host<span style="color:#666">:</span> host })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHost(host)
 </code></pre></div></div><p>Node name on which the event is generated.</p></p>
 
 

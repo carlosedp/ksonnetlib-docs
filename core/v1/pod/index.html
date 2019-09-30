@@ -165,7 +165,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.pod.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() apiVersion <span style="color:#666">+</span> kind
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -229,7 +229,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(metadata) __metadataMixin(metadata)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(metadata)
 </code></pre></div></div><p></p></p>
 
 
@@ -257,7 +257,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.withAnnotations">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsfunction(annotations) self <span style="color:#666">+</span> __metadataMixin({ annotations<span style="color:#666">:</span> annotations })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotations(annotations)
 </code></pre></div></div><p>Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: <a href="http://kubernetes.io/docs/user-guide/annotations">http://kubernetes.io/docs/user-guide/annotations</a></p></p>
 
 
@@ -285,7 +285,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.withAnnotationsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsMixinfunction(annotations) self <span style="color:#666">+</span> __metadataMixin({ annotations<span style="color:#666">+:</span> annotations })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsMixin(annotations)
 </code></pre></div></div><p>Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: <a href="http://kubernetes.io/docs/user-guide/annotations">http://kubernetes.io/docs/user-guide/annotations</a></p></p>
 
 
@@ -313,7 +313,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.withClusterName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterNamefunction(clusterName) self <span style="color:#666">+</span> __metadataMixin({ clusterName<span style="color:#666">:</span> clusterName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterName(clusterName)
 </code></pre></div></div><p>The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</p></p>
 
 
@@ -341,7 +341,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.withFinalizers">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersfunction(finalizers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(finalizers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ finalizers<span style="color:#666">:</span> finalizers }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ finalizers<span style="color:#666">:</span> [finalizers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizers(finalizers)
 </code></pre></div></div><p>Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</p></p>
 
 
@@ -369,7 +369,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.withFinalizersMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersMixinfunction(finalizers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(finalizers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ finalizers<span style="color:#666">+:</span> finalizers }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ finalizers<span style="color:#666">+:</span> [finalizers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersMixin(finalizers)
 </code></pre></div></div><p>Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</p></p>
 
 
@@ -397,7 +397,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.withGenerateName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGenerateNamefunction(generateName) self <span style="color:#666">+</span> __metadataMixin({ generateName<span style="color:#666">:</span> generateName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGenerateName(generateName)
 </code></pre></div></div><p>GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</p><p></p><p>If this field is specified and the generated name exists, the server will NOT return a 409 - instead, it will either return 201 Created or 500 with Reason ServerTimeout indicating a unique name could not be found in the time allotted, and the client should retry (optionally after the time indicated in the Retry-After header).</p><p></p><p>Applied only if Name is not specified. More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#idempotency">https://git.k8s.io/community/contributors/devel/api-conventions.md#idempotency</a></p></p>
 
 
@@ -425,7 +425,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.withLabels">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsfunction(labels) self <span style="color:#666">+</span> __metadataMixin({ labels<span style="color:#666">:</span> labels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabels(labels)
 </code></pre></div></div><p>Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: <a href="http://kubernetes.io/docs/user-guide/labels">http://kubernetes.io/docs/user-guide/labels</a></p></p>
 
 
@@ -453,7 +453,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.withLabelsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsMixinfunction(labels) self <span style="color:#666">+</span> __metadataMixin({ labels<span style="color:#666">+:</span> labels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsMixin(labels)
 </code></pre></div></div><p>Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: <a href="http://kubernetes.io/docs/user-guide/labels">http://kubernetes.io/docs/user-guide/labels</a></p></p>
 
 
@@ -481,7 +481,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.withManagedFields">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsfunction(managedFields) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(managedFields) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ managedFields<span style="color:#666">:</span> managedFields }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ managedFields<span style="color:#666">:</span> [managedFields] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFields(managedFields)
 </code></pre></div></div><p>ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&rsquo;t need to set or understand this field. A workflow can be the user&rsquo;s name, a controller&rsquo;s name, or the name of a specific apply path like &ldquo;ci-cd&rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</p><p></p><p>This field is alpha and can be changed or removed without notice.</p><code>withManagedFields</code> takes an array of type <code>managedFieldsType</code>. You can create
 an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedFieldsEntry.new()</code>.</p>
 
@@ -512,7 +512,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.withManagedFieldsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsMixinfunction(managedFields) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(managedFields) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ managedFields<span style="color:#666">+:</span> managedFields }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ managedFields<span style="color:#666">+:</span> [managedFields] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsMixin(managedFields)
 </code></pre></div></div><p>ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&rsquo;t need to set or understand this field. A workflow can be the user&rsquo;s name, a controller&rsquo;s name, or the name of a specific apply path like &ldquo;ci-cd&rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</p><p></p><p>This field is alpha and can be changed or removed without notice.</p><code>withManagedFieldsMixin</code> takes an array of type <code>managedFieldsType</code>. You can create
 an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedFieldsEntry.new()</code>.</p>
 
@@ -543,7 +543,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __metadataMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: <a href="http://kubernetes.io/docs/user-guide/identifiers#names">http://kubernetes.io/docs/user-guide/identifiers#names</a></p></p>
 
 
@@ -571,7 +571,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __metadataMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &ldquo;default&rdquo; namespace, but &ldquo;default&rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.</p><p></p><p>Must be a DNS_LABEL. Cannot be updated. More info: <a href="http://kubernetes.io/docs/user-guide/namespaces">http://kubernetes.io/docs/user-guide/namespaces</a></p></p>
 
 
@@ -599,7 +599,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.withOwnerReferences">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesfunction(ownerReferences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ownerReferences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ ownerReferences<span style="color:#666">:</span> ownerReferences }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ ownerReferences<span style="color:#666">:</span> [ownerReferences] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferences(ownerReferences)
 </code></pre></div></div><p>List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</p><code>withOwnerReferences</code> takes an array of type <code>ownerReferencesType</code>. You can create
 an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerReference.new()</code>.</p>
 
@@ -630,7 +630,7 @@ an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerR
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.withOwnerReferencesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesMixinfunction(ownerReferences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ownerReferences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ ownerReferences<span style="color:#666">+:</span> ownerReferences }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ ownerReferences<span style="color:#666">+:</span> [ownerReferences] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesMixin(ownerReferences)
 </code></pre></div></div><p>List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</p><code>withOwnerReferencesMixin</code> takes an array of type <code>ownerReferencesType</code>. You can create
 an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerReference.new()</code>.</p>
 
@@ -692,7 +692,7 @@ an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerR
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.initializers.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(initializers) __initializersMixin(initializers)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(initializers)
 </code></pre></div></div><p></p></p>
 
 
@@ -720,7 +720,7 @@ an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerR
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.initializers.withPending">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingfunction(pending) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(pending) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __initializersMixin({ pending<span style="color:#666">:</span> pending }) <span style="color:#007020;font-weight:bold">else</span> __initializersMixin({ pending<span style="color:#666">:</span> [pending] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPending(pending)
 </code></pre></div></div><p>Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.</p><code>withPending</code> takes an array of type <code>pendingType</code>. You can create
 an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.new()</code>.</p>
 
@@ -751,7 +751,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.pod.metadata.initializers.withPendingMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingMixinfunction(pending) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(pending) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __initializersMixin({ pending<span style="color:#666">+:</span> pending }) <span style="color:#007020;font-weight:bold">else</span> __initializersMixin({ pending<span style="color:#666">+:</span> [pending] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingMixin(pending)
 </code></pre></div></div><p>Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.</p><code>withPendingMixin</code> takes an array of type <code>pendingType</code>. You can create
 an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.new()</code>.</p>
 
@@ -820,7 +820,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(spec) __specMixin(spec)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(spec)
 </code></pre></div></div><p></p></p>
 
 
@@ -848,7 +848,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withActiveDeadlineSeconds">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withActiveDeadlineSecondsfunction(activeDeadlineSeconds) self <span style="color:#666">+</span> __specMixin({ activeDeadlineSeconds<span style="color:#666">:</span> activeDeadlineSeconds })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withActiveDeadlineSeconds(activeDeadlineSeconds)
 </code></pre></div></div><p>Optional duration in seconds the pod may be active on the node relative to StartTime before the system will actively try to mark it failed and kill associated containers. Value must be a positive integer.</p></p>
 
 
@@ -876,7 +876,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withAutomountServiceAccountToken">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAutomountServiceAccountTokenfunction(automountServiceAccountToken) self <span style="color:#666">+</span> __specMixin({ automountServiceAccountToken<span style="color:#666">:</span> automountServiceAccountToken })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAutomountServiceAccountToken(automountServiceAccountToken)
 </code></pre></div></div><p>AutomountServiceAccountToken indicates whether a service account token should be automatically mounted.</p></p>
 
 
@@ -904,7 +904,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withContainers">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainersfunction(containers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(containers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ containers<span style="color:#666">:</span> containers }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ containers<span style="color:#666">:</span> [containers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainers(containers)
 </code></pre></div></div><p>List of containers belonging to the pod. Containers cannot currently be added or removed. There must be at least one container in a Pod. Cannot be updated.</p><code>withContainers</code> takes an array of type <code>containersType</code>. You can create
 an instance of <code>containersType</code> with <code>hidden.core.v1.container.new()</code>.</p>
 
@@ -935,7 +935,7 @@ an instance of <code>containersType</code> with <code>hidden.core.v1.container.n
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withContainersMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainersMixinfunction(containers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(containers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ containers<span style="color:#666">+:</span> containers }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ containers<span style="color:#666">+:</span> [containers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withContainersMixin(containers)
 </code></pre></div></div><p>List of containers belonging to the pod. Containers cannot currently be added or removed. There must be at least one container in a Pod. Cannot be updated.</p><code>withContainersMixin</code> takes an array of type <code>containersType</code>. You can create
 an instance of <code>containersType</code> with <code>hidden.core.v1.container.new()</code>.</p>
 
@@ -966,7 +966,7 @@ an instance of <code>containersType</code> with <code>hidden.core.v1.container.n
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withDnsPolicy">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDnsPolicyfunction(dnsPolicy) self <span style="color:#666">+</span> __specMixin({ dnsPolicy<span style="color:#666">:</span> dnsPolicy })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDnsPolicy(dnsPolicy)
 </code></pre></div></div><p>Set DNS policy for the pod. Defaults to &ldquo;ClusterFirst&rdquo;. Valid values are &lsquo;ClusterFirstWithHostNet&rsquo;, &lsquo;ClusterFirst&rsquo;, &lsquo;Default&rsquo; or &lsquo;None&rsquo;. DNS parameters given in DNSConfig will be merged with the policy selected with DNSPolicy. To have DNS options set along with hostNetwork, you have to specify DNS policy explicitly to &lsquo;ClusterFirstWithHostNet&rsquo;.</p></p>
 
 
@@ -994,7 +994,7 @@ an instance of <code>containersType</code> with <code>hidden.core.v1.container.n
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withEnableServiceLinks">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnableServiceLinksfunction(enableServiceLinks) self <span style="color:#666">+</span> __specMixin({ enableServiceLinks<span style="color:#666">:</span> enableServiceLinks })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnableServiceLinks(enableServiceLinks)
 </code></pre></div></div><p>EnableServiceLinks indicates whether information about services should be injected into pod&rsquo;s environment variables, matching the syntax of Docker links. Optional: Defaults to true.</p></p>
 
 
@@ -1022,7 +1022,7 @@ an instance of <code>containersType</code> with <code>hidden.core.v1.container.n
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withHostAliases">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostAliasesfunction(hostAliases) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(hostAliases) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ hostAliases<span style="color:#666">:</span> hostAliases }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ hostAliases<span style="color:#666">:</span> [hostAliases] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostAliases(hostAliases)
 </code></pre></div></div><p>HostAliases is an optional list of hosts and IPs that will be injected into the pod&rsquo;s hosts file if specified. This is only valid for non-hostNetwork pods.</p><code>withHostAliases</code> takes an array of type <code>hostAliasesType</code>. You can create
 an instance of <code>hostAliasesType</code> with <code>hidden.core.v1.hostAlias.new()</code>.</p>
 
@@ -1053,7 +1053,7 @@ an instance of <code>hostAliasesType</code> with <code>hidden.core.v1.hostAlias.
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withHostAliasesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostAliasesMixinfunction(hostAliases) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(hostAliases) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ hostAliases<span style="color:#666">+:</span> hostAliases }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ hostAliases<span style="color:#666">+:</span> [hostAliases] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostAliasesMixin(hostAliases)
 </code></pre></div></div><p>HostAliases is an optional list of hosts and IPs that will be injected into the pod&rsquo;s hosts file if specified. This is only valid for non-hostNetwork pods.</p><code>withHostAliasesMixin</code> takes an array of type <code>hostAliasesType</code>. You can create
 an instance of <code>hostAliasesType</code> with <code>hidden.core.v1.hostAlias.new()</code>.</p>
 
@@ -1084,7 +1084,7 @@ an instance of <code>hostAliasesType</code> with <code>hidden.core.v1.hostAlias.
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withHostIpc">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostIpcfunction(hostIpc) self <span style="color:#666">+</span> __specMixin({ hostIPC<span style="color:#666">:</span> hostIpc })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostIpc(hostIpc)
 </code></pre></div></div><p>Use the host&rsquo;s ipc namespace. Optional: Default to false.</p></p>
 
 
@@ -1112,7 +1112,7 @@ an instance of <code>hostAliasesType</code> with <code>hidden.core.v1.hostAlias.
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withHostNetwork">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostNetworkfunction(hostNetwork) self <span style="color:#666">+</span> __specMixin({ hostNetwork<span style="color:#666">:</span> hostNetwork })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostNetwork(hostNetwork)
 </code></pre></div></div><p>Host networking requested for this pod. Use the host&rsquo;s network namespace. If this option is set, the ports that will be used must be specified. Default to false.</p></p>
 
 
@@ -1140,7 +1140,7 @@ an instance of <code>hostAliasesType</code> with <code>hidden.core.v1.hostAlias.
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withHostPid">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostPidfunction(hostPid) self <span style="color:#666">+</span> __specMixin({ hostPID<span style="color:#666">:</span> hostPid })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostPid(hostPid)
 </code></pre></div></div><p>Use the host&rsquo;s pid namespace. Optional: Default to false.</p></p>
 
 
@@ -1168,7 +1168,7 @@ an instance of <code>hostAliasesType</code> with <code>hidden.core.v1.hostAlias.
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withHostname">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostnamefunction(hostname) self <span style="color:#666">+</span> __specMixin({ hostname<span style="color:#666">:</span> hostname })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostname(hostname)
 </code></pre></div></div><p>Specifies the hostname of the Pod If not specified, the pod&rsquo;s hostname will be set to a system-defined value.</p></p>
 
 
@@ -1196,7 +1196,7 @@ an instance of <code>hostAliasesType</code> with <code>hidden.core.v1.hostAlias.
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withImagePullSecrets">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImagePullSecretsfunction(imagePullSecrets) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(imagePullSecrets) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ imagePullSecrets<span style="color:#666">:</span> imagePullSecrets }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ imagePullSecrets<span style="color:#666">:</span> [imagePullSecrets] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImagePullSecrets(imagePullSecrets)
 </code></pre></div></div><p>ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec. If specified, these secrets will be passed to individual puller implementations for them to use. For example, in the case of docker, only DockerConfig type secrets are honored. More info: <a href="https://kubernetes.io/docs/concepts/containers/images#specifying-imagepullsecrets-on-a-pod">https://kubernetes.io/docs/concepts/containers/images#specifying-imagepullsecrets-on-a-pod</a></p><code>withImagePullSecrets</code> takes an array of type <code>imagePullSecretsType</code>. You can create
 an instance of <code>imagePullSecretsType</code> with <code>hidden.core.v1.localObjectReference.new()</code>.</p>
 
@@ -1227,7 +1227,7 @@ an instance of <code>imagePullSecretsType</code> with <code>hidden.core.v1.local
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withImagePullSecretsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImagePullSecretsMixinfunction(imagePullSecrets) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(imagePullSecrets) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ imagePullSecrets<span style="color:#666">+:</span> imagePullSecrets }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ imagePullSecrets<span style="color:#666">+:</span> [imagePullSecrets] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImagePullSecretsMixin(imagePullSecrets)
 </code></pre></div></div><p>ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec. If specified, these secrets will be passed to individual puller implementations for them to use. For example, in the case of docker, only DockerConfig type secrets are honored. More info: <a href="https://kubernetes.io/docs/concepts/containers/images#specifying-imagepullsecrets-on-a-pod">https://kubernetes.io/docs/concepts/containers/images#specifying-imagepullsecrets-on-a-pod</a></p><code>withImagePullSecretsMixin</code> takes an array of type <code>imagePullSecretsType</code>. You can create
 an instance of <code>imagePullSecretsType</code> with <code>hidden.core.v1.localObjectReference.new()</code>.</p>
 
@@ -1258,7 +1258,7 @@ an instance of <code>imagePullSecretsType</code> with <code>hidden.core.v1.local
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withInitContainers">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitContainersfunction(initContainers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(initContainers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ initContainers<span style="color:#666">:</span> initContainers }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ initContainers<span style="color:#666">:</span> [initContainers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitContainers(initContainers)
 </code></pre></div></div><p>List of initialization containers belonging to the pod. Init containers are executed in order prior to containers being started. If any init container fails, the pod is considered to have failed and is handled according to its restartPolicy. The name for an init container or normal container must be unique among all containers. Init containers may not have Lifecycle actions, Readiness probes, or Liveness probes. The resourceRequirements of an init container are taken into account during scheduling by finding the highest request/limit for each resource type, and then using the max of of that value or the sum of the normal containers. Limits are applied to init containers in a similar fashion. Init containers cannot currently be added or removed. Cannot be updated. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/">https://kubernetes.io/docs/concepts/workloads/pods/init-containers/</a></p><code>withInitContainers</code> takes an array of type <code>initContainersType</code>. You can create
 an instance of <code>initContainersType</code> with <code>hidden.core.v1.container.new()</code>.</p>
 
@@ -1289,7 +1289,7 @@ an instance of <code>initContainersType</code> with <code>hidden.core.v1.contain
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withInitContainersMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitContainersMixinfunction(initContainers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(initContainers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ initContainers<span style="color:#666">+:</span> initContainers }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ initContainers<span style="color:#666">+:</span> [initContainers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitContainersMixin(initContainers)
 </code></pre></div></div><p>List of initialization containers belonging to the pod. Init containers are executed in order prior to containers being started. If any init container fails, the pod is considered to have failed and is handled according to its restartPolicy. The name for an init container or normal container must be unique among all containers. Init containers may not have Lifecycle actions, Readiness probes, or Liveness probes. The resourceRequirements of an init container are taken into account during scheduling by finding the highest request/limit for each resource type, and then using the max of of that value or the sum of the normal containers. Limits are applied to init containers in a similar fashion. Init containers cannot currently be added or removed. Cannot be updated. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/">https://kubernetes.io/docs/concepts/workloads/pods/init-containers/</a></p><code>withInitContainersMixin</code> takes an array of type <code>initContainersType</code>. You can create
 an instance of <code>initContainersType</code> with <code>hidden.core.v1.container.new()</code>.</p>
 
@@ -1320,7 +1320,7 @@ an instance of <code>initContainersType</code> with <code>hidden.core.v1.contain
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withNodeName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeNamefunction(nodeName) self <span style="color:#666">+</span> __specMixin({ nodeName<span style="color:#666">:</span> nodeName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeName(nodeName)
 </code></pre></div></div><p>NodeName is a request to schedule this pod onto a specific node. If it is non-empty, the scheduler simply schedules this pod onto that node, assuming that it fits resource requirements.</p></p>
 
 
@@ -1348,7 +1348,7 @@ an instance of <code>initContainersType</code> with <code>hidden.core.v1.contain
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withNodeSelector">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorfunction(nodeSelector) self <span style="color:#666">+</span> __specMixin({ nodeSelector<span style="color:#666">:</span> nodeSelector })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelector(nodeSelector)
 </code></pre></div></div><p>NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node&rsquo;s labels for the pod to be scheduled on that node. More info: <a href="https://kubernetes.io/docs/concepts/configuration/assign-pod-node/">https://kubernetes.io/docs/concepts/configuration/assign-pod-node/</a></p></p>
 
 
@@ -1376,7 +1376,7 @@ an instance of <code>initContainersType</code> with <code>hidden.core.v1.contain
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withNodeSelectorMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorMixinfunction(nodeSelector) self <span style="color:#666">+</span> __specMixin({ nodeSelector<span style="color:#666">+:</span> nodeSelector })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorMixin(nodeSelector)
 </code></pre></div></div><p>NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node&rsquo;s labels for the pod to be scheduled on that node. More info: <a href="https://kubernetes.io/docs/concepts/configuration/assign-pod-node/">https://kubernetes.io/docs/concepts/configuration/assign-pod-node/</a></p></p>
 
 
@@ -1404,7 +1404,7 @@ an instance of <code>initContainersType</code> with <code>hidden.core.v1.contain
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withPreemptionPolicy">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreemptionPolicyfunction(preemptionPolicy) self <span style="color:#666">+</span> __specMixin({ preemptionPolicy<span style="color:#666">:</span> preemptionPolicy })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreemptionPolicy(preemptionPolicy)
 </code></pre></div></div><p>PreemptionPolicy is the Policy for preempting pods with lower priority. One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset. This field is alpha-level and is only honored by servers that enable the NonPreemptingPriority feature.</p></p>
 
 
@@ -1432,7 +1432,7 @@ an instance of <code>initContainersType</code> with <code>hidden.core.v1.contain
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withPriority">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPriorityfunction(priority) self <span style="color:#666">+</span> __specMixin({ priority<span style="color:#666">:</span> priority })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPriority(priority)
 </code></pre></div></div><p>The priority value. Various system components use this field to find the priority of the pod. When Priority Admission Controller is enabled, it prevents users from setting this field. The admission controller populates this field from PriorityClassName. The higher the value, the higher the priority.</p></p>
 
 
@@ -1460,7 +1460,7 @@ an instance of <code>initContainersType</code> with <code>hidden.core.v1.contain
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withPriorityClassName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPriorityClassNamefunction(priorityClassName) self <span style="color:#666">+</span> __specMixin({ priorityClassName<span style="color:#666">:</span> priorityClassName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPriorityClassName(priorityClassName)
 </code></pre></div></div><p>If specified, indicates the pod&rsquo;s priority. &ldquo;system-node-critical&rdquo; and &ldquo;system-cluster-critical&rdquo; are two special keywords which indicate the highest priorities with the former being the highest priority. Any other name must be defined by creating a PriorityClass object with that name. If not specified, the pod priority will be default or zero if there is no default.</p></p>
 
 
@@ -1488,7 +1488,7 @@ an instance of <code>initContainersType</code> with <code>hidden.core.v1.contain
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withReadinessGates">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadinessGatesfunction(readinessGates) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(readinessGates) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ readinessGates<span style="color:#666">:</span> readinessGates }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ readinessGates<span style="color:#666">:</span> [readinessGates] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadinessGates(readinessGates)
 </code></pre></div></div><p>If specified, all readiness gates will be evaluated for pod readiness. A pod is ready when all its containers are ready AND all conditions specified in the readiness gates have status equal to &ldquo;True&rdquo; More info: <a href="https://git.k8s.io/enhancements/keps/sig-network/0007-pod-ready%2B%2B.md">https://git.k8s.io/enhancements/keps/sig-network/0007-pod-ready%2B%2B.md</a></p><code>withReadinessGates</code> takes an array of type <code>readinessGatesType</code>. You can create
 an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podReadinessGate.new()</code>.</p>
 
@@ -1519,7 +1519,7 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withReadinessGatesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadinessGatesMixinfunction(readinessGates) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(readinessGates) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ readinessGates<span style="color:#666">+:</span> readinessGates }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ readinessGates<span style="color:#666">+:</span> [readinessGates] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadinessGatesMixin(readinessGates)
 </code></pre></div></div><p>If specified, all readiness gates will be evaluated for pod readiness. A pod is ready when all its containers are ready AND all conditions specified in the readiness gates have status equal to &ldquo;True&rdquo; More info: <a href="https://git.k8s.io/enhancements/keps/sig-network/0007-pod-ready%2B%2B.md">https://git.k8s.io/enhancements/keps/sig-network/0007-pod-ready%2B%2B.md</a></p><code>withReadinessGatesMixin</code> takes an array of type <code>readinessGatesType</code>. You can create
 an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podReadinessGate.new()</code>.</p>
 
@@ -1550,7 +1550,7 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withRestartPolicy">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRestartPolicyfunction(restartPolicy) self <span style="color:#666">+</span> __specMixin({ restartPolicy<span style="color:#666">:</span> restartPolicy })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRestartPolicy(restartPolicy)
 </code></pre></div></div><p>Restart policy for all containers within the pod. One of Always, OnFailure, Never. Default to Always. More info: <a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#restart-policy">https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#restart-policy</a></p></p>
 
 
@@ -1578,7 +1578,7 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withRuntimeClassName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRuntimeClassNamefunction(runtimeClassName) self <span style="color:#666">+</span> __specMixin({ runtimeClassName<span style="color:#666">:</span> runtimeClassName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRuntimeClassName(runtimeClassName)
 </code></pre></div></div><p>RuntimeClassName refers to a RuntimeClass object in the node.k8s.io group, which should be used to run this pod.  If no RuntimeClass resource matches the named class, the pod will not be run. If unset or empty, the &ldquo;legacy&rdquo; RuntimeClass will be used, which is an implicit class with an empty definition that uses the default runtime handler. More info: <a href="https://git.k8s.io/enhancements/keps/sig-node/runtime-class.md">https://git.k8s.io/enhancements/keps/sig-node/runtime-class.md</a> This is a beta feature as of Kubernetes v1.14.</p></p>
 
 
@@ -1606,7 +1606,7 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withSchedulerName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSchedulerNamefunction(schedulerName) self <span style="color:#666">+</span> __specMixin({ schedulerName<span style="color:#666">:</span> schedulerName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSchedulerName(schedulerName)
 </code></pre></div></div><p>If specified, the pod will be dispatched by specified scheduler. If not specified, the pod will be dispatched by default scheduler.</p></p>
 
 
@@ -1634,7 +1634,7 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withServiceAccount">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServiceAccountfunction(serviceAccount) self <span style="color:#666">+</span> __specMixin({ serviceAccount<span style="color:#666">:</span> serviceAccount })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServiceAccount(serviceAccount)
 </code></pre></div></div><p>DeprecatedServiceAccount is a depreciated alias for ServiceAccountName. Deprecated: Use serviceAccountName instead.</p></p>
 
 
@@ -1662,7 +1662,7 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withServiceAccountName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServiceAccountNamefunction(serviceAccountName) self <span style="color:#666">+</span> __specMixin({ serviceAccountName<span style="color:#666">:</span> serviceAccountName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServiceAccountName(serviceAccountName)
 </code></pre></div></div><p>ServiceAccountName is the name of the ServiceAccount to use to run this pod. More info: <a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/">https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/</a></p></p>
 
 
@@ -1690,7 +1690,7 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withShareProcessNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShareProcessNamespacefunction(shareProcessNamespace) self <span style="color:#666">+</span> __specMixin({ shareProcessNamespace<span style="color:#666">:</span> shareProcessNamespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShareProcessNamespace(shareProcessNamespace)
 </code></pre></div></div><p>Share a single process namespace between all of the containers in a pod. When this is set containers will be able to view and signal processes from other containers in the same pod, and the first process in each container will not be assigned PID 1. HostPID and ShareProcessNamespace cannot both be set. Optional: Default to false. This field is beta-level and may be disabled with the PodShareProcessNamespace feature.</p></p>
 
 
@@ -1718,7 +1718,7 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withSubdomain">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSubdomainfunction(subdomain) self <span style="color:#666">+</span> __specMixin({ subdomain<span style="color:#666">:</span> subdomain })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSubdomain(subdomain)
 </code></pre></div></div><p>If specified, the fully qualified Pod hostname will be &ldquo;<hostname>.<subdomain>.<pod namespace>.svc.<cluster domain>&rdquo;. If not specified, the pod will not have a domainname at all.</p></p>
 
 
@@ -1746,7 +1746,7 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withTerminationGracePeriodSeconds">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTerminationGracePeriodSecondsfunction(terminationGracePeriodSeconds) self <span style="color:#666">+</span> __specMixin({ terminationGracePeriodSeconds<span style="color:#666">:</span> terminationGracePeriodSeconds })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTerminationGracePeriodSeconds(terminationGracePeriodSeconds)
 </code></pre></div></div><p>Optional duration in seconds the pod needs to terminate gracefully. May be decreased in delete request. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period will be used instead. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. Defaults to 30 seconds.</p></p>
 
 
@@ -1774,7 +1774,7 @@ an instance of <code>readinessGatesType</code> with <code>hidden.core.v1.podRead
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withTolerations">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTolerationsfunction(tolerations) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(tolerations) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ tolerations<span style="color:#666">:</span> tolerations }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ tolerations<span style="color:#666">:</span> [tolerations] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTolerations(tolerations)
 </code></pre></div></div><p>If specified, the pod&rsquo;s tolerations.</p><code>withTolerations</code> takes an array of type <code>tolerationsType</code>. You can create
 an instance of <code>tolerationsType</code> with <code>hidden.core.v1.toleration.new()</code>.</p>
 
@@ -1805,7 +1805,7 @@ an instance of <code>tolerationsType</code> with <code>hidden.core.v1.toleration
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withTolerationsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTolerationsMixinfunction(tolerations) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(tolerations) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ tolerations<span style="color:#666">+:</span> tolerations }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ tolerations<span style="color:#666">+:</span> [tolerations] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTolerationsMixin(tolerations)
 </code></pre></div></div><p>If specified, the pod&rsquo;s tolerations.</p><code>withTolerationsMixin</code> takes an array of type <code>tolerationsType</code>. You can create
 an instance of <code>tolerationsType</code> with <code>hidden.core.v1.toleration.new()</code>.</p>
 
@@ -1836,7 +1836,7 @@ an instance of <code>tolerationsType</code> with <code>hidden.core.v1.toleration
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withVolumes">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesfunction(volumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumes<span style="color:#666">:</span> volumes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumes<span style="color:#666">:</span> [volumes] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumes(volumes)
 </code></pre></div></div><p>List of volumes that can be mounted by containers belonging to the pod. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes">https://kubernetes.io/docs/concepts/storage/volumes</a></p><code>withVolumes</code> takes an array of type <code>volumesType</code>. You can create
 an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</code>.</p>
 
@@ -1867,7 +1867,7 @@ an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.withVolumesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesMixinfunction(volumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumes<span style="color:#666">+:</span> volumes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumes<span style="color:#666">+:</span> [volumes] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesMixin(volumes)
 </code></pre></div></div><p>List of volumes that can be mounted by containers belonging to the pod. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes">https://kubernetes.io/docs/concepts/storage/volumes</a></p><code>withVolumesMixin</code> takes an array of type <code>volumesType</code>. You can create
 an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</code>.</p>
 
@@ -1929,7 +1929,7 @@ an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(affinity) __affinityMixin(affinity)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(affinity)
 </code></pre></div></div><p></p></p>
 
 
@@ -1988,7 +1988,7 @@ an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.nodeAffinity.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(nodeAffinity) __nodeAffinityMixin(nodeAffinity)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(nodeAffinity)
 </code></pre></div></div><p></p></p>
 
 
@@ -2016,7 +2016,7 @@ an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.nodeAffinity.withPreferredDuringSchedulingIgnoredDuringExecution">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionfunction(preferredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(preferredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __nodeAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> preferredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __nodeAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> [preferredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecution(preferredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding &ldquo;weight&rdquo; to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.</p><code>withPreferredDuringSchedulingIgnoredDuringExecution</code> takes an array of type <code>preferredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.preferredSchedulingTerm.new()</code>.</p>
 
@@ -2047,7 +2047,7 @@ an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> 
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.nodeAffinity.withPreferredDuringSchedulingIgnoredDuringExecutionMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionMixinfunction(preferredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(preferredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __nodeAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> preferredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __nodeAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> [preferredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionMixin(preferredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding &ldquo;weight&rdquo; to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.</p><code>withPreferredDuringSchedulingIgnoredDuringExecutionMixin</code> takes an array of type <code>preferredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.preferredSchedulingTerm.new()</code>.</p>
 
@@ -2109,7 +2109,7 @@ an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> 
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.nodeAffinity.requiredDuringSchedulingIgnoredDuringExecution.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(requiredDuringSchedulingIgnoredDuringExecution) __requiredDuringSchedulingIgnoredDuringExecutionMixin(requiredDuringSchedulingIgnoredDuringExecution)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(requiredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p></p></p>
 
 
@@ -2137,7 +2137,7 @@ an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> 
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.nodeAffinity.requiredDuringSchedulingIgnoredDuringExecution.withNodeSelectorTerms">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTermsfunction(nodeSelectorTerms) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nodeSelectorTerms) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __requiredDuringSchedulingIgnoredDuringExecutionMixin({ nodeSelectorTerms<span style="color:#666">:</span> nodeSelectorTerms }) <span style="color:#007020;font-weight:bold">else</span> __requiredDuringSchedulingIgnoredDuringExecutionMixin({ nodeSelectorTerms<span style="color:#666">:</span> [nodeSelectorTerms] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTerms(nodeSelectorTerms)
 </code></pre></div></div><p>Required. A list of node selector terms. The terms are ORed.</p><code>withNodeSelectorTerms</code> takes an array of type <code>nodeSelectorTermsType</code>. You can create
 an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.nodeSelectorTerm.new()</code>.</p>
 
@@ -2168,7 +2168,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.nodeAffinity.requiredDuringSchedulingIgnoredDuringExecution.withNodeSelectorTermsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTermsMixinfunction(nodeSelectorTerms) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nodeSelectorTerms) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __requiredDuringSchedulingIgnoredDuringExecutionMixin({ nodeSelectorTerms<span style="color:#666">+:</span> nodeSelectorTerms }) <span style="color:#007020;font-weight:bold">else</span> __requiredDuringSchedulingIgnoredDuringExecutionMixin({ nodeSelectorTerms<span style="color:#666">+:</span> [nodeSelectorTerms] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTermsMixin(nodeSelectorTerms)
 </code></pre></div></div><p>Required. A list of node selector terms. The terms are ORed.</p><code>withNodeSelectorTermsMixin</code> takes an array of type <code>nodeSelectorTermsType</code>. You can create
 an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.nodeSelectorTerm.new()</code>.</p>
 
@@ -2237,7 +2237,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.podAffinity.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(podAffinity) __podAffinityMixin(podAffinity)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(podAffinity)
 </code></pre></div></div><p></p></p>
 
 
@@ -2265,7 +2265,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecution">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionfunction(preferredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(preferredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> preferredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> [preferredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecution(preferredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding &ldquo;weight&rdquo; to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.</p><code>withPreferredDuringSchedulingIgnoredDuringExecution</code> takes an array of type <code>preferredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.weightedPodAffinityTerm.new()</code>.</p>
 
@@ -2296,7 +2296,7 @@ an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> 
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.podAffinity.withPreferredDuringSchedulingIgnoredDuringExecutionMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionMixinfunction(preferredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(preferredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> preferredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> [preferredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionMixin(preferredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding &ldquo;weight&rdquo; to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.</p><code>withPreferredDuringSchedulingIgnoredDuringExecutionMixin</code> takes an array of type <code>preferredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.weightedPodAffinityTerm.new()</code>.</p>
 
@@ -2327,7 +2327,7 @@ an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> 
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.podAffinity.withRequiredDuringSchedulingIgnoredDuringExecution">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecutionfunction(requiredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(requiredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> requiredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> [requiredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecution(requiredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.</p><code>withRequiredDuringSchedulingIgnoredDuringExecution</code> takes an array of type <code>requiredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.podAffinityTerm.new()</code>.</p>
 
@@ -2358,7 +2358,7 @@ an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> w
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.podAffinity.withRequiredDuringSchedulingIgnoredDuringExecutionMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecutionMixinfunction(requiredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(requiredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> requiredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> [requiredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecutionMixin(requiredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.</p><code>withRequiredDuringSchedulingIgnoredDuringExecutionMixin</code> takes an array of type <code>requiredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.podAffinityTerm.new()</code>.</p>
 
@@ -2421,7 +2421,7 @@ an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> w
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.podAntiAffinity.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(podAntiAffinity) __podAntiAffinityMixin(podAntiAffinity)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(podAntiAffinity)
 </code></pre></div></div><p></p></p>
 
 
@@ -2449,7 +2449,7 @@ an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> w
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.podAntiAffinity.withPreferredDuringSchedulingIgnoredDuringExecution">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionfunction(preferredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(preferredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAntiAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> preferredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAntiAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> [preferredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecution(preferredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding &ldquo;weight&rdquo; to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.</p><code>withPreferredDuringSchedulingIgnoredDuringExecution</code> takes an array of type <code>preferredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.weightedPodAffinityTerm.new()</code>.</p>
 
@@ -2480,7 +2480,7 @@ an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> 
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.podAntiAffinity.withPreferredDuringSchedulingIgnoredDuringExecutionMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionMixinfunction(preferredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(preferredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAntiAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> preferredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAntiAffinityMixin({ preferredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> [preferredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPreferredDuringSchedulingIgnoredDuringExecutionMixin(preferredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding &ldquo;weight&rdquo; to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.</p><code>withPreferredDuringSchedulingIgnoredDuringExecutionMixin</code> takes an array of type <code>preferredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.weightedPodAffinityTerm.new()</code>.</p>
 
@@ -2511,7 +2511,7 @@ an instance of <code>preferredDuringSchedulingIgnoredDuringExecutionType</code> 
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.podAntiAffinity.withRequiredDuringSchedulingIgnoredDuringExecution">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecutionfunction(requiredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(requiredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAntiAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> requiredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAntiAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">:</span> [requiredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecution(requiredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.</p><code>withRequiredDuringSchedulingIgnoredDuringExecution</code> takes an array of type <code>requiredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.podAffinityTerm.new()</code>.</p>
 
@@ -2542,7 +2542,7 @@ an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> w
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.affinity.podAntiAffinity.withRequiredDuringSchedulingIgnoredDuringExecutionMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecutionMixinfunction(requiredDuringSchedulingIgnoredDuringExecution) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(requiredDuringSchedulingIgnoredDuringExecution) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __podAntiAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> requiredDuringSchedulingIgnoredDuringExecution }) <span style="color:#007020;font-weight:bold">else</span> __podAntiAffinityMixin({ requiredDuringSchedulingIgnoredDuringExecution<span style="color:#666">+:</span> [requiredDuringSchedulingIgnoredDuringExecution] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRequiredDuringSchedulingIgnoredDuringExecutionMixin(requiredDuringSchedulingIgnoredDuringExecution)
 </code></pre></div></div><p>If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.</p><code>withRequiredDuringSchedulingIgnoredDuringExecutionMixin</code> takes an array of type <code>requiredDuringSchedulingIgnoredDuringExecutionType</code>. You can create
 an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> with <code>hidden.core.v1.podAffinityTerm.new()</code>.</p>
 
@@ -2611,7 +2611,7 @@ an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> w
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.dnsConfig.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(dnsConfig) __dnsConfigMixin(dnsConfig)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(dnsConfig)
 </code></pre></div></div><p></p></p>
 
 
@@ -2639,7 +2639,7 @@ an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> w
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.dnsConfig.withNameservers">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNameserversfunction(nameservers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nameservers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __dnsConfigMixin({ nameservers<span style="color:#666">:</span> nameservers }) <span style="color:#007020;font-weight:bold">else</span> __dnsConfigMixin({ nameservers<span style="color:#666">:</span> [nameservers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNameservers(nameservers)
 </code></pre></div></div><p>A list of DNS name server IP addresses. This will be appended to the base nameservers generated from DNSPolicy. Duplicated nameservers will be removed.</p></p>
 
 
@@ -2667,7 +2667,7 @@ an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> w
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.dnsConfig.withNameserversMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNameserversMixinfunction(nameservers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nameservers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __dnsConfigMixin({ nameservers<span style="color:#666">+:</span> nameservers }) <span style="color:#007020;font-weight:bold">else</span> __dnsConfigMixin({ nameservers<span style="color:#666">+:</span> [nameservers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNameserversMixin(nameservers)
 </code></pre></div></div><p>A list of DNS name server IP addresses. This will be appended to the base nameservers generated from DNSPolicy. Duplicated nameservers will be removed.</p></p>
 
 
@@ -2695,7 +2695,7 @@ an instance of <code>requiredDuringSchedulingIgnoredDuringExecutionType</code> w
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.dnsConfig.withOptions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptionsfunction(options) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(options) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __dnsConfigMixin({ options<span style="color:#666">:</span> options }) <span style="color:#007020;font-weight:bold">else</span> __dnsConfigMixin({ options<span style="color:#666">:</span> [options] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptions(options)
 </code></pre></div></div><p>A list of DNS resolver options. This will be merged with the base options generated from DNSPolicy. Duplicated entries will be removed. Resolution options given in Options will override those that appear in the base DNSPolicy.</p><code>withOptions</code> takes an array of type <code>optionsType</code>. You can create
 an instance of <code>optionsType</code> with <code>hidden.core.v1.podDnsConfigOption.new()</code>.</p>
 
@@ -2726,7 +2726,7 @@ an instance of <code>optionsType</code> with <code>hidden.core.v1.podDnsConfigOp
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.dnsConfig.withOptionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptionsMixinfunction(options) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(options) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __dnsConfigMixin({ options<span style="color:#666">+:</span> options }) <span style="color:#007020;font-weight:bold">else</span> __dnsConfigMixin({ options<span style="color:#666">+:</span> [options] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptionsMixin(options)
 </code></pre></div></div><p>A list of DNS resolver options. This will be merged with the base options generated from DNSPolicy. Duplicated entries will be removed. Resolution options given in Options will override those that appear in the base DNSPolicy.</p><code>withOptionsMixin</code> takes an array of type <code>optionsType</code>. You can create
 an instance of <code>optionsType</code> with <code>hidden.core.v1.podDnsConfigOption.new()</code>.</p>
 
@@ -2757,7 +2757,7 @@ an instance of <code>optionsType</code> with <code>hidden.core.v1.podDnsConfigOp
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.dnsConfig.withSearches">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSearchesfunction(searches) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(searches) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __dnsConfigMixin({ searches<span style="color:#666">:</span> searches }) <span style="color:#007020;font-weight:bold">else</span> __dnsConfigMixin({ searches<span style="color:#666">:</span> [searches] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSearches(searches)
 </code></pre></div></div><p>A list of DNS search domains for host-name lookup. This will be appended to the base search paths generated from DNSPolicy. Duplicated search paths will be removed.</p></p>
 
 
@@ -2785,7 +2785,7 @@ an instance of <code>optionsType</code> with <code>hidden.core.v1.podDnsConfigOp
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.dnsConfig.withSearchesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSearchesMixinfunction(searches) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(searches) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __dnsConfigMixin({ searches<span style="color:#666">+:</span> searches }) <span style="color:#007020;font-weight:bold">else</span> __dnsConfigMixin({ searches<span style="color:#666">+:</span> [searches] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSearchesMixin(searches)
 </code></pre></div></div><p>A list of DNS search domains for host-name lookup. This will be appended to the base search paths generated from DNSPolicy. Duplicated search paths will be removed.</p></p>
 
 
@@ -2845,7 +2845,7 @@ an instance of <code>optionsType</code> with <code>hidden.core.v1.podDnsConfigOp
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(securityContext) __securityContextMixin(securityContext)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(securityContext)
 </code></pre></div></div><p></p></p>
 
 
@@ -2873,7 +2873,7 @@ an instance of <code>optionsType</code> with <code>hidden.core.v1.podDnsConfigOp
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.withFsGroup">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsGroupfunction(fsGroup) self <span style="color:#666">+</span> __securityContextMixin({ fsGroup<span style="color:#666">:</span> fsGroup })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsGroup(fsGroup)
 </code></pre></div></div><p>A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod:</p><p></p><p>1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR&rsquo;d with rw-rw&mdash;-</p><p></p><p>If unset, the Kubelet will not modify the ownership and permissions of any volume.</p></p>
 
 
@@ -2901,7 +2901,7 @@ an instance of <code>optionsType</code> with <code>hidden.core.v1.podDnsConfigOp
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.withRunAsGroup">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsGroupfunction(runAsGroup) self <span style="color:#666">+</span> __securityContextMixin({ runAsGroup<span style="color:#666">:</span> runAsGroup })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsGroup(runAsGroup)
 </code></pre></div></div><p>The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.</p></p>
 
 
@@ -2929,7 +2929,7 @@ an instance of <code>optionsType</code> with <code>hidden.core.v1.podDnsConfigOp
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.withRunAsNonRoot">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsNonRootfunction(runAsNonRoot) self <span style="color:#666">+</span> __securityContextMixin({ runAsNonRoot<span style="color:#666">:</span> runAsNonRoot })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsNonRoot(runAsNonRoot)
 </code></pre></div></div><p>Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.</p></p>
 
 
@@ -2957,7 +2957,7 @@ an instance of <code>optionsType</code> with <code>hidden.core.v1.podDnsConfigOp
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.withRunAsUser">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsUserfunction(runAsUser) self <span style="color:#666">+</span> __securityContextMixin({ runAsUser<span style="color:#666">:</span> runAsUser })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsUser(runAsUser)
 </code></pre></div></div><p>The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.</p></p>
 
 
@@ -2985,7 +2985,7 @@ an instance of <code>optionsType</code> with <code>hidden.core.v1.podDnsConfigOp
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.withSupplementalGroups">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSupplementalGroupsfunction(supplementalGroups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(supplementalGroups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __securityContextMixin({ supplementalGroups<span style="color:#666">:</span> supplementalGroups }) <span style="color:#007020;font-weight:bold">else</span> __securityContextMixin({ supplementalGroups<span style="color:#666">:</span> [supplementalGroups] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSupplementalGroups(supplementalGroups)
 </code></pre></div></div><p>A list of groups applied to the first process run in each container, in addition to the container&rsquo;s primary GID.  If unspecified, no groups will be added to any container.</p></p>
 
 
@@ -3013,7 +3013,7 @@ an instance of <code>optionsType</code> with <code>hidden.core.v1.podDnsConfigOp
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.withSupplementalGroupsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSupplementalGroupsMixinfunction(supplementalGroups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(supplementalGroups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __securityContextMixin({ supplementalGroups<span style="color:#666">+:</span> supplementalGroups }) <span style="color:#007020;font-weight:bold">else</span> __securityContextMixin({ supplementalGroups<span style="color:#666">+:</span> [supplementalGroups] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSupplementalGroupsMixin(supplementalGroups)
 </code></pre></div></div><p>A list of groups applied to the first process run in each container, in addition to the container&rsquo;s primary GID.  If unspecified, no groups will be added to any container.</p></p>
 
 
@@ -3041,7 +3041,7 @@ an instance of <code>optionsType</code> with <code>hidden.core.v1.podDnsConfigOp
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.withSysctls">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSysctlsfunction(sysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(sysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __securityContextMixin({ sysctls<span style="color:#666">:</span> sysctls }) <span style="color:#007020;font-weight:bold">else</span> __securityContextMixin({ sysctls<span style="color:#666">:</span> [sysctls] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSysctls(sysctls)
 </code></pre></div></div><p>Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch.</p><code>withSysctls</code> takes an array of type <code>sysctlsType</code>. You can create
 an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</code>.</p>
 
@@ -3072,7 +3072,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.withSysctlsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSysctlsMixinfunction(sysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(sysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __securityContextMixin({ sysctls<span style="color:#666">+:</span> sysctls }) <span style="color:#007020;font-weight:bold">else</span> __securityContextMixin({ sysctls<span style="color:#666">+:</span> [sysctls] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSysctlsMixin(sysctls)
 </code></pre></div></div><p>Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch.</p><code>withSysctlsMixin</code> takes an array of type <code>sysctlsType</code>. You can create
 an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</code>.</p>
 
@@ -3134,7 +3134,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.seLinuxOptions.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(seLinuxOptions) __seLinuxOptionsMixin(seLinuxOptions)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(seLinuxOptions)
 </code></pre></div></div><p></p></p>
 
 
@@ -3162,7 +3162,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.seLinuxOptions.withLevel">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevelfunction(level) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ level<span style="color:#666">:</span> level })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevel(level)
 </code></pre></div></div><p>Level is SELinux level label that applies to the container.</p></p>
 
 
@@ -3190,7 +3190,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.seLinuxOptions.withRole">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRolefunction(role) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ role<span style="color:#666">:</span> role })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRole(role)
 </code></pre></div></div><p>Role is a SELinux role label that applies to the container.</p></p>
 
 
@@ -3218,7 +3218,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.seLinuxOptions.withType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ type<span style="color:#666">:</span> type })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withType(type)
 </code></pre></div></div><p>Type is a SELinux type label that applies to the container.</p></p>
 
 
@@ -3246,7 +3246,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.seLinuxOptions.withUser">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUserfunction(user) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ user<span style="color:#666">:</span> user })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUser(user)
 </code></pre></div></div><p>User is a SELinux user label that applies to the container.</p></p>
 
 
@@ -3306,7 +3306,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.windowsOptions.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(windowsOptions) __windowsOptionsMixin(windowsOptions)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(windowsOptions)
 </code></pre></div></div><p></p></p>
 
 
@@ -3334,7 +3334,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.windowsOptions.withGmsaCredentialSpec">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGmsaCredentialSpecfunction(gmsaCredentialSpec) self <span style="color:#666">+</span> __windowsOptionsMixin({ gmsaCredentialSpec<span style="color:#666">:</span> gmsaCredentialSpec })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGmsaCredentialSpec(gmsaCredentialSpec)
 </code></pre></div></div><p>GMSACredentialSpec is where the GMSA admission webhook (<a href="https://github.com/kubernetes-sigs/windows-gmsa">https://github.com/kubernetes-sigs/windows-gmsa</a>) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field. This field is alpha-level and is only honored by servers that enable the WindowsGMSA feature flag.</p></p>
 
 
@@ -3362,7 +3362,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.pod.spec.securityContext.windowsOptions.withGmsaCredentialSpecName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGmsaCredentialSpecNamefunction(gmsaCredentialSpecName) self <span style="color:#666">+</span> __windowsOptionsMixin({ gmsaCredentialSpecName<span style="color:#666">:</span> gmsaCredentialSpecName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGmsaCredentialSpecName(gmsaCredentialSpecName)
 </code></pre></div></div><p>GMSACredentialSpecName is the name of the GMSA credential spec to use. This field is alpha-level and is only honored by servers that enable the WindowsGMSA feature flag.</p></p>
 
 

@@ -77,7 +77,7 @@
     </h5>
 
     <div class="collapse show" id="admissionregistration.v1beta1.webhookClientConfig.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -114,7 +114,7 @@
     </h5>
 
     <div class="collapse show" id="admissionregistration.v1beta1.webhookClientConfig.withCaBundle">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCaBundlefunction(caBundle) self <span style="color:#666">+</span> { caBundle<span style="color:#666">:</span> caBundle }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCaBundle(caBundle)
 </code></pre></div></div><p><code>caBundle</code> is a PEM encoded CA bundle which will be used to validate the webhook&rsquo;s server certificate. If unspecified, system trust roots on the apiserver are used.</p></p>
 
 
@@ -142,7 +142,7 @@
     </h5>
 
     <div class="collapse show" id="admissionregistration.v1beta1.webhookClientConfig.withUrl">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUrlfunction(url) self <span style="color:#666">+</span> { url<span style="color:#666">:</span> url }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUrl(url)
 </code></pre></div></div><p><code>url</code> gives the location of the webhook, in standard URL form (<code>scheme://host:port/path</code>). Exactly one of <code>url</code> or <code>service</code> must be specified.</p><p></p><p>The <code>host</code> should not refer to a service running in the cluster; use the <code>service</code> field instead. The host might be resolved via external DNS in some apiservers (e.g., <code>kube-apiserver</code> cannot resolve in-cluster DNS as that would be a layering violation). <code>host</code> may also be an IP address.</p><p></p><p>Please note that using <code>localhost</code> or <code>127.0.0.1</code> as a <code>host</code> is risky unless you take great care to run this webhook on all hosts which run an apiserver which might need to make calls to this webhook. Such installs are likely to be non-portable, i.e., not easy to turn up in a new cluster.</p><p></p><p>The scheme must be &ldquo;https&rdquo;; the URL must begin with &ldquo;https://&ldquo;.</p><p></p><p>A path is optional, and if present may be any string permissible in a URL. You may use the path to pass an arbitrary string to the webhook, for example, a cluster identifier.</p><p></p><p>Attempting to use a user or basic auth e.g. &ldquo;user:password@&rdquo; is not allowed. Fragments (&ldquo;#&hellip;&rdquo;) and query parameters (&ldquo;?&hellip;&rdquo;) are not allowed, either.</p></p>
 
 
@@ -202,7 +202,7 @@
     </h5>
 
     <div class="collapse show" id="admissionregistration.v1beta1.webhookClientConfig.service.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(service) __serviceMixin(service)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(service)
 </code></pre></div></div><p></p></p>
 
 
@@ -230,7 +230,7 @@
     </h5>
 
     <div class="collapse show" id="admissionregistration.v1beta1.webhookClientConfig.service.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __serviceMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p><code>name</code> is the name of the service. Required</p></p>
 
 
@@ -258,7 +258,7 @@
     </h5>
 
     <div class="collapse show" id="admissionregistration.v1beta1.webhookClientConfig.service.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __serviceMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p><code>namespace</code> is the namespace of the service. Required</p></p>
 
 
@@ -286,7 +286,7 @@
     </h5>
 
     <div class="collapse show" id="admissionregistration.v1beta1.webhookClientConfig.service.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __serviceMixin({ path<span style="color:#666">:</span> path })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p><code>path</code> is an optional URL path which will be sent in any request to this service.</p></p>
 
 
@@ -314,7 +314,7 @@
     </h5>
 
     <div class="collapse show" id="admissionregistration.v1beta1.webhookClientConfig.service.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __serviceMixin({ port<span style="color:#666">:</span> port })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>If specified, the port on the service that hosting webhook. Default to 443 for backward compatibility. <code>port</code> should be a valid port number (1-65535, inclusive).</p></p>
 
 

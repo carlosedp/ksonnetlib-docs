@@ -76,7 +76,7 @@ b: [ 10.10.1.1:309, 10.10.2.2:309 ]</p>
     </h5>
 
     <div class="collapse show" id="core.v1.endpointSubset.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -113,7 +113,7 @@ b: [ 10.10.1.1:309, 10.10.2.2:309 ]</p>
     </h5>
 
     <div class="collapse show" id="core.v1.endpointSubset.withAddresses">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddressesfunction(addresses) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(addresses) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { addresses<span style="color:#666">:</span> addresses } <span style="color:#007020;font-weight:bold">else</span> { addresses<span style="color:#666">:</span> [addresses] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddresses(addresses)
 </code></pre></div></div><p>IP addresses which offer the related ports that are marked as ready. These endpoints should be considered safe for load balancers and clients to utilize.</p><code>withAddresses</code> takes an array of type <code>addressesType</code>. You can create
 an instance of <code>addressesType</code> with <code>hidden.core.v1.endpointAddress.new()</code>.</p>
 
@@ -144,7 +144,7 @@ an instance of <code>addressesType</code> with <code>hidden.core.v1.endpointAddr
     </h5>
 
     <div class="collapse show" id="core.v1.endpointSubset.withAddressesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddressesMixinfunction(addresses) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(addresses) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { addresses<span style="color:#666">+:</span> addresses } <span style="color:#007020;font-weight:bold">else</span> { addresses<span style="color:#666">+:</span> [addresses] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAddressesMixin(addresses)
 </code></pre></div></div><p>IP addresses which offer the related ports that are marked as ready. These endpoints should be considered safe for load balancers and clients to utilize.</p><code>withAddressesMixin</code> takes an array of type <code>addressesType</code>. You can create
 an instance of <code>addressesType</code> with <code>hidden.core.v1.endpointAddress.new()</code>.</p>
 
@@ -175,7 +175,7 @@ an instance of <code>addressesType</code> with <code>hidden.core.v1.endpointAddr
     </h5>
 
     <div class="collapse show" id="core.v1.endpointSubset.withNotReadyAddresses">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNotReadyAddressesfunction(notReadyAddresses) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(notReadyAddresses) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { notReadyAddresses<span style="color:#666">:</span> notReadyAddresses } <span style="color:#007020;font-weight:bold">else</span> { notReadyAddresses<span style="color:#666">:</span> [notReadyAddresses] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNotReadyAddresses(notReadyAddresses)
 </code></pre></div></div><p>IP addresses which offer the related ports but are not currently marked as ready because they have not yet finished starting, have recently failed a readiness check, or have recently failed a liveness check.</p><code>withNotReadyAddresses</code> takes an array of type <code>notReadyAddressesType</code>. You can create
 an instance of <code>notReadyAddressesType</code> with <code>hidden.core.v1.endpointAddress.new()</code>.</p>
 
@@ -206,7 +206,7 @@ an instance of <code>notReadyAddressesType</code> with <code>hidden.core.v1.endp
     </h5>
 
     <div class="collapse show" id="core.v1.endpointSubset.withNotReadyAddressesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNotReadyAddressesMixinfunction(notReadyAddresses) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(notReadyAddresses) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { notReadyAddresses<span style="color:#666">+:</span> notReadyAddresses } <span style="color:#007020;font-weight:bold">else</span> { notReadyAddresses<span style="color:#666">+:</span> [notReadyAddresses] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNotReadyAddressesMixin(notReadyAddresses)
 </code></pre></div></div><p>IP addresses which offer the related ports but are not currently marked as ready because they have not yet finished starting, have recently failed a readiness check, or have recently failed a liveness check.</p><code>withNotReadyAddressesMixin</code> takes an array of type <code>notReadyAddressesType</code>. You can create
 an instance of <code>notReadyAddressesType</code> with <code>hidden.core.v1.endpointAddress.new()</code>.</p>
 
@@ -237,7 +237,7 @@ an instance of <code>notReadyAddressesType</code> with <code>hidden.core.v1.endp
     </h5>
 
     <div class="collapse show" id="core.v1.endpointSubset.withPorts">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsfunction(ports) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ports) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ports<span style="color:#666">:</span> ports } <span style="color:#007020;font-weight:bold">else</span> { ports<span style="color:#666">:</span> [ports] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPorts(ports)
 </code></pre></div></div><p>Port numbers available on the related IP addresses.</p><code>withPorts</code> takes an array of type <code>portsType</code>. You can create
 an instance of <code>portsType</code> with <code>hidden.core.v1.endpointPort.new()</code>.</p>
 
@@ -268,7 +268,7 @@ an instance of <code>portsType</code> with <code>hidden.core.v1.endpointPort.new
     </h5>
 
     <div class="collapse show" id="core.v1.endpointSubset.withPortsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsMixinfunction(ports) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ports) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { ports<span style="color:#666">+:</span> ports } <span style="color:#007020;font-weight:bold">else</span> { ports<span style="color:#666">+:</span> [ports] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortsMixin(ports)
 </code></pre></div></div><p>Port numbers available on the related IP addresses.</p><code>withPortsMixin</code> takes an array of type <code>portsType</code>. You can create
 an instance of <code>portsType</code> with <code>hidden.core.v1.endpointPort.new()</code>.</p>
 

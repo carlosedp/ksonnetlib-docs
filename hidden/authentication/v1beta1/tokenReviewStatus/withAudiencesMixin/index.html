@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAudiencesMixinfunction(audiences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(audiences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { audiences<span style="color:#666">+:</span> audiences } <span style="color:#007020;font-weight:bold">else</span> { audiences<span style="color:#666">+:</span> [audiences] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAudiencesMixin(audiences)
 </code></pre></div></div><p>Audiences are audience identifiers chosen by the authenticator that are compatible with both the TokenReview and token. An identifier is any identifier in the intersection of the TokenReviewSpec audiences and the token&rsquo;s audiences. A client of the TokenReview API that sets the spec.audiences field should validate that a compatible audience identifier is returned in the status.audiences field to ensure that the TokenReview server is audience aware. If a TokenReview returns an empty status.audience field where status.authenticated is &ldquo;true&rdquo;, the token is valid against the audience of the Kubernetes API server.</p></p>
 
 

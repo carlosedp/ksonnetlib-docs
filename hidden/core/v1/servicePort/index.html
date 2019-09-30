@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.servicePort.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction(port<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, targetPort<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>) self.withPort(port).withTargetPort(targetPort)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>(port<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, targetPort<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>)
 </code></pre></div></div><p></p></p>
 
 
@@ -97,7 +97,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.servicePort.newNamed">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newNamedfunction(name<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, port<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, targetPort<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>) self.withName(name).withPort(port).withTargetPort(targetPort)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newNamed(name<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, port<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, targetPort<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>)
 </code></pre></div></div><p></p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.servicePort.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> { name<span style="color:#666">:</span> name }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>The name of this port within the service. This must be a DNS_LABEL. All ports within a ServiceSpec must have unique names. This maps to the &lsquo;Name&rsquo; field in EndpointPort objects. Optional if only one ServicePort is defined on this service.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.servicePort.withNodePort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodePortfunction(nodePort) self <span style="color:#666">+</span> { nodePort<span style="color:#666">:</span> nodePort }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodePort(nodePort)
 </code></pre></div></div><p>The port on each node on which this service is exposed when type=NodePort or LoadBalancer. Usually assigned by the system. If specified, it will be allocated to the service if unused or else creation of the service will fail. Default is to auto-allocate a port if the ServiceType of this Service requires one. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport">https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport</a></p></p>
 
 
@@ -190,7 +190,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.servicePort.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> { port<span style="color:#666">:</span> port }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>The port that will be exposed by this service.</p></p>
 
 
@@ -218,7 +218,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.servicePort.withProtocol">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProtocolfunction(protocol) self <span style="color:#666">+</span> { protocol<span style="color:#666">:</span> protocol }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProtocol(protocol)
 </code></pre></div></div><p>The IP protocol for this port. Supports &ldquo;TCP&rdquo;, &ldquo;UDP&rdquo;, and &ldquo;SCTP&rdquo;. Default is TCP.</p></p>
 
 
@@ -246,7 +246,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.servicePort.withTargetPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTargetPortfunction(targetPort) self <span style="color:#666">+</span> { targetPort<span style="color:#666">:</span> targetPort }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTargetPort(targetPort)
 </code></pre></div></div><p>Number or name of the port to access on the pods targeted by the service. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME. If this is a string, it will be looked up as a named port in the target Pod&rsquo;s container ports. If this is not specified, the value of the &lsquo;port&rsquo; field is used (an identity map). This field is ignored for services with clusterIP=None, and should be omitted or set equal to the &lsquo;port&rsquo; field. More info: <a href="https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service">https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service</a></p></p>
 
 

@@ -6,7 +6,7 @@
     <description>Recent content in Schedulings on ksonnet lib API Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Sep 2019 17:02:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 21:17:09 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/scheduling/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,442 +14,442 @@
     <item>
       <title>new</title>
       <link>http://example.org/scheduling/v1/priorityClass/new/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/new/</guid>
-      <description>newfunction() apiVersion + kind</description>
+      <description>new()</description>
     </item>
     
     <item>
       <title>new</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/new/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/new/</guid>
-      <description>newfunction() apiVersion + kind</description>
+      <description>new()</description>
     </item>
     
     <item>
       <title>new</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/new/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/new/</guid>
-      <description>newfunction() apiVersion + kind</description>
+      <description>new()</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/initializers/mixinInstance/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/initializers/mixinInstance/</guid>
-      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+      <description>mixinInstance(initializers)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/mixinInstance/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/mixinInstance/</guid>
-      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+      <description>mixinInstance(metadata)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/initializers/mixinInstance/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/initializers/mixinInstance/</guid>
-      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+      <description>mixinInstance(initializers)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/mixinInstance/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/mixinInstance/</guid>
-      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+      <description>mixinInstance(metadata)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/initializers/mixinInstance/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/initializers/mixinInstance/</guid>
-      <description>mixinInstancefunction(initializers) __initializersMixin(initializers)</description>
+      <description>mixinInstance(initializers)</description>
     </item>
     
     <item>
       <title>mixinInstance</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/mixinInstance/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/mixinInstance/</guid>
-      <description>mixinInstancefunction(metadata) __metadataMixin(metadata)</description>
+      <description>mixinInstance(metadata)</description>
     </item>
     
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/withAnnotations/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/withAnnotations/</guid>
-      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotations(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withAnnotations/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withAnnotations/</guid>
-      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotations(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotations</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/withAnnotations/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/withAnnotations/</guid>
-      <description>withAnnotationsfunction(annotations) self + __metadataMixin({ annotations: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotations(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/withAnnotationsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/withAnnotationsMixin/</guid>
-      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotationsMixin(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withAnnotationsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withAnnotationsMixin/</guid>
-      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotationsMixin(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withAnnotationsMixin</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/withAnnotationsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/withAnnotationsMixin/</guid>
-      <description>withAnnotationsMixinfunction(annotations) self + __metadataMixin({ annotations+: annotations }) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
+      <description>withAnnotationsMixin(annotations) Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations</description>
     </item>
     
     <item>
       <title>withClusterName</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/withClusterName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/withClusterName/</guid>
-      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+      <description>withClusterName(clusterName) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
     </item>
     
     <item>
       <title>withClusterName</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withClusterName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withClusterName/</guid>
-      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+      <description>withClusterName(clusterName) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
     </item>
     
     <item>
       <title>withClusterName</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/withClusterName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/withClusterName/</guid>
-      <description>withClusterNamefunction(clusterName) self + __metadataMixin({ clusterName: clusterName }) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
+      <description>withClusterName(clusterName) The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</description>
     </item>
     
     <item>
       <title>withDescription</title>
       <link>http://example.org/scheduling/v1/priorityClass/withDescription/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/withDescription/</guid>
-      <description>withDescriptionfunction(description) self + { description: description } description is an arbitrary string that usually provides guidelines on when this priority class should be used.</description>
+      <description>withDescription(description) description is an arbitrary string that usually provides guidelines on when this priority class should be used.</description>
     </item>
     
     <item>
       <title>withDescription</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/withDescription/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/withDescription/</guid>
-      <description>withDescriptionfunction(description) self + { description: description } description is an arbitrary string that usually provides guidelines on when this priority class should be used.</description>
+      <description>withDescription(description) description is an arbitrary string that usually provides guidelines on when this priority class should be used.</description>
     </item>
     
     <item>
       <title>withDescription</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/withDescription/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/withDescription/</guid>
-      <description>withDescriptionfunction(description) self + { description: description } description is an arbitrary string that usually provides guidelines on when this priority class should be used.</description>
+      <description>withDescription(description) description is an arbitrary string that usually provides guidelines on when this priority class should be used.</description>
     </item>
     
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/withFinalizers/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/withFinalizers/</guid>
-      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizers(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withFinalizers/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withFinalizers/</guid>
-      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizers(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizers</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/withFinalizers/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/withFinalizers/</guid>
-      <description>withFinalizersfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers: finalizers }) else __metadataMixin({ finalizers: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizers(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/withFinalizersMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/withFinalizersMixin/</guid>
-      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizersMixin(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withFinalizersMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withFinalizersMixin/</guid>
-      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizersMixin(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withFinalizersMixin</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/withFinalizersMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/withFinalizersMixin/</guid>
-      <description>withFinalizersMixinfunction(finalizers) self + if std.type(finalizers) == &amp;#39;array&amp;#39; then __metadataMixin({ finalizers+: finalizers }) else __metadataMixin({ finalizers+: [finalizers] }) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
+      <description>withFinalizersMixin(finalizers) Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</description>
     </item>
     
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/withGenerateName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/withGenerateName/</guid>
-      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+      <description>withGenerateName(generateName) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
     </item>
     
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withGenerateName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withGenerateName/</guid>
-      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+      <description>withGenerateName(generateName) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
     </item>
     
     <item>
       <title>withGenerateName</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/withGenerateName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/withGenerateName/</guid>
-      <description>withGenerateNamefunction(generateName) self + __metadataMixin({ generateName: generateName }) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
+      <description>withGenerateName(generateName) GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</description>
     </item>
     
     <item>
       <title>withGlobalDefault</title>
       <link>http://example.org/scheduling/v1/priorityClass/withGlobalDefault/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/withGlobalDefault/</guid>
-      <description>withGlobalDefaultfunction(globalDefault) self + { globalDefault: globalDefault } globalDefault specifies whether this PriorityClass should be considered as the default priority for pods that do not have any priority class. Only one PriorityClass can be marked as globalDefault. However, if more than one PriorityClasses exists with their globalDefault field set to true, the smallest value of such global default PriorityClasses will be used as the default priority.</description>
+      <description>withGlobalDefault(globalDefault) globalDefault specifies whether this PriorityClass should be considered as the default priority for pods that do not have any priority class. Only one PriorityClass can be marked as globalDefault. However, if more than one PriorityClasses exists with their globalDefault field set to true, the smallest value of such global default PriorityClasses will be used as the default priority.</description>
     </item>
     
     <item>
       <title>withGlobalDefault</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/withGlobalDefault/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/withGlobalDefault/</guid>
-      <description>withGlobalDefaultfunction(globalDefault) self + { globalDefault: globalDefault } globalDefault specifies whether this PriorityClass should be considered as the default priority for pods that do not have any priority class. Only one PriorityClass can be marked as globalDefault. However, if more than one PriorityClasses exists with their globalDefault field set to true, the smallest value of such global default PriorityClasses will be used as the default priority.</description>
+      <description>withGlobalDefault(globalDefault) globalDefault specifies whether this PriorityClass should be considered as the default priority for pods that do not have any priority class. Only one PriorityClass can be marked as globalDefault. However, if more than one PriorityClasses exists with their globalDefault field set to true, the smallest value of such global default PriorityClasses will be used as the default priority.</description>
     </item>
     
     <item>
       <title>withGlobalDefault</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/withGlobalDefault/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/withGlobalDefault/</guid>
-      <description>withGlobalDefaultfunction(globalDefault) self + { globalDefault: globalDefault } globalDefault specifies whether this PriorityClass should be considered as the default priority for pods that do not have any priority class. Only one PriorityClass can be marked as globalDefault. However, if more than one PriorityClasses exists with their globalDefault field set to true, the smallest value of such global default PriorityClasses will be used as the default priority.</description>
+      <description>withGlobalDefault(globalDefault) globalDefault specifies whether this PriorityClass should be considered as the default priority for pods that do not have any priority class. Only one PriorityClass can be marked as globalDefault. However, if more than one PriorityClasses exists with their globalDefault field set to true, the smallest value of such global default PriorityClasses will be used as the default priority.</description>
     </item>
     
     <item>
       <title>withLabels</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/withLabels/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/withLabels/</guid>
-      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabels(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabels</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withLabels/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withLabels/</guid>
-      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabels(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabels</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/withLabels/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/withLabels/</guid>
-      <description>withLabelsfunction(labels) self + __metadataMixin({ labels: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabels(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/withLabelsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/withLabelsMixin/</guid>
-      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabelsMixin(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withLabelsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withLabelsMixin/</guid>
-      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabelsMixin(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withLabelsMixin</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/withLabelsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/withLabelsMixin/</guid>
-      <description>withLabelsMixinfunction(labels) self + __metadataMixin({ labels+: labels }) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
+      <description>withLabelsMixin(labels) Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels</description>
     </item>
     
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/withManagedFields/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/withManagedFields/</guid>
-      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFields(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withManagedFields/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withManagedFields/</guid>
-      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFields(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFields</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/withManagedFields/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/withManagedFields/</guid>
-      <description>withManagedFieldsfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields: managedFields }) else __metadataMixin({ managedFields: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFields(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/withManagedFieldsMixin/</guid>
-      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFieldsMixin(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withManagedFieldsMixin/</guid>
-      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFieldsMixin(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withManagedFieldsMixin</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/withManagedFieldsMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/withManagedFieldsMixin/</guid>
-      <description>withManagedFieldsMixinfunction(managedFields) self + if std.type(managedFields) == &amp;#39;array&amp;#39; then __metadataMixin({ managedFields+: managedFields }) else __metadataMixin({ managedFields+: [managedFields] }) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
+      <description>withManagedFieldsMixin(managedFields) ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&amp;rsquo;t need to set or understand this field. A workflow can be the user&amp;rsquo;s name, a controller&amp;rsquo;s name, or the name of a specific apply path like &amp;ldquo;ci-cd&amp;rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/withName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/withName/</guid>
-      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withName/</guid>
-      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withName</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/withName/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/withName/</guid>
-      <description>withNamefunction(name) self + __metadataMixin({ name: name }) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
+      <description>withName(name) Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names</description>
     </item>
     
     <item>
       <title>withNamespace</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/withNamespace/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+      <description>withNamespace(namespace) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
 
 Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
     </item>
@@ -457,10 +457,10 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withNamespace</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withNamespace/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+      <description>withNamespace(namespace) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
 
 Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
     </item>
@@ -468,10 +468,10 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withNamespace</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/withNamespace/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/withNamespace/</guid>
-      <description>withNamespacefunction(namespace) self + __metadataMixin({ namespace: namespace }) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
+      <description>withNamespace(namespace) Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &amp;ldquo;default&amp;rdquo; namespace, but &amp;ldquo;default&amp;rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.
 
 Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/namespaces</description>
     </item>
@@ -479,175 +479,187 @@ Must be a DNS_LABEL. Cannot be updated. More info: http://kubernetes.io/docs/use
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/withOwnerReferences/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/withOwnerReferences/</guid>
-      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferences(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferences takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withOwnerReferences/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withOwnerReferences/</guid>
-      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferences(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferences takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferences</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/withOwnerReferences/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/withOwnerReferences/</guid>
-      <description>withOwnerReferencesfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences: ownerReferences }) else __metadataMixin({ ownerReferences: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferences(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferences takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/withOwnerReferencesMixin/</guid>
-      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferencesMixin(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferencesMixin takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/withOwnerReferencesMixin/</guid>
-      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferencesMixin(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferencesMixin takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withOwnerReferencesMixin</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/withOwnerReferencesMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/withOwnerReferencesMixin/</guid>
-      <description>withOwnerReferencesMixinfunction(ownerReferences) self + if std.type(ownerReferences) == &amp;#39;array&amp;#39; then __metadataMixin({ ownerReferences+: ownerReferences }) else __metadataMixin({ ownerReferences+: [ownerReferences] }) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</description>
+      <description>withOwnerReferencesMixin(ownerReferences) List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.
+withOwnerReferencesMixin takes an array of type ownerReferencesType. You can create an instance of ownerReferencesType with hidden.</description>
     </item>
     
     <item>
       <title>withPending</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/initializers/withPending/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/initializers/withPending/</guid>
-      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPending takes an array of type pendingType.</description>
+      <description>withPending(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPending</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/initializers/withPending/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/initializers/withPending/</guid>
-      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPending takes an array of type pendingType.</description>
+      <description>withPending(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPending</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/initializers/withPending/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/initializers/withPending/</guid>
-      <description>withPendingfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending: pending }) else __initializersMixin({ pending: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPending takes an array of type pendingType.</description>
+      <description>withPending(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPending takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/initializers/withPendingMixin/</guid>
-      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPendingMixin takes an array of type pendingType.</description>
+      <description>withPendingMixin(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/initializers/withPendingMixin/</guid>
-      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPendingMixin takes an array of type pendingType.</description>
+      <description>withPendingMixin(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPendingMixin</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/initializers/withPendingMixin/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/initializers/withPendingMixin/</guid>
-      <description>withPendingMixinfunction(pending) self + if std.type(pending) == &amp;#39;array&amp;#39; then __initializersMixin({ pending+: pending }) else __initializersMixin({ pending+: [pending] }) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
-withPendingMixin takes an array of type pendingType.</description>
+      <description>withPendingMixin(pending) Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.
+withPendingMixin takes an array of type pendingType. You can create an instance of pendingType with hidden.meta.v1.initializer.new().
+see hidden.meta.v1.initializer</description>
     </item>
     
     <item>
       <title>withPreemptionPolicy</title>
       <link>http://example.org/scheduling/v1/priorityClass/withPreemptionPolicy/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/withPreemptionPolicy/</guid>
-      <description>withPreemptionPolicyfunction(preemptionPolicy) self + { preemptionPolicy: preemptionPolicy } PreemptionPolicy is the Policy for preempting pods with lower priority. One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset. This field is alpha-level and is only honored by servers that enable the NonPreemptingPriority feature.</description>
+      <description>withPreemptionPolicy(preemptionPolicy) PreemptionPolicy is the Policy for preempting pods with lower priority. One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset. This field is alpha-level and is only honored by servers that enable the NonPreemptingPriority feature.</description>
     </item>
     
     <item>
       <title>withPreemptionPolicy</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/withPreemptionPolicy/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/withPreemptionPolicy/</guid>
-      <description>withPreemptionPolicyfunction(preemptionPolicy) self + { preemptionPolicy: preemptionPolicy } PreemptionPolicy is the Policy for preempting pods with lower priority. One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset. This field is alpha-level and is only honored by servers that enable the NonPreemptingPriority feature.</description>
+      <description>withPreemptionPolicy(preemptionPolicy) PreemptionPolicy is the Policy for preempting pods with lower priority. One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset. This field is alpha-level and is only honored by servers that enable the NonPreemptingPriority feature.</description>
     </item>
     
     <item>
       <title>withPreemptionPolicy</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/withPreemptionPolicy/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/withPreemptionPolicy/</guid>
-      <description>withPreemptionPolicyfunction(preemptionPolicy) self + { preemptionPolicy: preemptionPolicy } PreemptionPolicy is the Policy for preempting pods with lower priority. One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset. This field is alpha-level and is only honored by servers that enable the NonPreemptingPriority feature.</description>
+      <description>withPreemptionPolicy(preemptionPolicy) PreemptionPolicy is the Policy for preempting pods with lower priority. One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset. This field is alpha-level and is only honored by servers that enable the NonPreemptingPriority feature.</description>
     </item>
     
     <item>
       <title>withValue</title>
       <link>http://example.org/scheduling/v1/priorityClass/withValue/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/withValue/</guid>
-      <description>withValuefunction(value) self + { value: value } The value of this priority class. This is the actual priority that pods receive when they have the name of this class in their pod spec.</description>
+      <description>withValue(value) The value of this priority class. This is the actual priority that pods receive when they have the name of this class in their pod spec.</description>
     </item>
     
     <item>
       <title>withValue</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/withValue/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/withValue/</guid>
-      <description>withValuefunction(value) self + { value: value } The value of this priority class. This is the actual priority that pods receive when they have the name of this class in their pod spec.</description>
+      <description>withValue(value) The value of this priority class. This is the actual priority that pods receive when they have the name of this class in their pod spec.</description>
     </item>
     
     <item>
       <title>withValue</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/withValue/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/withValue/</guid>
-      <description>withValuefunction(value) self + { value: value } The value of this priority class. This is the actual priority that pods receive when they have the name of this class in their pod spec.</description>
+      <description>withValue(value) The value of this priority class. This is the actual priority that pods receive when they have the name of this class in their pod spec.</description>
     </item>
     
     <item>
       <title>initializers</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/initializers/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -658,7 +670,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializers</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/initializers/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -669,7 +681,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializers</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/initializers/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/initializers/</guid>
       <description>An initializer is a controller which enforces some system invariant at object creation time. This field is a list of initializers that have not yet acted on this object. If nil or empty, this object has been completely initialized. Otherwise, the object is considered uninitialized and is hidden (in list/watch and get calls) from clients that haven&#39;t explicitly asked to observe uninitialized objects.
@@ -680,7 +692,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/</guid>
       <description>Standard object&#39;s metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</description>
@@ -689,7 +701,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/</guid>
       <description>Standard object&#39;s metadata. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#metadata</description>
@@ -698,7 +710,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadata</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/</guid>
       <description>Standard object&#39;s metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata</description>
@@ -707,7 +719,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/initializersType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/initializersType/</guid>
       <description></description>
@@ -716,7 +728,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/initializersType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/initializersType/</guid>
       <description></description>
@@ -725,7 +737,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>initializersType</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/initializersType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/initializersType/</guid>
       <description></description>
@@ -734,7 +746,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/managedFieldsType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/managedFieldsType/</guid>
       <description></description>
@@ -743,7 +755,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/managedFieldsType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/managedFieldsType/</guid>
       <description></description>
@@ -752,7 +764,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>managedFieldsType</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/managedFieldsType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/managedFieldsType/</guid>
       <description></description>
@@ -761,7 +773,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadataType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadataType/</guid>
       <description></description>
@@ -770,7 +782,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadataType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadataType/</guid>
       <description></description>
@@ -779,7 +791,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>metadataType</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadataType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadataType/</guid>
       <description></description>
@@ -788,7 +800,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/ownerReferencesType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -797,7 +809,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/ownerReferencesType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -806,7 +818,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>ownerReferencesType</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/ownerReferencesType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/ownerReferencesType/</guid>
       <description></description>
@@ -815,7 +827,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/scheduling/v1/priorityClass/metadata/initializers/pendingType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -824,7 +836,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/metadata/initializers/pendingType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -833,7 +845,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>pendingType</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/metadata/initializers/pendingType/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/metadata/initializers/pendingType/</guid>
       <description></description>
@@ -842,7 +854,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>priorityClass</title>
       <link>http://example.org/scheduling/priorityClass/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/priorityClass/</guid>
       <description>PriorityClass defines mapping from a priority class name to the priority integer value.  DEPRECATED - This group version of PriorityClass is deprecated by scheduling.k8s.io/v1/PriorityClass.  DEPRECATED - This group version of PriorityClass is deprecated by scheduling.k8s.io/v1/PriorityClass.  </description>
@@ -851,7 +863,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>priorityClass</title>
       <link>http://example.org/scheduling/v1/priorityClass/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1/priorityClass/</guid>
       <description>PriorityClass defines mapping from a priority class name to the priority integer value. The value can be any valid integer.</description>
@@ -860,7 +872,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>priorityClass</title>
       <link>http://example.org/scheduling/v1alpha1/priorityClass/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1alpha1/priorityClass/</guid>
       <description>DEPRECATED - This group version of PriorityClass is deprecated by scheduling.k8s.io/v1/PriorityClass. PriorityClass defines mapping from a priority class name to the priority integer value. The value can be any valid integer.</description>
@@ -869,7 +881,7 @@ When an object is created, the system will populate this list with the current s
     <item>
       <title>priorityClass</title>
       <link>http://example.org/scheduling/v1beta1/priorityClass/</link>
-      <pubDate>Mon, 30 Sep 2019 17:02:28 +0000</pubDate>
+      <pubDate>Mon, 30 Sep 2019 21:17:09 +0000</pubDate>
       
       <guid>http://example.org/scheduling/v1beta1/priorityClass/</guid>
       <description>DEPRECATED - This group version of PriorityClass is deprecated by scheduling.k8s.io/v1/PriorityClass. PriorityClass defines mapping from a priority class name to the priority integer value. The value can be any valid integer.</description>

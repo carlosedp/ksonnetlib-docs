@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withForbiddenSysctlsMixinfunction(forbiddenSysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(forbiddenSysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ forbiddenSysctls<span style="color:#666">+:</span> forbiddenSysctls }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ forbiddenSysctls<span style="color:#666">+:</span> [forbiddenSysctls] })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withForbiddenSysctlsMixin(forbiddenSysctls)
 </code></pre></div></div><p>forbiddenSysctls is a list of explicitly forbidden sysctls, defaults to none. Each entry is either a plain sysctl name or ends in &ldquo;*&rdquo; in which case it is considered as a prefix of forbidden sysctls. Single * means all sysctls are forbidden.</p><p></p><p>Examples: e.g. &ldquo;foo/<em>&rdquo; forbids &ldquo;foo/bar&rdquo;, &ldquo;foo/baz&rdquo;, etc. e.g. &ldquo;foo.</em>&rdquo; forbids &ldquo;foo.bar&rdquo;, &ldquo;foo.baz&rdquo;, etc.</p></p>
 
 

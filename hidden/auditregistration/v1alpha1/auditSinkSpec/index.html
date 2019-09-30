@@ -109,7 +109,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -173,7 +173,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.policy.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(policy) __policyMixin(policy)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(policy)
 </code></pre></div></div><p></p></p>
 
 
@@ -201,7 +201,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.policy.withLevel">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevelfunction(level) self <span style="color:#666">+</span> __policyMixin({ level<span style="color:#666">:</span> level })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevel(level)
 </code></pre></div></div><p>The Level that all requests are recorded at. available options: None, Metadata, Request, RequestResponse required</p></p>
 
 
@@ -229,7 +229,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.policy.withStages">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStagesfunction(stages) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(stages) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __policyMixin({ stages<span style="color:#666">:</span> stages }) <span style="color:#007020;font-weight:bold">else</span> __policyMixin({ stages<span style="color:#666">:</span> [stages] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStages(stages)
 </code></pre></div></div><p>Stages is a list of stages for which events are created.</p></p>
 
 
@@ -257,7 +257,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.policy.withStagesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStagesMixinfunction(stages) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(stages) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __policyMixin({ stages<span style="color:#666">+:</span> stages }) <span style="color:#007020;font-weight:bold">else</span> __policyMixin({ stages<span style="color:#666">+:</span> [stages] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStagesMixin(stages)
 </code></pre></div></div><p>Stages is a list of stages for which events are created.</p></p>
 
 
@@ -317,7 +317,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.webhook.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(webhook) __webhookMixin(webhook)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(webhook)
 </code></pre></div></div><p></p></p>
 
 
@@ -376,7 +376,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.webhook.clientConfig.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(clientConfig) __clientConfigMixin(clientConfig)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(clientConfig)
 </code></pre></div></div><p></p></p>
 
 
@@ -404,7 +404,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.webhook.clientConfig.withCaBundle">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCaBundlefunction(caBundle) self <span style="color:#666">+</span> __clientConfigMixin({ caBundle<span style="color:#666">:</span> caBundle })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCaBundle(caBundle)
 </code></pre></div></div><p><code>caBundle</code> is a PEM encoded CA bundle which will be used to validate the webhook&rsquo;s server certificate. If unspecified, system trust roots on the apiserver are used.</p></p>
 
 
@@ -432,7 +432,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.webhook.clientConfig.withUrl">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUrlfunction(url) self <span style="color:#666">+</span> __clientConfigMixin({ url<span style="color:#666">:</span> url })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUrl(url)
 </code></pre></div></div><p><code>url</code> gives the location of the webhook, in standard URL form (<code>scheme://host:port/path</code>). Exactly one of <code>url</code> or <code>service</code> must be specified.</p><p></p><p>The <code>host</code> should not refer to a service running in the cluster; use the <code>service</code> field instead. The host might be resolved via external DNS in some apiservers (e.g., <code>kube-apiserver</code> cannot resolve in-cluster DNS as that would be a layering violation). <code>host</code> may also be an IP address.</p><p></p><p>Please note that using <code>localhost</code> or <code>127.0.0.1</code> as a <code>host</code> is risky unless you take great care to run this webhook on all hosts which run an apiserver which might need to make calls to this webhook. Such installs are likely to be non-portable, i.e., not easy to turn up in a new cluster.</p><p></p><p>The scheme must be &ldquo;https&rdquo;; the URL must begin with &ldquo;https://&ldquo;.</p><p></p><p>A path is optional, and if present may be any string permissible in a URL. You may use the path to pass an arbitrary string to the webhook, for example, a cluster identifier.</p><p></p><p>Attempting to use a user or basic auth e.g. &ldquo;user:password@&rdquo; is not allowed. Fragments (&ldquo;#&hellip;&rdquo;) and query parameters (&ldquo;?&hellip;&rdquo;) are not allowed, either.</p></p>
 
 
@@ -491,7 +491,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.webhook.clientConfig.service.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(service) __serviceMixin(service)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(service)
 </code></pre></div></div><p></p></p>
 
 
@@ -519,7 +519,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.webhook.clientConfig.service.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __serviceMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p><code>name</code> is the name of the service. Required</p></p>
 
 
@@ -547,7 +547,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.webhook.clientConfig.service.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __serviceMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p><code>namespace</code> is the namespace of the service. Required</p></p>
 
 
@@ -575,7 +575,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.webhook.clientConfig.service.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __serviceMixin({ path<span style="color:#666">:</span> path })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p><code>path</code> is an optional URL path which will be sent in any request to this service.</p></p>
 
 
@@ -603,7 +603,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.webhook.clientConfig.service.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __serviceMixin({ port<span style="color:#666">:</span> port })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>If specified, the port on the service that hosting webhook. Default to 443 for backward compatibility. <code>port</code> should be a valid port number (1-65535, inclusive).</p></p>
 
 
@@ -669,7 +669,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.webhook.throttle.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(throttle) __throttleMixin(throttle)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(throttle)
 </code></pre></div></div><p></p></p>
 
 
@@ -697,7 +697,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.webhook.throttle.withBurst">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withBurstfunction(burst) self <span style="color:#666">+</span> __throttleMixin({ burst<span style="color:#666">:</span> burst })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withBurst(burst)
 </code></pre></div></div><p>ThrottleBurst is the maximum number of events sent at the same moment default 15 QPS</p></p>
 
 
@@ -725,7 +725,7 @@
     </h5>
 
     <div class="collapse show" id="auditregistration.v1alpha1.auditSinkSpec.webhook.throttle.withQps">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withQpsfunction(qps) self <span style="color:#666">+</span> __throttleMixin({ qps<span style="color:#666">:</span> qps })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withQps(qps)
 </code></pre></div></div><p>ThrottleQPS maximum number of batches per second default 10 QPS</p></p>
 
 

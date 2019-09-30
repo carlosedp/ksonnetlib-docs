@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedTopologiesfunction(allowedTopologies) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(allowedTopologies) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { allowedTopologies<span style="color:#666">:</span> allowedTopologies } <span style="color:#007020;font-weight:bold">else</span> { allowedTopologies<span style="color:#666">:</span> [allowedTopologies] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAllowedTopologies(allowedTopologies)
 </code></pre></div></div><p>Restrict the node topologies where volumes can be dynamically provisioned. Each volume plugin defines its own supported topology specifications. An empty TopologySelectorTerm list means there is no topology restriction. This field is only honored by servers that enable the VolumeScheduling feature.</p><code>withAllowedTopologies</code> takes an array of type <code>allowedTopologiesType</code>. You can create
 an instance of <code>allowedTopologiesType</code> with <code>hidden.core.v1.topologySelectorTerm.new()</code>.</p>
 

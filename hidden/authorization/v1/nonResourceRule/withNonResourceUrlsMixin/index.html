@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNonResourceUrlsMixinfunction(nonResourceUrls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nonResourceUrls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { nonResourceURLs<span style="color:#666">+:</span> nonResourceUrls } <span style="color:#007020;font-weight:bold">else</span> { nonResourceURLs<span style="color:#666">+:</span> [nonResourceUrls] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNonResourceUrlsMixin(nonResourceUrls)
 </code></pre></div></div><p>NonResourceURLs is a set of partial urls that a user should have access to.  <em>s are allowed, but only as the full, final step in the path.  &ldquo;</em>&rdquo; means all.</p></p>
 
 

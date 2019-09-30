@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSelector.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSelector.withNodeSelectorTerms">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTermsfunction(nodeSelectorTerms) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nodeSelectorTerms) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { nodeSelectorTerms<span style="color:#666">:</span> nodeSelectorTerms } <span style="color:#007020;font-weight:bold">else</span> { nodeSelectorTerms<span style="color:#666">:</span> [nodeSelectorTerms] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTerms(nodeSelectorTerms)
 </code></pre></div></div><p>Required. A list of node selector terms. The terms are ORed.</p><code>withNodeSelectorTerms</code> takes an array of type <code>nodeSelectorTermsType</code>. You can create
 an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.nodeSelectorTerm.new()</code>.</p>
 
@@ -137,7 +137,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.nodeSelector.withNodeSelectorTermsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTermsMixinfunction(nodeSelectorTerms) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nodeSelectorTerms) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { nodeSelectorTerms<span style="color:#666">+:</span> nodeSelectorTerms } <span style="color:#007020;font-weight:bold">else</span> { nodeSelectorTerms<span style="color:#666">+:</span> [nodeSelectorTerms] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTermsMixin(nodeSelectorTerms)
 </code></pre></div></div><p>Required. A list of node selector terms. The terms are ORed.</p><code>withNodeSelectorTermsMixin</code> takes an array of type <code>nodeSelectorTermsType</code>. You can create
 an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.nodeSelectorTerm.new()</code>.</p>
 

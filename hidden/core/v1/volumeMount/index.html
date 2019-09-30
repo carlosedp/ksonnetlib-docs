@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.volumeMount.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction(name<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, mountPath<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, readOnly<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">false</span>) self.withMountPath(mountPath).withName(name).withReadOnly(readOnly)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>(name<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, mountPath<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>, readOnly<span style="color:#666">=</span><span style="color:#007020;font-weight:bold">false</span>)
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.volumeMount.withMountPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMountPathfunction(mountPath) self <span style="color:#666">+</span> { mountPath<span style="color:#666">:</span> mountPath }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMountPath(mountPath)
 </code></pre></div></div><p>Path within the container at which the volume should be mounted.  Must not contain &lsquo;:&lsquo;.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.volumeMount.withMountPropagation">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMountPropagationfunction(mountPropagation) self <span style="color:#666">+</span> { mountPropagation<span style="color:#666">:</span> mountPropagation }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMountPropagation(mountPropagation)
 </code></pre></div></div><p>mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.volumeMount.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> { name<span style="color:#666">:</span> name }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>This must match the Name of a Volume.</p></p>
 
 
@@ -190,7 +190,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.volumeMount.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> { readOnly<span style="color:#666">:</span> readOnly }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.</p></p>
 
 
@@ -218,7 +218,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.volumeMount.withSubPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSubPathfunction(subPath) self <span style="color:#666">+</span> { subPath<span style="color:#666">:</span> subPath }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSubPath(subPath)
 </code></pre></div></div><p>Path within the volume from which the container&rsquo;s volume should be mounted. Defaults to &ldquo;&rdquo; (volume&rsquo;s root).</p></p>
 
 
@@ -246,7 +246,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.volumeMount.withSubPathExpr">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSubPathExprfunction(subPathExpr) self <span style="color:#666">+</span> { subPathExpr<span style="color:#666">:</span> subPathExpr }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSubPathExpr(subPathExpr)
 </code></pre></div></div><p>Expanded path within the volume from which the container&rsquo;s volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container&rsquo;s environment. Defaults to &ldquo;&rdquo; (volume&rsquo;s root). SubPathExpr and SubPath are mutually exclusive. This field is beta in 1.15.</p></p>
 
 

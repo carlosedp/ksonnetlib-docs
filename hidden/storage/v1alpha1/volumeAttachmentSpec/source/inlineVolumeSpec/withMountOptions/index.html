@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMountOptionsfunction(mountOptions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(mountOptions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __inlineVolumeSpecMixin({ mountOptions<span style="color:#666">:</span> mountOptions }) <span style="color:#007020;font-weight:bold">else</span> __inlineVolumeSpecMixin({ mountOptions<span style="color:#666">:</span> [mountOptions] })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMountOptions(mountOptions)
 </code></pre></div></div><p>A list of mount options, e.g. [&ldquo;ro&rdquo;, &ldquo;soft&rdquo;]. Not validated - mount will simply fail if one is invalid. More info: <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/#mount-options">https://kubernetes.io/docs/concepts/storage/persistent-volumes/#mount-options</a></p></p>
 
 

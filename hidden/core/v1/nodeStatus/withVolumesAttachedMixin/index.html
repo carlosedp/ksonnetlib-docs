@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesAttachedMixinfunction(volumesAttached) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumesAttached) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { volumesAttached<span style="color:#666">+:</span> volumesAttached } <span style="color:#007020;font-weight:bold">else</span> { volumesAttached<span style="color:#666">+:</span> [volumesAttached] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesAttachedMixin(volumesAttached)
 </code></pre></div></div><p>List of volumes that are attached to the node.</p><code>withVolumesAttachedMixin</code> takes an array of type <code>volumesAttachedType</code>. You can create
 an instance of <code>volumesAttachedType</code> with <code>hidden.core.v1.attachedVolume.new()</code>.</p>
 

@@ -133,7 +133,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -197,7 +197,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.postStart.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(postStart) __postStartMixin(postStart)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(postStart)
 </code></pre></div></div><p></p></p>
 
 
@@ -256,7 +256,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.postStart.exec.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(exec) __execMixin(exec)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(exec)
 </code></pre></div></div><p></p></p>
 
 
@@ -284,7 +284,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.postStart.exec.withCommand">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">:</span> [command] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommand(command)
 </code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
 
 
@@ -312,7 +312,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.postStart.exec.withCommandMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixinfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">+:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">+:</span> [command] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixin(command)
 </code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
 
 
@@ -372,7 +372,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.postStart.httpGet.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(httpGet) __httpGetMixin(httpGet)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(httpGet)
 </code></pre></div></div><p></p></p>
 
 
@@ -400,7 +400,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.postStart.httpGet.withHost">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __httpGetMixin({ host<span style="color:#666">:</span> host })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHost(host)
 </code></pre></div></div><p>Host name to connect to, defaults to the pod IP. You probably want to set &ldquo;Host&rdquo; in httpHeaders instead.</p></p>
 
 
@@ -428,7 +428,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.postStart.httpGet.withHttpHeaders">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">:</span> [httpHeaders] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeaders(httpHeaders)
 </code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeaders</code> takes an array of type <code>httpHeadersType</code>. You can create
 an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
 
@@ -459,7 +459,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.postStart.httpGet.withHttpHeadersMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixinfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> [httpHeaders] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixin(httpHeaders)
 </code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeadersMixin</code> takes an array of type <code>httpHeadersType</code>. You can create
 an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
 
@@ -490,7 +490,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.postStart.httpGet.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __httpGetMixin({ path<span style="color:#666">:</span> path })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>Path to access on the HTTP server.</p></p>
 
 
@@ -518,7 +518,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.postStart.httpGet.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __httpGetMixin({ port<span style="color:#666">:</span> port })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
 
 
@@ -546,7 +546,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.postStart.httpGet.withScheme">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSchemefunction(scheme) self <span style="color:#666">+</span> __httpGetMixin({ scheme<span style="color:#666">:</span> scheme })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withScheme(scheme)
 </code></pre></div></div><p>Scheme to use for connecting to the host. Defaults to HTTP.</p></p>
 
 
@@ -606,7 +606,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.postStart.tcpSocket.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(tcpSocket) __tcpSocketMixin(tcpSocket)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(tcpSocket)
 </code></pre></div></div><p></p></p>
 
 
@@ -634,7 +634,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.postStart.tcpSocket.withHost">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __tcpSocketMixin({ host<span style="color:#666">:</span> host })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHost(host)
 </code></pre></div></div><p>Optional: Host name to connect to, defaults to the pod IP.</p></p>
 
 
@@ -662,7 +662,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.postStart.tcpSocket.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __tcpSocketMixin({ port<span style="color:#666">:</span> port })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
 
 
@@ -728,7 +728,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.preStop.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(preStop) __preStopMixin(preStop)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(preStop)
 </code></pre></div></div><p></p></p>
 
 
@@ -787,7 +787,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.preStop.exec.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(exec) __execMixin(exec)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(exec)
 </code></pre></div></div><p></p></p>
 
 
@@ -815,7 +815,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.preStop.exec.withCommand">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">:</span> [command] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommand(command)
 </code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
 
 
@@ -843,7 +843,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.preStop.exec.withCommandMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixinfunction(command) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(command) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __execMixin({ command<span style="color:#666">+:</span> command }) <span style="color:#007020;font-weight:bold">else</span> __execMixin({ command<span style="color:#666">+:</span> [command] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCommandMixin(command)
 </code></pre></div></div><p>Command is the command line to execute inside the container, the working directory for the command  is root (&lsquo;/&rsquo;) in the container&rsquo;s filesystem. The command is simply exec&rsquo;d, it is not run inside a shell, so traditional shell instructions (&lsquo;|&rsquo;, etc) won&rsquo;t work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.</p></p>
 
 
@@ -903,7 +903,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.preStop.httpGet.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(httpGet) __httpGetMixin(httpGet)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(httpGet)
 </code></pre></div></div><p></p></p>
 
 
@@ -931,7 +931,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.preStop.httpGet.withHost">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __httpGetMixin({ host<span style="color:#666">:</span> host })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHost(host)
 </code></pre></div></div><p>Host name to connect to, defaults to the pod IP. You probably want to set &ldquo;Host&rdquo; in httpHeaders instead.</p></p>
 
 
@@ -959,7 +959,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.preStop.httpGet.withHttpHeaders">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">:</span> [httpHeaders] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeaders(httpHeaders)
 </code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeaders</code> takes an array of type <code>httpHeadersType</code>. You can create
 an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
 
@@ -990,7 +990,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.preStop.httpGet.withHttpHeadersMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixinfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> httpHeaders }) <span style="color:#007020;font-weight:bold">else</span> __httpGetMixin({ httpHeaders<span style="color:#666">+:</span> [httpHeaders] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixin(httpHeaders)
 </code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeadersMixin</code> takes an array of type <code>httpHeadersType</code>. You can create
 an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
 
@@ -1021,7 +1021,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.preStop.httpGet.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __httpGetMixin({ path<span style="color:#666">:</span> path })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>Path to access on the HTTP server.</p></p>
 
 
@@ -1049,7 +1049,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.preStop.httpGet.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __httpGetMixin({ port<span style="color:#666">:</span> port })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
 
 
@@ -1077,7 +1077,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.preStop.httpGet.withScheme">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSchemefunction(scheme) self <span style="color:#666">+</span> __httpGetMixin({ scheme<span style="color:#666">:</span> scheme })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withScheme(scheme)
 </code></pre></div></div><p>Scheme to use for connecting to the host. Defaults to HTTP.</p></p>
 
 
@@ -1137,7 +1137,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.preStop.tcpSocket.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(tcpSocket) __tcpSocketMixin(tcpSocket)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(tcpSocket)
 </code></pre></div></div><p></p></p>
 
 
@@ -1165,7 +1165,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.preStop.tcpSocket.withHost">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> __tcpSocketMixin({ host<span style="color:#666">:</span> host })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHost(host)
 </code></pre></div></div><p>Optional: Host name to connect to, defaults to the pod IP.</p></p>
 
 
@@ -1193,7 +1193,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.lifecycle.preStop.tcpSocket.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> __tcpSocketMixin({ port<span style="color:#666">:</span> port })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
 
 

@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeClaimList.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction(items<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>) self.withItems(items)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>(items<span style="color:#666">=</span><span style="color:#4070a0">&#39;&#39;</span>)
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeClaimList.withItems">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withItemsfunction(items) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(items) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { items<span style="color:#666">:</span> items } <span style="color:#007020;font-weight:bold">else</span> { items<span style="color:#666">:</span> [items] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withItems(items)
 </code></pre></div></div><p>A list of persistent volume claims. More info: <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims">https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims</a></p><code>withItems</code> takes an array of type <code>itemsType</code>. You can create
 an instance of <code>itemsType</code> with <code>hidden.core.v1.persistentVolumeClaim.new()</code>.</p>
 
@@ -137,7 +137,7 @@ an instance of <code>itemsType</code> with <code>hidden.core.v1.persistentVolume
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeClaimList.withItemsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withItemsMixinfunction(items) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(items) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { items<span style="color:#666">+:</span> items } <span style="color:#007020;font-weight:bold">else</span> { items<span style="color:#666">+:</span> [items] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withItemsMixin(items)
 </code></pre></div></div><p>A list of persistent volume claims. More info: <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims">https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims</a></p><code>withItemsMixin</code> takes an array of type <code>itemsType</code>. You can create
 an instance of <code>itemsType</code> with <code>hidden.core.v1.persistentVolumeClaim.new()</code>.</p>
 

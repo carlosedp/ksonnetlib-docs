@@ -117,7 +117,7 @@
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -181,7 +181,7 @@
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.describedObject.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(describedObject) __describedObjectMixin(describedObject)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(describedObject)
 </code></pre></div></div><p></p></p>
 
 
@@ -209,7 +209,7 @@
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.describedObject.withKind">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKindfunction(kind) self <span style="color:#666">+</span> __describedObjectMixin({ kind<span style="color:#666">:</span> kind })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKind(kind)
 </code></pre></div></div><p>Kind of the referent; More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds&quot;">https://git.k8s.io/community/contributors/devel/api-conventions.md#types-kinds&quot;</a></p></p>
 
 
@@ -237,7 +237,7 @@
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.describedObject.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __describedObjectMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name of the referent; More info: <a href="http://kubernetes.io/docs/user-guide/identifiers#names">http://kubernetes.io/docs/user-guide/identifiers#names</a></p></p>
 
 
@@ -297,7 +297,7 @@
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.metric.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(metric) __metricMixin(metric)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(metric)
 </code></pre></div></div><p></p></p>
 
 
@@ -325,7 +325,7 @@
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.metric.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __metricMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>name is the name of the given metric</p></p>
 
 
@@ -384,7 +384,7 @@
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.metric.selector.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(selector) __selectorMixin(selector)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(selector)
 </code></pre></div></div><p></p></p>
 
 
@@ -412,7 +412,7 @@
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.metric.selector.withMatchExpressions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __selectorMixin({ matchExpressions<span style="color:#666">:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __selectorMixin({ matchExpressions<span style="color:#666">:</span> [matchExpressions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressions(matchExpressions)
 </code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressions</code> takes an array of type <code>matchExpressionsType</code>. You can create
 an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
 
@@ -443,7 +443,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.metric.selector.withMatchExpressionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __selectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __selectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixin(matchExpressions)
 </code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
 an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
 
@@ -474,7 +474,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.metric.selector.withMatchLabels">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsfunction(matchLabels) self <span style="color:#666">+</span> __selectorMixin({ matchLabels<span style="color:#666">:</span> matchLabels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabels(matchLabels)
 </code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
 
 
@@ -502,7 +502,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.metric.selector.withMatchLabelsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixinfunction(matchLabels) self <span style="color:#666">+</span> __selectorMixin({ matchLabels<span style="color:#666">+:</span> matchLabels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixin(matchLabels)
 </code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
 
 
@@ -568,7 +568,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.target.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(target) __targetMixin(target)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(target)
 </code></pre></div></div><p></p></p>
 
 
@@ -596,7 +596,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.target.withAverageUtilization">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAverageUtilizationfunction(averageUtilization) self <span style="color:#666">+</span> __targetMixin({ averageUtilization<span style="color:#666">:</span> averageUtilization })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAverageUtilization(averageUtilization)
 </code></pre></div></div><p>averageUtilization is the target value of the average of the resource metric across all relevant pods, represented as a percentage of the requested value of the resource for the pods. Currently only valid for Resource metric source type</p></p>
 
 
@@ -624,7 +624,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.target.withType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> __targetMixin({ type<span style="color:#666">:</span> type })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withType(type)
 </code></pre></div></div><p>type represents whether the metric type is Utilization, Value, or AverageValue</p></p>
 
 
@@ -683,7 +683,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.target.averageValue.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(averageValue) __averageValueMixin(averageValue)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(averageValue)
 </code></pre></div></div><p></p></p>
 
 
@@ -743,7 +743,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="autoscaling.v2beta2.objectMetricSource.target.value.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(value) __valueMixin(value)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(value)
 </code></pre></div></div><p></p></p>
 
 

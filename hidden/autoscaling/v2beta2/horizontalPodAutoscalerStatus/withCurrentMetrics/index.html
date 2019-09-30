@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCurrentMetricsfunction(currentMetrics) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(currentMetrics) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { currentMetrics<span style="color:#666">:</span> currentMetrics } <span style="color:#007020;font-weight:bold">else</span> { currentMetrics<span style="color:#666">:</span> [currentMetrics] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCurrentMetrics(currentMetrics)
 </code></pre></div></div><p>currentMetrics is the last read state of the metrics used by this autoscaler.</p><code>withCurrentMetrics</code> takes an array of type <code>currentMetricsType</code>. You can create
 an instance of <code>currentMetricsType</code> with <code>hidden.autoscaling.v2beta2.metricStatus.new()</code>.</p>
 

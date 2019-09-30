@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.statusDetails.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="meta.v1.statusDetails.withCauses">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCausesfunction(causes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(causes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { causes<span style="color:#666">:</span> causes } <span style="color:#007020;font-weight:bold">else</span> { causes<span style="color:#666">:</span> [causes] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCauses(causes)
 </code></pre></div></div><p>The Causes array includes more details associated with the StatusReason failure. Not all StatusReasons may provide detailed causes.</p><code>withCauses</code> takes an array of type <code>causesType</code>. You can create
 an instance of <code>causesType</code> with <code>hidden.meta.v1.statusCause.new()</code>.</p>
 
@@ -137,7 +137,7 @@ an instance of <code>causesType</code> with <code>hidden.meta.v1.statusCause.new
     </h5>
 
     <div class="collapse show" id="meta.v1.statusDetails.withCausesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCausesMixinfunction(causes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(causes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { causes<span style="color:#666">+:</span> causes } <span style="color:#007020;font-weight:bold">else</span> { causes<span style="color:#666">+:</span> [causes] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCausesMixin(causes)
 </code></pre></div></div><p>The Causes array includes more details associated with the StatusReason failure. Not all StatusReasons may provide detailed causes.</p><code>withCausesMixin</code> takes an array of type <code>causesType</code>. You can create
 an instance of <code>causesType</code> with <code>hidden.meta.v1.statusCause.new()</code>.</p>
 
@@ -168,7 +168,7 @@ an instance of <code>causesType</code> with <code>hidden.meta.v1.statusCause.new
     </h5>
 
     <div class="collapse show" id="meta.v1.statusDetails.withGroup">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupfunction(group) self <span style="color:#666">+</span> { group<span style="color:#666">:</span> group }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroup(group)
 </code></pre></div></div><p>The group attribute of the resource associated with the status StatusReason.</p></p>
 
 
@@ -196,7 +196,7 @@ an instance of <code>causesType</code> with <code>hidden.meta.v1.statusCause.new
     </h5>
 
     <div class="collapse show" id="meta.v1.statusDetails.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> { name<span style="color:#666">:</span> name }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>The name attribute of the resource associated with the status StatusReason (when there is a single name which can be described).</p></p>
 
 
@@ -224,7 +224,7 @@ an instance of <code>causesType</code> with <code>hidden.meta.v1.statusCause.new
     </h5>
 
     <div class="collapse show" id="meta.v1.statusDetails.withRetryAfterSeconds">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRetryAfterSecondsfunction(retryAfterSeconds) self <span style="color:#666">+</span> { retryAfterSeconds<span style="color:#666">:</span> retryAfterSeconds }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRetryAfterSeconds(retryAfterSeconds)
 </code></pre></div></div><p>If specified, the time in seconds before the operation should be retried. Some errors may indicate the client must take an alternate action - for those errors this field may indicate how long to wait before taking the alternate action.</p></p>
 
 
@@ -252,7 +252,7 @@ an instance of <code>causesType</code> with <code>hidden.meta.v1.statusCause.new
     </h5>
 
     <div class="collapse show" id="meta.v1.statusDetails.withUid">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> { uid<span style="color:#666">:</span> uid }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUid(uid)
 </code></pre></div></div><p>UID of the resource. (when there is a single resource which can be described). More info: <a href="http://kubernetes.io/docs/user-guide/identifiers#uids">http://kubernetes.io/docs/user-guide/identifiers#uids</a></p></p>
 
 

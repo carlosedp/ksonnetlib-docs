@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="batch.v1.jobStatus.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="batch.v1.jobStatus.withActive">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withActivefunction(active) self <span style="color:#666">+</span> { active<span style="color:#666">:</span> active }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withActive(active)
 </code></pre></div></div><p>The number of actively running pods.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="batch.v1.jobStatus.withCompletionTime">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCompletionTimefunction(completionTime) self <span style="color:#666">+</span> { completionTime<span style="color:#666">:</span> completionTime }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCompletionTime(completionTime)
 </code></pre></div></div><p>Represents time when the job was completed. It is not guaranteed to be set in happens-before order across separate operations. It is represented in RFC3339 form and is in UTC.</p></p>
 
 
@@ -162,7 +162,7 @@
     </h5>
 
     <div class="collapse show" id="batch.v1.jobStatus.withConditions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">:</span> [conditions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditions(conditions)
 </code></pre></div></div><p>The latest available observations of an object&rsquo;s current state. More info: <a href="https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/">https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/</a></p><code>withConditions</code> takes an array of type <code>conditionsType</code>. You can create
 an instance of <code>conditionsType</code> with <code>hidden.batch.v1.jobCondition.new()</code>.</p>
 
@@ -193,7 +193,7 @@ an instance of <code>conditionsType</code> with <code>hidden.batch.v1.jobConditi
     </h5>
 
     <div class="collapse show" id="batch.v1.jobStatus.withConditionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixinfunction(conditions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(conditions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { conditions<span style="color:#666">+:</span> conditions } <span style="color:#007020;font-weight:bold">else</span> { conditions<span style="color:#666">+:</span> [conditions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withConditionsMixin(conditions)
 </code></pre></div></div><p>The latest available observations of an object&rsquo;s current state. More info: <a href="https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/">https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/</a></p><code>withConditionsMixin</code> takes an array of type <code>conditionsType</code>. You can create
 an instance of <code>conditionsType</code> with <code>hidden.batch.v1.jobCondition.new()</code>.</p>
 
@@ -224,7 +224,7 @@ an instance of <code>conditionsType</code> with <code>hidden.batch.v1.jobConditi
     </h5>
 
     <div class="collapse show" id="batch.v1.jobStatus.withFailed">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFailedfunction(failed) self <span style="color:#666">+</span> { failed<span style="color:#666">:</span> failed }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFailed(failed)
 </code></pre></div></div><p>The number of pods which reached phase Failed.</p></p>
 
 
@@ -252,7 +252,7 @@ an instance of <code>conditionsType</code> with <code>hidden.batch.v1.jobConditi
     </h5>
 
     <div class="collapse show" id="batch.v1.jobStatus.withStartTime">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStartTimefunction(startTime) self <span style="color:#666">+</span> { startTime<span style="color:#666">:</span> startTime }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStartTime(startTime)
 </code></pre></div></div><p>Represents time when the job was acknowledged by the job controller. It is not guaranteed to be set in happens-before order across separate operations. It is represented in RFC3339 form and is in UTC.</p></p>
 
 
@@ -280,7 +280,7 @@ an instance of <code>conditionsType</code> with <code>hidden.batch.v1.jobConditi
     </h5>
 
     <div class="collapse show" id="batch.v1.jobStatus.withSucceeded">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSucceededfunction(succeeded) self <span style="color:#666">+</span> { succeeded<span style="color:#666">:</span> succeeded }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSucceeded(succeeded)
 </code></pre></div></div><p>The number of pods which reached phase Succeeded.</p></p>
 
 

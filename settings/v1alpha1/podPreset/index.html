@@ -101,7 +101,7 @@
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() apiVersion <span style="color:#666">+</span> kind
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -165,7 +165,7 @@
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(metadata) __metadataMixin(metadata)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(metadata)
 </code></pre></div></div><p></p></p>
 
 
@@ -193,7 +193,7 @@
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.withAnnotations">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsfunction(annotations) self <span style="color:#666">+</span> __metadataMixin({ annotations<span style="color:#666">:</span> annotations })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotations(annotations)
 </code></pre></div></div><p>Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: <a href="http://kubernetes.io/docs/user-guide/annotations">http://kubernetes.io/docs/user-guide/annotations</a></p></p>
 
 
@@ -221,7 +221,7 @@
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.withAnnotationsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsMixinfunction(annotations) self <span style="color:#666">+</span> __metadataMixin({ annotations<span style="color:#666">+:</span> annotations })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAnnotationsMixin(annotations)
 </code></pre></div></div><p>Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: <a href="http://kubernetes.io/docs/user-guide/annotations">http://kubernetes.io/docs/user-guide/annotations</a></p></p>
 
 
@@ -249,7 +249,7 @@
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.withClusterName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterNamefunction(clusterName) self <span style="color:#666">+</span> __metadataMixin({ clusterName<span style="color:#666">:</span> clusterName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withClusterName(clusterName)
 </code></pre></div></div><p>The name of the cluster which the object belongs to. This is used to distinguish resources with same name and namespace in different clusters. This field is not set anywhere right now and apiserver is going to ignore it if set in create or update request.</p></p>
 
 
@@ -277,7 +277,7 @@
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.withFinalizers">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersfunction(finalizers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(finalizers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ finalizers<span style="color:#666">:</span> finalizers }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ finalizers<span style="color:#666">:</span> [finalizers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizers(finalizers)
 </code></pre></div></div><p>Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</p></p>
 
 
@@ -305,7 +305,7 @@
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.withFinalizersMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersMixinfunction(finalizers) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(finalizers) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ finalizers<span style="color:#666">+:</span> finalizers }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ finalizers<span style="color:#666">+:</span> [finalizers] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFinalizersMixin(finalizers)
 </code></pre></div></div><p>Must be empty before the object is deleted from the registry. Each entry is an identifier for the responsible component that will remove the entry from the list. If the deletionTimestamp of the object is non-nil, entries in this list can only be removed.</p></p>
 
 
@@ -333,7 +333,7 @@
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.withGenerateName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGenerateNamefunction(generateName) self <span style="color:#666">+</span> __metadataMixin({ generateName<span style="color:#666">:</span> generateName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGenerateName(generateName)
 </code></pre></div></div><p>GenerateName is an optional prefix, used by the server, to generate a unique name ONLY IF the Name field has not been provided. If this field is used, the name returned to the client will be different than the name passed. This value will also be combined with a unique suffix. The provided value has the same validation rules as the Name field, and may be truncated by the length of the suffix required to make the value unique on the server.</p><p></p><p>If this field is specified and the generated name exists, the server will NOT return a 409 - instead, it will either return 201 Created or 500 with Reason ServerTimeout indicating a unique name could not be found in the time allotted, and the client should retry (optionally after the time indicated in the Retry-After header).</p><p></p><p>Applied only if Name is not specified. More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#idempotency">https://git.k8s.io/community/contributors/devel/api-conventions.md#idempotency</a></p></p>
 
 
@@ -361,7 +361,7 @@
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.withLabels">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsfunction(labels) self <span style="color:#666">+</span> __metadataMixin({ labels<span style="color:#666">:</span> labels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabels(labels)
 </code></pre></div></div><p>Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: <a href="http://kubernetes.io/docs/user-guide/labels">http://kubernetes.io/docs/user-guide/labels</a></p></p>
 
 
@@ -389,7 +389,7 @@
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.withLabelsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsMixinfunction(labels) self <span style="color:#666">+</span> __metadataMixin({ labels<span style="color:#666">+:</span> labels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLabelsMixin(labels)
 </code></pre></div></div><p>Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: <a href="http://kubernetes.io/docs/user-guide/labels">http://kubernetes.io/docs/user-guide/labels</a></p></p>
 
 
@@ -417,7 +417,7 @@
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.withManagedFields">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsfunction(managedFields) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(managedFields) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ managedFields<span style="color:#666">:</span> managedFields }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ managedFields<span style="color:#666">:</span> [managedFields] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFields(managedFields)
 </code></pre></div></div><p>ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&rsquo;t need to set or understand this field. A workflow can be the user&rsquo;s name, a controller&rsquo;s name, or the name of a specific apply path like &ldquo;ci-cd&rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</p><p></p><p>This field is alpha and can be changed or removed without notice.</p><code>withManagedFields</code> takes an array of type <code>managedFieldsType</code>. You can create
 an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedFieldsEntry.new()</code>.</p>
 
@@ -448,7 +448,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.withManagedFieldsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsMixinfunction(managedFields) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(managedFields) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ managedFields<span style="color:#666">+:</span> managedFields }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ managedFields<span style="color:#666">+:</span> [managedFields] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withManagedFieldsMixin(managedFields)
 </code></pre></div></div><p>ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn&rsquo;t need to set or understand this field. A workflow can be the user&rsquo;s name, a controller&rsquo;s name, or the name of a specific apply path like &ldquo;ci-cd&rdquo;. The set of fields is always in the version that the workflow used when modifying the object.</p><p></p><p>This field is alpha and can be changed or removed without notice.</p><code>withManagedFieldsMixin</code> takes an array of type <code>managedFieldsType</code>. You can create
 an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedFieldsEntry.new()</code>.</p>
 
@@ -479,7 +479,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __metadataMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: <a href="http://kubernetes.io/docs/user-guide/identifiers#names">http://kubernetes.io/docs/user-guide/identifiers#names</a></p></p>
 
 
@@ -507,7 +507,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __metadataMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within each name must be unique. An empty namespace is equivalent to the &ldquo;default&rdquo; namespace, but &ldquo;default&rdquo; is the canonical representation. Not all objects are required to be scoped to a namespace - the value of this field for those objects will be empty.</p><p></p><p>Must be a DNS_LABEL. Cannot be updated. More info: <a href="http://kubernetes.io/docs/user-guide/namespaces">http://kubernetes.io/docs/user-guide/namespaces</a></p></p>
 
 
@@ -535,7 +535,7 @@ an instance of <code>managedFieldsType</code> with <code>hidden.meta.v1.managedF
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.withOwnerReferences">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesfunction(ownerReferences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ownerReferences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ ownerReferences<span style="color:#666">:</span> ownerReferences }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ ownerReferences<span style="color:#666">:</span> [ownerReferences] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferences(ownerReferences)
 </code></pre></div></div><p>List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</p><code>withOwnerReferences</code> takes an array of type <code>ownerReferencesType</code>. You can create
 an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerReference.new()</code>.</p>
 
@@ -566,7 +566,7 @@ an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerR
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.withOwnerReferencesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesMixinfunction(ownerReferences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(ownerReferences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __metadataMixin({ ownerReferences<span style="color:#666">+:</span> ownerReferences }) <span style="color:#007020;font-weight:bold">else</span> __metadataMixin({ ownerReferences<span style="color:#666">+:</span> [ownerReferences] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOwnerReferencesMixin(ownerReferences)
 </code></pre></div></div><p>List of objects depended by this object. If ALL objects in the list have been deleted, this object will be garbage collected. If this object is managed by a controller, then an entry in this list will point to this controller, with the controller field set to true. There cannot be more than one managing controller.</p><code>withOwnerReferencesMixin</code> takes an array of type <code>ownerReferencesType</code>. You can create
 an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerReference.new()</code>.</p>
 
@@ -628,7 +628,7 @@ an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerR
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.initializers.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(initializers) __initializersMixin(initializers)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(initializers)
 </code></pre></div></div><p></p></p>
 
 
@@ -656,7 +656,7 @@ an instance of <code>ownerReferencesType</code> with <code>hidden.meta.v1.ownerR
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.initializers.withPending">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingfunction(pending) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(pending) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __initializersMixin({ pending<span style="color:#666">:</span> pending }) <span style="color:#007020;font-weight:bold">else</span> __initializersMixin({ pending<span style="color:#666">:</span> [pending] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPending(pending)
 </code></pre></div></div><p>Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.</p><code>withPending</code> takes an array of type <code>pendingType</code>. You can create
 an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.new()</code>.</p>
 
@@ -687,7 +687,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.metadata.initializers.withPendingMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingMixinfunction(pending) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(pending) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __initializersMixin({ pending<span style="color:#666">+:</span> pending }) <span style="color:#007020;font-weight:bold">else</span> __initializersMixin({ pending<span style="color:#666">+:</span> [pending] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPendingMixin(pending)
 </code></pre></div></div><p>Pending is a list of initializers that must execute in order before this object is visible. When the last pending initializer is removed, and no failing result is set, the initializers struct will be set to nil and the object is considered as initialized and visible to all clients.</p><code>withPendingMixin</code> takes an array of type <code>pendingType</code>. You can create
 an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.new()</code>.</p>
 
@@ -756,7 +756,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.spec.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(spec) __specMixin(spec)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(spec)
 </code></pre></div></div><p></p></p>
 
 
@@ -784,7 +784,7 @@ an instance of <code>pendingType</code> with <code>hidden.meta.v1.initializer.ne
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.spec.withEnv">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnvfunction(env) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(env) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ env<span style="color:#666">:</span> env }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ env<span style="color:#666">:</span> [env] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnv(env)
 </code></pre></div></div><p>Env defines the collection of EnvVar to inject into containers.</p><code>withEnv</code> takes an array of type <code>envType</code>. You can create
 an instance of <code>envType</code> with <code>hidden.core.v1.envVar.new()</code>.</p>
 
@@ -815,7 +815,7 @@ an instance of <code>envType</code> with <code>hidden.core.v1.envVar.new()</code
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.spec.withEnvFrom">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnvFromfunction(envFrom) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(envFrom) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ envFrom<span style="color:#666">:</span> envFrom }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ envFrom<span style="color:#666">:</span> [envFrom] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnvFrom(envFrom)
 </code></pre></div></div><p>EnvFrom defines the collection of EnvFromSource to inject into containers.</p><code>withEnvFrom</code> takes an array of type <code>envFromType</code>. You can create
 an instance of <code>envFromType</code> with <code>hidden.core.v1.envFromSource.new()</code>.</p>
 
@@ -846,7 +846,7 @@ an instance of <code>envFromType</code> with <code>hidden.core.v1.envFromSource.
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.spec.withEnvFromMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnvFromMixinfunction(envFrom) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(envFrom) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ envFrom<span style="color:#666">+:</span> envFrom }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ envFrom<span style="color:#666">+:</span> [envFrom] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnvFromMixin(envFrom)
 </code></pre></div></div><p>EnvFrom defines the collection of EnvFromSource to inject into containers.</p><code>withEnvFromMixin</code> takes an array of type <code>envFromType</code>. You can create
 an instance of <code>envFromType</code> with <code>hidden.core.v1.envFromSource.new()</code>.</p>
 
@@ -877,7 +877,7 @@ an instance of <code>envFromType</code> with <code>hidden.core.v1.envFromSource.
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.spec.withEnvMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnvMixinfunction(env) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(env) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ env<span style="color:#666">+:</span> env }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ env<span style="color:#666">+:</span> [env] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEnvMixin(env)
 </code></pre></div></div><p>Env defines the collection of EnvVar to inject into containers.</p><code>withEnvMixin</code> takes an array of type <code>envType</code>. You can create
 an instance of <code>envType</code> with <code>hidden.core.v1.envVar.new()</code>.</p>
 
@@ -908,7 +908,7 @@ an instance of <code>envType</code> with <code>hidden.core.v1.envVar.new()</code
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.spec.withVolumeMounts">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeMountsfunction(volumeMounts) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumeMounts) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumeMounts<span style="color:#666">:</span> volumeMounts }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumeMounts<span style="color:#666">:</span> [volumeMounts] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeMounts(volumeMounts)
 </code></pre></div></div><p>VolumeMounts defines the collection of VolumeMount to inject into containers.</p><code>withVolumeMounts</code> takes an array of type <code>volumeMountsType</code>. You can create
 an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMount.new()</code>.</p>
 
@@ -939,7 +939,7 @@ an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMou
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.spec.withVolumeMountsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeMountsMixinfunction(volumeMounts) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumeMounts) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumeMounts<span style="color:#666">+:</span> volumeMounts }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumeMounts<span style="color:#666">+:</span> [volumeMounts] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeMountsMixin(volumeMounts)
 </code></pre></div></div><p>VolumeMounts defines the collection of VolumeMount to inject into containers.</p><code>withVolumeMountsMixin</code> takes an array of type <code>volumeMountsType</code>. You can create
 an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMount.new()</code>.</p>
 
@@ -970,7 +970,7 @@ an instance of <code>volumeMountsType</code> with <code>hidden.core.v1.volumeMou
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.spec.withVolumes">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesfunction(volumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumes<span style="color:#666">:</span> volumes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumes<span style="color:#666">:</span> [volumes] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumes(volumes)
 </code></pre></div></div><p>Volumes defines the collection of Volume to inject into the pod.</p><code>withVolumes</code> takes an array of type <code>volumesType</code>. You can create
 an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</code>.</p>
 
@@ -1001,7 +1001,7 @@ an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.spec.withVolumesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesMixinfunction(volumes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(volumes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ volumes<span style="color:#666">+:</span> volumes }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ volumes<span style="color:#666">+:</span> [volumes] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumesMixin(volumes)
 </code></pre></div></div><p>Volumes defines the collection of Volume to inject into the pod.</p><code>withVolumesMixin</code> takes an array of type <code>volumesType</code>. You can create
 an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</code>.</p>
 
@@ -1063,7 +1063,7 @@ an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.spec.selector.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(selector) __selectorMixin(selector)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(selector)
 </code></pre></div></div><p></p></p>
 
 
@@ -1091,7 +1091,7 @@ an instance of <code>volumesType</code> with <code>hidden.core.v1.volume.new()</
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.spec.selector.withMatchExpressions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __selectorMixin({ matchExpressions<span style="color:#666">:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __selectorMixin({ matchExpressions<span style="color:#666">:</span> [matchExpressions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressions(matchExpressions)
 </code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressions</code> takes an array of type <code>matchExpressionsType</code>. You can create
 an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
 
@@ -1122,7 +1122,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.spec.selector.withMatchExpressionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixinfunction(matchExpressions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(matchExpressions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __selectorMixin({ matchExpressions<span style="color:#666">+:</span> matchExpressions }) <span style="color:#007020;font-weight:bold">else</span> __selectorMixin({ matchExpressions<span style="color:#666">+:</span> [matchExpressions] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchExpressionsMixin(matchExpressions)
 </code></pre></div></div><p>matchExpressions is a list of label selector requirements. The requirements are ANDed.</p><code>withMatchExpressionsMixin</code> takes an array of type <code>matchExpressionsType</code>. You can create
 an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.labelSelectorRequirement.new()</code>.</p>
 
@@ -1153,7 +1153,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.spec.selector.withMatchLabels">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsfunction(matchLabels) self <span style="color:#666">+</span> __selectorMixin({ matchLabels<span style="color:#666">:</span> matchLabels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabels(matchLabels)
 </code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
 
 
@@ -1181,7 +1181,7 @@ an instance of <code>matchExpressionsType</code> with <code>hidden.meta.v1.label
     </h5>
 
     <div class="collapse show" id="settings.v1alpha1.podPreset.spec.selector.withMatchLabelsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixinfunction(matchLabels) self <span style="color:#666">+</span> __selectorMixin({ matchLabels<span style="color:#666">+:</span> matchLabels })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMatchLabelsMixin(matchLabels)
 </code></pre></div></div><p>matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is &ldquo;key&rdquo;, the operator is &ldquo;In&rdquo;, and the values array contains only &ldquo;value&rdquo;. The requirements are ANDed.</p></p>
 
 

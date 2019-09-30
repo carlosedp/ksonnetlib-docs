@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMetricsMixinfunction(metrics) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(metrics) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ metrics<span style="color:#666">+:</span> metrics }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ metrics<span style="color:#666">+:</span> [metrics] })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMetricsMixin(metrics)
 </code></pre></div></div><p>metrics contains the specifications for which to use to calculate the desired replica count (the maximum replica count across all metrics will be used).  The desired replica count is calculated multiplying the ratio between the target value and the current value by the current number of pods.  Ergo, metrics used must decrease as the pod count is increased, and vice-versa.  See the individual metric source types for more information about how each type of metric must respond.</p><code>withMetricsMixin</code> takes an array of type <code>metricsType</code>. You can create
 an instance of <code>metricsType</code> with <code>hidden.autoscaling.v2beta1.metricSpec.new()</code>.</p>
 

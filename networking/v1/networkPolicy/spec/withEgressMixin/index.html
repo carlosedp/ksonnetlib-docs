@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEgressMixinfunction(egress) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(egress) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ egress<span style="color:#666">+:</span> egress }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ egress<span style="color:#666">+:</span> [egress] })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEgressMixin(egress)
 </code></pre></div></div><p>List of egress rules to be applied to the selected pods. Outgoing traffic is allowed if there are no NetworkPolicies selecting the pod (and cluster policy otherwise allows the traffic), OR if the traffic matches at least one egress rule across all of the NetworkPolicy objects whose podSelector matches the pod. If this field is empty then this NetworkPolicy limits all outgoing traffic (and serves solely to ensure that the pods it selects are isolated by default). This field is beta-level in 1.8</p><code>withEgressMixin</code> takes an array of type <code>egressType</code>. You can create
 an instance of <code>egressType</code> with <code>hidden.networking.v1.networkPolicyEgressRule.new()</code>.</p>
 

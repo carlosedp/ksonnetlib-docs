@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withValuesfunction(values) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(values) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { values<span style="color:#666">:</span> values } <span style="color:#007020;font-weight:bold">else</span> { values<span style="color:#666">:</span> [values] }
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withValues(values)
 </code></pre></div></div><p>values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.</p></p>
 
 

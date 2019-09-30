@@ -77,7 +77,7 @@
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.ingressSpec.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -114,7 +114,7 @@
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.ingressSpec.withRules">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulesfunction(rules) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(rules) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { rules<span style="color:#666">:</span> rules } <span style="color:#007020;font-weight:bold">else</span> { rules<span style="color:#666">:</span> [rules] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRules(rules)
 </code></pre></div></div><p>A list of host rules used to configure the Ingress. If unspecified, or no rule matches, all traffic is sent to the default backend.</p><code>withRules</code> takes an array of type <code>rulesType</code>. You can create
 an instance of <code>rulesType</code> with <code>hidden.extensions.v1beta1.ingressRule.new()</code>.</p>
 
@@ -145,7 +145,7 @@ an instance of <code>rulesType</code> with <code>hidden.extensions.v1beta1.ingre
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.ingressSpec.withRulesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulesMixinfunction(rules) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(rules) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { rules<span style="color:#666">+:</span> rules } <span style="color:#007020;font-weight:bold">else</span> { rules<span style="color:#666">+:</span> [rules] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRulesMixin(rules)
 </code></pre></div></div><p>A list of host rules used to configure the Ingress. If unspecified, or no rule matches, all traffic is sent to the default backend.</p><code>withRulesMixin</code> takes an array of type <code>rulesType</code>. You can create
 an instance of <code>rulesType</code> with <code>hidden.extensions.v1beta1.ingressRule.new()</code>.</p>
 
@@ -176,7 +176,7 @@ an instance of <code>rulesType</code> with <code>hidden.extensions.v1beta1.ingre
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.ingressSpec.withTls">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTlsfunction(tls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(tls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { tls<span style="color:#666">:</span> tls } <span style="color:#007020;font-weight:bold">else</span> { tls<span style="color:#666">:</span> [tls] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTls(tls)
 </code></pre></div></div><p>TLS configuration. Currently the Ingress only supports a single TLS port, 443. If multiple members of this list specify different hosts, they will be multiplexed on the same port according to the hostname specified through the SNI TLS extension, if the ingress controller fulfilling the ingress supports SNI.</p><code>withTls</code> takes an array of type <code>tlsType</code>. You can create
 an instance of <code>tlsType</code> with <code>hidden.extensions.v1beta1.ingressTls.new()</code>.</p>
 
@@ -207,7 +207,7 @@ an instance of <code>tlsType</code> with <code>hidden.extensions.v1beta1.ingress
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.ingressSpec.withTlsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTlsMixinfunction(tls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(tls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { tls<span style="color:#666">+:</span> tls } <span style="color:#007020;font-weight:bold">else</span> { tls<span style="color:#666">+:</span> [tls] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTlsMixin(tls)
 </code></pre></div></div><p>TLS configuration. Currently the Ingress only supports a single TLS port, 443. If multiple members of this list specify different hosts, they will be multiplexed on the same port according to the hostname specified through the SNI TLS extension, if the ingress controller fulfilling the ingress supports SNI.</p><code>withTlsMixin</code> takes an array of type <code>tlsType</code>. You can create
 an instance of <code>tlsType</code> with <code>hidden.extensions.v1beta1.ingressTls.new()</code>.</p>
 
@@ -270,7 +270,7 @@ an instance of <code>tlsType</code> with <code>hidden.extensions.v1beta1.ingress
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.ingressSpec.backend.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(backend) __backendMixin(backend)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(backend)
 </code></pre></div></div><p></p></p>
 
 
@@ -298,7 +298,7 @@ an instance of <code>tlsType</code> with <code>hidden.extensions.v1beta1.ingress
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.ingressSpec.backend.withServiceName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServiceNamefunction(serviceName) self <span style="color:#666">+</span> __backendMixin({ serviceName<span style="color:#666">:</span> serviceName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServiceName(serviceName)
 </code></pre></div></div><p>Specifies the name of the referenced service.</p></p>
 
 
@@ -326,7 +326,7 @@ an instance of <code>tlsType</code> with <code>hidden.extensions.v1beta1.ingress
     </h5>
 
     <div class="collapse show" id="extensions.v1beta1.ingressSpec.backend.withServicePort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServicePortfunction(servicePort) self <span style="color:#666">+</span> __backendMixin({ servicePort<span style="color:#666">:</span> servicePort })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServicePort(servicePort)
 </code></pre></div></div><p>Specifies the port of the referenced service.</p></p>
 
 

@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTlsMixinfunction(tls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(tls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ tls<span style="color:#666">+:</span> tls }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ tls<span style="color:#666">+:</span> [tls] })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTlsMixin(tls)
 </code></pre></div></div><p>TLS configuration. Currently the Ingress only supports a single TLS port, 443. If multiple members of this list specify different hosts, they will be multiplexed on the same port according to the hostname specified through the SNI TLS extension, if the ingress controller fulfilling the ingress supports SNI.</p><code>withTlsMixin</code> takes an array of type <code>tlsType</code>. You can create
 an instance of <code>tlsType</code> with <code>hidden.networking.v1beta1.ingressTls.new()</code>.</p>
 

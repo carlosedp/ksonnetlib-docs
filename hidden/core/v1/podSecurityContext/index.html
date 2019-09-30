@@ -85,7 +85,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -122,7 +122,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.withFsGroup">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsGroupfunction(fsGroup) self <span style="color:#666">+</span> { fsGroup<span style="color:#666">:</span> fsGroup }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsGroup(fsGroup)
 </code></pre></div></div><p>A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod:</p><p></p><p>1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR&rsquo;d with rw-rw&mdash;-</p><p></p><p>If unset, the Kubelet will not modify the ownership and permissions of any volume.</p></p>
 
 
@@ -150,7 +150,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.withRunAsGroup">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsGroupfunction(runAsGroup) self <span style="color:#666">+</span> { runAsGroup<span style="color:#666">:</span> runAsGroup }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsGroup(runAsGroup)
 </code></pre></div></div><p>The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.</p></p>
 
 
@@ -178,7 +178,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.withRunAsNonRoot">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsNonRootfunction(runAsNonRoot) self <span style="color:#666">+</span> { runAsNonRoot<span style="color:#666">:</span> runAsNonRoot }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsNonRoot(runAsNonRoot)
 </code></pre></div></div><p>Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.</p></p>
 
 
@@ -206,7 +206,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.withRunAsUser">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsUserfunction(runAsUser) self <span style="color:#666">+</span> { runAsUser<span style="color:#666">:</span> runAsUser }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRunAsUser(runAsUser)
 </code></pre></div></div><p>The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext.  If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.</p></p>
 
 
@@ -234,7 +234,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.withSupplementalGroups">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSupplementalGroupsfunction(supplementalGroups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(supplementalGroups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { supplementalGroups<span style="color:#666">:</span> supplementalGroups } <span style="color:#007020;font-weight:bold">else</span> { supplementalGroups<span style="color:#666">:</span> [supplementalGroups] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSupplementalGroups(supplementalGroups)
 </code></pre></div></div><p>A list of groups applied to the first process run in each container, in addition to the container&rsquo;s primary GID.  If unspecified, no groups will be added to any container.</p></p>
 
 
@@ -262,7 +262,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.withSupplementalGroupsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSupplementalGroupsMixinfunction(supplementalGroups) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(supplementalGroups) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { supplementalGroups<span style="color:#666">+:</span> supplementalGroups } <span style="color:#007020;font-weight:bold">else</span> { supplementalGroups<span style="color:#666">+:</span> [supplementalGroups] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSupplementalGroupsMixin(supplementalGroups)
 </code></pre></div></div><p>A list of groups applied to the first process run in each container, in addition to the container&rsquo;s primary GID.  If unspecified, no groups will be added to any container.</p></p>
 
 
@@ -290,7 +290,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.withSysctls">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSysctlsfunction(sysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(sysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { sysctls<span style="color:#666">:</span> sysctls } <span style="color:#007020;font-weight:bold">else</span> { sysctls<span style="color:#666">:</span> [sysctls] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSysctls(sysctls)
 </code></pre></div></div><p>Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch.</p><code>withSysctls</code> takes an array of type <code>sysctlsType</code>. You can create
 an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</code>.</p>
 
@@ -321,7 +321,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.withSysctlsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSysctlsMixinfunction(sysctls) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(sysctls) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { sysctls<span style="color:#666">+:</span> sysctls } <span style="color:#007020;font-weight:bold">else</span> { sysctls<span style="color:#666">+:</span> [sysctls] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSysctlsMixin(sysctls)
 </code></pre></div></div><p>Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch.</p><code>withSysctlsMixin</code> takes an array of type <code>sysctlsType</code>. You can create
 an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</code>.</p>
 
@@ -384,7 +384,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.seLinuxOptions.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(seLinuxOptions) __seLinuxOptionsMixin(seLinuxOptions)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(seLinuxOptions)
 </code></pre></div></div><p></p></p>
 
 
@@ -412,7 +412,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.seLinuxOptions.withLevel">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevelfunction(level) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ level<span style="color:#666">:</span> level })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLevel(level)
 </code></pre></div></div><p>Level is SELinux level label that applies to the container.</p></p>
 
 
@@ -440,7 +440,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.seLinuxOptions.withRole">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRolefunction(role) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ role<span style="color:#666">:</span> role })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRole(role)
 </code></pre></div></div><p>Role is a SELinux role label that applies to the container.</p></p>
 
 
@@ -468,7 +468,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.seLinuxOptions.withType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ type<span style="color:#666">:</span> type })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withType(type)
 </code></pre></div></div><p>Type is a SELinux type label that applies to the container.</p></p>
 
 
@@ -496,7 +496,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.seLinuxOptions.withUser">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUserfunction(user) self <span style="color:#666">+</span> __seLinuxOptionsMixin({ user<span style="color:#666">:</span> user })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUser(user)
 </code></pre></div></div><p>User is a SELinux user label that applies to the container.</p></p>
 
 
@@ -556,7 +556,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.windowsOptions.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(windowsOptions) __windowsOptionsMixin(windowsOptions)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(windowsOptions)
 </code></pre></div></div><p></p></p>
 
 
@@ -584,7 +584,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.windowsOptions.withGmsaCredentialSpec">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGmsaCredentialSpecfunction(gmsaCredentialSpec) self <span style="color:#666">+</span> __windowsOptionsMixin({ gmsaCredentialSpec<span style="color:#666">:</span> gmsaCredentialSpec })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGmsaCredentialSpec(gmsaCredentialSpec)
 </code></pre></div></div><p>GMSACredentialSpec is where the GMSA admission webhook (<a href="https://github.com/kubernetes-sigs/windows-gmsa">https://github.com/kubernetes-sigs/windows-gmsa</a>) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field. This field is alpha-level and is only honored by servers that enable the WindowsGMSA feature flag.</p></p>
 
 
@@ -612,7 +612,7 @@ an instance of <code>sysctlsType</code> with <code>hidden.core.v1.sysctl.new()</
     </h5>
 
     <div class="collapse show" id="core.v1.podSecurityContext.windowsOptions.withGmsaCredentialSpecName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGmsaCredentialSpecNamefunction(gmsaCredentialSpecName) self <span style="color:#666">+</span> __windowsOptionsMixin({ gmsaCredentialSpecName<span style="color:#666">:</span> gmsaCredentialSpecName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGmsaCredentialSpecName(gmsaCredentialSpecName)
 </code></pre></div></div><p>GMSACredentialSpecName is the name of the GMSA credential spec to use. This field is alpha-level and is only honored by servers that enable the WindowsGMSA feature flag.</p></p>
 
 

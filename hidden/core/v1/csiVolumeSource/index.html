@@ -77,7 +77,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiVolumeSource.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -114,7 +114,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiVolumeSource.withDriver">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDriverfunction(driver) self <span style="color:#666">+</span> { driver<span style="color:#666">:</span> driver }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDriver(driver)
 </code></pre></div></div><p>Driver is the name of the CSI driver that handles this volume. Consult with your admin for the correct name as registered in the cluster.</p></p>
 
 
@@ -142,7 +142,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiVolumeSource.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> { fsType<span style="color:#666">:</span> fsType }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type to mount. Ex. &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. If not provided, the empty value is passed to the associated CSI driver which will determine the default filesystem to apply.</p></p>
 
 
@@ -170,7 +170,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiVolumeSource.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> { readOnly<span style="color:#666">:</span> readOnly }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Specifies a read-only configuration for the volume. Defaults to false (read/write).</p></p>
 
 
@@ -198,7 +198,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiVolumeSource.withVolumeAttributes">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeAttributesfunction(volumeAttributes) self <span style="color:#666">+</span> { volumeAttributes<span style="color:#666">:</span> volumeAttributes }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeAttributes(volumeAttributes)
 </code></pre></div></div><p>VolumeAttributes stores driver-specific properties that are passed to the CSI driver. Consult your driver&rsquo;s documentation for supported values.</p></p>
 
 
@@ -226,7 +226,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiVolumeSource.withVolumeAttributesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeAttributesMixinfunction(volumeAttributes) self <span style="color:#666">+</span> { volumeAttributes<span style="color:#666">+:</span> volumeAttributes }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeAttributesMixin(volumeAttributes)
 </code></pre></div></div><p>VolumeAttributes stores driver-specific properties that are passed to the CSI driver. Consult your driver&rsquo;s documentation for supported values.</p></p>
 
 
@@ -286,7 +286,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiVolumeSource.nodePublishSecretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(nodePublishSecretRef) __nodePublishSecretRefMixin(nodePublishSecretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(nodePublishSecretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -314,7 +314,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.csiVolumeSource.nodePublishSecretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __nodePublishSecretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</a></p></p>
 
 

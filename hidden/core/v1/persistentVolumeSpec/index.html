@@ -357,7 +357,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -394,7 +394,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.withAccessModes">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAccessModesfunction(accessModes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(accessModes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { accessModes<span style="color:#666">:</span> accessModes } <span style="color:#007020;font-weight:bold">else</span> { accessModes<span style="color:#666">:</span> [accessModes] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAccessModes(accessModes)
 </code></pre></div></div><p>AccessModes contains all ways the volume can be mounted. More info: <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes">https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes</a></p></p>
 
 
@@ -422,7 +422,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.withAccessModesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAccessModesMixinfunction(accessModes) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(accessModes) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { accessModes<span style="color:#666">+:</span> accessModes } <span style="color:#007020;font-weight:bold">else</span> { accessModes<span style="color:#666">+:</span> [accessModes] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAccessModesMixin(accessModes)
 </code></pre></div></div><p>AccessModes contains all ways the volume can be mounted. More info: <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes">https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes</a></p></p>
 
 
@@ -450,7 +450,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.withCapacity">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCapacityfunction(capacity) self <span style="color:#666">+</span> { capacity<span style="color:#666">:</span> capacity }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCapacity(capacity)
 </code></pre></div></div><p>A description of the persistent volume&rsquo;s resources and capacity. More info: <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes#capacity">https://kubernetes.io/docs/concepts/storage/persistent-volumes#capacity</a></p></p>
 
 
@@ -478,7 +478,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.withCapacityMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCapacityMixinfunction(capacity) self <span style="color:#666">+</span> { capacity<span style="color:#666">+:</span> capacity }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCapacityMixin(capacity)
 </code></pre></div></div><p>A description of the persistent volume&rsquo;s resources and capacity. More info: <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes#capacity">https://kubernetes.io/docs/concepts/storage/persistent-volumes#capacity</a></p></p>
 
 
@@ -506,7 +506,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.withMountOptions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMountOptionsfunction(mountOptions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(mountOptions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { mountOptions<span style="color:#666">:</span> mountOptions } <span style="color:#007020;font-weight:bold">else</span> { mountOptions<span style="color:#666">:</span> [mountOptions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMountOptions(mountOptions)
 </code></pre></div></div><p>A list of mount options, e.g. [&ldquo;ro&rdquo;, &ldquo;soft&rdquo;]. Not validated - mount will simply fail if one is invalid. More info: <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/#mount-options">https://kubernetes.io/docs/concepts/storage/persistent-volumes/#mount-options</a></p></p>
 
 
@@ -534,7 +534,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.withMountOptionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMountOptionsMixinfunction(mountOptions) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(mountOptions) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { mountOptions<span style="color:#666">+:</span> mountOptions } <span style="color:#007020;font-weight:bold">else</span> { mountOptions<span style="color:#666">+:</span> [mountOptions] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMountOptionsMixin(mountOptions)
 </code></pre></div></div><p>A list of mount options, e.g. [&ldquo;ro&rdquo;, &ldquo;soft&rdquo;]. Not validated - mount will simply fail if one is invalid. More info: <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/#mount-options">https://kubernetes.io/docs/concepts/storage/persistent-volumes/#mount-options</a></p></p>
 
 
@@ -562,7 +562,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.withPersistentVolumeReclaimPolicy">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPersistentVolumeReclaimPolicyfunction(persistentVolumeReclaimPolicy) self <span style="color:#666">+</span> { persistentVolumeReclaimPolicy<span style="color:#666">:</span> persistentVolumeReclaimPolicy }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPersistentVolumeReclaimPolicy(persistentVolumeReclaimPolicy)
 </code></pre></div></div><p>What happens to a persistent volume when released from its claim. Valid options are Retain (default for manually created PersistentVolumes), Delete (default for dynamically provisioned PersistentVolumes), and Recycle (deprecated). Recycle must be supported by the volume plugin underlying this PersistentVolume. More info: <a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes#reclaiming">https://kubernetes.io/docs/concepts/storage/persistent-volumes#reclaiming</a></p></p>
 
 
@@ -590,7 +590,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.withStorageClassName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStorageClassNamefunction(storageClassName) self <span style="color:#666">+</span> { storageClassName<span style="color:#666">:</span> storageClassName }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStorageClassName(storageClassName)
 </code></pre></div></div><p>Name of StorageClass to which this persistent volume belongs. Empty value means that this volume does not belong to any StorageClass.</p></p>
 
 
@@ -618,7 +618,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.withVolumeMode">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeModefunction(volumeMode) self <span style="color:#666">+</span> { volumeMode<span style="color:#666">:</span> volumeMode }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeMode(volumeMode)
 </code></pre></div></div><p>volumeMode defines if a volume is intended to be used with a formatted filesystem or to remain in raw block state. Value of Filesystem is implied when not included in spec. This is a beta feature.</p></p>
 
 
@@ -678,7 +678,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.awsElasticBlockStore.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(awsElasticBlockStore) __awsElasticBlockStoreMixin(awsElasticBlockStore)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(awsElasticBlockStore)
 </code></pre></div></div><p></p></p>
 
 
@@ -706,7 +706,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.awsElasticBlockStore.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> __awsElasticBlockStoreMixin({ fsType<span style="color:#666">:</span> fsType })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. Implicitly inferred to be &ldquo;ext4&rdquo; if unspecified. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore">https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore</a></p></p>
 
 
@@ -734,7 +734,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.awsElasticBlockStore.withPartition">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPartitionfunction(partition) self <span style="color:#666">+</span> __awsElasticBlockStoreMixin({ partition<span style="color:#666">:</span> partition })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPartition(partition)
 </code></pre></div></div><p>The partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as &ldquo;1&rdquo;. Similarly, the volume partition for /dev/sda is &ldquo;0&rdquo; (or you can leave the property empty).</p></p>
 
 
@@ -762,7 +762,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.awsElasticBlockStore.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __awsElasticBlockStoreMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Specify &ldquo;true&rdquo; to force and set the ReadOnly property in VolumeMounts to &ldquo;true&rdquo;. If omitted, the default is &ldquo;false&rdquo;. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore">https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore</a></p></p>
 
 
@@ -790,7 +790,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.awsElasticBlockStore.withVolumeId">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeIdfunction(volumeId) self <span style="color:#666">+</span> __awsElasticBlockStoreMixin({ volumeID<span style="color:#666">:</span> volumeId })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeId(volumeId)
 </code></pre></div></div><p>Unique ID of the persistent disk resource in AWS (Amazon EBS volume). More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore">https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore</a></p></p>
 
 
@@ -850,7 +850,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.azureDisk.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(azureDisk) __azureDiskMixin(azureDisk)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(azureDisk)
 </code></pre></div></div><p></p></p>
 
 
@@ -878,7 +878,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.azureDisk.withCachingMode">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCachingModefunction(cachingMode) self <span style="color:#666">+</span> __azureDiskMixin({ cachingMode<span style="color:#666">:</span> cachingMode })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withCachingMode(cachingMode)
 </code></pre></div></div><p>Host Caching mode: None, Read Only, Read Write.</p></p>
 
 
@@ -906,7 +906,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.azureDisk.withDiskName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDiskNamefunction(diskName) self <span style="color:#666">+</span> __azureDiskMixin({ diskName<span style="color:#666">:</span> diskName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDiskName(diskName)
 </code></pre></div></div><p>The Name of the data disk in the blob storage</p></p>
 
 
@@ -934,7 +934,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.azureDisk.withDiskUri">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDiskUrifunction(diskUri) self <span style="color:#666">+</span> __azureDiskMixin({ diskURI<span style="color:#666">:</span> diskUri })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDiskUri(diskUri)
 </code></pre></div></div><p>The URI the data disk in the blob storage</p></p>
 
 
@@ -962,7 +962,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.azureDisk.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> __azureDiskMixin({ fsType<span style="color:#666">:</span> fsType })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. Implicitly inferred to be &ldquo;ext4&rdquo; if unspecified.</p></p>
 
 
@@ -990,7 +990,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.azureDisk.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __azureDiskMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.</p></p>
 
 
@@ -1050,7 +1050,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.azureFile.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(azureFile) __azureFileMixin(azureFile)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(azureFile)
 </code></pre></div></div><p></p></p>
 
 
@@ -1078,7 +1078,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.azureFile.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __azureFileMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.</p></p>
 
 
@@ -1106,7 +1106,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.azureFile.withSecretName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSecretNamefunction(secretName) self <span style="color:#666">+</span> __azureFileMixin({ secretName<span style="color:#666">:</span> secretName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSecretName(secretName)
 </code></pre></div></div><p>the name of secret that contains Azure Storage Account Name and Key</p></p>
 
 
@@ -1134,7 +1134,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.azureFile.withSecretNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSecretNamespacefunction(secretNamespace) self <span style="color:#666">+</span> __azureFileMixin({ secretNamespace<span style="color:#666">:</span> secretNamespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSecretNamespace(secretNamespace)
 </code></pre></div></div><p>the namespace of the secret that contains Azure Storage Account Name and Key default is the same as the Pod</p></p>
 
 
@@ -1162,7 +1162,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.azureFile.withShareName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShareNamefunction(shareName) self <span style="color:#666">+</span> __azureFileMixin({ shareName<span style="color:#666">:</span> shareName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withShareName(shareName)
 </code></pre></div></div><p>Share Name</p></p>
 
 
@@ -1222,7 +1222,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cephfs.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(cephfs) __cephfsMixin(cephfs)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(cephfs)
 </code></pre></div></div><p></p></p>
 
 
@@ -1250,7 +1250,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cephfs.withMonitors">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMonitorsfunction(monitors) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(monitors) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __cephfsMixin({ monitors<span style="color:#666">:</span> monitors }) <span style="color:#007020;font-weight:bold">else</span> __cephfsMixin({ monitors<span style="color:#666">:</span> [monitors] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMonitors(monitors)
 </code></pre></div></div><p>Required: Monitors is a collection of Ceph monitors More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/cephfs/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/cephfs/README.md#how-to-use-it</a></p></p>
 
 
@@ -1278,7 +1278,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cephfs.withMonitorsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMonitorsMixinfunction(monitors) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(monitors) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __cephfsMixin({ monitors<span style="color:#666">+:</span> monitors }) <span style="color:#007020;font-weight:bold">else</span> __cephfsMixin({ monitors<span style="color:#666">+:</span> [monitors] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMonitorsMixin(monitors)
 </code></pre></div></div><p>Required: Monitors is a collection of Ceph monitors More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/cephfs/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/cephfs/README.md#how-to-use-it</a></p></p>
 
 
@@ -1306,7 +1306,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cephfs.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __cephfsMixin({ path<span style="color:#666">:</span> path })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>Optional: Used as the mounted root, rather than the full Ceph tree, default is /</p></p>
 
 
@@ -1334,7 +1334,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cephfs.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __cephfsMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/cephfs/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/cephfs/README.md#how-to-use-it</a></p></p>
 
 
@@ -1362,7 +1362,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cephfs.withSecretFile">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSecretFilefunction(secretFile) self <span style="color:#666">+</span> __cephfsMixin({ secretFile<span style="color:#666">:</span> secretFile })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSecretFile(secretFile)
 </code></pre></div></div><p>Optional: SecretFile is the path to key ring for User, default is /etc/ceph/user.secret More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/cephfs/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/cephfs/README.md#how-to-use-it</a></p></p>
 
 
@@ -1390,7 +1390,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cephfs.withUser">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUserfunction(user) self <span style="color:#666">+</span> __cephfsMixin({ user<span style="color:#666">:</span> user })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUser(user)
 </code></pre></div></div><p>Optional: User is the rados user name, default is admin More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/cephfs/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/cephfs/README.md#how-to-use-it</a></p></p>
 
 
@@ -1449,7 +1449,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cephfs.secretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(secretRef) __secretRefMixin(secretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(secretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -1477,7 +1477,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cephfs.secretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __secretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -1505,7 +1505,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cephfs.secretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __secretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 
@@ -1571,7 +1571,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cinder.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(cinder) __cinderMixin(cinder)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(cinder)
 </code></pre></div></div><p></p></p>
 
 
@@ -1599,7 +1599,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cinder.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> __cinderMixin({ fsType<span style="color:#666">:</span> fsType })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type to mount. Must be a filesystem type supported by the host operating system. Examples: &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. Implicitly inferred to be &ldquo;ext4&rdquo; if unspecified. More info: <a href="https://releases.k8s.io/HEAD/examples/mysql-cinder-pd/README.md">https://releases.k8s.io/HEAD/examples/mysql-cinder-pd/README.md</a></p></p>
 
 
@@ -1627,7 +1627,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cinder.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __cinderMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: <a href="https://releases.k8s.io/HEAD/examples/mysql-cinder-pd/README.md">https://releases.k8s.io/HEAD/examples/mysql-cinder-pd/README.md</a></p></p>
 
 
@@ -1655,7 +1655,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cinder.withVolumeId">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeIdfunction(volumeId) self <span style="color:#666">+</span> __cinderMixin({ volumeID<span style="color:#666">:</span> volumeId })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeId(volumeId)
 </code></pre></div></div><p>volume id used to identify the volume in cinder More info: <a href="https://releases.k8s.io/HEAD/examples/mysql-cinder-pd/README.md">https://releases.k8s.io/HEAD/examples/mysql-cinder-pd/README.md</a></p></p>
 
 
@@ -1714,7 +1714,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cinder.secretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(secretRef) __secretRefMixin(secretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(secretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -1742,7 +1742,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cinder.secretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __secretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -1770,7 +1770,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.cinder.secretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __secretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 
@@ -1836,7 +1836,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.claimRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(claimRef) __claimRefMixin(claimRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(claimRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -1864,7 +1864,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.claimRef.withFieldPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPathfunction(fieldPath) self <span style="color:#666">+</span> __claimRefMixin({ fieldPath<span style="color:#666">:</span> fieldPath })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPath(fieldPath)
 </code></pre></div></div><p>If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: &ldquo;spec.containers{name}&rdquo; (where &ldquo;name&rdquo; refers to the name of the container that triggered the event) or if no container name is specified &ldquo;spec.containers[2]&rdquo; (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.</p></p>
 
 
@@ -1892,7 +1892,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.claimRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __claimRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</a></p></p>
 
 
@@ -1920,7 +1920,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.claimRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __claimRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/">https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/</a></p></p>
 
 
@@ -1948,7 +1948,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.claimRef.withResourceVersion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersionfunction(resourceVersion) self <span style="color:#666">+</span> __claimRefMixin({ resourceVersion<span style="color:#666">:</span> resourceVersion })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersion(resourceVersion)
 </code></pre></div></div><p>Specific resourceVersion to which this reference is made, if any. More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency">https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency</a></p></p>
 
 
@@ -1976,7 +1976,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.claimRef.withUid">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> __claimRefMixin({ uid<span style="color:#666">:</span> uid })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUid(uid)
 </code></pre></div></div><p>UID of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids</a></p></p>
 
 
@@ -2036,7 +2036,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(csi) __csiMixin(csi)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(csi)
 </code></pre></div></div><p></p></p>
 
 
@@ -2064,7 +2064,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.withDriver">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDriverfunction(driver) self <span style="color:#666">+</span> __csiMixin({ driver<span style="color:#666">:</span> driver })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDriver(driver)
 </code></pre></div></div><p>Driver is the name of the driver to use for this volume. Required.</p></p>
 
 
@@ -2092,7 +2092,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> __csiMixin({ fsType<span style="color:#666">:</span> fsType })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;.</p></p>
 
 
@@ -2120,7 +2120,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __csiMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Optional: The value to pass to ControllerPublishVolumeRequest. Defaults to false (read/write).</p></p>
 
 
@@ -2148,7 +2148,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.withVolumeAttributes">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeAttributesfunction(volumeAttributes) self <span style="color:#666">+</span> __csiMixin({ volumeAttributes<span style="color:#666">:</span> volumeAttributes })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeAttributes(volumeAttributes)
 </code></pre></div></div><p>Attributes of the volume to publish.</p></p>
 
 
@@ -2176,7 +2176,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.withVolumeAttributesMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeAttributesMixinfunction(volumeAttributes) self <span style="color:#666">+</span> __csiMixin({ volumeAttributes<span style="color:#666">+:</span> volumeAttributes })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeAttributesMixin(volumeAttributes)
 </code></pre></div></div><p>Attributes of the volume to publish.</p></p>
 
 
@@ -2204,7 +2204,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.withVolumeHandle">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeHandlefunction(volumeHandle) self <span style="color:#666">+</span> __csiMixin({ volumeHandle<span style="color:#666">:</span> volumeHandle })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeHandle(volumeHandle)
 </code></pre></div></div><p>VolumeHandle is the unique volume name returned by the CSI volume plugin’s CreateVolume to refer to the volume on all subsequent calls. Required.</p></p>
 
 
@@ -2263,7 +2263,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.controllerExpandSecretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(controllerExpandSecretRef) __controllerExpandSecretRefMixin(controllerExpandSecretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(controllerExpandSecretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -2291,7 +2291,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.controllerExpandSecretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __controllerExpandSecretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -2319,7 +2319,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.controllerExpandSecretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __controllerExpandSecretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 
@@ -2379,7 +2379,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.controllerPublishSecretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(controllerPublishSecretRef) __controllerPublishSecretRefMixin(controllerPublishSecretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(controllerPublishSecretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -2407,7 +2407,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.controllerPublishSecretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __controllerPublishSecretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -2435,7 +2435,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.controllerPublishSecretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __controllerPublishSecretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 
@@ -2495,7 +2495,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.nodePublishSecretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(nodePublishSecretRef) __nodePublishSecretRefMixin(nodePublishSecretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(nodePublishSecretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -2523,7 +2523,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.nodePublishSecretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __nodePublishSecretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -2551,7 +2551,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.nodePublishSecretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __nodePublishSecretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 
@@ -2611,7 +2611,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.nodeStageSecretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(nodeStageSecretRef) __nodeStageSecretRefMixin(nodeStageSecretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(nodeStageSecretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -2639,7 +2639,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.nodeStageSecretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __nodeStageSecretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -2667,7 +2667,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.csi.nodeStageSecretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __nodeStageSecretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 
@@ -2733,7 +2733,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.fc.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(fc) __fcMixin(fc)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(fc)
 </code></pre></div></div><p></p></p>
 
 
@@ -2761,7 +2761,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.fc.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> __fcMixin({ fsType<span style="color:#666">:</span> fsType })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. Implicitly inferred to be &ldquo;ext4&rdquo; if unspecified.</p></p>
 
 
@@ -2789,7 +2789,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.fc.withLun">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLunfunction(lun) self <span style="color:#666">+</span> __fcMixin({ lun<span style="color:#666">:</span> lun })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLun(lun)
 </code></pre></div></div><p>Optional: FC target lun number</p></p>
 
 
@@ -2817,7 +2817,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.fc.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __fcMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.</p></p>
 
 
@@ -2845,7 +2845,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.fc.withTargetWwns">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTargetWwnsfunction(targetWwns) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(targetWwns) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __fcMixin({ targetWWNs<span style="color:#666">:</span> targetWwns }) <span style="color:#007020;font-weight:bold">else</span> __fcMixin({ targetWWNs<span style="color:#666">:</span> [targetWwns] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTargetWwns(targetWwns)
 </code></pre></div></div><p>Optional: FC target worldwide names (WWNs)</p></p>
 
 
@@ -2873,7 +2873,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.fc.withTargetWwnsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTargetWwnsMixinfunction(targetWwns) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(targetWwns) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __fcMixin({ targetWWNs<span style="color:#666">+:</span> targetWwns }) <span style="color:#007020;font-weight:bold">else</span> __fcMixin({ targetWWNs<span style="color:#666">+:</span> [targetWwns] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTargetWwnsMixin(targetWwns)
 </code></pre></div></div><p>Optional: FC target worldwide names (WWNs)</p></p>
 
 
@@ -2901,7 +2901,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.fc.withWwids">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withWwidsfunction(wwids) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(wwids) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __fcMixin({ wwids<span style="color:#666">:</span> wwids }) <span style="color:#007020;font-weight:bold">else</span> __fcMixin({ wwids<span style="color:#666">:</span> [wwids] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withWwids(wwids)
 </code></pre></div></div><p>Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.</p></p>
 
 
@@ -2929,7 +2929,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.fc.withWwidsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withWwidsMixinfunction(wwids) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(wwids) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __fcMixin({ wwids<span style="color:#666">+:</span> wwids }) <span style="color:#007020;font-weight:bold">else</span> __fcMixin({ wwids<span style="color:#666">+:</span> [wwids] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withWwidsMixin(wwids)
 </code></pre></div></div><p>Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.</p></p>
 
 
@@ -2989,7 +2989,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.flexVolume.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(flexVolume) __flexVolumeMixin(flexVolume)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(flexVolume)
 </code></pre></div></div><p></p></p>
 
 
@@ -3017,7 +3017,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.flexVolume.withDriver">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDriverfunction(driver) self <span style="color:#666">+</span> __flexVolumeMixin({ driver<span style="color:#666">:</span> driver })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDriver(driver)
 </code></pre></div></div><p>Driver is the name of the driver to use for this volume.</p></p>
 
 
@@ -3045,7 +3045,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.flexVolume.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> __flexVolumeMixin({ fsType<span style="color:#666">:</span> fsType })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. The default filesystem depends on FlexVolume script.</p></p>
 
 
@@ -3073,7 +3073,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.flexVolume.withOptions">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptionsfunction(options) self <span style="color:#666">+</span> __flexVolumeMixin({ options<span style="color:#666">:</span> options })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptions(options)
 </code></pre></div></div><p>Optional: Extra command options if any.</p></p>
 
 
@@ -3101,7 +3101,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.flexVolume.withOptionsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptionsMixinfunction(options) self <span style="color:#666">+</span> __flexVolumeMixin({ options<span style="color:#666">+:</span> options })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withOptionsMixin(options)
 </code></pre></div></div><p>Optional: Extra command options if any.</p></p>
 
 
@@ -3129,7 +3129,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.flexVolume.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __flexVolumeMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.</p></p>
 
 
@@ -3188,7 +3188,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.flexVolume.secretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(secretRef) __secretRefMixin(secretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(secretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -3216,7 +3216,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.flexVolume.secretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __secretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -3244,7 +3244,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.flexVolume.secretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __secretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 
@@ -3310,7 +3310,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.flocker.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(flocker) __flockerMixin(flocker)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(flocker)
 </code></pre></div></div><p></p></p>
 
 
@@ -3338,7 +3338,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.flocker.withDatasetName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDatasetNamefunction(datasetName) self <span style="color:#666">+</span> __flockerMixin({ datasetName<span style="color:#666">:</span> datasetName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDatasetName(datasetName)
 </code></pre></div></div><p>Name of the dataset stored as metadata -&gt; name on the dataset for Flocker should be considered as deprecated</p></p>
 
 
@@ -3366,7 +3366,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.flocker.withDatasetUuid">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDatasetUuidfunction(datasetUuid) self <span style="color:#666">+</span> __flockerMixin({ datasetUUID<span style="color:#666">:</span> datasetUuid })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withDatasetUuid(datasetUuid)
 </code></pre></div></div><p>UUID of the dataset. This is unique identifier of a Flocker dataset</p></p>
 
 
@@ -3426,7 +3426,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.gcePersistentDisk.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(gcePersistentDisk) __gcePersistentDiskMixin(gcePersistentDisk)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(gcePersistentDisk)
 </code></pre></div></div><p></p></p>
 
 
@@ -3454,7 +3454,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.gcePersistentDisk.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> __gcePersistentDiskMixin({ fsType<span style="color:#666">:</span> fsType })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. Implicitly inferred to be &ldquo;ext4&rdquo; if unspecified. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk">https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk</a></p></p>
 
 
@@ -3482,7 +3482,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.gcePersistentDisk.withPartition">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPartitionfunction(partition) self <span style="color:#666">+</span> __gcePersistentDiskMixin({ partition<span style="color:#666">:</span> partition })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPartition(partition)
 </code></pre></div></div><p>The partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as &ldquo;1&rdquo;. Similarly, the volume partition for /dev/sda is &ldquo;0&rdquo; (or you can leave the property empty). More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk">https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk</a></p></p>
 
 
@@ -3510,7 +3510,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.gcePersistentDisk.withPdName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPdNamefunction(pdName) self <span style="color:#666">+</span> __gcePersistentDiskMixin({ pdName<span style="color:#666">:</span> pdName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPdName(pdName)
 </code></pre></div></div><p>Unique name of the PD resource in GCE. Used to identify the disk in GCE. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk">https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk</a></p></p>
 
 
@@ -3538,7 +3538,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.gcePersistentDisk.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __gcePersistentDiskMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>ReadOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk">https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk</a></p></p>
 
 
@@ -3598,7 +3598,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.glusterfs.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(glusterfs) __glusterfsMixin(glusterfs)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(glusterfs)
 </code></pre></div></div><p></p></p>
 
 
@@ -3626,7 +3626,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.glusterfs.withEndpoints">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEndpointsfunction(endpoints) self <span style="color:#666">+</span> __glusterfsMixin({ endpoints<span style="color:#666">:</span> endpoints })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEndpoints(endpoints)
 </code></pre></div></div><p>EndpointsName is the endpoint name that details Glusterfs topology. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/glusterfs/README.md#create-a-pod">https://releases.k8s.io/HEAD/examples/volumes/glusterfs/README.md#create-a-pod</a></p></p>
 
 
@@ -3654,7 +3654,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.glusterfs.withEndpointsNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEndpointsNamespacefunction(endpointsNamespace) self <span style="color:#666">+</span> __glusterfsMixin({ endpointsNamespace<span style="color:#666">:</span> endpointsNamespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withEndpointsNamespace(endpointsNamespace)
 </code></pre></div></div><p>EndpointsNamespace is the namespace that contains Glusterfs endpoint. If this field is empty, the EndpointNamespace defaults to the same namespace as the bound PVC. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/glusterfs/README.md#create-a-pod">https://releases.k8s.io/HEAD/examples/volumes/glusterfs/README.md#create-a-pod</a></p></p>
 
 
@@ -3682,7 +3682,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.glusterfs.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __glusterfsMixin({ path<span style="color:#666">:</span> path })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>Path is the Glusterfs volume path. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/glusterfs/README.md#create-a-pod">https://releases.k8s.io/HEAD/examples/volumes/glusterfs/README.md#create-a-pod</a></p></p>
 
 
@@ -3710,7 +3710,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.glusterfs.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __glusterfsMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>ReadOnly here will force the Glusterfs volume to be mounted with read-only permissions. Defaults to false. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/glusterfs/README.md#create-a-pod">https://releases.k8s.io/HEAD/examples/volumes/glusterfs/README.md#create-a-pod</a></p></p>
 
 
@@ -3770,7 +3770,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.hostPath.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(hostPath) __hostPathMixin(hostPath)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(hostPath)
 </code></pre></div></div><p></p></p>
 
 
@@ -3798,7 +3798,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.hostPath.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __hostPathMixin({ path<span style="color:#666">:</span> path })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>Path of the directory on the host. If the path is a symlink, it will follow the link to the real path. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#hostpath">https://kubernetes.io/docs/concepts/storage/volumes#hostpath</a></p></p>
 
 
@@ -3826,7 +3826,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.hostPath.withType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTypefunction(type) self <span style="color:#666">+</span> __hostPathMixin({ type<span style="color:#666">:</span> type })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withType(type)
 </code></pre></div></div><p>Type for HostPath Volume Defaults to &ldquo;&rdquo; More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#hostpath">https://kubernetes.io/docs/concepts/storage/volumes#hostpath</a></p></p>
 
 
@@ -3886,7 +3886,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.iscsi.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(iscsi) __iscsiMixin(iscsi)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(iscsi)
 </code></pre></div></div><p></p></p>
 
 
@@ -3914,7 +3914,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.iscsi.withChapAuthDiscovery">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withChapAuthDiscoveryfunction(chapAuthDiscovery) self <span style="color:#666">+</span> __iscsiMixin({ chapAuthDiscovery<span style="color:#666">:</span> chapAuthDiscovery })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withChapAuthDiscovery(chapAuthDiscovery)
 </code></pre></div></div><p>whether support iSCSI Discovery CHAP authentication</p></p>
 
 
@@ -3942,7 +3942,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.iscsi.withChapAuthSession">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withChapAuthSessionfunction(chapAuthSession) self <span style="color:#666">+</span> __iscsiMixin({ chapAuthSession<span style="color:#666">:</span> chapAuthSession })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withChapAuthSession(chapAuthSession)
 </code></pre></div></div><p>whether support iSCSI Session CHAP authentication</p></p>
 
 
@@ -3970,7 +3970,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.iscsi.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> __iscsiMixin({ fsType<span style="color:#666">:</span> fsType })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. Implicitly inferred to be &ldquo;ext4&rdquo; if unspecified. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#iscsi">https://kubernetes.io/docs/concepts/storage/volumes#iscsi</a></p></p>
 
 
@@ -3998,7 +3998,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.iscsi.withInitiatorName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitiatorNamefunction(initiatorName) self <span style="color:#666">+</span> __iscsiMixin({ initiatorName<span style="color:#666">:</span> initiatorName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withInitiatorName(initiatorName)
 </code></pre></div></div><p>Custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.</p></p>
 
 
@@ -4026,7 +4026,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.iscsi.withIqn">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIqnfunction(iqn) self <span style="color:#666">+</span> __iscsiMixin({ iqn<span style="color:#666">:</span> iqn })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIqn(iqn)
 </code></pre></div></div><p>Target iSCSI Qualified Name.</p></p>
 
 
@@ -4054,7 +4054,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.iscsi.withIscsiInterface">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIscsiInterfacefunction(iscsiInterface) self <span style="color:#666">+</span> __iscsiMixin({ iscsiInterface<span style="color:#666">:</span> iscsiInterface })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withIscsiInterface(iscsiInterface)
 </code></pre></div></div><p>iSCSI Interface Name that uses an iSCSI transport. Defaults to &lsquo;default&rsquo; (tcp).</p></p>
 
 
@@ -4082,7 +4082,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.iscsi.withLun">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLunfunction(lun) self <span style="color:#666">+</span> __iscsiMixin({ lun<span style="color:#666">:</span> lun })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withLun(lun)
 </code></pre></div></div><p>iSCSI Target Lun number.</p></p>
 
 
@@ -4110,7 +4110,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.iscsi.withPortals">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortalsfunction(portals) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(portals) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __iscsiMixin({ portals<span style="color:#666">:</span> portals }) <span style="color:#007020;font-weight:bold">else</span> __iscsiMixin({ portals<span style="color:#666">:</span> [portals] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortals(portals)
 </code></pre></div></div><p>iSCSI Target Portal List. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).</p></p>
 
 
@@ -4138,7 +4138,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.iscsi.withPortalsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortalsMixinfunction(portals) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(portals) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __iscsiMixin({ portals<span style="color:#666">+:</span> portals }) <span style="color:#007020;font-weight:bold">else</span> __iscsiMixin({ portals<span style="color:#666">+:</span> [portals] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortalsMixin(portals)
 </code></pre></div></div><p>iSCSI Target Portal List. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).</p></p>
 
 
@@ -4166,7 +4166,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.iscsi.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __iscsiMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>ReadOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.</p></p>
 
 
@@ -4194,7 +4194,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.iscsi.withTargetPortal">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTargetPortalfunction(targetPortal) self <span style="color:#666">+</span> __iscsiMixin({ targetPortal<span style="color:#666">:</span> targetPortal })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTargetPortal(targetPortal)
 </code></pre></div></div><p>iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).</p></p>
 
 
@@ -4253,7 +4253,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.iscsi.secretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(secretRef) __secretRefMixin(secretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(secretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -4281,7 +4281,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.iscsi.secretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __secretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -4309,7 +4309,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.iscsi.secretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __secretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 
@@ -4375,7 +4375,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.localStorage.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(localStorage) __localStorageMixin(localStorage)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(localStorage)
 </code></pre></div></div><p></p></p>
 
 
@@ -4403,7 +4403,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.localStorage.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> __localStorageMixin({ fsType<span style="color:#666">:</span> fsType })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type to mount. It applies only when the Path is a block device. Must be a filesystem type supported by the host operating system. Ex. &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. The default value is to auto-select a fileystem if unspecified.</p></p>
 
 
@@ -4431,7 +4431,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.localStorage.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __localStorageMixin({ path<span style="color:#666">:</span> path })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>The full path to the volume on the node. It can be either a directory or block device (disk, partition, &hellip;).</p></p>
 
 
@@ -4491,7 +4491,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.nfs.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(nfs) __nfsMixin(nfs)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(nfs)
 </code></pre></div></div><p></p></p>
 
 
@@ -4519,7 +4519,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.nfs.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> __nfsMixin({ path<span style="color:#666">:</span> path })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>Path that is exported by the NFS server. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#nfs">https://kubernetes.io/docs/concepts/storage/volumes#nfs</a></p></p>
 
 
@@ -4547,7 +4547,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.nfs.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __nfsMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>ReadOnly here will force the NFS export to be mounted with read-only permissions. Defaults to false. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#nfs">https://kubernetes.io/docs/concepts/storage/volumes#nfs</a></p></p>
 
 
@@ -4575,7 +4575,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.nfs.withServer">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServerfunction(server) self <span style="color:#666">+</span> __nfsMixin({ server<span style="color:#666">:</span> server })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withServer(server)
 </code></pre></div></div><p>Server is the hostname or IP address of the NFS server. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#nfs">https://kubernetes.io/docs/concepts/storage/volumes#nfs</a></p></p>
 
 
@@ -4635,7 +4635,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.nodeAffinity.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(nodeAffinity) __nodeAffinityMixin(nodeAffinity)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(nodeAffinity)
 </code></pre></div></div><p></p></p>
 
 
@@ -4694,7 +4694,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.nodeAffinity.required.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(required) __requiredMixin(required)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(required)
 </code></pre></div></div><p></p></p>
 
 
@@ -4722,7 +4722,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.nodeAffinity.required.withNodeSelectorTerms">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTermsfunction(nodeSelectorTerms) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nodeSelectorTerms) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __requiredMixin({ nodeSelectorTerms<span style="color:#666">:</span> nodeSelectorTerms }) <span style="color:#007020;font-weight:bold">else</span> __requiredMixin({ nodeSelectorTerms<span style="color:#666">:</span> [nodeSelectorTerms] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTerms(nodeSelectorTerms)
 </code></pre></div></div><p>Required. A list of node selector terms. The terms are ORed.</p><code>withNodeSelectorTerms</code> takes an array of type <code>nodeSelectorTermsType</code>. You can create
 an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.nodeSelectorTerm.new()</code>.</p>
 
@@ -4753,7 +4753,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.nodeAffinity.required.withNodeSelectorTermsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTermsMixinfunction(nodeSelectorTerms) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(nodeSelectorTerms) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __requiredMixin({ nodeSelectorTerms<span style="color:#666">+:</span> nodeSelectorTerms }) <span style="color:#007020;font-weight:bold">else</span> __requiredMixin({ nodeSelectorTerms<span style="color:#666">+:</span> [nodeSelectorTerms] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNodeSelectorTermsMixin(nodeSelectorTerms)
 </code></pre></div></div><p>Required. A list of node selector terms. The terms are ORed.</p><code>withNodeSelectorTermsMixin</code> takes an array of type <code>nodeSelectorTermsType</code>. You can create
 an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.nodeSelectorTerm.new()</code>.</p>
 
@@ -4822,7 +4822,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.photonPersistentDisk.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(photonPersistentDisk) __photonPersistentDiskMixin(photonPersistentDisk)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(photonPersistentDisk)
 </code></pre></div></div><p></p></p>
 
 
@@ -4850,7 +4850,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.photonPersistentDisk.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> __photonPersistentDiskMixin({ fsType<span style="color:#666">:</span> fsType })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. Implicitly inferred to be &ldquo;ext4&rdquo; if unspecified.</p></p>
 
 
@@ -4878,7 +4878,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.photonPersistentDisk.withPdId">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPdIdfunction(pdId) self <span style="color:#666">+</span> __photonPersistentDiskMixin({ pdID<span style="color:#666">:</span> pdId })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPdId(pdId)
 </code></pre></div></div><p>ID that identifies Photon Controller persistent disk</p></p>
 
 
@@ -4938,7 +4938,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.portworxVolume.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(portworxVolume) __portworxVolumeMixin(portworxVolume)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(portworxVolume)
 </code></pre></div></div><p></p></p>
 
 
@@ -4966,7 +4966,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.portworxVolume.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> __portworxVolumeMixin({ fsType<span style="color:#666">:</span> fsType })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>FSType represents the filesystem type to mount Must be a filesystem type supported by the host operating system. Ex. &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;. Implicitly inferred to be &ldquo;ext4&rdquo; if unspecified.</p></p>
 
 
@@ -4994,7 +4994,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.portworxVolume.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __portworxVolumeMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.</p></p>
 
 
@@ -5022,7 +5022,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.portworxVolume.withVolumeId">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeIdfunction(volumeId) self <span style="color:#666">+</span> __portworxVolumeMixin({ volumeID<span style="color:#666">:</span> volumeId })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeId(volumeId)
 </code></pre></div></div><p>VolumeID uniquely identifies a Portworx volume</p></p>
 
 
@@ -5082,7 +5082,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.quobyte.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(quobyte) __quobyteMixin(quobyte)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(quobyte)
 </code></pre></div></div><p></p></p>
 
 
@@ -5110,7 +5110,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.quobyte.withGroup">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroupfunction(group) self <span style="color:#666">+</span> __quobyteMixin({ group<span style="color:#666">:</span> group })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGroup(group)
 </code></pre></div></div><p>Group to map volume access to Default is no group</p></p>
 
 
@@ -5138,7 +5138,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.quobyte.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __quobyteMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>ReadOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.</p></p>
 
 
@@ -5166,7 +5166,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.quobyte.withRegistry">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRegistryfunction(registry) self <span style="color:#666">+</span> __quobyteMixin({ registry<span style="color:#666">:</span> registry })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withRegistry(registry)
 </code></pre></div></div><p>Registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes</p></p>
 
 
@@ -5194,7 +5194,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.quobyte.withTenant">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTenantfunction(tenant) self <span style="color:#666">+</span> __quobyteMixin({ tenant<span style="color:#666">:</span> tenant })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withTenant(tenant)
 </code></pre></div></div><p>Tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin</p></p>
 
 
@@ -5222,7 +5222,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.quobyte.withUser">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUserfunction(user) self <span style="color:#666">+</span> __quobyteMixin({ user<span style="color:#666">:</span> user })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUser(user)
 </code></pre></div></div><p>User to map volume access to Defaults to serivceaccount user</p></p>
 
 
@@ -5250,7 +5250,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.quobyte.withVolume">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumefunction(volume) self <span style="color:#666">+</span> __quobyteMixin({ volume<span style="color:#666">:</span> volume })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolume(volume)
 </code></pre></div></div><p>Volume is a string that references an already created Quobyte volume by name.</p></p>
 
 
@@ -5310,7 +5310,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.rbd.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(rbd) __rbdMixin(rbd)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(rbd)
 </code></pre></div></div><p></p></p>
 
 
@@ -5338,7 +5338,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.rbd.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> __rbdMixin({ fsType<span style="color:#666">:</span> fsType })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. Implicitly inferred to be &ldquo;ext4&rdquo; if unspecified. More info: <a href="https://kubernetes.io/docs/concepts/storage/volumes#rbd">https://kubernetes.io/docs/concepts/storage/volumes#rbd</a></p></p>
 
 
@@ -5366,7 +5366,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.rbd.withImage">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImagefunction(image) self <span style="color:#666">+</span> __rbdMixin({ image<span style="color:#666">:</span> image })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withImage(image)
 </code></pre></div></div><p>The rados image name. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it</a></p></p>
 
 
@@ -5394,7 +5394,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.rbd.withKeyring">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKeyringfunction(keyring) self <span style="color:#666">+</span> __rbdMixin({ keyring<span style="color:#666">:</span> keyring })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withKeyring(keyring)
 </code></pre></div></div><p>Keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it</a></p></p>
 
 
@@ -5422,7 +5422,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.rbd.withMonitors">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMonitorsfunction(monitors) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(monitors) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __rbdMixin({ monitors<span style="color:#666">:</span> monitors }) <span style="color:#007020;font-weight:bold">else</span> __rbdMixin({ monitors<span style="color:#666">:</span> [monitors] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMonitors(monitors)
 </code></pre></div></div><p>A collection of Ceph monitors. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it</a></p></p>
 
 
@@ -5450,7 +5450,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.rbd.withMonitorsMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMonitorsMixinfunction(monitors) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(monitors) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __rbdMixin({ monitors<span style="color:#666">+:</span> monitors }) <span style="color:#007020;font-weight:bold">else</span> __rbdMixin({ monitors<span style="color:#666">+:</span> [monitors] })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withMonitorsMixin(monitors)
 </code></pre></div></div><p>A collection of Ceph monitors. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it</a></p></p>
 
 
@@ -5478,7 +5478,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.rbd.withPool">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPoolfunction(pool) self <span style="color:#666">+</span> __rbdMixin({ pool<span style="color:#666">:</span> pool })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPool(pool)
 </code></pre></div></div><p>The rados pool name. Default is rbd. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it</a></p></p>
 
 
@@ -5506,7 +5506,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.rbd.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __rbdMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>ReadOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it</a></p></p>
 
 
@@ -5534,7 +5534,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.rbd.withUser">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUserfunction(user) self <span style="color:#666">+</span> __rbdMixin({ user<span style="color:#666">:</span> user })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUser(user)
 </code></pre></div></div><p>The rados user name. Default is admin. More info: <a href="https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it">https://releases.k8s.io/HEAD/examples/volumes/rbd/README.md#how-to-use-it</a></p></p>
 
 
@@ -5593,7 +5593,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.rbd.secretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(secretRef) __secretRefMixin(secretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(secretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -5621,7 +5621,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.rbd.secretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __secretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -5649,7 +5649,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.rbd.secretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __secretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 
@@ -5715,7 +5715,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.scaleIo.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(scaleIo) __scaleIoMixin(scaleIo)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(scaleIo)
 </code></pre></div></div><p></p></p>
 
 
@@ -5743,7 +5743,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.scaleIo.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> __scaleIoMixin({ fsType<span style="color:#666">:</span> fsType })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. Default is &ldquo;xfs&rdquo;</p></p>
 
 
@@ -5771,7 +5771,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.scaleIo.withGateway">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGatewayfunction(gateway) self <span style="color:#666">+</span> __scaleIoMixin({ gateway<span style="color:#666">:</span> gateway })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withGateway(gateway)
 </code></pre></div></div><p>The host address of the ScaleIO API Gateway.</p></p>
 
 
@@ -5799,7 +5799,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.scaleIo.withProtectionDomain">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProtectionDomainfunction(protectionDomain) self <span style="color:#666">+</span> __scaleIoMixin({ protectionDomain<span style="color:#666">:</span> protectionDomain })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withProtectionDomain(protectionDomain)
 </code></pre></div></div><p>The name of the ScaleIO Protection Domain for the configured storage.</p></p>
 
 
@@ -5827,7 +5827,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.scaleIo.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __scaleIoMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.</p></p>
 
 
@@ -5855,7 +5855,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.scaleIo.withSslEnabled">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSslEnabledfunction(sslEnabled) self <span style="color:#666">+</span> __scaleIoMixin({ sslEnabled<span style="color:#666">:</span> sslEnabled })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSslEnabled(sslEnabled)
 </code></pre></div></div><p>Flag to enable/disable SSL communication with Gateway, default false</p></p>
 
 
@@ -5883,7 +5883,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.scaleIo.withStorageMode">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStorageModefunction(storageMode) self <span style="color:#666">+</span> __scaleIoMixin({ storageMode<span style="color:#666">:</span> storageMode })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStorageMode(storageMode)
 </code></pre></div></div><p>Indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.</p></p>
 
 
@@ -5911,7 +5911,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.scaleIo.withStoragePool">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStoragePoolfunction(storagePool) self <span style="color:#666">+</span> __scaleIoMixin({ storagePool<span style="color:#666">:</span> storagePool })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStoragePool(storagePool)
 </code></pre></div></div><p>The ScaleIO Storage Pool associated with the protection domain.</p></p>
 
 
@@ -5939,7 +5939,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.scaleIo.withSystem">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSystemfunction(system) self <span style="color:#666">+</span> __scaleIoMixin({ system<span style="color:#666">:</span> system })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSystem(system)
 </code></pre></div></div><p>The name of the storage system as configured in ScaleIO.</p></p>
 
 
@@ -5967,7 +5967,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.scaleIo.withVolumeName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeNamefunction(volumeName) self <span style="color:#666">+</span> __scaleIoMixin({ volumeName<span style="color:#666">:</span> volumeName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeName(volumeName)
 </code></pre></div></div><p>The name of a volume already created in the ScaleIO system that is associated with this volume source.</p></p>
 
 
@@ -6026,7 +6026,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.scaleIo.secretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(secretRef) __secretRefMixin(secretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(secretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -6054,7 +6054,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.scaleIo.secretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __secretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name is unique within a namespace to reference a secret resource.</p></p>
 
 
@@ -6082,7 +6082,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.scaleIo.secretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __secretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace defines the space within which the secret name must be unique.</p></p>
 
 
@@ -6148,7 +6148,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.storageos.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(storageos) __storageosMixin(storageos)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(storageos)
 </code></pre></div></div><p></p></p>
 
 
@@ -6176,7 +6176,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.storageos.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> __storageosMixin({ fsType<span style="color:#666">:</span> fsType })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. Implicitly inferred to be &ldquo;ext4&rdquo; if unspecified.</p></p>
 
 
@@ -6204,7 +6204,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.storageos.withReadOnly">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnlyfunction(readOnly) self <span style="color:#666">+</span> __storageosMixin({ readOnly<span style="color:#666">:</span> readOnly })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withReadOnly(readOnly)
 </code></pre></div></div><p>Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.</p></p>
 
 
@@ -6232,7 +6232,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.storageos.withVolumeName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeNamefunction(volumeName) self <span style="color:#666">+</span> __storageosMixin({ volumeName<span style="color:#666">:</span> volumeName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeName(volumeName)
 </code></pre></div></div><p>VolumeName is the human-readable name of the StorageOS volume.  Volume names are only unique within a namespace.</p></p>
 
 
@@ -6260,7 +6260,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.storageos.withVolumeNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeNamespacefunction(volumeNamespace) self <span style="color:#666">+</span> __storageosMixin({ volumeNamespace<span style="color:#666">:</span> volumeNamespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumeNamespace(volumeNamespace)
 </code></pre></div></div><p>VolumeNamespace specifies the scope of the volume within StorageOS.  If no namespace is specified then the Pod&rsquo;s namespace will be used.  This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to &ldquo;default&rdquo; if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.</p></p>
 
 
@@ -6319,7 +6319,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.storageos.secretRef.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(secretRef) __secretRefMixin(secretRef)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(secretRef)
 </code></pre></div></div><p></p></p>
 
 
@@ -6347,7 +6347,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.storageos.secretRef.withFieldPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPathfunction(fieldPath) self <span style="color:#666">+</span> __secretRefMixin({ fieldPath<span style="color:#666">:</span> fieldPath })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFieldPath(fieldPath)
 </code></pre></div></div><p>If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: &ldquo;spec.containers{name}&rdquo; (where &ldquo;name&rdquo; refers to the name of the container that triggered the event) or if no container name is specified &ldquo;spec.containers[2]&rdquo; (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.</p></p>
 
 
@@ -6375,7 +6375,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.storageos.secretRef.withName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamefunction(name) self <span style="color:#666">+</span> __secretRefMixin({ name<span style="color:#666">:</span> name })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withName(name)
 </code></pre></div></div><p>Name of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names</a></p></p>
 
 
@@ -6403,7 +6403,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.storageos.secretRef.withNamespace">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespacefunction(namespace) self <span style="color:#666">+</span> __secretRefMixin({ namespace<span style="color:#666">:</span> namespace })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withNamespace(namespace)
 </code></pre></div></div><p>Namespace of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/">https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/</a></p></p>
 
 
@@ -6431,7 +6431,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.storageos.secretRef.withResourceVersion">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersionfunction(resourceVersion) self <span style="color:#666">+</span> __secretRefMixin({ resourceVersion<span style="color:#666">:</span> resourceVersion })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withResourceVersion(resourceVersion)
 </code></pre></div></div><p>Specific resourceVersion to which this reference is made, if any. More info: <a href="https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency">https://git.k8s.io/community/contributors/devel/api-conventions.md#concurrency-control-and-consistency</a></p></p>
 
 
@@ -6459,7 +6459,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.storageos.secretRef.withUid">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUidfunction(uid) self <span style="color:#666">+</span> __secretRefMixin({ uid<span style="color:#666">:</span> uid })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withUid(uid)
 </code></pre></div></div><p>UID of the referent. More info: <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids">https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids</a></p></p>
 
 
@@ -6525,7 +6525,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.vsphereVolume.mixinInstance">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstancefunction(vsphereVolume) __vsphereVolumeMixin(vsphereVolume)
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">mixinInstance(vsphereVolume)
 </code></pre></div></div><p></p></p>
 
 
@@ -6553,7 +6553,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.vsphereVolume.withFsType">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsTypefunction(fsType) self <span style="color:#666">+</span> __vsphereVolumeMixin({ fsType<span style="color:#666">:</span> fsType })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withFsType(fsType)
 </code></pre></div></div><p>Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. &ldquo;ext4&rdquo;, &ldquo;xfs&rdquo;, &ldquo;ntfs&rdquo;. Implicitly inferred to be &ldquo;ext4&rdquo; if unspecified.</p></p>
 
 
@@ -6581,7 +6581,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.vsphereVolume.withStoragePolicyId">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStoragePolicyIdfunction(storagePolicyId) self <span style="color:#666">+</span> __vsphereVolumeMixin({ storagePolicyID<span style="color:#666">:</span> storagePolicyId })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStoragePolicyId(storagePolicyId)
 </code></pre></div></div><p>Storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.</p></p>
 
 
@@ -6609,7 +6609,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.vsphereVolume.withStoragePolicyName">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStoragePolicyNamefunction(storagePolicyName) self <span style="color:#666">+</span> __vsphereVolumeMixin({ storagePolicyName<span style="color:#666">:</span> storagePolicyName })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withStoragePolicyName(storagePolicyName)
 </code></pre></div></div><p>Storage Policy Based Management (SPBM) profile name.</p></p>
 
 
@@ -6637,7 +6637,7 @@ an instance of <code>nodeSelectorTermsType</code> with <code>hidden.core.v1.node
     </h5>
 
     <div class="collapse show" id="core.v1.persistentVolumeSpec.vsphereVolume.withVolumePath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumePathfunction(volumePath) self <span style="color:#666">+</span> __vsphereVolumeMixin({ volumePath<span style="color:#666">:</span> volumePath })
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withVolumePath(volumePath)
 </code></pre></div></div><p>Path that identifies vSphere volume vmdk</p></p>
 
 

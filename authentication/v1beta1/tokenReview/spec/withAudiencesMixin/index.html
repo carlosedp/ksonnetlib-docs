@@ -35,7 +35,7 @@
 
     <div class="container app">
         
-    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAudiencesMixinfunction(audiences) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(audiences) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then __specMixin({ audiences<span style="color:#666">+:</span> audiences }) <span style="color:#007020;font-weight:bold">else</span> __specMixin({ audiences<span style="color:#666">+:</span> [audiences] })
+    <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withAudiencesMixin(audiences)
 </code></pre></div></div><p>Audiences is a list of the identifiers that the resource server presented with the token identifies as. Audience-aware token authenticators will verify that the token was intended for at least one of the audiences in this list. If no audiences are provided, the audience will default to the audience of the Kubernetes apiserver.</p></p>
 
 

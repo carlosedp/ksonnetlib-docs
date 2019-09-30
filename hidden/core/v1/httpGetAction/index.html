@@ -69,7 +69,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.httpGetAction.new">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">newfunction() {}
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#007020;font-weight:bold">new</span>()
 </code></pre></div></div><p></p></p>
 
 
@@ -106,7 +106,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.httpGetAction.withHost">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHostfunction(host) self <span style="color:#666">+</span> { host<span style="color:#666">:</span> host }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHost(host)
 </code></pre></div></div><p>Host name to connect to, defaults to the pod IP. You probably want to set &ldquo;Host&rdquo; in httpHeaders instead.</p></p>
 
 
@@ -134,7 +134,7 @@
     </h5>
 
     <div class="collapse show" id="core.v1.httpGetAction.withHttpHeaders">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { httpHeaders<span style="color:#666">:</span> httpHeaders } <span style="color:#007020;font-weight:bold">else</span> { httpHeaders<span style="color:#666">:</span> [httpHeaders] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeaders(httpHeaders)
 </code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeaders</code> takes an array of type <code>httpHeadersType</code>. You can create
 an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
 
@@ -165,7 +165,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.httpGetAction.withHttpHeadersMixin">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixinfunction(httpHeaders) self <span style="color:#666">+</span> <span style="color:#007020;font-weight:bold">if</span> std.type(httpHeaders) <span style="color:#666">==</span> <span style="color:#4070a0">&#39;array&#39;</span> then { httpHeaders<span style="color:#666">+:</span> httpHeaders } <span style="color:#007020;font-weight:bold">else</span> { httpHeaders<span style="color:#666">+:</span> [httpHeaders] }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withHttpHeadersMixin(httpHeaders)
 </code></pre></div></div><p>Custom headers to set in the request. HTTP allows repeated headers.</p><code>withHttpHeadersMixin</code> takes an array of type <code>httpHeadersType</code>. You can create
 an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader.new()</code>.</p>
 
@@ -196,7 +196,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.httpGetAction.withPath">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPathfunction(path) self <span style="color:#666">+</span> { path<span style="color:#666">:</span> path }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPath(path)
 </code></pre></div></div><p>Path to access on the HTTP server.</p></p>
 
 
@@ -224,7 +224,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.httpGetAction.withPort">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPortfunction(port) self <span style="color:#666">+</span> { port<span style="color:#666">:</span> port }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withPort(port)
 </code></pre></div></div><p>Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.</p></p>
 
 
@@ -252,7 +252,7 @@ an instance of <code>httpHeadersType</code> with <code>hidden.core.v1.httpHeader
     </h5>
 
     <div class="collapse show" id="core.v1.httpGetAction.withScheme">
-        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withSchemefunction(scheme) self <span style="color:#666">+</span> { scheme<span style="color:#666">:</span> scheme }
+        <p><div><div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">withScheme(scheme)
 </code></pre></div></div><p>Scheme to use for connecting to the host. Defaults to HTTP.</p></p>
 
 
